@@ -2,119 +2,119 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on My New Hugo Site</title>
-    <link>http://example.com/categories/</link>
+    <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/</link>
     <description>Recent content in Categories on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://example.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Development</title>
-      <link>http://example.com/categories/development/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/development/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://example.com/categories/development/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Eyecatcher</title>
-      <link>http://example.com/categories/eyecatcher/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/eyecatcher/</link>
       <pubDate>Wed, 22 Nov 2017 13:53:53 +0100</pubDate>
       
-      <guid>http://example.com/categories/eyecatcher/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/eyecatcher/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Features</title>
-      <link>http://example.com/categories/features/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/features/</link>
       <pubDate>Wed, 22 Nov 2017 13:55:13 +0100</pubDate>
       
-      <guid>http://example.com/categories/features/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/features/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Golang</title>
-      <link>http://example.com/categories/golang/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/golang/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://example.com/categories/golang/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo Basic Example</title>
-      <link>http://example.com/categories/hugo-basic-example/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/hugo-basic-example/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://example.com/categories/hugo-basic-example/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/hugo-basic-example/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Know How</title>
-      <link>http://example.com/categories/know-how/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/know-how/</link>
       <pubDate>Mon, 13 Nov 2017 15:37:04 +0100</pubDate>
       
-      <guid>http://example.com/categories/know-how/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/know-how/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Photocards</title>
-      <link>http://example.com/categories/photocards/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/photocards/</link>
       <pubDate>Tue, 14 Nov 2017 14:47:02 +0100</pubDate>
       
-      <guid>http://example.com/categories/photocards/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/photocards/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Programming</title>
-      <link>http://example.com/categories/programming/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/programming/</link>
       <pubDate>Mon, 09 Oct 2017 00:00:00 +0100</pubDate>
       
-      <guid>http://example.com/categories/programming/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/programming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>This Theme</title>
-      <link>http://example.com/categories/this-theme/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/this-theme/</link>
       <pubDate>Wed, 22 Nov 2017 07:41:52 +0100</pubDate>
       
-      <guid>http://example.com/categories/this-theme/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/this-theme/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tools</title>
-      <link>http://example.com/categories/tools/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/tools/</link>
       <pubDate>Fri, 10 Nov 2017 00:00:00 +0100</pubDate>
       
-      <guid>http://example.com/categories/tools/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/tools/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vestibulum</title>
-      <link>http://example.com/categories/vestibulum/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/vestibulum/</link>
       <pubDate>Mon, 13 Nov 2017 15:33:35 +0100</pubDate>
       
-      <guid>http://example.com/categories/vestibulum/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/vestibulum/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web</title>
-      <link>http://example.com/categories/web/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/web/</link>
       <pubDate>Fri, 24 Nov 2017 08:44:12 +0100</pubDate>
       
-      <guid>http://example.com/categories/web/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/web/</guid>
       <description></description>
     </item>
     
