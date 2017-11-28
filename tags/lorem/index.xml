@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lorem on My New Hugo Site</title>
-    <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/lorem/</link>
+    <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/lorem.html</link>
     <description>Recent content in Lorem on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -13,10 +13,10 @@
     
     <item>
       <title>Consequat</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/03/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/03.html</link>
       <pubDate>Wed, 22 Nov 2017 13:55:13 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/03/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/03.html</guid>
       <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
 Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
@@ -24,10 +24,10 @@ Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
     
     <item>
       <title>Eleifend</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/01/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/01.html</link>
       <pubDate>Wed, 22 Nov 2017 13:55:13 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/01/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/01.html</guid>
       <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
 Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
@@ -35,10 +35,10 @@ Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
     
     <item>
       <title>Invidunt ut Labore</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/04/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/04.html</link>
       <pubDate>Wed, 22 Nov 2017 13:55:13 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/04/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/04.html</guid>
       <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
 Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
@@ -46,10 +46,10 @@ Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
     
     <item>
       <title>Kasd Gubergren</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/06/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/06.html</link>
       <pubDate>Wed, 22 Nov 2017 13:55:13 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/06/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/06.html</guid>
       <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
 Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
@@ -57,10 +57,10 @@ Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
     
     <item>
       <title>Sadipscing Elitr</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/05/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/05.html</link>
       <pubDate>Wed, 22 Nov 2017 13:55:13 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/05/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/05.html</guid>
       <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
 Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
@@ -68,10 +68,10 @@ Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
     
     <item>
       <title>Vulputate</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/02/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/02.html</link>
       <pubDate>Wed, 22 Nov 2017 13:55:13 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/02/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/02.html</guid>
       <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
 Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
@@ -79,38 +79,38 @@ Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
     
     <item>
       <title>Frontpage eyecatcher (this is level /features)</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features.html</link>
       <pubDate>Wed, 22 Nov 2017 13:53:53 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Frontpage eyecatcher (this is level /photocards)</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards.html</link>
       <pubDate>Mon, 13 Nov 2017 15:37:04 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Curabitur vulputate vestibulum lorem.</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/05/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/05.html</link>
       <pubDate>Tue, 14 Nov 2017 14:47:02 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/05/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/05.html</guid>
       <description>Unte af phen neige pheings atoot Prexs eis phat eit sakem eit vory gast te Plok peish ba useing phen roxas. Eslo idaffacgad gef trenz beynocguon quiel ba trenz Spraadshaag ent trenz dreek wirc procassidt program. Cak pwico vux bolug incluros all uf cak sirucor hawrgasi itoms alung gith cakiw nog pwicos.
 Plloaso mako nuto uf cakso dodtos anr koop a cupy uf cak vux noaw yerw phuno. Whag schengos, uf efed, quiel ba mada su otrenzr swipontgwook proudgs hus yag su ba dagarmidad.</description>
     </item>
     
     <item>
       <title>Donec posuere augue in quam</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/01/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/01.html</link>
       <pubDate>Tue, 14 Nov 2017 14:47:02 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/01/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/01.html</guid>
       <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
 Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
@@ -118,10 +118,10 @@ Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
     
     <item>
       <title>Donec posuere augue in quam.</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/03/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/03.html</link>
       <pubDate>Tue, 14 Nov 2017 14:47:02 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/03/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/03.html</guid>
       <description>Plloaso mako nuto uf cakso dodtos anr koop a cupy uf cak vux noaw yerw phuno. Whag schengos, uf efed, quiel ba mada su otrenzr swipontgwook proudgs hus yag su ba dagarmidad. Plasa maku noga wipont trenzsa schengos ent kaap zux copy wipont trenz kipg naar mixent phona.
 Cak pwico siructiun ruos nust apoply tyu cak UCU sisulutiun munityuw uw cak UCU-TGU jot scannow.
 Trens roxas eis ti Plokeing quert loppe eis yop prexs.</description>
@@ -129,20 +129,20 @@ Trens roxas eis ti Plokeing quert loppe eis yop prexs.</description>
     
     <item>
       <title>Etiam vel neque nec dui dignissim bibendum.</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/06/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/06.html</link>
       <pubDate>Tue, 14 Nov 2017 14:47:02 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/06/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/06.html</guid>
       <description>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
 Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</description>
     </item>
     
     <item>
       <title>Etiam vel tortor sodales tellus ultricies commodo.</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/07/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/07.html</link>
       <pubDate>Tue, 14 Nov 2017 14:47:02 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/07/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/07.html</guid>
       <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh euismod tincidunt ut lacreet dolore magna aliguam erat volutpat.
 Ut wisis enim ad minim veniam, quis nostrud exerci tution ullam corper suscipit lobortis nisi ut aliquip ex ea commodo consequat. Duis te feugi facilisi. Duis autem dolor in hendrerit in vulputate velit esse molestie consequat.
 Vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit au gue duis dolore te feugat nulla facilisi.</description>
@@ -150,29 +150,29 @@ Vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto od
     
     <item>
       <title>In id erat non orci commodo lobortis</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/02/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/02.html</link>
       <pubDate>Tue, 14 Nov 2017 14:47:02 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/02/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/02.html</guid>
       <description>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
 Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</description>
     </item>
     
     <item>
       <title>Mauris ac felis vel velit tristique imperdiet.</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/04/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/04.html</link>
       <pubDate>Tue, 14 Nov 2017 14:47:02 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/04/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/04.html</guid>
       <description>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Et harumd und lookum like Greek to me, dereud facilis est er expedit distinct. Nam liber te conscient to factor tum poen legum odioque civiuda. Et tam neque pecun modut est neque nonor et imper ned libidig met, consectetur adipiscing elit, sed ut labore et dolore magna aliquam makes one wonder who would ever read this stuff?</description>
     </item>
     
     <item>
       <title>Phasellus lacus.</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/09/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/09.html</link>
       <pubDate>Tue, 14 Nov 2017 14:47:02 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/09/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/09.html</guid>
       <description>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
 Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
 Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</description>
@@ -180,10 +180,10 @@ Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit am
     
     <item>
       <title>Vestibulum convallis, lorem a tempus semper</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/08/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/08.html</link>
       <pubDate>Tue, 14 Nov 2017 14:47:02 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/08/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/08.html</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, set eiusmod tempor incidunt et labore et dolore magna aliquam. Ut enim ad minim veniam, quis nostrud exerc. Irure dolor in reprehend incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 Duis aute irure dolor in reprehenderit in voluptate velit esse molestaie cillum. Tia non ob ea soluad incommod quae egen ium improb fugiend.</description>
     </item>

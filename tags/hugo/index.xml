@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on My New Hugo Site</title>
-    <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/hugo/</link>
+    <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/hugo.html</link>
     <description>Recent content in Hugo on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -13,10 +13,10 @@
     
     <item>
       <title>This Theme Shortcodes</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes.html</link>
       <pubDate>Wed, 22 Nov 2017 07:41:52 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes.html</guid>
       <description>You can extend Hugo’s built-in shortcodes by creating your own using the same templating syntax as that for single and list pages.
 Shortcodes are a means to consolidate templating into small, reusable snippets that you can embed directly inside of your content. In this sense, you can think of shortcodes as the intermediary between page and list templates and basic content files.
 
@@ -26,10 +26,10 @@ https://gohugo.io/templates/shortcode-templates
     
     <item>
       <title>Hugo - highlight chromastyles</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/24/hugo-highlight-chromastyles/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/24/hugo-highlight-chromastyles.html</link>
       <pubDate>Fri, 24 Nov 2017 08:44:12 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/24/hugo-highlight-chromastyles/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/24/hugo-highlight-chromastyles.html</guid>
       <description>&lt;p&gt;Hugo comes with reallly fast syntax highlighting from Chroma.
 From Hugo 0.28, the default syntax hightlighter in Hugo is Chroma; it
 is built in Go and is really, really fast – and for the most important
@@ -41,10 +41,10 @@ See &lt;a href=&#34;https://gohugo.io/content-management/syntax-highlighting&#34
     
     <item>
       <title>Hugo - dolor</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/10/hugo-dolor/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/10/hugo-dolor.html</link>
       <pubDate>Fri, 10 Nov 2017 00:00:00 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/10/hugo-dolor/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/10/hugo-dolor.html</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
 commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
 et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;
@@ -59,10 +59,10 @@ imperdiet a, venenatis vitae, justo.&lt;/p&gt;
     
     <item>
       <title>Hugo - lorem</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/09/hugo-lorem/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/09/hugo-lorem.html</link>
       <pubDate>Thu, 09 Nov 2017 00:00:00 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/09/hugo-lorem/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/09/hugo-lorem.html</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
 commodo ligula eget dolor. Aenean massa.&lt;/p&gt;
 
@@ -75,10 +75,10 @@ pretium quis, sem.&lt;/p&gt;
     
     <item>
       <title>Hugo - ipsum</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/08/hugo-ipsum/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/08/hugo-ipsum.html</link>
       <pubDate>Wed, 08 Nov 2017 00:00:00 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/08/hugo-ipsum/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/08/hugo-ipsum.html</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
 commodo ligula eget dolor. Aenean massa.&lt;/p&gt;
 
@@ -93,10 +93,10 @@ pretium quis, sem.&lt;/p&gt;
     
     <item>
       <title>Getting Started with Hugo</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugobasicexample/hugoisforlovers/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugobasicexample/hugoisforlovers.html</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugobasicexample/hugoisforlovers/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugobasicexample/hugoisforlovers.html</guid>
       <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
 Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at installing hugo

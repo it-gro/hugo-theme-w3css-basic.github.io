@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Frontpage eyecatcher (this is level /features) on My New Hugo Site</title>
-    <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/</link>
+    <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features.html</link>
     <description>Recent content in Frontpage eyecatcher (this is level /features) on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -13,10 +13,10 @@
     
     <item>
       <title>Eleifend</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/01/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/01.html</link>
       <pubDate>Wed, 22 Nov 2017 13:55:13 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/01/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/01.html</guid>
       <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
 Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
@@ -24,10 +24,10 @@ Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
     
     <item>
       <title>Vulputate</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/02/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/02.html</link>
       <pubDate>Wed, 22 Nov 2017 13:55:13 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/02/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/02.html</guid>
       <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
 Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
@@ -35,10 +35,10 @@ Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
     
     <item>
       <title>Consequat</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/03/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/03.html</link>
       <pubDate>Wed, 22 Nov 2017 13:55:13 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/03/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/03.html</guid>
       <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
 Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
@@ -46,10 +46,10 @@ Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
     
     <item>
       <title>Invidunt ut Labore</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/04/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/04.html</link>
       <pubDate>Wed, 22 Nov 2017 13:55:13 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/04/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/04.html</guid>
       <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
 Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
@@ -57,10 +57,10 @@ Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
     
     <item>
       <title>Sadipscing Elitr</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/05/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/05.html</link>
       <pubDate>Wed, 22 Nov 2017 13:55:13 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/05/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/05.html</guid>
       <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
 Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
@@ -68,10 +68,10 @@ Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
     
     <item>
       <title>Kasd Gubergren</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/06/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/06.html</link>
       <pubDate>Wed, 22 Nov 2017 13:55:13 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/06/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/06.html</guid>
       <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
 Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>

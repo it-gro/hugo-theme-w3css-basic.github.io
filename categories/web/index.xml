@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Web on My New Hugo Site</title>
-    <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/web/</link>
+    <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/web.html</link>
     <description>Recent content in Web on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -13,10 +13,10 @@
     
     <item>
       <title>Hugo - highlight chromastyles</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/24/hugo-highlight-chromastyles/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/24/hugo-highlight-chromastyles.html</link>
       <pubDate>Fri, 24 Nov 2017 08:44:12 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/24/hugo-highlight-chromastyles/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/24/hugo-highlight-chromastyles.html</guid>
       <description>&lt;p&gt;Hugo comes with reallly fast syntax highlighting from Chroma.
 From Hugo 0.28, the default syntax hightlighter in Hugo is Chroma; it
 is built in Go and is really, really fast – and for the most important
