@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web on My New Hugo Site</title>
+    <link>http://example.com/tags/web/</link>
+    <description>Recent content in Web on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Nov 2017 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="http://example.com/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo - dolor</title>
+      <link>http://example.com/blog/2017/11/10/hugo-dolor/</link>
+      <pubDate>Fri, 10 Nov 2017 00:00:00 +0100</pubDate>
+      
+      <guid>http://example.com/blog/2017/11/10/hugo-dolor/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
+et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;
+
+&lt;p&gt;Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
+aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+imperdiet a, venenatis vitae, justo.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hugo - lorem</title>
+      <link>http://example.com/blog/2017/11/09/hugo-lorem/</link>
+      <pubDate>Thu, 09 Nov 2017 00:00:00 +0100</pubDate>
+      
+      <guid>http://example.com/blog/2017/11/09/hugo-lorem/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+commodo ligula eget dolor. Aenean massa.&lt;/p&gt;
+
+&lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+pretium quis, sem.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hugo - ipsum</title>
+      <link>http://example.com/blog/2017/11/08/hugo-ipsum/</link>
+      <pubDate>Wed, 08 Nov 2017 00:00:00 +0100</pubDate>
+      
+      <guid>http://example.com/blog/2017/11/08/hugo-ipsum/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+commodo ligula eget dolor. Aenean massa.&lt;/p&gt;
+
+&lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+pretium quis, sem.&lt;/p&gt;
+
+&lt;p&gt;Nullam dictum felis eu pede mollis pretium.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
