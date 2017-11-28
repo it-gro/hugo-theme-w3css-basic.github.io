@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Eyecatcher on My New Hugo Site</title>
-    <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/eyecatcher/</link>
+    <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/eyecatcher.html</link>
     <description>Recent content in Eyecatcher on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -13,19 +13,19 @@
     
     <item>
       <title>Frontpage eyecatcher (this is level /features)</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features.html</link>
       <pubDate>Wed, 22 Nov 2017 13:53:53 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Frontpage eyecatcher (this is level /photocards)</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards.html</link>
       <pubDate>Mon, 13 Nov 2017 15:37:04 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards.html</guid>
       <description></description>
     </item>
     
