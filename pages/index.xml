@@ -12,23 +12,37 @@
     
     
     <item>
-      <title>Donec Pretium</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/page-donec-pretium/</link>
+      <title>These Pictures</title>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/these-pictures/</link>
       <pubDate>Mon, 13 Nov 2017 15:33:35 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/page-donec-pretium/</guid>
-      <description>Nullam eu ante vel est convallis dignissim.
-Fusce suscipit, wisi nec Facilisis facilisis, est dui fermentum leo, quis tempor ligula erat quis odio. Nunc porta vulputate tellus. Nunc rutrum turpis sed pede. Sed bibendum.
-Aliquam posuere. Nunc aliquet, augue nec adipiscing interdum, lacus tellus malesuada massa, quis varius mi purus non odio. Pellentesque condimentum, magna ut suscipit hendrerit, ipsum augue ornare nulla, non luctus diam neque sit amet urna. Curabitur vulputate vestibulum lorem.</description>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/these-pictures/</guid>
+      <description>Where did the pictures came from? https://pixabay.com/
+What is Pixabay? Pixabay is a vibrant community of creatives, sharing copyright free images and videos. All contents are released under Creative Commons CC0, which makes them safe to use without asking for permission or giving credit to the artist - even for commercial purposes.
+See more: https://pixabay.com/en/service/faq/
+Are there any restrictions? All images and videos on Pixabay are released under the Creative Commons CC0.</description>
     </item>
     
     <item>
-      <title>Etiam Vel</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/page-etiam-vel/</link>
-      <pubDate>Mon, 13 Nov 2017 15:37:04 +0100</pubDate>
+      <title>These Logos</title>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/these-logos/</link>
+      <pubDate>Mon, 13 Nov 2017 15:33:35 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/page-etiam-vel/</guid>
-      <description>Aliquam erat volutpat. Nunc eleifend leo vitae magna. In id erat non orci commodo lobortis. Proin neque massa, cursus ut, gravida ut, lobortis eget, lacus. Sed diam. Praesent fermentum tempor tellus. Nullam tempus. Mauris ac felis vel velit tristique imperdiet. Donec at pede. Etiam vel neque nec dui dignissim bibendum. Vivamus id enim. Phasellus neque orci, porta a, aliquet quis, semper a, massa. Phasellus purus. Pellentesque tristique imperdiet tortor. Nam euismod tellus id erat.</description>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/these-logos/</guid>
+      <description>Where did the logos came from?  images/clients/company-logo*:
+https://pixabay.com
+Creative Commons CC0
+ images/teaserpics/emacs*:
+https://en.wikipedia.org/wiki/GNU_Emacs,
+Wikipedia:Text of Creative Commons Attribution-ShareAlike 3.0 Unported License
+ images/teaserpics/golang*:
+https://golang.org/doc/gopher/bumper.png,
+The Go gopher was designed by Renee French. (http://reneefrench.blogspot.com/).
+The design is licensed under the Creative Commons 3.0 Attributions license. Read this article for more details: https://blog.golang.org/gopher
+ images/teaserpics/hugo*:
+https://github.com/gohugoio/hugoDocs/tree/master/static/images,
+https://github.com/gohugoio/hugoDocs/blob/master/LICENSE.md.
+The Hugo logos are copyright © Steve Francia 2013–2017. The Hugo Gopher is based on an original work by Renée French.</description>
     </item>
     
     <item>

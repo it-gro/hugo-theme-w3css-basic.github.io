@@ -12,32 +12,33 @@
     
     
     <item>
-      <title>Donec Pretium</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/page-donec-pretium/</link>
+      <title>These Pictures</title>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/these-pictures/</link>
       <pubDate>Mon, 13 Nov 2017 15:33:35 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/page-donec-pretium/</guid>
-      <description>Nullam eu ante vel est convallis dignissim.
-Fusce suscipit, wisi nec Facilisis facilisis, est dui fermentum leo, quis tempor ligula erat quis odio. Nunc porta vulputate tellus. Nunc rutrum turpis sed pede. Sed bibendum.
-Aliquam posuere. Nunc aliquet, augue nec adipiscing interdum, lacus tellus malesuada massa, quis varius mi purus non odio. Pellentesque condimentum, magna ut suscipit hendrerit, ipsum augue ornare nulla, non luctus diam neque sit amet urna. Curabitur vulputate vestibulum lorem.</description>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/these-pictures/</guid>
+      <description>Where did the pictures came from? https://pixabay.com/
+What is Pixabay? Pixabay is a vibrant community of creatives, sharing copyright free images and videos. All contents are released under Creative Commons CC0, which makes them safe to use without asking for permission or giving credit to the artist - even for commercial purposes.
+See more: https://pixabay.com/en/service/faq/
+Are there any restrictions? All images and videos on Pixabay are released under the Creative Commons CC0.</description>
     </item>
     
     <item>
       <title>Creating a New Theme</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugobasicexample/creating-a-new-theme/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/hugobasicexample/creating-a-new-theme/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugobasicexample/creating-a-new-theme/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/hugobasicexample/creating-a-new-theme/</guid>
       <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
 We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
     </item>
     
     <item>
       <title>Migrate to Hugo from Jekyll</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugobasicexample/migrate-from-jekyll/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/hugobasicexample/migrate-from-jekyll/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugobasicexample/migrate-from-jekyll/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/hugobasicexample/migrate-from-jekyll/</guid>
       <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
 ▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
 ▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
@@ -45,10 +46,10 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
     
     <item>
       <title>Eleifend</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/01/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/features/01/</link>
       <pubDate>Wed, 22 Nov 2017 13:55:13 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/01/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/features/01/</guid>
       <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
 Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
@@ -56,10 +57,10 @@ Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
     
     <item>
       <title>Vulputate</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/02/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/features/02/</link>
       <pubDate>Wed, 22 Nov 2017 13:55:13 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/02/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/features/02/</guid>
       <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
 Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
@@ -67,10 +68,10 @@ Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
     
     <item>
       <title>Consequat</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/03/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/features/03/</link>
       <pubDate>Wed, 22 Nov 2017 13:55:13 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/03/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/features/03/</guid>
       <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
 Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
@@ -78,10 +79,10 @@ Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
     
     <item>
       <title>Invidunt ut Labore</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/04/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/features/04/</link>
       <pubDate>Wed, 22 Nov 2017 13:55:13 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/04/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/features/04/</guid>
       <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
 Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
@@ -89,10 +90,10 @@ Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
     
     <item>
       <title>Sadipscing Elitr</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/05/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/features/05/</link>
       <pubDate>Wed, 22 Nov 2017 13:55:13 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/05/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/features/05/</guid>
       <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
 Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
@@ -100,10 +101,10 @@ Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
     
     <item>
       <title>Kasd Gubergren</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/06/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/features/06/</link>
       <pubDate>Wed, 22 Nov 2017 13:55:13 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/06/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/features/06/</guid>
       <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
 Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
@@ -123,12 +124,25 @@ https://gohugo.io/templates/shortcode-templates
     </item>
     
     <item>
-      <title>Etiam Vel</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/page-etiam-vel/</link>
-      <pubDate>Mon, 13 Nov 2017 15:37:04 +0100</pubDate>
+      <title>These Logos</title>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/these-logos/</link>
+      <pubDate>Mon, 13 Nov 2017 15:33:35 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/page-etiam-vel/</guid>
-      <description>Aliquam erat volutpat. Nunc eleifend leo vitae magna. In id erat non orci commodo lobortis. Proin neque massa, cursus ut, gravida ut, lobortis eget, lacus. Sed diam. Praesent fermentum tempor tellus. Nullam tempus. Mauris ac felis vel velit tristique imperdiet. Donec at pede. Etiam vel neque nec dui dignissim bibendum. Vivamus id enim. Phasellus neque orci, porta a, aliquet quis, semper a, massa. Phasellus purus. Pellentesque tristique imperdiet tortor. Nam euismod tellus id erat.</description>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/these-logos/</guid>
+      <description>Where did the logos came from?  images/clients/company-logo*:
+https://pixabay.com
+Creative Commons CC0
+ images/teaserpics/emacs*:
+https://en.wikipedia.org/wiki/GNU_Emacs,
+Wikipedia:Text of Creative Commons Attribution-ShareAlike 3.0 Unported License
+ images/teaserpics/golang*:
+https://golang.org/doc/gopher/bumper.png,
+The Go gopher was designed by Renee French. (http://reneefrench.blogspot.com/).
+The design is licensed under the Creative Commons 3.0 Attributions license. Read this article for more details: https://blog.golang.org/gopher
+ images/teaserpics/hugo*:
+https://github.com/gohugoio/hugoDocs/tree/master/static/images,
+https://github.com/gohugoio/hugoDocs/blob/master/LICENSE.md.
+The Hugo logos are copyright © Steve Francia 2013–2017. The Hugo Gopher is based on an original work by Renée French.</description>
     </item>
     
     <item>
@@ -144,10 +158,10 @@ Fusce commodo. Vestibulum convallis, lorem a tempus semper, dui dui euismod elit
     
     <item>
       <title>Donec posuere augue in quam</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/01/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/photocards/01/</link>
       <pubDate>Tue, 14 Nov 2017 14:47:02 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/01/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/photocards/01/</guid>
       <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
 Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
@@ -155,20 +169,20 @@ Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
     
     <item>
       <title>In id erat non orci commodo lobortis</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/02/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/photocards/02/</link>
       <pubDate>Tue, 14 Nov 2017 14:47:02 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/02/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/photocards/02/</guid>
       <description>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
 Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</description>
     </item>
     
     <item>
       <title>Donec posuere augue in quam.</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/03/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/photocards/03/</link>
       <pubDate>Tue, 14 Nov 2017 14:47:02 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/03/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/photocards/03/</guid>
       <description>Plloaso mako nuto uf cakso dodtos anr koop a cupy uf cak vux noaw yerw phuno. Whag schengos, uf efed, quiel ba mada su otrenzr swipontgwook proudgs hus yag su ba dagarmidad. Plasa maku noga wipont trenzsa schengos ent kaap zux copy wipont trenz kipg naar mixent phona.
 Cak pwico siructiun ruos nust apoply tyu cak UCU sisulutiun munityuw uw cak UCU-TGU jot scannow.
 Trens roxas eis ti Plokeing quert loppe eis yop prexs.</description>
@@ -176,39 +190,39 @@ Trens roxas eis ti Plokeing quert loppe eis yop prexs.</description>
     
     <item>
       <title>Mauris ac felis vel velit tristique imperdiet.</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/04/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/photocards/04/</link>
       <pubDate>Tue, 14 Nov 2017 14:47:02 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/04/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/photocards/04/</guid>
       <description>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Et harumd und lookum like Greek to me, dereud facilis est er expedit distinct. Nam liber te conscient to factor tum poen legum odioque civiuda. Et tam neque pecun modut est neque nonor et imper ned libidig met, consectetur adipiscing elit, sed ut labore et dolore magna aliquam makes one wonder who would ever read this stuff?</description>
     </item>
     
     <item>
       <title>Curabitur vulputate vestibulum lorem.</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/05/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/photocards/05/</link>
       <pubDate>Tue, 14 Nov 2017 14:47:02 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/05/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/photocards/05/</guid>
       <description>Unte af phen neige pheings atoot Prexs eis phat eit sakem eit vory gast te Plok peish ba useing phen roxas. Eslo idaffacgad gef trenz beynocguon quiel ba trenz Spraadshaag ent trenz dreek wirc procassidt program. Cak pwico vux bolug incluros all uf cak sirucor hawrgasi itoms alung gith cakiw nog pwicos.
 Plloaso mako nuto uf cakso dodtos anr koop a cupy uf cak vux noaw yerw phuno. Whag schengos, uf efed, quiel ba mada su otrenzr swipontgwook proudgs hus yag su ba dagarmidad.</description>
     </item>
     
     <item>
       <title>Etiam vel neque nec dui dignissim bibendum.</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/06/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/photocards/06/</link>
       <pubDate>Tue, 14 Nov 2017 14:47:02 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/06/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/photocards/06/</guid>
       <description>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
 Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</description>
     </item>
     
     <item>
       <title>Etiam vel tortor sodales tellus ultricies commodo.</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/07/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/photocards/07/</link>
       <pubDate>Tue, 14 Nov 2017 14:47:02 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/07/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/photocards/07/</guid>
       <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh euismod tincidunt ut lacreet dolore magna aliguam erat volutpat.
 Ut wisis enim ad minim veniam, quis nostrud exerci tution ullam corper suscipit lobortis nisi ut aliquip ex ea commodo consequat. Duis te feugi facilisi. Duis autem dolor in hendrerit in vulputate velit esse molestie consequat.
 Vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit au gue duis dolore te feugat nulla facilisi.</description>
@@ -216,20 +230,20 @@ Vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto od
     
     <item>
       <title>Vestibulum convallis, lorem a tempus semper</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/08/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/photocards/08/</link>
       <pubDate>Tue, 14 Nov 2017 14:47:02 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/08/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/photocards/08/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, set eiusmod tempor incidunt et labore et dolore magna aliquam. Ut enim ad minim veniam, quis nostrud exerc. Irure dolor in reprehend incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 Duis aute irure dolor in reprehenderit in voluptate velit esse molestaie cillum. Tia non ob ea soluad incommod quae egen ium improb fugiend.</description>
     </item>
     
     <item>
       <title>Phasellus lacus.</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/09/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/photocards/09/</link>
       <pubDate>Tue, 14 Nov 2017 14:47:02 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/09/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/photocards/09/</guid>
       <description>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
 Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
 Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</description>
@@ -342,12 +356,32 @@ Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
     </item>
     
     <item>
+      <title>Nunc rutrum</title>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder20/folder21/folder211/rutrum/</link>
+      <pubDate>Mon, 13 Nov 2017 15:37:04 +0100</pubDate>
+      
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder20/folder21/folder211/rutrum/</guid>
+      <description>Aliquam erat volutpat. Nunc eleifend leo vitae magna. In id erat non orci commodo lobortis. Proin neque massa, cursus ut, gravida ut, lobortis eget, lacus. Sed diam. Praesent fermentum tempor tellus. Nullam tempus. Mauris ac felis vel velit tristique imperdiet. Donec at pede. Etiam vel neque nec dui dignissim bibendum. Vivamus id enim. Phasellus neque orci, porta a, aliquet quis, semper a, massa. Phasellus purus. Pellentesque tristique imperdiet tortor. Nam euismod tellus id erat.</description>
+    </item>
+    
+    <item>
       <title>Pellentesque dapibus suscipit</title>
       <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder30/pellentesque-dapibus-suscipit/</link>
       <pubDate>Mon, 13 Nov 2017 15:37:04 +0100</pubDate>
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder30/pellentesque-dapibus-suscipit/</guid>
       <description>Aliquam erat volutpat. Nunc eleifend leo vitae magna. In id erat non orci commodo lobortis. Proin neque massa, cursus ut, gravida ut, lobortis eget, lacus. Sed diam. Praesent fermentum tempor tellus. Nullam tempus. Mauris ac felis vel velit tristique imperdiet. Donec at pede. Etiam vel neque nec dui dignissim bibendum. Vivamus id enim. Phasellus neque orci, porta a, aliquet quis, semper a, massa. Phasellus purus. Pellentesque tristique imperdiet tortor. Nam euismod tellus id erat.</description>
+    </item>
+    
+    <item>
+      <title>Phasellus</title>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder20/folder21/folder211/phasellus/</link>
+      <pubDate>Mon, 13 Nov 2017 15:37:04 +0100</pubDate>
+      
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder20/folder21/folder211/phasellus/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
     </item>
     
     <item>
@@ -484,10 +518,10 @@ PDP-10.&lt;/p&gt;
     
     <item>
       <title>About Hugo</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugobasicexample/about/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/hugobasicexample/about/</link>
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugobasicexample/about/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/hugobasicexample/about/</guid>
       <description>Hugo is a static site engine written in Go.
 It makes use of a variety of open source projects including:
  Cobra Viper J Walter Weatherman Cast  Learn more and contribute on GitHub.</description>
@@ -495,20 +529,20 @@ It makes use of a variety of open source projects including:
     
     <item>
       <title>(Hu)go Template Primer</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugobasicexample/goisforlovers/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/hugobasicexample/goisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugobasicexample/goisforlovers/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/hugobasicexample/goisforlovers/</guid>
       <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
 This document is a brief primer on using go templates.</description>
     </item>
     
     <item>
       <title>Getting Started with Hugo</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugobasicexample/hugoisforlovers/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/hugobasicexample/hugoisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugobasicexample/hugoisforlovers/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/hugobasicexample/hugoisforlovers/</guid>
       <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
 Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at installing hugo

@@ -8,47 +8,47 @@
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugobasicexample/</loc>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/hugobasicexample/</loc>
     <lastmod>2017-11-22T07:42:26+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/page-donec-pretium/</loc>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/these-pictures/</loc>
     <lastmod>2017-11-13T15:33:35+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugobasicexample/creating-a-new-theme/</loc>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/hugobasicexample/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugobasicexample/migrate-from-jekyll/</loc>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/hugobasicexample/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/01/</loc>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/features/01/</loc>
     <lastmod>2017-11-22T13:55:13+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/02/</loc>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/features/02/</loc>
     <lastmod>2017-11-22T13:55:13+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/03/</loc>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/features/03/</loc>
     <lastmod>2017-11-22T13:55:13+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/04/</loc>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/features/04/</loc>
     <lastmod>2017-11-22T13:55:13+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/05/</loc>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/features/05/</loc>
     <lastmod>2017-11-22T13:55:13+01:00</lastmod>
   </url>
   
@@ -58,12 +58,17 @@
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/06/</loc>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/features/06/</loc>
     <lastmod>2017-11-22T13:55:13+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/features/</loc>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/</loc>
+    <lastmod>2017-11-13T15:37:04+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/features/</loc>
     <lastmod>2017-11-22T13:53:53+01:00</lastmod>
   </url>
   
@@ -73,13 +78,13 @@
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/page-etiam-vel/</loc>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/photocards/</loc>
     <lastmod>2017-11-13T15:37:04+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/</loc>
-    <lastmod>2017-11-13T15:37:04+01:00</lastmod>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/these-logos/</loc>
+    <lastmod>2017-11-13T15:33:35+01:00</lastmod>
   </url>
   
   <url>
@@ -93,7 +98,7 @@
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/01/</loc>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/photocards/01/</loc>
     <lastmod>2017-11-14T14:47:02+01:00</lastmod>
   </url>
   
@@ -103,7 +108,7 @@
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/02/</loc>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/photocards/02/</loc>
     <lastmod>2017-11-14T14:47:02+01:00</lastmod>
   </url>
   
@@ -113,7 +118,7 @@
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/03/</loc>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/photocards/03/</loc>
     <lastmod>2017-11-14T14:47:02+01:00</lastmod>
   </url>
   
@@ -123,33 +128,38 @@
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/04/</loc>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/photocards/04/</loc>
     <lastmod>2017-11-14T14:47:02+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/05/</loc>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/photocards/05/</loc>
     <lastmod>2017-11-14T14:47:02+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/06/</loc>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/photocards/06/</loc>
     <lastmod>2017-11-14T14:47:02+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/07/</loc>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/photocards/07/</loc>
     <lastmod>2017-11-14T14:47:02+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/08/</loc>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/photocards/08/</loc>
     <lastmod>2017-11-14T14:47:02+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/photocards/09/</loc>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/photocards/09/</loc>
     <lastmod>2017-11-14T14:47:02+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder20/folder21/folder211/</loc>
+    <lastmod>2017-06-08T01:06:13+02:00</lastmod>
   </url>
   
   <url>
@@ -203,7 +213,17 @@
   </url>
   
   <url>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder20/folder21/folder211/rutrum/</loc>
+    <lastmod>2017-11-13T15:37:04+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder30/pellentesque-dapibus-suscipit/</loc>
+    <lastmod>2017-11-13T15:37:04+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder20/folder21/folder211/phasellus/</loc>
     <lastmod>2017-11-13T15:37:04+01:00</lastmod>
   </url>
   
@@ -253,17 +273,17 @@
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugobasicexample/about/</loc>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/hugobasicexample/about/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugobasicexample/goisforlovers/</loc>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/hugobasicexample/goisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugobasicexample/hugoisforlovers/</loc>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/hugobasicexample/hugoisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -303,12 +323,6 @@
   <url>
     <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/emacs/</loc>
     <lastmod>2017-09-10T20:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/etiam/</loc>
-    <lastmod>2017-11-13T15:37:04+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -391,6 +405,24 @@
   </url>
   
   <url>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/legal/</loc>
+    <lastmod>2017-11-13T15:33:35+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/license/</loc>
+    <lastmod>2017-11-13T15:33:35+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/logos/</loc>
+    <lastmod>2017-11-13T15:33:35+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/lorem/</loc>
     <lastmod>2017-11-22T13:55:13+01:00</lastmod>
     <priority>0</priority>
@@ -416,7 +448,7 @@
   
   <url>
     <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/phasellus/</loc>
-    <lastmod>2017-11-13T15:33:35+01:00</lastmod>
+    <lastmod>2017-11-13T15:37:04+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -427,8 +459,20 @@
   </url>
   
   <url>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/pictures/</loc>
+    <lastmod>2017-11-13T15:33:35+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/programming/</loc>
     <lastmod>2017-10-09T00:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/rutrum/</loc>
+    <lastmod>2017-11-13T15:37:04+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -441,12 +485,6 @@
   <url>
     <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/tellus/</loc>
-    <lastmod>2017-11-13T15:33:35+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -487,7 +525,7 @@
   
   <url>
     <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/vestibulum/</loc>
-    <lastmod>2017-11-13T15:33:35+01:00</lastmod>
+    <lastmod>2017-11-13T15:37:04+01:00</lastmod>
     <priority>0</priority>
   </url>
   
