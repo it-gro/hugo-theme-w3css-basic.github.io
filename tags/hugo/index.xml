@@ -93,10 +93,10 @@ pretium quis, sem.&lt;/p&gt;
     
     <item>
       <title>Getting Started with Hugo</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugobasicexample/hugoisforlovers/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/hugobasicexample/hugoisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugobasicexample/hugoisforlovers/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/hugobasicexample/hugoisforlovers/</guid>
       <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
 Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at installing hugo

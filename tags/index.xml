@@ -39,15 +39,6 @@
     </item>
     
     <item>
-      <title>Etiam</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/etiam/</link>
-      <pubDate>Mon, 13 Nov 2017 15:37:04 +0100</pubDate>
-      
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/etiam/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Fermentum</title>
       <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/fermentum/</link>
       <pubDate>Mon, 13 Nov 2017 15:37:04 +0100</pubDate>
@@ -120,6 +111,24 @@
     </item>
     
     <item>
+      <title>License</title>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/license/</link>
+      <pubDate>Mon, 13 Nov 2017 15:33:35 +0100</pubDate>
+      
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/license/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Logos</title>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/logos/</link>
+      <pubDate>Mon, 13 Nov 2017 15:33:35 +0100</pubDate>
+      
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/logos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Lorem</title>
       <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/lorem/</link>
       <pubDate>Wed, 22 Nov 2017 13:55:13 +0100</pubDate>
@@ -149,9 +158,27 @@
     <item>
       <title>Phasellus</title>
       <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/phasellus/</link>
-      <pubDate>Mon, 13 Nov 2017 15:33:35 +0100</pubDate>
+      <pubDate>Mon, 13 Nov 2017 15:37:04 +0100</pubDate>
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/phasellus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pictures</title>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/pictures/</link>
+      <pubDate>Mon, 13 Nov 2017 15:33:35 +0100</pubDate>
+      
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/pictures/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rutrum</title>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/rutrum/</link>
+      <pubDate>Mon, 13 Nov 2017 15:37:04 +0100</pubDate>
+      
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/rutrum/</guid>
       <description></description>
     </item>
     
@@ -161,15 +188,6 @@
       <pubDate>Wed, 22 Nov 2017 07:41:52 +0100</pubDate>
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/shortcodes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tellus</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/tellus/</link>
-      <pubDate>Mon, 13 Nov 2017 15:33:35 +0100</pubDate>
-      
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/tellus/</guid>
       <description></description>
     </item>
     

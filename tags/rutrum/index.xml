@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rutrum on My New Hugo Site</title>
+    <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/rutrum/</link>
+    <description>Recent content in Rutrum on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Nov 2017 15:37:04 +0100</lastBuildDate>
+    
+	<atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/rutrum/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Nunc rutrum</title>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder20/folder21/folder211/rutrum/</link>
+      <pubDate>Mon, 13 Nov 2017 15:37:04 +0100</pubDate>
+      
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder20/folder21/folder211/rutrum/</guid>
+      <description>Aliquam erat volutpat. Nunc eleifend leo vitae magna. In id erat non orci commodo lobortis. Proin neque massa, cursus ut, gravida ut, lobortis eget, lacus. Sed diam. Praesent fermentum tempor tellus. Nullam tempus. Mauris ac felis vel velit tristique imperdiet. Donec at pede. Etiam vel neque nec dui dignissim bibendum. Vivamus id enim. Phasellus neque orci, porta a, aliquet quis, semper a, massa. Phasellus purus. Pellentesque tristique imperdiet tortor. Nam euismod tellus id erat.</description>
+    </item>
+    
+  </channel>
+</rss>
