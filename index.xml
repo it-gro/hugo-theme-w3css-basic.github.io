@@ -40,8 +40,8 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/hugobasicexample/migrate-from-jekyll/</guid>
       <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png should become
+▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
     </item>
     
     <item>
@@ -152,7 +152,7 @@ The Hugo logos are copyright © Steve Francia 2013–2017. The Hugo Gopher is ba
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/page-convallis/</guid>
       <description>Pellentesque dapibus suscipit ligula. Donec posuere augue in quam. Etiam vel tortor sodales tellus ultricies commodo. Suspendisse potenti. Aenean in sem ac leo mollis blandit. Donec neque quam, dignissim in, mollis nec, sagittis eu, wisi.
-Phasellus lacus. Etiam laoreet quam sed arcu. Phasellus at dui in ligula mollis ultricies. Integer placerat tristique nisl. Praesent augue.
+USE[master];GOALTERDATABASE[db_name_test]SETSINGLE_USERWITHROLLBACKIMMEDIATE;GOALTERDATABASE[db_name_test]ModifyName=&amp;#39;db_name_dev&amp;#39;;GOALTERDATABASE[db_name_dev]SETMULTI_USERWITHROLLBACKIMMEDIATE;GO Phasellus lacus. Etiam laoreet quam sed arcu. Phasellus at dui in ligula mollis ultricies. Integer placerat tristique nisl. Praesent augue.
 Fusce commodo. Vestibulum convallis, lorem a tempus semper, dui dui euismod elit, vitae placerat urna tortor vitae lacus.</description>
     </item>
     
