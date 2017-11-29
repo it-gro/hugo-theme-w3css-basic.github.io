@@ -52,7 +52,7 @@ The Hugo logos are copyright © Steve Francia 2013–2017. The Hugo Gopher is ba
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/page-convallis/</guid>
       <description>Pellentesque dapibus suscipit ligula. Donec posuere augue in quam. Etiam vel tortor sodales tellus ultricies commodo. Suspendisse potenti. Aenean in sem ac leo mollis blandit. Donec neque quam, dignissim in, mollis nec, sagittis eu, wisi.
-Phasellus lacus. Etiam laoreet quam sed arcu. Phasellus at dui in ligula mollis ultricies. Integer placerat tristique nisl. Praesent augue.
+USE[master];GOALTERDATABASE[db_name_test]SETSINGLE_USERWITHROLLBACKIMMEDIATE;GOALTERDATABASE[db_name_test]ModifyName=&amp;#39;db_name_dev&amp;#39;;GOALTERDATABASE[db_name_dev]SETMULTI_USERWITHROLLBACKIMMEDIATE;GO Phasellus lacus. Etiam laoreet quam sed arcu. Phasellus at dui in ligula mollis ultricies. Integer placerat tristique nisl. Praesent augue.
 Fusce commodo. Vestibulum convallis, lorem a tempus semper, dui dui euismod elit, vitae placerat urna tortor vitae lacus.</description>
     </item>
     
