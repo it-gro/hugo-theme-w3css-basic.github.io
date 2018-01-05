@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Showcase on hugo-theme-w3css-basic exampleSite</title>
+    <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/showcase/</link>
+    <description>Recent content in Showcase on hugo-theme-w3css-basic exampleSite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Jan 2018 20:50:11 +0100</lastBuildDate>
+    
+	<atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/showcase/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rob Pike - ‘Concurrency Is Not Parallelism’</title>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/video-02/</link>
+      <pubDate>Fri, 05 Jan 2018 20:50:11 +0100</pubDate>
+      
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/video-02/</guid>
+      <description>   </description>
+    </item>
+    
+    <item>
+      <title>Add a Theme</title>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/console-01/</link>
+      <pubDate>Fri, 05 Jan 2018 20:38:50 +0100</pubDate>
+      
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/console-01/</guid>
+      <description>See themes.gohugo.io for a list of themes to consider. This quickstart uses the beautiful Ananke theme
+ </description>
+    </item>
+    
+    <item>
+      <title>Gallery pixabay.com</title>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/gallery-01/</link>
+      <pubDate>Fri, 05 Jan 2018 20:30:54 +0100</pubDate>
+      
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/gallery-01/</guid>
+      <description>01-photocard.jpg
+      02-photocard.jpg
+      03-photocard.jpg
+      04-photocard.jpg
+      05-photocard.png
+      06-photocard.jpg
+      07-photocard.</description>
+    </item>
+    
+    <item>
+      <title>Hugo - Static Site Generator</title>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/video-01/</link>
+      <pubDate>Sat, 16 Dec 2017 21:46:06 +0100</pubDate>
+      
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/video-01/</guid>
+      <description>   </description>
+    </item>
+    
+  </channel>
+</rss>

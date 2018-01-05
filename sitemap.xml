@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/</loc>
+    <lastmod>2018-01-05T20:18:10+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/</loc>
     <lastmod>2017-11-13T15:37:04+01:00</lastmod>
   </url>
@@ -200,6 +205,31 @@
   <url>
     <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/images-taken-from/bitbucket-teaserpics/</loc>
     <lastmod>2017-12-08T08:57:29+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/video-03/</loc>
+    <lastmod>2018-01-05T21:01:34+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/video-02/</loc>
+    <lastmod>2018-01-05T20:50:11+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/console-01/</loc>
+    <lastmod>2018-01-05T20:38:50+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/gallery-01/</loc>
+    <lastmod>2018-01-05T20:30:54+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/video-01/</loc>
+    <lastmod>2017-12-16T21:46:06+01:00</lastmod>
   </url>
   
   <url>
@@ -522,6 +552,12 @@
   <url>
     <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/shortcodes/</loc>
     <lastmod>2017-11-22T07:41:52+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/showcase/</loc>
+    <lastmod>2018-01-05T20:50:11+01:00</lastmod>
     <priority>0</priority>
   </url>
   
