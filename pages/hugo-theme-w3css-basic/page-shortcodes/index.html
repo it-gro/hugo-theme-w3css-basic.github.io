@@ -3,7 +3,8 @@
 <!-- _default/baseof.html  -->
   <!-- partials/head.html  -->
 <head>
-  <!-- Bitte weitergehen. Hier ist nichts zu sehen ...  --><!-- partials/head.meta.html -->
+  <!-- Bitte weitergehen. Hier ist nichts zu sehen ...  -->
+    <!-- partials/head.meta.html -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
   <meta http-equiv="content-type"    content="text/html; charset=utf-8" />
@@ -35,12 +36,172 @@
   <link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/css/style.min.css" />
   <link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/css/custom.css" />
 
-    <!-- partials/head.fonts.googleapis.html -->
-  
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Mono" />
-  
+    <!-- partials/head.fonts.local.html -->
+  <!-- partials/head.fonts.local.style.html -->
+<style>
+ 
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: italic;
+  font-weight: 400;
+  src: url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-italic.eot');  
+  src: local('Ubuntu Mono Italic'), local('UbuntuMono-Italic'),
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-italic.eot?#iefix') format('embedded-opentype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-italic.woff2') format('woff2'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-italic.woff') format('woff'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-italic.ttf') format('truetype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-italic.svg#UbuntuMono') format('svg');  
+}
+ 
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-regular.eot');  
+  src: local('Ubuntu Mono'), local('UbuntuMono-Regular'),
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-regular.eot?#iefix') format('embedded-opentype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-regular.woff2') format('woff2'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-regular.woff') format('woff'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-regular.ttf') format('truetype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-regular.svg#UbuntuMono') format('svg');  
+}
 
-  <style>
+ 
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-700.eot');  
+  src: local('Ubuntu Mono Bold'), local('UbuntuMono-Bold'),
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-700.eot?#iefix') format('embedded-opentype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-700.woff2') format('woff2'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-700.woff') format('woff'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-700.ttf') format('truetype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-700.svg#UbuntuMono') format('svg');  
+}
+ 
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: italic;
+  font-weight: 700;
+  src: url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-700italic.eot');  
+  src: local('Ubuntu Mono Bold Italic'), local('UbuntuMono-BoldItalic'),
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-700italic.eot?#iefix') format('embedded-opentype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-700italic.woff2') format('woff2'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-700italic.woff') format('woff'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-700italic.ttf') format('truetype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-700italic.svg#UbuntuMono') format('svg');  
+}
+
+
+ 
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: italic;
+  font-weight: 400;
+  src: url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-italic.eot');  
+  src: local('Ubuntu Italic'), local('Ubuntu-Italic'),
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-italic.eot?#iefix') format('embedded-opentype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-italic.woff2') format('woff2'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-italic.woff') format('woff'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-italic.ttf') format('truetype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-italic.svg#Ubuntu') format('svg');  
+}
+ 
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-regular.eot');  
+  src: local('Ubuntu Regular'), local('Ubuntu-Regular'),
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-regular.eot?#iefix') format('embedded-opentype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-regular.woff2') format('woff2'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-regular.woff') format('woff'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-regular.ttf') format('truetype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-regular.svg#Ubuntu') format('svg');  
+}
+
+ 
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-300.eot');  
+  src: local('Ubuntu Light'), local('Ubuntu-Light'),
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-300.eot?#iefix') format('embedded-opentype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-300.woff2') format('woff2'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-300.woff') format('woff'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-300.ttf') format('truetype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-300.svg#Ubuntu') format('svg');  
+}
+ 
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: italic;
+  font-weight: 300;
+  src: url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-300italic.eot');  
+  src: local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'),
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-300italic.eot?#iefix') format('embedded-opentype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-300italic.woff2') format('woff2'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-300italic.woff') format('woff'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-300italic.ttf') format('truetype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-300italic.svg#Ubuntu') format('svg');  
+}
+ 
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-500.eot');  
+  src: local('Ubuntu Medium'), local('Ubuntu-Medium'),
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-500.eot?#iefix') format('embedded-opentype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-500.woff2') format('woff2'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-500.woff') format('woff'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-500.ttf') format('truetype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-500.svg#Ubuntu') format('svg');  
+}
+ 
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: italic;
+  font-weight: 500;
+  src: url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-500italic.eot');  
+  src: local('Ubuntu Medium Italic'), local('Ubuntu-MediumItalic'),
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-500italic.eot?#iefix') format('embedded-opentype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-500italic.woff2') format('woff2'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-500italic.woff') format('woff'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-500italic.ttf') format('truetype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-500italic.svg#Ubuntu') format('svg');  
+}
+ 
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-700.eot');  
+  src: local('Ubuntu Light'), local('Ubuntu-Light'),
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-700.eot?#iefix') format('embedded-opentype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-700.woff2') format('woff2'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-700.woff') format('woff'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-700.ttf') format('truetype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-700.svg#Ubuntu') format('svg');  
+}
+ 
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: italic;
+  font-weight: 700;
+  src: url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-700italic.eot');  
+  src: local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'),
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-700italic.eot?#iefix') format('embedded-opentype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-700italic.woff2') format('woff2'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-700italic.woff') format('woff'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-700italic.ttf') format('truetype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-700italic.svg#Ubuntu') format('svg');  
+}
+
+</style>
+<style>
     html, body, h1, h2, h3, h4, h5, h6
     { 
         font-family: 'Ubuntu Mono'     , monospace;
@@ -265,6 +426,11 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
 <li><a href="#heg-gallery">heg-gallery</a>
 <ul>
 <li><a href="#style-2">Style</a></li>
+</ul></li>
+<li><a href="#heg-figure">heg-figure</a>
+<ul>
+<li><a href="#with-thumbs">with Thumbs</a></li>
+<li><a href="#without-thumbs">without Thumbs</a></li>
 </ul></li>
 <li><a href="#i18n">i18n</a></li>
 <li><a href="#asciicast">asciicast</a></li>
@@ -491,19 +657,10 @@ A warning with heading
 
 <p>renders to:
 
-
-
-
 <a class="w3-button w3-ripple w3-theme-l3 " href="/hugo-theme-w3css-basic.github.io/#">&nbsp;Hi, i&rsquo;m a button</a>
 
 
-
-
-
 <a class="w3-button w3-ripple w3-theme-l3 " href="/hugo-theme-w3css-basic.github.io/#"><i class="fa fas fa-exclamation-triangle fa-1x"></i>&nbsp;Purge</a>
-
-
-
 
 
 <a class="w3-button w3-ripple w3-theme-l3 " href="https://google.com">&nbsp;take me to Google</a>
@@ -680,22 +837,8 @@ genpasswd $1
 {{&lt; icon &#34;fas fa-home fa-2x&#34; &gt;}}</code></pre></div>
 renders as
 
-  
-  
-     
-     
-     
-     
-
 <span class="fas fa-home " aria-hidden="true"></span>
 
-
-  
-  
-     
-     
-     
-     
 
 <span class="fas fa-home fa-2x " aria-hidden="true"></span>
 </p>
@@ -704,14 +847,8 @@ renders as
 {{&lt; icon name=&#34;fas fa-home&#34; size=&#34;fa-2x&#34; &gt;}}</code></pre></div>
 renders as
 
-  
-  
-
 <span class="fas fa-home fa-1x" aria-hidden="true"></span>
 
-
-  
-  
 
 <span class="fas fa-home fa-2x" aria-hidden="true"></span>
 </p>
@@ -727,79 +864,7 @@ renders as
 <p>renders as</p>
 
 <p>Here&rsquo; a cool command:  
-  
-
-<code class="chroma" style="font-family: monospace,monospace;"><span class="gp">hugo -w -v server --themesDir ../../ --port 1414 --disableFastRender</span></code>
-
-
-
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+<code class="chroma" style="font-family: monospace,monospace;"><span class="gp">hugo -w -v server --themesDir ../../ --port 1414 --disableFastRender</span></code> 
 . But you may use this:
 <code>hugo -w server</code>. Have fun.</p>
 
@@ -807,79 +872,7 @@ renders as
 renders as</p>
 
 <p>You may give a class name 
-  
-
-<code class="chroma" style="font-family: monospace,monospace;"><span class="k">cool code</span></code>
-
-
-
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+<code class="chroma" style="font-family: monospace,monospace;"><span class="k">cool code</span></code> 
 .</p>
 
 <p>Background style for csc is in <code>static/css/style.css</code>:
@@ -1244,80 +1237,11 @@ static/css/syntax/syntax.bw.css
 <p>renders as</p>
 
 
-  
-
 <pre><code class="chroma"><span class="s">
 static/css/syntax/syntax.autumn.css
 static/css/syntax/syntax.borland.css
 static/css/syntax/syntax.bw.css
-</span></code></pre>
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+</span></code></pre> 
 
 
 <h2 id="heg-gallery">heg-gallery</h2>
@@ -1329,34 +1253,16 @@ static/css/syntax/syntax.bw.css
 </ul>
 
 <div class="highlight"><pre class="chroma"><code class="language-nolan" data-lang="nolan">{{&lt; heg-load-photoswipe &gt;}}
-{{&lt; heg-gallery dir=&#34;/images/teaserpics/gohugo.io&#34;   caption-effect=&#34;none&#34; hover-effect=&#34;grow&#34; /&gt;}} </code></pre></div>
+{{&lt; heg-gallery dir=&#34;/images/teaserpics/gohugo.io&#34;   caption-effect=&#34;none&#34; hover-effect=&#34;grow&#34; / &gt;}} </code></pre></div>
 
 <p>renders as
 
-
-
-
-  
-
-
 <script src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/jquery/jquery-3.2.1.slim.min.js"></script>   
-
 <script src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/liwenyip/hugo-easy-gallery/js/load-photoswipe.js"></script>
-
-
 <link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/photoswipe/photoswipe.css" />
 <link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/photoswipe/default-skin/default-skin.css" />
-<script src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/photoswipe/photoswipe.min.js">            </script>
+<script src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/photoswipe/photoswipe.min.js">      </script>
 <script src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/photoswipe/photoswipe-ui-theme.js"> </script>
-
-
-
-
-
-
-
-
-
 <style>
     .pswp__caption a
   , .pswp__caption small a
@@ -1365,30 +1271,21 @@ static/css/syntax/syntax.bw.css
       color: #CCC;
   }
 </style>
-
-
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
 <div class="pswp__bg"></div>
-
 <div class="pswp__scroll-wrap">
-    
     <div class="pswp__container">
       <div class="pswp__item"></div>
       <div class="pswp__item"></div>
       <div class="pswp__item"></div>
     </div>
-    
     <div class="pswp__ui pswp__ui--hidden">
     <div class="pswp__top-bar">
-      
       <div class="pswp__counter"></div>
       <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
       <button class="pswp__button pswp__button--share" title="Share"></button>
       <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
       <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-      
-      
       <div class="pswp__preloader">
         <div class="pswp__preloader__icn">
           <div class="pswp__preloader__cut">
@@ -1410,9 +1307,6 @@ static/css/syntax/syntax.bw.css
     </div>
     </div>
 </div>
-
-
-
 
 
 
@@ -1535,6 +1429,283 @@ static/css/syntax/syntax.bw.css
   <span class="p">}</span>
 <span class="p">}</span></code></pre></div>
 
+<h2 id="heg-figure">heg-figure</h2>
+
+<ul>
+<li>See for original doc: <a href="https://www.liwen.id.au/heg/">https://www.liwen.id.au/heg/</a></li>
+<li>heg-figure improves the usage of <code>caption=&quot;&quot; title=&quot;&quot; attr=&quot;&quot; attrlink=&quot;&quot;</code></li>
+<li>for demo I set here caption-effect=<strong>&ldquo;none&rdquo;</strong></li>
+<li>Inspired by <a href="https://stackoverflow.com/questions/21483356/how-to-mark-the-copyright-of-an-image-in-html">https://stackoverflow.com/questions/21483356/how-to-mark-the-copyright-of-an-image-in-html</a></li>
+</ul>
+
+<h3 id="with-thumbs">with Thumbs</h3>
+
+<ul>
+<li>here the thumbs as just too small&hellip;</li>
+</ul>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolan" data-lang="nolan">{{&lt; heg-load-photoswipe &gt;}}
+{{&lt; heg-figure link=&#34;/images/photocards/pixabay.com/01-photocard.jpg&#34; thumb=&#34;-thumb&#34; caption-position=&#34;bottom&#34; caption-effect=&#34;none&#34; width=&#34;126px&#34; caption=&#34;figure caption 1&#34; title=&#34;bar 1&#34; &gt;}}
+{{&lt; heg-figure link=&#34;/images/photocards/pixabay.com/02-photocard.jpg&#34; thumb=&#34;-thumb&#34; caption-position=&#34;bottom&#34; caption-effect=&#34;none&#34; width=&#34;160px&#34; caption=&#34;figure caption 2&#34; &gt;}}
+{{&lt; heg-figure link=&#34;/images/photocards/pixabay.com/03-photocard.jpg&#34; thumb=&#34;-thumb&#34; caption-position=&#34;bottom&#34; caption-effect=&#34;none&#34; width=&#34;171px&#34; caption=&#34;figure caption 3&#34; attr=&#34;(c) by bar 3&#34; &gt;}}
+{{&lt; heg-figure link=&#34;/images/photocards/pixabay.com/04-photocard.jpg&#34; thumb=&#34;-thumb&#34; caption-position=&#34;bottom&#34; caption-effect=&#34;none&#34; width=&#34;135px&#34; caption=&#34;figure caption 4&#34; attr=&#34;(c) by bar 4&#34; attrlink=&#34;https://www.example.com&#34; &gt;}}
+{{&lt; heg-figure link=&#34;/images/photocards/pixabay.com/05-photocard.png&#34; thumb=&#34;-thumb&#34; caption-position=&#34;bottom&#34; caption-effect=&#34;none&#34; width=&#34;145px&#34;                    attr=&#34;(c) by bar 5&#34; &gt;}}
+{{&lt; heg-figure link=&#34;/images/photocards/pixabay.com/06-photocard.jpg&#34; thumb=&#34;-thumb&#34; caption-position=&#34;bottom&#34; caption-effect=&#34;none&#34; width=&#34;135px&#34;                    attr=&#34;(c) by bar 6&#34; attrlink=&#34;https://www.example.com&#34; &gt;}}
+{{&lt; heg-figure link=&#34;/images/photocards/pixabay.com/07-photocard.jpg&#34; thumb=&#34;-thumb&#34; caption-position=&#34;bottom&#34; caption-effect=&#34;none&#34; width=&#34;160px&#34;                                        attrlink=&#34;https://www.example.com&#34; &gt;}}
+{{&lt; heg-figure link=&#34;/images/photocards/pixabay.com/08-photocard.jpg&#34; thumb=&#34;-thumb&#34; caption-position=&#34;bottom&#34; caption-effect=&#34;none&#34; width=&#34;135px&#34; caption=&#34;figure caption 8&#34;             attrlink=&#34;https://www.example.com&#34; &gt;}}</code></pre></div>
+
+<p>renders as
+
+
+<div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:126px">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/01-photocard-thumb.jpg" alt="figure caption 1"/>
+    </div>
+    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/01-photocard.jpg" itemprop="contentUrl"></a>
+      <figcaption><h4>bar 1</h4><p>figure caption 1</p>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+<div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:160px">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/02-photocard-thumb.jpg" alt="figure caption 2"/>
+    </div>
+    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/02-photocard.jpg" itemprop="contentUrl"></a>
+      <figcaption><p>figure caption 2</p>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+<div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:171px">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/03-photocard-thumb.jpg" alt="figure caption 3"/>
+    </div>
+    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/03-photocard.jpg" itemprop="contentUrl"></a>
+      <figcaption><p>figure caption 3</p>
+			  <footer><small>(c) by bar 3</small></footer>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+<div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:135px">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/04-photocard-thumb.jpg" alt="figure caption 4"/>
+    </div>
+    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/04-photocard.jpg" itemprop="contentUrl"></a>
+      <figcaption><p>figure caption 4</p>
+			  <footer><small><a href="https://www.example.com">(c) by bar 4</a></small></footer>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+<div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:145px">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/05-photocard-thumb.png" />
+    </div>
+    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/05-photocard.png" itemprop="contentUrl"></a>
+      <figcaption>
+			  <footer><small>(c) by bar 5</small></footer>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+<div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:135px">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/06-photocard-thumb.jpg" />
+    </div>
+    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/06-photocard.jpg" itemprop="contentUrl"></a>
+      <figcaption>
+			  <footer><small><a href="https://www.example.com">(c) by bar 6</a></small></footer>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+<div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:160px">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/07-photocard-thumb.jpg" />
+    </div>
+    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/07-photocard.jpg" itemprop="contentUrl"></a>
+      <figcaption>
+			  <footer><small><a href="https://www.example.com">https://www.example.com</a></small></footer>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+<div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:135px">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/08-photocard-thumb.jpg" alt="figure caption 8"/>
+    </div>
+    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/08-photocard.jpg" itemprop="contentUrl"></a>
+      <figcaption><p>figure caption 8</p>
+			  <footer><small><a href="https://www.example.com">https://www.example.com</a></small></footer>
+      </figcaption>
+  </figure>
+</div>
+</p>
+
+<h3 id="without-thumbs">without Thumbs</h3>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolan" data-lang="nolan">{{&lt; heg-load-photoswipe &gt;}}
+{{&lt; heg-figure link=&#34;/images/photocards/pixabay.com/01-photocard.jpg&#34; caption-position=&#34;bottom&#34; caption-effect=&#34;none&#34; width=&#34;640px&#34; caption=&#34;figure caption 1&#34; title=&#34;bar 1&#34; &gt;}}
+{{&lt; heg-figure link=&#34;/images/photocards/pixabay.com/02-photocard.jpg&#34; caption-position=&#34;bottom&#34; caption-effect=&#34;none&#34; width=&#34;640px&#34; caption=&#34;figure caption 2&#34; &gt;}}
+{{&lt; heg-figure link=&#34;/images/photocards/pixabay.com/03-photocard.jpg&#34; caption-position=&#34;bottom&#34; caption-effect=&#34;none&#34; width=&#34;640px&#34; caption=&#34;figure caption 3&#34; attr=&#34;(c) by bar 3&#34; &gt;}}
+{{&lt; heg-figure link=&#34;/images/photocards/pixabay.com/04-photocard.jpg&#34; caption-position=&#34;bottom&#34; caption-effect=&#34;none&#34; width=&#34;640px&#34; caption=&#34;figure caption 4&#34; attr=&#34;(c) by bar 4&#34; attrlink=&#34;https://www.example.com&#34; &gt;}}
+{{&lt; heg-figure link=&#34;/images/photocards/pixabay.com/05-photocard.png&#34; caption-position=&#34;bottom&#34; caption-effect=&#34;none&#34; width=&#34;640px&#34;                    attr=&#34;(c) by bar 5&#34; &gt;}}
+{{&lt; heg-figure link=&#34;/images/photocards/pixabay.com/06-photocard.jpg&#34; caption-position=&#34;bottom&#34; caption-effect=&#34;none&#34; width=&#34;640px&#34;                    attr=&#34;(c) by bar 6&#34; attrlink=&#34;https://www.example.com&#34; &gt;}}
+{{&lt; heg-figure link=&#34;/images/photocards/pixabay.com/07-photocard.jpg&#34; caption-position=&#34;bottom&#34; caption-effect=&#34;none&#34; width=&#34;640px&#34;                                        attrlink=&#34;https://www.example.com&#34; &gt;}}
+{{&lt; heg-figure link=&#34;/images/photocards/pixabay.com/08-photocard.jpg&#34; caption-position=&#34;bottom&#34; caption-effect=&#34;none&#34; width=&#34;640px&#34; caption=&#34;figure caption 8&#34;             attrlink=&#34;https://www.example.com&#34; &gt;}}
+{{&lt; heg-figure link=&#34;/images/photocards/pixabay.com/09-photocard.jpg&#34; caption-position=&#34;bottom&#34; caption-effect=&#34;none&#34; width=&#34;640px&#34; caption=&#34;figure caption 9&#34; title=&#34;bar 9&#34; attr=&#34;(c) by bar 9&#34; attrlink=&#34;https://www.example.com&#34; &gt;}}</code></pre></div>
+
+<p>renders as</p>
+
+<p>
+
+<div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:640px">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/01-photocard.jpg" alt="figure caption 1"/>
+    </div>
+    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/01-photocard.jpg" itemprop="contentUrl"></a>
+      <figcaption><h4>bar 1</h4><p>figure caption 1</p>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+<div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:640px">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/02-photocard.jpg" alt="figure caption 2"/>
+    </div>
+    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/02-photocard.jpg" itemprop="contentUrl"></a>
+      <figcaption><p>figure caption 2</p>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+<div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:640px">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/03-photocard.jpg" alt="figure caption 3"/>
+    </div>
+    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/03-photocard.jpg" itemprop="contentUrl"></a>
+      <figcaption><p>figure caption 3</p>
+			  <footer><small>(c) by bar 3</small></footer>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+<div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:640px">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/04-photocard.jpg" alt="figure caption 4"/>
+    </div>
+    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/04-photocard.jpg" itemprop="contentUrl"></a>
+      <figcaption><p>figure caption 4</p>
+			  <footer><small><a href="https://www.example.com">(c) by bar 4</a></small></footer>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+<div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:640px">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/05-photocard.png" />
+    </div>
+    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/05-photocard.png" itemprop="contentUrl"></a>
+      <figcaption>
+			  <footer><small>(c) by bar 5</small></footer>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+<div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:640px">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/06-photocard.jpg" />
+    </div>
+    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/06-photocard.jpg" itemprop="contentUrl"></a>
+      <figcaption>
+			  <footer><small><a href="https://www.example.com">(c) by bar 6</a></small></footer>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+<div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:640px">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/07-photocard.jpg" />
+    </div>
+    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/07-photocard.jpg" itemprop="contentUrl"></a>
+      <figcaption>
+			  <footer><small><a href="https://www.example.com">https://www.example.com</a></small></footer>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+<div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:640px">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/08-photocard.jpg" alt="figure caption 8"/>
+    </div>
+    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/08-photocard.jpg" itemprop="contentUrl"></a>
+      <figcaption><p>figure caption 8</p>
+			  <footer><small><a href="https://www.example.com">https://www.example.com</a></small></footer>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+<div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:640px">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/09-photocard.jpg" alt="figure caption 9"/>
+    </div>
+    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/09-photocard.jpg" itemprop="contentUrl"></a>
+      <figcaption><h4>bar 9</h4><p>figure caption 9</p>
+			  <footer><small><a href="https://www.example.com">(c) by bar 9</a></small></footer>
+      </figcaption>
+  </figure>
+</div>
+</p>
+
 <h2 id="i18n">i18n</h2>
 
 <ul>
@@ -1564,7 +1735,6 @@ in <span class="w3-codespan">i18n/en.yaml</span>
 <ul>
 <li>taken from <a href="https://github.com/gohugoio/hugo/tree/master/docs/layouts/shortcodes">https://github.com/gohugoio/hugo/tree/master/docs/layouts/shortcodes</a></li>
 </ul>
-
 
 
 <script type="text/javascript" src="https://asciinema.org/a/WJM2LEZQs8VRhNeuZ5NiGPp9I.js" id="asciicast-WJM2LEZQs8VRhNeuZ5NiGPp9I" data-rows="10" async></script>
