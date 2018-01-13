@@ -56,11 +56,13 @@ https://gohugo.io/templates/shortcode-templates  Shortcodes in this Theme for W3
       <pubDate>Fri, 05 Jan 2018 20:30:54 +0100</pubDate>
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/gallery-01/</guid>
-      <description>.pswp__caption a , .pswp__caption small a , .pswp__caption__center a { color: #CCC; }                            01-photocard.jpg
+      <description>01-photocard.jpg
       02-photocard.jpg
       03-photocard.jpg
       04-photocard.jpg
-      05-photocard.</description>
+      05-photocard.png
+      06-photocard.jpg
+      07-photocard.</description>
     </item>
     
     <item>

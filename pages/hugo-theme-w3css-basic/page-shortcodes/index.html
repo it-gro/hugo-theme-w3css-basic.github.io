@@ -502,20 +502,22 @@ and list templates and basic content files.</p>
 
 <h3 id="success">Success</h3>
 
-<p><div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{% w3-notice-icon type=&#34;success&#34; %}}
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{% w3-notice-icon type=&#34;success&#34; %}}
 Well done
 {{% /w3-notice-icon %}}</code></pre></div>
-renders as</p>
+
+<p>renders as</p>
 
 
 <div class="w3-panel w3-leftbar shortcode-success">
       <i class="w3-margin-right fas fa-check fa-2x"></i>Well done</div>
 
 
-<p><div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{% w3-notice-icon type=&#34;success&#34;  heading=&#34;Well done&#34; %}}
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{% w3-notice-icon type=&#34;success&#34;  heading=&#34;Well done&#34; %}}
 Well done
 {{% /w3-notice-icon %}}</code></pre></div>
-renders as</p>
+
+<p>renders as</p>
 
 
 <div class="w3-panel w3-leftbar shortcode-success">
@@ -538,20 +540,22 @@ A default disclaimer (=&gt; info)
   <h3><i class="w3-margin-right fas fa-info "></i></h3>A default disclaimer (=&gt; info)</div>
 
 
-<p><div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{% w3-notice-icon heading=&#34;I&#39;m a heading&#34; %}}
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{% w3-notice-icon heading=&#34;I&#39;m a heading&#34; %}}
 A default disclaimer with header
 {{% /w3-notice-icon %}}</code></pre></div>
-renders as</p>
+
+<p>renders as</p>
 
 
 <div class="w3-panel w3-leftbar shortcode-info">
   <h3><i class="w3-margin-right fas fa-info "></i>I&#39;m a heading</h3>A default disclaimer with header</div>
 
 
-<p><div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{% w3-notice-icon type=&#34;info&#34; heading=&#34;Show Info&#34; %}}
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{% w3-notice-icon type=&#34;info&#34; heading=&#34;Show Info&#34; %}}
 No need for type=&#34;info&#34;, since this is the default
 {{% /w3-notice-icon %}}</code></pre></div>
-renders as</p>
+
+<p>renders as</p>
 
 
 <div class="w3-panel w3-leftbar shortcode-info">
@@ -561,10 +565,11 @@ renders as</p>
 
 <h3 id="warning">Warning</h3>
 
-<p><div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{% w3-notice-icon type=&#34;warning&#34; heading=&#34;Keep in mind&#34; %}}
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{% w3-notice-icon type=&#34;warning&#34; heading=&#34;Keep in mind&#34; %}}
 A warning disclaimer
 {{% /w3-notice-icon %}}</code></pre></div>
-renders as</p>
+
+<p>renders as</p>
 
 
 <div class="w3-panel w3-leftbar shortcode-warning">
@@ -573,20 +578,22 @@ renders as</p>
 
 <h3 id="danger">Danger</h3>
 
-<p><div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{% w3-notice-icon type=&#34;danger&#34; %}}
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{% w3-notice-icon type=&#34;danger&#34; %}}
 A check disclaimer
 {{% /w3-notice-icon %}}</code></pre></div>
-renders as</p>
+
+<p>renders as</p>
 
 
 <div class="w3-panel w3-leftbar shortcode-danger">
       <i class="w3-margin-right fas fa-bomb fa-2x"></i>Watch out</div>
 
 
-<p><div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{% w3-notice-icon type=&#34;danger&#34; heading=&#34;Careful&#34; %}}
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{% w3-notice-icon type=&#34;danger&#34; heading=&#34;Careful&#34; %}}
 Watch out 
 {{% /w3-notice-icon %}}</code></pre></div>
-renders as</p>
+
+<p>renders as</p>
 
 
 <div class="w3-panel w3-leftbar shortcode-danger">
@@ -781,7 +788,7 @@ A warning with heading
 <div class="highlight"><pre class="chroma"><code class="language-nolan" data-lang="nolan">... command: {{% w3-codespan %}}startup *all*{{% /w3-codespan %}} just try it...
 ... command: {{&lt; w3-codespan &gt;}}startup *all*{{&lt; /w3-codespan &gt;}} just try it...</code></pre></div>
 
-<p>This is a cool command: <span class="w3-codespan">startup <em>all</em></span>
+<p>This is a cool command: <span class="w3-codespan">startup &lt;em&gt;all&lt;/em&gt;</span>
  just try it&hellip;
 This is a cool command: <span class="w3-codespan">startup *all*</span>
  just try it&hellip;</p>
@@ -793,7 +800,7 @@ This is a cool command: <span class="w3-codespan">startup *all*</span>
 <li>show code block - but no highlighting</li>
 </ul>
 
-<p><div class="highlight"><pre class="chroma"><code class="language-text" data-lang="text">{{&lt; w3-code &gt;}}
+<div class="highlight"><pre class="chroma"><code class="language-text" data-lang="text">{{&lt; w3-code &gt;}}
 genpasswd() {
     local l=$1
     [ &#34;$l&#34; == &#34;&#34; ] &amp;&amp; l=16
@@ -802,13 +809,14 @@ genpasswd() {
 
 genpasswd $1
 {{&lt; /w3-code &gt;}}</code></pre></div>
-renders as</p>
+
+<p>renders as</p>
 
 <pre class="w3-code">
 genpasswd() {
     local l=$1
-    [ "$l" == "" ] && l=16
-    tr -dc A-Za-z0-9 < /dev/urandom | head -c ${l} | xargs
+    [ &#34;$l&#34; == &#34;&#34; ] &amp;&amp; l=16
+    tr -dc A-Za-z0-9 &lt; /dev/urandom | head -c ${l} | xargs
 }
 
 genpasswd $1
@@ -833,9 +841,10 @@ genpasswd $1
 
 <h2 id="icon">icon</h2>
 
-<p><div class="highlight"><pre class="chroma"><code class="language-nolan" data-lang="nolan">{{&lt; icon &#34;fas fa-home&#34;&gt;}}
+<div class="highlight"><pre class="chroma"><code class="language-nolan" data-lang="nolan">{{&lt; icon &#34;fas fa-home&#34;&gt;}}
 {{&lt; icon &#34;fas fa-home fa-2x&#34; &gt;}}</code></pre></div>
-renders as
+
+<p>renders as
 
 <span class="fas fa-home " aria-hidden="true"></span>
 
@@ -843,9 +852,10 @@ renders as
 <span class="fas fa-home fa-2x " aria-hidden="true"></span>
 </p>
 
-<p><div class="highlight"><pre class="chroma"><code class="language-nolan" data-lang="nolan">{{&lt; icon name=&#34;fas fa-home&#34; &gt;}}
+<div class="highlight"><pre class="chroma"><code class="language-nolan" data-lang="nolan">{{&lt; icon name=&#34;fas fa-home&#34; &gt;}}
 {{&lt; icon name=&#34;fas fa-home&#34; size=&#34;fa-2x&#34; &gt;}}</code></pre></div>
-renders as
+
+<p>renders as
 
 <span class="fas fa-home fa-1x" aria-hidden="true"></span>
 
@@ -868,8 +878,9 @@ renders as
 . But you may use this:
 <code>hugo -w server</code>. Have fun.</p>
 
-<p><div class="highlight"><pre class="chroma"><code class="language-nolan" data-lang="nolan">You may give a class name {{&lt; csc k &gt;}}cool code{{&lt; /csc &gt;}}.</code></pre></div>
-renders as</p>
+<div class="highlight"><pre class="chroma"><code class="language-nolan" data-lang="nolan">You may give a class name {{&lt; csc k &gt;}}cool code{{&lt; /csc &gt;}}.</code></pre></div>
+
+<p>renders as</p>
 
 <p>You may give a class name 
 <code class="chroma" style="font-family: monospace,monospace;"><span class="k">cool code</span></code> 
@@ -1263,14 +1274,6 @@ static/css/syntax/syntax.bw.css
 <link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/photoswipe/default-skin/default-skin.css" />
 <script src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/photoswipe/photoswipe.min.js">      </script>
 <script src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/photoswipe/photoswipe-ui-theme.js"> </script>
-<style>
-    .pswp__caption a
-  , .pswp__caption small a
-  , .pswp__caption__center a {
-       
-      color: #CCC;
-  }
-</style>
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 <div class="pswp__bg"></div>
 <div class="pswp__scroll-wrap">
@@ -1315,48 +1318,52 @@ static/css/syntax/syntax.bw.css
         <div class="box">
           <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
             <div class="img" style="background-image: url('https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/teaserpics/gohugo.io/golang-a-closer-look-thumb.png');" >
-              <img itemprop="thumbnail" src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/teaserpics/gohugo.io/golang-a-closer-look-thumb.png" alt="golang-a-closer-look.png" />
+              <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/teaserpics/gohugo.io/golang-a-closer-look.png" >
+                <img src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/teaserpics/gohugo.io/golang-a-closer-look-thumb.png" alt="golang-a-closer-look.png" />
+              </a>
             </div>
             <figcaption>
               <p>golang-a-closer-look.png</p>
             </figcaption>
-            <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/teaserpics/gohugo.io/golang-a-closer-look.png" itemprop="contentUrl"></a>
           </figure>
         </div>
         
         <div class="box">
           <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
             <div class="img" style="background-image: url('https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/teaserpics/gohugo.io/hugo-dolor-thumb.png');" >
-              <img itemprop="thumbnail" src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/teaserpics/gohugo.io/hugo-dolor-thumb.png" alt="hugo-dolor.png" />
+              <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/teaserpics/gohugo.io/hugo-dolor.png" >
+                <img src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/teaserpics/gohugo.io/hugo-dolor-thumb.png" alt="hugo-dolor.png" />
+              </a>
             </div>
             <figcaption>
               <p>hugo-dolor.png</p>
             </figcaption>
-            <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/teaserpics/gohugo.io/hugo-dolor.png" itemprop="contentUrl"></a>
           </figure>
         </div>
         
         <div class="box">
           <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
             <div class="img" style="background-image: url('https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/teaserpics/gohugo.io/hugo-ipsum-thumb.png');" >
-              <img itemprop="thumbnail" src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/teaserpics/gohugo.io/hugo-ipsum-thumb.png" alt="hugo-ipsum.png" />
+              <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/teaserpics/gohugo.io/hugo-ipsum.png" >
+                <img src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/teaserpics/gohugo.io/hugo-ipsum-thumb.png" alt="hugo-ipsum.png" />
+              </a>
             </div>
             <figcaption>
               <p>hugo-ipsum.png</p>
             </figcaption>
-            <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/teaserpics/gohugo.io/hugo-ipsum.png" itemprop="contentUrl"></a>
           </figure>
         </div>
         
         <div class="box">
           <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
             <div class="img" style="background-image: url('https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/teaserpics/gohugo.io/hugo-lorem-thumb.png');" >
-              <img itemprop="thumbnail" src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/teaserpics/gohugo.io/hugo-lorem-thumb.png" alt="hugo-lorem.png" />
+              <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/teaserpics/gohugo.io/hugo-lorem.png" >
+                <img src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/teaserpics/gohugo.io/hugo-lorem-thumb.png" alt="hugo-lorem.png" />
+              </a>
             </div>
             <figcaption>
               <p>hugo-lorem.png</p>
             </figcaption>
-            <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/teaserpics/gohugo.io/hugo-lorem.png" itemprop="contentUrl"></a>
           </figure>
         </div>
 </div>
@@ -1460,9 +1467,9 @@ static/css/syntax/syntax.bw.css
 <div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:126px">
   <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
     <div class="img">
-      <img itemprop="thumbnail" src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/01-photocard-thumb.jpg" alt="figure caption 1"/>
+      <img src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/01-photocard-thumb.jpg" alt="figure caption 1"/>
     </div>
-    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/01-photocard.jpg" itemprop="contentUrl"></a>
+    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/01-photocard.jpg" ></a>
       <figcaption><h4>bar 1</h4><p>figure caption 1</p>
       </figcaption>
   </figure>
@@ -1473,9 +1480,9 @@ static/css/syntax/syntax.bw.css
 <div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:160px">
   <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
     <div class="img">
-      <img itemprop="thumbnail" src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/02-photocard-thumb.jpg" alt="figure caption 2"/>
+      <img src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/02-photocard-thumb.jpg" alt="figure caption 2"/>
     </div>
-    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/02-photocard.jpg" itemprop="contentUrl"></a>
+    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/02-photocard.jpg" ></a>
       <figcaption><p>figure caption 2</p>
       </figcaption>
   </figure>
@@ -1486,9 +1493,9 @@ static/css/syntax/syntax.bw.css
 <div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:171px">
   <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
     <div class="img">
-      <img itemprop="thumbnail" src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/03-photocard-thumb.jpg" alt="figure caption 3"/>
+      <img src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/03-photocard-thumb.jpg" alt="figure caption 3"/>
     </div>
-    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/03-photocard.jpg" itemprop="contentUrl"></a>
+    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/03-photocard.jpg" ></a>
       <figcaption><p>figure caption 3</p>
 			  <footer><small>(c) by bar 3</small></footer>
       </figcaption>
@@ -1500,9 +1507,9 @@ static/css/syntax/syntax.bw.css
 <div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:135px">
   <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
     <div class="img">
-      <img itemprop="thumbnail" src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/04-photocard-thumb.jpg" alt="figure caption 4"/>
+      <img src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/04-photocard-thumb.jpg" alt="figure caption 4"/>
     </div>
-    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/04-photocard.jpg" itemprop="contentUrl"></a>
+    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/04-photocard.jpg" ></a>
       <figcaption><p>figure caption 4</p>
 			  <footer><small><a href="https://www.example.com">(c) by bar 4</a></small></footer>
       </figcaption>
@@ -1514,9 +1521,9 @@ static/css/syntax/syntax.bw.css
 <div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:145px">
   <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
     <div class="img">
-      <img itemprop="thumbnail" src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/05-photocard-thumb.png" />
+      <img src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/05-photocard-thumb.png" />
     </div>
-    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/05-photocard.png" itemprop="contentUrl"></a>
+    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/05-photocard.png" ></a>
       <figcaption>
 			  <footer><small>(c) by bar 5</small></footer>
       </figcaption>
@@ -1528,9 +1535,9 @@ static/css/syntax/syntax.bw.css
 <div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:135px">
   <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
     <div class="img">
-      <img itemprop="thumbnail" src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/06-photocard-thumb.jpg" />
+      <img src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/06-photocard-thumb.jpg" />
     </div>
-    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/06-photocard.jpg" itemprop="contentUrl"></a>
+    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/06-photocard.jpg" ></a>
       <figcaption>
 			  <footer><small><a href="https://www.example.com">(c) by bar 6</a></small></footer>
       </figcaption>
@@ -1542,9 +1549,9 @@ static/css/syntax/syntax.bw.css
 <div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:160px">
   <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
     <div class="img">
-      <img itemprop="thumbnail" src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/07-photocard-thumb.jpg" />
+      <img src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/07-photocard-thumb.jpg" />
     </div>
-    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/07-photocard.jpg" itemprop="contentUrl"></a>
+    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/07-photocard.jpg" ></a>
       <figcaption>
 			  <footer><small><a href="https://www.example.com">https://www.example.com</a></small></footer>
       </figcaption>
@@ -1556,9 +1563,9 @@ static/css/syntax/syntax.bw.css
 <div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:135px">
   <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
     <div class="img">
-      <img itemprop="thumbnail" src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/08-photocard-thumb.jpg" alt="figure caption 8"/>
+      <img src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/08-photocard-thumb.jpg" alt="figure caption 8"/>
     </div>
-    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/08-photocard.jpg" itemprop="contentUrl"></a>
+    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/08-photocard.jpg" ></a>
       <figcaption><p>figure caption 8</p>
 			  <footer><small><a href="https://www.example.com">https://www.example.com</a></small></footer>
       </figcaption>
@@ -1586,9 +1593,9 @@ static/css/syntax/syntax.bw.css
 <div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:640px">
   <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
     <div class="img">
-      <img itemprop="thumbnail" src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/01-photocard.jpg" alt="figure caption 1"/>
+      <img src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/01-photocard.jpg" alt="figure caption 1"/>
     </div>
-    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/01-photocard.jpg" itemprop="contentUrl"></a>
+    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/01-photocard.jpg" ></a>
       <figcaption><h4>bar 1</h4><p>figure caption 1</p>
       </figcaption>
   </figure>
@@ -1599,9 +1606,9 @@ static/css/syntax/syntax.bw.css
 <div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:640px">
   <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
     <div class="img">
-      <img itemprop="thumbnail" src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/02-photocard.jpg" alt="figure caption 2"/>
+      <img src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/02-photocard.jpg" alt="figure caption 2"/>
     </div>
-    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/02-photocard.jpg" itemprop="contentUrl"></a>
+    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/02-photocard.jpg" ></a>
       <figcaption><p>figure caption 2</p>
       </figcaption>
   </figure>
@@ -1612,9 +1619,9 @@ static/css/syntax/syntax.bw.css
 <div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:640px">
   <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
     <div class="img">
-      <img itemprop="thumbnail" src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/03-photocard.jpg" alt="figure caption 3"/>
+      <img src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/03-photocard.jpg" alt="figure caption 3"/>
     </div>
-    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/03-photocard.jpg" itemprop="contentUrl"></a>
+    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/03-photocard.jpg" ></a>
       <figcaption><p>figure caption 3</p>
 			  <footer><small>(c) by bar 3</small></footer>
       </figcaption>
@@ -1626,9 +1633,9 @@ static/css/syntax/syntax.bw.css
 <div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:640px">
   <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
     <div class="img">
-      <img itemprop="thumbnail" src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/04-photocard.jpg" alt="figure caption 4"/>
+      <img src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/04-photocard.jpg" alt="figure caption 4"/>
     </div>
-    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/04-photocard.jpg" itemprop="contentUrl"></a>
+    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/04-photocard.jpg" ></a>
       <figcaption><p>figure caption 4</p>
 			  <footer><small><a href="https://www.example.com">(c) by bar 4</a></small></footer>
       </figcaption>
@@ -1640,9 +1647,9 @@ static/css/syntax/syntax.bw.css
 <div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:640px">
   <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
     <div class="img">
-      <img itemprop="thumbnail" src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/05-photocard.png" />
+      <img src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/05-photocard.png" />
     </div>
-    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/05-photocard.png" itemprop="contentUrl"></a>
+    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/05-photocard.png" ></a>
       <figcaption>
 			  <footer><small>(c) by bar 5</small></footer>
       </figcaption>
@@ -1654,9 +1661,9 @@ static/css/syntax/syntax.bw.css
 <div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:640px">
   <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
     <div class="img">
-      <img itemprop="thumbnail" src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/06-photocard.jpg" />
+      <img src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/06-photocard.jpg" />
     </div>
-    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/06-photocard.jpg" itemprop="contentUrl"></a>
+    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/06-photocard.jpg" ></a>
       <figcaption>
 			  <footer><small><a href="https://www.example.com">(c) by bar 6</a></small></footer>
       </figcaption>
@@ -1668,9 +1675,9 @@ static/css/syntax/syntax.bw.css
 <div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:640px">
   <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
     <div class="img">
-      <img itemprop="thumbnail" src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/07-photocard.jpg" />
+      <img src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/07-photocard.jpg" />
     </div>
-    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/07-photocard.jpg" itemprop="contentUrl"></a>
+    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/07-photocard.jpg" ></a>
       <figcaption>
 			  <footer><small><a href="https://www.example.com">https://www.example.com</a></small></footer>
       </figcaption>
@@ -1682,9 +1689,9 @@ static/css/syntax/syntax.bw.css
 <div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:640px">
   <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
     <div class="img">
-      <img itemprop="thumbnail" src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/08-photocard.jpg" alt="figure caption 8"/>
+      <img src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/08-photocard.jpg" alt="figure caption 8"/>
     </div>
-    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/08-photocard.jpg" itemprop="contentUrl"></a>
+    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/08-photocard.jpg" ></a>
       <figcaption><p>figure caption 8</p>
 			  <footer><small><a href="https://www.example.com">https://www.example.com</a></small></footer>
       </figcaption>
@@ -1696,9 +1703,9 @@ static/css/syntax/syntax.bw.css
 <div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:640px">
   <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
     <div class="img">
-      <img itemprop="thumbnail" src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/09-photocard.jpg" alt="figure caption 9"/>
+      <img src="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/09-photocard.jpg" alt="figure caption 9"/>
     </div>
-    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/09-photocard.jpg" itemprop="contentUrl"></a>
+    <a href="/hugo-theme-w3css-basic.github.io/images/photocards/pixabay.com/09-photocard.jpg" ></a>
       <figcaption><h4>bar 9</h4><p>figure caption 9</p>
 			  <footer><small><a href="https://www.example.com">(c) by bar 9</a></small></footer>
       </figcaption>
@@ -1712,9 +1719,10 @@ static/css/syntax/syntax.bw.css
 <li>i18n lookup - if no translation found get argument back (default)</li>
 </ul>
 
-<p><div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{&lt; i18n &#34;termNotAvailable&#34; &gt;}}
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{&lt; i18n &#34;termNotAvailable&#34; &gt;}}
 {{&lt; i18n &#34;foobar&#34; &gt;}}</code></pre></div>
-renders as</p>
+
+<p>renders as</p>
 
 <p>empty
 
@@ -1724,7 +1732,7 @@ foobar
 <p>given:
 <pre class="w3-code">
 - id: termNotAvailable
-  translation: "empty"
+  translation: &#34;empty&#34;
 </pre>
 
 in <span class="w3-codespan">i18n/en.yaml</span>
