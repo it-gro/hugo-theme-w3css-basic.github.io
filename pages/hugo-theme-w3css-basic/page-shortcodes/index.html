@@ -33,15 +33,175 @@
   <link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/w3css/4/w3-theme-light-blue.css" />
 
   <link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/css/syntax.min.css" />
-  <link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/css/style.min.css" />
+  <link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/css/w3css-basic.min.css" />
   <link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/css/custom.css" />
 
-    <!-- partials/head.fonts.googleapis.html -->
-  
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Mono" />
-  
+    <!-- partials/head.fonts.local.html -->
+  <!-- partials/head.fonts.local.style.html -->
+<style>
+ 
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: italic;
+  font-weight: 400;
+  src: url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-italic.eot');  
+  src: local('Ubuntu Mono Italic'), local('UbuntuMono-Italic'),
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-italic.eot?#iefix') format('embedded-opentype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-italic.woff2') format('woff2'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-italic.woff') format('woff'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-italic.ttf') format('truetype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-italic.svg#UbuntuMono') format('svg');  
+}
+ 
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-regular.eot');  
+  src: local('Ubuntu Mono'), local('UbuntuMono-Regular'),
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-regular.eot?#iefix') format('embedded-opentype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-regular.woff2') format('woff2'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-regular.woff') format('woff'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-regular.ttf') format('truetype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-regular.svg#UbuntuMono') format('svg');  
+}
 
-  <style>
+ 
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-700.eot');  
+  src: local('Ubuntu Mono Bold'), local('UbuntuMono-Bold'),
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-700.eot?#iefix') format('embedded-opentype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-700.woff2') format('woff2'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-700.woff') format('woff'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-700.ttf') format('truetype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-700.svg#UbuntuMono') format('svg');  
+}
+ 
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: italic;
+  font-weight: 700;
+  src: url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-700italic.eot');  
+  src: local('Ubuntu Mono Bold Italic'), local('UbuntuMono-BoldItalic'),
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-700italic.eot?#iefix') format('embedded-opentype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-700italic.woff2') format('woff2'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-700italic.woff') format('woff'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-700italic.ttf') format('truetype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-mono-v7-latin-700italic.svg#UbuntuMono') format('svg');  
+}
+
+
+ 
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: italic;
+  font-weight: 400;
+  src: url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-italic.eot');  
+  src: local('Ubuntu Italic'), local('Ubuntu-Italic'),
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-italic.eot?#iefix') format('embedded-opentype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-italic.woff2') format('woff2'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-italic.woff') format('woff'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-italic.ttf') format('truetype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-italic.svg#Ubuntu') format('svg');  
+}
+ 
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-regular.eot');  
+  src: local('Ubuntu Regular'), local('Ubuntu-Regular'),
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-regular.eot?#iefix') format('embedded-opentype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-regular.woff2') format('woff2'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-regular.woff') format('woff'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-regular.ttf') format('truetype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-regular.svg#Ubuntu') format('svg');  
+}
+
+ 
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-300.eot');  
+  src: local('Ubuntu Light'), local('Ubuntu-Light'),
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-300.eot?#iefix') format('embedded-opentype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-300.woff2') format('woff2'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-300.woff') format('woff'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-300.ttf') format('truetype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-300.svg#Ubuntu') format('svg');  
+}
+ 
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: italic;
+  font-weight: 300;
+  src: url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-300italic.eot');  
+  src: local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'),
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-300italic.eot?#iefix') format('embedded-opentype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-300italic.woff2') format('woff2'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-300italic.woff') format('woff'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-300italic.ttf') format('truetype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-300italic.svg#Ubuntu') format('svg');  
+}
+ 
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-500.eot');  
+  src: local('Ubuntu Medium'), local('Ubuntu-Medium'),
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-500.eot?#iefix') format('embedded-opentype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-500.woff2') format('woff2'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-500.woff') format('woff'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-500.ttf') format('truetype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-500.svg#Ubuntu') format('svg');  
+}
+ 
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: italic;
+  font-weight: 500;
+  src: url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-500italic.eot');  
+  src: local('Ubuntu Medium Italic'), local('Ubuntu-MediumItalic'),
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-500italic.eot?#iefix') format('embedded-opentype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-500italic.woff2') format('woff2'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-500italic.woff') format('woff'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-500italic.ttf') format('truetype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-500italic.svg#Ubuntu') format('svg');  
+}
+ 
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-700.eot');  
+  src: local('Ubuntu Bold'), local('Ubuntu-Bold'),
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-700.eot?#iefix') format('embedded-opentype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-700.woff2') format('woff2'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-700.woff') format('woff'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-700.ttf') format('truetype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-700.svg#Ubuntu') format('svg');  
+}
+ 
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: italic;
+  font-weight: 700;
+  src: url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-700italic.eot');  
+  src: local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'),
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-700italic.eot?#iefix') format('embedded-opentype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-700italic.woff2') format('woff2'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-700italic.woff') format('woff'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-700italic.ttf') format('truetype'),  
+       url('/hugo-theme-w3css-basic.github.io/vendor/google/fonts/ubuntu-v11-latin-700italic.svg#Ubuntu') format('svg');  
+}
+
+</style>
+<style>
     html, body, h1, h2, h3, h4, h5, h6
     { 
         font-family: 'Ubuntu Mono'     , monospace;
@@ -308,7 +468,7 @@ and list templates and basic content files.</p>
 </ul>
 
 <p>Defined in:</p>
-<div class="highlight"><pre class="chroma">static/css/style.css</pre></div>
+<div class="highlight"><pre class="chroma">static/css/w3css-basic.css</pre></div>
 <div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="c">/* for shortcodes w3-notice-icon and w3-alert-icon */</span>
 <span class="p">.</span><span class="nc">shortcode-danger</span> <span class="p">{</span>
   <span class="k">border-color</span><span class="p">:</span><span class="mh">#f44336</span><span class="cp">!important</span>
@@ -656,7 +816,7 @@ genpasswd $1
 
 
 <h3 id="style-1">Style</h3>
-<div class="highlight"><pre class="chroma">static/css/style.css</pre></div>
+<div class="highlight"><pre class="chroma">static/css/w3css-basic.css</pre></div>
 <div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="nt">pre</span><span class="p">.</span><span class="nc">w3-code</span><span class="o">,</span> <span class="nt">span</span><span class="p">.</span><span class="nc">w3-codespan</span><span class="p">{</span>
   <span class="k">font-family</span><span class="p">:</span><span class="kc">monospace</span><span class="p">,</span><span class="kc">monospace</span><span class="p">;</span> <span class="err">!important</span><span class="p">;</span>
   <span class="k">font-size</span><span class="p">:</span><span class="mi">1</span><span class="kt">em</span>
@@ -715,7 +875,7 @@ renders as</p>
 <code class="chroma" style="font-family: monospace,monospace;"><span class="k">cool code</span></code> 
 .</p>
 
-<p>Background style for csc is in <code>static/css/style.css</code>:
+<p>Background style for csc is in <code>static/css/w3css-basic.css</code>:
 <div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="nt">code</span><span class="p">.</span><span class="nc">chroma</span> <span class="p">{</span>
   <span class="k">background-color</span><span class="p">:</span> <span class="nb">rgba</span><span class="p">(</span><span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span> <span class="mf">.4</span><span class="p">)</span> <span class="p">;</span> <span class="c">/* used e.g. for csc* shortcodes */</span>
 <span class="p">}</span></code></pre></div></p>
@@ -1205,7 +1365,7 @@ static/css/syntax/syntax.bw.css
 <h3 id="style-2">Style</h3>
 
 <p>Defined in:</p>
-<div class="highlight"><pre class="chroma">static/css/style.css</pre></div>
+<div class="highlight"><pre class="chroma">static/css/w3css-basic.css</pre></div>
 <div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="c">/* -------------------------------------------------- */</span>
 <span class="c">/* hugo-easy-gallery */</span>
 <span class="p">.</span><span class="nc">gallery</span> <span class="nt">figcaption</span><span class="o">,</span> 
