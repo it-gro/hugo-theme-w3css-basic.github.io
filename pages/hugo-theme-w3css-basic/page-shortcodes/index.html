@@ -747,346 +747,74 @@ genpasswd $1
   <span class="k">background-color</span><span class="p">:</span> <span class="nb">rgba</span><span class="p">(</span><span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span> <span class="mf">.4</span><span class="p">)</span> <span class="p">;</span> <span class="c">/* used e.g. for csc* shortcodes */</span>
 <span class="p">}</span></code></pre></div>
 
-<table>
-<thead>
-<tr>
-<th>Class</th>
-<th>Type</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>err</td>
-<td>Error</td>
-</tr>
-
-<tr>
-<td>lntd</td>
-<td>LineTableTD</td>
-</tr>
-
-<tr>
-<td>lntable</td>
-<td>LineTable</td>
-</tr>
-
-<tr>
-<td>hl</td>
-<td>LineHighlight</td>
-</tr>
-
-<tr>
-<td>lnt</td>
-<td>LineNumbersTable</td>
-</tr>
-
-<tr>
-<td>ln</td>
-<td>LineNumbers</td>
-</tr>
-
-<tr>
-<td>k</td>
-<td>Keyword</td>
-</tr>
-
-<tr>
-<td>kc</td>
-<td>KeywordConstant</td>
-</tr>
-
-<tr>
-<td>kd</td>
-<td>KeywordDeclaration</td>
-</tr>
-
-<tr>
-<td>kn</td>
-<td>KeywordNamespace</td>
-</tr>
-
-<tr>
-<td>kp</td>
-<td>KeywordPseudo</td>
-</tr>
-
-<tr>
-<td>kr</td>
-<td>KeywordReserved</td>
-</tr>
-
-<tr>
-<td>kt</td>
-<td>KeywordType</td>
-</tr>
-
-<tr>
-<td>na</td>
-<td>NameAttribute</td>
-</tr>
-
-<tr>
-<td>nb</td>
-<td>NameBuiltin</td>
-</tr>
-
-<tr>
-<td>nc</td>
-<td>NameClass</td>
-</tr>
-
-<tr>
-<td>no</td>
-<td>NameConstant</td>
-</tr>
-
-<tr>
-<td>nd</td>
-<td>NameDecorator</td>
-</tr>
-
-<tr>
-<td>ni</td>
-<td>NameEntity</td>
-</tr>
-
-<tr>
-<td>ne</td>
-<td>NameException</td>
-</tr>
-
-<tr>
-<td>nf</td>
-<td>NameFunction</td>
-</tr>
-
-<tr>
-<td>nl</td>
-<td>NameLabel</td>
-</tr>
-
-<tr>
-<td>nn</td>
-<td>NameNamespace</td>
-</tr>
-
-<tr>
-<td>nt</td>
-<td>NameTag</td>
-</tr>
-
-<tr>
-<td>nv</td>
-<td>NameVariable</td>
-</tr>
-
-<tr>
-<td>s</td>
-<td>LiteralString</td>
-</tr>
-
-<tr>
-<td>sa</td>
-<td>LiteralStringAffix</td>
-</tr>
-
-<tr>
-<td>sb</td>
-<td>LiteralStringBacktick</td>
-</tr>
-
-<tr>
-<td>sc</td>
-<td>LiteralStringChar</td>
-</tr>
-
-<tr>
-<td>dl</td>
-<td>LiteralStringDelimiter</td>
-</tr>
-
-<tr>
-<td>sd</td>
-<td>LiteralStringDoc</td>
-</tr>
-
-<tr>
-<td>s2</td>
-<td>LiteralStringDouble</td>
-</tr>
-
-<tr>
-<td>se</td>
-<td>LiteralStringEscape</td>
-</tr>
-
-<tr>
-<td>sh</td>
-<td>LiteralStringHeredoc</td>
-</tr>
-
-<tr>
-<td>si</td>
-<td>LiteralStringInterpol</td>
-</tr>
-
-<tr>
-<td>sx</td>
-<td>LiteralStringOther</td>
-</tr>
-
-<tr>
-<td>sr</td>
-<td>LiteralStringRegex</td>
-</tr>
-
-<tr>
-<td>s1</td>
-<td>LiteralStringSingle</td>
-</tr>
-
-<tr>
-<td>ss</td>
-<td>LiteralStringSymbol</td>
-</tr>
-
-<tr>
-<td>m</td>
-<td>LiteralNumber</td>
-</tr>
-
-<tr>
-<td>mb</td>
-<td>LiteralNumberBin</td>
-</tr>
-
-<tr>
-<td>mf</td>
-<td>LiteralNumberFloat</td>
-</tr>
-
-<tr>
-<td>mh</td>
-<td>LiteralNumberHex</td>
-</tr>
-
-<tr>
-<td>mi</td>
-<td>LiteralNumberInteger</td>
-</tr>
-
-<tr>
-<td>il</td>
-<td>LiteralNumberIntegerLong</td>
-</tr>
-
-<tr>
-<td>mo</td>
-<td>LiteralNumberOct</td>
-</tr>
-
-<tr>
-<td>o</td>
-<td>Operator</td>
-</tr>
-
-<tr>
-<td>ow</td>
-<td>OperatorWord</td>
-</tr>
-
-<tr>
-<td>c</td>
-<td>Comment</td>
-</tr>
-
-<tr>
-<td>ch</td>
-<td>CommentHashbang</td>
-</tr>
-
-<tr>
-<td>cm</td>
-<td>CommentMultiline</td>
-</tr>
-
-<tr>
-<td>c1</td>
-<td>CommentSingle</td>
-</tr>
-
-<tr>
-<td>cs</td>
-<td>CommentSpecial</td>
-</tr>
-
-<tr>
-<td>cp</td>
-<td>CommentPreproc</td>
-</tr>
-
-<tr>
-<td>cpf</td>
-<td>CommentPreprocFile</td>
-</tr>
-
-<tr>
-<td>gd</td>
-<td>GenericDeleted</td>
-</tr>
-
-<tr>
-<td>ge</td>
-<td>GenericEmph</td>
-</tr>
-
-<tr>
-<td>gr</td>
-<td>GenericError</td>
-</tr>
-
-<tr>
-<td>gh</td>
-<td>GenericHeading</td>
-</tr>
-
-<tr>
-<td>gi</td>
-<td>GenericInserted</td>
-</tr>
-
-<tr>
-<td>go</td>
-<td>GenericOutput</td>
-</tr>
-
-<tr>
-<td>gp</td>
-<td>GenericPrompt</td>
-</tr>
-
-<tr>
-<td>gs</td>
-<td>GenericStrong</td>
-</tr>
-
-<tr>
-<td>gu</td>
-<td>GenericSubheading</td>
-</tr>
-
-<tr>
-<td>gt</td>
-<td>GenericTraceback</td>
-</tr>
-
-<tr>
-<td>w</td>
-<td>TextWhitespace</td>
-</tr>
-</tbody>
-</table>
+<div class="highlight"><pre class="chroma"><code class="language-text" data-lang="text">   Class | Type
+---------|------
+err      | Error
+lntd     | LineTableTD
+lntable  | LineTable
+hl       | LineHighlight
+lnt      | LineNumbersTable
+ln       | LineNumbers
+k        | Keyword
+kc       | KeywordConstant
+kd       | KeywordDeclaration
+kn       | KeywordNamespace
+kp       | KeywordPseudo
+kr       | KeywordReserved
+kt       | KeywordType
+na       | NameAttribute
+nb       | NameBuiltin
+nc       | NameClass
+no       | NameConstant
+nd       | NameDecorator
+ni       | NameEntity
+ne       | NameException
+nf       | NameFunction
+nl       | NameLabel
+nn       | NameNamespace
+nt       | NameTag
+nv       | NameVariable
+s        | LiteralString
+sa       | LiteralStringAffix
+sb       | LiteralStringBacktick
+sc       | LiteralStringChar
+dl       | LiteralStringDelimiter
+sd       | LiteralStringDoc
+s2       | LiteralStringDouble
+se       | LiteralStringEscape
+sh       | LiteralStringHeredoc
+si       | LiteralStringInterpol
+sx       | LiteralStringOther
+sr       | LiteralStringRegex
+s1       | LiteralStringSingle
+ss       | LiteralStringSymbol
+m        | LiteralNumber
+mb       | LiteralNumberBin
+mf       | LiteralNumberFloat
+mh       | LiteralNumberHex
+mi       | LiteralNumberInteger
+il       | LiteralNumberIntegerLong
+mo       | LiteralNumberOct
+o        | Operator
+ow       | OperatorWord
+c        | Comment
+ch       | CommentHashbang
+cm       | CommentMultiline
+c1       | CommentSingle
+cs       | CommentSpecial
+cp       | CommentPreproc
+cpf      | CommentPreprocFile
+gd       | GenericDeleted
+ge       | GenericEmph
+gr       | GenericError
+gh       | GenericHeading
+gi       | GenericInserted
+go       | GenericOutput
+gp       | GenericPrompt
+gs       | GenericStrong
+gu       | GenericSubheading
+gt       | GenericTraceback
+w        | TextWhitespace</code></pre></div>
 
 <h2 id="cscb">cscb</h2>
 
