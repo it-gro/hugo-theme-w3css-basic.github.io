@@ -343,11 +343,6 @@
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/09/10/emacs-jokes/</loc>
-    <lastmod>2017-09-10T20:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/09/10/emacs-it-all-starts-here/</loc>
     <lastmod>2017-09-10T19:00:00+01:00</lastmod>
   </url>
@@ -368,6 +363,11 @@
   </url>
   
   <url>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/1985/03/20/emacs-jokes/</loc>
+    <lastmod>1985-03-20T20:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/</loc>
     <lastmod>2017-11-24T08:44:12+01:00</lastmod>
     <priority>0</priority>
@@ -383,26 +383,26 @@
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/development/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/editor/</loc>
-    <lastmod>2017-09-10T20:00:00+01:00</lastmod>
+    <lastmod>2017-09-10T19:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/emacs/</loc>
-    <lastmod>2017-09-10T20:00:00+01:00</lastmod>
+    <lastmod>2017-09-10T19:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -455,13 +455,13 @@
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/golang/</loc>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/golang/</loc>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -609,14 +609,14 @@
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/web/</loc>
-    <lastmod>2017-11-24T08:44:12+01:00</lastmod>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/web/</loc>
+    <lastmod>2017-11-10T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/web/</loc>
-    <lastmod>2017-11-10T00:00:00+01:00</lastmod>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/web/</loc>
+    <lastmod>2017-11-24T08:44:12+01:00</lastmod>
     <priority>0</priority>
   </url>
   
