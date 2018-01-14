@@ -643,9 +643,9 @@ A warning with heading
 <div class="highlight"><pre class="chroma"><code class="language-nolan" data-lang="nolan">... command: {{% w3-codespan %}}startup *all*{{% /w3-codespan %}} just try it...
 ... command: {{&lt; w3-codespan &gt;}}startup *all*{{&lt; /w3-codespan &gt;}} just try it...</code></pre></div>
 
-<p>This is a cool command: <span class="w3-codespan">startup &lt;em&gt;all&lt;/em&gt;</span>
+<p>This is a cool command: <span class="w3-codespan notranslate">startup &lt;em&gt;all&lt;/em&gt;</span>
  just try it&hellip;
-This is a cool command: <span class="w3-codespan">startup *all*</span>
+This is a cool command: <span class="w3-codespan notranslate">startup *all*</span>
  just try it&hellip;</p>
 
 <h2 id="w3-code">w3-code</h2>
@@ -667,7 +667,7 @@ genpasswd $1
 
 <p>renders as</p>
 
-<pre class="w3-code">
+<pre class="w3-code notranslate">
 genpasswd() {
     local l=$1
     [ &#34;$l&#34; == &#34;&#34; ] &amp;&amp; l=16
@@ -729,7 +729,7 @@ genpasswd $1
 <p>renders as</p>
 
 <p>Here&rsquo; a cool command:  
-<code class="chroma" style="font-family: monospace,monospace;"><span class="gp">hugo -w -v server --themesDir ../../ --port 1414 --disableFastRender</span></code> 
+<code class="chroma notranslate" style="font-family: monospace,monospace;"><span class="gp">hugo -w -v server --themesDir ../../ --port 1414 --disableFastRender</span></code> 
 . But you may use this:
 <code>hugo -w server</code>. Have fun.</p>
 
@@ -738,7 +738,7 @@ genpasswd $1
 <p>renders as</p>
 
 <p>You may give a class name 
-<code class="chroma" style="font-family: monospace,monospace;"><span class="k">cool code</span></code> 
+<code class="chroma notranslate" style="font-family: monospace,monospace;"><span class="k">cool code</span></code> 
 .</p>
 
 <p>Background style for csc is in <code>static/css/w3css-basic.css</code>:</p>
@@ -1104,7 +1104,7 @@ static/css/syntax/syntax.bw.css
 <p>renders as</p>
 
 
-<pre><code class="chroma"><span class="s">
+<pre><code class="chroma notranslate"><span class="s">
 static/css/syntax/syntax.autumn.css
 static/css/syntax/syntax.borland.css
 static/css/syntax/syntax.bw.css
@@ -1604,12 +1604,12 @@ foobar
 </p>
 
 <p>given:
-<pre class="w3-code">
+<pre class="w3-code notranslate">
 - id: termNotAvailable
   translation: &#34;empty&#34;
 </pre>
 
-<p>in <span class="w3-codespan">i18n/en.yaml</span>
+<p>in <span class="w3-codespan notranslate">i18n/en.yaml</span>
 </p>
 
 <h2 id="asciicast">asciicast</h2>
