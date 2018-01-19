@@ -437,7 +437,8 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
 <li><a href="#experimental">Experimental</a>
 <ul>
 <li><a href="#lkti-lookup-by-title">lkti: Lookup by Title</a></li>
-<li><a href="#lktx-lookup-in-taxonomy">lktx: Lookup in Taxonomy</a></li>
+<li><a href="#lktt-lookup-by-taxonomy-term-just-one-result">lktt: Lookup by Taxonomy/Term (just one result)</a></li>
+<li><a href="#lktx-lookup-by-taxonomy-full-search">lktx: Lookup by Taxonomy (full search)</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -1740,29 +1741,138 @@ ofm      | 5           | .Title  |                  | (OutputFormat) .Kind .RelP
         <a href="/hugo-theme-w3css-basic.github.io/pages/folder20/vestibulum-convallis/">Vestibulum Convallis</a>&nbsp;</li></ul>
 </p>
 
-<h2 id="lktx-lookup-in-taxonomy">lktx: Lookup in Taxonomy</h2>
+<h2 id="lktt-lookup-by-taxonomy-term-just-one-result">lktt: Lookup by Taxonomy/Term (just one result)</h2>
 
-<ul>
-<li>this is case insentive</li>
-<li>ToDo: allow &ldquo;in&rdquo;: currently just <strong>eq</strong> is implemented</li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Position -1</th>
+<th>Default</th>
+<th>What</th>
+<th>Remark</th>
+</tr>
+</thead>
 
-<div class="highlight"><pre class="chroma"><code class="language-text" data-lang="text">Argument | Position -1 | Default | What             | Remark
----------|-------------|---------|------------------|-------
-search   | 0           |         | string to search | in the taxonomy (of the term below)
-term     | 1           | tags    | term             | a valid taxonomy term
-ofm      | 2           | .Title  |                  | (OutputFormat) .Kind .RelPermalink .Title</code></pre></div>
+<tbody>
+<tr>
+<td>tax</td>
+<td>0</td>
+<td>tags</td>
+<td>taxonomy</td>
+<td></td>
+</tr>
 
-<ul>
-<li>An easy and short usage would be:</li>
-</ul>
+<tr>
+<td>term</td>
+<td>1</td>
+<td>*</td>
+<td>taxonomyterm</td>
+<td></td>
+</tr>
 
-<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">See more here: {{&lt; lktx &#34;go&#34; &gt;}}</code></pre></div>
+<tr>
+<td>ofm</td>
+<td>2</td>
+<td>.Title</td>
+<td></td>
+<td>(OutputFormat) .Kind .RelPermalink .Title</td>
+</tr>
+</tbody>
+</table>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">See more here: {{&lt; lktt term=&#34;Go&#34; &gt;}}</code></pre></div>
+
+<p>See more here: 
+      <a href="/hugo-theme-w3css-basic.github.io/tags/go/">Go       
+      </a>&nbsp;
+</p>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">See more here: {{&lt; lktt &#34;tags&#34; &#34;Go&#34; &gt;}}</code></pre></div>
 
 <p>See more here:       
       <a href="/hugo-theme-w3css-basic.github.io/tags/go/">Go       
       </a>&nbsp;
 </p>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">See more here: {{&lt; lktt &#34;categories&#34; &#34;Golang&#34; &#34;.RelPermalink&#34; &gt;}}</code></pre></div>
+
+<p>See more here:       
+      <a href="/hugo-theme-w3css-basic.github.io/categories/golang/">/hugo-theme-w3css-basic.github.io/categories/golang/
+      </a>&nbsp;
+</p>
+
+<h2 id="lktx-lookup-by-taxonomy-full-search">lktx: Lookup by Taxonomy (full search)</h2>
+
+<ul>
+<li>ignoring case</li>
+</ul>
+
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Position -1</th>
+<th>Default</th>
+<th>What</th>
+<th>Remark</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>tax</td>
+<td>0</td>
+<td>tags</td>
+<td>string to search</td>
+<td>in the taxonomy</td>
+</tr>
+
+<tr>
+<td>term</td>
+<td>1</td>
+<td>*</td>
+<td>string to search</td>
+<td>in the taxonomy term</td>
+</tr>
+
+<tr>
+<td>title</td>
+<td>2</td>
+<td>*</td>
+<td>string to search</td>
+<td>in the title</td>
+</tr>
+
+<tr>
+<td>op</td>
+<td>3</td>
+<td>eq</td>
+<td>en</td>
+<td>in</td>
+</tr>
+
+<tr>
+<td>om</td>
+<td>4</td>
+<td>t</td>
+<td>t,p</td>
+<td>output *t*axonomyterm *p*age</td>
+</tr>
+
+<tr>
+<td>ofm</td>
+<td>5</td>
+<td>.Title</td>
+<td></td>
+<td>(OutputFormat) .Kind .RelPermalink .Title</td>
+</tr>
+</tbody>
+</table>
+
+<ul>
+<li>using positional parameters:</li>
+</ul>
 
 <table>
 <thead>
@@ -1774,42 +1884,185 @@ ofm      | 2           | .Title  |                  | (OutputFormat) .Kind .RelP
 
 <tbody>
 <tr>
-<td>lktx                   search=&ldquo;web&rdquo;</td>
-<td>
-      <a href="/hugo-theme-w3css-basic.github.io/tags/web/">Web       
-      </a>&nbsp;
+<td>lktx &ldquo;*&rdquo; &ldquo;Nullam&rdquo;</td>
+<td>            
+
+<ul>                                                                                            
+            <li><a href="/hugo-theme-w3css-basic.github.io/tags/nullam">tags/nullam</a>                                               
+</ul>
 </td>
 </tr>
 
 <tr>
-<td>lktx term=&ldquo;tags&rdquo;       search=&ldquo;web&rdquo;</td>
+<td>lktx &ldquo;<em>&rdquo; &ldquo;</em>&rdquo; &ldquo;Null&rdquo; &ldquo;in&rdquo; &ldquo;p&rdquo;</td>
+<td>            
+
+<ul>                                
+                <li>categories/know-how
+									<a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder20/folder21/nullam/">Nullam   
+								</a> </li>                                                                                      
+                <li>tags/folder20
+									<a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder20/folder21/nullam/">Nullam   
+								</a> </li>                                                            
+                <li>tags/nullam
+									<a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder20/folder21/nullam/">Nullam   
+								</a> </li>                                                                         
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+<ul>
+<li>using named parameters:</li>
+</ul>
+
+<table>
+<thead>
+<tr>
+<th>Shortcode</th>
+<th>Result</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>lktx tax=&ldquo;tags&rdquo; term=&ldquo;pictures&rdquo; op=&ldquo;in&rdquo;</td>
 <td>
-      <a href="/hugo-theme-w3css-basic.github.io/tags/web/">Web       
-      </a>&nbsp;
+
+<ul>                                                         
+          <li><a href="/hugo-theme-w3css-basic.github.io/tags/pictures">tags/pictures</a>                                        
+</ul>
 </td>
 </tr>
 
 <tr>
-<td>lktx term=&ldquo;categories&rdquo; search=&ldquo;web&rdquo;</td>
+<td>lktx            term=&ldquo;Nullam&rdquo;</td>
 <td>
-      <a href="/hugo-theme-w3css-basic.github.io/categories/web/">Web       
-      </a>&nbsp;
+
+<ul>                                                  
+            <li><a href="/hugo-theme-w3css-basic.github.io/tags/nullam">tags/nullam</a>                                               
+</ul>
 </td>
 </tr>
 
 <tr>
-<td>lktx                   search=&ldquo;web&rdquo; ofm=&ldquo;.Kind .Title&rdquo;</td>
+<td>lktx            term=&ldquo;Nullam&rdquo; om=&ldquo;t&rdquo;</td>
 <td>
-      <a href="/hugo-theme-w3css-basic.github.io/tags/web/">taxonomy:&nbsp;Web       
-      </a>&nbsp;
+
+<ul>                                                  
+            <li><a href="/hugo-theme-w3css-basic.github.io/tags/nullam">tags/nullam</a>                                               
+</ul>
 </td>
 </tr>
 
 <tr>
-<td>lktx                   search=&ldquo;web&rdquo; ofm=&ldquo;.RelPermalink&rdquo;</td>
+<td>lktx            term=&ldquo;Nullam&rdquo; om=&ldquo;p&rdquo;</td>
 <td>
-      <a href="/hugo-theme-w3css-basic.github.io/tags/web/">/hugo-theme-w3css-basic.github.io/tags/web/
-      </a>&nbsp;
+
+<ul>                                                   
+                <li>tags/nullam
+									<a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder30/donec-pretium-posuere/">Donec pretium posuere   
+								</a> </li>
+                <li>tags/nullam
+									<a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder20/folder21/nullam/">Nullam   
+								</a> </li>
+                <li>tags/nullam
+									<a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder30/pellentesque-dapibus-suscipit/">Pellentesque dapibus suscipit   
+								</a> </li>
+                <li>tags/nullam
+									<a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder20/folder21/vestibulum/">Vestibulum   
+								</a> </li>                                               
+</ul>
+</td>
+</tr>
+
+<tr>
+<td>lktx            term=&ldquo;Nullam&rdquo; om=&ldquo;tp&rdquo;</td>
+<td>
+
+<ul>                                                  
+            <li><a href="/hugo-theme-w3css-basic.github.io/tags/nullam">tags/nullam</a> 
+                <li>tags/nullam
+									<a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder30/donec-pretium-posuere/">Donec pretium posuere   
+								</a> </li>
+                <li>tags/nullam
+									<a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder20/folder21/nullam/">Nullam   
+								</a> </li>
+                <li>tags/nullam
+									<a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder30/pellentesque-dapibus-suscipit/">Pellentesque dapibus suscipit   
+								</a> </li>
+                <li>tags/nullam
+									<a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder20/folder21/vestibulum/">Vestibulum   
+								</a> </li>                                               
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th>Shortcode</th>
+<th>Result</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>lktx                   term=&ldquo;web&rdquo;</td>
+<td>
+
+<ul>                                                                             
+            <li><a href="/hugo-theme-w3css-basic.github.io/tags/web">tags/web</a>                    
+</ul>
+</td>
+</tr>
+
+<tr>
+<td>lktx tax=&ldquo;tags&rdquo;        term=&ldquo;web&rdquo; om=&ldquo;p&rdquo;</td>
+<td>
+
+<ul>                                                                              
+                <li>tags/web
+									<a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/10/hugo-dolor/">Hugo - dolor   
+								</a> </li>
+                <li>tags/web
+									<a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/09/hugo-lorem/">Hugo - lorem   
+								</a> </li>
+                <li>tags/web
+									<a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/08/hugo-ipsum/">Hugo - ipsum   
+								</a> </li>                    
+</ul>
+</td>
+</tr>
+
+<tr>
+<td>lktx tax=&ldquo;tags&rdquo;        term=&ldquo;web&rdquo; om=&ldquo;p&rdquo; ofm=&ldquo;.RelPermalink&rdquo;</td>
+<td>
+
+<ul>                                                                              
+                <li>tags/web
+									<a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/10/hugo-dolor/">/hugo-theme-w3css-basic.github.io/blog/2017/11/10/hugo-dolor/
+								</a> </li>
+                <li>tags/web
+									<a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/09/hugo-lorem/">/hugo-theme-w3css-basic.github.io/blog/2017/11/09/hugo-lorem/
+								</a> </li>
+                <li>tags/web
+									<a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/08/hugo-ipsum/">/hugo-theme-w3css-basic.github.io/blog/2017/11/08/hugo-ipsum/
+								</a> </li>                    
+</ul>
+</td>
+</tr>
+
+<tr>
+<td>lktx tax=&ldquo;categories&rdquo;  term=&ldquo;web&rdquo;</td>
+<td>
+
+<ul>                                    
+            <li><a href="/hugo-theme-w3css-basic.github.io/categories/web">categories/web</a>                         
+</ul>
 </td>
 </tr>
 </tbody>
