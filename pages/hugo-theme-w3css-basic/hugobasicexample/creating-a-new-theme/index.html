@@ -1185,7 +1185,7 @@ i&#39;m speechless
     &lt;h1&gt;&lt;a href=&#34;http://localhost:1313/post/first-post/&#34;&gt;first&lt;/a&gt;&lt;/h1&gt;
 &lt;script&gt;document.write(&#39;&lt;script src=&#34;http://&#39;
         + (location.host || &#39;localhost&#39;).split(&#39;:&#39;)[0]
-		+ &#39;:1313/livereload.js?mindelay=10&#34;&gt;&lt;/&#39;
+        + &#39;:1313/livereload.js?mindelay=10&#34;&gt;&lt;/&#39;
         + &#39;script&gt;&#39;)&lt;/script&gt;&lt;/body&gt;
 &lt;/html&gt;</pre></div>
 <p>Notice that the &ldquo;about&rdquo; link is listed with the posts? That&rsquo;s not desirable, so let&rsquo;s change that first.</p>
@@ -1221,8 +1221,8 @@ i&#39;m speechless
 <p>Knowing that hugo is using the slug to generate the file name, the simplest solution is to change the slug. Let&rsquo;s do it the hard way and change the permalink in the configuration file.</p>
 <div class="highlight"><pre class="chroma">$ vi config.toml
 [permalinks]
-	page = &#34;/:title/&#34;
-	about = &#34;/:filename/&#34;</pre></div>
+    page = &#34;/:title/&#34;
+    about = &#34;/:filename/&#34;</pre></div>
 <p>Generate the web site and verify that this didn&rsquo;t work. Hugo lets &ldquo;slug&rdquo; or &ldquo;URL&rdquo; override the permalinks setting in the configuration file. Go ahead and comment out the slug in content/about.md, then generate the web site to get it to be created in the right place.</p>
 
 <h2 id="sharing-templates">Sharing Templates</h2>
@@ -1238,7 +1238,7 @@ i&#39;m speechless
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
-	&lt;title&gt;{{ .Title }}&lt;/title&gt;
+    &lt;title&gt;{{ .Title }}&lt;/title&gt;
 &lt;/head&gt;
 &lt;body&gt;
 :wq
