@@ -28,11 +28,9 @@ https://gohugo.io/templates/shortcode-templates  Shortcodes in this Theme for W3
       <pubDate>Thu, 18 Jan 2018 20:01:00 +0100</pubDate>
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/liti-01/</guid>
-      <description>liti: List by Title {{&amp;lt; liti &amp;quot;About Hugo&amp;quot; &amp;gt;}}
-Here is the page with the title About Hugo&amp;nbsp; {{&amp;lt; liti &amp;quot;pixabay.com&amp;quot; &amp;quot;in&amp;quot; &amp;gt;}} Pages with pixabay.com in it&amp;rsquo;s title.
-Here they are: teaserpics (pixabay.com)&amp;nbsp; photocards (pixabay.com)&amp;nbsp; testimonials (pixabay.com)&amp;nbsp; clients (pixabay.com)&amp;nbsp; jumbotrons (pixabay.com)&amp;nbsp; Gallery pixabay.com&amp;nbsp; All pages with hugo in it&amp;rsquo;s title {{&amp;lt; liti &amp;quot;hugo&amp;quot; &amp;quot;in&amp;quot; &amp;quot;i&amp;quot; &amp;quot;ul&amp;quot; &amp;gt;}}
-Here they are:
-  Migrate to Hugo from Jekyll&amp;nbsp; teaserpics (github.</description>
+      <description>liti: List by Title {{&amp;lt; liti &amp;#34;About Hugo&amp;#34; &amp;gt;}}  Here is the page with the title About Hugo&amp;nbsp;  {{&amp;lt; liti &amp;#34;pixabay.com&amp;#34; &amp;#34;in&amp;#34; &amp;gt;}}  Pages with pixabay.com in it&amp;rsquo;s title.
+Here they are: teaserpics (pixabay.com)&amp;nbsp; photocards (pixabay.com)&amp;nbsp; testimonials (pixabay.com)&amp;nbsp; clients (pixabay.com)&amp;nbsp; jumbotrons (pixabay.com)&amp;nbsp; Gallery pixabay.com&amp;nbsp; All pages with hugo in it&amp;rsquo;s title  {{&amp;lt; liti &amp;#34;hugo&amp;#34; &amp;#34;in&amp;#34; &amp;#34;i&amp;#34; &amp;#34;ul&amp;#34; &amp;gt;}}  Here they are:
+ Migrate to Hugo from Jekyll&amp;nbsp; teaserpics (github.</description>
     </item>
     
     <item>
