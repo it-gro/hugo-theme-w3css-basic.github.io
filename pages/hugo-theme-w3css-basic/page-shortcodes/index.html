@@ -15,7 +15,7 @@
   <meta name="description"           content="example site created with hugo using theme hugo-theme-w3css-basic" />
 
   <!-- back in partials/head.html  -->
-  <title>hugo-theme-w3css-basic exampleSite</title>
+  <title>W3.CSS Basic exampleSite</title>
 
   <meta name="generator" content="Hugo 0.33" />
 
@@ -27,7 +27,7 @@
   <link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.min.css" />
 
   <link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/w3css/4/w3.css" />
-  <link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/w3css/4/w3-theme-light-blue.css" />
+  <link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/w3css/4/w3-theme-light-green.css" />
 
   <link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/css/syntax.min.css" />
   <link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/css/w3css-basic.min.css" />
@@ -1528,7 +1528,7 @@ foobar
 <li>by default this list is not given as a <code>&lt;ul&gt;</code> list - just one or more links without newlines</li>
 <li>search can be done with <a href="https://gohugo.io/functions/eq">eq</a> (which
 is default) or <a href="https://gohugo.io/functions/in">in</a> (substring)</li>
-<li>the case is relevant by default, Use the modifier to ignore the case (mod=&ldquo;i&rdquo;)</li>
+<li>the case is relevant by default. Use the modifier to ignore (mod=&ldquo;i&rdquo;)</li>
 </ul>
 
 <div class="highlight"><pre class="chroma"><code class="language-text" data-lang="text">Argument | Position -1 | Default | What             | Remark
@@ -1550,6 +1550,17 @@ See more here: {{&lt; liti &#34;Vestibulum&#34; &gt;}}
 
 <p>See more here:             
         <a href="/hugo-theme-w3css-basic.github.io/pages/folder20/folder21/vestibulum/">Vestibulum</a>&nbsp;
+</p>
+
+
+<pre><code class="chroma notranslate"><span class="c">
+See more here: {{&lt; liti &#34;highlight&#34; &#34;in&#34; &gt;}}
+</span></code></pre> 
+
+
+<p>See more here:             
+        <a href="/hugo-theme-w3css-basic.github.io/pages/showcase/code-01/">Code highlighting</a>&nbsp;
+        <a href="/hugo-theme-w3css-basic.github.io/blog/2017/11/24/hugo-highlight-chromastyles/">Hugo - <strong>highlight</strong> 🎨</a>&nbsp;
 </p>
 
 <p>Here are more examples using <strong>eq</strong> operator</p>
@@ -1594,9 +1605,9 @@ See more here: {{&lt; liti &#34;Vestibulum&#34; &gt;}}
 <tr>
 <td>{{&lt; liti search=&ldquo;Phasellus&rdquo;  type=&ldquo;all&rdquo;                     ul=&ldquo;1&rdquo; &gt;}}</td>
 <td><ul><li>
-        <a href="/hugo-theme-w3css-basic.github.io/pages/folder20/folder21/folder211/phasellus/">Phasellus       
+        <a href="/hugo-theme-w3css-basic.github.io/pages/folder20/folder21/folder211/phasellus/">Phasellus 
         </a>&nbsp;</li><li>
-        <a href="/hugo-theme-w3css-basic.github.io/tags/phasellus/">Phasellus       
+        <a href="/hugo-theme-w3css-basic.github.io/tags/phasellus/">Phasellus 
         </a>&nbsp;</li></ul>
 </td>
 </tr>
@@ -1604,9 +1615,9 @@ See more here: {{&lt; liti &#34;Vestibulum&#34; &gt;}}
 <tr>
 <td>{{&lt; liti search=&ldquo;Phasellus&rdquo;  type=&ldquo;all&rdquo; ofm=&ldquo;.Title&rdquo;        ul=&ldquo;1&rdquo; &gt;}}</td>
 <td><ul><li>
-        <a href="/hugo-theme-w3css-basic.github.io/pages/folder20/folder21/folder211/phasellus/">Phasellus       
+        <a href="/hugo-theme-w3css-basic.github.io/pages/folder20/folder21/folder211/phasellus/">Phasellus 
         </a>&nbsp;</li><li>
-        <a href="/hugo-theme-w3css-basic.github.io/tags/phasellus/">Phasellus       
+        <a href="/hugo-theme-w3css-basic.github.io/tags/phasellus/">Phasellus 
         </a>&nbsp;</li></ul>
 </td>
 </tr>
@@ -1614,9 +1625,9 @@ See more here: {{&lt; liti &#34;Vestibulum&#34; &gt;}}
 <tr>
 <td>{{&lt; liti search=&ldquo;Phasellus&rdquo;  type=&ldquo;all&rdquo; ofm=&ldquo;.Kind .Title&rdquo;  ul=&ldquo;1&rdquo; &gt;}}</td>
 <td><ul><li>
-        <a href="/hugo-theme-w3css-basic.github.io/pages/folder20/folder21/folder211/phasellus/">page:&nbsp;Phasellus       
+        <a href="/hugo-theme-w3css-basic.github.io/pages/folder20/folder21/folder211/phasellus/">page:&nbsp;Phasellus 
         </a>&nbsp;</li><li>
-        <a href="/hugo-theme-w3css-basic.github.io/tags/phasellus/">taxonomy:&nbsp;Phasellus       
+        <a href="/hugo-theme-w3css-basic.github.io/tags/phasellus/">taxonomy:&nbsp;Phasellus 
         </a>&nbsp;</li></ul>
 </td>
 </tr>
@@ -1662,19 +1673,17 @@ See more here: {{&lt; liti &#34;Vestibulum&#34; &gt;}}
 <tr>
 <td>{{&lt; liti op=&ldquo;in&rdquo; search=&ldquo;theme&rdquo;  type=&ldquo;all&rdquo;                      mod=&ldquo;i&rdquo; ul=&ldquo;1&rdquo; &gt;}}</td>
 <td><ul><li>
-        <a href="/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/hugobasicexample/creating-a-new-theme/">Creating a New Theme       
+        <a href="/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/hugobasicexample/creating-a-new-theme/">Creating a New Theme 
         </a>&nbsp;</li><li>
-        <a href="/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/">About this Theme (this is level /hugo-theme-w3css-basic)       
+        <a href="/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/">About this Theme (this is level /hugo-theme-w3css-basic) 
         </a>&nbsp;</li><li>
-        <a href="/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/">This Theme Shortcodes       
+        <a href="/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/">This Theme Shortcodes 
         </a>&nbsp;</li><li>
-        <a href="/hugo-theme-w3css-basic.github.io/pages/showcase/console-01/">Add a Theme       
+        <a href="/hugo-theme-w3css-basic.github.io/pages/showcase/console-01/">Add a Theme 
         </a>&nbsp;</li><li>
-        <a href="/hugo-theme-w3css-basic.github.io/tags/themes/">Themes       
+        <a href="/hugo-theme-w3css-basic.github.io/tags/themes/">Themes 
         </a>&nbsp;</li><li>
-        <a href="/hugo-theme-w3css-basic.github.io/categories/this-theme/">This Theme       
-        </a>&nbsp;</li><li>
-        <a href="/hugo-theme-w3css-basic.github.io/">hugo-theme-w3css-basic exampleSite       
+        <a href="/hugo-theme-w3css-basic.github.io/categories/this-theme/">This Theme 
         </a>&nbsp;</li></ul>
 </td>
 </tr>
@@ -1682,19 +1691,17 @@ See more here: {{&lt; liti &#34;Vestibulum&#34; &gt;}}
 <tr>
 <td>{{&lt; liti op=&ldquo;in&rdquo; search=&ldquo;theme&rdquo;  type=&ldquo;all&rdquo; ofm=&ldquo;.Kind .Title&rdquo;   mod=&ldquo;i&rdquo; ul=&ldquo;1&rdquo; &gt;}}</td>
 <td><ul><li>
-        <a href="/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/hugobasicexample/creating-a-new-theme/">page:&nbsp;Creating a New Theme       
+        <a href="/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/hugobasicexample/creating-a-new-theme/">page:&nbsp;Creating a New Theme 
         </a>&nbsp;</li><li>
-        <a href="/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/">section:&nbsp;About this Theme (this is level /hugo-theme-w3css-basic)       
+        <a href="/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/">section:&nbsp;About this Theme (this is level /hugo-theme-w3css-basic) 
         </a>&nbsp;</li><li>
-        <a href="/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/">page:&nbsp;This Theme Shortcodes       
+        <a href="/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/">page:&nbsp;This Theme Shortcodes 
         </a>&nbsp;</li><li>
-        <a href="/hugo-theme-w3css-basic.github.io/pages/showcase/console-01/">page:&nbsp;Add a Theme       
+        <a href="/hugo-theme-w3css-basic.github.io/pages/showcase/console-01/">page:&nbsp;Add a Theme 
         </a>&nbsp;</li><li>
-        <a href="/hugo-theme-w3css-basic.github.io/tags/themes/">taxonomy:&nbsp;Themes       
+        <a href="/hugo-theme-w3css-basic.github.io/tags/themes/">taxonomy:&nbsp;Themes 
         </a>&nbsp;</li><li>
-        <a href="/hugo-theme-w3css-basic.github.io/categories/this-theme/">taxonomy:&nbsp;This Theme       
-        </a>&nbsp;</li><li>
-        <a href="/hugo-theme-w3css-basic.github.io/">home:&nbsp;hugo-theme-w3css-basic exampleSite       
+        <a href="/hugo-theme-w3css-basic.github.io/categories/this-theme/">taxonomy:&nbsp;This Theme 
         </a>&nbsp;</li></ul>
 </td>
 </tr>
@@ -1713,8 +1720,6 @@ See more here: {{&lt; liti &#34;Vestibulum&#34; &gt;}}
         <a href="/hugo-theme-w3css-basic.github.io/tags/themes/">/hugo-theme-w3css-basic.github.io/tags/themes/
         </a>&nbsp;</li><li>
         <a href="/hugo-theme-w3css-basic.github.io/categories/this-theme/">/hugo-theme-w3css-basic.github.io/categories/this-theme/
-        </a>&nbsp;</li><li>
-        <a href="/hugo-theme-w3css-basic.github.io/">/hugo-theme-w3css-basic.github.io/
         </a>&nbsp;</li></ul>
 </td>
 </tr>
@@ -1813,8 +1818,8 @@ See more here: {{&lt; litt term=&#34;Go&#34; &gt;}}
 
 
 <p>See more here: 
-      <a href="/hugo-theme-w3css-basic.github.io/tags/go/">Go       
-      </a>&nbsp;
+  <a href="/hugo-theme-w3css-basic.github.io/tags/go/">Go 
+  </a>&nbsp;
 </p>
 
 
@@ -1824,8 +1829,8 @@ See more here: {{&lt; litt &#34;tags&#34; &#34;Go&#34; &gt;}}
 
 
 <p>See more here:       
-      <a href="/hugo-theme-w3css-basic.github.io/tags/go/">Go       
-      </a>&nbsp;
+  <a href="/hugo-theme-w3css-basic.github.io/tags/go/">Go 
+  </a>&nbsp;
 </p>
 
 
@@ -1835,8 +1840,8 @@ See more here: {{&lt; litt &#34;categories&#34; &#34;Golang&#34; &#34;.RelPermal
 
 
 <p>See more here:       
-      <a href="/hugo-theme-w3css-basic.github.io/categories/golang/">/hugo-theme-w3css-basic.github.io/categories/golang/
-      </a>&nbsp;
+  <a href="/hugo-theme-w3css-basic.github.io/categories/golang/">/hugo-theme-w3css-basic.github.io/categories/golang/
+  </a>&nbsp;
 </p>
 
 <h2 id="litx-list-by-taxonomy-full-search">litx: List by Taxonomy (full search)</h2>
@@ -1937,13 +1942,13 @@ See more here: {{&lt; litt &#34;categories&#34; &#34;Golang&#34; &#34;.RelPermal
 
 <ul>                                
                 <li>categories/know-how
-                  <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder20/folder21/nullam/">Nullam   
+                  <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder20/folder21/nullam/">Nullam 
                 </a> </li>                                                                                      
                 <li>tags/folder20
-                  <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder20/folder21/nullam/">Nullam   
+                  <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder20/folder21/nullam/">Nullam 
                 </a> </li>                                                            
                 <li>tags/nullam
-                  <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder20/folder21/nullam/">Nullam   
+                  <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder20/folder21/nullam/">Nullam 
                 </a> </li>                                                                         
 </ul>
 </td>
@@ -1991,16 +1996,16 @@ See more here: {{&lt; litt &#34;categories&#34; &#34;Golang&#34; &#34;.RelPermal
 
 <ul>                                                   
                 <li>tags/nullam
-                  <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder30/donec-pretium-posuere/">Donec pretium posuere   
+                  <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder30/donec-pretium-posuere/">Donec pretium posuere 
                 </a> </li>
                 <li>tags/nullam
-                  <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder20/folder21/nullam/">Nullam   
+                  <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder20/folder21/nullam/">Nullam 
                 </a> </li>
                 <li>tags/nullam
-                  <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder30/pellentesque-dapibus-suscipit/">Pellentesque dapibus suscipit   
+                  <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder30/pellentesque-dapibus-suscipit/">Pellentesque dapibus suscipit 
                 </a> </li>
                 <li>tags/nullam
-                  <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder20/folder21/vestibulum/">Vestibulum   
+                  <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder20/folder21/vestibulum/">Vestibulum 
                 </a> </li>                                               
 </ul>
 </td>
@@ -2013,16 +2018,16 @@ See more here: {{&lt; litt &#34;categories&#34; &#34;Golang&#34; &#34;.RelPermal
 <ul>                                                  
             <li><a href="/hugo-theme-w3css-basic.github.io/tags/nullam">tags/nullam</a> 
                 <li>tags/nullam
-                  <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder30/donec-pretium-posuere/">Donec pretium posuere   
+                  <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder30/donec-pretium-posuere/">Donec pretium posuere 
                 </a> </li>
                 <li>tags/nullam
-                  <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder20/folder21/nullam/">Nullam   
+                  <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder20/folder21/nullam/">Nullam 
                 </a> </li>
                 <li>tags/nullam
-                  <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder30/pellentesque-dapibus-suscipit/">Pellentesque dapibus suscipit   
+                  <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder30/pellentesque-dapibus-suscipit/">Pellentesque dapibus suscipit 
                 </a> </li>
                 <li>tags/nullam
-                  <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder20/folder21/vestibulum/">Vestibulum   
+                  <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder20/folder21/vestibulum/">Vestibulum 
                 </a> </li>                                               
 </ul>
 </td>
@@ -2054,16 +2059,16 @@ See more here: {{&lt; litt &#34;categories&#34; &#34;Golang&#34; &#34;.RelPermal
 
 <ul>                                     
                 <li>categories/web
-                  <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/24/hugo-highlight-chromastyles/">Hugo - **highlight** :art:   
+                  <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/24/hugo-highlight-chromastyles/">Hugo - <strong>highlight</strong> 🎨 
                 </a> </li>                                                                                      
                 <li>tags/web
-                  <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/10/hugo-dolor/">Hugo - dolor   
+                  <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/10/hugo-dolor/">Hugo - dolor 
                 </a> </li>
                 <li>tags/web
-                  <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/09/hugo-lorem/">Hugo - lorem   
+                  <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/09/hugo-lorem/">Hugo - lorem 
                 </a> </li>
                 <li>tags/web
-                  <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/08/hugo-ipsum/">Hugo - ipsum   
+                  <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/08/hugo-ipsum/">Hugo - ipsum 
                 </a> </li>                    
 </ul>
 </td>
