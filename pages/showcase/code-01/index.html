@@ -403,41 +403,41 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
 <span class="hl"><span class="k">use</span> <span class="nn">strict</span><span class="p">;</span>
 </span>
 <span class="hl"><span class="k">while</span><span class="p">(</span><span class="sr">&lt;@ARGV&gt;</span><span class="p">)</span> <span class="p">{</span>
-</span><span class="hl">    <span class="k">my</span> <span class="nv">$my_dir</span> <span class="o">=</span> <span class="nv">$_</span><span class="p">;</span>
-</span>    <span class="nb">die</span><span class="p">(</span><span class="s">&#34;$!&#34;</span><span class="p">)</span> <span class="k">if</span> <span class="p">(</span><span class="ow">not</span> <span class="o">-</span><span class="n">d</span> <span class="nv">$my_dir</span><span class="p">);</span>
-    <span class="nb">chdir</span> <span class="nv">$my_dir</span> <span class="ow">or</span> <span class="nb">die</span><span class="p">(</span><span class="s">&#34;$!&#34;</span><span class="p">);</span>
-    <span class="c1">#if (not -d &#34;thumbs&#34;) {mkdir(&#34;thumbs&#34;) or die(&#34;$!&#34;);}</span>
+</span><span class="hl">  <span class="k">my</span> <span class="nv">$my_dir</span> <span class="o">=</span> <span class="nv">$_</span><span class="p">;</span>
+</span>  <span class="nb">die</span><span class="p">(</span><span class="s">&#34;$!&#34;</span><span class="p">)</span> <span class="k">if</span> <span class="p">(</span><span class="ow">not</span> <span class="o">-</span><span class="n">d</span> <span class="nv">$my_dir</span><span class="p">);</span>
+  <span class="nb">chdir</span> <span class="nv">$my_dir</span> <span class="ow">or</span> <span class="nb">die</span><span class="p">(</span><span class="s">&#34;$!&#34;</span><span class="p">);</span>
+  <span class="c1">#if (not -d &#34;thumbs&#34;) {mkdir(&#34;thumbs&#34;) or die(&#34;$!&#34;);}</span>
 
-    <span class="k">my</span> <span class="nv">$my_ext_regex</span> <span class="o">=</span> <span class="s">&#34;jpg|png|gif|svg&#34;</span><span class="p">;</span>
-    <span class="k">while</span> <span class="p">(</span><span class="nb">glob</span><span class="p">(</span><span class="s">&#34;*.jpg *.png *.gif&#34;</span><span class="p">))</span> <span class="p">{</span>  <span class="c1"># fix svg later</span>
-        <span class="k">my</span> <span class="nv">$my_pic</span> <span class="o">=</span> <span class="nv">$_</span><span class="p">;</span>
-        <span class="k">next</span> <span class="k">if</span> <span class="nv">$my_pic</span> <span class="o">=~</span> <span class="sr">m/-thumb\.($my_ext_regex)$/i</span><span class="p">;</span>
-        <span class="k">my</span> <span class="p">(</span><span class="nv">$my_ext</span><span class="p">)</span> <span class="o">=</span> <span class="p">(</span><span class="nv">$my_pic</span> <span class="o">=~</span> <span class="sr">m/\.($my_ext_regex)$/i</span><span class="p">);</span>
-        <span class="k">my</span> <span class="nv">$my_thumb</span> <span class="o">=</span> <span class="s">&#34;$my_pic&#34;</span><span class="p">;</span>
-        <span class="nv">$my_thumb</span> <span class="o">=~</span> <span class="sr">s/\.($my_ext_regex)$/-thumb.\1/i</span><span class="p">;</span>
-        <span class="nv">$my_ext</span> <span class="o">=~</span> <span class="sr">s/jpg$/jpeg/i</span><span class="p">;</span>
-<span class="hl">        <span class="nb">system</span><span class="p">(</span><span class="s">&#34;convert -define $my_ext:size=500x180 $my_pic -auto-orient -thumbnail 250x90 -unsharp 0x.5 $my_thumb \n&#34;</span><span class="p">);</span>
-</span>    <span class="p">}</span>
+  <span class="k">my</span> <span class="nv">$my_ext_regex</span> <span class="o">=</span> <span class="s">&#34;jpg|png|gif|svg&#34;</span><span class="p">;</span>
+  <span class="k">while</span> <span class="p">(</span><span class="nb">glob</span><span class="p">(</span><span class="s">&#34;*.jpg *.png *.gif&#34;</span><span class="p">))</span> <span class="p">{</span>  <span class="c1"># fix svg later</span>
+    <span class="k">my</span> <span class="nv">$my_pic</span> <span class="o">=</span> <span class="nv">$_</span><span class="p">;</span>
+    <span class="k">next</span> <span class="k">if</span> <span class="nv">$my_pic</span> <span class="o">=~</span> <span class="sr">m/-thumb\.($my_ext_regex)$/i</span><span class="p">;</span>
+    <span class="k">my</span> <span class="p">(</span><span class="nv">$my_ext</span><span class="p">)</span> <span class="o">=</span> <span class="p">(</span><span class="nv">$my_pic</span> <span class="o">=~</span> <span class="sr">m/\.($my_ext_regex)$/i</span><span class="p">);</span>
+    <span class="k">my</span> <span class="nv">$my_thumb</span> <span class="o">=</span> <span class="s">&#34;$my_pic&#34;</span><span class="p">;</span>
+    <span class="nv">$my_thumb</span> <span class="o">=~</span> <span class="sr">s/\.($my_ext_regex)$/-thumb.\1/i</span><span class="p">;</span>
+    <span class="nv">$my_ext</span> <span class="o">=~</span> <span class="sr">s/jpg$/jpeg/i</span><span class="p">;</span>
+<span class="hl">    <span class="nb">system</span><span class="p">(</span><span class="s">&#34;convert -define $my_ext:size=500x180 $my_pic -auto-orient -thumbnail 250x90 -unsharp 0x.5 $my_thumb \n&#34;</span><span class="p">);</span>
+</span>  <span class="p">}</span>
 
-    <span class="k">my</span> <span class="nv">$our_cmd</span> <span class="o">=</span> <span class="s">&#34;
-</span><span class="s">    for file in *.jpg *.png *.gif *.svg; do
-</span><span class="s">        if [ -e \$file ]; then
-</span><span class="s">          set \$(identify \&#34;\$file\&#34;)
-</span><span class="s">          echo \$file \$3
-</span><span class="s">        fi
-</span><span class="s">    done
-</span><span class="s">    &#34;</span><span class="p">;</span>
-     
-    <span class="nb">open</span> <span class="n">INPUT</span><span class="p">,</span> <span class="s">&#34;$our_cmd |&#34;</span> <span class="ow">or</span> <span class="nb">die</span><span class="p">(</span><span class="s">&#34;$!&#34;</span><span class="p">);</span>
-    <span class="nb">printf</span> <span class="s">&#34;{\{&lt; heg-load-photoswipe &gt;}\}\n&#34;</span><span class="p">;</span>
-    <span class="nb">printf</span> <span class="s">&#34;{\{&lt; heg-gallery title=\&#34;$my_dir\&#34; caption-effect=\&#34;none\&#34; hover-effect=\&#34;grow\&#34; &gt;}\}\n&#34;</span><span class="p">;</span>
-    <span class="k">while</span><span class="p">(</span><span class="sr">&lt;INPUT&gt;</span><span class="p">)</span> <span class="p">{</span>
-        <span class="k">my</span> <span class="p">(</span><span class="nv">$my_file</span><span class="p">,</span> <span class="nv">$my_size</span><span class="p">)</span> <span class="o">=</span> <span class="nb">split</span><span class="p">;</span>
-        <span class="k">next</span> <span class="k">if</span> <span class="nv">$my_file</span> <span class="o">=~</span> <span class="sr">m/-thumb\.($my_ext_regex)$/i</span><span class="p">;</span>
-        <span class="nb">printf</span> <span class="s">&#34;{\{&lt; heg-figure thumb=\&#34;%s\&#34; link=\&#34;%s\&#34; size=\&#34;%s\&#34; &gt;}\}\n&#34;</span><span class="p">,</span> <span class="s">&#34;-thumb&#34;</span><span class="p">,</span> <span class="s">&#34;/$my_dir$my_file&#34;</span><span class="p">,</span> <span class="s">&#34;$my_size&#34;</span><span class="p">;</span>
-    <span class="p">}</span>
-    <span class="nb">printf</span> <span class="s">&#34;{\{&lt; /heg-gallery &gt;}\}\n&#34;</span><span class="p">;</span>
-    <span class="nb">close</span> <span class="n">INPUT</span><span class="p">;</span>
+  <span class="k">my</span> <span class="nv">$our_cmd</span> <span class="o">=</span> <span class="s">&#34;
+</span><span class="s">  for file in *.jpg *.png *.gif *.svg; do
+</span><span class="s">    if [ -e \$file ]; then
+</span><span class="s">      set \$(identify \&#34;\$file\&#34;)
+</span><span class="s">      echo \$file \$3
+</span><span class="s">    fi
+</span><span class="s">  done
+</span><span class="s">  &#34;</span><span class="p">;</span>
+   
+  <span class="nb">open</span> <span class="n">INPUT</span><span class="p">,</span> <span class="s">&#34;$our_cmd |&#34;</span> <span class="ow">or</span> <span class="nb">die</span><span class="p">(</span><span class="s">&#34;$!&#34;</span><span class="p">);</span>
+  <span class="nb">printf</span> <span class="s">&#34;{\{&lt; heg-load-photoswipe &gt;}\}\n&#34;</span><span class="p">;</span>
+  <span class="nb">printf</span> <span class="s">&#34;{\{&lt; heg-gallery title=\&#34;$my_dir\&#34; caption-effect=\&#34;none\&#34; hover-effect=\&#34;grow\&#34; &gt;}\}\n&#34;</span><span class="p">;</span>
+  <span class="k">while</span><span class="p">(</span><span class="sr">&lt;INPUT&gt;</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">my</span> <span class="p">(</span><span class="nv">$my_file</span><span class="p">,</span> <span class="nv">$my_size</span><span class="p">)</span> <span class="o">=</span> <span class="nb">split</span><span class="p">;</span>
+    <span class="k">next</span> <span class="k">if</span> <span class="nv">$my_file</span> <span class="o">=~</span> <span class="sr">m/-thumb\.($my_ext_regex)$/i</span><span class="p">;</span>
+    <span class="nb">printf</span> <span class="s">&#34;{\{&lt; heg-figure thumb=\&#34;%s\&#34; link=\&#34;%s\&#34; size=\&#34;%s\&#34; &gt;}\}\n&#34;</span><span class="p">,</span> <span class="s">&#34;-thumb&#34;</span><span class="p">,</span> <span class="s">&#34;/$my_dir$my_file&#34;</span><span class="p">,</span> <span class="s">&#34;$my_size&#34;</span><span class="p">;</span>
+  <span class="p">}</span>
+  <span class="nb">printf</span> <span class="s">&#34;{\{&lt; /heg-gallery &gt;}\}\n&#34;</span><span class="p">;</span>
+  <span class="nb">close</span> <span class="n">INPUT</span><span class="p">;</span>
 
 <span class="p">}</span></code></pre></td></tr></table>
 </div>
