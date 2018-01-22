@@ -700,6 +700,437 @@ example:&lt;/p&gt;
     </item>
     
     <item>
+      <title></title>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/readme/</guid>
+      <description>&lt;h1 id=&#34;w3-css-basic-theme-for-hugo&#34;&gt;W3.CSS Basic Theme for Hugo&lt;/h1&gt;
+
+&lt;p&gt;W3.CSS Basic is a website template built with &lt;a href=&#34;https://www.w3schools.com/w3css/&#34;&gt;W3.CSS&lt;/a&gt;.&lt;br /&gt;
+Inspiration was taken from &lt;a href=&#34;https://themes.gohugo.io/hugo-universal-theme/&#34;&gt;Universal&lt;/a&gt;.
+It is quite &lt;a href=&#34;//github.com/it-gro/hugo-theme-w3css-basic/tree/master/exampleSite/config.toml&#34;&gt;configurable&lt;/a&gt;.
+Change all colors in the blink of an eye&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;See the &lt;a href=&#34;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/&#34;&gt;exampleSite&lt;/a&gt; for a demo.&lt;/p&gt;
+
+&lt;p&gt;This theme is for:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Landing pages&lt;/li&gt;
+&lt;li&gt;Blogs&lt;/li&gt;
+&lt;li&gt;Pages (not blog) in a directory structure with simple navigation (Top/Up/Down &amp;amp; pages on this level)&lt;/li&gt;
+&lt;li&gt;People who like monochromatic colors&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It includes resources from:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.w3schools.com/w3css/&#34;&gt;https://www.w3schools.com/w3css/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fontawesome.com/icons/&#34;&gt;https://fontawesome.com/icons/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://owlcarousel2.github.io/OwlCarousel2/&#34;&gt;https://owlcarousel2.github.io/OwlCarousel2/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://daneden.me/animate&#34;&gt;https://daneden.me/animate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/liwenyip/hugo-easy-gallery/&#34;&gt;https://github.com/liwenyip/hugo-easy-gallery/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://photoswipe.com&#34;&gt;http://photoswipe.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fonts.google.com/&#34;&gt;https://fonts.google.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://translate.google.com&#34;&gt;https://translate.google.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cse.google.com&#34;&gt;https://cse.google.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#goals&#34;&gt;Goals&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#features&#34;&gt;Features&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#configuration&#34;&gt;Configuration&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#language&#34;&gt;Language&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#frontpage&#34;&gt;Frontpage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#marquee&#34;&gt;Marquee&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#jumbotron&#34;&gt;Jumbotron&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#photocards&#34;&gt;Photocards&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#features&#34;&gt;Features&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#recent-posts&#34;&gt;Recent Posts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#see-more&#34;&gt;See More&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#testimonials&#34;&gt;Testimonials&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#clients&#34;&gt;Clients&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#blog&#34;&gt;Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#blog-list&#34;&gt;Blog List&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#date-format&#34;&gt;Date format&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#disqus&#34;&gt;Disqus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#pages&#34;&gt;Pages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#pages-navigation&#34;&gt;Pages Navigation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#color-theme&#34;&gt;Color Theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#emoji&#34;&gt;Emoji&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#summary&#34;&gt;Summary&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#pagination&#34;&gt;Pagination&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#syntax-highlighting&#34;&gt;Syntax Highlighting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#menu&#34;&gt;Menu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#fonts&#34;&gt;Fonts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#contact-map&#34;&gt;Contact Map&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#google-translation&#34;&gt;Google Translation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#google-custom-search-api&#34;&gt;Google Custom Search API&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#footer&#34;&gt;Footer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#tracing&#34;&gt;Tracing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#front-matter&#34;&gt;Front Matter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#favicons&#34;&gt;Favicons&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#shortcodes&#34;&gt;Shortcodes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#gallery&#34;&gt;Gallery&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#figure&#34;&gt;Figure&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#showcase&#34;&gt;Showcase&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#usage&#34;&gt;Usage&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#minifier&#34;&gt;Minifier&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#workarounds&#34;&gt;Workarounds&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#summarylength&#34;&gt;summaryLength&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#shortcode-output-wrapped-in-p&#34;&gt;Shortcode output wrapped in &amp;lt;p&amp;gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#tracking&#34;&gt;Tracking&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#todos&#34;&gt;ToDo&amp;rsquo;s&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#thanks&#34;&gt;Thanks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#more-screenshots&#34;&gt;More Screenshots&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;goals&#34;&gt;Goals&lt;/h2&gt;
+
+&lt;p&gt;My goals for this theme are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;be as universal as the &lt;a href=&#34;https://themes.gohugo.io/hugo-universal-theme/&#34;&gt;Universal&lt;/a&gt; theme&lt;/li&gt;
+&lt;li&gt;create a &lt;a href=&#34;https://www.w3schools.com/w3css/&#34;&gt;W3.CSS&lt;/a&gt; theme (there are many &lt;a href=&#34;https://getbootstrap.com/&#34;&gt;Bootstrap&lt;/a&gt; themes)&lt;/li&gt;
+&lt;li&gt;mobile first, responsive&lt;/li&gt;
+&lt;li&gt;basic usage without javascript has to be possible&lt;/li&gt;
+&lt;li&gt;do as much as possible not to expose visitors to tracking by third-party against their will&lt;/li&gt;
+&lt;li&gt;try to be &lt;a href=&#34;https://en.wikipedia.org/wiki/Don%27t_repeat_yourself&#34;&gt;DRY&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;support experimenting with monochromatic colors&lt;/li&gt;
+&lt;li&gt;use teaser pictures and icons as eye-catcher&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Monochromatic Color Schemes&lt;/li&gt;
+&lt;li&gt;Works with disabled javascript (using fallbacks)&lt;/li&gt;
+&lt;li&gt;Responsive design
+
+&lt;ul&gt;
+&lt;li&gt;3 (medium, lage) or 1 (small) column layout&lt;/li&gt;
+&lt;li&gt;small menu (truncated) on small screen (no collapse)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Customizable landing page
+
+&lt;ul&gt;
+&lt;li&gt;optional marquee (using css)&lt;/li&gt;
+&lt;li&gt;optional data/jumbotron    (carousel (if js is enabled) )&lt;/li&gt;
+&lt;li&gt;optional data/photocards   (optional css animation)&lt;/li&gt;
+&lt;li&gt;optional data/features     (optional css animation)&lt;/li&gt;
+&lt;li&gt;optional data/testimonials (carousel (if js is enabled) )&lt;/li&gt;
+&lt;li&gt;optional data/clients      (carousel (if js is enabled) )&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Fontawesome version 5 (local)&lt;/li&gt;
+&lt;li&gt;Google fonts - either via api or via local files (choose local to reduce tracking)&lt;/li&gt;
+&lt;li&gt;Optional google translate widget (if js is enabled - disable it to reduce tracking)&lt;/li&gt;
+&lt;li&gt;Contact page
+
+&lt;ul&gt;
+&lt;li&gt;optional formspree.io&lt;/li&gt;
+&lt;li&gt;mailto: without formspree.io (avoid tracking &amp;amp; leaking)&lt;/li&gt;
+&lt;li&gt;google map (if js is enabled - do not provide coordinates to reduce tracking)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Search page
+
+&lt;ul&gt;
+&lt;li&gt;google customizable search api (if js is enabled - just do not include search in menu to reduce tracking)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Alternative navigation instead of breadcrumbs (Top/Up/Down &amp;amp; pages on this level)&lt;/li&gt;
+&lt;li&gt;hugo-easy-gallery (including PhotoSwipe which needs js)
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;Go to the directory where you have your Hugo site and run:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;$ mkdir themes
+$ cd themes
+$ git clone https://github.com/it-gro/hugo-theme-w3css-basic&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;For more information read the official &lt;a href=&#34;https://gohugo.io/overview/installing/&#34;&gt;setup guide&lt;/a&gt; of Hugo.&lt;/p&gt;
+
+&lt;h2 id=&#34;configuration&#34;&gt;Configuration&lt;/h2&gt;
+
+&lt;p&gt;After installing the theme we recommend you to take a look at the
+&lt;a href=&#34;//github.com/it-gro/hugo-theme-w3css-basic/tree/master/exampleSite&#34;&gt;exampleSite&lt;/a&gt;
+directory. You will find a working &lt;a href=&#34;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/&#34;&gt;Hugo
+site&lt;/a&gt;
+configured with this theme that you can use as a starting point for
+your site.&lt;/p&gt;
+
+&lt;p&gt;First, let&amp;rsquo;s take a look at the
+&lt;a href=&#34;//github.com/it-gro/hugo-theme-w3css-basic/tree/master/exampleSite/config.toml&#34;&gt;config.toml&lt;/a&gt;. It
+will be useful to learn how to customize your site.&lt;/p&gt;
+
+&lt;h3 id=&#34;language&#34;&gt;Language&lt;/h3&gt;
+
+&lt;p&gt;Available translations are in the &lt;code&gt;/i18n&lt;/code&gt; directory. You can configure
+the language modifying the following key.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;nx&#34;&gt;defaultContentLanguage&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&#34;frontpage&#34;&gt;Frontpage&lt;/h3&gt;
+
+&lt;h4 id=&#34;marquee&#34;&gt;Marquee&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;params.marquee&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# enable or disable marquee&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;enable&lt;span class=&#34;w&#34;&gt;   &lt;/span&gt;=&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;marquee&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;=&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;&amp;#39;&amp;#39;
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;At [info@example.com](mailto:info@example.com) vero eos et **accusam**
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;et justo duo dolores et ea rebum. Stet clita *kasd gubergren*, no sea
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;             &amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Marquee text from right to left&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_100.jpg&#34; alt=&#34;screenshot Marquee &amp;amp; Navbar long&#34; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;jumbotron&#34;&gt;Jumbotron&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;params.jumbotrons&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# used in layouts/partials/front.jumbotrons.carousel.html&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# enable or disable jumbotrons on frontpage&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# see some examples in &amp;#39;exampleSite/data/jumbotron&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;enable&lt;span class=&#34;w&#34;&gt;   &lt;/span&gt;=&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Front jumbotron text only&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_130.jpg&#34; alt=&#34;screenshot Jumbotron Text&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Front jumbotron text &amp;amp; picture&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_140.jpg&#34; alt=&#34;screenshot Jumbotron Text &amp;amp; Pic&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Front jumbotron text &amp;amp; icon&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_150.jpg&#34; alt=&#34;screenshot Jumbotron Text &amp;amp; Icon&#34; /&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;data/jumbotron/
+├── 01-jumbotron.yaml
+├── 02-jumbotron.yaml
+├── 03-jumbotron.yaml
+├── 04-jumbotron.yaml
+└── 05-jumbotron.yaml&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code&gt;01-jumbotron.yaml&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;weight:      1
+title:       &amp;#34;Welcome to hugo-theme-w3css-basic exampleSite&amp;#34;
+icon:        
+image:       
+description: |
+  * Lorem ipsum dolor sit amet
+  * Excepteur sint occaecat cupidatat non proident&lt;/pre&gt;&lt;/div&gt;
+&lt;h4 id=&#34;photocards&#34;&gt;Photocards&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;params.photocards&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# used in layouts/partials/front.photocards.html&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# enable or disable photocards on frontpage&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# see some examples in &amp;#39;exampleSite/data/photocards&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;enable&lt;span class=&#34;w&#34;&gt;   &lt;/span&gt;=&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;animate&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;=&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Front photocards&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_160.jpg&#34; alt=&#34;screenshot Photocards (9)&#34; /&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;data/photocards/
+├── 01-photocard.yaml
+├── 02-photocard.yaml
+├── 03-photocard.yaml
+├── 04-photocard.yaml
+├── 05-photocard.yaml
+├── 06-photocard.yaml
+├── 07-photocard.yaml
+├── 08-photocard.yaml
+└── 09-photocard.yaml&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code&gt;01-photocard.yaml&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;weight:      1
+title:       &amp;#34;Lorem ipsum&amp;#34;
+animated:    &amp;#34;rollIn&amp;#34;
+image:       &amp;#34;images/photocards/pixabay.com/01-photocard.jpg&amp;#34;
+url:         pages/front/photocards/01
+description: |
+   sed diam nonumy &lt;/pre&gt;&lt;/div&gt;
+&lt;h4 id=&#34;features-1&#34;&gt;Features&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;params.features&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# used in layouts/partials/front.features.html&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# enable or disable features on frontpage&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# see some examples in &amp;#39;exampleSite/data/features&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;enable&lt;span class=&#34;w&#34;&gt;   &lt;/span&gt;=&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;animate&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;=&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Front features&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_170.jpg&#34; alt=&#34;screenshot Feature (6)&#34; /&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;data/features/
+├── 01-feature.yaml
+├── 02-feature.yaml
+├── 03-feature.yaml
+├── 04-feature.yaml
+├── 05-feature.yaml
+└── 06-feature.yaml&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code&gt;01-feature.yaml&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;weight:      1
+name:        &amp;#34;Eleifend&amp;#34;
+icon:        &amp;#34;fas fa-desktop&amp;#34;
+animated:    &amp;#34;slideInLeft&amp;#34;
+url:         pages/front/features/01
+description: |
+  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+  nonumy eirmod tempor invidunt ut labore&lt;/pre&gt;&lt;/div&gt;
+&lt;h4 id=&#34;recent-posts&#34;&gt;Recent Posts&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;params.recentPosts&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# used in layouts/partials/footer.html&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;footerNumOfPosts&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;=&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;enableFooter&lt;span class=&#34;w&#34;&gt;   &lt;/span&gt;=&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# used in layouts/partials/front.recent_posts.html&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;enableFront&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;=&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;title&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;=&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;From our Blog&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;subtitle&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;=&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;&amp;#39;&amp;#39;
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;fames ac.
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;             &amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Front recent posts&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_180.jpg&#34; alt=&#34;screenshot Recent Posts&#34; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;see-more&#34;&gt;See More&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;params.seeMore&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# used in layouts/partials/front.see_more.html&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# enable or disable see_more on frontpage&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;enable&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;=&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;icon&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;=&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;far fa-file-code&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;title&lt;span class=&#34;w&#34;&gt;     &lt;/span&gt;=&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Do You want to see More?&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;linkUrl&lt;span class=&#34;w&#34;&gt;   &lt;/span&gt;=&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;/pages&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;linkText&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;=&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;consectetuer adipiscing&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;subtitle&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;=&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;&amp;#39;&amp;#39;
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;              &amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Front see more&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_190.jpg&#34; alt=&#34;screenshot See More&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The background image is defined in &lt;code&gt;/static/css/w3css-basic.css&lt;/code&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;c&#34;&gt;/* -------------------------------------------------- */&lt;/span&gt;
+&lt;span class=&#34;c&#34;&gt;/* front.see_more */&lt;/span&gt;
+
+&lt;span class=&#34;p&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;see_more_background&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;k&#34;&gt;background&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;../images/backgrounds/see_more_background.jpg&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;center&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;top&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;no-repeat&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4 id=&#34;testimonials&#34;&gt;Testimonials&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;params.testimonials&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# used in layouts/partials/front.testimonials.carousel.html&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# enable or disable testimonials on frontpage&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# see some examples in &amp;#39;exampleSite/data/testimonials&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;enable&lt;span class=&#34;w&#34;&gt;   &lt;/span&gt;=&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;title&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;=&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Testimonials&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;subtitle&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;=&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;&amp;#39;&amp;#39;
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;labore et dolore magna aliquyam erat, sed diam voluptua. 
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;             &amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Front testimonials&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_210.jpg&#34; alt=&#34;screenshot Testimonials&#34; /&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;data/testimonials/
+├── 01-testimonial.yaml
+├── 02-testimonial.yaml
+├── 03-testimonial.yaml
+├── 04-testimonial.yaml
+└── 05-testimonial.yaml&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code&gt;01-testimonial.yaml&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;weight:      1
+name:        &amp;#34;John Doe&amp;#34;
+position:    &amp;#34;CEO, Takimata&amp;#34;
+avatar:      &amp;#34;images/testimonials/pixabay.com/person-1.jpg&amp;#34;
+text:        | 
+  Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+  suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem
+  vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+  consequat, vel illum dolore eu feugiat&lt;/pre&gt;&lt;/div&gt;
+&lt;h4 id=&#34;clients&#34;&gt;Clients&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;params.clients&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# used in layouts/partials/front.clients.carousel.html&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# enable or disable clients on frontpage&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# see some examples in &amp;#39;exampleSite/data/clients&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;enable&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;=&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;title&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;=&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Our Clients&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;subtitle&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;=&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;&amp;#39;&amp;#39;
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;**molestie consequat**, vel illum dolore.
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;             &amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Front clients&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_200.jpg&#34; alt=&#34;screenshot Clients&#34; /&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;data/clients/
+├── 01-client.yaml
+├── 02-client.yaml
+├── 03-client.yaml
+├── 04-client.yaml
+├── 05-client.yaml
+└── 06-client.yaml&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code&gt;01-client.yaml&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;weight: 1
+name:   &amp;#34;customer-1&amp;#34;
+image:  &amp;#34;images/clients/pixabay.com/company-logo-1.png&amp;#34;
+url:    &amp;#34;http://www.example.com&amp;#34;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&#34;blog&#34;&gt;Blog&lt;/h3&gt;
+
+&lt;h4 id=&#34;blog-list&#34;&gt;Blog List&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;params.blog&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# used in layouts/blog/list.html&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;title&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;=&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Blog&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;icon&lt;span class=&#34;w&#34;&gt;     &lt;/span&gt;=&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;fas fa-rss&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;subtitle&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;=&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;&amp;#39;&amp;#39;
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;ultricies eget, tempor sit amet, ante
+&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;             &amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Blog with &lt;code&gt;paginate =  6&lt;/code&gt; (short date)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_230.jpg&#34; alt=&#34;screenshot Blog Paginator (6)&#34; /&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;content/blog/
+├── 1985
+│   └── 03
+│       └── emacs-jokes.md
+└── 2017
+    ├── 09
+    │   └── emacs-it-all-starts-here.md
+    ├── 10
+    │   └── golang-a-closer-look.md
+    └── 11
+        ├── hugo-dolor.md
+        ├── hugo-highlight-chromastyles.md
+        ├── hugo-ipsum.md
+        └── hugo-lorem.md&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
       <title>Contact</title>
       <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
