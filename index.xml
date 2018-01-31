@@ -710,7 +710,7 @@ example:&lt;/p&gt;
 &lt;p&gt;W3.CSS Basic is a website template built with &lt;a href=&#34;https://www.w3schools.com/w3css/&#34;&gt;W3.CSS&lt;/a&gt;.&lt;br /&gt;
 Inspiration was taken from &lt;a href=&#34;https://themes.gohugo.io/hugo-universal-theme/&#34;&gt;Universal&lt;/a&gt;.
 It is quite &lt;a href=&#34;//github.com/it-gro/hugo-theme-w3css-basic/tree/master/exampleSite/config.toml&#34;&gt;configurable&lt;/a&gt;.
-Change all colors in the blink of an eye&amp;hellip;&lt;/p&gt;
+Change all colors in the blink of an eye or choose any google font&amp;hellip;&lt;/p&gt;
 
 &lt;p&gt;See the &lt;a href=&#34;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/&#34;&gt;exampleSite&lt;/a&gt; for a demo.&lt;/p&gt;
 
@@ -811,16 +811,16 @@ Change all colors in the blink of an eye&amp;hellip;&lt;/p&gt;
 &lt;li&gt;basic usage without javascript has to be possible&lt;/li&gt;
 &lt;li&gt;do as much as possible not to expose visitors to tracking by third-party against their will&lt;/li&gt;
 &lt;li&gt;try to be &lt;a href=&#34;https://en.wikipedia.org/wiki/Don%27t_repeat_yourself&#34;&gt;DRY&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;support experimenting with monochromatic colors&lt;/li&gt;
+&lt;li&gt;support experimenting with &lt;a href=&#34;https://www.w3schools.com/colors/colors_monochromatic.asp&#34;&gt;monochromatic colors&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;use teaser pictures and icons as eye-catcher&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Monochromatic Color Schemes&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.w3schools.com/colors/colors_monochromatic.asp&#34;&gt;Monochromatic Color&lt;/a&gt; Schemes&lt;/li&gt;
 &lt;li&gt;Works with disabled javascript (using fallbacks)&lt;/li&gt;
-&lt;li&gt;Responsive design
+&lt;li&gt;&lt;a href=&#34;https://search.google.com/test/mobile-friendly?url=https://it-gro.github.io/hugo-theme-w3css-basic.github.io&#34;&gt;Responsive design&lt;/a&gt;
 
 &lt;ul&gt;
 &lt;li&gt;3 (medium, lage) or 1 (small) column layout&lt;/li&gt;
@@ -836,23 +836,23 @@ Change all colors in the blink of an eye&amp;hellip;&lt;/p&gt;
 &lt;li&gt;optional data/testimonials (carousel (if js is enabled) )&lt;/li&gt;
 &lt;li&gt;optional data/clients      (carousel (if js is enabled) )&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Fontawesome version 5 (local)&lt;/li&gt;
-&lt;li&gt;Google fonts - either via api or via local files (choose local to reduce tracking)&lt;/li&gt;
-&lt;li&gt;Optional google translate widget (if js is enabled - disable it to reduce tracking)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fontawesome.com/icons?d=gallery&#34;&gt;Fontawesome&lt;/a&gt; version 5 (local)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fonts.google.com/&#34;&gt;Google fonts&lt;/a&gt; - either via api (any font) or via local files (choose local to reduce tracking)&lt;/li&gt;
+&lt;li&gt;Optional &lt;a href=&#34;https://translate.google.com/manager/website&#34;&gt;google translate&lt;/a&gt; widget (if js is enabled - disable it to reduce tracking)&lt;/li&gt;
 &lt;li&gt;Contact page
 
 &lt;ul&gt;
-&lt;li&gt;optional formspree.io&lt;/li&gt;
-&lt;li&gt;mailto: without formspree.io (avoid tracking &amp;amp; leaking)&lt;/li&gt;
-&lt;li&gt;google map (if js is enabled - do not provide coordinates to reduce tracking)&lt;/li&gt;
+&lt;li&gt;optional &lt;a href=&#34;https://formspree.io&#34;&gt;formspree.io &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;mailto: without &lt;a href=&#34;https://formspree.io&#34;&gt;formspree.io &lt;/a&gt; (avoid tracking &amp;amp; leaking)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developers.google.com/maps/documentation/javascript/&#34;&gt;google map&lt;/a&gt; (if js is enabled - do not provide coordinates to reduce tracking)&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Search page
 
 &lt;ul&gt;
-&lt;li&gt;google customizable search api (if js is enabled - just do not include search in menu to reduce tracking)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cse.google.ch/cse&#34;&gt;google customizable search&lt;/a&gt; api (if js is enabled - just do not include search in menu to reduce tracking)&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Alternative navigation instead of breadcrumbs (Top/Up/Down &amp;amp; pages on this level)&lt;/li&gt;
-&lt;li&gt;hugo-easy-gallery (including PhotoSwipe which needs js)
+&lt;li&gt;&lt;a href=&#34;https://www.liwen.id.au/heg/&#34;&gt;hugo-easy-gallery&lt;/a&gt; (including &lt;a href=&#34;http://photoswipe.com/&#34;&gt;PhotoSwipe&lt;/a&gt; which needs js)
 &lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 

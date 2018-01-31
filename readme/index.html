@@ -35,13 +35,14 @@
   <link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/css/w3css-basic.min.css" />
   <link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/css/custom.css" />
 
-     
+    
   <!-- partials/head.fonts.googleapis.html -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Mono" />
-
+  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Mono" />
   <style>
     html, body, h1, h2, h3, h4, h5, h6
     {
+  
         font-family: 'Ubuntu Mono'     , monospace;
         font-family: 'Ubuntu'          , sans-serif;
     }
@@ -248,7 +249,7 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
 <p>W3.CSS Basic is a website template built with <a href="https://www.w3schools.com/w3css/">W3.CSS</a>.<br />
 Inspiration was taken from <a href="https://themes.gohugo.io/hugo-universal-theme/">Universal</a>.
 It is quite <a href="//github.com/it-gro/hugo-theme-w3css-basic/tree/master/exampleSite/config.toml">configurable</a>.
-Change all colors in the blink of an eye&hellip;</p>
+Change all colors in the blink of an eye or choose any google font&hellip;</p>
 
 <p>See the <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/">exampleSite</a> for a demo.</p>
 
@@ -349,16 +350,16 @@ Change all colors in the blink of an eye&hellip;</p>
 <li>basic usage without javascript has to be possible</li>
 <li>do as much as possible not to expose visitors to tracking by third-party against their will</li>
 <li>try to be <a href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself">DRY</a></li>
-<li>support experimenting with monochromatic colors</li>
+<li>support experimenting with <a href="https://www.w3schools.com/colors/colors_monochromatic.asp">monochromatic colors</a></li>
 <li>use teaser pictures and icons as eye-catcher</li>
 </ul>
 
 <h2 id="features">Features</h2>
 
 <ul>
-<li>Monochromatic Color Schemes</li>
+<li><a href="https://www.w3schools.com/colors/colors_monochromatic.asp">Monochromatic Color</a> Schemes</li>
 <li>Works with disabled javascript (using fallbacks)</li>
-<li>Responsive design
+<li><a href="https://search.google.com/test/mobile-friendly?url=https://it-gro.github.io/hugo-theme-w3css-basic.github.io">Responsive design</a>
 
 <ul>
 <li>3 (medium, lage) or 1 (small) column layout</li>
@@ -374,23 +375,23 @@ Change all colors in the blink of an eye&hellip;</p>
 <li>optional data/testimonials (carousel (if js is enabled) )</li>
 <li>optional data/clients      (carousel (if js is enabled) )</li>
 </ul></li>
-<li>Fontawesome version 5 (local)</li>
-<li>Google fonts - either via api or via local files (choose local to reduce tracking)</li>
-<li>Optional google translate widget (if js is enabled - disable it to reduce tracking)</li>
+<li><a href="https://fontawesome.com/icons?d=gallery">Fontawesome</a> version 5 (local)</li>
+<li><a href="https://fonts.google.com/">Google fonts</a> - either via api (any font) or via local files (choose local to reduce tracking)</li>
+<li>Optional <a href="https://translate.google.com/manager/website">google translate</a> widget (if js is enabled - disable it to reduce tracking)</li>
 <li>Contact page
 
 <ul>
-<li>optional formspree.io</li>
-<li>mailto: without formspree.io (avoid tracking &amp; leaking)</li>
-<li>google map (if js is enabled - do not provide coordinates to reduce tracking)</li>
+<li>optional <a href="https://formspree.io">formspree.io </a></li>
+<li>mailto: without <a href="https://formspree.io">formspree.io </a> (avoid tracking &amp; leaking)</li>
+<li><a href="https://developers.google.com/maps/documentation/javascript/">google map</a> (if js is enabled - do not provide coordinates to reduce tracking)</li>
 </ul></li>
 <li>Search page
 
 <ul>
-<li>google customizable search api (if js is enabled - just do not include search in menu to reduce tracking)</li>
+<li><a href="https://cse.google.ch/cse">google customizable search</a> api (if js is enabled - just do not include search in menu to reduce tracking)</li>
 </ul></li>
 <li>Alternative navigation instead of breadcrumbs (Top/Up/Down &amp; pages on this level)</li>
-<li>hugo-easy-gallery (including PhotoSwipe which needs js)
+<li><a href="https://www.liwen.id.au/heg/">hugo-easy-gallery</a> (including <a href="http://photoswipe.com/">PhotoSwipe</a> which needs js)
 <br /></li>
 </ul>
 
@@ -1123,10 +1124,11 @@ best with any of 3, 6, 9, 12.</p>
 <h3 id="fonts">Fonts</h3>
 <div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">]</span>
   <span class="c"># used in layouts/partials/head.html</span>
+  <span class="c"># if fontsUseGoogleApis=true then choose your fonts in [params.googleApiFonts]  (see below)</span>
   <span class="nx">fontsUseGoogleApis</span><span class="p">=</span><span class="kc">false</span></code></pre></div>
 <ul>
-<li>true: load fonts via Google Font API</li>
-<li>false load fonts from local. Use e.g. <a href="https://google-webfonts-helper.herokuapp.com/fonts">https://google-webfonts-helper.herokuapp.com/fonts</a> to download google fonts.</li>
+<li>false: load fonts from <code>/static/vendor/google/fonts</code>. Use e.g. <a href="https://google-webfonts-helper.herokuapp.com/fonts">https://google-webfonts-helper.herokuapp.com/fonts</a> to download google fonts.</li>
+<li>true: load fonts via Google font API</li>
 </ul>
 <div class="highlight"><pre class="chroma">{{ partial &#34;head.stylesheets.html&#34;      . -}}
   {{- if .Site.Params.fontsUseGoogleApis }}
@@ -1134,6 +1136,85 @@ best with any of 3, 6, 9, 12.</p>
   {{- else }}
     {{ partial &#34;head.fonts.local.html&#34;      . -}}
   {{- end }}</pre></div>
+<h4 id="choose-any-font-via-fonts-googleapis-com">Choose any Font via fonts.googleapis.com</h4>
+
+<p>If you set <code>fontsUseGoogleApis=true</code> you can choose any font from
+<a href="https://fonts.google.com">https://fonts.google.com</a></p>
+
+<p>Here are just a few examples. To start with uncomment one font set.</p>
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">]</span>
+  <span class="c"># only relevant if fontsUseGoogleApis=true</span>
+  <span class="c"># used in partials/head.fonts.googleapis.html</span>
+
+  <span class="c"># choose a google font family name for a generic name</span>
+  <span class="c"># generic names may be empty</span>
+  <span class="c"># default, if no key at all is given in params.googleApiFonts: Ubuntu + Ubuntu Mono</span>
+
+  <span class="c"># (default) Set: Ubuntu</span>
+  <span class="c">#monospace  = &#34;Ubuntu Mono&#34;</span>
+  <span class="c">#sans-serif = &#34;Ubuntu&#34;</span>
+  <span class="c">#serif      = &#34;&#34;</span>
+  <span class="c">#cursive    = &#34;&#34;</span>
+
+  <span class="c"># Set: Glegoo</span>
+  <span class="c">#monospace  = &#34;&#34;</span>
+  <span class="c">#sans-serif = &#34;&#34;</span>
+  <span class="c">#serif      = &#34;Glegoo&#34;</span>
+  <span class="c">#cursive    = &#34;&#34;</span>
+
+  <span class="c"># Set: Days One</span>
+  <span class="nx">monospace</span>  <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+  <span class="nx">sans</span><span class="err">-</span><span class="nx">serif</span> <span class="p">=</span> <span class="s2">&#34;Days One&#34;</span>
+  <span class="nx">serif</span>      <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+  <span class="nx">cursive</span>    <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+
+  <span class="c"># Set: Quantico</span>
+  <span class="c">#monospace  = &#34;&#34;</span>
+  <span class="c">#sans-serif = &#34;Quantico&#34;</span>
+  <span class="c">#serif      = &#34;&#34;</span>
+  <span class="c">#cursive    = &#34;&#34;</span>
+
+  <span class="c"># Set: Roboto</span>
+  <span class="c">#monospace  = &#34;Roboto Mono&#34;</span>
+  <span class="c">#sans-serif = &#34;Roboto&#34;</span>
+  <span class="c">#serif      = &#34;&#34;</span>
+  <span class="c">#cursive    = &#34;&#34;</span>
+
+  <span class="c"># Set: Patrick Hand</span>
+  <span class="c">#monospace  = &#34;&#34;</span>
+  <span class="c">#sans-serif = &#34;&#34;</span>
+  <span class="c">#serif      = &#34;&#34;</span>
+  <span class="c">#cursive    = &#34;Patrick Hand&#34;</span>
+
+  <span class="c"># Set: Rammetto One</span>
+  <span class="c">#monospace  = &#34;&#34;</span>
+  <span class="c">#sans-serif = &#34;&#34;</span>
+  <span class="c">#serif      = &#34;&#34;</span>
+  <span class="c">#cursive    = &#34;Rammetto One&#34;</span>
+
+  <span class="c"># Set: Oxygen</span>
+  <span class="c">#monospace  = &#34;Oxygen Mono&#34;</span>
+  <span class="c">#sans-serif = &#34;Oxygen&#34;</span>
+  <span class="c">#serif      = &#34;&#34;</span>
+  <span class="c">#cursive    = &#34;&#34;</span>
+
+  <span class="c"># Set: Carter One</span>
+  <span class="c">#monospace  = &#34;&#34;</span>
+  <span class="c">#sans-serif = &#34;&#34;</span>
+  <span class="c">#serif      = &#34;&#34;</span>
+  <span class="c">#cursive    = &#34;Carter One&#34;</span>
+
+  <span class="c"># Set: Parisienne</span>
+  <span class="c">#monospace  = &#34;&#34;</span>
+  <span class="c">#sans-serif = &#34;&#34;</span>
+  <span class="c">#serif      = &#34;&#34;</span>
+  <span class="c">#cursive    = &#34;Parisienne&#34;</span>
+
+  <span class="c"># Set: Rochester</span>
+  <span class="c">#monospace  = &#34;&#34;</span>
+  <span class="c">#sans-serif = &#34;&#34;</span>
+  <span class="c">#serif      = &#34;&#34;</span>
+  <span class="c">#cursive    = &#34;Rochester&#34;</span></code></pre></div>
 <h3 id="contact-map">Contact Map</h3>
 <div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">]</span>
   <span class="c"># Google Maps API key</span>
@@ -1368,6 +1449,49 @@ categories:
 ---
 
 
+<script src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/jquery/jquery-3.2.1.slim.min.js"></script>
+<script src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/liwenyip/hugo-easy-gallery/js/load-photoswipe.js"></script>
+<link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/photoswipe/photoswipe.css" />
+<link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/photoswipe/default-skin/default-skin.css" />
+<script src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/photoswipe/photoswipe.min.js">      </script>
+<script src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/photoswipe/photoswipe-ui-theme.js"> </script>
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="pswp__bg"></div>
+<div class="pswp__scroll-wrap">
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
 
 <link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css" />
 <div class="gallery caption-position-bottom caption-effect-none hover-effect-grow hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
@@ -1492,49 +1616,6 @@ categories:
  </pre></div>
 <h2 id="figure">Figure</h2>
 <div class="highlight"><pre class="chroma">
-<script src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/jquery/jquery-3.2.1.slim.min.js"></script>   
-<script src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/liwenyip/hugo-easy-gallery/js/load-photoswipe.js"></script>
-<link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/photoswipe/photoswipe.css" />
-<link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/photoswipe/default-skin/default-skin.css" />
-<script src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/photoswipe/photoswipe.min.js">      </script>
-<script src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/photoswipe/photoswipe-ui-theme.js"> </script>
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-<div class="pswp__bg"></div>
-<div class="pswp__scroll-wrap">
-    <div class="pswp__container">
-      <div class="pswp__item"></div>
-      <div class="pswp__item"></div>
-      <div class="pswp__item"></div>
-    </div>
-    <div class="pswp__ui pswp__ui--hidden">
-    <div class="pswp__top-bar">
-      <div class="pswp__counter"></div>
-      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-      <button class="pswp__button pswp__button--share" title="Share"></button>
-      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-      <div class="pswp__preloader">
-        <div class="pswp__preloader__icn">
-          <div class="pswp__preloader__cut">
-            <div class="pswp__preloader__donut"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-      <div class="pswp__share-tooltip"></div>
-    </div>
-    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-    </button>
-    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-    </button>
-    <div class="pswp__caption">
-      <div class="pswp__caption__center"></div>
-    </div>
-    </div>
-    </div>
-</div>
-
 
 
 
@@ -1726,6 +1807,8 @@ for all their work</p></li>
 <p><img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/tn.1.png" alt="screenshot thumbnail 900x600" /></p>
 
 <p><img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/tn.2.png" alt="screenshot thumbnail 900x600" /></p>
+
+<p><img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/tn.3.png" alt="screenshot thumbnail 900x600" /></p>
 
 <ul>
 <li>Complete</li>
