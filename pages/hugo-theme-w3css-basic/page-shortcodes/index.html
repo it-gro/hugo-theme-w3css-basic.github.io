@@ -523,21 +523,32 @@ A warning with heading
 
 <h2 id="w3-button-icon">w3-button-icon</h2>
 
-<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{% w3-button-icon                                    %}}Hi, i&#39;m a button{{% /w3-button-icon %}}
-{{% w3-button-icon icon=&#34;fas fa-exclamation-triangle&#34; %}}Purge{{% /w3-button-icon %}}
-{{% w3-button-icon href=&#34;https://google.com&#34;          %}}take me to Google{{% /w3-button-icon %}}</code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{% w3-button-icon                                                %}}Hello world{{% /w3-button-icon %}}
+{{% w3-button-icon icon=&#34;fab fa-google&#34; href=&#34;https://google.com&#34; %}}take me to Google{{% /w3-button-icon %}}
+{{% w3-button-icon &#34;/blog&#34;                                        %}}take me to Blog{{% /w3-button-icon %}}
+{{% w3-button-icon &#34;/faq&#34; &#34;far fa-question-circle&#34;                %}}take me to FAQ{{% /w3-button-icon %}}
+{{% w3-button-icon icon=&#34;fas fa-exclamation-triangle&#34; classes=&#34;w3-button w3-circle w3-theme-d3&#34; %}}Purge{{% /w3-button-icon %}}</code></pre></div>
 
-<p>renders to:
+<p>renders to:</p>
+
    
-<a class="w3-button w3-ripple w3-theme-l3 " href="/hugo-theme-w3css-basic.github.io/#">&nbsp;Hi, i&rsquo;m a button</a>
-</p>
-
-
-<a class="w3-button w3-ripple w3-theme-l3 " href="/hugo-theme-w3css-basic.github.io/#"><i class="fa fas fa-exclamation-triangle fa-1x"></i>&nbsp;Purge</a>
+<a class="w3-button w3-ripple w3-theme-l3 " href="/hugo-theme-w3css-basic.github.io/#">&nbsp;Hello world</a>
 
 
 
-<a class="w3-button w3-ripple w3-theme-l3 " href="https://google.com">&nbsp;take me to Google</a>
+<a class="w3-button w3-ripple w3-theme-l3 " href="https://google.com"><i class="fab fa-google fa-1x"></i>&nbsp;take me to Google</a>
+
+
+     
+<a class="w3-button w3-ripple w3-theme-l3 " href="/hugo-theme-w3css-basic.github.io/blog">&nbsp;take me to Blog</a>
+
+
+       
+<a class="w3-button w3-ripple w3-theme-l3 " href="/hugo-theme-w3css-basic.github.io/faq"><i class="far fa-question-circle fa-1x"></i>&nbsp;take me to FAQ</a>
+
+
+
+<a class="w3-button w3-circle w3-theme-d3" href="/hugo-theme-w3css-basic.github.io/#"><i class="fas fa-exclamation-triangle fa-1x"></i>&nbsp;Purge</a>
 
 
 <h2 id="w3-badge">w3-badge</h2>
@@ -1108,7 +1119,7 @@ static/css/syntax/syntax.bw.css
 </div>
 
 
-<link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css" />
+
 
 <div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:135px">
   <figure  itemscope itemtype="http://schema.org/ImageObject">
@@ -1198,7 +1209,7 @@ static/css/syntax/syntax.bw.css
 
 <p>renders as</p>
 
-
+<link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css" />
 
 <div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:640px">
   <figure  itemscope itemtype="http://schema.org/ImageObject">
