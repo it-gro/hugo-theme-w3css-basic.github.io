@@ -851,7 +851,7 @@ Change all colors in the blink of an eye or choose any google font&amp;hellip;&l
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://cse.google.ch/cse&#34;&gt;google customizable search&lt;/a&gt; api (if js is enabled - just do not include search in menu to reduce tracking)&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Alternative navigation instead of breadcrumbs (Top/Up/Down &amp;amp; pages on this level)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#pages-navigation&#34;&gt;Alternative navigation&lt;/a&gt; instead of breadcrumbs (Top/Up/Down &amp;amp; pages on this level)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.liwen.id.au/heg/&#34;&gt;hugo-easy-gallery&lt;/a&gt; (including &lt;a href=&#34;http://photoswipe.com/&#34;&gt;PhotoSwipe&lt;/a&gt; which needs js)
 &lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
