@@ -6,7 +6,7 @@
 <head>
   <!-- hi there - what do you expect to see? ...  -->
     
-  <!-- partials/head.google.analytics.html -->
+  <!-- partials/head.google.gtags.html -->
      
   <!-- partials/head.meta.html -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -280,6 +280,7 @@ Change all colors in the blink of an eye or choose any google font&hellip;</p>
 <li><a href="https://fonts.google.com/">https://fonts.google.com/</a></li>
 <li><a href="https://translate.google.com">https://translate.google.com</a></li>
 <li><a href="https://cse.google.com">https://cse.google.com</a></li>
+<li><a href="https://developers.google.com/gtagjs/devguide/snippet">https://developers.google.com/gtagjs/devguide/snippet</a></li>
 </ul>
 
 <h2 id="table-of-contents">Table of Contents</h2>
@@ -318,6 +319,7 @@ Change all colors in the blink of an eye or choose any google font&hellip;</p>
 <li><a href="#contact-map">Contact Map</a></li>
 <li><a href="#google-translation">Google Translation</a></li>
 <li><a href="#google-custom-search-api">Google Custom Search API</a></li>
+<li><a href="#google-analytics-tracking-using-gtag-js">Google Analytics-Tracking using gtag.js</a></li>
 <li><a href="#footer">Footer</a></li>
 <li><a href="#tracing">Tracing</a></li>
 </ul></li>
@@ -384,6 +386,7 @@ Change all colors in the blink of an eye or choose any google font&hellip;</p>
 <li><a href="https://fontawesome.com/icons?d=gallery">Fontawesome</a> version 5 (local)</li>
 <li><a href="https://fonts.google.com/">Google fonts</a> - either via api (any font) or via local files (choose local to reduce tracking)</li>
 <li>Optional <a href="https://translate.google.com/manager/website">google translate</a> widget (if js is enabled - disable it to reduce tracking)</li>
+<li>Optional <a href="https://developers.google.com/gtagjs/">Google global site tags</a> with your <a href="https://support.google.com/analytics/answer/1008080">GA_TRACKING_ID</a> (do not activate to reduce tracking))</li>
 <li>Contact page
 
 <ul>
@@ -1325,6 +1328,27 @@ is &ldquo;empty&rdquo; :-(</p></li>
 
 <p><img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_310.jpg" alt="screenshot Search no JavaScript" /></p>
 
+<h3 id="google-analytics-tracking-using-gtag-js">Google Analytics-Tracking using gtag.js</h3>
+
+<ul>
+<li>This theme uses the new gtags.js (not the old google analytics.js)</li>
+<li><a href="https://support.google.com/analytics/answer/1008080">Analytics-Tracking using gtag.js</a></li>
+<li><a href="https://developers.google.com/gtagjs/">gtag.js Developer Guide</a></li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="c"># Enable Google Analytics by entering your tracking code</span>
+<span class="nx">googleAnalytics</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+
+<span class="p">[</span><span class="nx">params</span><span class="p">]</span>
+  <span class="c"># https://developers.google.com/gtagjs/</span>
+  <span class="c"># used in layouts/partials/head.google.gtags.html</span>
+  <span class="c"># you need to enter the Tracking-ID above</span>
+  <span class="nx">enableGoogleGtag</span><span class="p">=</span><span class="kc">true</span></code></pre></div>
+<ul>
+<li>Gtag is not used if enableGoogleGtag is not set to true or the tracking code is not given</li>
+</ul>
+<div class="highlight"><pre class="chroma">{{- if and $.Site.Params.enableGooglesGtag $.Site.GoogleAnalytics }}
+  {{- /* &lt;!-- Global site tag (gtag.js) - Google Analytics --&gt; */}}
+  &lt;script async src=&#34;https://www.googletagmanager.com/gtag/js?id={{$.Site.GoogleAnalytics}}&#34;&gt;&lt;/script&gt;</pre></div>
 <h3 id="footer">Footer</h3>
 <div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml">  <span class="c"># used in layouts/partials/footer.html</span>
   <span class="c"># uses markdownify</span>
@@ -1499,7 +1523,7 @@ categories:
 </div>
 
 
-
+<link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css" />
 <div class="gallery caption-position-bottom caption-effect-none hover-effect-grow hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
         
         <div class="box">
@@ -1623,7 +1647,7 @@ categories:
 <h2 id="figure">Figure</h2>
 <div class="highlight"><pre class="chroma">
 
-<link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css" />
+
 
 <div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:640px">
   <figure  itemscope itemtype="http://schema.org/ImageObject">
@@ -1728,12 +1752,13 @@ into the theme (<code>static/vendor/</code>*).</p>
 <h3 id="how-to-minimize-visitors-exposure-to-tracking">How to minimize visitors exposure to tracking</h3>
 
 <ul>
-<li>disable menu.topbar search (google custom search)</li>
+<li>disable google gtags (analytics)</li>
+<li>disable google translate</li>
 <li>disable google fonts apis</li>
 <li>disable google maps</li>
+<li>disable menu.topbar search (google custom search)</li>
 <li>disable formspree (but keep your email)</li>
 <li>do not show a comment counter on the Disqus Button</li>
-<li>disable google translate</li>
 <li>review result e.g. with <a href="https://addons.mozilla.org/en-GB/firefox/addon/lightbeam/">Firefox Lightbeam by Mozilla</a></li>
 </ul>
 <div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="c">#[[menu.topbar]]</span>
