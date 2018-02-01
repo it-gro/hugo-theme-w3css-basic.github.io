@@ -7,6 +7,13 @@
   <!-- hi there - what do you expect to see? ...  -->
     
   <!-- partials/head.google.gtags.html -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113314068-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-113314068-1');
+  </script>
      
   <!-- partials/head.meta.html -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -319,7 +326,7 @@ Change all colors in the blink of an eye or choose any google font&hellip;</p>
 <li><a href="#contact-map">Contact Map</a></li>
 <li><a href="#google-translation">Google Translation</a></li>
 <li><a href="#google-custom-search-api">Google Custom Search API</a></li>
-<li><a href="#google-analytics-tracking-using-gtag-js">Google Analytics-Tracking using gtag.js</a></li>
+<li><a href="#google-analytics-tracking-using-gtagjs">Google Analytics-Tracking using gtag.js</a></li>
 <li><a href="#footer">Footer</a></li>
 <li><a href="#tracing">Tracing</a></li>
 </ul></li>
@@ -1344,7 +1351,7 @@ is &ldquo;empty&rdquo; :-(</p></li>
   <span class="c"># you need to enter the Tracking-ID above</span>
   <span class="nx">enableGoogleGtag</span><span class="p">=</span><span class="kc">true</span></code></pre></div>
 <ul>
-<li>Gtag is not used if enableGoogleGtag is not set to true or the tracking code is not given</li>
+<li>Gtag.js is not used if <code>enableGoogleGtag</code> is not set to <code>true</code> or the tracking code is not given (<code>googleAnalytics</code>)</li>
 </ul>
 <div class="highlight"><pre class="chroma">{{- if and $.Site.Params.enableGooglesGtag $.Site.GoogleAnalytics }}
   {{- /* &lt;!-- Global site tag (gtag.js) - Google Analytics --&gt; */}}
@@ -1479,51 +1486,8 @@ categories:
 ---
 
 
-<script src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/jquery/jquery-3.2.1.slim.min.js"></script>
-<script src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/liwenyip/hugo-easy-gallery/js/load-photoswipe.js"></script>
-<link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/photoswipe/photoswipe.css" />
-<link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/photoswipe/default-skin/default-skin.css" />
-<script src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/photoswipe/photoswipe.min.js">      </script>
-<script src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/photoswipe/photoswipe-ui-theme.js"> </script>
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-<div class="pswp__bg"></div>
-<div class="pswp__scroll-wrap">
-    <div class="pswp__container">
-      <div class="pswp__item"></div>
-      <div class="pswp__item"></div>
-      <div class="pswp__item"></div>
-    </div>
-    <div class="pswp__ui pswp__ui--hidden">
-    <div class="pswp__top-bar">
-      <div class="pswp__counter"></div>
-      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-      <button class="pswp__button pswp__button--share" title="Share"></button>
-      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-      <div class="pswp__preloader">
-        <div class="pswp__preloader__icn">
-          <div class="pswp__preloader__cut">
-            <div class="pswp__preloader__donut"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-      <div class="pswp__share-tooltip"></div>
-    </div>
-    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-    </button>
-    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-    </button>
-    <div class="pswp__caption">
-      <div class="pswp__caption__center"></div>
-    </div>
-    </div>
-    </div>
-</div>
 
 
-<link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css" />
 <div class="gallery caption-position-bottom caption-effect-none hover-effect-grow hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
         
         <div class="box">
@@ -1646,8 +1610,51 @@ categories:
  </pre></div>
 <h2 id="figure">Figure</h2>
 <div class="highlight"><pre class="chroma">
+<script src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/jquery/jquery-3.2.1.slim.min.js"></script>
+<script src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/liwenyip/hugo-easy-gallery/js/load-photoswipe.js"></script>
+<link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/photoswipe/photoswipe.css" />
+<link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/photoswipe/default-skin/default-skin.css" />
+<script src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/photoswipe/photoswipe.min.js">      </script>
+<script src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/photoswipe/photoswipe-ui-theme.js"> </script>
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="pswp__bg"></div>
+<div class="pswp__scroll-wrap">
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
 
 
+<link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css" />
 
 <div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:640px">
   <figure  itemscope itemtype="http://schema.org/ImageObject">
