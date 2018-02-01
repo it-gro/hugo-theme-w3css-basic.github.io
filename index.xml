@@ -735,6 +735,7 @@ Change all colors in the blink of an eye or choose any google font&amp;hellip;&l
 &lt;li&gt;&lt;a href=&#34;https://fonts.google.com/&#34;&gt;https://fonts.google.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://translate.google.com&#34;&gt;https://translate.google.com&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://cse.google.com&#34;&gt;https://cse.google.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developers.google.com/gtagjs/devguide/snippet&#34;&gt;https://developers.google.com/gtagjs/devguide/snippet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
@@ -773,6 +774,7 @@ Change all colors in the blink of an eye or choose any google font&amp;hellip;&l
 &lt;li&gt;&lt;a href=&#34;#contact-map&#34;&gt;Contact Map&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#google-translation&#34;&gt;Google Translation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#google-custom-search-api&#34;&gt;Google Custom Search API&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#google-analytics-tracking-using-gtag-js&#34;&gt;Google Analytics-Tracking using gtag.js&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#footer&#34;&gt;Footer&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#tracing&#34;&gt;Tracing&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
@@ -839,6 +841,7 @@ Change all colors in the blink of an eye or choose any google font&amp;hellip;&l
 &lt;li&gt;&lt;a href=&#34;https://fontawesome.com/icons?d=gallery&#34;&gt;Fontawesome&lt;/a&gt; version 5 (local)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://fonts.google.com/&#34;&gt;Google fonts&lt;/a&gt; - either via api (any font) or via local files (choose local to reduce tracking)&lt;/li&gt;
 &lt;li&gt;Optional &lt;a href=&#34;https://translate.google.com/manager/website&#34;&gt;google translate&lt;/a&gt; widget (if js is enabled - disable it to reduce tracking)&lt;/li&gt;
+&lt;li&gt;Optional &lt;a href=&#34;https://developers.google.com/gtagjs/&#34;&gt;Google global site tags&lt;/a&gt; with your &lt;a href=&#34;https://support.google.com/analytics/answer/1008080&#34;&gt;GA_TRACKING_ID&lt;/a&gt; (do not activate to reduce tracking))&lt;/li&gt;
 &lt;li&gt;Contact page
 
 &lt;ul&gt;
