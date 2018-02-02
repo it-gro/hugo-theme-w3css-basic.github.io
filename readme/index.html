@@ -38,7 +38,7 @@
   <link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.min.css" />
 
   <link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/w3css/4/w3.css" />
-  <link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/w3css/4/w3-theme-light-green.css" />
+  <link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/w3css/4/w3-theme-black.css" />
 
   <link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/css/syntax.min.css" />
   <link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/css/w3css-basic.min.css" />
@@ -264,7 +264,7 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
 <p>W3.CSS Basic is a website template built with <a href="https://www.w3schools.com/w3css/">W3.CSS</a>.<br />
 Inspiration was taken from <a href="https://themes.gohugo.io/hugo-universal-theme/">Universal</a>.
 It is quite <a href="//github.com/it-gro/hugo-theme-w3css-basic/tree/master/exampleSite/config.toml">configurable</a>.
-Change all colors in the blink of an eye or choose Google fonts or use the new Global Site Tags.</p>
+Change all colors in the blink of an eye,  choose Google fonts or use the new Global Site Tags.</p>
 
 <p>See the <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/">exampleSite</a> for a demo.</p>
 
@@ -325,11 +325,11 @@ Change all colors in the blink of an eye or choose Google fonts or use the new G
 <li><a href="#syntax-highlighting">Syntax Highlighting</a></li>
 <li><a href="#menu">Menu</a></li>
 <li><a href="#fonts">Fonts</a></li>
-<li><a href="#choose-any-font-via-fonts-googleapis-com">Choose any Font via fonts.googleapis.com</a></li>
+<li><a href="#choose-any-font-via-googleapis">Choose any Font via googleapis</a></li>
 <li><a href="#contact-map">Contact Map</a></li>
 <li><a href="#google-translation">Google Translation</a></li>
 <li><a href="#google-custom-search-api">Google Custom Search API</a></li>
-<li><a href="#google-analytics-tracking-using-gtagjs">Google Analytics-Tracking using gtag.js</a></li>
+<li><a href="#google-analytics-tracking-using-gtag">Google Analytics-Tracking using gtag</a></li>
 <li><a href="#footer">Footer</a></li>
 <li><a href="#tracing">Tracing</a></li>
 </ul></li>
@@ -1155,12 +1155,12 @@ best with any of 3, 6, 9, 12.</p>
   {{- else }}
     {{ partial &#34;head.fonts.local.html&#34;      . -}}
   {{- end }}</pre></div>
-<h4 id="choose-any-font-via-fonts-googleapis-com">Choose any Font via fonts.googleapis.com</h4>
+<h4 id="choose-any-font-via-googleapis">Choose any Font via googleapis</h4>
 
 <p>If you set <code>fontsUseGoogleApis=true</code> you can choose any font from
 <a href="https://fonts.google.com">https://fonts.google.com</a></p>
 
-<p>Here are just a few examples. To start with uncomment one font set.</p>
+<p>Here are just two examples.</p>
 <div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">]</span>
   <span class="c"># https://www.w3.org/Style/Examples/007/fonts.en.html</span>
   <span class="c"># the predefined generic font names are:</span>
@@ -1232,19 +1232,20 @@ best with any of 3, 6, 9, 12.</p>
 <span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">kbd</span><span class="p">]</span>
 <span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">samp</span><span class="p">]</span></code></pre></div>
 <ul>
-<li>You need to go to <a href="https://fonts.google.com/">https://fonts.google.com/</a> to get your selection.</li>
+<li>You need to go to <a href="https://fonts.google.com/">https://fonts.google.com/</a> to preview the fonts.</li>
 <li>There is a usefull list: <strong>Popular Pairings with &hellip;</strong> under <em>See Specimen</em></li>
 <li>After selecting a Font click <em>Family Selected</em>. You see e.g.:</li>
 </ul>
 
 <blockquote>
-<p>Use the following CSS rules to specify these families:
+<p>Use the following CSS rules to specify these families:<br />
 font-family: &lsquo;Roboto&rsquo;, sans-serif;</p>
 </blockquote>
 
 <p>(Do not add the &ldquo;+&rdquo; sign - this is done in the partial)</p>
 
-<p>Here is a random list of some fonts to choose from:</p>
+<p>Here is a random list of some fonts you may want to try to get the
+impression. Copy them to the [params.googleApiFonts.family.*] sections.</p>
 <div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="nx">sans</span><span class="err">-</span><span class="nx">serif</span> <span class="p">=</span> <span class="s2">&#34;Capriola&#34;</span>
 <span class="nx">sans</span><span class="err">-</span><span class="nx">serif</span> <span class="p">=</span> <span class="s2">&#34;Days One&#34;</span>
 <span class="nx">sans</span><span class="err">-</span><span class="nx">serif</span> <span class="p">=</span> <span class="s2">&#34;Open Sans&#34;</span>
@@ -1378,7 +1379,7 @@ is &ldquo;empty&rdquo; :-(</p></li>
 
 <p><img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_310.jpg" alt="screenshot Search no JavaScript" /></p>
 
-<h3 id="google-analytics-tracking-using-gtag-js">Google Analytics-Tracking using gtag.js</h3>
+<h3 id="google-analytics-tracking-using-gtag">Google Analytics-Tracking using gtag</h3>
 
 <ul>
 <li>The Global Site Tag (gtag.js) is the new version of Google Analytics JavaScript capture API.</li>
@@ -1576,7 +1577,7 @@ categories:
 </div>
 
 
-
+<link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css" />
 <div class="gallery caption-position-bottom caption-effect-none hover-effect-grow hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
         
         <div class="box">
@@ -1700,7 +1701,7 @@ categories:
 <h2 id="figure">Figure</h2>
 <div class="highlight"><pre class="chroma">
 
-<link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css" />
+
 
 <div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:640px">
   <figure  itemscope itemtype="http://schema.org/ImageObject">
