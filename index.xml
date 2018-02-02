@@ -710,7 +710,7 @@ example:&lt;/p&gt;
 &lt;p&gt;W3.CSS Basic is a website template built with &lt;a href=&#34;https://www.w3schools.com/w3css/&#34;&gt;W3.CSS&lt;/a&gt;.&lt;br /&gt;
 Inspiration was taken from &lt;a href=&#34;https://themes.gohugo.io/hugo-universal-theme/&#34;&gt;Universal&lt;/a&gt;.
 It is quite &lt;a href=&#34;//github.com/it-gro/hugo-theme-w3css-basic/tree/master/exampleSite/config.toml&#34;&gt;configurable&lt;/a&gt;.
-Change all colors in the blink of an eye or choose any google font&amp;hellip;&lt;/p&gt;
+Change all colors in the blink of an eye or choose Google fonts or use the new Global Site Tags.&lt;/p&gt;
 
 &lt;p&gt;See the &lt;a href=&#34;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/&#34;&gt;exampleSite&lt;/a&gt; for a demo.&lt;/p&gt;
 
@@ -771,7 +771,7 @@ Change all colors in the blink of an eye or choose any google font&amp;hellip;&l
 &lt;li&gt;&lt;a href=&#34;#syntax-highlighting&#34;&gt;Syntax Highlighting&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#menu&#34;&gt;Menu&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#fonts&#34;&gt;Fonts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#choose-any-font-via-fontsgoogleapiscom&#34;&gt;Choose any Font via fonts.googleapis.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#choose-any-font-via-fonts-googleapis-com&#34;&gt;Choose any Font via fonts.googleapis.com&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#contact-map&#34;&gt;Contact Map&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#google-translation&#34;&gt;Google Translation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#google-custom-search-api&#34;&gt;Google Custom Search API&lt;/a&gt;&lt;/li&gt;
@@ -842,7 +842,7 @@ Change all colors in the blink of an eye or choose any google font&amp;hellip;&l
 &lt;li&gt;&lt;a href=&#34;https://fontawesome.com/icons?d=gallery&#34;&gt;Fontawesome&lt;/a&gt; version 5 (local)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://fonts.google.com/&#34;&gt;Google fonts&lt;/a&gt; - either via api (any font) or via local files (choose local to reduce tracking)&lt;/li&gt;
 &lt;li&gt;Optional &lt;a href=&#34;https://translate.google.com/manager/website&#34;&gt;google translate&lt;/a&gt; widget (if js is enabled - disable it to reduce tracking)&lt;/li&gt;
-&lt;li&gt;Optional &lt;a href=&#34;https://developers.google.com/gtagjs/&#34;&gt;Google global site tags&lt;/a&gt; with your &lt;a href=&#34;https://support.google.com/analytics/answer/1008080&#34;&gt;GA_TRACKING_ID&lt;/a&gt; (do not activate to reduce tracking))&lt;/li&gt;
+&lt;li&gt;Optional  &lt;a href=&#34;https://developers.google.com/gtagjs/&#34;&gt;Google Global Site Tags&lt;/a&gt; with your &lt;a href=&#34;https://support.google.com/analytics/answer/1008080&#34;&gt;GA_TRACKING_ID&lt;/a&gt; (do not activate to reduce tracking))&lt;/li&gt;
 &lt;li&gt;Contact page
 
 &lt;ul&gt;
