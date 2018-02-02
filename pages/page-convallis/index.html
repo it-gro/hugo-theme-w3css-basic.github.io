@@ -1,20 +1,11 @@
 <!DOCTYPE html>
-<html lang="en-us"> 
+<html lang="en-us">
   <!-- _default/baseof.html  -->
   
   <!-- partials/head.html  -->
 <head>
   <!-- hi there - what do you expect to see? ...  -->
-    
-  <!-- partials/head.google.gtags.html -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113314068-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-113314068-1');
-  </script>
-     
+   
   <!-- partials/head.meta.html -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta http-equiv="content-type"    content="text/html; charset=utf-8" />
@@ -24,6 +15,15 @@
   <meta name="author"                content="anonymous" /><meta name="keywords"              content=" Phasellus, tristique, Vestibulum " />
   
   <meta name="description"           content="Etiam **laoreet quam** sed arcu. Phasellus at dui in ligula mollis ultricies. Integer placerat tristique nisl. Praesent augue. " />
+    
+  <!-- partials/head.google.gtags.html -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113314068-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-113314068-1');
+  </script>
     <!-- back in partials/head.html  -->
   <title>W3.CSS Basic exampleSite</title>
 
@@ -46,13 +46,19 @@
 
     
   <!-- partials/head.fonts.googleapis.html -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Days+One" />
-  <style>
-    html, body, h1, h2, h3, h4, h5, h6
-    {
-      font-family: 'Days One', sans-serif;
-    }
-  </style>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Creepster|Space+Mono" />
+  <style> html {font-family: 'Oswald', sans-serif; } </style>
+  <style> body {font-family: 'Oswald', sans-serif; } </style>
+  <style> h1 {font-family: 'Creepster', sans-serif; } </style>
+  <style> h2 {font-family: 'Creepster', sans-serif; } </style>
+  <style> h3 {font-family: 'Creepster', sans-serif; } </style>
+  <style> h4 {font-family: 'Creepster', sans-serif; } </style>
+  <style> h5 {font-family: 'Creepster', sans-serif; } </style>
+  <style> h6 {font-family: 'Creepster', sans-serif; } </style>
+  <style> pre {font-family: 'Space Mono', monospace; } </style>
+  <style> code {font-family: 'Space Mono', monospace; } </style>
+  <style> kbd {font-family: 'Space Mono', monospace; } </style>
+  <style> samp {font-family: 'Space Mono', monospace; } </style>
 
    
   <!-- partials/head.ie.html -->
@@ -78,9 +84,12 @@
   <meta name="msapplication-TileColor"           content="#da532c"  />
   <meta name="theme-color"                       content="#ffffff" />  
 
+  <!-- partials/scripts.top.html -->
+  <script src="/hugo-theme-w3css-basic.github.io/js/custom.top.js"></script> 
+
     <!-- back in partials/head.html  -->
 </head>
- 
+
     <!-- back in _default/baseof.html  -->
 
   <body>
@@ -229,12 +238,12 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
 <a href="/hugo-theme-w3css-basic.github.io/faq" 
    class="w3-bar-item w3-button w3-small w3-hide-large w3-hide-medium"><i class="far fa-question-circle"></i>&nbsp;fa</a>
 </div> 
- 
+
           <!-- back in _default/baseof.html  -->
       </header>
       <div id="canvas" class="w3-container w3-theme-l4 ">
         <!-- _default/single.html (headline)  -->
- 
+
             <!-- block main _default/baseof.html  -->
            
   <!-- partials/head.blog.date.html -->
@@ -255,8 +264,8 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
   />
  
   <!-- partials/main.toc.single.html -->
- 
-            <!-- back in _default/baseof.html  --> 
+
+            <!-- back in _default/baseof.html  -->
             <!-- now Content  -->
           
           
@@ -311,7 +320,7 @@ mollis, magna orci ultrices dolor, at vulputate neque nulla lacinia
 eros. Sed id ligula quis est convallis tempor. Curabitur lacinia
 pulvinar nibh. Nam a sapien.</p>
 
-           
+          
   <!-- partials/main.taxonomy.full.bar.html -->
 <div class="w3-card-4 w3-center w3-round-xxlarge w3-margin-top  w3-margin-bottom w3-theme-l1 ">
   <div class="w3-container w3-padding-small ">
@@ -360,9 +369,9 @@ pulvinar nibh. Nam a sapien.</p>
 
   </div> 
 </div> 
- 
+
         <!-- back in _default/baseof.html  -->
-      </div> 
+      </div>
                <!-- canvas -->
 
       <footer>
@@ -473,15 +482,16 @@ consectetuer adipiscing</p>
   </div>   
 
 </div>     
- 
+
         <!-- back in _default/baseof.html  -->
       
       </footer>
 
-    </div> 
+    </div>
              <!-- all -->
-     
-  <!-- partials/scripts.html -->
+    
+  <!-- partials/scripts.bottom.html -->
+  <script src="/hugo-theme-w3css-basic.github.io/js/custom.bottom.js"></script>
 
   </body>
    

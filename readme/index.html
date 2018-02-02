@@ -1,20 +1,11 @@
 <!DOCTYPE html>
-<html lang="en-us"> 
+<html lang="en-us">
   <!-- _default/baseof.html  -->
   
   <!-- partials/head.html  -->
 <head>
   <!-- hi there - what do you expect to see? ...  -->
-    
-  <!-- partials/head.google.gtags.html -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113314068-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-113314068-1');
-  </script>
-     
+   
   <!-- partials/head.meta.html -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta http-equiv="content-type"    content="text/html; charset=utf-8" />
@@ -24,6 +15,15 @@
   <meta name="author"                content="anonymous" />
   <meta name="keywords"              content="foo, bar" />
   <meta name="description"           content="example site created with hugo using theme hugo-theme-w3css-basic" />
+    
+  <!-- partials/head.google.gtags.html -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113314068-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-113314068-1');
+  </script>
     <!-- back in partials/head.html  -->
   <title>W3.CSS Basic exampleSite</title>
 
@@ -46,13 +46,19 @@
 
     
   <!-- partials/head.fonts.googleapis.html -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Days+One" />
-  <style>
-    html, body, h1, h2, h3, h4, h5, h6
-    {
-      font-family: 'Days One', sans-serif;
-    }
-  </style>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Creepster|Space+Mono" />
+  <style> html {font-family: 'Oswald', sans-serif; } </style>
+  <style> body {font-family: 'Oswald', sans-serif; } </style>
+  <style> h1 {font-family: 'Creepster', sans-serif; } </style>
+  <style> h2 {font-family: 'Creepster', sans-serif; } </style>
+  <style> h3 {font-family: 'Creepster', sans-serif; } </style>
+  <style> h4 {font-family: 'Creepster', sans-serif; } </style>
+  <style> h5 {font-family: 'Creepster', sans-serif; } </style>
+  <style> h6 {font-family: 'Creepster', sans-serif; } </style>
+  <style> pre {font-family: 'Space Mono', monospace; } </style>
+  <style> code {font-family: 'Space Mono', monospace; } </style>
+  <style> kbd {font-family: 'Space Mono', monospace; } </style>
+  <style> samp {font-family: 'Space Mono', monospace; } </style>
 
    
   <!-- partials/head.ie.html -->
@@ -78,9 +84,12 @@
   <meta name="msapplication-TileColor"           content="#da532c"  />
   <meta name="theme-color"                       content="#ffffff" />  
 
+  <!-- partials/scripts.top.html -->
+  <script src="/hugo-theme-w3css-basic.github.io/js/custom.top.js"></script> 
+
     <!-- back in partials/head.html  -->
 </head>
- 
+
     <!-- back in _default/baseof.html  -->
 
   <body>
@@ -229,12 +238,12 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
 <a href="/hugo-theme-w3css-basic.github.io/faq" 
    class="w3-bar-item w3-button w3-small w3-hide-large w3-hide-medium"><i class="far fa-question-circle"></i>&nbsp;fa</a>
 </div> 
- 
+
           <!-- back in _default/baseof.html  -->
       </header>
       <div id="canvas" class="w3-container w3-theme-l4 ">
         <!-- _default/single.html (headline)  -->
- 
+
             <!-- block main _default/baseof.html  -->
            
   <!-- partials/head.blog.date.html -->
@@ -246,8 +255,8 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
   <!-- partials/main.teaserpic.single.html -->
  
   <!-- partials/main.toc.single.html -->
- 
-            <!-- back in _default/baseof.html  --> 
+
+            <!-- back in _default/baseof.html  -->
             <!-- now Content  -->
           
           <h1 id="w3-css-basic-theme-for-hugo">W3.CSS Basic Theme for Hugo</h1>
@@ -255,7 +264,7 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
 <p>W3.CSS Basic is a website template built with <a href="https://www.w3schools.com/w3css/">W3.CSS</a>.<br />
 Inspiration was taken from <a href="https://themes.gohugo.io/hugo-universal-theme/">Universal</a>.
 It is quite <a href="//github.com/it-gro/hugo-theme-w3css-basic/tree/master/exampleSite/config.toml">configurable</a>.
-Change all colors in the blink of an eye or choose any google font&hellip;</p>
+Change all colors in the blink of an eye or choose Google fonts or use the new Global Site Tags.</p>
 
 <p>See the <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/">exampleSite</a> for a demo.</p>
 
@@ -316,7 +325,7 @@ Change all colors in the blink of an eye or choose any google font&hellip;</p>
 <li><a href="#syntax-highlighting">Syntax Highlighting</a></li>
 <li><a href="#menu">Menu</a></li>
 <li><a href="#fonts">Fonts</a></li>
-<li><a href="#choose-any-font-via-fontsgoogleapiscom">Choose any Font via fonts.googleapis.com</a></li>
+<li><a href="#choose-any-font-via-fonts-googleapis-com">Choose any Font via fonts.googleapis.com</a></li>
 <li><a href="#contact-map">Contact Map</a></li>
 <li><a href="#google-translation">Google Translation</a></li>
 <li><a href="#google-custom-search-api">Google Custom Search API</a></li>
@@ -387,7 +396,7 @@ Change all colors in the blink of an eye or choose any google font&hellip;</p>
 <li><a href="https://fontawesome.com/icons?d=gallery">Fontawesome</a> version 5 (local)</li>
 <li><a href="https://fonts.google.com/">Google fonts</a> - either via api (any font) or via local files (choose local to reduce tracking)</li>
 <li>Optional <a href="https://translate.google.com/manager/website">google translate</a> widget (if js is enabled - disable it to reduce tracking)</li>
-<li>Optional <a href="https://developers.google.com/gtagjs/">Google global site tags</a> with your <a href="https://support.google.com/analytics/answer/1008080">GA_TRACKING_ID</a> (do not activate to reduce tracking))</li>
+<li>Optional  <a href="https://developers.google.com/gtagjs/">Google Global Site Tags</a> with your <a href="https://support.google.com/analytics/answer/1008080">GA_TRACKING_ID</a> (do not activate to reduce tracking))</li>
 <li>Contact page
 
 <ul>
@@ -1134,7 +1143,7 @@ best with any of 3, 6, 9, 12.</p>
 <h3 id="fonts">Fonts</h3>
 <div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">]</span>
   <span class="c"># used in layouts/partials/head.html</span>
-  <span class="c"># if fontsUseGoogleApis=true then choose your fonts in [params.googleApiFonts]  (see below)</span>
+  <span class="c"># if fontsUseGoogleApis=true then choose your fonts in [params.googleApiFonts.family.*]  (see below)</span>
   <span class="nx">fontsUseGoogleApis</span><span class="p">=</span><span class="kc">false</span></code></pre></div>
 <ul>
 <li>false: load fonts from <code>/static/vendor/google/fonts</code>. Use e.g. <a href="https://google-webfonts-helper.herokuapp.com/fonts">https://google-webfonts-helper.herokuapp.com/fonts</a> to download google fonts.</li>
@@ -1152,80 +1161,156 @@ best with any of 3, 6, 9, 12.</p>
 <a href="https://fonts.google.com">https://fonts.google.com</a></p>
 
 <p>Here are just a few examples. To start with uncomment one font set.</p>
-<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">]</span>
-  <span class="c"># only relevant if fontsUseGoogleApis=true</span>
-  <span class="c"># used in partials/head.fonts.googleapis.html</span>
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">]</span>
+  <span class="c"># https://www.w3.org/Style/Examples/007/fonts.en.html</span>
+  <span class="c"># the predefined generic font names are:</span>
+  <span class="c"># sans-serif = &#34;&#34;</span>
+  <span class="c"># serif      = &#34;&#34;</span>
+  <span class="c"># monospace  = &#34;&#34;</span>
+  <span class="c"># cursive    = &#34;&#34;</span>
+  <span class="c"># fantasy    = &#34;&#34;</span>
 
-  <span class="c"># choose a google font family name for a generic name</span>
-  <span class="c"># generic names may be empty</span>
-  <span class="c"># default, if no key at all is given in params.googleApiFonts: Ubuntu + Ubuntu Mono</span>
+  <span class="c"># used in static/vendor/w3css/4/w3.css</span>
+  <span class="c">#   code,kbd,pre,samp     : monospace</span>
+  <span class="c">#   html,body             : sans-serif</span>
+  <span class="c">#   h1                    : serif</span>
+  <span class="c">#   h1,h2,h3,h4,h5,h6     : sans-serif</span>
+  <span class="c">#   .w3-code,.w3-codespan : Consolas,&#34;courier new&#34;</span>
 
-  <span class="c"># (default) Set: Ubuntu</span>
-  <span class="c">#monospace  = &#34;Ubuntu Mono&#34;</span>
-  <span class="c">#sans-serif = &#34;Ubuntu&#34;</span>
-  <span class="c">#serif      = &#34;&#34;</span>
-  <span class="c">#cursive    = &#34;&#34;</span>
+<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">html</span><span class="p">]</span>
+  <span class="c"># this is the fallback for body</span>
+  <span class="c"># serif, sans-serif or even cursive</span>
+   <span class="nx">sans</span><span class="err">-</span><span class="nx">serif</span>      <span class="p">=</span> <span class="s2">&#34;Oswald&#34;</span>
+<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">body</span><span class="p">]</span>
+  <span class="c"># probably empty</span>
 
-  <span class="c"># Set: Glegoo</span>
-  <span class="c">#monospace  = &#34;&#34;</span>
-  <span class="c">#sans-serif = &#34;&#34;</span>
-  <span class="c">#serif      = &#34;Glegoo&#34;</span>
-  <span class="c">#cursive    = &#34;&#34;</span>
+<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">h1</span><span class="p">]</span>
+  <span class="c"># this is the fallback for h2.. h6 - if left empty =&gt; html is fallback</span>
+  <span class="c"># serif, sans-serif or even cursive</span>
+  <span class="nx">sans</span><span class="err">-</span><span class="nx">serif</span> <span class="p">=</span> <span class="s2">&#34;Creepster&#34;</span>
+<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">h2</span><span class="p">]</span>
+<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">h3</span><span class="p">]</span>
+<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">h4</span><span class="p">]</span>
+<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">h5</span><span class="p">]</span>
+<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">h6</span><span class="p">]</span>
 
-  <span class="c"># Set: Days One</span>
-  <span class="nx">monospace</span>  <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">pre</span><span class="p">]</span>
+  <span class="c"># this is the fallback for code, kdb, samp - if left empty =&gt; html is fallback</span>
+  <span class="c"># monospace or sans-serif</span>
+  <span class="nx">monospace</span>  <span class="p">=</span> <span class="s2">&#34;Space Mono&#34;</span>
+<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">code</span><span class="p">]</span>
+<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">kbd</span><span class="p">]</span>
+<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">samp</span><span class="p">]</span></code></pre></div>
+<p>This would lead to:</p>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html">  <span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;stylesheet&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;https://fonts.googleapis.com/css?family=Oswald|Creepster|Space+Mono&#34;</span> <span class="p">/</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">html</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Oswald&#39;</span><span class="p">,</span> <span class="kc">sans-serif</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">body</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Oswald&#39;</span><span class="p">,</span> <span class="kc">sans-serif</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">h1</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Creepster&#39;</span><span class="p">,</span> <span class="kc">sans-serif</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">h2</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Creepster&#39;</span><span class="p">,</span> <span class="kc">sans-serif</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">h3</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Creepster&#39;</span><span class="p">,</span> <span class="kc">sans-serif</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">h4</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Creepster&#39;</span><span class="p">,</span> <span class="kc">sans-serif</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">h5</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Creepster&#39;</span><span class="p">,</span> <span class="kc">sans-serif</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">h6</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Creepster&#39;</span><span class="p">,</span> <span class="kc">sans-serif</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">pre</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Space Mono&#39;</span><span class="p">,</span> <span class="kc">monospace</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">code</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Space Mono&#39;</span><span class="p">,</span> <span class="kc">monospace</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">kbd</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Space Mono&#39;</span><span class="p">,</span> <span class="kc">monospace</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">samp</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Space Mono&#39;</span><span class="p">,</span> <span class="kc">monospace</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span></code></pre></div>
+<p>An other example would be:</p>
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">html</span><span class="p">]</span>
+  <span class="nx">sans</span><span class="err">-</span><span class="nx">serif</span> <span class="p">=</span> <span class="s2">&#34;Poppins&#34;</span>
+<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">body</span><span class="p">]</span>
+<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">h1</span><span class="p">]</span>
   <span class="nx">sans</span><span class="err">-</span><span class="nx">serif</span> <span class="p">=</span> <span class="s2">&#34;Days One&#34;</span>
-  <span class="nx">serif</span>      <span class="p">=</span> <span class="s2">&#34;&#34;</span>
-  <span class="nx">cursive</span>    <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">h2</span><span class="p">]</span>
+<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">h3</span><span class="p">]</span>
+<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">h4</span><span class="p">]</span>
+<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">h5</span><span class="p">]</span>
+<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">h6</span><span class="p">]</span>
+<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">pre</span><span class="p">]</span>
+  <span class="nx">monospace</span>  <span class="p">=</span> <span class="s2">&#34;Cousine&#34;</span>
+<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">code</span><span class="p">]</span>
+<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">kbd</span><span class="p">]</span>
+<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">samp</span><span class="p">]</span></code></pre></div>
+<ul>
+<li>You need to go to <a href="https://fonts.google.com/">https://fonts.google.com/</a> to get your selection.</li>
+<li>There is a usefull list: <strong>Popular Pairings with &hellip;</strong> under <em>See Specimen</em></li>
+<li>After selecting a Font click <em>Family Selected</em>. You see e.g.:</li>
+</ul>
 
-  <span class="c"># Set: Roboto</span>
-  <span class="c">#monospace  = &#34;Roboto Mono&#34;</span>
-  <span class="c">#sans-serif = &#34;Roboto&#34;</span>
-  <span class="c">#serif      = &#34;&#34;</span>
-  <span class="c">#cursive    = &#34;&#34;</span>
+<blockquote>
+<p>Use the following CSS rules to specify these families:
+font-family: &lsquo;Roboto&rsquo;, sans-serif;</p>
+</blockquote>
 
-  <span class="c"># Set: Patrick Hand</span>
-  <span class="c">#monospace  = &#34;&#34;</span>
-  <span class="c">#sans-serif = &#34;&#34;</span>
-  <span class="c">#serif      = &#34;&#34;</span>
-  <span class="c">#cursive    = &#34;Patrick Hand&#34;</span></code></pre></div>
+<p>(Do not add the &ldquo;+&rdquo; sign - this is done in the partial)</p>
+
+<p>Here is a random list of some fonts to choose from:</p>
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="nx">sans</span><span class="err">-</span><span class="nx">serif</span> <span class="p">=</span> <span class="s2">&#34;Capriola&#34;</span>
+<span class="nx">sans</span><span class="err">-</span><span class="nx">serif</span> <span class="p">=</span> <span class="s2">&#34;Days One&#34;</span>
+<span class="nx">sans</span><span class="err">-</span><span class="nx">serif</span> <span class="p">=</span> <span class="s2">&#34;Open Sans&#34;</span>
+<span class="nx">sans</span><span class="err">-</span><span class="nx">serif</span> <span class="p">=</span> <span class="s2">&#34;Oswald&#34;</span>
+<span class="nx">sans</span><span class="err">-</span><span class="nx">serif</span> <span class="p">=</span> <span class="s2">&#34;Oxygen&#34;</span>
+<span class="nx">sans</span><span class="err">-</span><span class="nx">serif</span> <span class="p">=</span> <span class="s2">&#34;Paytone One&#34;</span>
+<span class="nx">sans</span><span class="err">-</span><span class="nx">serif</span> <span class="p">=</span> <span class="s2">&#34;Poppins&#34;</span>
+<span class="nx">sans</span><span class="err">-</span><span class="nx">serif</span> <span class="p">=</span> <span class="s2">&#34;Quantico&#34;</span>
+<span class="nx">sans</span><span class="err">-</span><span class="nx">serif</span> <span class="p">=</span> <span class="s2">&#34;Raleway&#34;</span>
+<span class="nx">sans</span><span class="err">-</span><span class="nx">serif</span> <span class="p">=</span> <span class="s2">&#34;Roboto&#34;</span>
+<span class="nx">sans</span><span class="err">-</span><span class="nx">serif</span> <span class="p">=</span> <span class="s2">&#34;Ubuntu&#34;</span>
+
+<span class="nx">serif</span>      <span class="p">=</span> <span class="s2">&#34;Gabriela&#34;</span>
+<span class="nx">serif</span>      <span class="p">=</span> <span class="s2">&#34;Glegoo&#34;</span>
+<span class="nx">serif</span>      <span class="p">=</span> <span class="s2">&#34;Noticia Text&#34;</span>
+<span class="nx">serif</span>      <span class="p">=</span> <span class="s2">&#34;Roboto Slab&#34;</span>
+
+<span class="nx">monospace</span>  <span class="p">=</span> <span class="s2">&#34;Cousine&#34;</span>
+<span class="nx">monospace</span>  <span class="p">=</span> <span class="s2">&#34;Oxygen Mono&#34;</span>
+<span class="nx">monospace</span>  <span class="p">=</span> <span class="s2">&#34;Roboto Mono&#34;</span>
+<span class="nx">monospace</span>  <span class="p">=</span> <span class="s2">&#34;Space Mono&#34;</span>
+<span class="nx">monospace</span>  <span class="p">=</span> <span class="s2">&#34;Ubuntu Mono&#34;</span>
+
+<span class="nx">cursive</span>    <span class="p">=</span> <span class="s2">&#34;Caesar Dressing&#34;</span>
+<span class="nx">cursive</span>    <span class="p">=</span> <span class="s2">&#34;Carter One&#34;</span>
+<span class="nx">cursive</span>    <span class="p">=</span> <span class="s2">&#34;Courgette&#34;</span>
+<span class="nx">cursive</span>    <span class="p">=</span> <span class="s2">&#34;Creepster&#34;</span>
+<span class="nx">cursive</span>    <span class="p">=</span> <span class="s2">&#34;Parisienne&#34;</span>
+<span class="nx">cursive</span>    <span class="p">=</span> <span class="s2">&#34;Patrick Hand&#34;</span>
+<span class="nx">cursive</span>    <span class="p">=</span> <span class="s2">&#34;Rammetto One&#34;</span>
+<span class="nx">cursive</span>    <span class="p">=</span> <span class="s2">&#34;Rochester&#34;</span>
+<span class="nx">cursive</span>    <span class="p">=</span> <span class="s2">&#34;Romanesco&#34;</span></code></pre></div>
 <h3 id="contact-map">Contact Map</h3>
-<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">]</span>
-  <span class="c"># Google Maps API key</span>
-  <span class="c"># get our own: https://developers.google.com/maps/documentation/javascript/adding-a-google-map#key</span>
-  <span class="c"># used in layouts/partials/contact.map.html</span>
-  <span class="c"># if empty =&gt; fallback to URL (instead of map)</span>
-  <span class="c"># define environment variable (=&gt; key is not stored in github)</span>
-  <span class="nx">envGoogleMapsApiKey</span> <span class="p">=</span> <span class="s2">&#34;GoogleMapsApiKey&#34;</span>
-  <span class="c"># if environment is not an option =&gt; define key here:</span>
-  <span class="c">#googleMapsApiKey = &#34;&#34;</span>
 
-  <span class="c">#googleMapsZoom   = 14</span>
-  <span class="nx">googleMapsZoom</span>   <span class="p">=</span> <span class="mi">3</span>
-  <span class="nx">latitude</span>         <span class="p">=</span> <span class="mf">46.946692</span>
-  <span class="nx">longitude</span>        <span class="p">=</span>  <span class="mf">7.444186</span></code></pre></div>
-<ul>
-<li>Contact form with map</li>
-</ul>
+<p>```toml [params] # Google Maps API key # get our own:
+<a href="https://developers.google.com/maps/documentation/javascript/adding-a-google-map#key">https://developers.google.com/maps/documentation/javascript/adding-a-google-map#key</a></p>
 
-<p><img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_290.jpg" alt="screenshot Contact" /></p>
+<h1 id="used-in-layouts-partials-contact-map-html-if-empty-fallback-to-url">used in layouts/partials/contact.map.html # if empty =&gt; fallback to URL</h1>
 
-<ul>
-<li>Contact form with disabled Javascript</li>
-</ul>
+<p>(instead of map) # define environment variable (=&gt; key is not stored in github)
+envGoogleMapsApiKey = &ldquo;GoogleMapsApiKey&rdquo; # if environment is not an option =&gt;
+define key here: #googleMapsApiKey = &ldquo;&rdquo;</p>
 
-<p><img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_300.jpg" alt="screenshot Contact no JavaScript" /></p>
+<p>#googleMapsZoom   = 14
+  googleMapsZoom   = 3
+  latitude         = 46.946692
+  longitude        =  7.444186</p>
+<div class="highlight"><pre class="chroma">* Contact form with map
 
-<ul>
-<li>if no latitude or longitude is given, no map is shown</li>
-</ul>
+![screenshot Contact](https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_290.jpg)
 
-<h3 id="google-translation">Google Translation</h3>
+* Contact form with disabled Javascript
 
-<p><img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_305.jpg" alt="screenshot Google Translate" /></p>
-<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">menuTopBar</span><span class="p">]</span>
-  <span class="nx">googleTranslateEnable</span>    <span class="p">=</span> <span class="kc">true</span>
-  <span class="nx">googleTranslateShowOnHome</span><span class="p">=</span> <span class="kc">false</span></code></pre></div>
+![screenshot Contact no JavaScript](https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_300.jpg)
+
+* if no latitude or longitude is given, no map is shown
+
+
+### Google Translation
+
+![screenshot Google Translate](https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_305.jpg)
+
+```toml
+[params.menuTopBar]
+  googleTranslateEnable    = true
+  googleTranslateShowOnHome= false</pre></div>
 <ul>
 <li>the google translate widget is not shown:
 
@@ -1296,6 +1381,7 @@ is &ldquo;empty&rdquo; :-(</p></li>
 <h3 id="google-analytics-tracking-using-gtag-js">Google Analytics-Tracking using gtag.js</h3>
 
 <ul>
+<li>The Global Site Tag (gtag.js) is the new version of Google Analytics JavaScript capture API.</li>
 <li>This theme uses the new gtags.js (not the old google analytics.js)</li>
 <li><a href="https://support.google.com/analytics/answer/1008080">Analytics-Tracking using gtag.js</a></li>
 <li><a href="https://developers.google.com/gtagjs/">gtag.js Developer Guide</a></li>
@@ -1814,12 +1900,12 @@ for all their work</p></li>
 <p><img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/complete.png" alt="screenshot complete" /></p>
 
 <hr />
-           
+          
   <!-- partials/main.taxonomy.full.bar.html -->
 <div class="w3-container w3-padding-small "></div>
- 
+
         <!-- back in _default/baseof.html  -->
-      </div> 
+      </div>
                <!-- canvas -->
 
       <footer>
@@ -1930,15 +2016,16 @@ consectetuer adipiscing</p>
   </div>   
 
 </div>     
- 
+
         <!-- back in _default/baseof.html  -->
       
       </footer>
 
-    </div> 
+    </div>
              <!-- all -->
-     
-  <!-- partials/scripts.html -->
+    
+  <!-- partials/scripts.bottom.html -->
+  <script src="/hugo-theme-w3css-basic.github.io/js/custom.bottom.js"></script>
 
   </body>
    
