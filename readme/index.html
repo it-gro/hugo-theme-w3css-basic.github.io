@@ -46,9 +46,19 @@
 
     
   <!-- partials/head.fonts.googleapis.html -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Creepster|Space+Mono" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Creepster|Creepster|Space+Mono" />
   <style> html {font-family: 'Oswald', sans-serif; } </style>
   <style> body {font-family: 'Oswald', sans-serif; } </style>
+  <style> abbr {font-family: 'Oswald', sans-serif; } </style>
+  <style> address {font-family: 'Oswald', sans-serif; } </style>
+  <style> blockquote {font-family: 'Oswald', sans-serif; } </style>
+  <style> cite {font-family: 'Oswald', sans-serif; } </style>
+  <style> dfn {font-family: 'Oswald', sans-serif; } </style>
+  <style> em {font-family: 'Oswald', sans-serif; } </style>
+  <style> ins {font-family: 'Oswald', sans-serif; } </style>
+  <style> mark {font-family: 'Oswald', sans-serif; } </style>
+  <style> s {font-family: 'Oswald', sans-serif; } </style>
+  <style> time {font-family: 'Creepster', cursive; } </style>
   <style> h1 {font-family: 'Creepster', sans-serif; } </style>
   <style> h2 {font-family: 'Creepster', sans-serif; } </style>
   <style> h3 {font-family: 'Creepster', sans-serif; } </style>
@@ -58,7 +68,7 @@
   <style> pre {font-family: 'Space Mono', monospace; } </style>
   <style> code {font-family: 'Space Mono', monospace; } </style>
   <style> kbd {font-family: 'Space Mono', monospace; } </style>
-  <style> samp {font-family: 'Space Mono', monospace; } </style>
+  <style> samp {font-family: 'Space Mono', monospace; } </style>   
 
    
   <!-- partials/head.ie.html -->
@@ -263,7 +273,7 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
 
 <p>W3.CSS Basic is a website template built with <a href="https://www.w3schools.com/w3css/">W3.CSS</a>.<br />
 Inspiration was taken from <a href="https://themes.gohugo.io/hugo-universal-theme/">Universal</a>.
-It is quite <a href="//github.com/it-gro/hugo-theme-w3css-basic/tree/master/exampleSite/config.toml">configurable</a>.
+It is quite <a href="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/exampleSite/config.toml">configurable</a>.
 Change all colors in the blink of an eye,  choose Google fonts or use the new Global Site Tags.</p>
 
 <p>See the <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/">exampleSite</a> for a demo.</p>
@@ -1160,7 +1170,14 @@ best with any of 3, 6, 9, 12.</p>
 <p>If you set <code>fontsUseGoogleApis=true</code> you can choose any font from
 <a href="https://fonts.google.com">https://fonts.google.com</a></p>
 
-<p>Here are just two examples.</p>
+<p>Hash Borgir had a very good idea: <a href="https://discourse.gohugo.io/t/how-to-dynamically-use-google-fonts-in-a-hugo-website-config-toml/4423">discourse.gohugo.io</a>.
+He wrote an aricle: <a href="https://stoned.io/web-development/hugo/How-To-Dynamically-Use-Google-Fonts-In-A-Hugo-Website/">How To Dynamically Use Google Fonts In A Hugo Website</a>.</p>
+
+<p>I had the same goal - here&rsquo;s my implementation. It&rsquo;s all done in the
+<a href="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/exampleSite/config.toml">config.yaml</a>
+file.</p>
+
+<p>Here&rsquo;s the relevant part:</p>
 <div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">]</span>
   <span class="c"># https://www.w3.org/Style/Examples/007/fonts.en.html</span>
   <span class="c"># the predefined generic font names are:</span>
@@ -1177,34 +1194,46 @@ best with any of 3, 6, 9, 12.</p>
   <span class="c">#   h1,h2,h3,h4,h5,h6     : sans-serif</span>
   <span class="c">#   .w3-code,.w3-codespan : Consolas,&#34;courier new&#34;</span>
 
+  <span class="c"># https://www.w3schools.com/tags/ref_byfunc.asp</span>
+  <span class="c"># tagsText        = [ &#34;html&#34;, &#34;body&#34; ]</span>
+  <span class="nx">tagsText</span>        <span class="p">=</span> <span class="p">[</span> <span class="s2">&#34;html&#34;</span><span class="p">,</span> <span class="s2">&#34;body&#34;</span><span class="p">,</span> <span class="s2">&#34;abbr&#34;</span><span class="p">,</span> <span class="s2">&#34;address&#34;</span><span class="p">,</span> <span class="s2">&#34;blockquote&#34;</span><span class="p">,</span> <span class="s2">&#34;cite&#34;</span><span class="p">,</span> <span class="s2">&#34;dfn&#34;</span><span class="p">,</span> <span class="s2">&#34;em&#34;</span><span class="p">,</span> <span class="s2">&#34;ins&#34;</span><span class="p">,</span> <span class="s2">&#34;mark&#34;</span><span class="p">,</span> <span class="s2">&#34;s&#34;</span><span class="p">,</span> <span class="s2">&#34;time&#34;</span> <span class="p">]</span>
+  <span class="nx">tagsHeading</span>     <span class="p">=</span> <span class="p">[</span> <span class="s2">&#34;h1&#34;</span><span class="p">,</span> <span class="s2">&#34;h2&#34;</span><span class="p">,</span> <span class="s2">&#34;h3&#34;</span><span class="p">,</span> <span class="s2">&#34;h4&#34;</span><span class="p">,</span> <span class="s2">&#34;h5&#34;</span><span class="p">,</span> <span class="s2">&#34;h6&#34;</span> <span class="p">]</span>
+  <span class="nx">tagsMono</span>        <span class="p">=</span> <span class="p">[</span> <span class="s2">&#34;pre&#34;</span><span class="p">,</span> <span class="s2">&#34;code&#34;</span><span class="p">,</span> <span class="s2">&#34;kbd&#34;</span><span class="p">,</span> <span class="s2">&#34;samp&#34;</span> <span class="p">]</span>
+
+  <span class="c"># these parameter sections must exist, the others are optional</span>
+  <span class="nx">fallbackText</span>    <span class="p">=</span> <span class="s2">&#34;html&#34;</span>
+  <span class="nx">fallbackHeading</span> <span class="p">=</span> <span class="s2">&#34;h1&#34;</span>
+  <span class="nx">fallbackMono</span>    <span class="p">=</span> <span class="s2">&#34;pre&#34;</span>
+
 <span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">html</span><span class="p">]</span>
-  <span class="c"># this is the fallback for body</span>
   <span class="c"># serif, sans-serif or even cursive</span>
-   <span class="nx">sans</span><span class="err">-</span><span class="nx">serif</span>      <span class="p">=</span> <span class="s2">&#34;Oswald&#34;</span>
-<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">body</span><span class="p">]</span>
-  <span class="c"># probably empty</span>
+  <span class="nx">sans</span><span class="err">-</span><span class="nx">serif</span>      <span class="p">=</span> <span class="s2">&#34;Oswald&#34;</span>
 
 <span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">h1</span><span class="p">]</span>
-  <span class="c"># this is the fallback for h2.. h6 - if left empty =&gt; html is fallback</span>
   <span class="c"># serif, sans-serif or even cursive</span>
   <span class="nx">sans</span><span class="err">-</span><span class="nx">serif</span> <span class="p">=</span> <span class="s2">&#34;Creepster&#34;</span>
-<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">h2</span><span class="p">]</span>
-<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">h3</span><span class="p">]</span>
-<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">h4</span><span class="p">]</span>
-<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">h5</span><span class="p">]</span>
-<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">h6</span><span class="p">]</span>
 
 <span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">pre</span><span class="p">]</span>
-  <span class="c"># this is the fallback for code, kdb, samp - if left empty =&gt; html is fallback</span>
   <span class="c"># monospace or sans-serif</span>
   <span class="nx">monospace</span>  <span class="p">=</span> <span class="s2">&#34;Space Mono&#34;</span>
-<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">code</span><span class="p">]</span>
 <span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">kbd</span><span class="p">]</span>
-<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">samp</span><span class="p">]</span></code></pre></div>
+  <span class="nx">monospace</span>  <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">samp</span><span class="p">]</span>
+  <span class="nx">sans</span><span class="err">-</span><span class="nx">serif</span> <span class="p">=</span> <span class="s2">&#34;Roboto&#34;</span></code></pre></div>
 <p>This would lead to:</p>
-<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html">  <span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;stylesheet&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;https://fonts.googleapis.com/css?family=Oswald|Creepster|Space+Mono&#34;</span> <span class="p">/</span><span class="p">&gt;</span>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html">  <span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;stylesheet&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;https://fonts.googleapis.com/css?family=Oswald|Creepster|Space+Mono|Roboto&#34;</span> <span class="p">/</span><span class="p">&gt;</span>
   <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">html</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Oswald&#39;</span><span class="p">,</span> <span class="kc">sans-serif</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
   <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">body</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Oswald&#39;</span><span class="p">,</span> <span class="kc">sans-serif</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">abbr</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Oswald&#39;</span><span class="p">,</span> <span class="kc">sans-serif</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">address</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Oswald&#39;</span><span class="p">,</span> <span class="kc">sans-serif</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">blockquote</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Oswald&#39;</span><span class="p">,</span> <span class="kc">sans-serif</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">cite</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Oswald&#39;</span><span class="p">,</span> <span class="kc">sans-serif</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">dfn</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Oswald&#39;</span><span class="p">,</span> <span class="kc">sans-serif</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">em</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Oswald&#39;</span><span class="p">,</span> <span class="kc">sans-serif</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">ins</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Oswald&#39;</span><span class="p">,</span> <span class="kc">sans-serif</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">mark</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Oswald&#39;</span><span class="p">,</span> <span class="kc">sans-serif</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">s</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Oswald&#39;</span><span class="p">,</span> <span class="kc">sans-serif</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">time</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Oswald&#39;</span><span class="p">,</span> <span class="kc">sans-serif</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
   <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">h1</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Creepster&#39;</span><span class="p">,</span> <span class="kc">sans-serif</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
   <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">h2</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Creepster&#39;</span><span class="p">,</span> <span class="kc">sans-serif</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
   <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">h3</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Creepster&#39;</span><span class="p">,</span> <span class="kc">sans-serif</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
@@ -1213,26 +1242,79 @@ best with any of 3, 6, 9, 12.</p>
   <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">h6</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Creepster&#39;</span><span class="p">,</span> <span class="kc">sans-serif</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
   <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">pre</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Space Mono&#39;</span><span class="p">,</span> <span class="kc">monospace</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
   <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">code</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Space Mono&#39;</span><span class="p">,</span> <span class="kc">monospace</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
-  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">kbd</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Space Mono&#39;</span><span class="p">,</span> <span class="kc">monospace</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
-  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">samp</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Space Mono&#39;</span><span class="p">,</span> <span class="kc">monospace</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span></code></pre></div>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">kbd</span> <span class="p">{}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">samp</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Roboto&#39;</span><span class="p">,</span> <span class="kc">sans-serif</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span></code></pre></div>
+<ul>
+<li>Note how <code>kbd</code> is &ldquo;blanked&rdquo; and <code>samp</code> has it&rsquo;s own style (just to give you the
+idea).</li>
+</ul>
+
 <p>An other example would be:</p>
-<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">html</span><span class="p">]</span>
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">]</span>
+  <span class="nx">tagsText</span>        <span class="p">=</span> <span class="p">[</span> <span class="s2">&#34;html&#34;</span><span class="p">,</span> <span class="s2">&#34;body&#34;</span><span class="p">,</span> <span class="s2">&#34;time&#34;</span> <span class="p">]</span>
+  <span class="nx">tagsHeading</span>     <span class="p">=</span> <span class="p">[</span> <span class="s2">&#34;h1&#34;</span><span class="p">,</span> <span class="s2">&#34;h2&#34;</span><span class="p">,</span> <span class="s2">&#34;h3&#34;</span><span class="p">,</span> <span class="s2">&#34;h4&#34;</span><span class="p">,</span> <span class="s2">&#34;h5&#34;</span><span class="p">,</span> <span class="s2">&#34;h6&#34;</span> <span class="p">]</span>
+  <span class="nx">tagsMono</span>        <span class="p">=</span> <span class="p">[</span> <span class="s2">&#34;pre&#34;</span><span class="p">,</span> <span class="s2">&#34;code&#34;</span> <span class="p">]</span>
+  <span class="nx">fallbackText</span>    <span class="p">=</span> <span class="s2">&#34;html&#34;</span>
+  <span class="nx">fallbackHeading</span> <span class="p">=</span> <span class="s2">&#34;h1&#34;</span>
+  <span class="nx">fallbackMono</span>    <span class="p">=</span> <span class="s2">&#34;pre&#34;</span>
+
+<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">html</span><span class="p">]</span>
   <span class="nx">sans</span><span class="err">-</span><span class="nx">serif</span> <span class="p">=</span> <span class="s2">&#34;Poppins&#34;</span>
-<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">body</span><span class="p">]</span>
+<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">time</span><span class="p">]</span>
+  <span class="nx">cursive</span>    <span class="p">=</span> <span class="s2">&#34;Creepster&#34;</span>
 <span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">h1</span><span class="p">]</span>
   <span class="nx">sans</span><span class="err">-</span><span class="nx">serif</span> <span class="p">=</span> <span class="s2">&#34;Days One&#34;</span>
-<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">h2</span><span class="p">]</span>
-<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">h3</span><span class="p">]</span>
-<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">h4</span><span class="p">]</span>
-<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">h5</span><span class="p">]</span>
-<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">h6</span><span class="p">]</span>
 <span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">pre</span><span class="p">]</span>
-  <span class="nx">monospace</span>  <span class="p">=</span> <span class="s2">&#34;Cousine&#34;</span>
-<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">code</span><span class="p">]</span>
-<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">kbd</span><span class="p">]</span>
-<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">samp</span><span class="p">]</span></code></pre></div>
+  <span class="nx">monospace</span>  <span class="p">=</span> <span class="s2">&#34;Cousine&#34;</span></code></pre></div>
+<p>gives:</p>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"> <span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;stylesheet&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;https://fonts.googleapis.com/css?family=Poppins|Days+One|Cousine&#34;</span> <span class="p">/</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">html</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Poppins&#39;</span><span class="p">,</span> <span class="kc">sans-serif</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">body</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Poppins&#39;</span><span class="p">,</span> <span class="kc">sans-serif</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">time</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Creepster&#39;</span><span class="p">,</span> <span class="kc">cursive</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">h1</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Days One&#39;</span><span class="p">,</span> <span class="kc">sans-serif</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">h2</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Days One&#39;</span><span class="p">,</span> <span class="kc">sans-serif</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">h3</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Days One&#39;</span><span class="p">,</span> <span class="kc">sans-serif</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">h4</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Days One&#39;</span><span class="p">,</span> <span class="kc">sans-serif</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">h5</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Days One&#39;</span><span class="p">,</span> <span class="kc">sans-serif</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">h6</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Days One&#39;</span><span class="p">,</span> <span class="kc">sans-serif</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">pre</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Cousine&#39;</span><span class="p">,</span> <span class="kc">monospace</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">code</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Cousine&#39;</span><span class="p">,</span> <span class="kc">monospace</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span></code></pre></div>
 <ul>
-<li>You need to go to <a href="https://fonts.google.com/">https://fonts.google.com/</a> to preview the fonts.</li>
+<li><p>So for the HTML tag <code>&lt;time&gt;</code> we use a different font-family. See
+<a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/#html-tag">https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/#html-tag</a>
+how this look&rsquo;s like.</p></li>
+
+<li><p>Of course this can be done via custom css as well, but here we have all in one
+place. Setting the fonts we need from fonts.googleapis.com and applying it to
+a bunch of tags. No pre or post processing needed.</p></li>
+</ul>
+
+<p>A short version (just 2 fonts) looks like this:</p>
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml">  <span class="nx">tagsText</span>        <span class="p">=</span> <span class="p">[</span> <span class="s2">&#34;html&#34;</span><span class="p">,</span> <span class="s2">&#34;body&#34;</span> <span class="p">]</span>
+  <span class="nx">tagsHeading</span>     <span class="p">=</span> <span class="p">[</span> <span class="s2">&#34;h1&#34;</span><span class="p">,</span> <span class="s2">&#34;h2&#34;</span><span class="p">,</span> <span class="s2">&#34;h3&#34;</span><span class="p">,</span> <span class="s2">&#34;h4&#34;</span><span class="p">,</span> <span class="s2">&#34;h5&#34;</span><span class="p">,</span> <span class="s2">&#34;h6&#34;</span> <span class="p">]</span>
+  <span class="nx">tagsMono</span>        <span class="p">=</span> <span class="p">[</span> <span class="s2">&#34;pre&#34;</span><span class="p">,</span> <span class="s2">&#34;code&#34;</span> <span class="p">]</span>
+  <span class="nx">fallbackText</span>    <span class="p">=</span> <span class="s2">&#34;html&#34;</span>
+  <span class="nx">fallbackHeading</span> <span class="p">=</span> <span class="s2">&#34;html&#34;</span>
+  <span class="nx">fallbackMono</span>    <span class="p">=</span> <span class="s2">&#34;pre&#34;</span>
+
+<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">html</span><span class="p">]</span>
+  <span class="nx">cursive</span>    <span class="p">=</span> <span class="s2">&#34;Nova Slim&#34;</span>
+<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">googleApiFonts</span><span class="p">.</span><span class="nx">family</span><span class="p">.</span><span class="nx">pre</span><span class="p">]</span>
+  <span class="nx">monospace</span>  <span class="p">=</span> <span class="s2">&#34;Nova Mono&#34;</span></code></pre></div>
+<p>gives:</p>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html">  <span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;stylesheet&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;https://fonts.googleapis.com/css?family=Nova+Slim|Nova+Mono&#34;</span> <span class="p">/</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">html</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Nova Slim&#39;</span><span class="p">,</span> <span class="kc">cursive</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">body</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Nova Slim&#39;</span><span class="p">,</span> <span class="kc">cursive</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">h1</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Nova Slim&#39;</span><span class="p">,</span> <span class="kc">cursive</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">h2</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Nova Slim&#39;</span><span class="p">,</span> <span class="kc">cursive</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">h3</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Nova Slim&#39;</span><span class="p">,</span> <span class="kc">cursive</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">h4</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Nova Slim&#39;</span><span class="p">,</span> <span class="kc">cursive</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">h5</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Nova Slim&#39;</span><span class="p">,</span> <span class="kc">cursive</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">h6</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Nova Slim&#39;</span><span class="p">,</span> <span class="kc">cursive</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">pre</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Nova Mono&#39;</span><span class="p">,</span> <span class="kc">monospace</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">style</span><span class="p"></span><span class="p">&gt;</span> <span class="nt">code</span> <span class="p">{</span><span class="k">font-family</span><span class="p">:</span> <span class="s1">&#39;Nova Mono&#39;</span><span class="p">,</span> <span class="kc">monospace</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;</span><span class="p">/</span><span class="nt">style</span><span class="p">&gt;</span></code></pre></div>
+<ul>
+<li>You need to go to <a href="https://fonts.google.com/">https://fonts.google.com/</a>  (preview the fonts).</li>
 <li>There is a usefull list: <strong>Popular Pairings with &hellip;</strong> under <em>See Specimen</em></li>
 <li>After selecting a Font click <em>Family Selected</em>. You see e.g.:</li>
 </ul>
@@ -1242,7 +1324,7 @@ best with any of 3, 6, 9, 12.</p>
 font-family: &lsquo;Roboto&rsquo;, sans-serif;</p>
 </blockquote>
 
-<p>(Do not add the &ldquo;+&rdquo; sign - this is done in the partial)</p>
+<p>(Do not add the &ldquo;+&rdquo; or &ldquo;|&rdquo; signs in the api url - this is done in the partial)</p>
 
 <p>Here is a random list of some fonts you may want to try to get the
 impression. Copy them to the [params.googleApiFonts.family.*] sections.</p>
@@ -1279,39 +1361,45 @@ impression. Copy them to the [params.googleApiFonts.family.*] sections.</p>
 <span class="nx">cursive</span>    <span class="p">=</span> <span class="s2">&#34;Rochester&#34;</span>
 <span class="nx">cursive</span>    <span class="p">=</span> <span class="s2">&#34;Romanesco&#34;</span></code></pre></div>
 <h3 id="contact-map">Contact Map</h3>
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">]</span> 
+  <span class="c"># Google Maps API key</span>
+  <span class="c"># get our own: https://developers.google.com/maps/documentation/javascript/adding-a-google-map#key</span>
+  <span class="c"># used in layouts/partials/contact.map.html</span>
+  <span class="c"># if empty =&gt; fallback to URL (instead of map)</span>
+  <span class="c"># define environment variable (=&gt; key is not stored in github)</span>
+  <span class="nx">envGoogleMapsApiKey</span> <span class="p">=</span> <span class="s2">&#34;GoogleMapsApiKey&#34;</span>
+  <span class="c"># if environment is not an option =&gt; define key here:</span>
+  <span class="c">#googleMapsApiKey = &#34;&#34;</span>
 
-<p>```toml [params] # Google Maps API key # get our own:
-<a href="https://developers.google.com/maps/documentation/javascript/adding-a-google-map#key">https://developers.google.com/maps/documentation/javascript/adding-a-google-map#key</a></p>
+  <span class="c">#googleMapsZoom   = 14</span>
+  <span class="nx">googleMapsZoom</span>   <span class="p">=</span> <span class="mi">3</span>
+  <span class="nx">latitude</span>         <span class="p">=</span> <span class="mf">46.946692</span>
+  <span class="nx">longitude</span>        <span class="p">=</span>  <span class="mf">7.444186</span></code></pre></div>
+<p>Here&rsquo;s how to use the environment variable:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ <span class="nb">export</span> <span class="nv">GoogleMapsApiKey</span><span class="o">=</span>GEeawyBOuzOPzbFGizHKGReghibngUZTGjlioZM
+$ hugo</code></pre></div>
+<ul>
+<li>Contact form with map</li>
+</ul>
 
-<h1 id="used-in-layouts-partials-contact-map-html-if-empty-fallback-to-url">used in layouts/partials/contact.map.html # if empty =&gt; fallback to URL</h1>
+<p><img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_290.jpg" alt="screenshot Contact" /></p>
 
-<p>(instead of map) # define environment variable (=&gt; key is not stored in github)
-envGoogleMapsApiKey = &ldquo;GoogleMapsApiKey&rdquo; # if environment is not an option =&gt;
-define key here: #googleMapsApiKey = &ldquo;&rdquo;</p>
+<ul>
+<li>Contact form with disabled Javascript</li>
+</ul>
 
-<p>#googleMapsZoom   = 14
-  googleMapsZoom   = 3
-  latitude         = 46.946692
-  longitude        =  7.444186</p>
-<div class="highlight"><pre class="chroma">* Contact form with map
+<p><img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_300.jpg" alt="screenshot Contact no JavaScript" /></p>
 
-![screenshot Contact](https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_290.jpg)
+<ul>
+<li>if no latitude or longitude is given, no map is shown</li>
+</ul>
 
-* Contact form with disabled Javascript
+<h3 id="google-translation">Google Translation</h3>
 
-![screenshot Contact no JavaScript](https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_300.jpg)
-
-* if no latitude or longitude is given, no map is shown
-
-
-### Google Translation
-
-![screenshot Google Translate](https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_305.jpg)
-
-```toml
-[params.menuTopBar]
-  googleTranslateEnable    = true
-  googleTranslateShowOnHome= false</pre></div>
+<p><img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_305.jpg" alt="screenshot Google Translate" /></p>
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">menuTopBar</span><span class="p">]</span>
+  <span class="nx">googleTranslateEnable</span>    <span class="p">=</span> <span class="kc">true</span>
+  <span class="nx">googleTranslateShowOnHome</span><span class="p">=</span> <span class="kc">false</span></code></pre></div>
 <ul>
 <li>the google translate widget is not shown:
 
@@ -1337,16 +1425,17 @@ define key here: #googleMapsApiKey = &ldquo;&rdquo;</p>
 <h4 id="no-translation-is-done-for">No translation is done for</h4>
 
 <ul>
-<li><p>About and Adress in footer (class=&ldquo;notranslate&rdquo;)
-<code>layouts/partials/footer.html</code></p>
-<div class="highlight"><pre class="chroma">&lt;div class=&#34;w3-col w3-third&#34;&gt;
-  &lt;h4&gt;{{ default &#34;About&#34; (i18n &#34;aboutUs&#34;) }}&lt;/h4&gt;
-  &lt;div class=&#34;notranslate&#34;&gt;{{- .Site.Params.aboutUs | markdownify }}&lt;/div&gt;
-&lt;/div&gt; &lt;!-- w3-col --&gt;</pre></div></li>
+<li>About and Adress in footer (class=&ldquo;notranslate&rdquo;)</li>
+</ul>
 
-<li><p>results of shortcode highlight (internal), w3-code, w3-codespan, cscb and csc</p></li>
-
-<li><p>currently results of markdown backticks get translated, which is odd</p></li>
+<p><code>layouts/partials/footer.html</code></p>
+<div class="highlight"><pre class="chroma">    &lt;div class=&#34;w3-col w3-third&#34;&gt;
+      &lt;h4&gt;{{ default &#34;About&#34; (i18n &#34;aboutUs&#34;) }}&lt;/h4&gt;
+      &lt;div class=&#34;notranslate&#34;&gt;{{- .Site.Params.aboutUs | markdownify }}&lt;/div&gt;
+    &lt;/div&gt; &lt;!-- w3-col --&gt;</pre></div>
+<ul>
+<li>results of shortcode highlight (internal), w3-code, w3-codespan, cscb and csc</li>
+<li>currently results of markdown backticks get translated, which is odd</li>
 </ul>
 
 <p><img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_307.jpg" alt="screenshot Google Translate" /></p>
@@ -1457,12 +1546,9 @@ categories:
              - &#34;example cat 2&#34;
 ---</pre></div>
 <ul>
-<li>for pages add:
-<code>
-weight:      42
-</code></li>
+<li>for pages add:</li>
 </ul>
-
+<div class="highlight"><pre class="chroma">weight:      42</pre></div>
 <h3 id="content-pages-index-md">content/pages/*/_index.md</h3>
 <div class="highlight"><pre class="chroma">---
 weight:      24
@@ -1488,6 +1574,9 @@ icon:        &#34;fas fa-list&#34;
 ├── heg-figure.html
 ├── heg-gallery.html
 ├── heg-load-photoswipe.html
+├── html-tag-classes.html
+├── html-tag.html
+├── html-tags.html
 ├── i18n.html
 ├── icon.html
 ├── liti.html
@@ -1577,7 +1666,7 @@ categories:
 </div>
 
 
-<link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css" />
+
 <div class="gallery caption-position-bottom caption-effect-none hover-effect-grow hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
         
         <div class="box">
@@ -1701,7 +1790,7 @@ categories:
 <h2 id="figure">Figure</h2>
 <div class="highlight"><pre class="chroma">
 
-
+<link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css" />
 
 <div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:640px">
   <figure  itemscope itemtype="http://schema.org/ImageObject">
