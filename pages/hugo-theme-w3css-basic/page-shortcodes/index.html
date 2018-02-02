@@ -46,9 +46,19 @@
 
     
   <!-- partials/head.fonts.googleapis.html -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Creepster|Space+Mono" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Creepster|Creepster|Space+Mono" />
   <style> html {font-family: 'Oswald', sans-serif; } </style>
   <style> body {font-family: 'Oswald', sans-serif; } </style>
+  <style> abbr {font-family: 'Oswald', sans-serif; } </style>
+  <style> address {font-family: 'Oswald', sans-serif; } </style>
+  <style> blockquote {font-family: 'Oswald', sans-serif; } </style>
+  <style> cite {font-family: 'Oswald', sans-serif; } </style>
+  <style> dfn {font-family: 'Oswald', sans-serif; } </style>
+  <style> em {font-family: 'Oswald', sans-serif; } </style>
+  <style> ins {font-family: 'Oswald', sans-serif; } </style>
+  <style> mark {font-family: 'Oswald', sans-serif; } </style>
+  <style> s {font-family: 'Oswald', sans-serif; } </style>
+  <style> time {font-family: 'Creepster', cursive; } </style>
   <style> h1 {font-family: 'Creepster', sans-serif; } </style>
   <style> h2 {font-family: 'Creepster', sans-serif; } </style>
   <style> h3 {font-family: 'Creepster', sans-serif; } </style>
@@ -58,7 +68,7 @@
   <style> pre {font-family: 'Space Mono', monospace; } </style>
   <style> code {font-family: 'Space Mono', monospace; } </style>
   <style> kbd {font-family: 'Space Mono', monospace; } </style>
-  <style> samp {font-family: 'Space Mono', monospace; } </style>
+  <style> samp {font-family: 'Space Mono', monospace; } </style>   
 
    
   <!-- partials/head.ie.html -->
@@ -303,6 +313,9 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
 </ul></li>
 <li><a href="#i18n">i18n</a></li>
 <li><a href="#asciicast">asciicast</a></li>
+<li><a href="#html-tag">html-tag</a></li>
+<li><a href="#html-tags">html-tags</a></li>
+<li><a href="#html-tag-classes">html-tag-classes</a></li>
 </ul></li>
 <li><a href="#experimental">Experimental</a>
 <ul>
@@ -1397,6 +1410,49 @@ foobar
   <a href="https://asciinema.org/a/WJM2LEZQs8VRhNeuZ5NiGPp9I">https://asciinema.org/a/WJM2LEZQs8VRhNeuZ5NiGPp9I</a>
 </noscript>
 
+
+<h2 id="html-tag">html-tag</h2>
+
+<ul>
+<li>surround text with a html tag</li>
+</ul>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">We meet at {{&lt; html-tag time &gt;}}23:59{{&lt; /html-tag &gt;}}. Don&#39;t be late.</code></pre></div>
+
+<p>We meet at <time>23:59</time>
+. Don&rsquo;t be late.</p>
+
+<h2 id="html-tags">html-tags</h2>
+
+<ul>
+<li>surround text with nested html tags</li>
+</ul>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">We meet at {{&lt; html-tags time sup &gt;}}23:59{{&lt; /html-tags &gt;}}. Don&#39;t be late.</code></pre></div>
+
+<p>We meet at 
+  <time>
+
+  <sup>
+
+23:59
+
+  </sup>
+
+  </time>
+
+. Don&rsquo;t be late.</p>
+
+<h2 id="html-tag-classes">html-tag-classes</h2>
+
+<ul>
+<li>surround text with a html tag including some classes</li>
+</ul>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">We meet at {{&lt; html-tag-classes time w3-xxxlarge w3-text-red &gt;}}23:59{{&lt; /html-tag-classes &gt;}}. Don&#39;t be late.</code></pre></div>
+
+<p>We meet at <time class="w3-xxxlarge w3-text-red ">23:59</time>
+. Don&rsquo;t be late.</p>
 
 <h1 id="experimental">Experimental</h1>
 
