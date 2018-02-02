@@ -710,7 +710,7 @@ example:&lt;/p&gt;
 &lt;p&gt;W3.CSS Basic is a website template built with &lt;a href=&#34;https://www.w3schools.com/w3css/&#34;&gt;W3.CSS&lt;/a&gt;.&lt;br /&gt;
 Inspiration was taken from &lt;a href=&#34;https://themes.gohugo.io/hugo-universal-theme/&#34;&gt;Universal&lt;/a&gt;.
 It is quite &lt;a href=&#34;//github.com/it-gro/hugo-theme-w3css-basic/tree/master/exampleSite/config.toml&#34;&gt;configurable&lt;/a&gt;.
-Change all colors in the blink of an eye or choose Google fonts or use the new Global Site Tags.&lt;/p&gt;
+Change all colors in the blink of an eye,  choose Google fonts or use the new Global Site Tags.&lt;/p&gt;
 
 &lt;p&gt;See the &lt;a href=&#34;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/&#34;&gt;exampleSite&lt;/a&gt; for a demo.&lt;/p&gt;
 
@@ -771,11 +771,11 @@ Change all colors in the blink of an eye or choose Google fonts or use the new G
 &lt;li&gt;&lt;a href=&#34;#syntax-highlighting&#34;&gt;Syntax Highlighting&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#menu&#34;&gt;Menu&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#fonts&#34;&gt;Fonts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#choose-any-font-via-fonts-googleapis-com&#34;&gt;Choose any Font via fonts.googleapis.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#choose-any-font-via-googleapis&#34;&gt;Choose any Font via googleapis&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#contact-map&#34;&gt;Contact Map&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#google-translation&#34;&gt;Google Translation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#google-custom-search-api&#34;&gt;Google Custom Search API&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#google-analytics-tracking-using-gtagjs&#34;&gt;Google Analytics-Tracking using gtag.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#google-analytics-tracking-using-gtag&#34;&gt;Google Analytics-Tracking using gtag&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#footer&#34;&gt;Footer&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#tracing&#34;&gt;Tracing&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
