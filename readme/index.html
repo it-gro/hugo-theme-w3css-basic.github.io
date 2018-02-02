@@ -1170,10 +1170,9 @@ best with any of 3, 6, 9, 12.</p>
 <p>If you set <code>fontsUseGoogleApis=true</code> you can choose any font from
 <a href="https://fonts.google.com">https://fonts.google.com</a></p>
 
-<p>Hash Borgir had a very good idea: <a href="https://discourse.gohugo.io/t/how-to-dynamically-use-google-fonts-in-a-hugo-website-config-toml/4423">discourse.gohugo.io</a>.
-He wrote an aricle: <a href="https://stoned.io/web-development/hugo/How-To-Dynamically-Use-Google-Fonts-In-A-Hugo-Website/">How To Dynamically Use Google Fonts In A Hugo Website</a>.</p>
-
-<p>I had the same goal - here&rsquo;s my implementation. It&rsquo;s all done in the
+<p>Hash Borgir had a cool idea: <a href="https://stoned.io/web-development/hugo/How-To-Dynamically-Use-Google-Fonts-In-A-Hugo-Website/">How To Dynamically Use Google Fonts In A Hugo
+Website</a>.
+I had the same goal. It&rsquo;s all configured in the
 <a href="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/exampleSite/config.toml">config.yaml</a>
 file.</p>
 
@@ -1282,7 +1281,7 @@ idea).</li>
 <ul>
 <li><p>So for the HTML tag <code>&lt;time&gt;</code> we use a different font-family. See
 <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/#html-tag">https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/#html-tag</a>
-how this look&rsquo;s like.</p></li>
+how this look&rsquo;s like (the actual fonts may vary since I change them just for fun &hellip;).</p></li>
 
 <li><p>Of course this can be done via custom css as well, but here we have all in one
 place. Setting the fonts we need from fonts.googleapis.com and applying it to
@@ -1326,8 +1325,15 @@ font-family: &lsquo;Roboto&rsquo;, sans-serif;</p>
 
 <p>(Do not add the &ldquo;+&rdquo; or &ldquo;|&rdquo; signs in the api url - this is done in the partial)</p>
 
+<ul>
+<li>You may want to check Hash Borgir
+<a href="https://stoned.io/web-development/hugo/How-To-Dynamically-Use-Google-Fonts-In-A-Hugo-Website/">article</a>
+since he describes the <a href="https://fonts.google.com/">https://fonts.google.com/</a> part with some screenshots.
+<br /></li>
+</ul>
+
 <p>Here is a random list of some fonts you may want to try to get the
-impression. Copy them to the [params.googleApiFonts.family.*] sections.</p>
+impression. Copy them to the <code>[params.googleApiFonts.family.*]</code> sections.</p>
 <div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="nx">sans</span><span class="err">-</span><span class="nx">serif</span> <span class="p">=</span> <span class="s2">&#34;Capriola&#34;</span>
 <span class="nx">sans</span><span class="err">-</span><span class="nx">serif</span> <span class="p">=</span> <span class="s2">&#34;Days One&#34;</span>
 <span class="nx">sans</span><span class="err">-</span><span class="nx">serif</span> <span class="p">=</span> <span class="s2">&#34;Open Sans&#34;</span>
@@ -1666,7 +1672,7 @@ categories:
 </div>
 
 
-
+<link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css" />
 <div class="gallery caption-position-bottom caption-effect-none hover-effect-grow hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
         
         <div class="box">
@@ -1790,7 +1796,7 @@ categories:
 <h2 id="figure">Figure</h2>
 <div class="highlight"><pre class="chroma">
 
-<link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css" />
+
 
 <div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:640px">
   <figure  itemscope itemtype="http://schema.org/ImageObject">
