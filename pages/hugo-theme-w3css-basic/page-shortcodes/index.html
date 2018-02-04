@@ -278,6 +278,7 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
 <ul>
 <li><a href="#shortcodes-in-this-theme-for-w3-css-classes">Shortcodes in this Theme for W3.CSS classes</a>
 <ul>
+<li><a href="#alert">alert</a></li>
 <li><a href="#w3-notice-icon">w3-notice-icon</a>
 <ul>
 <li><a href="#style">Style</a></li>
@@ -316,7 +317,6 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
 <li><a href="#html-tag">html-tag</a></li>
 <li><a href="#html-tags">html-tags</a></li>
 <li><a href="#html-tag-classes">html-tag-classes</a></li>
-<li><a href="#alert">alert</a></li>
 </ul></li>
 <li><a href="#experimental">Experimental</a>
 <ul>
@@ -348,6 +348,87 @@ and list templates and basic content files.</p>
 
 
 <h1 id="shortcodes-in-this-theme-for-w3-css-classes">Shortcodes in this Theme for W3.CSS classes</h1>
+
+<h2 id="alert">alert</h2>
+
+<ul>
+<li>Inspired by <a href="http://getbootstrap.com/docs/4.0/components/alerts/">http://getbootstrap.com/docs/4.0/components/alerts/</a> and <a href="https://www.w3schools.com/w3css/w3css_panels.asp">https://www.w3schools.com/w3css/w3css_panels.asp</a></li>
+</ul>
+
+<p>Configuration is in <code>config.toml</code>:</p>
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">]</span>
+  <span class="nx">colorAlertPrimary</span>                     <span class="p">=</span> <span class="s2">&#34;w3-purple&#34;</span>
+  <span class="nx">colorAlertSecondary</span>                   <span class="p">=</span> <span class="s2">&#34;w3-aqua&#34;</span>
+  <span class="nx">colorAlertSuccess</span>                     <span class="p">=</span> <span class="s2">&#34;w3-light-green&#34;</span>
+  <span class="nx">colorAlertInfo</span>                        <span class="p">=</span> <span class="s2">&#34;w3-light-blue&#34;</span>
+  <span class="nx">colorAlertWarning</span>                     <span class="p">=</span> <span class="s2">&#34;w3-yellow&#34;</span>
+  <span class="nx">colorAlertDanger</span>                      <span class="p">=</span> <span class="s2">&#34;w3-red&#34;</span>
+  <span class="nx">colorAlertDark</span>                        <span class="p">=</span> <span class="s2">&#34;w3-dark-grey&#34;</span>
+  <span class="nx">colorAlertLight</span>                       <span class="p">=</span> <span class="s2">&#34;w3-grey&#34;</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{&lt; alert type=&#34;primary&#34;   intro=&#34;Primary Alert&#34;   &gt;}}This is a primary alert—check it out!   {{&lt; /alert &gt;}}
+{{&lt; alert type=&#34;secondary&#34; intro=&#34;Secondary Alert&#34; &gt;}}This is a secondary alert—check it out! {{&lt; /alert &gt;}}
+{{&lt; alert type=&#34;success&#34;   intro=&#34;Success Alert&#34;   &gt;}}This is a info success—check it out!    {{&lt; /alert &gt;}}
+{{&lt; alert type=&#34;info&#34;      intro=&#34;Info Alert&#34;      &gt;}}This is a info alert—check it out!      {{&lt; /alert &gt;}}
+{{&lt; alert type=&#34;warning&#34;   intro=&#34;Warning Alert&#34;   &gt;}}This is a warning alert—check it out!   {{&lt; /alert &gt;}}
+{{&lt; alert type=&#34;danger&#34;    intro=&#34;Danger Alert&#34;    &gt;}}This is a danger alert—check it out!    {{&lt; /alert &gt;}}
+{{&lt; alert type=&#34;dark&#34;      intro=&#34;Dark Alert&#34;      &gt;}}This is a dark alert—check it out!      {{&lt; /alert &gt;}}
+{{&lt; alert type=&#34;light&#34;     intro=&#34;Light Alert&#34;     &gt;}}This is a light alert—check it out!     {{&lt; /alert &gt;}}</code></pre></div>
+
+
+
+<div class=" w3-panel w3-purple"><span class="w3-purple">
+  <p><strong>Primary Alert</strong> This is a primary alert—check it out!   </p>
+</span></div>
+
+
+
+
+<div class=" w3-panel w3-aqua"><span class="w3-aqua">
+  <p><strong>Secondary Alert</strong> This is a secondary alert—check it out! </p>
+</span></div>
+
+
+
+
+<div class=" w3-panel w3-light-green"><span class="w3-light-green">
+  <p><strong>Success Alert</strong> This is a info success—check it out!    </p>
+</span></div>
+
+
+
+
+<div class=" w3-panel w3-light-blue"><span class="w3-light-blue">
+  <p><strong>Info Alert</strong> This is a info alert—check it out!      </p>
+</span></div>
+
+
+
+
+<div class=" w3-panel w3-yellow"><span class="w3-yellow">
+  <p><strong>Warning Alert</strong> This is a warning alert—check it out!   </p>
+</span></div>
+
+
+
+
+<div class=" w3-panel w3-red"><span class="w3-red">
+  <p><strong>Danger Alert</strong> This is a danger alert—check it out!    </p>
+</span></div>
+
+
+
+
+<div class=" w3-panel w3-dark-grey"><span class="w3-dark-grey">
+  <p><strong>Dark Alert</strong> This is a dark alert—check it out!      </p>
+</span></div>
+
+
+
+
+<div class=" w3-panel w3-grey"><span class="w3-grey">
+  <p><strong>Light Alert</strong> This is a light alert—check it out!     </p>
+</span></div>
+
 
 <h2 id="w3-notice-icon">w3-notice-icon</h2>
 
@@ -1149,7 +1230,7 @@ static/css/syntax/syntax.bw.css
 </div>
 
 
-<link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css" />
+
 
 <div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:135px">
   <figure  itemscope itemtype="http://schema.org/ImageObject">
@@ -1342,7 +1423,7 @@ static/css/syntax/syntax.bw.css
 </div>
 
 
-
+<link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css" />
 
 <div class="box fancy-figure caption-position-bottom caption-effect-none" style="max-width:640px">
   <figure  itemscope itemtype="http://schema.org/ImageObject">
@@ -1455,83 +1536,24 @@ foobar
 <p>We meet at <time class="w3-xxxlarge w3-text-red ">23:59</time>
 . Don&rsquo;t be late.</p>
 
-<h2 id="alert">alert</h2>
+<p>You can use the <code>colorAlert*</code> values (see <a href="#alert">alter</a> ) using:</p>
 
-<ul>
-<li>inspired by <a href="http://getbootstrap.com/docs/4.0/components/alerts/">http://getbootstrap.com/docs/4.0/components/alerts/</a> and <a href="https://www.w3schools.com/w3css/w3css_panels.asp">https://www.w3schools.com/w3css/w3css_panels.asp</a></li>
-</ul>
-<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">]</span>
-  <span class="nx">colorAlertPrimary</span>                     <span class="p">=</span> <span class="s2">&#34;w3-purple&#34;</span>
-  <span class="nx">colorAlertSecondary</span>                   <span class="p">=</span> <span class="s2">&#34;w3-aqua&#34;</span>
-  <span class="nx">colorAlertSuccess</span>                     <span class="p">=</span> <span class="s2">&#34;w3-light-green&#34;</span>
-  <span class="nx">colorAlertInfo</span>                        <span class="p">=</span> <span class="s2">&#34;w3-light-blue&#34;</span>
-  <span class="nx">colorAlertWarning</span>                     <span class="p">=</span> <span class="s2">&#34;w3-yellow&#34;</span>
-  <span class="nx">colorAlertDanger</span>                      <span class="p">=</span> <span class="s2">&#34;w3-red&#34;</span>
-  <span class="nx">colorAlertDark</span>                        <span class="p">=</span> <span class="s2">&#34;w3-dark-grey&#34;</span>
-  <span class="nx">colorAlertLight</span>                       <span class="p">=</span> <span class="s2">&#34;w3-grey&#34;</span></code></pre></div>
-<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{&lt; alert type=&#34;primary&#34;   intro=&#34;Primary Alert&#34;   &gt;}}This is a primary alert—check it out!   {{&lt; /alert &gt;}}
-{{&lt; alert type=&#34;secondary&#34; intro=&#34;Secondary Alert&#34; &gt;}}This is a secondary alert—check it out! {{&lt; /alert &gt;}}
-{{&lt; alert type=&#34;success&#34;   intro=&#34;Success Alert&#34;   &gt;}}This is a info success—check it out!    {{&lt; /alert &gt;}}
-{{&lt; alert type=&#34;info&#34;      intro=&#34;Info Alert&#34;      &gt;}}This is a info alert—check it out!      {{&lt; /alert &gt;}}
-{{&lt; alert type=&#34;warning&#34;   intro=&#34;Warning Alert&#34;   &gt;}}This is a warning alert—check it out!   {{&lt; /alert &gt;}}
-{{&lt; alert type=&#34;danger&#34;    intro=&#34;Danger Alert&#34;    &gt;}}This is a danger alert—check it out!    {{&lt; /alert &gt;}}
-{{&lt; alert type=&#34;dark&#34;      intro=&#34;Dark Alert&#34;      &gt;}}This is a dark alert—check it out!      {{&lt; /alert &gt;}}
-{{&lt; alert type=&#34;light&#34;     intro=&#34;Light Alert&#34;     &gt;}}This is a light alert—check it out!     {{&lt; /alert &gt;}}</code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">We meet at {{&lt; html-tag-classes time w3-xxxlarge colDanger &gt;}}23:59{{&lt; /html-tag-classes &gt;}}. Don&#39;t be late.</code></pre></div>
 
+<p>We meet at <time class="w3-xxxlarge w3-text-red ">23:59</time>
+. Don&rsquo;t be late.</p>
 
+<p>This works as well</p>
 
-<div class=" w3-panel w3-purple"><span class="w3-purple">
-  <p><strong>Primary Alert</strong> This is a primary alert—check it out!   </p>
-</span></div>
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{% html-tag-classes div w3-container w3-card-4 w3-theme-d3 %}}
+## Hello
+World
+{{% /html-tag-classes %}}</code></pre></div>
 
+<div class="w3-container w3-card-4 w3-theme-d3 "><h2 id="hello">Hello</h2>
 
-
-
-<div class=" w3-panel w3-aqua"><span class="w3-aqua">
-  <p><strong>Secondary Alert</strong> This is a secondary alert—check it out! </p>
-</span></div>
-
-
-
-
-<div class=" w3-panel w3-light-green"><span class="w3-light-green">
-  <p><strong>Success Alert</strong> This is a info success—check it out!    </p>
-</span></div>
-
-
-
-
-<div class=" w3-panel w3-light-blue"><span class="w3-light-blue">
-  <p><strong>Info Alert</strong> This is a info alert—check it out!      </p>
-</span></div>
-
-
-
-
-<div class=" w3-panel w3-yellow"><span class="w3-yellow">
-  <p><strong>Warning Alert</strong> This is a warning alert—check it out!   </p>
-</span></div>
-
-
-
-
-<div class=" w3-panel w3-red"><span class="w3-red">
-  <p><strong>Danger Alert</strong> This is a danger alert—check it out!    </p>
-</span></div>
-
-
-
-
-<div class=" w3-panel w3-dark-grey"><span class="w3-dark-grey">
-  <p><strong>Dark Alert</strong> This is a dark alert—check it out!      </p>
-</span></div>
-
-
-
-
-<div class=" w3-panel w3-grey"><span class="w3-grey">
-  <p><strong>Light Alert</strong> This is a light alert—check it out!     </p>
-</span></div>
+<p>World</p>
+</div>
 
 
 <h1 id="experimental">Experimental</h1>
