@@ -29,20 +29,21 @@
 
   <meta name="generator" content="Hugo 0.36" />
 
-   
-  <!-- partials/head.stylesheets.html -->
-  <link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/fontawesome/css/fontawesome-all.min.css" />
-  <link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/daneden.github.io/animate.css/animate.min.css" />
-  <link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/OwlCarousel2/owl.carousel.min.css" />
-  <link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/OwlCarousel2/owl.theme.default.min.css" />
-  <link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.min.css" />
+  
+<!-- partials/head.stylesheets.html -->
+<link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/fontawesome/css/fontawesome-all.min.css" />
+<link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/daneden.github.io/animate.css/animate.min.css" />
+<link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/OwlCarousel2/owl.carousel.min.css" />
+<link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/OwlCarousel2/owl.theme.default.min.css" />
+<link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.min.css" />
 
-  <link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/w3css/4/w3.css" />
-  <link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/w3css/4/w3-theme-black.css" />
+<link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/w3css/4/w3.css" />
+<link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/w3css/4/w3-theme-black.css" />
 
-  <link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/css/syntax.min.css" />
-  <link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/css/w3css-basic.min.css" />
-  <link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/css/custom.css" />
+<link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/css/syntax.min.css" />
+<link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/css/w3css-basic.min.css" />
+
+<link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/css/custom.css" />
 
     
   <!-- partials/head.fonts.googleapis.html -->
@@ -94,8 +95,8 @@
   <meta name="msapplication-TileColor"           content="#da532c"  />
   <meta name="theme-color"                       content="#ffffff" />  
 
-  <!-- partials/scripts.top.html -->
-  <script src="/hugo-theme-w3css-basic.github.io/js/custom.top.js"></script> 
+<!-- partials/scripts.top.html -->
+<script src="/hugo-theme-w3css-basic.github.io/js/custom.top.js"></script>
 
     <!-- back in partials/head.html  -->
 </head>
@@ -453,10 +454,10 @@ the language modifying the following key.</p>
 <h3 id="frontpage">Frontpage</h3>
 
 <h4 id="marquee">Marquee</h4>
-<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="p">[</span>params.marquee<span class="p">]</span><span class="w">
-</span><span class="w">  </span><span class="c"># enable or disable marquee</span><span class="w">
-</span><span class="w">  </span>enable<span class="w">   </span>=<span class="w"> </span><span class="kc">true</span><span class="w">
-</span><span class="w">  </span>marquee<span class="w">  </span>=<span class="w"> </span><span class="s1">&#39;&#39;&#39;
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">marquee</span><span class="p">]</span>
+  <span class="c"># enable or disable marquee</span>
+  <span class="nx">enable</span>   <span class="p">=</span> <span class="kc">true</span>
+  <span class="nx">marquee</span>  <span class="p">=</span> <span class="s1">&#39;&#39;&#39;
 </span><span class="s1">At [info@example.com](mailto:info@example.com) vero eos et **accusam**
 </span><span class="s1">et justo duo dolores et ea rebum. Stet clita *kasd gubergren*, no sea
 </span><span class="s1">             &#39;&#39;&#39;</span></code></pre></div>
@@ -467,11 +468,11 @@ the language modifying the following key.</p>
 <p><img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_100.jpg" alt="screenshot Marquee &amp; Navbar long" /></p>
 
 <h4 id="jumbotron">Jumbotron</h4>
-<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="p">[</span>params.jumbotrons<span class="p">]</span><span class="w">
-</span><span class="w">  </span><span class="c"># used in layouts/partials/front.jumbotrons.carousel.html</span><span class="w">
-</span><span class="w">  </span><span class="c"># enable or disable jumbotrons on frontpage</span><span class="w">
-</span><span class="w">  </span><span class="c"># see some examples in &#39;exampleSite/data/jumbotron&#39;</span><span class="w">
-</span><span class="w">  </span>enable<span class="w">   </span>=<span class="w"> </span><span class="kc">true</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">jumbotrons</span><span class="p">]</span>
+  <span class="c"># used in layouts/partials/front.jumbotrons.carousel.html</span>
+  <span class="c"># enable or disable jumbotrons on frontpage</span>
+  <span class="c"># see some examples in &#39;exampleSite/data/jumbotron&#39;</span>
+  <span class="nx">enable</span>   <span class="p">=</span> <span class="kc">true</span></code></pre></div>
 <ul>
 <li>Front jumbotron text only</li>
 </ul>
@@ -504,12 +505,12 @@ description: |
   * Lorem ipsum dolor sit amet
   * Excepteur sint occaecat cupidatat non proident</pre></div>
 <h4 id="photocards">Photocards</h4>
-<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="p">[</span>params.photocards<span class="p">]</span><span class="w">
-</span><span class="w">  </span><span class="c"># used in layouts/partials/front.photocards.html</span><span class="w">
-</span><span class="w">  </span><span class="c"># enable or disable photocards on frontpage</span><span class="w">
-</span><span class="w">  </span><span class="c"># see some examples in &#39;exampleSite/data/photocards&#39;</span><span class="w">
-</span><span class="w">  </span>enable<span class="w">   </span>=<span class="w"> </span><span class="kc">true</span><span class="w">
-</span><span class="w">  </span>animate<span class="w">  </span>=<span class="w"> </span><span class="kc">true</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">photocards</span><span class="p">]</span>
+  <span class="c"># used in layouts/partials/front.photocards.html</span>
+  <span class="c"># enable or disable photocards on frontpage</span>
+  <span class="c"># see some examples in &#39;exampleSite/data/photocards&#39;</span>
+  <span class="nx">enable</span>   <span class="p">=</span> <span class="kc">true</span>
+  <span class="nx">animate</span>  <span class="p">=</span> <span class="kc">true</span></code></pre></div>
 <ul>
 <li>Front photocards</li>
 </ul>
@@ -534,12 +535,12 @@ url:         pages/front/photocards/01
 description: |
    sed diam nonumy </pre></div>
 <h4 id="features-1">Features</h4>
-<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="p">[</span>params.features<span class="p">]</span><span class="w">
-</span><span class="w">  </span><span class="c"># used in layouts/partials/front.features.html</span><span class="w">
-</span><span class="w">  </span><span class="c"># enable or disable features on frontpage</span><span class="w">
-</span><span class="w">  </span><span class="c"># see some examples in &#39;exampleSite/data/features&#39;</span><span class="w">
-</span><span class="w">  </span>enable<span class="w">   </span>=<span class="w"> </span><span class="kc">true</span><span class="w">
-</span><span class="w">  </span>animate<span class="w">  </span>=<span class="w"> </span><span class="kc">false</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">features</span><span class="p">]</span>
+  <span class="c"># used in layouts/partials/front.features.html</span>
+  <span class="c"># enable or disable features on frontpage</span>
+  <span class="c"># see some examples in &#39;exampleSite/data/features&#39;</span>
+  <span class="nx">enable</span>   <span class="p">=</span> <span class="kc">true</span>
+  <span class="nx">animate</span>  <span class="p">=</span> <span class="kc">false</span></code></pre></div>
 <ul>
 <li>Front features</li>
 </ul>
@@ -562,14 +563,14 @@ description: |
   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
   nonumy eirmod tempor invidunt ut labore</pre></div>
 <h4 id="recent-posts">Recent Posts</h4>
-<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="p">[</span>params.recentPosts<span class="p">]</span><span class="w">
-</span><span class="w">  </span><span class="c"># used in layouts/partials/footer.html</span><span class="w">
-</span><span class="w">  </span>footerNumOfPosts<span class="w"> </span>=<span class="w"> </span><span class="m">5</span><span class="w">
-</span><span class="w">  </span>enableFooter<span class="w">   </span>=<span class="w"> </span><span class="kc">true</span><span class="w">
-</span><span class="w">  </span><span class="c"># used in layouts/partials/front.recent_posts.html</span><span class="w">
-</span><span class="w">  </span>enableFront<span class="w">    </span>=<span class="w"> </span><span class="kc">true</span><span class="w">
-</span><span class="w">  </span>title<span class="w">    </span>=<span class="w"> </span><span class="s2">&#34;From our Blog&#34;</span><span class="w">
-</span><span class="w">  </span>subtitle<span class="w"> </span>=<span class="w"> </span><span class="s1">&#39;&#39;&#39;
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">recentPosts</span><span class="p">]</span>
+  <span class="c"># used in layouts/partials/footer.html</span>
+  <span class="nx">footerNumOfPosts</span> <span class="p">=</span> <span class="mi">5</span>
+  <span class="nx">enableFooter</span>   <span class="p">=</span> <span class="kc">true</span>
+  <span class="c"># used in layouts/partials/front.recent_posts.html</span>
+  <span class="nx">enableFront</span>    <span class="p">=</span> <span class="kc">true</span>
+  <span class="nx">title</span>    <span class="p">=</span> <span class="s2">&#34;From our Blog&#34;</span>
+  <span class="nx">subtitle</span> <span class="p">=</span> <span class="s1">&#39;&#39;&#39;
 </span><span class="s1">Pellentesque habitant morbi tristique senectus et netus et malesuada
 </span><span class="s1">fames ac.
 </span><span class="s1">             &#39;&#39;&#39;</span></code></pre></div>
@@ -580,15 +581,15 @@ description: |
 <p><img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_180.jpg" alt="screenshot Recent Posts" /></p>
 
 <h4 id="see-more">See More</h4>
-<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="p">[</span>params.seeMore<span class="p">]</span><span class="w">
-</span><span class="w">  </span><span class="c"># used in layouts/partials/front.see_more.html</span><span class="w">
-</span><span class="w">  </span><span class="c"># enable or disable see_more on frontpage</span><span class="w">
-</span><span class="w">  </span>enable<span class="w">    </span>=<span class="w"> </span><span class="kc">true</span><span class="w">
-</span><span class="w">  </span>icon<span class="w">      </span>=<span class="w"> </span><span class="s2">&#34;far fa-file-code&#34;</span><span class="w">
-</span><span class="w">  </span>title<span class="w">     </span>=<span class="w"> </span><span class="s2">&#34;Do You want to see More?&#34;</span><span class="w">
-</span><span class="w">  </span>linkUrl<span class="w">   </span>=<span class="w"> </span><span class="s2">&#34;/pages&#34;</span><span class="w">
-</span><span class="w">  </span>linkText<span class="w">  </span>=<span class="w"> </span><span class="s2">&#34;consectetuer adipiscing&#34;</span><span class="w">
-</span><span class="w">  </span>subtitle<span class="w">  </span>=<span class="w"> </span><span class="s1">&#39;&#39;&#39;
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">seeMore</span><span class="p">]</span>
+  <span class="c"># used in layouts/partials/front.see_more.html</span>
+  <span class="c"># enable or disable see_more on frontpage</span>
+  <span class="nx">enable</span>    <span class="p">=</span> <span class="kc">true</span>
+  <span class="nx">icon</span>      <span class="p">=</span> <span class="s2">&#34;far fa-file-code&#34;</span>
+  <span class="nx">title</span>     <span class="p">=</span> <span class="s2">&#34;Do You want to see More?&#34;</span>
+  <span class="nx">linkUrl</span>   <span class="p">=</span> <span class="s2">&#34;/pages&#34;</span>
+  <span class="nx">linkText</span>  <span class="p">=</span> <span class="s2">&#34;consectetuer adipiscing&#34;</span>
+  <span class="nx">subtitle</span>  <span class="p">=</span> <span class="s1">&#39;&#39;&#39;
 </span><span class="s1">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
 </span><span class="s1">suscipit lobortis nisl ut aliquip ex ea commodo consequat.
 </span><span class="s1">              &#39;&#39;&#39;</span></code></pre></div>
@@ -608,13 +609,13 @@ description: |
   <span class="k">background</span><span class="p">:</span> <span class="nb">url</span><span class="p">(</span><span class="s1">&#39;../images/backgrounds/see_more_background.jpg&#39;</span><span class="p">)</span> <span class="kc">center</span> <span class="kc">top</span> <span class="kc">no-repeat</span><span class="p">;</span>
 <span class="p">}</span></code></pre></div>
 <h4 id="testimonials">Testimonials</h4>
-<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="p">[</span>params.testimonials<span class="p">]</span><span class="w">
-</span><span class="w">  </span><span class="c"># used in layouts/partials/front.testimonials.carousel.html</span><span class="w">
-</span><span class="w">  </span><span class="c"># enable or disable testimonials on frontpage</span><span class="w">
-</span><span class="w">  </span><span class="c"># see some examples in &#39;exampleSite/data/testimonials&#39;</span><span class="w">
-</span><span class="w">  </span>enable<span class="w">   </span>=<span class="w"> </span><span class="kc">true</span><span class="w">
-</span><span class="w">  </span>title<span class="w">    </span>=<span class="w"> </span><span class="s2">&#34;Testimonials&#34;</span><span class="w">
-</span><span class="w">  </span>subtitle<span class="w"> </span>=<span class="w"> </span><span class="s1">&#39;&#39;&#39;
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">testimonials</span><span class="p">]</span>
+  <span class="c"># used in layouts/partials/front.testimonials.carousel.html</span>
+  <span class="c"># enable or disable testimonials on frontpage</span>
+  <span class="c"># see some examples in &#39;exampleSite/data/testimonials&#39;</span>
+  <span class="nx">enable</span>   <span class="p">=</span> <span class="kc">true</span>
+  <span class="nx">title</span>    <span class="p">=</span> <span class="s2">&#34;Testimonials&#34;</span>
+  <span class="nx">subtitle</span> <span class="p">=</span> <span class="s1">&#39;&#39;&#39;
 </span><span class="s1">Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
 </span><span class="s1">labore et dolore magna aliquyam erat, sed diam voluptua. 
 </span><span class="s1">             &#39;&#39;&#39;</span></code></pre></div>
@@ -640,13 +641,13 @@ text:        |
   vel eum iriure dolor in hendrerit in vulputate velit esse molestie
   consequat, vel illum dolore eu feugiat</pre></div>
 <h4 id="clients">Clients</h4>
-<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="p">[</span>params.clients<span class="p">]</span><span class="w">
-</span><span class="w">  </span><span class="c"># used in layouts/partials/front.clients.carousel.html</span><span class="w">
-</span><span class="w">  </span><span class="c"># enable or disable clients on frontpage</span><span class="w">
-</span><span class="w">  </span><span class="c"># see some examples in &#39;exampleSite/data/clients&#39;</span><span class="w">
-</span><span class="w">  </span>enable<span class="w"> </span>=<span class="w"> </span><span class="kc">true</span><span class="w">
-</span><span class="w">  </span>title<span class="w"> </span>=<span class="w"> </span><span class="s2">&#34;Our Clients&#34;</span><span class="w">
-</span><span class="w">  </span>subtitle<span class="w"> </span>=<span class="w"> </span><span class="s1">&#39;&#39;&#39;
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">clients</span><span class="p">]</span>
+  <span class="c"># used in layouts/partials/front.clients.carousel.html</span>
+  <span class="c"># enable or disable clients on frontpage</span>
+  <span class="c"># see some examples in &#39;exampleSite/data/clients&#39;</span>
+  <span class="nx">enable</span> <span class="p">=</span> <span class="kc">true</span>
+  <span class="nx">title</span> <span class="p">=</span> <span class="s2">&#34;Our Clients&#34;</span>
+  <span class="nx">subtitle</span> <span class="p">=</span> <span class="s1">&#39;&#39;&#39;
 </span><span class="s1">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
 </span><span class="s1">**molestie consequat**, vel illum dolore.
 </span><span class="s1">             &#39;&#39;&#39;</span></code></pre></div>
@@ -670,11 +671,11 @@ url:    &#34;http://www.example.com&#34;</pre></div>
 <h3 id="blog">Blog</h3>
 
 <h4 id="blog-list">Blog List</h4>
-<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="p">[</span>params.blog<span class="p">]</span><span class="w">
-</span><span class="w">  </span><span class="c"># used in layouts/blog/list.html</span><span class="w">
-</span><span class="w">  </span>title<span class="w">    </span>=<span class="w"> </span><span class="s2">&#34;Blog&#34;</span><span class="w">
-</span><span class="w">  </span>icon<span class="w">     </span>=<span class="w"> </span><span class="s2">&#34;fas fa-rss&#34;</span><span class="w">
-</span><span class="w">  </span>subtitle<span class="w"> </span>=<span class="w"> </span><span class="s1">&#39;&#39;&#39;
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">blog</span><span class="p">]</span>
+  <span class="c"># used in layouts/blog/list.html</span>
+  <span class="nx">title</span>    <span class="p">=</span> <span class="s2">&#34;Blog&#34;</span>
+  <span class="nx">icon</span>     <span class="p">=</span> <span class="s2">&#34;fas fa-rss&#34;</span>
+  <span class="nx">subtitle</span> <span class="p">=</span> <span class="s1">&#39;&#39;&#39;
 </span><span class="s1">ultricies eget, tempor sit amet, ante
 </span><span class="s1">             &#39;&#39;&#39;</span></code></pre></div>
 <ul>
@@ -1173,7 +1174,7 @@ best with any of 3, 6, 9, 12.</p>
 <p>Hash Borgir had a cool idea: <a href="https://stoned.io/web-development/hugo/How-To-Dynamically-Use-Google-Fonts-In-A-Hugo-Website/">How To Dynamically Use Google Fonts In A Hugo
 Website</a>.
 I had the same goal. It&rsquo;s all configured in the
-<a href="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/exampleSite/config.toml">config.yaml</a>
+<a href="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/exampleSite/config.toml">config.toml</a>
 file.</p>
 
 <p>Here&rsquo;s the relevant part:</p>
@@ -1519,16 +1520,40 @@ prevents <code>gtag.js</code> tracking by default.</li>
 <ul>
 <li>If you like comments in the html source, this one is for you</li>
 </ul>
-<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="c"># flags used for tracing and html comment output</span><span class="w">
-</span><span class="w">  </span><span class="c"># currently used:</span><span class="w">
-</span><span class="w">  </span><span class="c">#   html-comment          enable partials html comment output </span><span class="w">
-</span><span class="w">  </span><span class="c">#   debug-shortcodes      enable all shortcodes debugging output</span><span class="w">
-</span><span class="w">  </span><span class="c">#   debug-shortcode-liti  enable all shortcode liti debugging output</span><span class="w">
-</span><span class="w">  </span><span class="c"># traceFlags       = &#34;html-comment:debug-shortcode-liti&#34;</span><span class="w">
-</span><span class="w">  </span>traceFlags<span class="w">         </span>=<span class="w"> </span><span class="s2">&#34;html-comment&#34;</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="c"># flags used for tracing and html comment output</span>
+  <span class="c"># currently used:</span>
+  <span class="c">#   html-comment          enable partials html comment output </span>
+  <span class="c">#   debug-shortcodes      enable all shortcodes debugging output</span>
+  <span class="c">#   debug-shortcode-liti  enable all shortcode liti debugging output</span>
+  <span class="c"># traceFlags       = &#34;html-comment:debug-shortcode-liti&#34;</span>
+  <span class="nx">traceFlags</span>         <span class="p">=</span> <span class="s2">&#34;html-comment&#34;</span></code></pre></div>
 <p>If <code>traceFlags</code> includes the word <code>html-comment</code> some HTML comments will
 be included in the html source code.</p>
 
+<h2 id="custom-css-and-js">Custom CSS and JS</h2>
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml">  <span class="c"># custom css and custom js</span>
+  <span class="c"># this theme comes with the following &#34;empty&#34; files</span>
+  <span class="c">#   static/css/custom.css</span>
+  <span class="c">#   static/js/custom.bottom.js</span>
+  <span class="c">#   static/js/custom.top.js</span>
+  <span class="c"># a project can create these in the project dir in order to overwrite them</span>
+  <span class="c"># https://gohugo.io/themes/customizing/#override-static-files</span>
+
+  <span class="c"># in addition the folloing array may be files with paths or URLS</span>
+  <span class="c">#   custom_css        = [ &#34;css/custom_foo.css&#34;, &#34;https://cdnjs.cloudflare.com/ajax/libs/minireset.css/0.0.2/minireset.min.css&#34; ]</span>
+  <span class="c">#   custom_js_top     = [ &#34;js/custom_top_bar.js&#34; ]</span>
+  <span class="c">#   custom_js_bottom  = [ &#34;js/custom_bottom_foo.js&#34;, &#34;https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js&#34; ]</span>
+  <span class="c"># used in layouts/partials/head.stylesheets.html</span>
+  <span class="c"># used in layouts/partials/scripts.bottom.html</span>
+  <span class="c"># used in layouts/partials/scripts.top.html</span>
+  <span class="nx">custom_css</span>        <span class="p">=</span> <span class="p">[</span> <span class="p">]</span>
+  <span class="nx">custom_js_top</span>     <span class="p">=</span> <span class="p">[</span> <span class="p">]</span>
+  <span class="nx">custom_js_bottom</span>  <span class="p">=</span> <span class="p">[</span> <span class="p">]</span></code></pre></div><div class="highlight"><pre class="chroma">static/
+├── css
+│   ├── custom.css
+├── js
+│   ├── custom.bottom.js
+│   ├── custom.top.js</pre></div>
 <h2 id="front-matter">Front Matter</h2>
 
 <p>archetypes:</p>
@@ -2119,8 +2144,8 @@ consectetuer adipiscing</p>
     </div>
              <!-- all -->
     
-  <!-- partials/scripts.bottom.html -->
-  <script src="/hugo-theme-w3css-basic.github.io/js/custom.bottom.js"></script>
+<!-- partials/scripts.bottom.html -->
+<script src="/hugo-theme-w3css-basic.github.io/js/custom.bottom.js"></script>
 
   </body>
    
