@@ -100,32 +100,5 @@
       <description></description>
     </item>
     
-    <item>
-      <title>Tools</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/tools/</link>
-      <pubDate>Fri, 10 Nov 2017 00:00:00 +0100</pubDate>
-      
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/tools/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vestibulum</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/vestibulum/</link>
-      <pubDate>Mon, 13 Nov 2017 15:37:04 +0100</pubDate>
-      
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/vestibulum/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Web</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/web/</link>
-      <pubDate>Fri, 24 Nov 2017 08:44:12 +0100</pubDate>
-      
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/web/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
