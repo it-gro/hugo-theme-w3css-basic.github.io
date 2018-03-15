@@ -27,7 +27,7 @@
     <!-- back in partials/head.html  -->
   <title>W3.CSS Basic exampleSite</title>
 
-  <meta name="generator" content="Hugo 0.36" />
+  <meta name="generator" content="Hugo 0.37" />
 
   
 <!-- partials/head.stylesheets.html -->
@@ -345,6 +345,7 @@ Change all colors in the blink of an eye,  choose Google fonts or use the new Gl
 <li><a href="#google-custom-search-api">Google Custom Search API</a></li>
 <li><a href="#google-analytics-tracking-using-gtag">Google Analytics-Tracking using gtag</a></li>
 <li><a href="#footer">Footer</a></li>
+<li><a href="#rss">RSS</a></li>
 <li><a href="#tracing">Tracing</a></li>
 </ul></li>
 <li><a href="#custom-css-and-js">Custom CSS and JS</a></li>
@@ -1519,6 +1520,22 @@ prevents <code>gtag.js</code> tracking by default.</li>
   <span class="nx">bottomRight</span> <span class="p">=</span> <span class="s1">&#39;created with [Hugo](https://gohugo.io) &#39;</span></code></pre></div>
 <p><img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_220.jpg" alt="screenshot Footer" /></p>
 
+<h3 id="rss">RSS</h3>
+
+<ul>
+<li>This theme uses the Hugo&rsquo;s embedded rss.xml <a href="https://gohugo.io/templates/rss/#the-embedded-rss-xml">https://gohugo.io/templates/rss/#the-embedded-rss-xml</a></li>
+<li>Default configuration is explained here:
+
+<ul>
+<li><a href="https://gohugo.io/templates/rss/#configure-rss">https://gohugo.io/templates/rss/#configure-rss</a></li>
+<li><a href="https://gohugo.io/getting-started/configuration/#toml-configuration">https://gohugo.io/getting-started/configuration/#toml-configuration</a></li>
+</ul></li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="c"># RSS Feed</span>
+<span class="c"># Do not build RSS files</span>
+<span class="nx">disableRSS</span> <span class="p">=</span> <span class="kc">false</span>
+<span class="c"># maximum number of items in the RSS feed</span>
+<span class="nx">rssLimit</span>   <span class="p">=</span> <span class="mi">10</span></code></pre></div>
 <h3 id="tracing">Tracing</h3>
 
 <ul>
@@ -1661,6 +1678,26 @@ categories:
 ---
 
 
+
+<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css' />
+<div class='gallery caption-position-bottom caption-effect-none hover-effect-grow hover-transition' itemscope itemtype="http://schema.org/ImageGallery">
+</div>
+ </pre></div>
+<ul>
+<li>This themes version of <code>{{&lt; heg-gallery .. &gt;}}</code> improves the caption&rsquo;s configuration (filename):
+
+<ul>
+<li>show file extensions - or not</li>
+<li>do humanize - or not</li>
+<li>the values below are the defaults:</li>
+</ul></li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">gallery</span><span class="p">]</span>
+  <span class="c"># used in layouts/shortcodes/heg-gallery.html</span>
+  <span class="c"># showFileExtension = true</span>
+  <span class="c"># humanizeCaption   = false</span></code></pre></div>
+<h2 id="figure">Figure</h2>
+<div class="highlight"><pre class="chroma">
 <script src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/jquery/jquery-3.2.1.slim.min.js'></script>
 <script src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/liwenyip/hugo-easy-gallery/js/load-photoswipe.js'></script>
 <link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/vendor/photoswipe/photoswipe.css' />
@@ -1704,26 +1741,6 @@ categories:
     </div>
 </div>
 
-
-<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css' />
-<div class='gallery caption-position-bottom caption-effect-none hover-effect-grow hover-transition' itemscope itemtype="http://schema.org/ImageGallery">
-</div>
- </pre></div>
-<ul>
-<li>This themes version of <code>{{&lt; heg-gallery .. &gt;}}</code> improves the caption&rsquo;s configuration (filename):
-
-<ul>
-<li>show file extensions - or not</li>
-<li>do humanize - or not</li>
-<li>the values below are the defaults:</li>
-</ul></li>
-</ul>
-<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">gallery</span><span class="p">]</span>
-  <span class="c"># used in layouts/shortcodes/heg-gallery.html</span>
-  <span class="c"># showFileExtension = true</span>
-  <span class="c"># humanizeCaption   = false</span></code></pre></div>
-<h2 id="figure">Figure</h2>
-<div class="highlight"><pre class="chroma">
 
 
 
@@ -2035,7 +2052,7 @@ consectetuer adipiscing</p>
   <div class="w3-cell w3-cell-middle">
     <div class="w3-right">
         <!-- $.Site.Params.bottomRight  -->
-      created with <a href="https://gohugo.io">Hugo 0.36</a>
+      created with <a href="https://gohugo.io">Hugo 0.37</a>
     </div> 
   </div>   
 
