@@ -252,7 +252,7 @@ tristique imperdiet tortor. Nam euismod tellus id erat.&lt;/p&gt;
 &lt;/div&gt;
 
 
-
+&lt;link rel=&#34;stylesheet&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css&#39; /&gt;
 
 &lt;div class=&#39;box fancy-figure caption-position-bottom caption-effect-appear&#39; style=&#39;max-width:200px&#39;&gt;
   &lt;figure  itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
@@ -279,7 +279,7 @@ tristique imperdiet tortor. Nam euismod tellus id erat.&lt;/p&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
-&lt;link rel=&#34;stylesheet&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css&#39; /&gt;
+
 
 &lt;div class=&#39;box fancy-figure caption-position-bottom caption-effect-appear&#39; style=&#39;max-width:200px&#39;&gt;
   &lt;figure  itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
@@ -325,6 +325,114 @@ nulla. Nullam rutrum. Nam vestibulum accumsan nisl.&lt;/p&gt;
 
 
 &lt;div class=&#39;gallery caption-position-bottom caption-effect-none hover-effect-grow hover-transition&#39; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
+        &lt;div class=&#34;box&#34;&gt;
+          &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/01-photocard-thumb.jpg&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/01-photocard.jpg&#39; &gt;
+                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/01-photocard-thumb.jpg&#39; alt=&#39;01-photocard.jpg&#39; /&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;figcaption&gt;
+              &lt;p&gt;01-photocard.jpg&lt;/p&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;box&#34;&gt;
+          &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/02-photocard-thumb.jpg&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/02-photocard.jpg&#39; &gt;
+                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/02-photocard-thumb.jpg&#39; alt=&#39;02-photocard.jpg&#39; /&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;figcaption&gt;
+              &lt;p&gt;02-photocard.jpg&lt;/p&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;box&#34;&gt;
+          &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/03-photocard-thumb.jpg&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/03-photocard.jpg&#39; &gt;
+                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/03-photocard-thumb.jpg&#39; alt=&#39;03-photocard.jpg&#39; /&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;figcaption&gt;
+              &lt;p&gt;03-photocard.jpg&lt;/p&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;box&#34;&gt;
+          &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/04-photocard-thumb.jpg&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/04-photocard.jpg&#39; &gt;
+                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/04-photocard-thumb.jpg&#39; alt=&#39;04-photocard.jpg&#39; /&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;figcaption&gt;
+              &lt;p&gt;04-photocard.jpg&lt;/p&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;box&#34;&gt;
+          &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/05-photocard-thumb.png&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/05-photocard.png&#39; &gt;
+                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/05-photocard-thumb.png&#39; alt=&#39;05-photocard.png&#39; /&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;figcaption&gt;
+              &lt;p&gt;05-photocard.png&lt;/p&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;box&#34;&gt;
+          &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/06-photocard-thumb.jpg&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/06-photocard.jpg&#39; &gt;
+                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/06-photocard-thumb.jpg&#39; alt=&#39;06-photocard.jpg&#39; /&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;figcaption&gt;
+              &lt;p&gt;06-photocard.jpg&lt;/p&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;box&#34;&gt;
+          &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/07-photocard-thumb.jpg&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/07-photocard.jpg&#39; &gt;
+                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/07-photocard-thumb.jpg&#39; alt=&#39;07-photocard.jpg&#39; /&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;figcaption&gt;
+              &lt;p&gt;07-photocard.jpg&lt;/p&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;box&#34;&gt;
+          &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/08-photocard-thumb.jpg&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/08-photocard.jpg&#39; &gt;
+                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/08-photocard-thumb.jpg&#39; alt=&#39;08-photocard.jpg&#39; /&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;figcaption&gt;
+              &lt;p&gt;08-photocard.jpg&lt;/p&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;box&#34;&gt;
+          &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/09-photocard-thumb.jpg&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/09-photocard.jpg&#39; &gt;
+                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/09-photocard-thumb.jpg&#39; alt=&#39;09-photocard.jpg&#39; /&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;figcaption&gt;
+              &lt;p&gt;09-photocard.jpg&lt;/p&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+        &lt;/div&gt;
 &lt;/div&gt;
 
 
@@ -2501,6 +2609,7 @@ icon:        &amp;#34;fas fa-list&amp;#34;
 ├── html-tags.html
 ├── i18n.html
 ├── icon.html
+├── kbd.html
 ├── liti.html
 ├── litt.html
 ├── litx.html
@@ -2544,26 +2653,6 @@ categories:
 ---
 
 
-
-&lt;link rel=&#34;stylesheet&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css&#39; /&gt;
-&lt;div class=&#39;gallery caption-position-bottom caption-effect-none hover-effect-grow hover-transition&#39; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
-&lt;/div&gt;
- &lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;This themes version of &lt;code&gt;{{&amp;lt; heg-gallery .. &amp;gt;}}&lt;/code&gt; improves the caption&amp;rsquo;s configuration (filename):
-
-&lt;ul&gt;
-&lt;li&gt;show file extensions - or not&lt;/li&gt;
-&lt;li&gt;do humanize - or not&lt;/li&gt;
-&lt;li&gt;the values below are the defaults:&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;gallery&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
-  &lt;span class=&#34;c&#34;&gt;# used in layouts/shortcodes/heg-gallery.html&lt;/span&gt;
-  &lt;span class=&#34;c&#34;&gt;# showFileExtension = true&lt;/span&gt;
-  &lt;span class=&#34;c&#34;&gt;# humanizeCaption   = false&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2 id=&#34;figure&#34;&gt;Figure&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;
 &lt;script src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/jquery/jquery-3.2.1.slim.min.js&#39;&gt;&lt;/script&gt;
 &lt;script src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/liwenyip/hugo-easy-gallery/js/load-photoswipe.js&#39;&gt;&lt;/script&gt;
 &lt;link rel=&#34;stylesheet&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/hugo-theme-w3css-basic.github.io/vendor/photoswipe/photoswipe.css&#39; /&gt;
@@ -2607,6 +2696,134 @@ categories:
     &lt;/div&gt;
 &lt;/div&gt;
 
+
+&lt;link rel=&#34;stylesheet&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css&#39; /&gt;
+&lt;div class=&#39;gallery caption-position-bottom caption-effect-none hover-effect-grow hover-transition&#39; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
+        &lt;div class=&#34;box&#34;&gt;
+          &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/01-photocard-thumb.jpg&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/01-photocard.jpg&#39; &gt;
+                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/01-photocard-thumb.jpg&#39; alt=&#39;01-photocard.jpg&#39; /&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;figcaption&gt;
+              &lt;p&gt;01-photocard.jpg&lt;/p&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;box&#34;&gt;
+          &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/02-photocard-thumb.jpg&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/02-photocard.jpg&#39; &gt;
+                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/02-photocard-thumb.jpg&#39; alt=&#39;02-photocard.jpg&#39; /&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;figcaption&gt;
+              &lt;p&gt;02-photocard.jpg&lt;/p&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;box&#34;&gt;
+          &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/03-photocard-thumb.jpg&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/03-photocard.jpg&#39; &gt;
+                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/03-photocard-thumb.jpg&#39; alt=&#39;03-photocard.jpg&#39; /&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;figcaption&gt;
+              &lt;p&gt;03-photocard.jpg&lt;/p&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;box&#34;&gt;
+          &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/04-photocard-thumb.jpg&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/04-photocard.jpg&#39; &gt;
+                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/04-photocard-thumb.jpg&#39; alt=&#39;04-photocard.jpg&#39; /&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;figcaption&gt;
+              &lt;p&gt;04-photocard.jpg&lt;/p&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;box&#34;&gt;
+          &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/05-photocard-thumb.png&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/05-photocard.png&#39; &gt;
+                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/05-photocard-thumb.png&#39; alt=&#39;05-photocard.png&#39; /&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;figcaption&gt;
+              &lt;p&gt;05-photocard.png&lt;/p&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;box&#34;&gt;
+          &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/06-photocard-thumb.jpg&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/06-photocard.jpg&#39; &gt;
+                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/06-photocard-thumb.jpg&#39; alt=&#39;06-photocard.jpg&#39; /&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;figcaption&gt;
+              &lt;p&gt;06-photocard.jpg&lt;/p&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;box&#34;&gt;
+          &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/07-photocard-thumb.jpg&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/07-photocard.jpg&#39; &gt;
+                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/07-photocard-thumb.jpg&#39; alt=&#39;07-photocard.jpg&#39; /&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;figcaption&gt;
+              &lt;p&gt;07-photocard.jpg&lt;/p&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;box&#34;&gt;
+          &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/08-photocard-thumb.jpg&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/08-photocard.jpg&#39; &gt;
+                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/08-photocard-thumb.jpg&#39; alt=&#39;08-photocard.jpg&#39; /&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;figcaption&gt;
+              &lt;p&gt;08-photocard.jpg&lt;/p&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;box&#34;&gt;
+          &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/09-photocard-thumb.jpg&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/09-photocard.jpg&#39; &gt;
+                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/09-photocard-thumb.jpg&#39; alt=&#39;09-photocard.jpg&#39; /&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;figcaption&gt;
+              &lt;p&gt;09-photocard.jpg&lt;/p&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+ &lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;This themes version of &lt;code&gt;{{&amp;lt; heg-gallery .. &amp;gt;}}&lt;/code&gt; improves the caption&amp;rsquo;s configuration (filename):
+
+&lt;ul&gt;
+&lt;li&gt;show file extensions - or not&lt;/li&gt;
+&lt;li&gt;do humanize - or not&lt;/li&gt;
+&lt;li&gt;the values below are the defaults:&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;gallery&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+  &lt;span class=&#34;c&#34;&gt;# used in layouts/shortcodes/heg-gallery.html&lt;/span&gt;
+  &lt;span class=&#34;c&#34;&gt;# showFileExtension = true&lt;/span&gt;
+  &lt;span class=&#34;c&#34;&gt;# humanizeCaption   = false&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&#34;figure&#34;&gt;Figure&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;
 
 
 
