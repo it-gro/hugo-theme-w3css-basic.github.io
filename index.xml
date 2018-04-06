@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>W3.CSS Basic exampleSite – W3.CSS Basic exampleSite</title>
+    <title>hugo-theme-w3css-basic exampleSite – hugo-theme-w3css-basic exampleSite</title>
     <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/</link>
     <description>Recent Hugo news from gohugo.io</description>
     <generator>Hugo -- gohugo.io</generator>
@@ -1056,7 +1056,7 @@ tristique imperdiet tortor. Nam euismod tellus id erat.&lt;/p&gt;
 &lt;/div&gt;
 
 
-&lt;link rel=&#34;stylesheet&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css&#39; /&gt;
+
 
 &lt;div class=&#39;box fancy-figure caption-position-bottom caption-effect-appear&#39; style=&#39;max-width:200px&#39;&gt;
   &lt;figure  itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
@@ -1083,7 +1083,7 @@ tristique imperdiet tortor. Nam euismod tellus id erat.&lt;/p&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
-
+&lt;link rel=&#34;stylesheet&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css&#39; /&gt;
 
 &lt;div class=&#39;box fancy-figure caption-position-bottom caption-effect-appear&#39; style=&#39;max-width:200px&#39;&gt;
   &lt;figure  itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
@@ -2129,6 +2129,11 @@ Change all colors in the blink of an eye,  choose Google fonts or use the new Gl
 &lt;li&gt;&lt;a href=&#34;#custom-css-and-js&#34;&gt;Custom CSS and JS&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#front-matter&#34;&gt;Front Matter&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#shortcodes&#34;&gt;Shortcodes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#page-resources&#34;&gt;Page Resources&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#images&#34;&gt;Images&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#gallery&#34;&gt;Gallery&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#figure&#34;&gt;Figure&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#showcase&#34;&gt;Showcase&lt;/a&gt;&lt;/li&gt;
