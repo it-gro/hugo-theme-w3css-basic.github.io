@@ -12,7 +12,7 @@
   <meta name="viewport"              content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
   <meta name="robots"                content="all,follow" />
   <meta name="googlebot"             content="index,follow,snippet,archive" />
-  <meta name="author"                content='anonymous' /><meta name="keywords"              content=' hugo, shortcodes, This Theme ' />
+  <meta name="author"                content='anonymous' /><meta name="keywords"              content=' shortcodes, Showcase, This Theme ' />
   
   <meta name="description"           content='example site created with hugo using theme hugo-theme-w3css-basic' />
     
@@ -47,7 +47,7 @@
 
     
   <!-- partials/head.fonts.googleapis.html -->
-  <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Capriola|Space+Mono' />
+  <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Capriola|Oxygen+Mono' />
   <style> html {font-family: 'Capriola', sans-serif; } </style>
   <style> body {font-family: 'Capriola', sans-serif; } </style>
   <style> abbr {font-family: 'Capriola', sans-serif; } </style>
@@ -66,10 +66,10 @@
   <style> h4 {} </style>
   <style> h5 {} </style>
   <style> h6 {} </style>
-  <style> pre {font-family: 'Space Mono', monospace; } </style>
-  <style> code {font-family: 'Space Mono', monospace; } </style>
-  <style> kbd {font-family: 'Space Mono', monospace; } </style>
-  <style> samp {font-family: 'Space Mono', monospace; } </style>   
+  <style> pre {font-family: 'Oxygen Mono', monospace; } </style>
+  <style> code {font-family: 'Oxygen Mono', monospace; } </style>
+  <style> kbd {font-family: 'Oxygen Mono', monospace; } </style>
+  <style> samp {font-family: 'Oxygen Mono', monospace; } </style>   
 
   
   <!-- partials/head.ie.html -->
@@ -260,7 +260,6 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
           <h1 class='w3-panel w3-theme-l2 '>
           
           This Theme Shortcodes </h1>
-        
         <!-- block main _default/baseof.html  -->
         
   <!-- partials/head.blog.date.html -->
@@ -270,8 +269,8 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
     <a href='/hugo-theme-w3css-basic.github.io/categories' class="taxonomy-button w3-button"><i class="far fa-folder-open"></i></a>
     <a href='/hugo-theme-w3css-basic.github.io/categories/this-theme' class="taxonomy-button w3-button">This Theme</a>
    <a href='/hugo-theme-w3css-basic.github.io/tags' class="taxonomy-button w3-button"><i class="fas fa-tags"></i></a>
-    <a href='/hugo-theme-w3css-basic.github.io/tags/hugo' class="taxonomy-button w3-button">hugo</a>
     <a href='/hugo-theme-w3css-basic.github.io/tags/shortcodes' class="taxonomy-button w3-button">shortcodes</a>
+    <a href='/hugo-theme-w3css-basic.github.io/tags/showcase' class="taxonomy-button w3-button">Showcase</a>
 </div>
 
   <!-- partials/main.teaserpic.single.html -->
@@ -310,6 +309,10 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
 <li><a href="#icon">icon</a></li>
 <li><a href="#csc">csc</a></li>
 <li><a href="#cscb">cscb</a></li>
+<li><a href="#page-resources">Page Resources</a>
+<ul>
+<li><a href="#res-figure">res-figure</a></li>
+</ul></li>
 <li><a href="#heg-gallery">heg-gallery</a>
 <ul>
 <li><a href="#style-2">Style</a></li>
@@ -1007,6 +1010,60 @@ static/css/syntax/syntax.bw.css
 </span></code></pre>
 
 
+<h2 id="page-resources">Page Resources</h2>
+
+<h3 id="res-figure">res-figure</h3>
+
+<ul>
+<li>See <a href="https://gohugo.io/content-management/image-processing/">https://gohugo.io/content-management/image-processing/</a></li>
+<li>inspired by layouts/shortcodes/imgproc.html</li>
+<li>See <a href="/blog/2018/04/02/image-processing-with-hugo/">Hugo image processing (res-figure)</a> for more information</li>
+</ul>
+
+<pre class="w3-code notranslate">
+{{&lt; res-figure &#34;img/pixabay.com/penguin-21*&#34; /&gt;}} 
+{{&lt; res-figure &#34;img/pixabay.com/penguin-21*&#34; &#34;Fit&#34;  &#34;200x200&#34; /&gt;}} 
+{{&lt; res-figure &#34;img/pixabay.com/penguin-21*&#34; &#34;Fill&#34; &#34;200x200&#34; / &gt;}} 
+</pre>
+
+
+<p>      
+
+    <figure class='res-figure no-photoswipe'  style="width: 300px;">
+      <img src="/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/img/pixabay.com/penguin-2104173_1920_hu83b593d3e71a64e0d6371de0254604f8_270606_300x0_resize_q75_box.jpg"
+           alt="penguin-2104173_1920.jpg"
+           width="300px" height="200px"
+      >
+      <figcaption class='res-figcaption'>
+          Resize '300x'<br>penguin-2104173_1920<br><a href='https://pixabay.com'>pixabay.com</a><br><a href='https://pixabay.com/en/service/terms/#usage'>Creative Commons CC0</a>
+      </figcaption>
+    </figure>  
+
+          
+
+    <figure class='res-figure no-photoswipe'  style="width: 200px;">
+      <img src="/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/img/pixabay.com/penguin-2104173_1920_hu83b593d3e71a64e0d6371de0254604f8_270606_200x200_fit_q75_box.jpg"
+           alt="penguin-2104173_1920.jpg"
+           width="200px" height="133px"
+      >
+      <figcaption class='res-figcaption'>
+          Fit '200x200'<br>penguin-2104173_1920<br><a href='https://pixabay.com'>pixabay.com</a><br><a href='https://pixabay.com/en/service/terms/#usage'>Creative Commons CC0</a>
+      </figcaption>
+    </figure>  
+
+          
+
+    <figure class='res-figure no-photoswipe'  style="width: 200px;">
+      <img src="/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/img/pixabay.com/penguin-2104173_1920_hu83b593d3e71a64e0d6371de0254604f8_270606_200x200_fill_q75_box_smart1.jpg"
+           alt="penguin-2104173_1920.jpg"
+           width="200px" height="200px"
+      >
+      <figcaption class='res-figcaption'>
+          Fill '200x200'<br>penguin-2104173_1920<br><a href='https://pixabay.com'>pixabay.com</a><br><a href='https://pixabay.com/en/service/terms/#usage'>Creative Commons CC0</a>
+      </figcaption>
+    </figure>  
+</p>
+
 <h2 id="heg-gallery">heg-gallery</h2>
 
 <ul>
@@ -1256,7 +1313,7 @@ static/css/syntax/syntax.bw.css
 </div>
 
 
-<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css' />
+
 
 <div class='box fancy-figure caption-position-bottom caption-effect-none' style='max-width:135px'>
   <figure  itemscope itemtype="http://schema.org/ImageObject">
@@ -1464,7 +1521,7 @@ static/css/syntax/syntax.bw.css
 </div>
 
 
-
+<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css' />
 
 <div class='box fancy-figure caption-position-bottom caption-effect-none' style='max-width:640px'>
   <figure  itemscope itemtype="http://schema.org/ImageObject">
@@ -2027,8 +2084,8 @@ See more here: {{&lt; litt &#34;categories&#34; &#34;Golang&#34; &#34;.RelPermal
 <td>{{&lt; litx &ldquo;*&rdquo; &ldquo;Nullam&rdquo;             &gt;}}</td>
 <td>          
 
-<ul>                                                                                            
-            <li><a href='/hugo-theme-w3css-basic.github.io/tags/nullam'>tags/nullam</a>                                               
+<ul>                                                                                               
+            <li><a href='/hugo-theme-w3css-basic.github.io/tags/nullam'>tags/nullam</a>                                                  
 </ul>
 </td>
 </tr>
@@ -2043,10 +2100,10 @@ See more here: {{&lt; litt &#34;categories&#34; &#34;Golang&#34; &#34;.RelPermal
                 </a> </li>                                                                                      
                 <li>tags/folder20
                   <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder20/folder21/nullam/'>Nullam 
-                </a> </li>                                                            
+                </a> </li>                                                                  
                 <li>tags/nullam
                   <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder20/folder21/nullam/'>Nullam 
-                </a> </li>                                                                         
+                </a> </li>                                                                               
 </ul>
 </td>
 </tr>
@@ -2071,8 +2128,8 @@ See more here: {{&lt; litt &#34;categories&#34; &#34;Golang&#34; &#34;.RelPermal
 <ul>                              
           <li><a href='/hugo-theme-w3css-basic.github.io/tags/go'>tags/go</a>     
           <li><a href='/hugo-theme-w3css-basic.github.io/tags/golang'>tags/golang</a>     
-          <li><a href='/hugo-theme-w3css-basic.github.io/tags/hugo'>tags/hugo</a>        
-          <li><a href='/hugo-theme-w3css-basic.github.io/tags/logos'>tags/logos</a>                                                       
+          <li><a href='/hugo-theme-w3css-basic.github.io/tags/hugo'>tags/hugo</a>           
+          <li><a href='/hugo-theme-w3css-basic.github.io/tags/logos'>tags/logos</a>                                                          
 </ul>
 </td>
 </tr>
@@ -2081,8 +2138,8 @@ See more here: {{&lt; litt &#34;categories&#34; &#34;Golang&#34; &#34;.RelPermal
 <td>{{&lt; litx                   term=&ldquo;Nullam&rdquo;                          &gt;}}</td>
 <td>
 
-<ul>                                                  
-            <li><a href='/hugo-theme-w3css-basic.github.io/tags/nullam'>tags/nullam</a>                                               
+<ul>                                                     
+            <li><a href='/hugo-theme-w3css-basic.github.io/tags/nullam'>tags/nullam</a>                                                  
 </ul>
 </td>
 </tr>
@@ -2091,7 +2148,7 @@ See more here: {{&lt; litt &#34;categories&#34; &#34;Golang&#34; &#34;.RelPermal
 <td>{{&lt; litx                   term=&ldquo;Nullam&rdquo; om=&ldquo;p&rdquo;                   &gt;}}</td>
 <td>
 
-<ul>                                                   
+<ul>                                                      
                 <li>tags/nullam
                   <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder30/donec-pretium-posuere/'>Donec pretium posuere 
                 </a> </li>
@@ -2103,7 +2160,7 @@ See more here: {{&lt; litt &#34;categories&#34; &#34;Golang&#34; &#34;.RelPermal
                 </a> </li>
                 <li>tags/nullam
                   <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder20/folder21/vestibulum/'>Vestibulum 
-                </a> </li>                                               
+                </a> </li>                                                  
 </ul>
 </td>
 </tr>
@@ -2112,7 +2169,7 @@ See more here: {{&lt; litt &#34;categories&#34; &#34;Golang&#34; &#34;.RelPermal
 <td>{{&lt; litx                   term=&ldquo;Nullam&rdquo; om=&ldquo;tp&rdquo;                  &gt;}}</td>
 <td>
 
-<ul>                                                  
+<ul>                                                     
             <li><a href='/hugo-theme-w3css-basic.github.io/tags/nullam'>tags/nullam</a> 
                 <li>tags/nullam
                   <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder30/donec-pretium-posuere/'>Donec pretium posuere 
@@ -2125,7 +2182,7 @@ See more here: {{&lt; litt &#34;categories&#34; &#34;Golang&#34; &#34;.RelPermal
                 </a> </li>
                 <li>tags/nullam
                   <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder20/folder21/vestibulum/'>Vestibulum 
-                </a> </li>                                               
+                </a> </li>                                                  
 </ul>
 </td>
 </tr>
@@ -2134,7 +2191,7 @@ See more here: {{&lt; litt &#34;categories&#34; &#34;Golang&#34; &#34;.RelPermal
 <td>{{&lt; litx                   term=&ldquo;web&rdquo;                             &gt;}}</td>
 <td>
 
-<ul>                                                                             
+<ul>                                                                                   
             <li><a href='/hugo-theme-w3css-basic.github.io/tags/web'>tags/web</a>                    
 </ul>
 </td>
@@ -2157,7 +2214,7 @@ See more here: {{&lt; litt &#34;categories&#34; &#34;Golang&#34; &#34;.RelPermal
 <ul>                                     
                 <li>categories/web
                   <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/24/hugo-highlight-chromastyles/'>Hugo - <strong>highlight</strong> 🎨 
-                </a> </li>                                                                                      
+                </a> </li>                                                                                            
                 <li>tags/web
                   <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/10/hugo-dolor/'>Hugo - dolor 
                 </a> </li>
@@ -2179,7 +2236,7 @@ See more here: {{&lt; litt &#34;categories&#34; &#34;Golang&#34; &#34;.RelPermal
             <li><a href='/hugo-theme-w3css-basic.github.io/categories/web'>categories/web</a> 
                 <li>categories/web
                   <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/24/hugo-highlight-chromastyles/'>/hugo-theme-w3css-basic.github.io/blog/2017/11/24/hugo-highlight-chromastyles/
-                </a> </li>                                                                                     
+                </a> </li>                                                                                           
             <li><a href='/hugo-theme-w3css-basic.github.io/tags/web'>tags/web</a> 
                 <li>tags/web
                   <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/10/hugo-dolor/'>/hugo-theme-w3css-basic.github.io/blog/2017/11/10/hugo-dolor/
@@ -2268,7 +2325,7 @@ line 2
     <a href='/hugo-theme-w3css-basic.github.io/categories/legal' class="taxonomy-button w3-button">legal (10)</a>
     <a href='/hugo-theme-w3css-basic.github.io/categories/photocards' class="taxonomy-button w3-button">photocards (9)</a>
     <a href='/hugo-theme-w3css-basic.github.io/categories/programming' class="taxonomy-button w3-button">programming (1)</a>
-    <a href='/hugo-theme-w3css-basic.github.io/categories/this-theme' class="taxonomy-button w3-button">this-theme (7)</a>
+    <a href='/hugo-theme-w3css-basic.github.io/categories/this-theme' class="taxonomy-button w3-button">this-theme (8)</a>
     <a href='/hugo-theme-w3css-basic.github.io/categories/tools' class="taxonomy-button w3-button">tools (5)</a>
     <a href='/hugo-theme-w3css-basic.github.io/categories/vestibulum' class="taxonomy-button w3-button">vestibulum (1)</a>
     <a href='/hugo-theme-w3css-basic.github.io/categories/web' class="taxonomy-button w3-button">web (1)</a>
@@ -2285,7 +2342,8 @@ line 2
     <a href='/hugo-theme-w3css-basic.github.io/tags/front' class="taxonomy-button w3-button">front (17)</a>
     <a href='/hugo-theme-w3css-basic.github.io/tags/go' class="taxonomy-button w3-button">go (3)</a>
     <a href='/hugo-theme-w3css-basic.github.io/tags/golang' class="taxonomy-button w3-button">golang (2)</a>
-    <a href='/hugo-theme-w3css-basic.github.io/tags/hugo' class="taxonomy-button w3-button">hugo (6)</a>
+    <a href='/hugo-theme-w3css-basic.github.io/tags/hugo' class="taxonomy-button w3-button">hugo (5)</a>
+    <a href='/hugo-theme-w3css-basic.github.io/tags/images' class="taxonomy-button w3-button">images (1)</a>
     <a href='/hugo-theme-w3css-basic.github.io/tags/license' class="taxonomy-button w3-button">license (10)</a>
     <a href='/hugo-theme-w3css-basic.github.io/tags/logos' class="taxonomy-button w3-button">logos (1)</a>
     <a href='/hugo-theme-w3css-basic.github.io/tags/lorem' class="taxonomy-button w3-button">lorem (17)</a>
@@ -2293,9 +2351,10 @@ line 2
     <a href='/hugo-theme-w3css-basic.github.io/tags/nullam' class="taxonomy-button w3-button">nullam (4)</a>
     <a href='/hugo-theme-w3css-basic.github.io/tags/phasellus' class="taxonomy-button w3-button">phasellus (2)</a>
     <a href='/hugo-theme-w3css-basic.github.io/tags/pictures' class="taxonomy-button w3-button">pictures (9)</a>
+    <a href='/hugo-theme-w3css-basic.github.io/tags/resources' class="taxonomy-button w3-button">resources (1)</a>
     <a href='/hugo-theme-w3css-basic.github.io/tags/rutrum' class="taxonomy-button w3-button">rutrum (1)</a>
-    <a href='/hugo-theme-w3css-basic.github.io/tags/shortcodes' class="taxonomy-button w3-button">shortcodes (1)</a>
-    <a href='/hugo-theme-w3css-basic.github.io/tags/showcase' class="taxonomy-button w3-button">showcase (6)</a>
+    <a href='/hugo-theme-w3css-basic.github.io/tags/shortcodes' class="taxonomy-button w3-button">shortcodes (2)</a>
+    <a href='/hugo-theme-w3css-basic.github.io/tags/showcase' class="taxonomy-button w3-button">showcase (8)</a>
     <a href='/hugo-theme-w3css-basic.github.io/tags/templates' class="taxonomy-button w3-button">templates (1)</a>
     <a href='/hugo-theme-w3css-basic.github.io/tags/themes' class="taxonomy-button w3-button">themes (1)</a>
     <a href='/hugo-theme-w3css-basic.github.io/tags/tristique' class="taxonomy-button w3-button">tristique (1)</a>
@@ -2331,6 +2390,16 @@ line 2
     <div class="w3-col w3-third">
       <h4>Recent Posts</h4>
         <!-- range first Site.Params.footerNumOfPosts .Site.RegularPages "Section" "blog" -->
+
+        <div class="w3-container ">
+          <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/blog/2018/04/02/image-processing-with-hugo/'>
+            <img class="w3-image w3-left w3-round w3-hover-opacity " style="max-width:60px; max-height:20px; width: auto; height: auto; margin: 0px 8px 16px 0px;"
+              alt='images/teaserpics/pixabay.com/particles-1373684_640.jpg'
+              src='/hugo-theme-w3css-basic.github.io/images/teaserpics/pixabay.com/particles-1373684_640.jpg'
+            />
+          </a>
+          <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/blog/2018/04/02/image-processing-with-hugo/'><i class='far fa-images'></i>&nbsp;Hugo image processing (<code>res-figure</code>)</a>
+        </div>
 
         <div class="w3-container ">
           <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/blog/2017/11/24/hugo-highlight-chromastyles/'>
@@ -2370,16 +2439,6 @@ line 2
             />
           </a>
           <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/blog/2017/11/08/hugo-ipsum/'>Hugo - ipsum</a>
-        </div>
-
-        <div class="w3-container ">
-          <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/blog/2017/10/09/golang-a-closer-look/'>
-            <img class="w3-image w3-left w3-round w3-hover-opacity " style="max-width:60px; max-height:20px; width: auto; height: auto; margin: 0px 8px 16px 0px;"
-              alt='images/teaserpics/gohugo.io/golang-a-closer-look.png'
-              src='/hugo-theme-w3css-basic.github.io/images/teaserpics/gohugo.io/golang-a-closer-look.png'
-            />
-          </a>
-          <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/blog/2017/10/09/golang-a-closer-look/'>Golang - a closer look</a>
         </div> 
 
     </div>    

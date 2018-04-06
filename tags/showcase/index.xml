@@ -6,10 +6,33 @@
     <description>Recent content in Showcase on W3.CSS Basic exampleSite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jan 2018 20:01:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 22 Nov 2017 07:41:52 +0100</lastBuildDate>
     
 	<atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/showcase/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>This Theme Shortcodes</title>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/</link>
+      <pubDate>Wed, 22 Nov 2017 07:41:52 +0100</pubDate>
+      
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/</guid>
+      <description>You can extend Hugo’s built-in shortcodes by creating your own using the same templating syntax as that for single and list pages.
+Shortcodes are a means to consolidate templating into small, reusable snippets that you can embed directly inside of your content. In this sense, you can think of shortcodes as the intermediary between page and list templates and basic content files.
+https://gohugo.io/templates/shortcode-templates  Shortcodes in this Theme for W3.</description>
+    </item>
+    
+    <item>
+      <title>Hugo image processing (`res-figure`)</title>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2018/04/02/image-processing-with-hugo/</link>
+      <pubDate>Mon, 02 Apr 2018 13:58:21 +0200</pubDate>
+      
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2018/04/02/image-processing-with-hugo/</guid>
+      <description>&lt;p&gt;Image page resources can be resized and cropped.
+This theme provides a shortcode &lt;code&gt;res-figure&lt;/code&gt;  for resource image processing.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Shortcode liti</title>

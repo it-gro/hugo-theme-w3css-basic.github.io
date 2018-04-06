@@ -23,6 +23,18 @@ https://gohugo.io/templates/shortcode-templates  Shortcodes in this Theme for W3
     </item>
     
     <item>
+      <title>Hugo image processing (`res-figure`)</title>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2018/04/02/image-processing-with-hugo/</link>
+      <pubDate>Mon, 02 Apr 2018 13:58:21 +0200</pubDate>
+      
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2018/04/02/image-processing-with-hugo/</guid>
+      <description>&lt;p&gt;Image page resources can be resized and cropped.
+This theme provides a shortcode &lt;code&gt;res-figure&lt;/code&gt;  for resource image processing.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Shortcode liti</title>
       <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/liti-01/</link>
       <pubDate>Thu, 18 Jan 2018 20:01:00 +0100</pubDate>
