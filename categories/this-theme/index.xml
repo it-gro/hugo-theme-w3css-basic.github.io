@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>This Theme on hugo-theme-w3css-basic exampleSite</title>
+    <title>This Theme on W3.CSS Basic exampleSite</title>
     <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/this-theme/</link>
-    <description>Recent content in This Theme on hugo-theme-w3css-basic exampleSite</description>
+    <description>Recent content in This Theme on W3.CSS Basic exampleSite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 22 Nov 2017 07:41:52 +0100</lastBuildDate>
@@ -20,6 +20,21 @@
       <description>You can extend Hugo’s built-in shortcodes by creating your own using the same templating syntax as that for single and list pages.
 Shortcodes are a means to consolidate templating into small, reusable snippets that you can embed directly inside of your content. In this sense, you can think of shortcodes as the intermediary between page and list templates and basic content files.
 https://gohugo.io/templates/shortcode-templates  Shortcodes in this Theme for W3.</description>
+    </item>
+    
+    <item>
+      <title>Gallery pixabay.com</title>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/gallery-01/</link>
+      <pubDate>Fri, 06 Apr 2018 19:10:03 +0200</pubDate>
+      
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/gallery-01/</guid>
+      <description>01-photocard.jpg
+      02-photocard.jpg
+      03-photocard.jpg
+      04-photocard.jpg
+      05-photocard.png
+      06-photocard.jpg
+      07-photocard.</description>
     </item>
     
     <item>
@@ -71,21 +86,6 @@ Here they are: teaserpics (pixabay.com)&amp;nbsp; photocards (pixabay.com)&amp;n
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/console-01/</guid>
       <description>&lt;p&gt;See themes.gohugo.io for a list of themes to consider. This quickstart uses the beautiful Ananke theme
 &lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Gallery pixabay.com</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/gallery-01/</link>
-      <pubDate>Fri, 05 Jan 2018 20:30:54 +0100</pubDate>
-      
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/gallery-01/</guid>
-      <description>01-photocard.jpg
-      02-photocard.jpg
-      03-photocard.jpg
-      04-photocard.jpg
-      05-photocard.png
-      06-photocard.jpg
-      07-photocard.</description>
     </item>
     
     <item>

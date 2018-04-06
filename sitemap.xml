@@ -208,6 +208,11 @@
   </url>
   
   <url>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/gallery-01/</loc>
+    <lastmod>2018-04-06T19:10:03+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2018/04/02/image-processing-with-hugo/</loc>
     <lastmod>2018-04-02T13:58:21+02:00</lastmod>
   </url>
@@ -235,11 +240,6 @@
   <url>
     <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/console-01/</loc>
     <lastmod>2018-01-05T20:38:50+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/gallery-01/</loc>
-    <lastmod>2018-01-05T20:30:54+01:00</lastmod>
   </url>
   
   <url>
@@ -397,13 +397,13 @@
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/development/</loc>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/development/</loc>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -469,13 +469,13 @@
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/golang/</loc>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/golang/</loc>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -635,8 +635,8 @@
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/web/</loc>
-    <lastmod>2017-11-10T00:00:00+01:00</lastmod>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/</loc>
+    <lastmod>2017-11-13T15:33:35+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -647,8 +647,8 @@
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/</loc>
-    <lastmod>2017-11-13T15:33:35+01:00</lastmod>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/web/</loc>
+    <lastmod>2017-11-10T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
