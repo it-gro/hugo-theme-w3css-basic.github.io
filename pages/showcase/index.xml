@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Showcase on W3.CSS Basic exampleSite</title>
+    <title>Showcase on hugo-theme-w3css-basic exampleSite</title>
     <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/</link>
-    <description>Recent content in Showcase on W3.CSS Basic exampleSite</description>
+    <description>Recent content in Showcase on hugo-theme-w3css-basic exampleSite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 05 Jan 2018 20:18:10 +0100</lastBuildDate>
     
 	<atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo image processing (`res-figure`)</title>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/image-processing-with-hugo/</link>
+      <pubDate>Fri, 06 Apr 2018 20:18:31 +0200</pubDate>
+      
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/image-processing-with-hugo/</guid>
+      <description>&lt;p&gt;Image page resources can be resized and cropped.
+&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Gallery pixabay.com</title>
@@ -70,7 +80,7 @@ Here they are: teaserpics (pixabay.com)&amp;nbsp; photocards (pixabay.com)&amp;n
       <pubDate>Fri, 05 Jan 2018 20:38:50 +0100</pubDate>
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/console-01/</guid>
-      <description>&lt;p&gt;See themes.gohugo.io for a list of themes to consider. This quickstart uses the beautiful Ananke theme
+      <description>&lt;p&gt;See themes.gohugo.io for a list of themes to consider.
 &lt;/p&gt;</description>
     </item>
     
