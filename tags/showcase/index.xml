@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Showcase on W3.CSS Basic exampleSite</title>
+    <title>Showcase on hugo-theme-w3css-basic exampleSite</title>
     <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/showcase/</link>
-    <description>Recent content in Showcase on W3.CSS Basic exampleSite</description>
+    <description>Recent content in Showcase on hugo-theme-w3css-basic exampleSite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 22 Nov 2017 07:41:52 +0100</lastBuildDate>
@@ -23,6 +23,16 @@ https://gohugo.io/templates/shortcode-templates  Shortcodes in this Theme for W3
     </item>
     
     <item>
+      <title>Hugo image processing (`res-figure`)</title>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/image-processing-with-hugo/</link>
+      <pubDate>Fri, 06 Apr 2018 20:18:31 +0200</pubDate>
+      
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/image-processing-with-hugo/</guid>
+      <description>&lt;p&gt;Image page resources can be resized and cropped.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Gallery pixabay.com</title>
       <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/gallery-01/</link>
       <pubDate>Fri, 06 Apr 2018 19:10:03 +0200</pubDate>
@@ -35,18 +45,6 @@ https://gohugo.io/templates/shortcode-templates  Shortcodes in this Theme for W3
       05-photocard.png
       06-photocard.jpg
       07-photocard.</description>
-    </item>
-    
-    <item>
-      <title>Hugo image processing (`res-figure`)</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2018/04/02/image-processing-with-hugo/</link>
-      <pubDate>Mon, 02 Apr 2018 13:58:21 +0200</pubDate>
-      
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2018/04/02/image-processing-with-hugo/</guid>
-      <description>&lt;p&gt;Image page resources can be resized and cropped.
-This theme provides a shortcode &lt;code&gt;res-figure&lt;/code&gt;  for resource image processing.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -84,7 +82,7 @@ Here they are: teaserpics (pixabay.com)&amp;nbsp; photocards (pixabay.com)&amp;n
       <pubDate>Fri, 05 Jan 2018 20:38:50 +0100</pubDate>
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/console-01/</guid>
-      <description>&lt;p&gt;See themes.gohugo.io for a list of themes to consider. This quickstart uses the beautiful Ananke theme
+      <description>&lt;p&gt;See themes.gohugo.io for a list of themes to consider.
 &lt;/p&gt;</description>
     </item>
     
