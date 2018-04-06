@@ -47,7 +47,7 @@
 
     
   <!-- partials/head.fonts.googleapis.html -->
-  <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Capriola|Space+Mono' />
+  <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Capriola|Oxygen+Mono' />
   <style> html {font-family: 'Capriola', sans-serif; } </style>
   <style> body {font-family: 'Capriola', sans-serif; } </style>
   <style> abbr {font-family: 'Capriola', sans-serif; } </style>
@@ -66,10 +66,10 @@
   <style> h4 {} </style>
   <style> h5 {} </style>
   <style> h6 {} </style>
-  <style> pre {font-family: 'Space Mono', monospace; } </style>
-  <style> code {font-family: 'Space Mono', monospace; } </style>
-  <style> kbd {font-family: 'Space Mono', monospace; } </style>
-  <style> samp {font-family: 'Space Mono', monospace; } </style>   
+  <style> pre {font-family: 'Oxygen Mono', monospace; } </style>
+  <style> code {font-family: 'Oxygen Mono', monospace; } </style>
+  <style> kbd {font-family: 'Oxygen Mono', monospace; } </style>
+  <style> samp {font-family: 'Oxygen Mono', monospace; } </style>   
 
   
   <!-- partials/head.ie.html -->
@@ -260,7 +260,6 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
           <h1 class='w3-panel w3-theme-l2 '>
           
            </h1>
-        
         <!-- block main _default/baseof.html  -->
         
   <!-- partials/head.blog.date.html -->
@@ -1624,7 +1623,8 @@ icon:        &#34;fas fa-list&#34;
 <h2 id="shortcodes">Shortcodes</h2>
 
 <ul>
-<li>See <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/">https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/</a></li>
+<li>See <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/">https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/</a>
+and <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2018/04/02/image-processing-with-hugo/">https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2018/04/02/image-processing-with-hugo/</a></li>
 </ul>
 <div class="highlight"><pre class="chroma">layouts/shortcodes/
 ├── alert.html
@@ -1644,6 +1644,7 @@ icon:        &#34;fas fa-list&#34;
 ├── liti.html
 ├── litt.html
 ├── litx.html
+├── res-figure.html
 ├── w3-alert-icon.html
 ├── w3-badge.html
 ├── w3-button-icon.html
@@ -1660,6 +1661,21 @@ icon:        &#34;fas fa-list&#34;
 <li><a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/#litt-list-by-taxonomy-term-just-one-result">List by Taxonomy / Term</a></li>
 <li><a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/#litx-list-by-taxonomy-full-search">List by Taxonomy with search</a></li>
 </ul></li>
+</ul>
+
+<h2 id="page-resources">Page Resources</h2>
+
+<ul>
+<li><a href="https://gohugo.io/content-management/page-resources/">https://gohugo.io/content-management/page-resources/</a></li>
+<li>ToDo (support via shortcode)</li>
+</ul>
+
+<h3 id="images">Images</h3>
+
+<ul>
+<li><a href="https://gohugo.io/content-management/image-processing/">https://gohugo.io/content-management/image-processing/</a></li>
+<li>Support via shortcode <code>res-figure</code></li>
+<li>See <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2018/04/02/image-processing-with-hugo/">https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2018/04/02/image-processing-with-hugo/</a></li>
 </ul>
 
 <h2 id="gallery">Gallery</h2>
@@ -2088,6 +2104,16 @@ for all their work</p></li>
         <!-- range first Site.Params.footerNumOfPosts .Site.RegularPages "Section" "blog" -->
 
         <div class="w3-container ">
+          <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/blog/2018/04/02/image-processing-with-hugo/'>
+            <img class="w3-image w3-left w3-round w3-hover-opacity " style="max-width:60px; max-height:20px; width: auto; height: auto; margin: 0px 8px 16px 0px;"
+              alt='images/teaserpics/pixabay.com/particles-1373684_640.jpg'
+              src='/hugo-theme-w3css-basic.github.io/images/teaserpics/pixabay.com/particles-1373684_640.jpg'
+            />
+          </a>
+          <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/blog/2018/04/02/image-processing-with-hugo/'><i class='far fa-images'></i>&nbsp;Hugo image processing (<code>res-figure</code>)</a>
+        </div>
+
+        <div class="w3-container ">
           <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/blog/2017/11/24/hugo-highlight-chromastyles/'>
             <img class="w3-image w3-left w3-round w3-hover-opacity " style="max-width:60px; max-height:20px; width: auto; height: auto; margin: 0px 8px 16px 0px;"
               alt='images/teaserpics/bitbucket.org/pygments-main-logo.png'
@@ -2125,16 +2151,6 @@ for all their work</p></li>
             />
           </a>
           <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/blog/2017/11/08/hugo-ipsum/'>Hugo - ipsum</a>
-        </div>
-
-        <div class="w3-container ">
-          <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/blog/2017/10/09/golang-a-closer-look/'>
-            <img class="w3-image w3-left w3-round w3-hover-opacity " style="max-width:60px; max-height:20px; width: auto; height: auto; margin: 0px 8px 16px 0px;"
-              alt='images/teaserpics/gohugo.io/golang-a-closer-look.png'
-              src='/hugo-theme-w3css-basic.github.io/images/teaserpics/gohugo.io/golang-a-closer-look.png'
-            />
-          </a>
-          <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/blog/2017/10/09/golang-a-closer-look/'>Golang - a closer look</a>
         </div> 
 
     </div>    

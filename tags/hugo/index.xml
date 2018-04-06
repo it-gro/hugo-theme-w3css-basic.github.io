@@ -6,21 +6,10 @@
     <description>Recent content in Hugo on W3.CSS Basic exampleSite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Nov 2017 07:41:52 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 24 Nov 2017 08:44:12 +0100</lastBuildDate>
     
 	<atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>This Theme Shortcodes</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/</link>
-      <pubDate>Wed, 22 Nov 2017 07:41:52 +0100</pubDate>
-      
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/</guid>
-      <description>You can extend Hugo’s built-in shortcodes by creating your own using the same templating syntax as that for single and list pages.
-Shortcodes are a means to consolidate templating into small, reusable snippets that you can embed directly inside of your content. In this sense, you can think of shortcodes as the intermediary between page and list templates and basic content files.
-https://gohugo.io/templates/shortcode-templates  Shortcodes in this Theme for W3.</description>
-    </item>
     
     <item>
       <title>Hugo - **highlight** :art:</title>
