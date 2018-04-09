@@ -18,6 +18,7 @@
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/image-processing-with-hugo/</guid>
       <description>&lt;p&gt;Image page resources can be resized and cropped.
+This theme provides a shortcode &lt;code&gt;res-figure&lt;/code&gt;  for page resource image processing.
 &lt;/p&gt;</description>
     </item>
     

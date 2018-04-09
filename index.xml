@@ -279,7 +279,7 @@ tristique imperdiet tortor. Nam euismod tellus id erat.&lt;/p&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
-&lt;link rel=&#34;stylesheet&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css&#39; /&gt;
+
 
 &lt;div class=&#39;box fancy-figure caption-position-bottom caption-effect-appear&#39; style=&#39;max-width:200px&#39;&gt;
   &lt;figure  itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
@@ -323,7 +323,7 @@ nulla. Nullam rutrum. Nam vestibulum accumsan nisl.&lt;/p&gt;
 &lt;p&gt;Nunc aliquet, augue nec adipiscing interdum, lacus tellus malesuada massa, quis varius mi purus non odio.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-
+&lt;link rel=&#34;stylesheet&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css&#39; /&gt;
 &lt;div class=&#39;gallery caption-position-bottom caption-effect-none hover-effect-grow hover-transition&#39; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
         &lt;div class=&#34;box&#34;&gt;
           &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
@@ -1921,9 +1921,8 @@ the &lt;code&gt;/static/vendor/w3css/4/&lt;/code&gt; directory.&lt;/p&gt;
   &lt;span class=&#34;c&#34;&gt;# e.g. {{ default `w3-theme-l3` ($.Site.Param `color404Container`)}} &lt;/span&gt;
 
   &lt;span class=&#34;nx&#34;&gt;color404Container&lt;/span&gt;                     &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;w3-theme-l3&amp;#34;&lt;/span&gt;
-  &lt;span class=&#34;nx&#34;&gt;colorPagesListCell&lt;/span&gt;                    &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;w3-theme-l4&amp;#34;&lt;/span&gt;
   &lt;span class=&#34;nx&#34;&gt;colorPagesListCard&lt;/span&gt;                    &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;w3-theme-l1&amp;#34;&lt;/span&gt;
-  &lt;span class=&#34;nx&#34;&gt;colorPagesListContainer&lt;/span&gt;               &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;w3-theme-l1&amp;#34;&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;colorPagesListCell&lt;/span&gt;                    &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;w3-theme-l4&amp;#34;&lt;/span&gt;
   &lt;span class=&#34;nx&#34;&gt;colorBlogListCard&lt;/span&gt;                     &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;w3-theme-d1&amp;#34;&lt;/span&gt;
   &lt;span class=&#34;nx&#34;&gt;colorBlogListCell&lt;/span&gt;                     &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;w3-theme-l3&amp;#34;&lt;/span&gt;
   &lt;span class=&#34;nx&#34;&gt;colorBaseofCanvas&lt;/span&gt;                     &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;w3-theme-l4&amp;#34;&lt;/span&gt;
@@ -2754,7 +2753,7 @@ categories:
 &lt;/div&gt;
 
 
-
+&lt;link rel=&#34;stylesheet&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css&#39; /&gt;
 &lt;div class=&#39;gallery caption-position-bottom caption-effect-none hover-effect-grow hover-transition&#39; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
         &lt;div class=&#34;box&#34;&gt;
           &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
@@ -2882,7 +2881,7 @@ categories:
 &lt;h2 id=&#34;figure&#34;&gt;Figure&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;
 
-&lt;link rel=&#34;stylesheet&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css&#39; /&gt;
+
 
 &lt;div class=&#39;box fancy-figure caption-position-bottom caption-effect-none&#39; style=&#39;max-width:640px&#39;&gt;
   &lt;figure  itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
