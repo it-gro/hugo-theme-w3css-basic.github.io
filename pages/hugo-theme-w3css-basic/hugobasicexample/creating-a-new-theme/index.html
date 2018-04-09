@@ -186,14 +186,14 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
 <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
     
-  <!-- partials/header.nav.theme_color_selector.html -->
+  <!-- partials/header.nav.large_theme_color_selector.html -->
 
-<select id="theme_color_selector"
+<select id="large_theme_color_selector"
         title="This may help you to to define w3cssColorTheme in your config.toml. All color themes are from www.w3schools.com/w3css."
         class="w3-bar-item w3-right w3-padding-small w3-theme-d2"
         style="margin-top: 6px;"
         translate="no"
-        onchange="setStyleSheet()">
+        onchange="setStyleSheet('large_theme_color_selector')">
   <option value="" disabled="" selected="">preview colors</option>
   <option value='w3-theme-amber.css'                                                > amber</option>
   <option value='w3-theme-black.css'                                                > black</option>
@@ -300,14 +300,14 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
   <a href='#address' target="_blank" class="w3-bar-item w3-button w3-right header-nav-menu-topbar-medium" ><i class='fas fa-envelope'></i></a>
   <a href='/hugo-theme-w3css-basic.github.io/search' target="_blank" class="w3-bar-item w3-button w3-right header-nav-menu-topbar-medium" ><i class='fas fa-search'></i></a>  
     
-  <!-- partials/header.nav.theme_color_selector.html -->
+  <!-- partials/header.nav.medium.theme_color_selector.html -->
 
-<select id="theme_color_selector"
+<select id="medium_theme_color_selector"
         title="This may help you to to define w3cssColorTheme in your config.toml. All color themes are from www.w3schools.com/w3css."
         class="w3-bar-item w3-right w3-padding-small w3-theme-d2"
         style="margin-top: 6px;"
         translate="no"
-        onchange="setStyleSheet()">
+        onchange="setStyleSheet('medium_theme_color_selector')">
   <option value="" disabled="" selected="">preview colors</option>
   <option value='w3-theme-amber.css'                                                > amber</option>
   <option value='w3-theme-black.css'                                                > black</option>
@@ -1562,8 +1562,8 @@ consectetuer adipiscing</p>
 
 <script src='/hugo-theme-w3css-basic.github.io/vendor/jquery/jquery-3.2.1.slim.min.js'></script> 
   <script>
-    function setStyleSheet(){
-      var cssName    = document.getElementById("theme_color_selector").value;
+    function setStyleSheet(id){
+      var cssName    = document.getElementById(id).value;
       var stylesheet = document.getElementById("theme-colors");
       var cssPrefix  = '\/hugo-theme-w3css-basic.github.io\/vendor\/w3css\/4\/';
       var href       = cssPrefix.concat(cssName);
