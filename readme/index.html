@@ -1871,6 +1871,7 @@ and <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2018
 <div class="highlight"><pre class="chroma">layouts/shortcodes/
 ├── alert.html
 ├── asciicast.html
+├── classify.html
 ├── csc.html
 ├── cscb.html
 ├── hc.html
@@ -1886,6 +1887,7 @@ and <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2018
 ├── liti.html
 ├── litt.html
 ├── litx.html
+├── res-attach.html
 ├── res-figure.html
 ├── w3-alert-icon.html
 ├── w3-badge.html
@@ -1909,7 +1911,6 @@ and <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2018
 
 <ul>
 <li><a href="https://gohugo.io/content-management/page-resources/">https://gohugo.io/content-management/page-resources/</a></li>
-<li>ToDo (support via shortcode)</li>
 </ul>
 
 <h3 id="images">Images</h3>
@@ -1921,6 +1922,15 @@ and <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2018
 </ul>
 
 <p><img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_338.jpg" alt="screenshot Image Showcase" /></p>
+
+<h2 id="attachments">Attachments</h2>
+
+<ul>
+<li>Support via shortcode <code>res-attach</code></li>
+<li>See <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/attach-page-resources/">https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/attach-page-resources/</a></li>
+</ul>
+
+<p><img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_336.jpg" alt="screenshot Attachments" /></p>
 
 <h2 id="gallery">Gallery</h2>
 
@@ -1943,49 +1953,6 @@ categories:
   - This Theme
 ---
 
-
-<script src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/jquery/jquery-3.2.1.slim.min.js'></script>
-<script src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/liwenyip/hugo-easy-gallery/js/load-photoswipe.js'></script>
-<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/vendor/photoswipe/photoswipe.css' />
-<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/vendor/photoswipe/default-skin/default-skin.css' />
-<script src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/photoswipe/photoswipe.min.js'>      </script>
-<script src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/photoswipe/photoswipe-ui-theme.js'> </script>
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-<div class="pswp__bg"></div>
-<div class="pswp__scroll-wrap">
-    <div class="pswp__container">
-      <div class="pswp__item"></div>
-      <div class="pswp__item"></div>
-      <div class="pswp__item"></div>
-    </div>
-    <div class="pswp__ui pswp__ui--hidden">
-    <div class="pswp__top-bar">
-      <div class="pswp__counter"></div>
-      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-      <button class="pswp__button pswp__button--share" title="Share"></button>
-      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-      <div class="pswp__preloader">
-        <div class="pswp__preloader__icn">
-          <div class="pswp__preloader__cut">
-            <div class="pswp__preloader__donut"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-      <div class="pswp__share-tooltip"></div>
-    </div>
-    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-    </button>
-    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-    </button>
-    <div class="pswp__caption">
-      <div class="pswp__caption__center"></div>
-    </div>
-    </div>
-    </div>
-</div>
 
 
 <link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css' />
@@ -2115,6 +2082,49 @@ categories:
   <span class="c"># humanizeCaption   = false</span></code></pre></div>
 <h2 id="figure">Figure</h2>
 <div class="highlight"><pre class="chroma">
+<script src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/jquery/jquery-3.2.1.slim.min.js'></script>
+<script src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/liwenyip/hugo-easy-gallery/js/load-photoswipe.js'></script>
+<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/vendor/photoswipe/photoswipe.css' />
+<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/vendor/photoswipe/default-skin/default-skin.css' />
+<script src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/photoswipe/photoswipe.min.js'>      </script>
+<script src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/photoswipe/photoswipe-ui-theme.js'> </script>
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="pswp__bg"></div>
+<div class="pswp__scroll-wrap">
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
 
 
 
@@ -2303,11 +2313,15 @@ for all their work</p></li>
 <li>900x600</li>
 </ul>
 
+<p><img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/tn.png" alt="screenshot thumbnail 900x600" /></p>
+
 <p><img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/tn.1.png" alt="screenshot thumbnail 900x600" /></p>
 
 <p><img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/tn.2.png" alt="screenshot thumbnail 900x600" /></p>
 
 <p><img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/tn.3.png" alt="screenshot thumbnail 900x600" /></p>
+
+<p><img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/tn.4.png" alt="screenshot thumbnail 900x600" /></p>
 
 <ul>
 <li>Complete</li>
