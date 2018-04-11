@@ -66,15 +66,6 @@
     </item>
     
     <item>
-      <title>Folder30</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/folder30/</link>
-      <pubDate>Mon, 13 Nov 2017 15:37:04 +0100</pubDate>
-      
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/folder30/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Front</title>
       <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/front/</link>
       <pubDate>Wed, 22 Nov 2017 13:55:13 +0100</pubDate>
@@ -98,6 +89,15 @@
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/hugo/</link>
+      <pubDate>Fri, 24 Nov 2017 08:44:12 +0100</pubDate>
+      
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     
