@@ -252,7 +252,7 @@ tristique imperdiet tortor. Nam euismod tellus id erat.&lt;/p&gt;
 &lt;/div&gt;
 
 
-&lt;link rel=&#34;stylesheet&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css&#39; /&gt;
+
 
 &lt;div class=&#39;box fancy-figure caption-position-bottom caption-effect-appear&#39; style=&#39;max-width:200px&#39;&gt;
   &lt;figure  itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
@@ -279,7 +279,7 @@ tristique imperdiet tortor. Nam euismod tellus id erat.&lt;/p&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
-
+&lt;link rel=&#34;stylesheet&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css&#39; /&gt;
 
 &lt;div class=&#39;box fancy-figure caption-position-bottom caption-effect-appear&#39; style=&#39;max-width:200px&#39;&gt;
   &lt;figure  itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
@@ -2767,51 +2767,8 @@ categories:
 ---
 
 
-&lt;script src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/jquery/jquery-3.2.1.slim.min.js&#39;&gt;&lt;/script&gt;
-&lt;script src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/liwenyip/hugo-easy-gallery/js/load-photoswipe.js&#39;&gt;&lt;/script&gt;
-&lt;link rel=&#34;stylesheet&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/hugo-theme-w3css-basic.github.io/vendor/photoswipe/photoswipe.css&#39; /&gt;
-&lt;link rel=&#34;stylesheet&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/hugo-theme-w3css-basic.github.io/vendor/photoswipe/default-skin/default-skin.css&#39; /&gt;
-&lt;script src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/photoswipe/photoswipe.min.js&#39;&gt;      &lt;/script&gt;
-&lt;script src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/photoswipe/photoswipe-ui-theme.js&#39;&gt; &lt;/script&gt;
-&lt;div class=&#34;pswp&#34; tabindex=&#34;-1&#34; role=&#34;dialog&#34; aria-hidden=&#34;true&#34;&gt;
-&lt;div class=&#34;pswp__bg&#34;&gt;&lt;/div&gt;
-&lt;div class=&#34;pswp__scroll-wrap&#34;&gt;
-    &lt;div class=&#34;pswp__container&#34;&gt;
-      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
-      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
-      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;pswp__ui pswp__ui--hidden&#34;&gt;
-    &lt;div class=&#34;pswp__top-bar&#34;&gt;
-      &lt;div class=&#34;pswp__counter&#34;&gt;&lt;/div&gt;
-      &lt;button class=&#34;pswp__button pswp__button--close&#34; title=&#34;Close (Esc)&#34;&gt;&lt;/button&gt;
-      &lt;button class=&#34;pswp__button pswp__button--share&#34; title=&#34;Share&#34;&gt;&lt;/button&gt;
-      &lt;button class=&#34;pswp__button pswp__button--fs&#34; title=&#34;Toggle fullscreen&#34;&gt;&lt;/button&gt;
-      &lt;button class=&#34;pswp__button pswp__button--zoom&#34; title=&#34;Zoom in/out&#34;&gt;&lt;/button&gt;
-      &lt;div class=&#34;pswp__preloader&#34;&gt;
-        &lt;div class=&#34;pswp__preloader__icn&#34;&gt;
-          &lt;div class=&#34;pswp__preloader__cut&#34;&gt;
-            &lt;div class=&#34;pswp__preloader__donut&#34;&gt;&lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;pswp__share-modal pswp__share-modal--hidden pswp__single-tap&#34;&gt;
-      &lt;div class=&#34;pswp__share-tooltip&#34;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;button class=&#34;pswp__button pswp__button--arrow--left&#34; title=&#34;Previous (arrow left)&#34;&gt;
-    &lt;/button&gt;
-    &lt;button class=&#34;pswp__button pswp__button--arrow--right&#34; title=&#34;Next (arrow right)&#34;&gt;
-    &lt;/button&gt;
-    &lt;div class=&#34;pswp__caption&#34;&gt;
-      &lt;div class=&#34;pswp__caption__center&#34;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
 
 
-&lt;link rel=&#34;stylesheet&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css&#39; /&gt;
 &lt;div class=&#39;gallery caption-position-bottom caption-effect-none hover-effect-grow hover-transition&#39; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
         &lt;div class=&#34;box&#34;&gt;
           &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
@@ -2938,8 +2895,51 @@ categories:
   &lt;span class=&#34;c&#34;&gt;# humanizeCaption   = false&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2 id=&#34;figure&#34;&gt;Figure&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;
+&lt;script src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/jquery/jquery-3.2.1.slim.min.js&#39;&gt;&lt;/script&gt;
+&lt;script src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/liwenyip/hugo-easy-gallery/js/load-photoswipe.js&#39;&gt;&lt;/script&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/hugo-theme-w3css-basic.github.io/vendor/photoswipe/photoswipe.css&#39; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/hugo-theme-w3css-basic.github.io/vendor/photoswipe/default-skin/default-skin.css&#39; /&gt;
+&lt;script src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/photoswipe/photoswipe.min.js&#39;&gt;      &lt;/script&gt;
+&lt;script src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/photoswipe/photoswipe-ui-theme.js&#39;&gt; &lt;/script&gt;
+&lt;div class=&#34;pswp&#34; tabindex=&#34;-1&#34; role=&#34;dialog&#34; aria-hidden=&#34;true&#34;&gt;
+&lt;div class=&#34;pswp__bg&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;pswp__scroll-wrap&#34;&gt;
+    &lt;div class=&#34;pswp__container&#34;&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;pswp__ui pswp__ui--hidden&#34;&gt;
+    &lt;div class=&#34;pswp__top-bar&#34;&gt;
+      &lt;div class=&#34;pswp__counter&#34;&gt;&lt;/div&gt;
+      &lt;button class=&#34;pswp__button pswp__button--close&#34; title=&#34;Close (Esc)&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--share&#34; title=&#34;Share&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--fs&#34; title=&#34;Toggle fullscreen&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--zoom&#34; title=&#34;Zoom in/out&#34;&gt;&lt;/button&gt;
+      &lt;div class=&#34;pswp__preloader&#34;&gt;
+        &lt;div class=&#34;pswp__preloader__icn&#34;&gt;
+          &lt;div class=&#34;pswp__preloader__cut&#34;&gt;
+            &lt;div class=&#34;pswp__preloader__donut&#34;&gt;&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;pswp__share-modal pswp__share-modal--hidden pswp__single-tap&#34;&gt;
+      &lt;div class=&#34;pswp__share-tooltip&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--left&#34; title=&#34;Previous (arrow left)&#34;&gt;
+    &lt;/button&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--right&#34; title=&#34;Next (arrow right)&#34;&gt;
+    &lt;/button&gt;
+    &lt;div class=&#34;pswp__caption&#34;&gt;
+      &lt;div class=&#34;pswp__caption__center&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
 
 
+&lt;link rel=&#34;stylesheet&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css&#39; /&gt;
 
 &lt;div class=&#39;box fancy-figure caption-position-bottom caption-effect-none&#39; style=&#39;max-width:640px&#39;&gt;
   &lt;figure  itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
@@ -2977,14 +2977,15 @@ usage of &lt;code&gt;title caption attr attrlink&lt;/code&gt; which are all opti
 &lt;h2 id=&#34;showcase&#34;&gt;Showcase&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;See &lt;a href=&#34;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/&#34;&gt;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/&lt;/a&gt; for more quick examples&lt;/li&gt;
+&lt;li&gt;See &lt;a href=&#34;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/&#34;&gt;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/&lt;/a&gt; for more examples&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
 
-&lt;p&gt;In order to see your site in action, run Hugo&amp;rsquo;s built-in local server.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;$ export GoogleMapsApiKey=GEeawyBOuzOPzbFGizHKGReghibngUZTGjlioZM
-$ hugo server -w --disableFastRender&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;To see the exampleSite use:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;$ cd exampleSite/
+$ export GoogleMapsApiKey=GEeawyBOuzOPzbFGizHKGReghibngUZTGjlioZM
+$ hugo server -w --disableFastRender --navigateToChanged --themesDir ../../&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Now enter &lt;a href=&#34;http://localhost:1313&#34;&gt;&lt;code&gt;localhost:1313&lt;/code&gt;&lt;/a&gt; in the address bar of your browser.&lt;/p&gt;
 
 &lt;p&gt;For more information check out the official &lt;a href=&#34;http://gohugo.io/overview/usage/&#34;&gt;Hugo documentation&lt;/a&gt;.&lt;/p&gt;
@@ -3021,7 +3022,7 @@ characters.&lt;/li&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/gohugoio/hugo/issues/1642&#34;&gt;hugo/issues/1642: Shortcode output wrapped in &amp;lt;p&amp;gt; tags&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;layouts/_default/baseof.html&lt;/code&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;{{- .Content | replaceRE &amp;#34;(?s:&amp;lt;/div&amp;gt;\n?&amp;lt;/p&amp;gt;)&amp;#34; &amp;#34;&amp;lt;/div&amp;gt;&amp;#34; | replaceRE &amp;#34;(?s:&amp;lt;/pre&amp;gt;\n?&amp;lt;/p&amp;gt;)&amp;#34; &amp;#34;&amp;lt;/pre&amp;gt;&amp;#34; | safeHTML }}&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;{{ .Content | replaceRE `(?s:&amp;lt;/div&amp;gt;\s?&amp;lt;/p&amp;gt;)` `&amp;lt;/div&amp;gt;` | replaceRE `(?s:&amp;lt;/pre&amp;gt;\s?&amp;lt;/p&amp;gt;)` `&amp;lt;/pre&amp;gt;` | replaceRE `(?s:&amp;lt;/figure&amp;gt;\s*&amp;lt;/p&amp;gt;)` `&amp;lt;/figure&amp;gt;` | safeHTML }}&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;See &lt;a href=&#34;https://discourse.gohugo.io/t/shortcodes-and-p-tags-2/9987&#34;&gt;https://discourse.gohugo.io/t/shortcodes-and-p-tags-2/9987&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;tracking&#34;&gt;Tracking&lt;/h2&gt;
@@ -3053,7 +3054,11 @@ into the theme (&lt;code&gt;static/vendor/&lt;/code&gt;*).&lt;/p&gt;
 &lt;li&gt;do not show a comment counter on the Disqus Button&lt;/li&gt;
 &lt;li&gt;review result e.g. with &lt;a href=&#34;https://addons.mozilla.org/en-GB/firefox/addon/lightbeam/&#34;&gt;Firefox Lightbeam by Mozilla&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;c&#34;&gt;#[[menu.topbar]]&lt;/span&gt;
+
+&lt;p&gt;All of the above ist done in &lt;code&gt;config.toml&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;nx&#34;&gt;googleAnalytics&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;
+
+&lt;span class=&#34;c&#34;&gt;#[[menu.topbar]]&lt;/span&gt;
 &lt;span class=&#34;c&#34;&gt;#  weight   = 5&lt;/span&gt;
 &lt;span class=&#34;c&#34;&gt;#  name     = &amp;#34;Search&amp;#34;&lt;/span&gt;
 &lt;span class=&#34;c&#34;&gt;#  url      = &amp;#34;/search&amp;#34;&lt;/span&gt;
@@ -3072,9 +3077,7 @@ into the theme (&lt;code&gt;static/vendor/&lt;/code&gt;*).&lt;/p&gt;
 &lt;h2 id=&#34;todo-s&#34;&gt;ToDo&amp;rsquo;s&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Page Resources shortcode (attachements)&lt;/li&gt;
-&lt;li&gt;more testing for the lit* shortcodes&lt;/li&gt;
-&lt;li&gt;finish uglyURLs (e.g. submenu) + doc (how to deploy to filesystem)&lt;/li&gt;
+&lt;li&gt;see &lt;a href=&#34;https://github.com/it-gro/hugo-theme-w3css-basic/issues&#34;&gt;issue tracker&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;contributing&#34;&gt;Contributing&lt;/h2&gt;
