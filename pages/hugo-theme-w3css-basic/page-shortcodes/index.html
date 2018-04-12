@@ -506,6 +506,7 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
 <ul>
 <li><a href="#style-3">style</a></li>
 </ul></li>
+<li><a href="#readfile">readfile</a></li>
 </ul></li>
 <li><a href="#experimental">Experimental</a>
 <ul>
@@ -1500,7 +1501,7 @@ Attachments
 </div>
 
 
-
+<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css' />
 
 <div class='box fancy-figure caption-position-bottom caption-effect-none' style='max-width:171px'>
   <figure  itemscope itemtype="http://schema.org/ImageObject">
@@ -1708,7 +1709,7 @@ Attachments
 </div>
 
 
-<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css' />
+
 
 <div class='box fancy-figure caption-position-bottom caption-effect-none' style='max-width:640px'>
   <figure  itemscope itemtype="http://schema.org/ImageObject">
@@ -1903,6 +1904,116 @@ foo | bar
   <span class="k">border-width</span><span class="p">:</span> <span class="mi">1</span><span class="kt">px</span> <span class="mi">1</span><span class="kt">px</span> <span class="mi">1</span><span class="kt">px</span> <span class="mi">1</span><span class="kt">px</span><span class="p">;</span>
   <span class="k">border-radius</span><span class="p">:</span> <span class="mi">4</span><span class="kt">px</span><span class="p">;</span>
 <span class="p">}</span></code></pre></div>
+
+<h2 id="readfile">readfile</h2>
+
+<ul>
+<li>inspired by <a href="https://github.com/gohugoio/hugo/blob/master/docs/layouts/shortcodes/readfile.html">https://github.com/gohugoio/hugo/blob/master/docs/layouts/shortcodes/readfile.html</a></li>
+<li>reads a file (or directory) and optionally renders ist using markdownify or highlight</li>
+</ul>
+
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Position -1</th>
+<th>Default</th>
+<th>What</th>
+<th>Remark</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>file</td>
+<td>0</td>
+<td>.</td>
+<td>a file (or dir)</td>
+<td>. or ending in /. =&gt; directory</td>
+</tr>
+
+<tr>
+<td>md</td>
+<td>1</td>
+<td></td>
+<td>markdownify</td>
+<td>if &ldquo;true&rdquo; =&gt; process using markdownify</td>
+</tr>
+
+<tr>
+<td>hll</td>
+<td>2</td>
+<td>md</td>
+<td>highlight lang</td>
+<td>see <a href="https://gohugo.io/content-management/syntax-highlighting/#list-of-chroma-highlighting-languages">list-of-chroma-highlighting-languages</a></td>
+</tr>
+</tbody>
+</table>
+
+<pre class="w3-code notranslate">
+{{&lt; readfile &#34;content/.&#34; &gt;}}
+</pre>
+
+
+<p>renders as:
+<pre class="w3-code notranslate">content/.
+Lrwxrwxrwx 2018-04-06         15 README.md
+drwxrwxr-x 2018-04-06            blog
+-rw-rw-r-- 2018-01-05        971 contact.md
+-rw-rw-r-- 2018-02-05       5403 faq.md
+drwxrwxr-x 2018-04-11            pages
+-rw-rw-r-- 2018-01-05        189 search.md
+</pre>
+
+<pre class="w3-code notranslate">
+{{&lt; readfile &#34;pages/hugo-theme-w3css-basic/_index.md&#34; &#34;&#34; &#34;yaml&#34; &gt;}}
+</pre>
+
+
+<p>renders as:
+<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml">---<span class="w">
+</span><span class="w"></span>weight<span class="p">:</span><span class="w">      </span><span class="m">15</span><span class="w">
+</span><span class="w"></span>title<span class="p">:</span><span class="w">       </span><span class="s2">&#34;About this Theme&#34;</span><span class="w">
+</span><span class="w"></span>date<span class="p">:</span><span class="w">        </span><span class="s2">&#34;2017-11-22T07:42:26+01:00&#34;</span><span class="w">
+</span><span class="w"></span>icon<span class="p">:</span><span class="w">        </span><span class="s2">&#34;fas fa-info fa-fw&#34;</span><span class="w">
+</span><span class="w"></span><span class="c">#teaserpic:   images/teaserpics/gohugo.io/hugo-dolor.png</span><span class="w">
+</span><span class="w"></span>---<span class="w">
+</span><span class="w"></span></code></pre></div>
+
+<pre class="w3-code notranslate">
+{{&lt; readfile file=&#34;pages/hugo-theme-w3css-basic/_index.md&#34; hll=&#34;yaml&#34; &gt;}}
+</pre>
+
+
+<p>renders as:
+<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml">---<span class="w">
+</span><span class="w"></span>weight<span class="p">:</span><span class="w">      </span><span class="m">15</span><span class="w">
+</span><span class="w"></span>title<span class="p">:</span><span class="w">       </span><span class="s2">&#34;About this Theme&#34;</span><span class="w">
+</span><span class="w"></span>date<span class="p">:</span><span class="w">        </span><span class="s2">&#34;2017-11-22T07:42:26+01:00&#34;</span><span class="w">
+</span><span class="w"></span>icon<span class="p">:</span><span class="w">        </span><span class="s2">&#34;fas fa-info fa-fw&#34;</span><span class="w">
+</span><span class="w"></span><span class="c">#teaserpic:   images/teaserpics/gohugo.io/hugo-dolor.png</span><span class="w">
+</span><span class="w"></span>---<span class="w">
+</span><span class="w"></span></code></pre></div>
+
+<pre class="w3-code notranslate">
+{{&lt; readfile file=&#34;pages/showcase/video-03.md&#34; hll=&#34;md&#34; &gt;}}
+</pre>
+
+
+<p>renders as:
+<div class="highlight"><pre class="chroma"><code class="language-md" data-lang="md">---<span class="err">
+</span><span class="err"></span>title:       &#34;Hugo <span class="k">-</span> Static Site Generator&#34;<span class="err">
+</span><span class="err"></span>date:        2018-01-05T21:01:34+01:00<span class="err">
+</span><span class="err"></span>icon:        &#34;fab fa-youtube&#34;<span class="err">
+</span><span class="err"></span>teaserpic:   images/teaserpics/gohugo.io/hugo-dolor.png<span class="err">
+</span><span class="err"></span>teaserpicNotOnPage:<span class="err">
+</span><span class="err"></span>description: &#34;Giraffe Academy, Tutorial <span class="k">23.</span> <span class="ge">*(Demo page without tags or categories)*</span>&#34;<span class="err">
+</span><span class="err"></span>---<span class="err">
+</span><span class="err">
+</span><span class="err"></span>{{&lt; youtube 6U3emx29rKg &gt;}}<span class="err">
+</span><span class="err"></span>
+<span class="ge">*(here is no taxonomy bar since this page has no assigned tags or categories)*</span>
+</code></pre></div>
 
 <h1 id="experimental">Experimental</h1>
 
@@ -2549,7 +2660,7 @@ line 2
     <a href='/hugo-theme-w3css-basic.github.io/categories/legal' class="taxonomy-button w3-button">legal (10)</a>
     <a href='/hugo-theme-w3css-basic.github.io/categories/photocards' class="taxonomy-button w3-button">photocards (9)</a>
     <a href='/hugo-theme-w3css-basic.github.io/categories/programming' class="taxonomy-button w3-button">programming (1)</a>
-    <a href='/hugo-theme-w3css-basic.github.io/categories/this-theme' class="taxonomy-button w3-button">this-theme (9)</a>
+    <a href='/hugo-theme-w3css-basic.github.io/categories/this-theme' class="taxonomy-button w3-button">this-theme (10)</a>
     <a href='/hugo-theme-w3css-basic.github.io/categories/tools' class="taxonomy-button w3-button">tools (5)</a>
     <a href='/hugo-theme-w3css-basic.github.io/categories/vestibulum' class="taxonomy-button w3-button">vestibulum (1)</a>
     <a href='/hugo-theme-w3css-basic.github.io/categories/web' class="taxonomy-button w3-button">web (1)</a>
