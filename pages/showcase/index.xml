@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>Attachments via Hugo Page Resources</title>
+      <title>Attachments</title>
       <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/attach-page-resources/</link>
       <pubDate>Mon, 09 Apr 2018 13:38:46 +0200</pubDate>
       
@@ -23,7 +23,7 @@
     </item>
     
     <item>
-      <title>Hugo image processing (`res-figure`)</title>
+      <title>Image Processing (`res-figure`)</title>
       <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/image-processing-with-hugo/</link>
       <pubDate>Fri, 06 Apr 2018 20:18:31 +0200</pubDate>
       
