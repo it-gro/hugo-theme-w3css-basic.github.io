@@ -265,7 +265,7 @@ tristique imperdiet tortor. Nam euismod tellus id erat.&lt;/p&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
-
+&lt;link rel=&#34;stylesheet&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css&#39; /&gt;
 
 &lt;div class=&#39;box fancy-figure caption-position-bottom caption-effect-appear&#39; style=&#39;max-width:200px&#39;&gt;
   &lt;figure  itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
@@ -279,7 +279,7 @@ tristique imperdiet tortor. Nam euismod tellus id erat.&lt;/p&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
-&lt;link rel=&#34;stylesheet&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css&#39; /&gt;
+
 
 &lt;div class=&#39;box fancy-figure caption-position-bottom caption-effect-appear&#39; style=&#39;max-width:200px&#39;&gt;
   &lt;figure  itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
@@ -1251,11 +1251,33 @@ ED! ED IS THE STANDARD!!!&lt;/p&gt;
 
 &lt;p&gt;W3.CSS Basic is a website template built with &lt;a href=&#34;https://www.w3schools.com/w3css/&#34;&gt;W3.CSS&lt;/a&gt;.&lt;br /&gt;
 Inspiration was taken from &lt;a href=&#34;https://themes.gohugo.io/hugo-universal-theme/&#34;&gt;Universal&lt;/a&gt;.
-It is quite &lt;a href=&#34;//github.com/it-gro/hugo-theme-w3css-basic/tree/master/exampleSite/config.toml&#34;&gt;configurable&lt;/a&gt;
-Change all colors in the blink of an eye,  choose Google fonts or use the new Global Site Tags.&lt;/p&gt;
+It is highly &lt;a href=&#34;//github.com/it-gro/hugo-theme-w3css-basic/tree/master/exampleSite/config.toml&#34;&gt;configurable&lt;/a&gt;
+Change all colors in the blink of an eye,  choose Google fonts or use Google Global Site Tags.&lt;/p&gt;
 
 &lt;p&gt;See the &lt;a href=&#34;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/&#34;&gt;exampleSite&lt;/a&gt; for a demo.&lt;/p&gt;
 
+&lt;h2 id=&#34;latest-news&#34;&gt;Latest News&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Added shortcodes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;res-figure
+&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_502.jpg&#34; alt=&#34;screenshot res-figure&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;res-attach
+&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_504.jpg&#34; alt=&#34;screenshot res-attach&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;readfile
+&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_506.jpg&#34; alt=&#34;screenshot readfile&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;Added color theme preview via color theme selector (not on small displays)
+&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_500.jpg&#34; alt=&#34;screenshot color theme selector&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Front-matter teaserpic param now supports images from page bundle. Starting the path with / =&amp;gt; static&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;---&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;title&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;       &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;This Theme Readme (github)&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;teaserpic&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;   &lt;/span&gt;myImg/coffee-&lt;span class=&#34;m&#34;&gt;2608864.&lt;/span&gt;jpg&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;---&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;This theme is for:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -1331,6 +1353,7 @@ Change all colors in the blink of an eye,  choose Google fonts or use the new Gl
 &lt;li&gt;&lt;a href=&#34;#images&#34;&gt;Images&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#attachments&#34;&gt;Attachments&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#include files&#34;&gt;Include Files&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#gallery&#34;&gt;Gallery&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#figure&#34;&gt;Figure&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#showcase&#34;&gt;Showcase&lt;/a&gt;&lt;/li&gt;
@@ -2699,6 +2722,7 @@ icon:        &amp;#34;fas fa-list&amp;#34;
 ├── liti.html
 ├── litt.html
 ├── litx.html
+├── readfile.html
 ├── res-attach.html
 ├── res-figure.html
 ├── w3-alert-icon.html
@@ -2735,7 +2759,7 @@ icon:        &amp;#34;fas fa-list&amp;#34;
 
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_338.jpg&#34; alt=&#34;screenshot Image Showcase&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;attachments&#34;&gt;Attachments&lt;/h2&gt;
+&lt;h3 id=&#34;attachments&#34;&gt;Attachments&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Support via shortcode &lt;code&gt;res-attach&lt;/code&gt;&lt;/li&gt;
@@ -2743,6 +2767,28 @@ icon:        &amp;#34;fas fa-list&amp;#34;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_336.jpg&#34; alt=&#34;screenshot Attachments&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;include-files&#34;&gt;Include Files&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Inspired by &lt;a href=&#34;https://github.com/gohugoio/hugo/blob/master/docs/layouts/shortcodes/readfile.html&#34;&gt;https://github.com/gohugoio/hugo/blob/master/docs/layouts/shortcodes/readfile.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Reads a file (or directory) and optionally renders ist using markdownify or highlight&lt;/li&gt;
+&lt;li&gt;See &lt;a href=&#34;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/#readfile&#34;&gt;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/#readfile&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;{{&amp;lt; readfile &amp;#34;content/.&amp;#34; &amp;gt;}}&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;=&amp;gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;content/.
+Lrwxrwxrwx 2018-04-06         15 README.md
+drwxrwxr-x 2018-04-06            blog
+-rw-rw-r-- 2018-04-13        972 contact.md
+-rw-rw-r-- 2018-04-13       5407 faq.md
+drwxrwxr-x 2018-04-13            pages
+-rw-rw-r-- 2018-04-13        190 search.md&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;{{&amp;lt; readfile file=&amp;#34;content/README.md&amp;#34; md=&amp;#34;true&amp;#34; &amp;gt;}}&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;=&amp;gt; include a markdownified markdown file&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;See &lt;a href=&#34;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/readme/&#34;&gt;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/readme/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&#34;gallery&#34;&gt;Gallery&lt;/h2&gt;
 
@@ -3137,6 +3183,8 @@ for all their work&lt;/p&gt;&lt;/li&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/tn.3.png&#34; alt=&#34;screenshot thumbnail 900x600&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/tn.4.png&#34; alt=&#34;screenshot thumbnail 900x600&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/tn.5.png&#34; alt=&#34;screenshot thumbnail 900x600&#34; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Complete&lt;/li&gt;

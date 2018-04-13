@@ -452,11 +452,33 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
 
 <p>W3.CSS Basic is a website template built with <a href="https://www.w3schools.com/w3css/">W3.CSS</a>.<br />
 Inspiration was taken from <a href="https://themes.gohugo.io/hugo-universal-theme/">Universal</a>.
-It is quite <a href="//github.com/it-gro/hugo-theme-w3css-basic/tree/master/exampleSite/config.toml">configurable</a>
-Change all colors in the blink of an eye,  choose Google fonts or use the new Global Site Tags.</p>
+It is highly <a href="//github.com/it-gro/hugo-theme-w3css-basic/tree/master/exampleSite/config.toml">configurable</a>
+Change all colors in the blink of an eye,  choose Google fonts or use Google Global Site Tags.</p>
 
 <p>See the <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/">exampleSite</a> for a demo.</p>
 
+<h2 id="latest-news">Latest News</h2>
+
+<ul>
+<li><p>Added shortcodes:</p>
+
+<ul>
+<li>res-figure
+<img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_502.jpg" alt="screenshot res-figure" /></li>
+<li>res-attach
+<img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_504.jpg" alt="screenshot res-attach" /></li>
+<li>readfile
+<img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_506.jpg" alt="screenshot readfile" /></li>
+<li>Added color theme preview via color theme selector (not on small displays)
+<img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_500.jpg" alt="screenshot color theme selector" /></li>
+</ul></li>
+
+<li><p>Front-matter teaserpic param now supports images from page bundle. Starting the path with / =&gt; static</p></li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml">---<span class="w">
+</span><span class="w"></span>title<span class="p">:</span><span class="w">       </span><span class="s2">&#34;This Theme Readme (github)&#34;</span><span class="w">
+</span><span class="w"></span>teaserpic<span class="p">:</span><span class="w">   </span>myImg/coffee-<span class="m">2608864.</span>jpg<span class="w">
+</span><span class="w"></span>---</code></pre></div>
 <p>This theme is for:</p>
 
 <ul>
@@ -532,6 +554,7 @@ Change all colors in the blink of an eye,  choose Google fonts or use the new Gl
 <li><a href="#images">Images</a></li>
 <li><a href="#attachments">Attachments</a></li>
 </ul></li>
+<li><a href="#include files">Include Files</a></li>
 <li><a href="#gallery">Gallery</a></li>
 <li><a href="#figure">Figure</a></li>
 <li><a href="#showcase">Showcase</a></li>
@@ -1900,6 +1923,7 @@ icon:        &#34;fas fa-list&#34;
 ├── liti.html
 ├── litt.html
 ├── litx.html
+├── readfile.html
 ├── res-attach.html
 ├── res-figure.html
 ├── w3-alert-icon.html
@@ -1936,7 +1960,7 @@ icon:        &#34;fas fa-list&#34;
 
 <p><img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_338.jpg" alt="screenshot Image Showcase" /></p>
 
-<h2 id="attachments">Attachments</h2>
+<h3 id="attachments">Attachments</h3>
 
 <ul>
 <li>Support via shortcode <code>res-attach</code></li>
@@ -1944,6 +1968,28 @@ icon:        &#34;fas fa-list&#34;
 </ul>
 
 <p><img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_336.jpg" alt="screenshot Attachments" /></p>
+
+<h2 id="include-files">Include Files</h2>
+
+<ul>
+<li>Inspired by <a href="https://github.com/gohugoio/hugo/blob/master/docs/layouts/shortcodes/readfile.html">https://github.com/gohugoio/hugo/blob/master/docs/layouts/shortcodes/readfile.html</a></li>
+<li>Reads a file (or directory) and optionally renders ist using markdownify or highlight</li>
+<li>See <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/#readfile">https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/#readfile</a></li>
+</ul>
+<div class="highlight"><pre class="chroma">{{&lt; readfile &#34;content/.&#34; &gt;}}</pre></div>
+<p>=&gt;</p>
+<div class="highlight"><pre class="chroma">content/.
+Lrwxrwxrwx 2018-04-06         15 README.md
+drwxrwxr-x 2018-04-06            blog
+-rw-rw-r-- 2018-04-13        972 contact.md
+-rw-rw-r-- 2018-04-13       5407 faq.md
+drwxrwxr-x 2018-04-13            pages
+-rw-rw-r-- 2018-04-13        190 search.md</pre></div><div class="highlight"><pre class="chroma">{{&lt; readfile file=&#34;content/README.md&#34; md=&#34;true&#34; &gt;}}</pre></div>
+<p>=&gt; include a markdownified markdown file</p>
+
+<ul>
+<li>See <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/readme/">https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/readme/</a></li>
+</ul>
 
 <h2 id="gallery">Gallery</h2>
 
@@ -2338,6 +2384,8 @@ for all their work</p></li>
 <p><img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/tn.3.png" alt="screenshot thumbnail 900x600" /></p>
 
 <p><img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/tn.4.png" alt="screenshot thumbnail 900x600" /></p>
+
+<p><img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/tn.5.png" alt="screenshot thumbnail 900x600" /></p>
 
 <ul>
 <li>Complete</li>
