@@ -506,26 +506,482 @@ Available styles are listed here: <a href="https://help.farbox.com/pygments.html
 
 <p>These are the supported languages:</p>
 
-<p>ABNF, ANTLR, APL, ActionScript, ActionScript 3, Ada, Angular2,
-ApacheConf, AppleScript, Awk, BNF, Base Makefile, Bash, Batchfile,
-BlitzBasic, Brainfuck, C, C#, C++, CFEngine3, CMake, COBOL, CSS, Cap&rsquo;n
-Proto, Ceylon, ChaiScript, Cheetah, Clojure, CoffeeScript, Common
-Lisp, Coq, Crystal, Cython, DTD, Dart, Diff, Django/Jinja, Docker,
-EBNF, Elixir, Elm, EmacsLisp, Erlang, FSharp, Factor, Fish, Forth,
-Fortran, GAS, GDScript, GLSL, Genshi, Genshi HTML, Genshi Text,
-Gnuplot, Go, Groovy, HTML, Handlebars, Haskell, Haxe, Hexdump, Hy,
-INI, Idris, Io, JSON, Java, JavaScript, Julia, Kotlin, LLVM, Lighttpd
-configuration file, Lua, Mako, Mason, Mathematica, MiniZinc, Modula-2,
-MySQL, Myghty, NASM, Newspeak, Nginx configuration file, Nim, OCaml,
-Octave, PHP, PL/pgSQL, POVRay, PacmanConf, Perl, Pig, PkgConfig,
-PostScript, PostgreSQL SQL dialect, PowerShell, Prolog, Protocol
-Buffer, Puppet, Python, Python 3, QBasic, R, Racket, Ragel, Rexx,
-Ruby, Rust, SPARQL, SQL, Sass, Scala, Scheme, Scilab, Smalltalk,
-Smarty, Snobol, SquidConf, SVG, Swift, TASM, Tcl, Tcsh, Termcap,
-Terminfo, Terraform, Thrift, Transact-SQL, Turtle, Twig, TypeScript,
-TypoScript, TypoScriptCssData, TypoScriptHtmlData, VHDL, VimL, XML,
-Xorg, YAML, cfstatement, markdown, reStructuredText, reg,
-systemverilog, verilog</p>
+<p>
+<dl>
+
+<dt>ABNF</dt>
+<dd>abnf</dd>
+
+<dt>ANTLR</dt>
+<dd>antlr</dd>
+
+<dt>APL</dt>
+<dd>apl</dd>
+
+<dt>ActionScript</dt>
+<dd>actionscript, as</dd>
+
+<dt>ActionScript 3</dt>
+<dd>actionscript3, as, as3</dd>
+
+<dt>Ada</dt>
+<dd>ada, ada2005, ada95, adb, ads</dd>
+
+<dt>Angular2</dt>
+<dd>ng2</dd>
+
+<dt>ApacheConf</dt>
+<dd>aconf, apache, apacheconf, conf, htaccess</dd>
+
+<dt>AppleScript</dt>
+<dd>applescript</dd>
+
+<dt>Awk</dt>
+<dd>awk, gawk, mawk, nawk</dd>
+
+<dt>BNF</dt>
+<dd>bnf</dd>
+
+<dt>Base Makefile</dt>
+<dd>bsdmake, mak, make, makefile, mf, mk</dd>
+
+<dt>Bash</dt>
+<dd>bash, bashrc, ebuild, eclass, exheres-0, exlib, ksh, sh, shell, zsh, zshrc</dd>
+
+<dt>Batchfile</dt>
+<dd>bat, batch, cmd, dosbatch, winbatch</dd>
+
+<dt>BlitzBasic</dt>
+<dd>b3d, bb, blitzbasic, bplus, decls</dd>
+
+<dt>Brainfuck</dt>
+<dd>b, bf, brainfuck</dd>
+
+<dt>C</dt>
+<dd>c, h, idc</dd>
+
+<dt>C#</dt>
+<dd>c#, cs, csharp</dd>
+
+<dt>C&#43;&#43;</dt>
+<dd>C, CPP, H, c++, cc, cp, cpp, cxx, h++, hh, hpp, hxx</dd>
+
+<dt>CFEngine3</dt>
+<dd>cf, cf3, cfengine3</dd>
+
+<dt>CMake</dt>
+<dd>cmake, txt</dd>
+
+<dt>COBOL</dt>
+<dd>COB, CPY, cob, cobol, cpy</dd>
+
+<dt>CSS</dt>
+<dd>css</dd>
+
+<dt>Cap&#39;n Proto</dt>
+<dd>capnp</dd>
+
+<dt>Ceylon</dt>
+<dd>ceylon</dd>
+
+<dt>ChaiScript</dt>
+<dd>chai, chaiscript</dd>
+
+<dt>Cheetah</dt>
+<dd>cheetah, spitfire, spt, tmpl</dd>
+
+<dt>Clojure</dt>
+<dd>clj, clojure</dd>
+
+<dt>CoffeeScript</dt>
+<dd>coffee, coffee-script, coffeescript</dd>
+
+<dt>Common Lisp</dt>
+<dd>cl, common-lisp, lisp</dd>
+
+<dt>Coq</dt>
+<dd>coq, v</dd>
+
+<dt>Crystal</dt>
+<dd>cr, crystal</dd>
+
+<dt>Cython</dt>
+<dd>cython, pxd, pxi, pyrex, pyx</dd>
+
+<dt>DTD</dt>
+<dd>dtd</dd>
+
+<dt>Dart</dt>
+<dd>dart</dd>
+
+<dt>Diff</dt>
+<dd>diff, patch, udiff</dd>
+
+<dt>Django/Jinja</dt>
+<dd>django, jinja</dd>
+
+<dt>Docker</dt>
+<dd>docker, dockerfile</dd>
+
+<dt>EBNF</dt>
+<dd>ebnf</dd>
+
+<dt>Elixir</dt>
+<dd>elixir, ex, exs</dd>
+
+<dt>Elm</dt>
+<dd>elm</dd>
+
+<dt>EmacsLisp</dt>
+<dd>el, elisp, emacs, emacs-lisp</dd>
+
+<dt>Erlang</dt>
+<dd>erl, erlang, es, escript, hrl</dd>
+
+<dt>FSharp</dt>
+<dd>fs, fsharp, fsi</dd>
+
+<dt>Factor</dt>
+<dd>factor</dd>
+
+<dt>Fish</dt>
+<dd>fish, fishshell, load</dd>
+
+<dt>Forth</dt>
+<dd>forth, frt, fs</dd>
+
+<dt>Fortran</dt>
+<dd>F03, F90, f03, f90, fortran</dd>
+
+<dt>GAS</dt>
+<dd>S, asm, gas, s</dd>
+
+<dt>GDScript</dt>
+<dd>gd, gdscript</dd>
+
+<dt>GLSL</dt>
+<dd>frag, geo, glsl, vert</dd>
+
+<dt>Genshi</dt>
+<dd>genshi, kid, xml+genshi, xml+kid</dd>
+
+<dt>Genshi HTML</dt>
+<dd>html+genshi, html+kid</dd>
+
+<dt>Genshi Text</dt>
+<dd>genshitext</dd>
+
+<dt>Gnuplot</dt>
+<dd>gnuplot, plot, plt</dd>
+
+<dt>Go</dt>
+<dd>go, golang</dd>
+
+<dt>Go HTML Template</dt>
+<dd>go-html-template</dd>
+
+<dt>Go Text Template</dt>
+<dd>go-text-template</dd>
+
+<dt>Groovy</dt>
+<dd>gradle, groovy</dd>
+
+<dt>HTML</dt>
+<dd>htm, html, xhtml, xslt</dd>
+
+<dt>HTTP</dt>
+<dd>http</dd>
+
+<dt>Handlebars</dt>
+<dd>handlebars</dd>
+
+<dt>Haskell</dt>
+<dd>haskell, hs</dd>
+
+<dt>Haxe</dt>
+<dd>haxe, hx, hxsl</dd>
+
+<dt>Hexdump</dt>
+<dd>hexdump</dd>
+
+<dt>Hy</dt>
+<dd>hy, hylang</dd>
+
+<dt>INI</dt>
+<dd>cfg, dosini, inf, ini</dd>
+
+<dt>Idris</dt>
+<dd>idr, idris</dd>
+
+<dt>Io</dt>
+<dd>io</dd>
+
+<dt>JSON</dt>
+<dd>json</dd>
+
+<dt>JSX</dt>
+<dd>jsx, react</dd>
+
+<dt>Java</dt>
+<dd>java</dd>
+
+<dt>JavaScript</dt>
+<dd>javascript, js, jsm</dd>
+
+<dt>Julia</dt>
+<dd>jl, julia</dd>
+
+<dt>Kotlin</dt>
+<dd>kotlin, kt</dd>
+
+<dt>LLVM</dt>
+<dd>ll, llvm</dd>
+
+<dt>Lighttpd configuration file</dt>
+<dd>lighttpd, lighty</dd>
+
+<dt>Lua</dt>
+<dd>lua, wlua</dd>
+
+<dt>Mako</dt>
+<dd>mako, mao</dd>
+
+<dt>Mason</dt>
+<dd>m, mason, mc, mhtml, mi</dd>
+
+<dt>Mathematica</dt>
+<dd>cdf, ma, mathematica, mma, nb, nbp</dd>
+
+<dt>MiniZinc</dt>
+<dd>MZN, dzn, fzn, minizinc, mzn</dd>
+
+<dt>Modula-2</dt>
+<dd>def, m2, mod, modula2</dd>
+
+<dt>MorrowindScript</dt>
+<dd>morrowind, mwscript</dd>
+
+<dt>MySQL</dt>
+<dd>mysql, sql</dd>
+
+<dt>Myghty</dt>
+<dd>myghty, myt</dd>
+
+<dt>NASM</dt>
+<dd>ASM, asm, nasm</dd>
+
+<dt>Newspeak</dt>
+<dd>newspeak, ns2</dd>
+
+<dt>Nginx configuration file</dt>
+<dd>conf, nginx</dd>
+
+<dt>Nim</dt>
+<dd>nim, nimrod</dd>
+
+<dt>Nix</dt>
+<dd>nix, nixos</dd>
+
+<dt>OCaml</dt>
+<dd>ml, mli, mll, mly, ocaml</dd>
+
+<dt>Objective-C</dt>
+<dd>h, m, obj-c, objc, objective-c, objectivec</dd>
+
+<dt>Octave</dt>
+<dd>m, octave</dd>
+
+<dt>PHP</dt>
+<dd>inc, php, php3, php4, php5, php[345]</dd>
+
+<dt>PL/pgSQL</dt>
+<dd>plpgsql</dd>
+
+<dt>POVRay</dt>
+<dd>inc, pov</dd>
+
+<dt>PacmanConf</dt>
+<dd>conf, pacmanconf</dd>
+
+<dt>Perl</dt>
+<dd>perl, pl, pm, t</dd>
+
+<dt>Pig</dt>
+<dd>pig</dd>
+
+<dt>PkgConfig</dt>
+<dd>pc, pkgconfig</dd>
+
+<dt>PostScript</dt>
+<dd>eps, postscr, postscript, ps</dd>
+
+<dt>PostgreSQL SQL dialect</dt>
+<dd>postgres, postgresql</dd>
+
+<dt>PowerShell</dt>
+<dd>posh, powershell, ps1, psm1</dd>
+
+<dt>Prolog</dt>
+<dd>ecl, pl, pro, prolog</dd>
+
+<dt>Protocol Buffer</dt>
+<dd>proto, protobuf</dd>
+
+<dt>Puppet</dt>
+<dd>pp, puppet</dd>
+
+<dt>Python</dt>
+<dd>py, python, pyw, sage, sc, tac</dd>
+
+<dt>Python 3</dt>
+<dd>py3, python3</dd>
+
+<dt>QBasic</dt>
+<dd>BAS, bas, basic, qbasic</dd>
+
+<dt>R</dt>
+<dd>R, Renviron, Rhistory, Rprofile, S, r, s, splus</dd>
+
+<dt>Racket</dt>
+<dd>racket, rkt, rktd, rktl</dd>
+
+<dt>Ragel</dt>
+<dd>ragel</dd>
+
+<dt>Rexx</dt>
+<dd>arexx, rex, rexx, rx</dd>
+
+<dt>Ruby</dt>
+<dd>duby, gemspec, rake, rb, rbw, rbx, ruby</dd>
+
+<dt>Rust</dt>
+<dd>in, rs, rust</dd>
+
+<dt>SCSS</dt>
+<dd>scss</dd>
+
+<dt>SPARQL</dt>
+<dd>rq, sparql</dd>
+
+<dt>SQL</dt>
+<dd>sql</dd>
+
+<dt>Sass</dt>
+<dd>sass</dd>
+
+<dt>Scala</dt>
+<dd>scala</dd>
+
+<dt>Scheme</dt>
+<dd>scheme, scm, ss</dd>
+
+<dt>Scilab</dt>
+<dd>sce, sci, scilab, tst</dd>
+
+<dt>Smalltalk</dt>
+<dd>smalltalk, squeak, st</dd>
+
+<dt>Smarty</dt>
+<dd>smarty, tpl</dd>
+
+<dt>Snobol</dt>
+<dd>snobol</dd>
+
+<dt>Solidity</dt>
+<dd>sol, solidity</dd>
+
+<dt>SquidConf</dt>
+<dd>conf, squid, squid.conf, squidconf</dd>
+
+<dt>Swift</dt>
+<dd>swift</dd>
+
+<dt>TASM</dt>
+<dd>ASM, asm, tasm</dd>
+
+<dt>TOML</dt>
+<dd>toml</dd>
+
+<dt>Tcl</dt>
+<dd>rvt, tcl</dd>
+
+<dt>Tcsh</dt>
+<dd>csh, tcsh</dd>
+
+<dt>TeX</dt>
+<dd>aux, latex, tex, toc</dd>
+
+<dt>Termcap</dt>
+<dd>src, termcap</dd>
+
+<dt>Terminfo</dt>
+<dd>src, terminfo</dd>
+
+<dt>Terraform</dt>
+<dd>terraform, tf</dd>
+
+<dt>Thrift</dt>
+<dd>thrift</dd>
+
+<dt>Transact-SQL</dt>
+<dd>t-sql, tsql</dd>
+
+<dt>Turtle</dt>
+<dd>ttl, turtle</dd>
+
+<dt>Twig</dt>
+<dd>twig</dd>
+
+<dt>TypeScript</dt>
+<dd>ts, tsx, typescript</dd>
+
+<dt>TypoScript</dt>
+<dd>ts, txt, typoscript</dd>
+
+<dt>TypoScriptCssData</dt>
+<dd>typoscriptcssdata</dd>
+
+<dt>TypoScriptHtmlData</dt>
+<dd>typoscripthtmldata</dd>
+
+<dt>VHDL</dt>
+<dd>vhd, vhdl</dd>
+
+<dt>VimL</dt>
+<dd>exrc, gvimrc, vim, vimrc</dd>
+
+<dt>WDTE</dt>
+<dd>wdte</dd>
+
+<dt>XML</dt>
+<dd>rss, svg, wsdl, wsf, xml, xsd, xsl, xslt</dd>
+
+<dt>Xorg</dt>
+<dd>conf, xorg.conf</dd>
+
+<dt>YAML</dt>
+<dd>yaml, yml</dd>
+
+<dt>cfstatement</dt>
+<dd>cfs</dd>
+
+<dt>markdown</dt>
+<dd>markdown, md, mkd</dd>
+
+<dt>reStructuredText</dt>
+<dd>rest, restructuredtext, rst</dd>
+
+<dt>reg</dt>
+<dd>reg, registry</dd>
+
+<dt>systemverilog</dt>
+<dd>sv, svh, systemverilog</dd>
+
+<dt>verilog</dt>
+<dd>v, verilog</dd>
+
+</dl>
+</p>
 
 <p>Check <a href="https://github.com/alecthomas/chroma">https://github.com/alecthomas/chroma</a> for more information.</p><!-- blog/single.html (blog-disqus) -->
   
