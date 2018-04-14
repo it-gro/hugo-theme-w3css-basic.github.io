@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on W3.CSS Basic exampleSite</title>
-    <link>https://example.com/blog/</link>
+    <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/</link>
     <description>Recent content in Blogs on W3.CSS Basic exampleSite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 24 Nov 2017 08:44:12 +0100</lastBuildDate>
     
-	<atom:link href="https://example.com/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo - **highlight** :art:</title>
-      <link>https://example.com/blog/2017/11/24/hugo-highlight-chromastyles/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/24/hugo-highlight-chromastyles/</link>
       <pubDate>Fri, 24 Nov 2017 08:44:12 +0100</pubDate>
       
-      <guid>https://example.com/blog/2017/11/24/hugo-highlight-chromastyles/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/24/hugo-highlight-chromastyles/</guid>
       <description>&lt;p&gt;Hugo comes with reallly fast syntax highlighting from Chroma.
 From Hugo 0.28, the default syntax hightlighter in Hugo is Chroma; it
 is built in Go and is really, really fast – and for the most important
@@ -28,10 +28,10 @@ See &lt;a href=&#34;https://gohugo.io/content-management/syntax-highlighting&#34
     
     <item>
       <title>Hugo - dolor</title>
-      <link>https://example.com/blog/2017/11/10/hugo-dolor/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/10/hugo-dolor/</link>
       <pubDate>Fri, 10 Nov 2017 00:00:00 +0100</pubDate>
       
-      <guid>https://example.com/blog/2017/11/10/hugo-dolor/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/10/hugo-dolor/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
 commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
 et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;
@@ -46,10 +46,10 @@ imperdiet a, venenatis vitae, justo.&lt;/p&gt;
     
     <item>
       <title>Hugo - lorem</title>
-      <link>https://example.com/blog/2017/11/09/hugo-lorem/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/09/hugo-lorem/</link>
       <pubDate>Thu, 09 Nov 2017 00:00:00 +0100</pubDate>
       
-      <guid>https://example.com/blog/2017/11/09/hugo-lorem/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/09/hugo-lorem/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
 commodo ligula eget dolor. Aenean massa.&lt;/p&gt;
 
@@ -62,10 +62,10 @@ pretium quis, sem.&lt;/p&gt;
     
     <item>
       <title>Hugo - ipsum</title>
-      <link>https://example.com/blog/2017/11/08/hugo-ipsum/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/08/hugo-ipsum/</link>
       <pubDate>Wed, 08 Nov 2017 00:00:00 +0100</pubDate>
       
-      <guid>https://example.com/blog/2017/11/08/hugo-ipsum/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/08/hugo-ipsum/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
 commodo ligula eget dolor. Aenean massa.&lt;/p&gt;
 
@@ -80,10 +80,10 @@ pretium quis, sem.&lt;/p&gt;
     
     <item>
       <title>Golang - a closer look </title>
-      <link>https://example.com/blog/2017/10/09/golang-a-closer-look/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/10/09/golang-a-closer-look/</link>
       <pubDate>Mon, 09 Oct 2017 00:00:00 +0100</pubDate>
       
-      <guid>https://example.com/blog/2017/10/09/golang-a-closer-look/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/10/09/golang-a-closer-look/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
 hendrerit tempor tellus. Donec pretium posuere tellus. Proin quam
 nisl, tincidunt et, mattis eget, convallis nec, purus.&lt;/p&gt;
@@ -98,10 +98,10 @@ vestibulum accumsan nisl.&lt;/p&gt;
     
     <item>
       <title>Emacs - it all starts here</title>
-      <link>https://example.com/blog/2017/09/10/emacs-it-all-starts-here/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/09/10/emacs-it-all-starts-here/</link>
       <pubDate>Sun, 10 Sep 2017 19:00:00 +0100</pubDate>
       
-      <guid>https://example.com/blog/2017/09/10/emacs-it-all-starts-here/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/09/10/emacs-it-all-starts-here/</guid>
       <description>&lt;p&gt;Emacs originally was an acronym for Editor MACroS. RMS says he
 “picked the name Emacs because &lt;E&gt; was not in use as an abbreviation
 on ITS at the time.”&lt;/p&gt;
@@ -116,10 +116,10 @@ PDP-10.&lt;/p&gt;
     
     <item>
       <title>Emacs Jokes</title>
-      <link>https://example.com/blog/1985/03/20/emacs-jokes/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/1985/03/20/emacs-jokes/</link>
       <pubDate>Wed, 20 Mar 1985 20:00:00 +0100</pubDate>
       
-      <guid>https://example.com/blog/1985/03/20/emacs-jokes/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/1985/03/20/emacs-jokes/</guid>
       <description>&lt;p&gt;Richard M. Stallman (RMS, widely known for creating EMACS) is writing
 a UNIX clone called GNU (which means Gnu&amp;rsquo;s Not Unix&amp;ndash;a recursive
 acronym).&lt;/p&gt;
