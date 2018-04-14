@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Frontpage Eye-Catcher on W3.CSS Basic exampleSite</title>
-    <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/</link>
+    <link>https://example.com/pages/front/</link>
     <description>Recent content in Frontpage Eye-Catcher on W3.CSS Basic exampleSite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 13 Nov 2017 15:37:04 +0100</lastBuildDate>
     
-	<atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.com/pages/front/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
