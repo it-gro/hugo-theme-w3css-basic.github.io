@@ -27,7 +27,7 @@
     <!-- back in partials/head.html  -->
   <title>W3.CSS Basic exampleSite</title>
 
-  <meta name="generator" content="Hugo 0.38.2" />
+  <meta name="generator" content="Hugo 0.39-DEV" />
 
   
 <!-- partials/head.stylesheets.html -->
@@ -486,10 +486,27 @@ justo sit amet elit.</p>
 
   
   <!-- partials/contact.map.html  -->
-   
-  <!-- GoogleMapsApiKey empty => fallback  -->
-<div class='w3-card-4 w3-margin w3-round-xxlarge w3-center w3-theme-l2 '>
-  Google Maps: <a href='https://maps.google.com/maps?q=46.946692,7.444186&z=3' target="_blank"><i class="fas fa-map-marker-alt fa-5x w3-text-theme"></i></a>
+  
+  <!-- GoogleMapsApiKey found  -->
+<script>
+  function initMap() {
+      var myloc = { lat:  46.946692 , lng:  7.444186  };
+      var map = new google.maps.Map(document.getElementById('map'), {zoom:  3 , center: myloc});
+      var marker = new google.maps.Marker({position: myloc, map: map});
+  }
+</script>
+<script
+  async defer
+  src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBOYzLWzxeb0XnHIk1lDlJCZabakEMB0qM&callback=initMap'
+  >
+</script>
+
+<div id="map" class='w3-panel w3-card-4 w3-theme-l2 '>
+<noscript>
+  <!-- i18n "JsNeeded"  -->
+  <p>JavaScript needed for this (google maps)</p>
+  <a href='https://maps.google.com/maps?q=46.946692,7.444186&z=10' target="_blank">https://maps.google.com/maps?q=46.946692,7.444186&z=3</a>
+</noscript>
 </div>   
 
 
@@ -600,7 +617,7 @@ consectetuer adipiscing</p>
   <div class="w3-cell w3-cell-middle">
     <div class="w3-right">
         <!-- $.Site.Params.bottomRight  -->
-      created with <a href="https://gohugo.io">Hugo 0.38.2</a>
+      created with <a href="https://gohugo.io">Hugo 0.39-DEV</a>
     </div> 
   </div>   
 
