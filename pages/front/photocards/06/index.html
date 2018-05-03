@@ -25,6 +25,40 @@
     gtag('config', 'UA-113314068-1');
   </script>
     <!-- back in partials/head.html  -->
+
+  
+  <!-- partials/head.cookieconsent.html -->
+
+  <link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/insites/cookieconsent/cookieconsent.3.0.6.min.css">
+  <script src="/hugo-theme-w3css-basic.github.io/vendor/insites/cookieconsent/cookieconsent.3.0.6.min.js"></script>
+
+  <script>
+    window.addEventListener("load", function(){
+      window.cookieconsent.initialise({
+        "palette": {
+           "popup": {
+             "background": "#efefef",
+             "text":       "#404040"
+           },
+           "button": {
+             "background": "#8ec760",
+             "text":       "#ffffff"
+           }
+         },
+        "position": "bottom",
+        "theme": "classic",
+        "content": {
+          "message": "This website uses cookies to ensure you get the best experience on our website.",
+          "dismiss": "Got it!",
+          "link"   : "Learn more",
+          "href"   : "https://cookiesandyou.com"
+        }
+      })  
+    })  
+    ;
+  </script>
+
+
   <title>W3.CSS Basic exampleSite</title>
 
   <meta name="generator" content="Hugo 0.40.2" />
