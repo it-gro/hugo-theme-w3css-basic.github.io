@@ -1717,6 +1717,7 @@ Change all colors in the blink of an eye,  choose Google fonts or use Google Glo
 &lt;h2 id=&#34;latest-news&#34;&gt;Latest News&lt;/h2&gt;
 
 &lt;ul&gt;
+&lt;li&gt;Added &lt;a href=&#34;https://cookieconsent.insites.com/&#34;&gt;cookieconsent&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Teaser images are now resource images&lt;/li&gt;
 &lt;li&gt;New Front Matter (replacing &lt;code&gt;teaserPic&lt;/code&gt;):&lt;/li&gt;
 &lt;/ul&gt;
@@ -1777,6 +1778,7 @@ Change all colors in the blink of an eye,  choose Google fonts or use Google Glo
 &lt;li&gt;&lt;a href=&#34;https://translate.google.com&#34;&gt;https://translate.google.com&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://cse.google.com&#34;&gt;https://cse.google.com&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://developers.google.com/gtagjs/devguide/snippet&#34;&gt;https://developers.google.com/gtagjs/devguide/snippet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cookieconsent.insites.com&#34;&gt;https://cookieconsent.insites.com&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
@@ -1818,6 +1820,7 @@ Change all colors in the blink of an eye,  choose Google fonts or use Google Glo
 &lt;li&gt;&lt;a href=&#34;#google-custom-search-api&#34;&gt;Google Custom Search API&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#google-analytics-tracking-using-gtag&#34;&gt;Google Analytics-Tracking using gtag&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#footer&#34;&gt;Footer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#cookieconsent&#34;&gt;cookieconsent&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#rss&#34;&gt;RSS&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#tracing&#34;&gt;Tracing&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
@@ -3079,6 +3082,45 @@ prevents &lt;code&gt;gtag.js&lt;/code&gt; tracking by default.&lt;/li&gt;
   &lt;span class=&#34;nx&#34;&gt;bottomRight&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;created with [Hugo](https://gohugo.io) &amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_220.jpg&#34; alt=&#34;screenshot Footer&#34; /&gt;&lt;/p&gt;
 
+&lt;h3 id=&#34;cookieconsent&#34;&gt;cookieconsent&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cookieconsent.insites.com&#34;&gt;https://cookieconsent.insites.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;static/vendor/insites/
+└── cookieconsent
+    ├── cookieconsent.3.0.6.min.css
+    └── cookieconsent.3.0.6.min.js&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code&gt;i18n/en.yaml&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;# Cookie consent
+- id: cookieMessage
+  translation: This website uses cookies to ensure you get the best experience on our website.
+
+- id: cookieDismiss
+  translation: Got it!
+
+- id: cookieLearn
+  translation: Learn more&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;cookieconsent&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+  &lt;span class=&#34;c&#34;&gt;# https://cookieconsent.insites.com/download/&lt;/span&gt;
+  &lt;span class=&#34;c&#34;&gt;# used in layouts/partials/head.cookieconsent.html&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;enable&lt;/span&gt;           &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;popupBackground&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;#efefef&amp;#34;&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;popupText&lt;/span&gt;        &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;#404040&amp;#34;&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;buttonBackground&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;#8ec760&amp;#34;&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;buttonText&lt;/span&gt;       &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;#ffffff&amp;#34;&lt;/span&gt;
+  &lt;span class=&#34;c&#34;&gt;#static           = &amp;#34;true&amp;#34;&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;position&lt;/span&gt;         &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;bottom&amp;#34;&lt;/span&gt;
+  &lt;span class=&#34;c&#34;&gt;#position         = &amp;#34;top&amp;#34;&lt;/span&gt;
+  &lt;span class=&#34;c&#34;&gt;#position         = &amp;#34;bottom-left&amp;#34;&lt;/span&gt;
+  &lt;span class=&#34;c&#34;&gt;#position         = &amp;#34;bottom-right&amp;#34;&lt;/span&gt;
+  &lt;span class=&#34;c&#34;&gt;#position         = &amp;#34;top-left&amp;#34;&lt;/span&gt;
+  &lt;span class=&#34;c&#34;&gt;#position         = &amp;#34;top-right&amp;#34;&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;theme&lt;/span&gt;            &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;classic&amp;#34;&lt;/span&gt;
+  &lt;span class=&#34;c&#34;&gt;#theme            = &amp;#34;edgeless&amp;#34;&lt;/span&gt;
+  &lt;span class=&#34;c&#34;&gt;#theme            = &amp;#34;&amp;#34;&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;href&lt;/span&gt;             &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;https://cookiesandyou.com&amp;#34;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3 id=&#34;rss&#34;&gt;RSS&lt;/h3&gt;
 
 &lt;ul&gt;

@@ -20,7 +20,7 @@
       <description>This content is created using: {{&amp;lt; readfile &amp;#34;content/README.md&amp;#34; &amp;#34;true&amp;#34; &amp;gt;}}  See more here: This Theme Shortcodes&amp;nbsp; W3.CSS Basic Theme for Hugo W3.CSS Basic is a website template built with W3.CSS.
 Inspiration was taken from Universal. It is highly configurable. Change all colors in the blink of an eye, choose Google fonts or use Google Global Site Tags.
 See the exampleSite for a demo.
-Latest News  Teaser images are now resource images New Front Matter (replacing teaserPic):  resImgTeaser:teaserpics/pixabay.</description>
+Latest News  Added cookieconsent Teaser images are now resource images New Front Matter (replacing teaserPic):  resImgTeaser:teaserpics/pixabay.</description>
     </item>
     
     <item>
