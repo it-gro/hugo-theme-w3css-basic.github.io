@@ -518,6 +518,7 @@ Change all colors in the blink of an eye,  choose Google fonts or use Google Glo
 <h2 id="latest-news">Latest News</h2>
 
 <ul>
+<li>Added <a href="https://cookieconsent.insites.com/">cookieconsent</a></li>
 <li>Teaser images are now resource images</li>
 <li>New Front Matter (replacing <code>teaserPic</code>):</li>
 </ul>
@@ -578,6 +579,7 @@ Change all colors in the blink of an eye,  choose Google fonts or use Google Glo
 <li><a href="https://translate.google.com">https://translate.google.com</a></li>
 <li><a href="https://cse.google.com">https://cse.google.com</a></li>
 <li><a href="https://developers.google.com/gtagjs/devguide/snippet">https://developers.google.com/gtagjs/devguide/snippet</a></li>
+<li><a href="https://cookieconsent.insites.com">https://cookieconsent.insites.com</a></li>
 </ul>
 
 <h2 id="table-of-contents">Table of Contents</h2>
@@ -619,6 +621,7 @@ Change all colors in the blink of an eye,  choose Google fonts or use Google Glo
 <li><a href="#google-custom-search-api">Google Custom Search API</a></li>
 <li><a href="#google-analytics-tracking-using-gtag">Google Analytics-Tracking using gtag</a></li>
 <li><a href="#footer">Footer</a></li>
+<li><a href="#cookieconsent">cookieconsent</a></li>
 <li><a href="#rss">RSS</a></li>
 <li><a href="#tracing">Tracing</a></li>
 </ul></li>
@@ -1874,6 +1877,45 @@ prevents <code>gtag.js</code> tracking by default.</li>
   <span class="nx">bottomRight</span> <span class="p">=</span> <span class="s1">&#39;created with [Hugo](https://gohugo.io) &#39;</span></code></pre></div>
 <p><img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_220.jpg" alt="screenshot Footer" /></p>
 
+<h3 id="cookieconsent">cookieconsent</h3>
+
+<ul>
+<li><a href="https://cookieconsent.insites.com">https://cookieconsent.insites.com</a></li>
+</ul>
+<div class="highlight"><pre class="chroma">static/vendor/insites/
+└── cookieconsent
+    ├── cookieconsent.3.0.6.min.css
+    └── cookieconsent.3.0.6.min.js</pre></div>
+<p><code>i18n/en.yaml</code></p>
+<div class="highlight"><pre class="chroma"># Cookie consent
+- id: cookieMessage
+  translation: This website uses cookies to ensure you get the best experience on our website.
+
+- id: cookieDismiss
+  translation: Got it!
+
+- id: cookieLearn
+  translation: Learn more</pre></div>
+<p><code>config.toml</code></p>
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">cookieconsent</span><span class="p">]</span>
+  <span class="c"># https://cookieconsent.insites.com/download/</span>
+  <span class="c"># used in layouts/partials/head.cookieconsent.html</span>
+  <span class="nx">enable</span>           <span class="p">=</span> <span class="kc">true</span>
+  <span class="nx">popupBackground</span>  <span class="p">=</span> <span class="s2">&#34;#efefef&#34;</span>
+  <span class="nx">popupText</span>        <span class="p">=</span> <span class="s2">&#34;#404040&#34;</span>
+  <span class="nx">buttonBackground</span> <span class="p">=</span> <span class="s2">&#34;#8ec760&#34;</span>
+  <span class="nx">buttonText</span>       <span class="p">=</span> <span class="s2">&#34;#ffffff&#34;</span>
+  <span class="c">#static           = &#34;true&#34;</span>
+  <span class="nx">position</span>         <span class="p">=</span> <span class="s2">&#34;bottom&#34;</span>
+  <span class="c">#position         = &#34;top&#34;</span>
+  <span class="c">#position         = &#34;bottom-left&#34;</span>
+  <span class="c">#position         = &#34;bottom-right&#34;</span>
+  <span class="c">#position         = &#34;top-left&#34;</span>
+  <span class="c">#position         = &#34;top-right&#34;</span>
+  <span class="nx">theme</span>            <span class="p">=</span> <span class="s2">&#34;classic&#34;</span>
+  <span class="c">#theme            = &#34;edgeless&#34;</span>
+  <span class="c">#theme            = &#34;&#34;</span>
+  <span class="nx">href</span>             <span class="p">=</span> <span class="s2">&#34;https://cookiesandyou.com&#34;</span></code></pre></div>
 <h3 id="rss">RSS</h3>
 
 <ul>
