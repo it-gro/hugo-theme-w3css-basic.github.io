@@ -1743,13 +1743,16 @@ Change all colors in the blink of an eye,  choose Google fonts or use Google Glo
 &lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_502.jpg&#34; alt=&#34;screenshot res-figure&#34; /&gt;&lt;/li&gt;
 &lt;li&gt;res-attach
 &lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_504.jpg&#34; alt=&#34;screenshot res-attach&#34; /&gt;&lt;/li&gt;
-&lt;li&gt;readfile
-&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_506.jpg&#34; alt=&#34;screenshot readfile&#34; /&gt;&lt;/li&gt;
-&lt;li&gt;Added color theme preview via color theme selector (not on small displays)
-&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_500.jpg&#34; alt=&#34;screenshot color theme selector&#34; /&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;readfile
+&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_506.jpg&#34; alt=&#34;screenshot readfile&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Added color theme preview via color theme selector (not on small displays)
+&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_500.jpg&#34; alt=&#34;screenshot color theme selector&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;  &lt;span class=&#34;c&#34;&gt;# This may help you to to select a w3cssColorTheme&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;themeColorSelectorEnable&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;This theme is for:&lt;/p&gt;
