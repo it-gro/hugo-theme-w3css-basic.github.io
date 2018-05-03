@@ -139,7 +139,7 @@
 
   <!-- back in _default/baseof.html  -->
 
-  <body>
+  <body onload='onload()' >
     <div id="all" class="w3-theme">
       <header>
         
@@ -464,8 +464,10 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
       <div id="canvas" class='w3-container w3-theme-l4 '>
         <!-- block headline _default/baseof.html  -->
           <h1 class='w3-panel w3-theme-l2 '>
-          
-           </h1>
+            
+            <button id="btnfrwd" class="taxonomy-button w3-btn" style="visibility:hidden;float:right;" onclick="javascript:history.forward()"><i class="fas fa-step-forward "></i></button>
+            <button id="btnback" class="taxonomy-button w3-btn" style="visibility:hidden;float:right;" onclick="javascript:history.back()"   ><i class="fas fa-step-backward"></i></button>
+          </h1>
         <!-- block main _default/baseof.html  -->
         
   <!-- partials/head.blog.date.html -->
@@ -2132,7 +2134,7 @@ pages.md</pre></div>
 
 <ul>
 <li>Inspired by <a href="https://github.com/gohugoio/hugo/blob/master/docs/layouts/shortcodes/readfile.html">https://github.com/gohugoio/hugo/blob/master/docs/layouts/shortcodes/readfile.html</a></li>
-<li>Reads a file (or directory) and optionally renders ist using markdownify or highlight</li>
+<li>Reads a file (or directory) and optionally renders it using markdownify or highlight</li>
 <li>See <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/#readfile">https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/#readfile</a></li>
 </ul>
 <div class="highlight"><pre class="chroma">{{&lt; readfile &#34;content/.&#34; &gt;}}</pre></div>
@@ -2573,6 +2575,14 @@ consectetuer adipiscing</p>
   </script>
 
 <script src='/hugo-theme-w3css-basic.github.io/js/custom.bottom.js'></script>
+
+
+    <script>
+      function onload(){
+         document.getElementById("btnfrwd").style.visibility="visible";
+         document.getElementById("btnback").style.visibility="visible";
+      }
+    </script>
 
   </body>
   

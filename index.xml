@@ -3351,7 +3351,7 @@ pages.md&lt;/pre&gt;&lt;/div&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Inspired by &lt;a href=&#34;https://github.com/gohugoio/hugo/blob/master/docs/layouts/shortcodes/readfile.html&#34;&gt;https://github.com/gohugoio/hugo/blob/master/docs/layouts/shortcodes/readfile.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Reads a file (or directory) and optionally renders ist using markdownify or highlight&lt;/li&gt;
+&lt;li&gt;Reads a file (or directory) and optionally renders it using markdownify or highlight&lt;/li&gt;
 &lt;li&gt;See &lt;a href=&#34;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/#readfile&#34;&gt;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/#readfile&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;{{&amp;lt; readfile &amp;#34;content/.&amp;#34; &amp;gt;}}&lt;/pre&gt;&lt;/div&gt;
