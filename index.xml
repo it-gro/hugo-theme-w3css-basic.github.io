@@ -1717,7 +1717,13 @@ Change all colors in the blink of an eye,  choose Google fonts or use Google Glo
 &lt;h2 id=&#34;latest-news&#34;&gt;Latest News&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Added &lt;a href=&#34;https://cookieconsent.insites.com/&#34;&gt;cookieconsent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Added &lt;a href=&#34;https://cookieconsent.insites.com/&#34;&gt;cookieconsent&lt;/a&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_510.jpg&#34; alt=&#34;screenshot cookieconsent&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_512.jpg&#34; alt=&#34;screenshot cookieconsent&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
 &lt;li&gt;Teaser images are now resource images&lt;/li&gt;
 &lt;li&gt;New Front Matter (replacing &lt;code&gt;teaserPic&lt;/code&gt;):&lt;/li&gt;
 &lt;/ul&gt;
@@ -1736,6 +1742,8 @@ Change all colors in the blink of an eye,  choose Google fonts or use Google Glo
 
 &lt;p&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;disqusSkipAgree&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_514.jpg&#34; alt=&#34;screenshot DiscusAgree&#34; /&gt;&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Added shortcodes:&lt;/p&gt;
 
@@ -2248,6 +2256,14 @@ the language modifying the following key.&lt;/p&gt;
   &lt;span class=&#34;c&#34;&gt;# set to true, if you want to show the count of comments&lt;/span&gt;
   &lt;span class=&#34;c&#34;&gt;# fires an async request to disqus.com/count.js&lt;/span&gt;
   &lt;span class=&#34;nx&#34;&gt;disqusButtonShowCount&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;User has to agree to Disqus. You may skip this via&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;disqusSkipAgree&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_514.jpg&#34; alt=&#34;screenshot DiscusAgree&#34; /&gt;&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;No JavaScript fallback&lt;/li&gt;
 &lt;/ul&gt;
@@ -3121,6 +3137,10 @@ prevents &lt;code&gt;gtag.js&lt;/code&gt; tracking by default.&lt;/li&gt;
   &lt;span class=&#34;c&#34;&gt;#theme            = &amp;#34;edgeless&amp;#34;&lt;/span&gt;
   &lt;span class=&#34;c&#34;&gt;#theme            = &amp;#34;&amp;#34;&lt;/span&gt;
   &lt;span class=&#34;nx&#34;&gt;href&lt;/span&gt;             &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;https://cookiesandyou.com&amp;#34;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_510.jpg&#34; alt=&#34;screenshot cookieconsent&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_512.jpg&#34; alt=&#34;screenshot cookieconsent&#34; /&gt;&lt;/p&gt;
+
 &lt;h3 id=&#34;rss&#34;&gt;RSS&lt;/h3&gt;
 
 &lt;ul&gt;
