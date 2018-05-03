@@ -27,7 +27,7 @@
     <!-- back in partials/head.html  -->
   <title>W3.CSS Basic exampleSite</title>
 
-  <meta name="generator" content="Hugo 0.39" />
+  <meta name="generator" content="Hugo 0.40.2" />
 
   
 <!-- partials/head.stylesheets.html -->
@@ -441,7 +441,10 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
 <div class="w3-right-align ">
 </div>
 
-  <!-- partials/main.teaserpic.single.html -->
+  <!-- partials/main.teaserpic.single.html --> 
+  
+  <!-- partials/resource.image.html  --> 
+
  
   <!-- partials/main.toc.single.html -->
 
@@ -452,7 +455,7 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
 
 <p>W3.CSS Basic is a website template built with <a href="https://www.w3schools.com/w3css/">W3.CSS</a>.<br />
 Inspiration was taken from <a href="https://themes.gohugo.io/hugo-universal-theme/">Universal</a>.
-It is highly <a href="//github.com/it-gro/hugo-theme-w3css-basic/tree/master/exampleSite/config.toml">configurable</a>
+It is highly <a href="//github.com/it-gro/hugo-theme-w3css-basic/tree/master/exampleSite/config.toml">configurable</a>.
 Change all colors in the blink of an eye,  choose Google fonts or use Google Global Site Tags.</p>
 
 <p>See the <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/">exampleSite</a> for a demo.</p>
@@ -461,6 +464,25 @@ Change all colors in the blink of an eye,  choose Google fonts or use Google Glo
 
 <h2 id="latest-news">Latest News</h2>
 
+<ul>
+<li>Teaser images are now resource images</li>
+<li>New Front Matter (replacing <code>teaserPic</code>):</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml">resImgTeaser<span class="p">:</span><span class="w">          </span>teaserpics/pixabay.com/adventure-<span class="m">2528477.</span>jpg</code></pre></div>
+<p>Default is to resize with reasonale dimensions. You may overwrite the defaults:</p>
+<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml">resImgTeaser<span class="p">:</span><span class="w">          </span>teaserpics/pixabay.com/adventure-<span class="m">2528477.</span>jpg<span class="w">
+</span><span class="w"></span>resImgTeaserCmd<span class="p">:</span><span class="w">       </span>Fill<span class="w">
+</span><span class="w"></span>resImgTeaserOpt<span class="p">:</span><span class="w">       </span>400x400<span class="w">
+</span><span class="w"></span>resImgTeaserInCardCmd<span class="p">:</span><span class="w"> </span>Fill<span class="w">
+</span><span class="w"></span>resImgTeaserInCardOpt<span class="p">:</span><span class="w"> </span><span class="s2">&#34;150x50 Bottom&#34;</span></code></pre></div>
+<p>See <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages">These Logos</a> for a demo.</p>
+
+<ul>
+<li>User has now to agree to Disqus. You may skip this via</li>
+</ul>
+
+<p><code>config.toml</code></p>
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml">  <span class="nx">disqusSkipAgree</span> <span class="p">=</span> <span class="kc">true</span></code></pre></div>
 <ul>
 <li><p>Added shortcodes:</p>
 
@@ -474,13 +496,8 @@ Change all colors in the blink of an eye,  choose Google fonts or use Google Glo
 <li>Added color theme preview via color theme selector (not on small displays)
 <img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_500.jpg" alt="screenshot color theme selector" /></li>
 </ul></li>
-
-<li><p>Front-matter teaserpic param now supports images from page bundle. Start the path with / to deliver from static</p></li>
 </ul>
-<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml">---<span class="w">
-</span><span class="w"></span>title<span class="p">:</span><span class="w">       </span><span class="s2">&#34;This Theme Readme (github)&#34;</span><span class="w">
-</span><span class="w"></span>teaserpic<span class="p">:</span><span class="w">   </span>myImg/coffee-<span class="m">2608864.</span>jpg<span class="w">
-</span><span class="w"></span>---</code></pre></div>
+
 <hr />
 
 <p>This theme is for:</p>
@@ -555,6 +572,7 @@ Change all colors in the blink of an eye,  choose Google fonts or use Google Glo
 <li><a href="#page-resources">Page Resources</a>
 
 <ul>
+<li><a href="#headless-images">Headless Images</a></li>
 <li><a href="#images">Images</a></li>
 <li><a href="#attachments">Attachments</a></li>
 </ul></li>
@@ -641,9 +659,9 @@ Change all colors in the blink of an eye,  choose Google fonts or use Google Glo
 <h2 id="installation">Installation</h2>
 
 <p>Go to the directory where you have your Hugo site and run:</p>
-<div class="highlight"><pre class="chroma">$ mkdir themes
-$ cd themes
-$ git clone https://github.com/it-gro/hugo-theme-w3css-basic</pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ mkdir themes
+$ <span class="nb">cd</span> themes
+$ git clone https://github.com/it-gro/hugo-theme-w3css-basic</code></pre></div>
 <p>For more information read the official <a href="https://gohugo.io/overview/installing/">setup guide</a> of Hugo.</p>
 
 <h2 id="configuration">Configuration</h2>
@@ -710,13 +728,13 @@ the language modifying the following key.</p>
 ├── 04-jumbotron.yaml
 └── 05-jumbotron.yaml</pre></div>
 <p><code>01-jumbotron.yaml</code></p>
-<div class="highlight"><pre class="chroma">weight:      1
-title:       &#34;Welcome to hugo-theme-w3css-basic exampleSite&#34;
-icon:        
-image:       
-description: |
-  * Lorem ipsum dolor sit amet
-  * Excepteur sint occaecat cupidatat non proident</pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml">weight<span class="p">:</span><span class="w">      </span><span class="m">1</span><span class="w">
+</span><span class="w"></span>title<span class="p">:</span><span class="w">       </span><span class="s2">&#34;Welcome to hugo-theme-w3css-basic exampleSite&#34;</span><span class="w">
+</span><span class="w"></span>icon<span class="p">:</span><span class="w">        
+</span><span class="w"></span>resImg<span class="p">:</span><span class="w">      
+</span><span class="w"></span>description<span class="p">:</span><span class="w"> </span><span class="sd">|
+</span><span class="sd">  * Lorem ipsum dolor sit amet
+</span><span class="sd">  * Excepteur sint occaecat cupidatat non proident</span></code></pre></div>
 <h4 id="photocards">Photocards</h4>
 <div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">photocards</span><span class="p">]</span>
   <span class="c"># used in layouts/partials/front.photocards.html</span>
@@ -740,13 +758,13 @@ description: |
 ├── 08-photocard.yaml
 └── 09-photocard.yaml</pre></div>
 <p><code>01-photocard.yaml</code></p>
-<div class="highlight"><pre class="chroma">weight:      1
-title:       &#34;Lorem ipsum&#34;
-animated:    &#34;rollIn&#34;
-image:       &#34;images/photocards/pixabay.com/01-photocard.jpg&#34;
-url:         pages/front/photocards/01
-description: |
-   sed diam nonumy </pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml">weight<span class="p">:</span><span class="w">      </span><span class="m">1</span><span class="w">
+</span><span class="w"></span>title<span class="p">:</span><span class="w">       </span><span class="s2">&#34;Lorem ipsum&#34;</span><span class="w">
+</span><span class="w"></span>animated<span class="p">:</span><span class="w">    </span><span class="s2">&#34;rollIn&#34;</span><span class="w">
+</span><span class="w"></span>resImg<span class="p">:</span><span class="w">      </span><span class="s2">&#34;photocards/pixabay.com/01-photocard.jpg&#34;</span><span class="w">
+</span><span class="w"></span>url<span class="p">:</span><span class="w">         </span>pages/front/photocards/<span class="m">01</span><span class="w">
+</span><span class="w"></span>description<span class="p">:</span><span class="w"> </span><span class="sd">|
+</span><span class="sd">   sed diam nonumy </span></code></pre></div>
 <h4 id="features-1">Features</h4>
 <div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">features</span><span class="p">]</span>
   <span class="c"># used in layouts/partials/front.features.html</span>
@@ -767,14 +785,14 @@ description: |
 ├── 05-feature.yaml
 └── 06-feature.yaml</pre></div>
 <p><code>01-feature.yaml</code></p>
-<div class="highlight"><pre class="chroma">weight:      1
-name:        &#34;Eleifend&#34;
-icon:        &#34;fas fa-desktop&#34;
-animated:    &#34;slideInLeft&#34;
-url:         pages/front/features/01
-description: |
-  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-  nonumy eirmod tempor invidunt ut labore</pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml">weight<span class="p">:</span><span class="w">      </span><span class="m">1</span><span class="w">
+</span><span class="w"></span>name<span class="p">:</span><span class="w">        </span><span class="s2">&#34;Eleifend&#34;</span><span class="w">
+</span><span class="w"></span>icon<span class="p">:</span><span class="w">        </span><span class="s2">&#34;fas fa-desktop&#34;</span><span class="w">
+</span><span class="w"></span>animated<span class="p">:</span><span class="w">    </span><span class="s2">&#34;slideInLeft&#34;</span><span class="w">
+</span><span class="w"></span>url<span class="p">:</span><span class="w">         </span>pages/front/features/<span class="m">01</span><span class="w">
+</span><span class="w"></span>description<span class="p">:</span><span class="w"> </span><span class="sd">|
+</span><span class="sd">  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+</span><span class="sd">  nonumy eirmod tempor invidunt ut labore</span></code></pre></div>
 <h4 id="recent-posts">Recent Posts</h4>
 <div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">recentPosts</span><span class="p">]</span>
   <span class="c"># used in layouts/partials/footer.html</span>
@@ -844,15 +862,15 @@ description: |
 ├── 04-testimonial.yaml
 └── 05-testimonial.yaml</pre></div>
 <p><code>01-testimonial.yaml</code></p>
-<div class="highlight"><pre class="chroma">weight:      1
-name:        &#34;John Doe&#34;
-position:    &#34;CEO, Takimata&#34;
-avatar:      &#34;images/testimonials/pixabay.com/person-1.jpg&#34;
-text:        | 
-  Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
-  suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem
-  vel eum iriure dolor in hendrerit in vulputate velit esse molestie
-  consequat, vel illum dolore eu feugiat</pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml">weight<span class="p">:</span><span class="w">      </span><span class="m">1</span><span class="w">
+</span><span class="w"></span>name<span class="p">:</span><span class="w">        </span><span class="s2">&#34;John Doe&#34;</span><span class="w">
+</span><span class="w"></span>position<span class="p">:</span><span class="w">    </span><span class="s2">&#34;CEO, Takimata&#34;</span><span class="w">
+</span><span class="w"></span>resImg<span class="p">:</span><span class="w">      </span><span class="s2">&#34;testimonials/pixabay.com/person-1.jpg&#34;</span><span class="w">
+</span><span class="w"></span>text<span class="p">:</span><span class="w">        </span><span class="sd">| 
+</span><span class="sd">  Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper</span><span class="w">
+</span><span class="w">  </span>suscipit<span class="w"> </span>lobortis<span class="w"> </span>nisl<span class="w"> </span>ut<span class="w"> </span>aliquip<span class="w"> </span>ex<span class="w"> </span>ea<span class="w"> </span>commodo<span class="w"> </span>consequat.<span class="w"> </span>Duis<span class="w"> </span>autem<span class="w">
+</span><span class="w">  </span>vel<span class="w"> </span>eum<span class="w"> </span>iriure<span class="w"> </span>dolor<span class="w"> </span>in<span class="w"> </span>hendrerit<span class="w"> </span>in<span class="w"> </span>vulputate<span class="w"> </span>velit<span class="w"> </span>esse<span class="w"> </span>molestie<span class="w">
+</span><span class="w">  </span>consequat<span class="p">,</span><span class="w"> </span>vel<span class="w"> </span>illum<span class="w"> </span>dolore<span class="w"> </span>eu<span class="w"> </span>feugiat</code></pre></div>
 <h4 id="clients">Clients</h4>
 <div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">clients</span><span class="p">]</span>
   <span class="c"># used in layouts/partials/front.clients.carousel.html</span>
@@ -877,10 +895,10 @@ text:        |
 ├── 05-client.yaml
 └── 06-client.yaml</pre></div>
 <p><code>01-client.yaml</code></p>
-<div class="highlight"><pre class="chroma">weight: 1
-name:   &#34;customer-1&#34;
-image:  &#34;images/clients/pixabay.com/company-logo-1.png&#34;
-url:    &#34;http://www.example.com&#34;</pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml">weight<span class="p">:</span><span class="w"> </span><span class="m">1</span><span class="w">
+</span><span class="w"></span>name<span class="p">:</span><span class="w">   </span><span class="s2">&#34;customer-1&#34;</span><span class="w">
+</span><span class="w"></span>resImg<span class="p">:</span><span class="w"> </span><span class="s2">&#34;images/clients/pixabay.com/company-logo-1.png&#34;</span><span class="w">
+</span><span class="w"></span>url<span class="p">:</span><span class="w">    </span><span class="s2">&#34;http://www.example.com&#34;</span></code></pre></div>
 <h3 id="blog">Blog</h3>
 
 <h4 id="blog-list">Blog List</h4>
@@ -911,23 +929,23 @@ url:    &#34;http://www.example.com&#34;</pre></div>
         ├── hugo-ipsum.md
         └── hugo-lorem.md</pre></div>
 <p><code>hugo-highlight-chromastyles.md</code>:</p>
-<div class="highlight"><pre class="chroma">---
-title:       &#34;Hugo - **highlight** 🎨&#34;
-date:        2017-11-24T08:44:12+01:00
-tags:
-  - Hugo
-categories:
-  - Web
-teaserpic:   /images/teaserpics/bitbucket.org/pygments-main-logo.png
----
-
-Hugo comes with reallly fast syntax highlighting from Chroma.
-...
-
-
-
-In this theme we set
-...</pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml">---<span class="w">
+</span><span class="w"></span>title<span class="p">:</span><span class="w">         </span><span class="s2">&#34;Hugo - **highlight** 🎨&#34;</span><span class="w">
+</span><span class="w"></span>date<span class="p">:</span><span class="w">          </span><span class="ld">2017-11-24T08:44:12</span>+<span class="m">01</span><span class="p">:</span><span class="m">00</span><span class="w">
+</span><span class="w"></span>resImgTeaser<span class="p">:</span><span class="w">  </span>teaserpics/bitbucket.org/pygments-main-logo.png<span class="w">
+</span><span class="w"></span>tags<span class="p">:</span><span class="w">
+</span><span class="w">  </span>-<span class="w"> </span>Hugo<span class="w">
+</span><span class="w"></span>categories<span class="p">:</span><span class="w">
+</span><span class="w">  </span>-<span class="w"> </span>Web<span class="w">
+</span><span class="w"></span>---<span class="w">
+</span><span class="w">
+</span><span class="w"></span>Hugo<span class="w"> </span>comes<span class="w"> </span>with<span class="w"> </span>reallly<span class="w"> </span>fast<span class="w"> </span>syntax<span class="w"> </span>highlighting<span class="w"> </span>from<span class="w"> </span>Chroma.<span class="w">
+</span><span class="w"></span>...<span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="w">
+</span><span class="w">
+</span><span class="w"></span>In<span class="w"> </span>this<span class="w"> </span>theme<span class="w"> </span>we<span class="w"> </span>set<span class="w">
+</span><span class="w"></span>...</code></pre></div>
 <h4 id="date-format">Date format</h4>
 
 <ul>
@@ -1045,20 +1063,19 @@ In this theme we set
 ├── front
 ...</pre></div>
 <p><code>content/pages/folder20/folder21/_index.md</code></p>
-<div class="highlight"><pre class="chroma">---
-weight:         21
-title:          &#34;Cum sociis natoque (this is level /folder20/folder21)&#34;
-date:           &#34;2017-06-08T01:06:13+02:00&#34;
-teaserpic:      /images/teaserpics/gohugo.io/hugo-dolor.png
----</pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml">---<span class="w">
+</span><span class="w"></span>weight<span class="p">:</span><span class="w">        </span><span class="m">21</span><span class="w">
+</span><span class="w"></span>title<span class="p">:</span><span class="w">         </span><span class="s2">&#34;Cum sociis natoque (this is level /folder20/folder21)&#34;</span><span class="w">
+</span><span class="w"></span>date<span class="p">:</span><span class="w">          </span><span class="s2">&#34;2017-06-08T01:06:13+02:00&#34;</span><span class="w">
+</span><span class="w"></span>resImgTeaser<span class="p">:</span><span class="w">  </span>teaserpics/gohugo.io/hugo-dolor.png<span class="w">
+</span><span class="w"></span>---</code></pre></div>
 <p><code>content/pages/front/_index.md</code></p>
-<div class="highlight"><pre class="chroma">---
-weight:      18
-title:       &#34;Frontpage Eye-Catcher (this is level /front)&#34;
-date:        2017-11-13T15:37:04+01:00
-teaserpic:
-icon:        &#34;fas fa-globe&#34;
----</pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml">---<span class="w">
+</span><span class="w"></span>weight<span class="p">:</span><span class="w">      </span><span class="m">18</span><span class="w">
+</span><span class="w"></span>title<span class="p">:</span><span class="w">       </span><span class="s2">&#34;Frontpage Eye-Catcher (this is level /front)&#34;</span><span class="w">
+</span><span class="w"></span>date<span class="p">:</span><span class="w">        </span><span class="ld">2017-11-13T15:37:04</span>+<span class="m">01</span><span class="p">:</span><span class="m">00</span><span class="w">
+</span><span class="w"></span>icon<span class="p">:</span><span class="w">        </span><span class="s2">&#34;fas fa-globe&#34;</span><span class="w">
+</span><span class="w"></span>---</code></pre></div>
 <h4 id="taxonomy">Taxonomy</h4>
 
 <ul>
@@ -1856,9 +1873,9 @@ information.</p></li>
 
 <li><p>In addition the following arrays may be files with paths or URLS</p></li>
 </ul>
-<div class="highlight"><pre class="chroma">  custom_css        = [ &#34;css/custom_foo.css&#34;, &#34;https://cdnjs.cloudflare.com/ajax/libs/minireset.css/0.0.2/minireset.min.css&#34; ]
-  custom_js_top     = [ &#34;js/custom_top_bar.js&#34; ]
-  custom_js_bottom  = [ &#34;js/custom_bottom_foo.js&#34;, &#34;https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js&#34; ]</pre></div><div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">]</span>
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml">  <span class="nx">custom_css</span>        <span class="p">=</span> <span class="p">[</span> <span class="s2">&#34;css/custom_foo.css&#34;</span><span class="p">,</span> <span class="s2">&#34;https://cdnjs.cloudflare.com/ajax/libs/minireset.css/0.0.2/minireset.min.css&#34;</span> <span class="p">]</span>
+  <span class="nx">custom_js_top</span>     <span class="p">=</span> <span class="p">[</span> <span class="s2">&#34;js/custom_top_bar.js&#34;</span> <span class="p">]</span>
+  <span class="nx">custom_js_bottom</span>  <span class="p">=</span> <span class="p">[</span> <span class="s2">&#34;js/custom_bottom_foo.js&#34;</span><span class="p">,</span> <span class="s2">&#34;https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js&#34;</span> <span class="p">]</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">]</span>
   <span class="c"># used in layouts/partials/head.stylesheets.html</span>
   <span class="c"># used in layouts/partials/scripts.bottom.html</span>
   <span class="c"># used in layouts/partials/scripts.top.html</span>
@@ -1871,34 +1888,36 @@ information.</p></li>
 <div class="highlight"><pre class="chroma">blog.md
 pages.md</pre></div>
 <h3 id="pages-blogs">Pages, Blogs</h3>
-<div class="highlight"><pre class="chroma">---
-title:       &#34;{{ replace .TranslationBaseName &#34;-&#34; &#34; &#34; | title }}&#34;
-date:        {{ .Date }}
-toc:         false
-icon:        &#34;fab fa-font-awesome&#34;
-teaserpic:   &#34;teaser.png&#34;
-description: &gt;
-  I&#39;m an **example** description.
-  I&#39;ll show in teaser instead of (calculated) summary.
-tags:
-             - &#34;example tag 1&#34;
-             - &#34;example tag 2&#34;
-categories:
-             - &#34;example cat 1&#34;
-             - &#34;example cat 2&#34;
----</pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml">---<span class="w">
+</span><span class="w"></span>title<span class="p">:</span><span class="w">         </span><span class="s2">&#34;{{ replace .TranslationBaseName &#34;</span>-<span class="s2">&#34; &#34;</span><span class="w"> </span><span class="s2">&#34; | title }}&#34;</span><span class="w">
+</span><span class="w"></span>date<span class="p">:</span><span class="w">          </span>{{<span class="w"> </span>.Date<span class="w"> </span>}}<span class="w">
+</span><span class="w"></span>toc<span class="p">:</span><span class="w">           </span><span class="kc">false</span><span class="w">
+</span><span class="w"></span>icon<span class="p">:</span><span class="w">          </span><span class="s2">&#34;fab fa-font-awesome&#34;</span><span class="w">
+</span><span class="w"></span>resImgTeaser<span class="p">:</span><span class="w">  </span><span class="s2">&#34;teaser.png&#34;</span><span class="w">
+</span><span class="w"></span><span class="c">#resImgCmd:</span><span class="w">
+</span><span class="w"></span><span class="c">#resImgOpt:</span><span class="w">
+</span><span class="w"></span>description<span class="p">:</span><span class="w"> </span><span class="sd">&gt;
+</span><span class="sd">  I&#39;m an **example** description.
+</span><span class="sd">  I&#39;ll show in teaser instead of (calculated) summary.</span><span class="w">
+</span><span class="w"></span>tags<span class="p">:</span><span class="w">
+</span><span class="w">             </span>-<span class="w"> </span><span class="s2">&#34;example tag 1&#34;</span><span class="w">
+</span><span class="w">             </span>-<span class="w"> </span><span class="s2">&#34;example tag 2&#34;</span><span class="w">
+</span><span class="w"></span>categories<span class="p">:</span><span class="w">
+</span><span class="w">             </span>-<span class="w"> </span><span class="s2">&#34;example cat 1&#34;</span><span class="w">
+</span><span class="w">             </span>-<span class="w"> </span><span class="s2">&#34;example cat 2&#34;</span><span class="w">
+</span><span class="w"></span>---</code></pre></div>
 <ul>
 <li>for pages add:</li>
 </ul>
-<div class="highlight"><pre class="chroma">weight:      42</pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml">weight<span class="p">:</span><span class="w">      </span><span class="m">42</span></code></pre></div>
 <h3 id="content-pages-index-md">content/pages/*/_index.md</h3>
-<div class="highlight"><pre class="chroma">---
-weight:      24
-title:       &#34;My **Stuff** 🏠&#34;
-date:        2017-11-13T15:37:04+01:00
-teaserpic:   &#34;/images/teaserpics/teaser.png&#34;
-icon:        &#34;fas fa-list&#34;
----</pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml">---<span class="w">
+</span><span class="w"></span>weight<span class="p">:</span><span class="w">        </span><span class="m">24</span><span class="w">
+</span><span class="w"></span>title<span class="p">:</span><span class="w">         </span><span class="s2">&#34;My **Stuff** 🏠&#34;</span><span class="w">
+</span><span class="w"></span>date<span class="p">:</span><span class="w">          </span><span class="ld">2017-11-13T15:37:04</span>+<span class="m">01</span><span class="p">:</span><span class="m">00</span><span class="w">
+</span><span class="w"></span>resImgTeaser<span class="p">:</span><span class="w">  </span>teaserpics/gohugo.io/golang-a-closer-look.png<span class="w">
+</span><span class="w"></span>icon<span class="p">:</span><span class="w">          </span><span class="s2">&#34;fas fa-list&#34;</span><span class="w">
+</span><span class="w"></span>---</code></pre></div>
 <ul>
 <li>this defines how the page navigation entries look like. See <a href="#pages-navigation">Pages Navigation</a> for more.</li>
 </ul>
@@ -1954,6 +1973,44 @@ icon:        &#34;fas fa-list&#34;
 <li><a href="https://gohugo.io/content-management/page-resources/">https://gohugo.io/content-management/page-resources/</a></li>
 </ul>
 
+<h3 id="headless-images">Headless Images</h3>
+
+<ul>
+<li>images may be stored as resource for a headless page:</li>
+</ul>
+
+<p><code>content/resources/images/index.md</code></p>
+<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml">---<span class="w">
+</span><span class="w"></span>title<span class="p">:</span><span class="w">       </span><span class="s2">&#34;headless-images&#34;</span><span class="w">
+</span><span class="w"></span>headless<span class="p">:</span><span class="w">    </span><span class="kc">true</span><span class="w">
+</span><span class="w"></span>---</code></pre></div><div class="highlight"><pre class="chroma">content/resources/images/
+├── clients
+│   └── pixabay.com
+├── favicons
+├── jumbotrons
+│   └── pixabay.com
+├── photocards
+│   └── pixabay.com
+├── teaserpics
+│   ├── bitbucket.org
+│   ├── gohugo.io
+│   ├── pixabay.com
+│   └── wikipedia.org
+└── testimonials
+    └── pixabay.com</pre></div>
+<p><code>layouts/partials/resource.image.html</code></p>
+<div class="highlight"><pre class="chroma">{{- $ourResources := $ourPage.Site.GetPage &#34;page&#34; &#34;resources/images&#34; }}
+  {{ $ourPage.Scratch.Set `myResImg` ( ($ourResources.Resources.ByType `image`).GetMatch ($ourResImg) ) }}
+{{- end }}</pre></div>
+<p>A new headless page with the resources may be given in front matter via <code>resImgRelPath</code>:</p>
+<div class="highlight"><pre class="chroma">{{- $myResourcePage := $thePage.Site.GetPage &#34;page&#34; ($thePage.Dir) ($thePage.Param `resImgRelPath`) &#34;index.md&#34; }}
+{{ $thePage.Scratch.Set `myResImg` ( ( ($myResourcePage.Resources.ByType `image`).GetMatch ($theResImg))  | default ($thePage.Scratch.Get `myResImg`) ) }}</pre></div>
+<p>And of course the page itself may have the image resources:</p>
+<div class="highlight"><pre class="chroma">{{ $thePage.Scratch.Set `myResImg` ( ( ($thePage.Resources.ByType `image`).GetMatch ($theResImg))  | default ($thePage.Scratch.Get `myResImg`) ) }}</pre></div>
+<p>Given a front matter</p>
+<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml">resImgTeaser<span class="p">:</span><span class="w">  </span>teaserpics/pixabay.com/paint-2985569_640.jpg</code></pre></div>
+<p>The images is processed using hugo&rsquo;s build in image commands (resize to a reasonable size).</p>
+
 <h3 id="images">Images</h3>
 
 <ul>
@@ -2004,132 +2061,20 @@ drwxrwxr-x 2018-04-13            pages
 <p><img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_340.jpg" alt="screenshot Gallery" /></p>
 
 <p><code>content/pages/showcase/gallery-01.md</code></p>
-<div class="highlight"><pre class="chroma">---
-title:       &#34;Gallery pixabay.com&#34;
-date:        2018-01-05T20:30:54+01:00
-teaserpic:   
-icon:        &#34;fas fa-images&#34;
-description: &#34;Pictures from pixabay.com&#34;
-tags:
-  - Showcase
-categories:
-  - This Theme
----
-
-
-
-<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css' />
-<div class='gallery caption-position-bottom caption-effect-none hover-effect-grow hover-transition' itemscope itemtype="http://schema.org/ImageGallery">
-        <div class="box">
-          <figure itemscope itemtype="http://schema.org/ImageObject">
-            <div class="img" style="background-image: url('https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/01-photocard-thumb.jpg');" >
-              <a itemprop="associatedMedia" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/01-photocard.jpg' >
-                <img src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/01-photocard-thumb.jpg' alt='01-photocard.jpg' />
-              </a>
-            </div>
-            <figcaption>
-              <p>01-photocard.jpg</p>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="box">
-          <figure itemscope itemtype="http://schema.org/ImageObject">
-            <div class="img" style="background-image: url('https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/02-photocard-thumb.jpg');" >
-              <a itemprop="associatedMedia" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/02-photocard.jpg' >
-                <img src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/02-photocard-thumb.jpg' alt='02-photocard.jpg' />
-              </a>
-            </div>
-            <figcaption>
-              <p>02-photocard.jpg</p>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="box">
-          <figure itemscope itemtype="http://schema.org/ImageObject">
-            <div class="img" style="background-image: url('https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/03-photocard-thumb.jpg');" >
-              <a itemprop="associatedMedia" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/03-photocard.jpg' >
-                <img src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/03-photocard-thumb.jpg' alt='03-photocard.jpg' />
-              </a>
-            </div>
-            <figcaption>
-              <p>03-photocard.jpg</p>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="box">
-          <figure itemscope itemtype="http://schema.org/ImageObject">
-            <div class="img" style="background-image: url('https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/04-photocard-thumb.jpg');" >
-              <a itemprop="associatedMedia" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/04-photocard.jpg' >
-                <img src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/04-photocard-thumb.jpg' alt='04-photocard.jpg' />
-              </a>
-            </div>
-            <figcaption>
-              <p>04-photocard.jpg</p>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="box">
-          <figure itemscope itemtype="http://schema.org/ImageObject">
-            <div class="img" style="background-image: url('https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/05-photocard-thumb.png');" >
-              <a itemprop="associatedMedia" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/05-photocard.png' >
-                <img src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/05-photocard-thumb.png' alt='05-photocard.png' />
-              </a>
-            </div>
-            <figcaption>
-              <p>05-photocard.png</p>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="box">
-          <figure itemscope itemtype="http://schema.org/ImageObject">
-            <div class="img" style="background-image: url('https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/06-photocard-thumb.jpg');" >
-              <a itemprop="associatedMedia" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/06-photocard.jpg' >
-                <img src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/06-photocard-thumb.jpg' alt='06-photocard.jpg' />
-              </a>
-            </div>
-            <figcaption>
-              <p>06-photocard.jpg</p>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="box">
-          <figure itemscope itemtype="http://schema.org/ImageObject">
-            <div class="img" style="background-image: url('https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/07-photocard-thumb.jpg');" >
-              <a itemprop="associatedMedia" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/07-photocard.jpg' >
-                <img src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/07-photocard-thumb.jpg' alt='07-photocard.jpg' />
-              </a>
-            </div>
-            <figcaption>
-              <p>07-photocard.jpg</p>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="box">
-          <figure itemscope itemtype="http://schema.org/ImageObject">
-            <div class="img" style="background-image: url('https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/08-photocard-thumb.jpg');" >
-              <a itemprop="associatedMedia" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/08-photocard.jpg' >
-                <img src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/08-photocard-thumb.jpg' alt='08-photocard.jpg' />
-              </a>
-            </div>
-            <figcaption>
-              <p>08-photocard.jpg</p>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="box">
-          <figure itemscope itemtype="http://schema.org/ImageObject">
-            <div class="img" style="background-image: url('https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/09-photocard-thumb.jpg');" >
-              <a itemprop="associatedMedia" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/09-photocard.jpg' >
-                <img src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/09-photocard-thumb.jpg' alt='09-photocard.jpg' />
-              </a>
-            </div>
-            <figcaption>
-              <p>09-photocard.jpg</p>
-            </figcaption>
-          </figure>
-        </div>
-</div>
- </pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml">---<span class="w">
+</span><span class="w"></span>title<span class="p">:</span><span class="w">         </span><span class="s2">&#34;Gallery pixabay.com&#34;</span><span class="w">
+</span><span class="w"></span>date<span class="p">:</span><span class="w">          </span><span class="ld">2018-01-05T20:30:54</span>+<span class="m">01</span><span class="p">:</span><span class="m">00</span><span class="w">
+</span><span class="w"></span>resImgTeaser<span class="p">:</span><span class="w">  </span>teaserpics/pixabay.com/paint-2985569_640.jpg<span class="w">
+</span><span class="w"></span>icon<span class="p">:</span><span class="w">          </span><span class="s2">&#34;fas fa-images&#34;</span><span class="w">
+</span><span class="w"></span>description<span class="p">:</span><span class="w">   </span><span class="s2">&#34;Pictures from pixabay.com&#34;</span><span class="w">
+</span><span class="w"></span>tags<span class="p">:</span><span class="w">
+</span><span class="w">  </span>-<span class="w"> </span>Showcase<span class="w">
+</span><span class="w"></span>categories<span class="p">:</span><span class="w">
+</span><span class="w">  </span>-<span class="w"> </span>This<span class="w"> </span>Theme<span class="w">
+</span><span class="w"></span>---<span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="w">
+</span><span class="w"></span><span class="w"> </span></code></pre></div>
 <ul>
 <li>This themes version of <code>{{&lt; heg-gallery .. &gt;}}</code> improves the caption&rsquo;s configuration (filename):
 
@@ -2145,49 +2090,6 @@ categories:
   <span class="c"># humanizeCaption   = false</span></code></pre></div>
 <h2 id="figure">Figure</h2>
 <div class="highlight"><pre class="chroma">
-<script src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/jquery/jquery-3.2.1.slim.min.js'></script>
-<script src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/liwenyip/hugo-easy-gallery/js/load-photoswipe.js'></script>
-<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/vendor/photoswipe/photoswipe.css' />
-<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/vendor/photoswipe/default-skin/default-skin.css' />
-<script src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/photoswipe/photoswipe.min.js'>      </script>
-<script src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/photoswipe/photoswipe-ui-theme.js'> </script>
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-<div class="pswp__bg"></div>
-<div class="pswp__scroll-wrap">
-    <div class="pswp__container">
-      <div class="pswp__item"></div>
-      <div class="pswp__item"></div>
-      <div class="pswp__item"></div>
-    </div>
-    <div class="pswp__ui pswp__ui--hidden">
-    <div class="pswp__top-bar">
-      <div class="pswp__counter"></div>
-      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-      <button class="pswp__button pswp__button--share" title="Share"></button>
-      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-      <div class="pswp__preloader">
-        <div class="pswp__preloader__icn">
-          <div class="pswp__preloader__cut">
-            <div class="pswp__preloader__donut"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-      <div class="pswp__share-tooltip"></div>
-    </div>
-    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-    </button>
-    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-    </button>
-    <div class="pswp__caption">
-      <div class="pswp__caption__center"></div>
-    </div>
-    </div>
-    </div>
-</div>
-
 
 
 
@@ -2233,9 +2135,9 @@ usage of <code>title caption attr attrlink</code> which are all optional</li>
 <h2 id="usage">Usage</h2>
 
 <p>To see the exampleSite use:</p>
-<div class="highlight"><pre class="chroma">$ cd exampleSite/
-$ export GoogleMapsApiKey=GEeawyBOuzOPzbFGizHKGReghibngUZTGjlioZM
-$ hugo server -w --disableFastRender --navigateToChanged --themesDir ../../</pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ <span class="nb">cd</span> exampleSite/
+$ <span class="nb">export</span> <span class="nv">GoogleMapsApiKey</span><span class="o">=</span>GEeawyBOuzOPzbFGizHKGReghibngUZTGjlioZM
+$ hugo server -w --disableFastRender --navigateToChanged --themesDir ../../</code></pre></div>
 <p>Now enter <a href="http://localhost:1313"><code>localhost:1313</code></a> in the address bar of your browser.</p>
 
 <p>For more information check out the official <a href="http://gohugo.io/overview/usage/">Hugo documentation</a>.</p>
@@ -2391,6 +2293,8 @@ for all their work</p></li>
 
 <p><img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/tn.5.png" alt="screenshot thumbnail 900x600" /></p>
 
+<p><img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/tn.6.png" alt="screenshot thumbnail 900x600" /></p>
+
 <ul>
 <li>Complete</li>
 </ul>
@@ -2430,51 +2334,86 @@ for all their work</p></li>
         <!-- range first Site.Params.footerNumOfPosts .Site.RegularPages "Section" "blog" -->
 
         <div class="w3-container ">
-          <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/blog/2017/11/24/hugo-highlight-chromastyles/'>
-            <img class="w3-image w3-left w3-round w3-hover-opacity " style="max-width:60px; max-height:20px; width: auto; height: auto; margin: 0px 8px 16px 0px;"
-              alt='/images/teaserpics/bitbucket.org/pygments-main-logo.png'
-              src='/hugo-theme-w3css-basic.github.io/images/teaserpics/bitbucket.org/pygments-main-logo.png'
-            />
+          <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/blog/2017/11/24/hugo-highlight-chromastyles/'> 
+          
+  <!-- partials/resource.image.html  -->
+       
+<img
+  class="w3-image w3-left w3-round w3-hover-opacity"
+  style="max-width:60px; max-height:20px; width: auto; height: auto; margin: 0px 8px 16px 0px;"
+  src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/bitbucket.org/pygments-main-logo_hu83f454384722f2ac083918ae2d1f75df_15959_60x0_resize_box_2.png'
+  alt='/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/bitbucket.org/pygments-main-logo_hu83f454384722f2ac083918ae2d1f75df_15959_60x0_resize_box_2.png'
+  >
+
+
           </a>
           <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/blog/2017/11/24/hugo-highlight-chromastyles/'>Hugo - <strong>highlight</strong> 🎨</a>
         </div>
 
         <div class="w3-container ">
-          <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/blog/2017/11/10/hugo-dolor/'>
-            <img class="w3-image w3-left w3-round w3-hover-opacity " style="max-width:60px; max-height:20px; width: auto; height: auto; margin: 0px 8px 16px 0px;"
-              alt='/images/teaserpics/gohugo.io/hugo-dolor.png'
-              src='/hugo-theme-w3css-basic.github.io/images/teaserpics/gohugo.io/hugo-dolor.png'
-            />
+          <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/blog/2017/11/10/hugo-dolor/'> 
+          
+  <!-- partials/resource.image.html  -->
+       
+<img
+  class="w3-image w3-left w3-round w3-hover-opacity"
+  style="max-width:60px; max-height:20px; width: auto; height: auto; margin: 0px 8px 16px 0px;"
+  src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_60x0_resize_box_2.png'
+  alt='/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_60x0_resize_box_2.png'
+  >
+
+
           </a>
           <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/blog/2017/11/10/hugo-dolor/'>Hugo - dolor</a>
         </div>
 
         <div class="w3-container ">
-          <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/blog/2017/11/09/hugo-lorem/'>
-            <img class="w3-image w3-left w3-round w3-hover-opacity " style="max-width:60px; max-height:20px; width: auto; height: auto; margin: 0px 8px 16px 0px;"
-              alt='/images/teaserpics/gohugo.io/hugo-lorem.png'
-              src='/hugo-theme-w3css-basic.github.io/images/teaserpics/gohugo.io/hugo-lorem.png'
-            />
+          <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/blog/2017/11/09/hugo-lorem/'> 
+          
+  <!-- partials/resource.image.html  -->
+       
+<img
+  class="w3-image w3-left w3-round w3-hover-opacity"
+  style="max-width:60px; max-height:20px; width: auto; height: auto; margin: 0px 8px 16px 0px;"
+  src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-lorem_hu77f397ba1b7f0f571a34fad927893059_94449_60x0_resize_box_2.png'
+  alt='/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-lorem_hu77f397ba1b7f0f571a34fad927893059_94449_60x0_resize_box_2.png'
+  >
+
+
           </a>
           <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/blog/2017/11/09/hugo-lorem/'>Hugo - lorem</a>
         </div>
 
         <div class="w3-container ">
-          <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/blog/2017/11/08/hugo-ipsum/'>
-            <img class="w3-image w3-left w3-round w3-hover-opacity " style="max-width:60px; max-height:20px; width: auto; height: auto; margin: 0px 8px 16px 0px;"
-              alt='/images/teaserpics/gohugo.io/hugo-ipsum.png'
-              src='/hugo-theme-w3css-basic.github.io/images/teaserpics/gohugo.io/hugo-ipsum.png'
-            />
+          <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/blog/2017/11/08/hugo-ipsum/'> 
+          
+  <!-- partials/resource.image.html  -->
+       
+<img
+  class="w3-image w3-left w3-round w3-hover-opacity"
+  style="max-width:60px; max-height:20px; width: auto; height: auto; margin: 0px 8px 16px 0px;"
+  src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-ipsum_hu4bb3d9e9bcf5cb42154f6d8c89189ff3_242267_60x0_resize_box_2.png'
+  alt='/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-ipsum_hu4bb3d9e9bcf5cb42154f6d8c89189ff3_242267_60x0_resize_box_2.png'
+  >
+
+
           </a>
           <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/blog/2017/11/08/hugo-ipsum/'>Hugo - ipsum</a>
         </div>
 
         <div class="w3-container ">
-          <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/blog/2017/10/09/golang-a-closer-look/'>
-            <img class="w3-image w3-left w3-round w3-hover-opacity " style="max-width:60px; max-height:20px; width: auto; height: auto; margin: 0px 8px 16px 0px;"
-              alt='/images/teaserpics/gohugo.io/golang-a-closer-look.png'
-              src='/hugo-theme-w3css-basic.github.io/images/teaserpics/gohugo.io/golang-a-closer-look.png'
-            />
+          <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/blog/2017/10/09/golang-a-closer-look/'> 
+          
+  <!-- partials/resource.image.html  -->
+       
+<img
+  class="w3-image w3-left w3-round w3-hover-opacity"
+  style="max-width:60px; max-height:20px; width: auto; height: auto; margin: 0px 8px 16px 0px;"
+  src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/golang-a-closer-look_hu3e2936e23f25753c1c25ae767165a55e_42013_60x0_resize_box_2.png'
+  alt='/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/golang-a-closer-look_hu3e2936e23f25753c1c25ae767165a55e_42013_60x0_resize_box_2.png'
+  >
+
+
           </a>
           <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/blog/2017/10/09/golang-a-closer-look/'>Golang - a closer look</a>
         </div> 
@@ -2508,7 +2447,7 @@ consectetuer adipiscing</p>
   <div class="w3-cell w3-cell-middle">
     <div class="w3-right">
         <!-- $.Site.Params.bottomRight  -->
-      created with <a href="https://gohugo.io">Hugo 0.39</a>
+      created with <a href="https://gohugo.io">Hugo 0.40.2</a>
     </div> 
   </div>   
 

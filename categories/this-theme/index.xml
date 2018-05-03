@@ -18,10 +18,9 @@
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/readme/</guid>
       <description>This content is created using: {{&amp;lt; readfile &amp;#34;content/README.md&amp;#34; &amp;#34;true&amp;#34; &amp;gt;}}  See more here: This Theme Shortcodes&amp;nbsp; W3.CSS Basic Theme for Hugo W3.CSS Basic is a website template built with W3.CSS.
-Inspiration was taken from Universal. It is highly configurable Change all colors in the blink of an eye, choose Google fonts or use Google Global Site Tags.
+Inspiration was taken from Universal. It is highly configurable. Change all colors in the blink of an eye, choose Google fonts or use Google Global Site Tags.
 See the exampleSite for a demo.
-Latest News  Added shortcodes:
- res-figure  res-attach  readfile  Added color theme preview via color theme selector (not on small displays)   Front-matter teaserpic param now supports images from page bundle.</description>
+Latest News  Teaser images are now resource images New Front Matter (replacing teaserPic):  resImgTeaser:teaserpics/pixabay.</description>
     </item>
     
     <item>
@@ -53,6 +52,11 @@ https://gohugo.io/templates/shortcode-templates  Shortcodes in this Theme for W3
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/image-processing-with-hugo/</guid>
       <description>&lt;p&gt;Image page resources can be resized and cropped.
+This only works for
+&lt;a href=&#34;https://gohugo.io/content-management/image-processing/#the-image-page-resource&#34;&gt;images&lt;/a&gt;
+which are &lt;a href=&#34;https://gohugo.io/content-management/page-resources/&#34;&gt;page
+resources&lt;/a&gt;, not for images
+in the /static folder.
 This theme provides a shortcode &lt;code&gt;res-figure&lt;/code&gt;  for page resource image processing.
 &lt;/p&gt;</description>
     </item>
