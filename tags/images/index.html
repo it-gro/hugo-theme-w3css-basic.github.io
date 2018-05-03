@@ -139,7 +139,7 @@
 
   <!-- back in _default/baseof.html  -->
 
-  <body>
+  <body onload='onload()' >
     <div id="all" class="w3-theme">
       <header>
         
@@ -725,6 +725,14 @@ consectetuer adipiscing</p>
   </script>
 
 <script src='/hugo-theme-w3css-basic.github.io/js/custom.bottom.js'></script>
+
+
+    <script>
+      function onload(){
+         document.getElementById("btnfrwd").style.visibility="visible";
+         document.getElementById("btnback").style.visibility="visible";
+      }
+    </script>
 
   </body>
   
