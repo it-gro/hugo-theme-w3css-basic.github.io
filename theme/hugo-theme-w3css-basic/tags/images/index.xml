@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Images on W3.CSS Basic exampleSite</title>
-    <link>https://https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/images/</link>
+    <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/images/</link>
     <description>Recent content in Images on W3.CSS Basic exampleSite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 06 Apr 2018 20:18:31 +0200</lastBuildDate>
     
-	<atom:link href="https://https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/images/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/images/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Image Processing (`res-figure`)</title>
-      <link>https://https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/image-processing-with-hugo/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/image-processing-with-hugo/</link>
       <pubDate>Fri, 06 Apr 2018 20:18:31 +0200</pubDate>
       
-      <guid>https://https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/image-processing-with-hugo/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/image-processing-with-hugo/</guid>
       <description>&lt;p&gt;Image page resources can be resized and cropped.
 This only works for
 &lt;a href=&#34;https://gohugo.io/content-management/image-processing/#the-image-page-resource&#34;&gt;images&lt;/a&gt;
