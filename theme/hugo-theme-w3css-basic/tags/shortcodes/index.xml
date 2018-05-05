@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shortcodes on W3.CSS Basic exampleSite</title>
-    <link>https://https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/shortcodes/</link>
+    <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/shortcodes/</link>
     <description>Recent content in Shortcodes on W3.CSS Basic exampleSite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 22 Nov 2017 07:41:52 +0100</lastBuildDate>
     
-	<atom:link href="https://https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/shortcodes/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/shortcodes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>This Theme Shortcodes</title>
-      <link>https://https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/page-shortcodes/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/page-shortcodes/</link>
       <pubDate>Wed, 22 Nov 2017 07:41:52 +0100</pubDate>
       
-      <guid>https://https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/page-shortcodes/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/page-shortcodes/</guid>
       <description>You can extend Hugo’s built-in shortcodes by creating your own using the same templating syntax as that for single and list pages.
 Shortcodes are a means to consolidate templating into small, reusable snippets that you can embed directly inside of your content. In this sense, you can think of shortcodes as the intermediary between page and list templates and basic content files.
 https://gohugo.io/templates/shortcode-templates  Shortcodes in this Theme for W3.</description>
@@ -24,10 +24,10 @@ https://gohugo.io/templates/shortcode-templates  Shortcodes in this Theme for W3
     
     <item>
       <title>Attachments</title>
-      <link>https://https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/attach-page-resources/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/attach-page-resources/</link>
       <pubDate>Mon, 09 Apr 2018 13:38:46 +0200</pubDate>
       
-      <guid>https://https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/attach-page-resources/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/attach-page-resources/</guid>
       <description>&lt;p&gt;Add page resources of type &lt;em&gt;application&lt;/em&gt; as attachments to a page via the
 &lt;code&gt;res-attach&lt;/code&gt; shortcode.
 &lt;/p&gt;</description>
@@ -35,10 +35,10 @@ https://gohugo.io/templates/shortcode-templates  Shortcodes in this Theme for W3
     
     <item>
       <title>Image Processing (`res-figure`)</title>
-      <link>https://https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/image-processing-with-hugo/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/image-processing-with-hugo/</link>
       <pubDate>Fri, 06 Apr 2018 20:18:31 +0200</pubDate>
       
-      <guid>https://https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/image-processing-with-hugo/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/image-processing-with-hugo/</guid>
       <description>&lt;p&gt;Image page resources can be resized and cropped.
 This only works for
 &lt;a href=&#34;https://gohugo.io/content-management/image-processing/#the-image-page-resource&#34;&gt;images&lt;/a&gt;
@@ -51,10 +51,10 @@ This theme provides a shortcode &lt;code&gt;res-figure&lt;/code&gt;  for page re
     
     <item>
       <title>Shortcode liti</title>
-      <link>https://https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/liti-01/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/liti-01/</link>
       <pubDate>Thu, 18 Jan 2018 20:01:00 +0100</pubDate>
       
-      <guid>https://https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/liti-01/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/liti-01/</guid>
       <description>liti: List by Title {{&amp;lt; liti &amp;#34;About Hugo&amp;#34; &amp;gt;}}  Here is the page with the title About Hugo&amp;nbsp;  {{&amp;lt; liti &amp;#34;pixabay.com&amp;#34; &amp;#34;in&amp;#34; &amp;gt;}}  Pages with pixabay.com in it&amp;rsquo;s title.
 Here they are: teaserpics (pixabay.com)&amp;nbsp; photocards (pixabay.com)&amp;nbsp; testimonials (pixabay.com)&amp;nbsp; clients (pixabay.com)&amp;nbsp; jumbotrons (pixabay.com)&amp;nbsp; Gallery pixabay.com&amp;nbsp; All pages with hugo in it&amp;rsquo;s title  {{&amp;lt; liti &amp;#34;hugo&amp;#34; &amp;#34;in&amp;#34; &amp;#34;i&amp;#34; &amp;#34;ul&amp;#34; &amp;gt;}}  Here they are:
  Migrate to Hugo from Jekyll&amp;nbsp; teaserpics (github.</description>
