@@ -664,7 +664,7 @@ porta a, aliquet quis, semper a, massa.  Phasellus purus. Pellentesque
 tristique imperdiet tortor. Nam euismod tellus id erat.&lt;/p&gt;
 
 &lt;p&gt;
-&lt;script src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/jquery/jquery-3.3.1.slim.min.js&#39;&gt;&lt;/script&gt;
+&lt;script src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/jquery/jquery-3.2.1.slim.min.js&#39;&gt;&lt;/script&gt;
 &lt;script src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/liwenyip/hugo-easy-gallery/js/load-photoswipe.js&#39;&gt;&lt;/script&gt;
 &lt;link rel=&#34;stylesheet&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/hugo-theme-w3css-basic.github.io/vendor/photoswipe/photoswipe.css&#39; /&gt;
 &lt;link rel=&#34;stylesheet&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/hugo-theme-w3css-basic.github.io/vendor/photoswipe/default-skin/default-skin.css&#39; /&gt;
@@ -1717,13 +1717,6 @@ Change all colors in the blink of an eye,  choose Google fonts or use Google Glo
 &lt;h2 id=&#34;latest-news&#34;&gt;Latest News&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Added &lt;a href=&#34;https://cookieconsent.insites.com/&#34;&gt;cookieconsent&lt;/a&gt;
-&lt;a href=&#34;#cookieconsent&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_510.jpg&#34; alt=&#34;screenshot cookieconsent&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&#34;#cookieconsent&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_512.jpg&#34; alt=&#34;screenshot cookieconsent&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
 &lt;li&gt;Teaser images are now resource images&lt;/li&gt;
 &lt;li&gt;New Front Matter (replacing &lt;code&gt;teaserPic&lt;/code&gt;):&lt;/li&gt;
 &lt;/ul&gt;
@@ -1742,26 +1735,21 @@ Change all colors in the blink of an eye,  choose Google fonts or use Google Glo
 
 &lt;p&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;disqusSkipAgree&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;a href=&#34;#disqus&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_514.jpg&#34; alt=&#34;screenshot DiscusAgree&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Added shortcodes:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;res-figure
-&lt;a href=&#34;#images&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_502.jpg&#34; alt=&#34;screenshot res-figure&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_502.jpg&#34; alt=&#34;screenshot res-figure&#34; /&gt;&lt;/li&gt;
 &lt;li&gt;res-attach
-&lt;a href=&#34;#attachments&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_504.jpg&#34; alt=&#34;screenshot res-attach&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;readfile
-&lt;a href=&#34;#include-files&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_506.jpg&#34; alt=&#34;screenshot readfile&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Added color theme preview via color theme selector (not on small displays)
-&lt;a href=&#34;#color-theme&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_500.jpg&#34; alt=&#34;screenshot color theme selector&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_504.jpg&#34; alt=&#34;screenshot res-attach&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;readfile
+&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_506.jpg&#34; alt=&#34;screenshot readfile&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;Added color theme preview via color theme selector (not on small displays)
+&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_500.jpg&#34; alt=&#34;screenshot color theme selector&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;  &lt;span class=&#34;c&#34;&gt;# This may help you to to select a w3cssColorTheme&lt;/span&gt;
-  &lt;span class=&#34;nx&#34;&gt;themeColorSelectorEnable&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
 &lt;hr /&gt;
 
 &lt;p&gt;This theme is for:&lt;/p&gt;
@@ -1786,7 +1774,6 @@ Change all colors in the blink of an eye,  choose Google fonts or use Google Glo
 &lt;li&gt;&lt;a href=&#34;https://translate.google.com&#34;&gt;https://translate.google.com&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://cse.google.com&#34;&gt;https://cse.google.com&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://developers.google.com/gtagjs/devguide/snippet&#34;&gt;https://developers.google.com/gtagjs/devguide/snippet&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://cookieconsent.insites.com&#34;&gt;https://cookieconsent.insites.com&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
@@ -1828,7 +1815,6 @@ Change all colors in the blink of an eye,  choose Google fonts or use Google Glo
 &lt;li&gt;&lt;a href=&#34;#google-custom-search-api&#34;&gt;Google Custom Search API&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#google-analytics-tracking-using-gtag&#34;&gt;Google Analytics-Tracking using gtag&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#footer&#34;&gt;Footer&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#cookieconsent&#34;&gt;cookieconsent&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#rss&#34;&gt;RSS&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#tracing&#34;&gt;Tracing&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
@@ -1925,9 +1911,9 @@ Change all colors in the blink of an eye,  choose Google fonts or use Google Glo
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
 
 &lt;p&gt;Go to the directory where you have your Hugo site and run:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ mkdir themes
-$ &lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; themes
-$ git clone https://github.com/it-gro/hugo-theme-w3css-basic&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;$ mkdir themes
+$ cd themes
+$ git clone https://github.com/it-gro/hugo-theme-w3css-basic&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;For more information read the official &lt;a href=&#34;https://gohugo.io/overview/installing/&#34;&gt;setup guide&lt;/a&gt; of Hugo.&lt;/p&gt;
 
 &lt;h2 id=&#34;configuration&#34;&gt;Configuration&lt;/h2&gt;
@@ -1994,13 +1980,13 @@ the language modifying the following key.&lt;/p&gt;
 ├── 04-jumbotron.yaml
 └── 05-jumbotron.yaml&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;code&gt;01-jumbotron.yaml&lt;/code&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;weight&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;title&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;       &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Welcome to hugo-theme-w3css-basic exampleSite&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;icon&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;        
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;resImg&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;      
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;description&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;sd&#34;&gt;|
-&lt;/span&gt;&lt;span class=&#34;sd&#34;&gt;  * Lorem ipsum dolor sit amet
-&lt;/span&gt;&lt;span class=&#34;sd&#34;&gt;  * Excepteur sint occaecat cupidatat non proident&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;weight:      1
+title:       &amp;#34;Welcome to hugo-theme-w3css-basic exampleSite&amp;#34;
+icon:        
+image:       
+description: |
+  * Lorem ipsum dolor sit amet
+  * Excepteur sint occaecat cupidatat non proident&lt;/pre&gt;&lt;/div&gt;
 &lt;h4 id=&#34;photocards&#34;&gt;Photocards&lt;/h4&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;photocards&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
   &lt;span class=&#34;c&#34;&gt;# used in layouts/partials/front.photocards.html&lt;/span&gt;
@@ -2024,13 +2010,13 @@ the language modifying the following key.&lt;/p&gt;
 ├── 08-photocard.yaml
 └── 09-photocard.yaml&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;code&gt;01-photocard.yaml&lt;/code&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;weight&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;title&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;       &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Lorem ipsum&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;animated&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;rollIn&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;resImg&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;photocards/pixabay.com/01-photocard.jpg&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;url&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;         &lt;/span&gt;pages/front/photocards/&lt;span class=&#34;m&#34;&gt;01&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;description&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;sd&#34;&gt;|
-&lt;/span&gt;&lt;span class=&#34;sd&#34;&gt;   sed diam nonumy &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;weight:      1
+title:       &amp;#34;Lorem ipsum&amp;#34;
+animated:    &amp;#34;rollIn&amp;#34;
+image:       &amp;#34;images/photocards/pixabay.com/01-photocard.jpg&amp;#34;
+url:         pages/front/photocards/01
+description: |
+   sed diam nonumy &lt;/pre&gt;&lt;/div&gt;
 &lt;h4 id=&#34;features-1&#34;&gt;Features&lt;/h4&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;features&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
   &lt;span class=&#34;c&#34;&gt;# used in layouts/partials/front.features.html&lt;/span&gt;
@@ -2051,14 +2037,14 @@ the language modifying the following key.&lt;/p&gt;
 ├── 05-feature.yaml
 └── 06-feature.yaml&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;code&gt;01-feature.yaml&lt;/code&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;weight&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;name&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Eleifend&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;icon&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;fas fa-desktop&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;animated&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;slideInLeft&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;url&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;         &lt;/span&gt;pages/front/features/&lt;span class=&#34;m&#34;&gt;01&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;description&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;sd&#34;&gt;|
-&lt;/span&gt;&lt;span class=&#34;sd&#34;&gt;  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-&lt;/span&gt;&lt;span class=&#34;sd&#34;&gt;  nonumy eirmod tempor invidunt ut labore&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;weight:      1
+name:        &amp;#34;Eleifend&amp;#34;
+icon:        &amp;#34;fas fa-desktop&amp;#34;
+animated:    &amp;#34;slideInLeft&amp;#34;
+url:         pages/front/features/01
+description: |
+  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+  nonumy eirmod tempor invidunt ut labore&lt;/pre&gt;&lt;/div&gt;
 &lt;h4 id=&#34;recent-posts&#34;&gt;Recent Posts&lt;/h4&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;recentPosts&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
   &lt;span class=&#34;c&#34;&gt;# used in layouts/partials/footer.html&lt;/span&gt;
@@ -2128,15 +2114,15 @@ the language modifying the following key.&lt;/p&gt;
 ├── 04-testimonial.yaml
 └── 05-testimonial.yaml&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;code&gt;01-testimonial.yaml&lt;/code&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;weight&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;name&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;John Doe&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;position&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;CEO, Takimata&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;resImg&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;testimonials/pixabay.com/person-1.jpg&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;text&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;sd&#34;&gt;| 
-&lt;/span&gt;&lt;span class=&#34;sd&#34;&gt;  Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;suscipit&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;lobortis&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;nisl&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;ut&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;aliquip&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;ex&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;ea&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;commodo&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;consequat.&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;Duis&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;autem&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;vel&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;eum&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;iriure&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;dolor&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;in&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;hendrerit&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;in&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;vulputate&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;velit&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;esse&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;molestie&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;consequat&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;vel&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;illum&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;dolore&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;eu&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;feugiat&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;weight:      1
+name:        &amp;#34;John Doe&amp;#34;
+position:    &amp;#34;CEO, Takimata&amp;#34;
+avatar:      &amp;#34;images/testimonials/pixabay.com/person-1.jpg&amp;#34;
+text:        | 
+  Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+  suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem
+  vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+  consequat, vel illum dolore eu feugiat&lt;/pre&gt;&lt;/div&gt;
 &lt;h4 id=&#34;clients&#34;&gt;Clients&lt;/h4&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;clients&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
   &lt;span class=&#34;c&#34;&gt;# used in layouts/partials/front.clients.carousel.html&lt;/span&gt;
@@ -2161,10 +2147,10 @@ the language modifying the following key.&lt;/p&gt;
 ├── 05-client.yaml
 └── 06-client.yaml&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;code&gt;01-client.yaml&lt;/code&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;weight&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;name&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;   &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;customer-1&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;resImg&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;images/clients/pixabay.com/company-logo-1.png&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;url&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;http://www.example.com&amp;#34;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;weight: 1
+name:   &amp;#34;customer-1&amp;#34;
+image:  &amp;#34;images/clients/pixabay.com/company-logo-1.png&amp;#34;
+url:    &amp;#34;http://www.example.com&amp;#34;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3 id=&#34;blog&#34;&gt;Blog&lt;/h3&gt;
 
 &lt;h4 id=&#34;blog-list&#34;&gt;Blog List&lt;/h4&gt;
@@ -2195,23 +2181,23 @@ the language modifying the following key.&lt;/p&gt;
         ├── hugo-ipsum.md
         └── hugo-lorem.md&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;code&gt;hugo-highlight-chromastyles.md&lt;/code&gt;:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;---&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;title&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;         &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Hugo - **highlight** 🎨&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;date&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;          &lt;/span&gt;&lt;span class=&#34;ld&#34;&gt;2017-11-24T08:44:12&lt;/span&gt;+&lt;span class=&#34;m&#34;&gt;01&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;00&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;resImgTeaser&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;teaserpics/bitbucket.org/pygments-main-logo.png&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;tags&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;-&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;Hugo&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;categories&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;-&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;Web&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;---&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;Hugo&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;comes&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;with&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;reallly&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;fast&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;syntax&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;highlighting&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;from&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;Chroma.&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;...&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;In&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;this&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;theme&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;we&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;set&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;...&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;---
+title:         &amp;#34;Hugo - **highlight** 🎨&amp;#34;
+date:          2017-11-24T08:44:12+01:00
+resImgTeaser:  teaserpics/bitbucket.org/pygments-main-logo.png
+tags:
+  - Hugo
+categories:
+  - Web
+---
+
+Hugo comes with reallly fast syntax highlighting from Chroma.
+...
+
+
+
+In this theme we set
+...&lt;/pre&gt;&lt;/div&gt;
 &lt;h4 id=&#34;date-format&#34;&gt;Date format&lt;/h4&gt;
 
 &lt;ul&gt;
@@ -2256,14 +2242,6 @@ the language modifying the following key.&lt;/p&gt;
   &lt;span class=&#34;c&#34;&gt;# set to true, if you want to show the count of comments&lt;/span&gt;
   &lt;span class=&#34;c&#34;&gt;# fires an async request to disqus.com/count.js&lt;/span&gt;
   &lt;span class=&#34;nx&#34;&gt;disqusButtonShowCount&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;User has to agree to Disqus. You may skip this via&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;disqusSkipAgree&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_514.jpg&#34; alt=&#34;screenshot DiscusAgree&#34; /&gt;&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;No JavaScript fallback&lt;/li&gt;
 &lt;/ul&gt;
@@ -2337,19 +2315,19 @@ the language modifying the following key.&lt;/p&gt;
 ├── front
 ...&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;code&gt;content/pages/folder20/folder21/_index.md&lt;/code&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;---&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;weight&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;21&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;title&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;         &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Cum sociis natoque (this is level /folder20/folder21)&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;date&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;          &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;2017-06-08T01:06:13+02:00&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;resImgTeaser&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;teaserpics/gohugo.io/hugo-dolor.png&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;---&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;---
+weight:        21
+title:         &amp;#34;Cum sociis natoque (this is level /folder20/folder21)&amp;#34;
+date:          &amp;#34;2017-06-08T01:06:13+02:00&amp;#34;
+resImgTeaser:  teaserpics/gohugo.io/hugo-dolor.png
+---&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;code&gt;content/pages/front/_index.md&lt;/code&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;---&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;weight&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;18&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;title&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;       &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Frontpage Eye-Catcher (this is level /front)&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;date&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;ld&#34;&gt;2017-11-13T15:37:04&lt;/span&gt;+&lt;span class=&#34;m&#34;&gt;01&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;00&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;icon&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;fas fa-globe&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;---&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;---
+weight:      18
+title:       &amp;#34;Frontpage Eye-Catcher (this is level /front)&amp;#34;
+date:        2017-11-13T15:37:04+01:00
+icon:        &amp;#34;fas fa-globe&amp;#34;
+---&lt;/pre&gt;&lt;/div&gt;
 &lt;h4 id=&#34;taxonomy&#34;&gt;Taxonomy&lt;/h4&gt;
 
 &lt;ul&gt;
@@ -3098,49 +3076,6 @@ prevents &lt;code&gt;gtag.js&lt;/code&gt; tracking by default.&lt;/li&gt;
   &lt;span class=&#34;nx&#34;&gt;bottomRight&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;created with [Hugo](https://gohugo.io) &amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_220.jpg&#34; alt=&#34;screenshot Footer&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;cookieconsent&#34;&gt;cookieconsent&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://cookieconsent.insites.com&#34;&gt;https://cookieconsent.insites.com&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;static/vendor/insites/
-└── cookieconsent
-    ├── cookieconsent.3.0.6.min.css
-    └── cookieconsent.3.0.6.min.js&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;code&gt;i18n/en.yaml&lt;/code&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;# Cookie consent
-- id: cookieMessage
-  translation: This website uses cookies to ensure you get the best experience on our website.
-
-- id: cookieDismiss
-  translation: Got it!
-
-- id: cookieLearn
-  translation: Learn more&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;cookieconsent&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
-  &lt;span class=&#34;c&#34;&gt;# https://cookieconsent.insites.com/download/&lt;/span&gt;
-  &lt;span class=&#34;c&#34;&gt;# used in layouts/partials/head.cookieconsent.html&lt;/span&gt;
-  &lt;span class=&#34;nx&#34;&gt;enable&lt;/span&gt;           &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;
-  &lt;span class=&#34;nx&#34;&gt;popupBackground&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;#efefef&amp;#34;&lt;/span&gt;
-  &lt;span class=&#34;nx&#34;&gt;popupText&lt;/span&gt;        &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;#404040&amp;#34;&lt;/span&gt;
-  &lt;span class=&#34;nx&#34;&gt;buttonBackground&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;#8ec760&amp;#34;&lt;/span&gt;
-  &lt;span class=&#34;nx&#34;&gt;buttonText&lt;/span&gt;       &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;#ffffff&amp;#34;&lt;/span&gt;
-  &lt;span class=&#34;c&#34;&gt;#static           = &amp;#34;true&amp;#34;&lt;/span&gt;
-  &lt;span class=&#34;nx&#34;&gt;position&lt;/span&gt;         &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;bottom&amp;#34;&lt;/span&gt;
-  &lt;span class=&#34;c&#34;&gt;#position         = &amp;#34;top&amp;#34;&lt;/span&gt;
-  &lt;span class=&#34;c&#34;&gt;#position         = &amp;#34;bottom-left&amp;#34;&lt;/span&gt;
-  &lt;span class=&#34;c&#34;&gt;#position         = &amp;#34;bottom-right&amp;#34;&lt;/span&gt;
-  &lt;span class=&#34;c&#34;&gt;#position         = &amp;#34;top-left&amp;#34;&lt;/span&gt;
-  &lt;span class=&#34;c&#34;&gt;#position         = &amp;#34;top-right&amp;#34;&lt;/span&gt;
-  &lt;span class=&#34;nx&#34;&gt;theme&lt;/span&gt;            &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;classic&amp;#34;&lt;/span&gt;
-  &lt;span class=&#34;c&#34;&gt;#theme            = &amp;#34;edgeless&amp;#34;&lt;/span&gt;
-  &lt;span class=&#34;c&#34;&gt;#theme            = &amp;#34;&amp;#34;&lt;/span&gt;
-  &lt;span class=&#34;nx&#34;&gt;href&lt;/span&gt;             &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;https://cookiesandyou.com&amp;#34;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_510.jpg&#34; alt=&#34;screenshot cookieconsent&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_512.jpg&#34; alt=&#34;screenshot cookieconsent&#34; /&gt;&lt;/p&gt;
-
 &lt;h3 id=&#34;rss&#34;&gt;RSS&lt;/h3&gt;
 
 &lt;ul&gt;
@@ -3190,9 +3125,9 @@ information.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;In addition the following arrays may be files with paths or URLS&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;custom_css&lt;/span&gt;        &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;css/custom_foo.css&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;https://cdnjs.cloudflare.com/ajax/libs/minireset.css/0.0.2/minireset.min.css&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
-  &lt;span class=&#34;nx&#34;&gt;custom_js_top&lt;/span&gt;     &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;js/custom_top_bar.js&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
-  &lt;span class=&#34;nx&#34;&gt;custom_js_bottom&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;js/custom_bottom_foo.js&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;  custom_css        = [ &amp;#34;css/custom_foo.css&amp;#34;, &amp;#34;https://cdnjs.cloudflare.com/ajax/libs/minireset.css/0.0.2/minireset.min.css&amp;#34; ]
+  custom_js_top     = [ &amp;#34;js/custom_top_bar.js&amp;#34; ]
+  custom_js_bottom  = [ &amp;#34;js/custom_bottom_foo.js&amp;#34;, &amp;#34;https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js&amp;#34; ]&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
   &lt;span class=&#34;c&#34;&gt;# used in layouts/partials/head.stylesheets.html&lt;/span&gt;
   &lt;span class=&#34;c&#34;&gt;# used in layouts/partials/scripts.bottom.html&lt;/span&gt;
   &lt;span class=&#34;c&#34;&gt;# used in layouts/partials/scripts.top.html&lt;/span&gt;
@@ -3205,36 +3140,36 @@ information.&lt;/p&gt;&lt;/li&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;blog.md
 pages.md&lt;/pre&gt;&lt;/div&gt;
 &lt;h3 id=&#34;pages-blogs&#34;&gt;Pages, Blogs&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;---&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;title&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;         &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;{{ replace .TranslationBaseName &amp;#34;&lt;/span&gt;-&lt;span class=&#34;s2&#34;&gt;&amp;#34; &amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34; | title }}&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;date&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;          &lt;/span&gt;{{&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;.Date&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;}}&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;toc&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;           &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;icon&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;          &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;fab fa-font-awesome&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;resImgTeaser&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;teaser.png&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;#resImgCmd:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;#resImgOpt:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;description&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;sd&#34;&gt;&amp;gt;
-&lt;/span&gt;&lt;span class=&#34;sd&#34;&gt;  I&amp;#39;m an **example** description.
-&lt;/span&gt;&lt;span class=&#34;sd&#34;&gt;  I&amp;#39;ll show in teaser instead of (calculated) summary.&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;tags&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;             &lt;/span&gt;-&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;example tag 1&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;             &lt;/span&gt;-&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;example tag 2&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;categories&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;             &lt;/span&gt;-&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;example cat 1&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;             &lt;/span&gt;-&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;example cat 2&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;---&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;---
+title:         &amp;#34;{{ replace .TranslationBaseName &amp;#34;-&amp;#34; &amp;#34; &amp;#34; | title }}&amp;#34;
+date:          {{ .Date }}
+toc:           false
+icon:          &amp;#34;fab fa-font-awesome&amp;#34;
+resImgTeaser:  &amp;#34;teaser.png&amp;#34;
+#resImgCmd:
+#resImgOpt:
+description: &amp;gt;
+  I&amp;#39;m an **example** description.
+  I&amp;#39;ll show in teaser instead of (calculated) summary.
+tags:
+             - &amp;#34;example tag 1&amp;#34;
+             - &amp;#34;example tag 2&amp;#34;
+categories:
+             - &amp;#34;example cat 1&amp;#34;
+             - &amp;#34;example cat 2&amp;#34;
+---&lt;/pre&gt;&lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;for pages add:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;weight&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;42&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;weight:      42&lt;/pre&gt;&lt;/div&gt;
 &lt;h3 id=&#34;content-pages-index-md&#34;&gt;content/pages/*/_index.md&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;---&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;weight&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;24&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;title&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;         &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;My **Stuff** 🏠&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;date&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;          &lt;/span&gt;&lt;span class=&#34;ld&#34;&gt;2017-11-13T15:37:04&lt;/span&gt;+&lt;span class=&#34;m&#34;&gt;01&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;00&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;resImgTeaser&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;teaserpics/gohugo.io/golang-a-closer-look.png&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;icon&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;          &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;fas fa-list&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;---&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;---
+weight:        24
+title:         &amp;#34;My **Stuff** 🏠&amp;#34;
+date:          2017-11-13T15:37:04+01:00
+resImgTeaser:  teaserpics/gohugo.io/golang-a-closer-look.png
+icon:          &amp;#34;fas fa-list&amp;#34;
+---&lt;/pre&gt;&lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;this defines how the page navigation entries look like. See &lt;a href=&#34;#pages-navigation&#34;&gt;Pages Navigation&lt;/a&gt; for more.&lt;/li&gt;
 &lt;/ul&gt;
@@ -3325,7 +3260,7 @@ pages.md&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;And of course the page itself may have the image resources:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;{{ $thePage.Scratch.Set `myResImg` ( ( ($thePage.Resources.ByType `image`).GetMatch ($theResImg))  | default ($thePage.Scratch.Get `myResImg`) ) }}&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Given a front matter&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;resImgTeaser&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;teaserpics/pixabay.com/paint-2985569_640.jpg&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;resImgTeaser:  teaserpics/pixabay.com/paint-2985569_640.jpg&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;The images is processed using hugo&amp;rsquo;s build in image commands (resize to a reasonable size).&lt;/p&gt;
 
 &lt;h3 id=&#34;images&#34;&gt;Images&lt;/h3&gt;
@@ -3351,7 +3286,7 @@ pages.md&lt;/pre&gt;&lt;/div&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Inspired by &lt;a href=&#34;https://github.com/gohugoio/hugo/blob/master/docs/layouts/shortcodes/readfile.html&#34;&gt;https://github.com/gohugoio/hugo/blob/master/docs/layouts/shortcodes/readfile.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Reads a file (or directory) and optionally renders it using markdownify or highlight&lt;/li&gt;
+&lt;li&gt;Reads a file (or directory) and optionally renders ist using markdownify or highlight&lt;/li&gt;
 &lt;li&gt;See &lt;a href=&#34;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/#readfile&#34;&gt;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/#readfile&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;{{&amp;lt; readfile &amp;#34;content/.&amp;#34; &amp;gt;}}&lt;/pre&gt;&lt;/div&gt;
@@ -3378,20 +3313,175 @@ drwxrwxr-x 2018-04-13            pages
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_340.jpg&#34; alt=&#34;screenshot Gallery&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;content/pages/showcase/gallery-01.md&lt;/code&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;---&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;title&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;         &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Gallery pixabay.com&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;date&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;          &lt;/span&gt;&lt;span class=&#34;ld&#34;&gt;2018-01-05T20:30:54&lt;/span&gt;+&lt;span class=&#34;m&#34;&gt;01&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;00&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;resImgTeaser&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;teaserpics/pixabay.com/paint-2985569_640.jpg&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;icon&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;          &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;fas fa-images&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;description&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;   &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Pictures from pixabay.com&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;tags&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;-&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;Showcase&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;categories&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;-&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;This&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;Theme&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;---&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;---
+title:         &amp;#34;Gallery pixabay.com&amp;#34;
+date:          2018-01-05T20:30:54+01:00
+resImgTeaser:  teaserpics/pixabay.com/paint-2985569_640.jpg
+icon:          &amp;#34;fas fa-images&amp;#34;
+description:   &amp;#34;Pictures from pixabay.com&amp;#34;
+tags:
+  - Showcase
+categories:
+  - This Theme
+---
+
+
+&lt;script src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/jquery/jquery-3.2.1.slim.min.js&#39;&gt;&lt;/script&gt;
+&lt;script src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/liwenyip/hugo-easy-gallery/js/load-photoswipe.js&#39;&gt;&lt;/script&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/hugo-theme-w3css-basic.github.io/vendor/photoswipe/photoswipe.css&#39; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/hugo-theme-w3css-basic.github.io/vendor/photoswipe/default-skin/default-skin.css&#39; /&gt;
+&lt;script src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/photoswipe/photoswipe.min.js&#39;&gt;      &lt;/script&gt;
+&lt;script src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//vendor/photoswipe/photoswipe-ui-theme.js&#39;&gt; &lt;/script&gt;
+&lt;div class=&#34;pswp&#34; tabindex=&#34;-1&#34; role=&#34;dialog&#34; aria-hidden=&#34;true&#34;&gt;
+&lt;div class=&#34;pswp__bg&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;pswp__scroll-wrap&#34;&gt;
+    &lt;div class=&#34;pswp__container&#34;&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;pswp__ui pswp__ui--hidden&#34;&gt;
+    &lt;div class=&#34;pswp__top-bar&#34;&gt;
+      &lt;div class=&#34;pswp__counter&#34;&gt;&lt;/div&gt;
+      &lt;button class=&#34;pswp__button pswp__button--close&#34; title=&#34;Close (Esc)&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--share&#34; title=&#34;Share&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--fs&#34; title=&#34;Toggle fullscreen&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--zoom&#34; title=&#34;Zoom in/out&#34;&gt;&lt;/button&gt;
+      &lt;div class=&#34;pswp__preloader&#34;&gt;
+        &lt;div class=&#34;pswp__preloader__icn&#34;&gt;
+          &lt;div class=&#34;pswp__preloader__cut&#34;&gt;
+            &lt;div class=&#34;pswp__preloader__donut&#34;&gt;&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;pswp__share-modal pswp__share-modal--hidden pswp__single-tap&#34;&gt;
+      &lt;div class=&#34;pswp__share-tooltip&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--left&#34; title=&#34;Previous (arrow left)&#34;&gt;
+    &lt;/button&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--right&#34; title=&#34;Next (arrow right)&#34;&gt;
+    &lt;/button&gt;
+    &lt;div class=&#34;pswp__caption&#34;&gt;
+      &lt;div class=&#34;pswp__caption__center&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;link rel=&#34;stylesheet&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/hugo-theme-w3css-basic.github.io/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css&#39; /&gt;
+&lt;div class=&#39;gallery caption-position-bottom caption-effect-none hover-effect-grow hover-transition&#39; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
+        &lt;div class=&#34;box&#34;&gt;
+          &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/01-photocard-thumb.jpg&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/01-photocard.jpg&#39; &gt;
+                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/01-photocard-thumb.jpg&#39; alt=&#39;01-photocard.jpg&#39; /&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;figcaption&gt;
+              &lt;p&gt;01-photocard.jpg&lt;/p&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;box&#34;&gt;
+          &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/02-photocard-thumb.jpg&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/02-photocard.jpg&#39; &gt;
+                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/02-photocard-thumb.jpg&#39; alt=&#39;02-photocard.jpg&#39; /&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;figcaption&gt;
+              &lt;p&gt;02-photocard.jpg&lt;/p&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;box&#34;&gt;
+          &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/03-photocard-thumb.jpg&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/03-photocard.jpg&#39; &gt;
+                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/03-photocard-thumb.jpg&#39; alt=&#39;03-photocard.jpg&#39; /&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;figcaption&gt;
+              &lt;p&gt;03-photocard.jpg&lt;/p&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;box&#34;&gt;
+          &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/04-photocard-thumb.jpg&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/04-photocard.jpg&#39; &gt;
+                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/04-photocard-thumb.jpg&#39; alt=&#39;04-photocard.jpg&#39; /&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;figcaption&gt;
+              &lt;p&gt;04-photocard.jpg&lt;/p&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;box&#34;&gt;
+          &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/05-photocard-thumb.png&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/05-photocard.png&#39; &gt;
+                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/05-photocard-thumb.png&#39; alt=&#39;05-photocard.png&#39; /&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;figcaption&gt;
+              &lt;p&gt;05-photocard.png&lt;/p&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;box&#34;&gt;
+          &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/06-photocard-thumb.jpg&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/06-photocard.jpg&#39; &gt;
+                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/06-photocard-thumb.jpg&#39; alt=&#39;06-photocard.jpg&#39; /&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;figcaption&gt;
+              &lt;p&gt;06-photocard.jpg&lt;/p&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;box&#34;&gt;
+          &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/07-photocard-thumb.jpg&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/07-photocard.jpg&#39; &gt;
+                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/07-photocard-thumb.jpg&#39; alt=&#39;07-photocard.jpg&#39; /&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;figcaption&gt;
+              &lt;p&gt;07-photocard.jpg&lt;/p&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;box&#34;&gt;
+          &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/08-photocard-thumb.jpg&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/08-photocard.jpg&#39; &gt;
+                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/08-photocard-thumb.jpg&#39; alt=&#39;08-photocard.jpg&#39; /&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;figcaption&gt;
+              &lt;p&gt;08-photocard.jpg&lt;/p&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;box&#34;&gt;
+          &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/09-photocard-thumb.jpg&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/09-photocard.jpg&#39; &gt;
+                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io//images/photocards/pixabay.com/09-photocard-thumb.jpg&#39; alt=&#39;09-photocard.jpg&#39; /&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;figcaption&gt;
+              &lt;p&gt;09-photocard.jpg&lt;/p&gt;
+            &lt;/figcaption&gt;
+          &lt;/figure&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+ &lt;/pre&gt;&lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;This themes version of &lt;code&gt;{{&amp;lt; heg-gallery .. &amp;gt;}}&lt;/code&gt; improves the caption&amp;rsquo;s configuration (filename):
 
@@ -3452,9 +3542,9 @@ usage of &lt;code&gt;title caption attr attrlink&lt;/code&gt; which are all opti
 &lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
 
 &lt;p&gt;To see the exampleSite use:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ &lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; exampleSite/
-$ &lt;span class=&#34;nb&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;GoogleMapsApiKey&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;GEeawyBOuzOPzbFGizHKGReghibngUZTGjlioZM
-$ hugo server -w --disableFastRender --navigateToChanged --themesDir ../../&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;$ cd exampleSite/
+$ export GoogleMapsApiKey=GEeawyBOuzOPzbFGizHKGReghibngUZTGjlioZM
+$ hugo server -w --disableFastRender --navigateToChanged --themesDir ../../&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Now enter &lt;a href=&#34;http://localhost:1313&#34;&gt;&lt;code&gt;localhost:1313&lt;/code&gt;&lt;/a&gt; in the address bar of your browser.&lt;/p&gt;
 
 &lt;p&gt;For more information check out the official &lt;a href=&#34;http://gohugo.io/overview/usage/&#34;&gt;Hugo documentation&lt;/a&gt;.&lt;/p&gt;
@@ -3583,7 +3673,6 @@ They ported from &lt;a href=&#34;https://bootstrapious.com/p/universal-business-
 &lt;a href=&#34;https://github.com/liwenyip/hugo-easy-gallery/&#34;&gt;https://github.com/liwenyip/hugo-easy-gallery/&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://photoswipe.com&#34;&gt;http://photoswipe.com&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;https://pixabay.com&#34;&gt;https://pixabay.com&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;https://cookieconsent.insites.com&#34;&gt;https://cookieconsent.insites.com&lt;/a&gt;&lt;br /&gt;
 for all their work&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -3610,8 +3699,6 @@ for all their work&lt;/p&gt;&lt;/li&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/tn.4.png&#34; alt=&#34;screenshot thumbnail 900x600&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/tn.5.png&#34; alt=&#34;screenshot thumbnail 900x600&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/tn.6.png&#34; alt=&#34;screenshot thumbnail 900x600&#34; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Complete&lt;/li&gt;
