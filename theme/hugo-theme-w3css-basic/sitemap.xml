@@ -391,13 +391,13 @@
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/categories/development/</loc>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/development/</loc>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/categories/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -457,13 +457,13 @@
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/categories/golang/</loc>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/golang/</loc>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/categories/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -623,8 +623,8 @@
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/</loc>
-    <lastmod>2017-11-13T15:33:35+01:00</lastmod>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/web/</loc>
+    <lastmod>2017-11-10T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -635,8 +635,8 @@
   </url>
   
   <url>
-    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/web/</loc>
-    <lastmod>2017-11-10T00:00:00+01:00</lastmod>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/</loc>
+    <lastmod>2017-11-13T15:33:35+01:00</lastmod>
     <priority>0</priority>
   </url>
   
