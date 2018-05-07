@@ -60,7 +60,7 @@
 
   <title>W3.CSS Basic exampleSite</title>
 
-  <meta name="generator" content="Hugo 0.41-DEV" />
+  <meta name="generator" content="Hugo 0.40.2" />
 
   
 <!-- partials/head.stylesheets.html -->
@@ -68,13 +68,13 @@
 <link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/vendor/daneden.github.io/animate.css/animate.min.css' />
 <link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/vendor/OwlCarousel2/owl.carousel.min.css' />
 <link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/vendor/OwlCarousel2/owl.theme.default.min.css' />
-<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/xxvendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.min.css' />
 
 <link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/vendor/w3css/4/w3.css' />
 <link rel="stylesheet" id="theme-colors" href='/hugo-theme-w3css-basic.github.io/vendor/w3css/4/color_of_the_year/w3-theme-color-of-year-2016-snorkel-blue.css' />
 
 <link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/css/syntax.min.css' />
 <link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/css/w3css-basic.min.css' />
+<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/css/res-gallery.min.css' />
 
 <link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/css/custom.css' />
 
@@ -535,38 +535,55 @@ eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet
 nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum
 sodales, augue velit cursus nunc.</p><!-- blog/single.html (blog-disqus) -->
   
-  
+  <!-- partials/blog.disqus-button.html -->
+<div class="disqus-comments">
+  <button id="disqus-show-comments" class='w3-button w3-theme-l3'  type="button" onclick="disqusShowComments()">Show&nbsp;comments 
+      <span class="w3-small">(via disqus.com)</span>
+      <noscript>
+          <!-- i18n "JsNeeded"  -->
+       <br/>JavaScript needed for this
+      </noscript>
+  </button>
   <div id="disqus_thread"></div>
-<script>
-    var disqus_config = function () {
-    
-    
-    
-    };
-    function disqusAgree(){
-        localStorage.setItem("agreed_to_disqus_thread", "YES");
-        localStorage.setItem("agreed_to_disqus_thread_date", (new Date()).toLocaleString() );
-        location.reload();
+</div> 
+
+<script type="text/javascript">
+  (function starter(){
+    if ((localStorage.getItem("agreed_to_disqus_thread") != "YES") ) {
+      document.getElementById('disqus-show-comments').style.display = "none";
+      document.getElementById('disqus_thread').innerHTML =
+        'Show comments for this page powered by \x3ca href=\x22https:\/\/disqus.com\x22\x3edisqus.com\x3c\/a\x3e. But first agree to the \x3ca href=\x22https:\/\/help.disqus.com\/terms-and-policies\/terms-of-service\x22\x3eTerms\x3c\/a\x3e '
+        +'<button id="agree-to-disqus" type="button" onclick="disqusAgree()" class="w3-button w3-theme-l3" > '
+        +'    Yes, I agree '
+        +'</button> '
+      return;
+    }
+    document.getElementById('disqus-show-comments').style.display = "block";
+    disqusShowComments();
+  })();
+
+  function disqusAgree(){
+    localStorage.setItem("agreed_to_disqus_thread", "YES");
+    localStorage.setItem("agreed_to_disqus_thread_date", (new Date()).toLocaleString() );
+    location.reload();
+  };
+
+  function disqusShowComments () {
+    var disqus_shortname = 'it-gro-github-io-hugo-theme-w3css-basic-github-io';
+    var disqus_config    = function () {
+      this.page.url = 'https:\/\/it-gro.github.io\/hugo-theme-w3css-basic.github.io\/blog\/2017\/11\/09\/hugo-lorem';
     };
     (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        if ((localStorage.getItem("agreed_to_disqus_thread") != "YES") ) {
-          document.getElementById('disqus_thread').innerHTML =
-            'Show comments for this page powered by \x3ca href=\x22https:\/\/disqus.com\x22\x3edisqus.com\x3c\/a\x3e. But first agree to the \x3ca href=\x22https:\/\/help.disqus.com\/terms-and-policies\/terms-of-service\x22\x3eTerms\x3c\/a\x3e '
-          + '<button id="agree-to-disqus" type="button" onclick="disqusAgree()">Yes, I agree</button>';
-          return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "it-gro-github-io-hugo-theme-w3css-basic-github-io" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
+      var disqus = document.createElement('script');
+      disqus.type = 'text/javascript';
+      disqus.async = true;
+      disqus.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(disqus);
     })();
+
+    document.getElementById('disqus-show-comments').style.visibility = "hidden";
+  };
 </script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
   
   
@@ -763,7 +780,7 @@ consectetuer adipiscing</p>
   <div class="w3-cell w3-cell-middle">
     <div class="w3-right">
         <!-- $.Site.Params.bottomRight  -->
-      created with <a href="https://gohugo.io">Hugo 0.41-DEV</a>
+      created with <a href="https://gohugo.io">Hugo 0.40.2</a>
     </div> 
   </div>   
 
