@@ -1717,8 +1717,14 @@ Change all colors in the blink of an eye,  choose Google fonts or use Google Glo
 &lt;h2 id=&#34;latest-news&#34;&gt;Latest News&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Added &lt;a href=&#34;https://cookieconsent.insites.com/&#34;&gt;cookieconsent&lt;/a&gt;
-&lt;a href=&#34;#cookieconsent&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_510.jpg&#34; alt=&#34;screenshot cookieconsent&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Added shortcode:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;res-gallery&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Added &lt;a href=&#34;https://cookieconsent.insites.com/&#34;&gt;cookieconsent&lt;/a&gt;
+&lt;a href=&#34;#cookieconsent&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_510.jpg&#34; alt=&#34;screenshot cookieconsent&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;a href=&#34;#cookieconsent&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_512.jpg&#34; alt=&#34;screenshot cookieconsent&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -3371,6 +3377,15 @@ drwxrwxr-x 2018-04-13            pages
 
 &lt;h2 id=&#34;gallery&#34;&gt;Gallery&lt;/h2&gt;
 
+&lt;h3 id=&#34;gallery-with-image-processing&#34;&gt;Gallery with image processing&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;uses page resources and image processing&lt;/li&gt;
+&lt;li&gt;See &lt;a href=&#34;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/#res-gallery&#34;&gt;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/#res-gallery&lt;/a&gt; for documentation and examples&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;hugo-easy-gallery&#34;&gt;hugo-easy-gallery&lt;/h3&gt;
+
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/liwenyip/hugo-easy-gallery/&#34;&gt;https://github.com/liwenyip/hugo-easy-gallery/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -3406,6 +3421,15 @@ drwxrwxr-x 2018-04-13            pages
   &lt;span class=&#34;c&#34;&gt;# showFileExtension = true&lt;/span&gt;
   &lt;span class=&#34;c&#34;&gt;# humanizeCaption   = false&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2 id=&#34;figure&#34;&gt;Figure&lt;/h2&gt;
+
+&lt;h3 id=&#34;figure-with-image-processing&#34;&gt;Figure with image processing&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;uses page resources and image processing&lt;/li&gt;
+&lt;li&gt;See &lt;a href=&#34;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/#res-figure&#34;&gt;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/#res-figure&lt;/a&gt; for documentation an examples&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;hugo-easy-gallery-1&#34;&gt;hugo-easy-gallery&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;
 
 
