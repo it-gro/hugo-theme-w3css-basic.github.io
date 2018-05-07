@@ -1720,7 +1720,7 @@ Change all colors in the blink of an eye,  choose Google fonts or use Google Glo
 &lt;li&gt;&lt;p&gt;Added shortcode:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;res-gallery
+&lt;li&gt;&lt;a href=&#34;#gallery-with-image-processing&#34;&gt;res-gallery&lt;/a&gt;
 &lt;a href=&#34;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/gallery-01/&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_516.jpg&#34; alt=&#34;screenshot res-gallery&#34; /&gt;&lt;/a&gt;
 
 &lt;br /&gt;&lt;/li&gt;
@@ -1852,8 +1852,18 @@ Change all colors in the blink of an eye,  choose Google fonts or use Google Glo
 &lt;li&gt;&lt;a href=&#34;#attachments&#34;&gt;Attachments&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#include-files&#34;&gt;Include Files&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#gallery&#34;&gt;Gallery&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#figure&#34;&gt;Figure&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#gallery&#34;&gt;Gallery&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#gallery-with-image-processing&#34;&gt;res-gallery&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#hugo-easy-gallery&#34;&gt;heg-gallery&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#figure&#34;&gt;Figure&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#figure-with-image-processing&#34;&gt;res-figure&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#hugo-easy-gallery-figure&#34;&gt;heg-figure&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#showcase&#34;&gt;Showcase&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#usage&#34;&gt;Usage&lt;/a&gt;
 
@@ -3390,7 +3400,7 @@ drwxrwxr-x 2018-04-13            pages
 &lt;li&gt;See &lt;a href=&#34;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/#res-gallery&#34;&gt;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/#res-gallery&lt;/a&gt; for documentation and examples&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;hugo-easy-gallery&#34;&gt;hugo-easy-gallery&lt;/h3&gt;
+&lt;h3 id=&#34;hugo-easy-gallery&#34;&gt;Hugo Easy Gallery&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/liwenyip/hugo-easy-gallery/&#34;&gt;https://github.com/liwenyip/hugo-easy-gallery/&lt;/a&gt;&lt;/li&gt;
@@ -3435,7 +3445,7 @@ drwxrwxr-x 2018-04-13            pages
 &lt;li&gt;See &lt;a href=&#34;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/#res-figure&#34;&gt;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/#res-figure&lt;/a&gt; for documentation an examples&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;hugo-easy-gallery-1&#34;&gt;hugo-easy-gallery&lt;/h3&gt;
+&lt;h3 id=&#34;hugo-easy-gallery-figure&#34;&gt;Hugo Easy Gallery Figure&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;
 
 
