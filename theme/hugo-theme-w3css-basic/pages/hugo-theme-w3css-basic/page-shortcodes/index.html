@@ -365,10 +365,17 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
 <ul>
 <li><a href="#res-figure">res-figure</a></li>
 <li><a href="#res-attach">res-attach</a></li>
+<li><a href="#res-gallery">res-gallery</a>
+<ul>
+<li><a href="#shortcode-parameters">Shortcode parameters</a></li>
+<li><a href="#page-resources-metadata">Page Resources Metadata</a></li>
+<li><a href="#caption-format">Caption format</a></li>
+<li><a href="#style-2">Style</a></li>
+</ul></li>
 </ul></li>
 <li><a href="#heg-gallery">heg-gallery</a>
 <ul>
-<li><a href="#style-2">Style</a></li>
+<li><a href="#style-3">Style</a></li>
 </ul></li>
 <li><a href="#heg-figure">heg-figure</a>
 <ul>
@@ -383,7 +390,7 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
 <li><a href="#classify">classify</a></li>
 <li><a href="#kbd">kbd</a>
 <ul>
-<li><a href="#style-3">style</a></li>
+<li><a href="#style-4">style</a></li>
 </ul></li>
 <li><a href="#readfile">readfile</a></li>
 </ul></li>
@@ -1146,22 +1153,21 @@ Attachments
 </ul>
 
 
-<h2 id="heg-gallery">heg-gallery</h2>
+<h3 id="res-gallery">res-gallery</h3>
 
 <ul>
-<li>taken from<br />
-<a href="https://github.com/liwenyip/hugo-easy-gallery/">https://github.com/liwenyip/hugo-easy-gallery/</a><br />
-<a href="https://www.liwen.id.au/heg/">https://www.liwen.id.au/heg/</a><br /></li>
+<li>inspired by <a href="https://www.liwen.id.au/heg/">Hugo Easy Gallery</a></li>
+<li>but uses page resources and image processing</li>
 </ul>
 
-<div class="highlight"><pre class="chroma"><code class="language-nolan" data-lang="nolan">{{&lt; heg-load-photoswipe &gt;}}
-{{&lt; heg-gallery dir=&#34;/images/teaserpics/gohugo.io&#34;   caption-effect=&#34;none&#34; hover-effect=&#34;grow&#34; / &gt;}} </code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-nolan" data-lang="nolan">{{&lt; res-gallery-load-photoswipe &gt;}}
+{{&lt; res-gallery match=&#34;teaserpics/gohugo.io/*&#34; &gt;}} </code></pre></div>
 
 <p>renders as</p>
 
-
+<p>
 <script src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/vendor/jquery/jquery-3.3.1.slim.min.js'></script>
-<script src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/vendor/liwenyip/hugo-easy-gallery/js/load-photoswipe.js'></script>
+<script src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/js/res-gallery-load-photoswipe.js'></script>
 <link rel="stylesheet" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/vendor/photoswipe/photoswipe.css' />
 <link rel="stylesheet" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/vendor/photoswipe/default-skin/default-skin.css' />
 <script src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/vendor/photoswipe/photoswipe.min.js'>      </script>
@@ -1202,6 +1208,422 @@ Attachments
     </div>
     </div>
 </div>
+
+
+
+
+    <div class='res-gallery caption-position-center caption-effect-appear hover-effect-zoom hover-transition' itemscope itemtype="http://schema.org/ImageGallery">
+
+  <div class='res-gallery-box '
+       style="width:120px; height:120px;"
+       itemscope itemtype="http://schema.org/ImageGallery" >
+    <figure class="img"
+            data-size='800x450'
+            data-caption='Golang a closer look&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+            itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
+            title="teaserpics/gohugo.io/golang-a-closer-look.png"
+    >
+      <a itemprop="contentUrl" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/golang-a-closer-look_hu3e2936e23f25753c1c25ae767165a55e_42013_800x0_resize_box_2.png' >
+        <img itemprop="thumbnail"
+             src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/golang-a-closer-look_hu3e2936e23f25753c1c25ae767165a55e_42013_120x120_fit_box_2.png'
+             alt='Golang a closer look&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+             width='120'  height='67'
+        />
+      </a>
+      <meta itemprop="width"  content='800'>
+      <meta itemprop="height" content='450'>
+      <figcaption class="res-gallery-figcaption " itemprop="caption description" >
+        <small>github.com/gohugoio<br/><a href='https://github.com/gohugoio/hugo/blob/master/LICENSE' target='_blank'>Apache-2.0</a></small>
+      </figcaption>
+    </figure>
+  </div> 
+
+  <div class='res-gallery-box '
+       style="width:120px; height:120px;"
+       itemscope itemtype="http://schema.org/ImageGallery" >
+    <figure class="img"
+            data-size='800x400'
+            data-caption='Hugo dolor&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+            itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
+            title="teaserpics/gohugo.io/hugo-dolor.png"
+    >
+      <a itemprop="contentUrl" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_800x0_resize_box_2.png' >
+        <img itemprop="thumbnail"
+             src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_120x120_fit_box_2.png'
+             alt='Hugo dolor&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+             width='120'  height='60'
+        />
+      </a>
+      <meta itemprop="width"  content='800'>
+      <meta itemprop="height" content='400'>
+      <figcaption class="res-gallery-figcaption " itemprop="caption description" >
+        <small>github.com/gohugoio<br/><a href='https://github.com/gohugoio/hugo/blob/master/LICENSE' target='_blank'>Apache-2.0</a></small>
+      </figcaption>
+    </figure>
+  </div> 
+
+  <div class='res-gallery-box '
+       style="width:120px; height:120px;"
+       itemscope itemtype="http://schema.org/ImageGallery" >
+    <figure class="img"
+            data-size='800x400'
+            data-caption='Hugo ipsum&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+            itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
+            title="teaserpics/gohugo.io/hugo-ipsum.png"
+    >
+      <a itemprop="contentUrl" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-ipsum_hu4bb3d9e9bcf5cb42154f6d8c89189ff3_242267_800x0_resize_box_2.png' >
+        <img itemprop="thumbnail"
+             src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-ipsum_hu4bb3d9e9bcf5cb42154f6d8c89189ff3_242267_120x120_fit_box_2.png'
+             alt='Hugo ipsum&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+             width='120'  height='60'
+        />
+      </a>
+      <meta itemprop="width"  content='800'>
+      <meta itemprop="height" content='400'>
+      <figcaption class="res-gallery-figcaption " itemprop="caption description" >
+        <small>github.com/gohugoio<br/><a href='https://github.com/gohugoio/hugo/blob/master/LICENSE' target='_blank'>Apache-2.0</a></small>
+      </figcaption>
+    </figure>
+  </div> 
+
+  <div class='res-gallery-box '
+       style="width:120px; height:120px;"
+       itemscope itemtype="http://schema.org/ImageGallery" >
+    <figure class="img"
+            data-size='800x800'
+            data-caption='Hugo lorem&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+            itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
+            title="teaserpics/gohugo.io/hugo-lorem.png"
+    >
+      <a itemprop="contentUrl" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-lorem_hu77f397ba1b7f0f571a34fad927893059_94449_800x0_resize_box_2.png' >
+        <img itemprop="thumbnail"
+             src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-lorem_hu77f397ba1b7f0f571a34fad927893059_94449_120x120_fit_box_2.png'
+             alt='Hugo lorem&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+             width='120'  height='120'
+        />
+      </a>
+      <meta itemprop="width"  content='800'>
+      <meta itemprop="height" content='800'>
+      <figcaption class="res-gallery-figcaption " itemprop="caption description" >
+        <small>github.com/gohugoio<br/><a href='https://github.com/gohugoio/hugo/blob/master/LICENSE' target='_blank'>Apache-2.0</a></small>
+      </figcaption>
+    </figure>
+  </div> 
+
+</div>
+
+
+
+</p>
+
+<h4 id="shortcode-parameters">Shortcode parameters</h4>
+
+<ul>
+<li>only named parameters</li>
+</ul>
+
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Default</th>
+<th>What</th>
+<th>Remark</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>path</td>
+<td>resources/images</td>
+<td>path to resource page</td>
+<td>use . for current</td>
+</tr>
+
+<tr>
+<td>match</td>
+<td>**/*</td>
+<td>for .Match</td>
+<td></td>
+</tr>
+
+<tr>
+<td>imgCmd</td>
+<td>Resize</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>imgOpt</td>
+<td>800x</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>thumbCmd</td>
+<td>Fit</td>
+<td>create thumb</td>
+<td></td>
+</tr>
+
+<tr>
+<td>thumbOpt</td>
+<td>120x120</td>
+<td>thumb size</td>
+<td></td>
+</tr>
+
+<tr>
+<td>capLng</td>
+<td><code>%%F</code></td>
+<td>image caption</td>
+<td></td>
+</tr>
+
+<tr>
+<td>capSrt</td>
+<td><code>%%N</code></td>
+<td>thumb caption</td>
+<td></td>
+</tr>
+
+<tr>
+<td>caption-position</td>
+<td>center</td>
+<td></td>
+<td>none top center bottom  (none =&gt; hide for thumbs)</td>
+</tr>
+
+<tr>
+<td>caption-effect</td>
+<td>appear</td>
+<td></td>
+<td>none fade appear slide  (none =&gt; always visible)</td>
+</tr>
+
+<tr>
+<td>hover-effect</td>
+<td>zoom</td>
+<td></td>
+<td>none grow shrink slidedown slideup zoom</td>
+</tr>
+
+<tr>
+<td>hover-transition</td>
+<td></td>
+<td></td>
+<td>(empty or) none  (none =&gt; hard transition)</td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="page-resources-metadata">Page Resources Metadata</h4>
+
+<table>
+<thead>
+<tr>
+<th>Front Matter Param</th>
+<th>What</th>
+<th>Remark</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Title</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>attrBy</td>
+<td>attribution names</td>
+<td></td>
+</tr>
+
+<tr>
+<td>attrLink</td>
+<td>attribution link</td>
+<td></td>
+</tr>
+
+<tr>
+<td>caption</td>
+<td>see below</td>
+<td></td>
+</tr>
+
+<tr>
+<td>captionLong</td>
+<td>same as caption</td>
+<td>caption for image</td>
+</tr>
+
+<tr>
+<td>captionShort</td>
+<td></td>
+<td>caption for thumb</td>
+</tr>
+
+<tr>
+<td>imgCmd</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>imgOpt</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>license</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>licenseAbrv</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>licenseLink</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>licenseLink</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>origin</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>originLink</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>thumbCmd</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>thumbOpt</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="w">  </span>-<span class="w"> </span>src<span class="p">:</span><span class="w">           </span><span class="s2">&#34;**/pixabay.com/*&#34;</span><span class="w">
+</span><span class="w">    </span>params<span class="p">:</span><span class="w">          
+</span><span class="w">      </span>origin<span class="p">:</span><span class="w">       </span>pixabay.com<span class="w">
+</span><span class="w">      </span>license<span class="p">:</span><span class="w">      </span>Creative<span class="w"> </span>Commons<span class="w"> </span>CC0<span class="w">
+</span><span class="w">      </span>licenseAbrv<span class="p">:</span><span class="w">  </span>CC0<span class="w"> </span><span class="m">1.0</span><span class="w">
+</span><span class="w">      </span>licenseLink<span class="p">:</span><span class="w">  </span>https<span class="p">:</span>//pixabay.com/en/service/terms/<span class="w">
+</span><span class="w">      </span>caption<span class="p">:</span><span class="w">      </span><span class="s2">&#34;%%N%%n%%A%%n%%L%%n%%O&#34;</span><span class="w">
+</span><span class="w">      </span>captionShort<span class="p">:</span><span class="w"> </span><span class="s2">&#34;%%O%%n%%l&#34;</span></code></pre></div>
+<h4 id="caption-format">Caption format</h4>
+
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>What</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>%%n</td>
+<td>newline</td>
+</tr>
+
+<tr>
+<td>%%f</td>
+<td>.Name</td>
+</tr>
+
+<tr>
+<td>%%F</td>
+<td>Filename</td>
+</tr>
+
+<tr>
+<td>%%B</td>
+<td>Basename</td>
+</tr>
+
+<tr>
+<td>%%T</td>
+<td>.Title</td>
+</tr>
+
+<tr>
+<td>%%N</td>
+<td>.Title or Basename</td>
+</tr>
+
+<tr>
+<td>%%l</td>
+<td>license (using licenseabrv)</td>
+</tr>
+
+<tr>
+<td>%%L</td>
+<td>license</td>
+</tr>
+
+<tr>
+<td>%%O</td>
+<td>origin</td>
+</tr>
+
+<tr>
+<td>%%A</td>
+<td>attr</td>
+</tr>
+
+<tr>
+<td>%%I</td>
+<td>image info</td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="style-2">Style</h4>
+
+<ul>
+<li>See <code>static/css/res-gallery.css</code></li>
+</ul>
+
+<h2 id="heg-gallery">heg-gallery</h2>
+
+<ul>
+<li>kind of obsoleted by <a href="#res-gallery">res-gallery</a></li>
+<li>taken from<br />
+<a href="https://github.com/liwenyip/hugo-easy-gallery/">https://github.com/liwenyip/hugo-easy-gallery/</a><br />
+<a href="https://www.liwen.id.au/heg/">https://www.liwen.id.au/heg/</a><br /></li>
+</ul>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolan" data-lang="nolan">{{&lt; heg-load-photoswipe &gt;}}
+{{&lt; heg-gallery dir=&#34;/images/teaserpics/gohugo.io&#34;   caption-effect=&#34;none&#34; hover-effect=&#34;grow&#34; / &gt;}} </code></pre></div>
+
+<p>renders as</p>
+
 
 
 
@@ -1258,7 +1680,7 @@ Attachments
 </div>
 
 
-<h3 id="style-2">Style</h3>
+<h3 id="style-3">Style</h3>
 
 <p>Defined in:</p>
 <div class="highlight"><pre class="chroma">static/css/w3css-basic.css</pre></div>
@@ -1328,6 +1750,7 @@ Attachments
 <h2 id="heg-figure">heg-figure</h2>
 
 <ul>
+<li>kind of obsoleted by <a href="#res-figure">res-figure</a></li>
 <li>See for original doc: <a href="https://www.liwen.id.au/heg/">https://www.liwen.id.au/heg/</a></li>
 <li>heg-figure improves the usage of <code>caption=&quot;&quot; title=&quot;&quot; attr=&quot;&quot; attrlink=&quot;&quot;</code></li>
 <li>for this demo I set caption-effect=<strong>&ldquo;none&rdquo;</strong></li>
@@ -1773,7 +2196,7 @@ foo | bar
 <kbd>DEL</kbd>
 </p>
 
-<h3 id="style-3">style</h3>
+<h3 id="style-4">style</h3>
 <div class="highlight"><pre class="chroma">static/css/w3css-basic.css</pre></div>
 <div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="nt">kbd</span> <span class="p">{</span>
   <span class="k">font-size</span><span class="p">:</span> <span class="mf">0.8</span><span class="kt">em</span><span class="p">;</span>

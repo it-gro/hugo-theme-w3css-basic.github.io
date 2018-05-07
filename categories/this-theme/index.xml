@@ -20,7 +20,8 @@
       <description>This content is created using: {{&amp;lt; readfile &amp;#34;content/README.md&amp;#34; &amp;#34;true&amp;#34; &amp;gt;}}  See more here: This Theme Shortcodes&amp;nbsp; W3.CSS Basic Theme for Hugo W3.CSS Basic is a website template built with W3.CSS.
 Inspiration was taken from Universal. It is highly configurable. Change all colors in the blink of an eye, choose Google fonts or use Google Global Site Tags.
 See the exampleSite for a demo.
-Latest News  Added cookieconsent</description>
+Latest News  Added shortcode:
+ res-gallery  Added cookieconsent</description>
     </item>
     
     <item>
@@ -67,13 +68,8 @@ This theme provides a shortcode &lt;code&gt;res-figure&lt;/code&gt;  for page re
       <pubDate>Fri, 06 Apr 2018 19:10:03 +0200</pubDate>
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/gallery-01/</guid>
-      <description>01-photocard.jpg
-      02-photocard.jpg
-      03-photocard.jpg
-      04-photocard.jpg
-      05-photocard.png
-      06-photocard.jpg
-      07-photocard.</description>
+      <description>using shortcode: {{&amp;lt; res-gallery match=&amp;#34;**/pixabay.com/*&amp;#34; caption-position=&amp;#34;bottom&amp;#34; caption-effect=&amp;#34;fade&amp;#34; hover-effect=&amp;#34;slideup&amp;#34; &amp;gt;}} 
+ pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.</description>
     </item>
     
     <item>
