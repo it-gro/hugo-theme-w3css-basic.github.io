@@ -36,6 +36,16 @@ https://gohugo.io/templates/shortcode-templates  Shortcodes in this Theme for W3
     </item>
     
     <item>
+      <title>Gallery with image processing</title>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/gallery-01/</link>
+      <pubDate>Tue, 08 May 2018 22:25:44 +0200</pubDate>
+      
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/gallery-01/</guid>
+      <description>Demo with images from pixabay.com                              using shortcode: {{&amp;lt; res-gallery match=&amp;#34;**/pixabay.com/*&amp;#34; caption-position=&amp;#34;bottom&amp;#34; caption-effect=&amp;#34;fade&amp;#34; hover-effect=&amp;#34;slideup&amp;#34; &amp;gt;}} 
+ pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.</description>
+    </item>
+    
+    <item>
       <title>Attachments</title>
       <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/attach-page-resources/</link>
       <pubDate>Mon, 09 Apr 2018 13:38:46 +0200</pubDate>
@@ -63,23 +73,13 @@ This theme provides a shortcode &lt;code&gt;res-figure&lt;/code&gt;  for page re
     </item>
     
     <item>
-      <title>Gallery pixabay.com</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/gallery-01/</link>
-      <pubDate>Fri, 06 Apr 2018 19:10:03 +0200</pubDate>
-      
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/gallery-01/</guid>
-      <description>Demo with images from pixabay.com                              using shortcode: {{&amp;lt; res-gallery match=&amp;#34;**/pixabay.com/*&amp;#34; caption-position=&amp;#34;bottom&amp;#34; caption-effect=&amp;#34;fade&amp;#34; hover-effect=&amp;#34;slideup&amp;#34; &amp;gt;}} 
- pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.</description>
-    </item>
-    
-    <item>
       <title>Shortcode liti</title>
       <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/liti-01/</link>
       <pubDate>Thu, 18 Jan 2018 20:01:00 +0100</pubDate>
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/liti-01/</guid>
       <description>liti: List by Title {{&amp;lt; liti &amp;#34;About Hugo&amp;#34; &amp;gt;}}  Here is the page with the title About Hugo&amp;nbsp;  {{&amp;lt; liti &amp;#34;pixabay.com&amp;#34; &amp;#34;in&amp;#34; &amp;gt;}}  Pages with pixabay.com in it&amp;rsquo;s title.
-Here they are: teaserpics (pixabay.com)&amp;nbsp; photocards (pixabay.com)&amp;nbsp; testimonials (pixabay.com)&amp;nbsp; clients (pixabay.com)&amp;nbsp; jumbotrons (pixabay.com)&amp;nbsp; Gallery pixabay.com&amp;nbsp; All pages with hugo in it&amp;rsquo;s title  {{&amp;lt; liti &amp;#34;hugo&amp;#34; &amp;#34;in&amp;#34; &amp;#34;i&amp;#34; &amp;#34;ul&amp;#34; &amp;gt;}}  Here they are:
+Here they are: teaserpics (pixabay.com)&amp;nbsp; photocards (pixabay.com)&amp;nbsp; testimonials (pixabay.com)&amp;nbsp; clients (pixabay.com)&amp;nbsp; jumbotrons (pixabay.com)&amp;nbsp; All pages with hugo in it&amp;rsquo;s title {{&amp;lt; liti &amp;#34;hugo&amp;#34; &amp;#34;in&amp;#34; &amp;#34;i&amp;#34; &amp;#34;ul&amp;#34; &amp;gt;}}  Here they are:
  Migrate to Hugo from Jekyll&amp;nbsp; teaserpics (github.</description>
     </item>
     
