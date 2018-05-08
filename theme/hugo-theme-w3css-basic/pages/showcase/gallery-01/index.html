@@ -301,9 +301,6 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
           <h1 class='w3-panel w3-theme-l2 '><i class='fas fa-images fa-1x'></i>
             Gallery pixabay.com
               
-<span style="float:right;">
-<button id="btnback" class="taxonomy-button w3-btn" style="visibility:hidden;" onclick="javascript:history.back()"   ><i class="fas fa-step-backward"></i></button><button id="btnfrwd" class="taxonomy-button w3-btn" style="visibility:hidden;" onclick="javascript:history.forward()"><i class="fas fa-step-forward "></i></button>
-</span>
 
           </h1>
         <!-- block main _default/baseof.html  -->
@@ -321,11 +318,22 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
   <!-- partials/main.teaserpic.single.html -->
  
   <!-- partials/main.toc.single.html -->
+<nav id="TableOfContents">
+<ul>
+<li><a href="#demo-with-images-from-pixabay-com">Demo with images from pixabay.com</a></li>
+<li><a href="#see-more-here">See more here</a></li>
+<li><a href="#demo-gohugo-io-using-thumbcmd-and-thumbopt">Demo (gohugo.io) using thumbCmd and thumbOpt</a></li>
+</ul>
+</nav>
 
         <!-- back in _default/baseof.html  -->
         <!-- now Content  -->
         
-        <p>
+        
+
+<h1 id="demo-with-images-from-pixabay-com">Demo with images from pixabay.com</h1>
+
+<p>
 <script src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/vendor/jquery/jquery-3.3.1.slim.min.js'></script>
 <script src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/js/res-gallery-load-photoswipe.js'></script>
 <link rel="stylesheet" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/vendor/photoswipe/photoswipe.css' />
@@ -372,8 +380,6 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
 
 using shortcode:
 <div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{&lt; res-gallery match=&#34;**/pixabay.com/*&#34; caption-position=&#34;bottom&#34; caption-effect=&#34;fade&#34; hover-effect=&#34;slideup&#34; &gt;}} </code></pre></div>
-
-
 
     <div class='res-gallery caption-position-bottom caption-effect-fade hover-effect-slideup hover-transition' itemscope itemtype="http://schema.org/ImageGallery">
 
@@ -458,6 +464,31 @@ using shortcode:
        itemscope itemtype="http://schema.org/ImageGallery" >
     <figure class="img"
             data-size='800x800'
+            data-caption='Company logo 6&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://pixabay.com/en/service/terms/&#39; target=&#39;_blank&#39;&gt;Creative Commons CC0&lt;/a&gt;&lt;br/&gt;pixabay.com'
+            itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
+            title="clients/pixabay.com/company-logo-6.png"
+    >
+      <a itemprop="contentUrl" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/clients/pixabay.com/company-logo-6_hu8e2cb060eee8167bc39078dd938054d7_80451_800x0_resize_box_2.png' >
+        <img itemprop="thumbnail"
+             src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/clients/pixabay.com/company-logo-6_hu8e2cb060eee8167bc39078dd938054d7_80451_120x120_fit_box_2.png'
+             alt='Company logo 6&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://pixabay.com/en/service/terms/&#39; target=&#39;_blank&#39;&gt;Creative Commons CC0&lt;/a&gt;&lt;br/&gt;pixabay.com'
+             width='120'  height='120'
+        />
+      </a>
+      <meta itemprop="width"  content='800'>
+      <meta itemprop="height" content='800'>
+      <figcaption class="res-gallery-figcaption " itemprop="caption description" >
+        <small>pixabay.com<br/><a href='https://pixabay.com/en/service/terms/' target='_blank'>CC0 1.0</a></small>
+      </figcaption>
+    </figure>
+  </div> 
+
+  <div class='res-gallery-box '
+       
+       style="width:120px; height:120px;"
+       itemscope itemtype="http://schema.org/ImageGallery" >
+    <figure class="img"
+            data-size='800x800'
             data-caption='Company logo 4&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://pixabay.com/en/service/terms/&#39; target=&#39;_blank&#39;&gt;Creative Commons CC0&lt;/a&gt;&lt;br/&gt;pixabay.com'
             itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
             title="clients/pixabay.com/company-logo-4.png"
@@ -507,20 +538,45 @@ using shortcode:
        style="width:120px; height:120px;"
        itemscope itemtype="http://schema.org/ImageGallery" >
     <figure class="img"
-            data-size='800x800'
-            data-caption='Company logo 6&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://pixabay.com/en/service/terms/&#39; target=&#39;_blank&#39;&gt;Creative Commons CC0&lt;/a&gt;&lt;br/&gt;pixabay.com'
+            data-size='800x420'
+            data-caption='03 photocard&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://pixabay.com/en/service/terms/&#39; target=&#39;_blank&#39;&gt;Creative Commons CC0&lt;/a&gt;&lt;br/&gt;pixabay.com'
             itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
-            title="clients/pixabay.com/company-logo-6.png"
+            title="photocards/pixabay.com/03-photocard.jpg"
     >
-      <a itemprop="contentUrl" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/clients/pixabay.com/company-logo-6_hu8e2cb060eee8167bc39078dd938054d7_80451_800x0_resize_box_2.png' >
+      <a itemprop="contentUrl" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/photocards/pixabay.com/03-photocard_hu5df3ce5d2573e5d3c553e6520fd0a39a_97026_800x0_resize_q75_box.jpg' >
         <img itemprop="thumbnail"
-             src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/clients/pixabay.com/company-logo-6_hu8e2cb060eee8167bc39078dd938054d7_80451_120x120_fit_box_2.png'
-             alt='Company logo 6&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://pixabay.com/en/service/terms/&#39; target=&#39;_blank&#39;&gt;Creative Commons CC0&lt;/a&gt;&lt;br/&gt;pixabay.com'
-             width='120'  height='120'
+             src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/photocards/pixabay.com/03-photocard_hu5df3ce5d2573e5d3c553e6520fd0a39a_97026_120x120_fit_q75_box.jpg'
+             alt='03 photocard&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://pixabay.com/en/service/terms/&#39; target=&#39;_blank&#39;&gt;Creative Commons CC0&lt;/a&gt;&lt;br/&gt;pixabay.com'
+             width='120'  height='63'
         />
       </a>
       <meta itemprop="width"  content='800'>
-      <meta itemprop="height" content='800'>
+      <meta itemprop="height" content='420'>
+      <figcaption class="res-gallery-figcaption " itemprop="caption description" >
+        <small>pixabay.com<br/><a href='https://pixabay.com/en/service/terms/' target='_blank'>CC0 1.0</a></small>
+      </figcaption>
+    </figure>
+  </div> 
+
+  <div class='res-gallery-box '
+       
+       style="width:120px; height:120px;"
+       itemscope itemtype="http://schema.org/ImageGallery" >
+    <figure class="img"
+            data-size='800x450'
+            data-caption='Adventure 2528477 640&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://pixabay.com/en/service/terms/&#39; target=&#39;_blank&#39;&gt;Creative Commons CC0&lt;/a&gt;&lt;br/&gt;pixabay.com'
+            itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
+            title="teaserpics/pixabay.com/adventure-2528477_640.jpg"
+    >
+      <a itemprop="contentUrl" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/pixabay.com/adventure-2528477_640_hu30e96e65c77ee702b7193f618ab3b541_100786_800x0_resize_q75_box.jpg' >
+        <img itemprop="thumbnail"
+             src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/pixabay.com/adventure-2528477_640_hu30e96e65c77ee702b7193f618ab3b541_100786_120x120_fit_q75_box.jpg'
+             alt='Adventure 2528477 640&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://pixabay.com/en/service/terms/&#39; target=&#39;_blank&#39;&gt;Creative Commons CC0&lt;/a&gt;&lt;br/&gt;pixabay.com'
+             width='120'  height='67'
+        />
+      </a>
+      <meta itemprop="width"  content='800'>
+      <meta itemprop="height" content='450'>
       <figcaption class="res-gallery-figcaption " itemprop="caption description" >
         <small>pixabay.com<br/><a href='https://pixabay.com/en/service/terms/' target='_blank'>CC0 1.0</a></small>
       </figcaption>
@@ -596,31 +652,6 @@ using shortcode:
       </a>
       <meta itemprop="width"  content='800'>
       <meta itemprop="height" content='450'>
-      <figcaption class="res-gallery-figcaption " itemprop="caption description" >
-        <small>pixabay.com<br/><a href='https://pixabay.com/en/service/terms/' target='_blank'>CC0 1.0</a></small>
-      </figcaption>
-    </figure>
-  </div> 
-
-  <div class='res-gallery-box '
-       
-       style="width:120px; height:120px;"
-       itemscope itemtype="http://schema.org/ImageGallery" >
-    <figure class="img"
-            data-size='800x420'
-            data-caption='03 photocard&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://pixabay.com/en/service/terms/&#39; target=&#39;_blank&#39;&gt;Creative Commons CC0&lt;/a&gt;&lt;br/&gt;pixabay.com'
-            itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
-            title="photocards/pixabay.com/03-photocard.jpg"
-    >
-      <a itemprop="contentUrl" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/photocards/pixabay.com/03-photocard_hu5df3ce5d2573e5d3c553e6520fd0a39a_97026_800x0_resize_q75_box.jpg' >
-        <img itemprop="thumbnail"
-             src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/photocards/pixabay.com/03-photocard_hu5df3ce5d2573e5d3c553e6520fd0a39a_97026_120x120_fit_q75_box.jpg'
-             alt='03 photocard&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://pixabay.com/en/service/terms/&#39; target=&#39;_blank&#39;&gt;Creative Commons CC0&lt;/a&gt;&lt;br/&gt;pixabay.com'
-             width='120'  height='63'
-        />
-      </a>
-      <meta itemprop="width"  content='800'>
-      <meta itemprop="height" content='420'>
       <figcaption class="res-gallery-figcaption " itemprop="caption description" >
         <small>pixabay.com<br/><a href='https://pixabay.com/en/service/terms/' target='_blank'>CC0 1.0</a></small>
       </figcaption>
@@ -771,31 +802,6 @@ using shortcode:
       </a>
       <meta itemprop="width"  content='800'>
       <meta itemprop="height" content='386'>
-      <figcaption class="res-gallery-figcaption " itemprop="caption description" >
-        <small>pixabay.com<br/><a href='https://pixabay.com/en/service/terms/' target='_blank'>CC0 1.0</a></small>
-      </figcaption>
-    </figure>
-  </div> 
-
-  <div class='res-gallery-box '
-       
-       style="width:120px; height:120px;"
-       itemscope itemtype="http://schema.org/ImageGallery" >
-    <figure class="img"
-            data-size='800x450'
-            data-caption='Adventure 2528477 640&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://pixabay.com/en/service/terms/&#39; target=&#39;_blank&#39;&gt;Creative Commons CC0&lt;/a&gt;&lt;br/&gt;pixabay.com'
-            itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
-            title="teaserpics/pixabay.com/adventure-2528477_640.jpg"
-    >
-      <a itemprop="contentUrl" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/pixabay.com/adventure-2528477_640_hu30e96e65c77ee702b7193f618ab3b541_100786_800x0_resize_q75_box.jpg' >
-        <img itemprop="thumbnail"
-             src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/pixabay.com/adventure-2528477_640_hu30e96e65c77ee702b7193f618ab3b541_100786_120x120_fit_q75_box.jpg'
-             alt='Adventure 2528477 640&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://pixabay.com/en/service/terms/&#39; target=&#39;_blank&#39;&gt;Creative Commons CC0&lt;/a&gt;&lt;br/&gt;pixabay.com'
-             width='120'  height='67'
-        />
-      </a>
-      <meta itemprop="width"  content='800'>
-      <meta itemprop="height" content='450'>
       <figcaption class="res-gallery-figcaption " itemprop="caption description" >
         <small>pixabay.com<br/><a href='https://pixabay.com/en/service/terms/' target='_blank'>CC0 1.0</a></small>
       </figcaption>
@@ -1605,10 +1611,11 @@ using shortcode:
 </div>
 
 
+<h1 id="see-more-here">See more here</h1>
+
 <ul>
 <li><p>More examples:<br />
-<a href="../../hugo-theme-w3css-basic/images-taken-from/">Images taken from &hellip;</a><br />
-don&rsquo;t miss: <a href="../../hugo-theme-w3css-basic/images-taken-from/gohugoio-teaserpics/">Using thumbCmd and thumbOpt</a></p></li>
+<a href="../../hugo-theme-w3css-basic/images-taken-from/">Images taken from &hellip;</a></p></li>
 
 <li><p>See <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/page-shortcodes/#res-gallery">Gallery with image processing (shortcode res-gallery)</a><br />
 and <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/image-processing-with-hugo/">Figure with processing (Demo shortcode res-figure)</a> as well</p></li>
@@ -1617,6 +1624,552 @@ and <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hug
 and <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/page-shortcodes/#heg-figure">shortcode heg-figure</a><br />
 as well</p></li>
 </ul>
+
+<h1 id="demo-gohugo-io-using-thumbcmd-and-thumbopt">Demo (gohugo.io) using thumbCmd and thumbOpt</h1>
+
+<ul>
+<li>more then one gallery on same page 😄</li>
+</ul>
+
+<p>using shortcode:
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">using shortcode: {{&lt; res-gallery match=&#34;teaserpics/gohugo.io/*&#34; thumbCmd=&#34;Fill&#34; thumbOpt=&#34;200x200&#34; &gt;}} </code></pre></div>
+
+    <div class='res-gallery caption-position-center caption-effect-appear hover-effect-zoom hover-transition' itemscope itemtype="http://schema.org/ImageGallery">
+
+  <div class='res-gallery-box '
+       
+       style="width:200px; height:200px;"
+       itemscope itemtype="http://schema.org/ImageGallery" >
+    <figure class="img"
+            data-size='800x450'
+            data-caption='Golang a closer look&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+            itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
+            title="teaserpics/gohugo.io/golang-a-closer-look.png"
+    >
+      <a itemprop="contentUrl" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/golang-a-closer-look_hu3e2936e23f25753c1c25ae767165a55e_42013_800x0_resize_box_2.png' >
+        <img itemprop="thumbnail"
+             src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/golang-a-closer-look_hu3e2936e23f25753c1c25ae767165a55e_42013_200x200_fill_box_smart1_2.png'
+             alt='Golang a closer look&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+             width='200'  height='200'
+        />
+      </a>
+      <meta itemprop="width"  content='800'>
+      <meta itemprop="height" content='450'>
+      <figcaption class="res-gallery-figcaption " itemprop="caption description" >
+        <small>github.com/gohugoio<br/><a href='https://github.com/gohugoio/hugo/blob/master/LICENSE' target='_blank'>Apache-2.0</a></small>
+      </figcaption>
+    </figure>
+  </div> 
+
+  <div class='res-gallery-box '
+       
+       style="width:200px; height:200px;"
+       itemscope itemtype="http://schema.org/ImageGallery" >
+    <figure class="img"
+            data-size='800x400'
+            data-caption='Hugo dolor&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+            itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
+            title="teaserpics/gohugo.io/hugo-dolor.png"
+    >
+      <a itemprop="contentUrl" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_800x0_resize_box_2.png' >
+        <img itemprop="thumbnail"
+             src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_200x200_fill_box_smart1_2.png'
+             alt='Hugo dolor&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+             width='200'  height='200'
+        />
+      </a>
+      <meta itemprop="width"  content='800'>
+      <meta itemprop="height" content='400'>
+      <figcaption class="res-gallery-figcaption " itemprop="caption description" >
+        <small>github.com/gohugoio<br/><a href='https://github.com/gohugoio/hugo/blob/master/LICENSE' target='_blank'>Apache-2.0</a></small>
+      </figcaption>
+    </figure>
+  </div> 
+
+  <div class='res-gallery-box '
+       
+       style="width:200px; height:200px;"
+       itemscope itemtype="http://schema.org/ImageGallery" >
+    <figure class="img"
+            data-size='800x400'
+            data-caption='Hugo ipsum&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+            itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
+            title="teaserpics/gohugo.io/hugo-ipsum.png"
+    >
+      <a itemprop="contentUrl" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-ipsum_hu4bb3d9e9bcf5cb42154f6d8c89189ff3_242267_800x0_resize_box_2.png' >
+        <img itemprop="thumbnail"
+             src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-ipsum_hu4bb3d9e9bcf5cb42154f6d8c89189ff3_242267_200x200_fill_box_smart1_2.png'
+             alt='Hugo ipsum&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+             width='200'  height='200'
+        />
+      </a>
+      <meta itemprop="width"  content='800'>
+      <meta itemprop="height" content='400'>
+      <figcaption class="res-gallery-figcaption " itemprop="caption description" >
+        <small>github.com/gohugoio<br/><a href='https://github.com/gohugoio/hugo/blob/master/LICENSE' target='_blank'>Apache-2.0</a></small>
+      </figcaption>
+    </figure>
+  </div> 
+
+  <div class='res-gallery-box '
+       
+       style="width:200px; height:200px;"
+       itemscope itemtype="http://schema.org/ImageGallery" >
+    <figure class="img"
+            data-size='800x800'
+            data-caption='Hugo lorem&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+            itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
+            title="teaserpics/gohugo.io/hugo-lorem.png"
+    >
+      <a itemprop="contentUrl" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-lorem_hu77f397ba1b7f0f571a34fad927893059_94449_800x0_resize_box_2.png' >
+        <img itemprop="thumbnail"
+             src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-lorem_hu77f397ba1b7f0f571a34fad927893059_94449_200x200_fill_box_smart1_2.png'
+             alt='Hugo lorem&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+             width='200'  height='200'
+        />
+      </a>
+      <meta itemprop="width"  content='800'>
+      <meta itemprop="height" content='800'>
+      <figcaption class="res-gallery-figcaption " itemprop="caption description" >
+        <small>github.com/gohugoio<br/><a href='https://github.com/gohugoio/hugo/blob/master/LICENSE' target='_blank'>Apache-2.0</a></small>
+      </figcaption>
+    </figure>
+  </div> 
+
+</div>
+
+
+<p>using shortcode:
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{&lt; res-gallery match=&#34;teaserpics/gohugo.io/*&#34; thumbCmd=&#34;Fit&#34;  thumbOpt=&#34;200x200&#34; &gt;}} </code></pre></div>
+
+    <div class='res-gallery caption-position-center caption-effect-appear hover-effect-zoom hover-transition' itemscope itemtype="http://schema.org/ImageGallery">
+
+  <div class='res-gallery-box '
+       
+       style="width:200px; height:200px;"
+       itemscope itemtype="http://schema.org/ImageGallery" >
+    <figure class="img"
+            data-size='800x450'
+            data-caption='Golang a closer look&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+            itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
+            title="teaserpics/gohugo.io/golang-a-closer-look.png"
+    >
+      <a itemprop="contentUrl" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/golang-a-closer-look_hu3e2936e23f25753c1c25ae767165a55e_42013_800x0_resize_box_2.png' >
+        <img itemprop="thumbnail"
+             src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/golang-a-closer-look_hu3e2936e23f25753c1c25ae767165a55e_42013_200x200_fit_box_2.png'
+             alt='Golang a closer look&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+             width='200'  height='112'
+        />
+      </a>
+      <meta itemprop="width"  content='800'>
+      <meta itemprop="height" content='450'>
+      <figcaption class="res-gallery-figcaption " itemprop="caption description" >
+        <small>github.com/gohugoio<br/><a href='https://github.com/gohugoio/hugo/blob/master/LICENSE' target='_blank'>Apache-2.0</a></small>
+      </figcaption>
+    </figure>
+  </div> 
+
+  <div class='res-gallery-box '
+       
+       style="width:200px; height:200px;"
+       itemscope itemtype="http://schema.org/ImageGallery" >
+    <figure class="img"
+            data-size='800x400'
+            data-caption='Hugo dolor&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+            itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
+            title="teaserpics/gohugo.io/hugo-dolor.png"
+    >
+      <a itemprop="contentUrl" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_800x0_resize_box_2.png' >
+        <img itemprop="thumbnail"
+             src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_200x200_fit_box_2.png'
+             alt='Hugo dolor&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+             width='200'  height='100'
+        />
+      </a>
+      <meta itemprop="width"  content='800'>
+      <meta itemprop="height" content='400'>
+      <figcaption class="res-gallery-figcaption " itemprop="caption description" >
+        <small>github.com/gohugoio<br/><a href='https://github.com/gohugoio/hugo/blob/master/LICENSE' target='_blank'>Apache-2.0</a></small>
+      </figcaption>
+    </figure>
+  </div> 
+
+  <div class='res-gallery-box '
+       
+       style="width:200px; height:200px;"
+       itemscope itemtype="http://schema.org/ImageGallery" >
+    <figure class="img"
+            data-size='800x400'
+            data-caption='Hugo ipsum&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+            itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
+            title="teaserpics/gohugo.io/hugo-ipsum.png"
+    >
+      <a itemprop="contentUrl" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-ipsum_hu4bb3d9e9bcf5cb42154f6d8c89189ff3_242267_800x0_resize_box_2.png' >
+        <img itemprop="thumbnail"
+             src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-ipsum_hu4bb3d9e9bcf5cb42154f6d8c89189ff3_242267_200x200_fit_box_2.png'
+             alt='Hugo ipsum&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+             width='200'  height='100'
+        />
+      </a>
+      <meta itemprop="width"  content='800'>
+      <meta itemprop="height" content='400'>
+      <figcaption class="res-gallery-figcaption " itemprop="caption description" >
+        <small>github.com/gohugoio<br/><a href='https://github.com/gohugoio/hugo/blob/master/LICENSE' target='_blank'>Apache-2.0</a></small>
+      </figcaption>
+    </figure>
+  </div> 
+
+  <div class='res-gallery-box '
+       
+       style="width:200px; height:200px;"
+       itemscope itemtype="http://schema.org/ImageGallery" >
+    <figure class="img"
+            data-size='800x800'
+            data-caption='Hugo lorem&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+            itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
+            title="teaserpics/gohugo.io/hugo-lorem.png"
+    >
+      <a itemprop="contentUrl" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-lorem_hu77f397ba1b7f0f571a34fad927893059_94449_800x0_resize_box_2.png' >
+        <img itemprop="thumbnail"
+             src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-lorem_hu77f397ba1b7f0f571a34fad927893059_94449_200x200_fit_box_2.png'
+             alt='Hugo lorem&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+             width='200'  height='200'
+        />
+      </a>
+      <meta itemprop="width"  content='800'>
+      <meta itemprop="height" content='800'>
+      <figcaption class="res-gallery-figcaption " itemprop="caption description" >
+        <small>github.com/gohugoio<br/><a href='https://github.com/gohugoio/hugo/blob/master/LICENSE' target='_blank'>Apache-2.0</a></small>
+      </figcaption>
+    </figure>
+  </div> 
+
+</div>
+
+
+<p>using shortcode:
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{&lt; res-gallery match=&#34;teaserpics/gohugo.io/*&#34; thumbCmd=&#34;Fill&#34; thumbOpt=&#34;200x100&#34; &gt;}} </code></pre></div>
+
+    <div class='res-gallery caption-position-center caption-effect-appear hover-effect-zoom hover-transition' itemscope itemtype="http://schema.org/ImageGallery">
+
+  <div class='res-gallery-box '
+       
+       style="width:200px; height:100px;"
+       itemscope itemtype="http://schema.org/ImageGallery" >
+    <figure class="img"
+            data-size='800x450'
+            data-caption='Golang a closer look&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+            itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
+            title="teaserpics/gohugo.io/golang-a-closer-look.png"
+    >
+      <a itemprop="contentUrl" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/golang-a-closer-look_hu3e2936e23f25753c1c25ae767165a55e_42013_800x0_resize_box_2.png' >
+        <img itemprop="thumbnail"
+             src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/golang-a-closer-look_hu3e2936e23f25753c1c25ae767165a55e_42013_200x100_fill_box_smart1_2.png'
+             alt='Golang a closer look&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+             width='200'  height='100'
+        />
+      </a>
+      <meta itemprop="width"  content='800'>
+      <meta itemprop="height" content='450'>
+      <figcaption class="res-gallery-figcaption " itemprop="caption description" >
+        <small>github.com/gohugoio<br/><a href='https://github.com/gohugoio/hugo/blob/master/LICENSE' target='_blank'>Apache-2.0</a></small>
+      </figcaption>
+    </figure>
+  </div> 
+
+  <div class='res-gallery-box '
+       
+       style="width:200px; height:100px;"
+       itemscope itemtype="http://schema.org/ImageGallery" >
+    <figure class="img"
+            data-size='800x400'
+            data-caption='Hugo dolor&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+            itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
+            title="teaserpics/gohugo.io/hugo-dolor.png"
+    >
+      <a itemprop="contentUrl" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_800x0_resize_box_2.png' >
+        <img itemprop="thumbnail"
+             src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_200x100_fill_box_smart1_2.png'
+             alt='Hugo dolor&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+             width='200'  height='100'
+        />
+      </a>
+      <meta itemprop="width"  content='800'>
+      <meta itemprop="height" content='400'>
+      <figcaption class="res-gallery-figcaption " itemprop="caption description" >
+        <small>github.com/gohugoio<br/><a href='https://github.com/gohugoio/hugo/blob/master/LICENSE' target='_blank'>Apache-2.0</a></small>
+      </figcaption>
+    </figure>
+  </div> 
+
+  <div class='res-gallery-box '
+       
+       style="width:200px; height:100px;"
+       itemscope itemtype="http://schema.org/ImageGallery" >
+    <figure class="img"
+            data-size='800x400'
+            data-caption='Hugo ipsum&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+            itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
+            title="teaserpics/gohugo.io/hugo-ipsum.png"
+    >
+      <a itemprop="contentUrl" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-ipsum_hu4bb3d9e9bcf5cb42154f6d8c89189ff3_242267_800x0_resize_box_2.png' >
+        <img itemprop="thumbnail"
+             src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-ipsum_hu4bb3d9e9bcf5cb42154f6d8c89189ff3_242267_200x100_fill_box_smart1_2.png'
+             alt='Hugo ipsum&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+             width='200'  height='100'
+        />
+      </a>
+      <meta itemprop="width"  content='800'>
+      <meta itemprop="height" content='400'>
+      <figcaption class="res-gallery-figcaption " itemprop="caption description" >
+        <small>github.com/gohugoio<br/><a href='https://github.com/gohugoio/hugo/blob/master/LICENSE' target='_blank'>Apache-2.0</a></small>
+      </figcaption>
+    </figure>
+  </div> 
+
+  <div class='res-gallery-box '
+       
+       style="width:200px; height:100px;"
+       itemscope itemtype="http://schema.org/ImageGallery" >
+    <figure class="img"
+            data-size='800x800'
+            data-caption='Hugo lorem&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+            itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
+            title="teaserpics/gohugo.io/hugo-lorem.png"
+    >
+      <a itemprop="contentUrl" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-lorem_hu77f397ba1b7f0f571a34fad927893059_94449_800x0_resize_box_2.png' >
+        <img itemprop="thumbnail"
+             src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-lorem_hu77f397ba1b7f0f571a34fad927893059_94449_200x100_fill_box_smart1_2.png'
+             alt='Hugo lorem&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+             width='200'  height='100'
+        />
+      </a>
+      <meta itemprop="width"  content='800'>
+      <meta itemprop="height" content='800'>
+      <figcaption class="res-gallery-figcaption " itemprop="caption description" >
+        <small>github.com/gohugoio<br/><a href='https://github.com/gohugoio/hugo/blob/master/LICENSE' target='_blank'>Apache-2.0</a></small>
+      </figcaption>
+    </figure>
+  </div> 
+
+</div>
+
+
+<p>using shortcode:
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{&lt; res-gallery match=&#34;teaserpics/gohugo.io/*&#34; thumbCmd=&#34;Fit&#34;  thumbOpt=&#34;200x100&#34; &gt;}} </code></pre></div>
+
+    <div class='res-gallery caption-position-center caption-effect-appear hover-effect-zoom hover-transition' itemscope itemtype="http://schema.org/ImageGallery">
+
+  <div class='res-gallery-box '
+       
+       style="width:200px; height:100px;"
+       itemscope itemtype="http://schema.org/ImageGallery" >
+    <figure class="img"
+            data-size='800x450'
+            data-caption='Golang a closer look&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+            itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
+            title="teaserpics/gohugo.io/golang-a-closer-look.png"
+    >
+      <a itemprop="contentUrl" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/golang-a-closer-look_hu3e2936e23f25753c1c25ae767165a55e_42013_800x0_resize_box_2.png' >
+        <img itemprop="thumbnail"
+             src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/golang-a-closer-look_hu3e2936e23f25753c1c25ae767165a55e_42013_200x100_fit_box_2.png'
+             alt='Golang a closer look&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+             width='177'  height='100'
+        />
+      </a>
+      <meta itemprop="width"  content='800'>
+      <meta itemprop="height" content='450'>
+      <figcaption class="res-gallery-figcaption " itemprop="caption description" >
+        <small>github.com/gohugoio<br/><a href='https://github.com/gohugoio/hugo/blob/master/LICENSE' target='_blank'>Apache-2.0</a></small>
+      </figcaption>
+    </figure>
+  </div> 
+
+  <div class='res-gallery-box '
+       
+       style="width:200px; height:100px;"
+       itemscope itemtype="http://schema.org/ImageGallery" >
+    <figure class="img"
+            data-size='800x400'
+            data-caption='Hugo dolor&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+            itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
+            title="teaserpics/gohugo.io/hugo-dolor.png"
+    >
+      <a itemprop="contentUrl" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_800x0_resize_box_2.png' >
+        <img itemprop="thumbnail"
+             src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_200x100_fit_box_2.png'
+             alt='Hugo dolor&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+             width='200'  height='100'
+        />
+      </a>
+      <meta itemprop="width"  content='800'>
+      <meta itemprop="height" content='400'>
+      <figcaption class="res-gallery-figcaption " itemprop="caption description" >
+        <small>github.com/gohugoio<br/><a href='https://github.com/gohugoio/hugo/blob/master/LICENSE' target='_blank'>Apache-2.0</a></small>
+      </figcaption>
+    </figure>
+  </div> 
+
+  <div class='res-gallery-box '
+       
+       style="width:200px; height:100px;"
+       itemscope itemtype="http://schema.org/ImageGallery" >
+    <figure class="img"
+            data-size='800x400'
+            data-caption='Hugo ipsum&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+            itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
+            title="teaserpics/gohugo.io/hugo-ipsum.png"
+    >
+      <a itemprop="contentUrl" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-ipsum_hu4bb3d9e9bcf5cb42154f6d8c89189ff3_242267_800x0_resize_box_2.png' >
+        <img itemprop="thumbnail"
+             src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-ipsum_hu4bb3d9e9bcf5cb42154f6d8c89189ff3_242267_200x100_fit_box_2.png'
+             alt='Hugo ipsum&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+             width='200'  height='100'
+        />
+      </a>
+      <meta itemprop="width"  content='800'>
+      <meta itemprop="height" content='400'>
+      <figcaption class="res-gallery-figcaption " itemprop="caption description" >
+        <small>github.com/gohugoio<br/><a href='https://github.com/gohugoio/hugo/blob/master/LICENSE' target='_blank'>Apache-2.0</a></small>
+      </figcaption>
+    </figure>
+  </div> 
+
+  <div class='res-gallery-box '
+       
+       style="width:200px; height:100px;"
+       itemscope itemtype="http://schema.org/ImageGallery" >
+    <figure class="img"
+            data-size='800x800'
+            data-caption='Hugo lorem&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+            itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
+            title="teaserpics/gohugo.io/hugo-lorem.png"
+    >
+      <a itemprop="contentUrl" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-lorem_hu77f397ba1b7f0f571a34fad927893059_94449_800x0_resize_box_2.png' >
+        <img itemprop="thumbnail"
+             src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-lorem_hu77f397ba1b7f0f571a34fad927893059_94449_200x100_fit_box_2.png'
+             alt='Hugo lorem&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+             width='100'  height='100'
+        />
+      </a>
+      <meta itemprop="width"  content='800'>
+      <meta itemprop="height" content='800'>
+      <figcaption class="res-gallery-figcaption " itemprop="caption description" >
+        <small>github.com/gohugoio<br/><a href='https://github.com/gohugoio/hugo/blob/master/LICENSE' target='_blank'>Apache-2.0</a></small>
+      </figcaption>
+    </figure>
+  </div> 
+
+</div>
+
+
+<p>using shortcode:
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{&lt; res-gallery match=&#34;teaserpics/gohugo.io/*&#34; thumbCmd=&#34;Fit&#34;  thumbOpt=&#34;100x200&#34; &gt;}} </code></pre></div>
+
+    <div class='res-gallery caption-position-center caption-effect-appear hover-effect-zoom hover-transition' itemscope itemtype="http://schema.org/ImageGallery">
+
+  <div class='res-gallery-box '
+       
+       style="width:100px; height:200px;"
+       itemscope itemtype="http://schema.org/ImageGallery" >
+    <figure class="img"
+            data-size='800x450'
+            data-caption='Golang a closer look&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+            itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
+            title="teaserpics/gohugo.io/golang-a-closer-look.png"
+    >
+      <a itemprop="contentUrl" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/golang-a-closer-look_hu3e2936e23f25753c1c25ae767165a55e_42013_800x0_resize_box_2.png' >
+        <img itemprop="thumbnail"
+             src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/golang-a-closer-look_hu3e2936e23f25753c1c25ae767165a55e_42013_100x200_fit_box_2.png'
+             alt='Golang a closer look&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+             width='100'  height='56'
+        />
+      </a>
+      <meta itemprop="width"  content='800'>
+      <meta itemprop="height" content='450'>
+      <figcaption class="res-gallery-figcaption " itemprop="caption description" >
+        <small>github.com/gohugoio<br/><a href='https://github.com/gohugoio/hugo/blob/master/LICENSE' target='_blank'>Apache-2.0</a></small>
+      </figcaption>
+    </figure>
+  </div> 
+
+  <div class='res-gallery-box '
+       
+       style="width:100px; height:200px;"
+       itemscope itemtype="http://schema.org/ImageGallery" >
+    <figure class="img"
+            data-size='800x400'
+            data-caption='Hugo dolor&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+            itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
+            title="teaserpics/gohugo.io/hugo-dolor.png"
+    >
+      <a itemprop="contentUrl" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_800x0_resize_box_2.png' >
+        <img itemprop="thumbnail"
+             src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_100x200_fit_box_2.png'
+             alt='Hugo dolor&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+             width='100'  height='50'
+        />
+      </a>
+      <meta itemprop="width"  content='800'>
+      <meta itemprop="height" content='400'>
+      <figcaption class="res-gallery-figcaption " itemprop="caption description" >
+        <small>github.com/gohugoio<br/><a href='https://github.com/gohugoio/hugo/blob/master/LICENSE' target='_blank'>Apache-2.0</a></small>
+      </figcaption>
+    </figure>
+  </div> 
+
+  <div class='res-gallery-box '
+       
+       style="width:100px; height:200px;"
+       itemscope itemtype="http://schema.org/ImageGallery" >
+    <figure class="img"
+            data-size='800x400'
+            data-caption='Hugo ipsum&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+            itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
+            title="teaserpics/gohugo.io/hugo-ipsum.png"
+    >
+      <a itemprop="contentUrl" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-ipsum_hu4bb3d9e9bcf5cb42154f6d8c89189ff3_242267_800x0_resize_box_2.png' >
+        <img itemprop="thumbnail"
+             src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-ipsum_hu4bb3d9e9bcf5cb42154f6d8c89189ff3_242267_100x200_fit_box_2.png'
+             alt='Hugo ipsum&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+             width='100'  height='50'
+        />
+      </a>
+      <meta itemprop="width"  content='800'>
+      <meta itemprop="height" content='400'>
+      <figcaption class="res-gallery-figcaption " itemprop="caption description" >
+        <small>github.com/gohugoio<br/><a href='https://github.com/gohugoio/hugo/blob/master/LICENSE' target='_blank'>Apache-2.0</a></small>
+      </figcaption>
+    </figure>
+  </div> 
+
+  <div class='res-gallery-box '
+       
+       style="width:100px; height:200px;"
+       itemscope itemtype="http://schema.org/ImageGallery" >
+    <figure class="img"
+            data-size='800x800'
+            data-caption='Hugo lorem&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+            itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
+            title="teaserpics/gohugo.io/hugo-lorem.png"
+    >
+      <a itemprop="contentUrl" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-lorem_hu77f397ba1b7f0f571a34fad927893059_94449_800x0_resize_box_2.png' >
+        <img itemprop="thumbnail"
+             src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-lorem_hu77f397ba1b7f0f571a34fad927893059_94449_100x200_fit_box_2.png'
+             alt='Hugo lorem&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+             width='100'  height='100'
+        />
+      </a>
+      <meta itemprop="width"  content='800'>
+      <meta itemprop="height" content='800'>
+      <figcaption class="res-gallery-figcaption " itemprop="caption description" >
+        <small>github.com/gohugoio<br/><a href='https://github.com/gohugoio/hugo/blob/master/LICENSE' target='_blank'>Apache-2.0</a></small>
+      </figcaption>
+    </figure>
+  </div> 
+
+</div>
+
 
   <!-- partials/main.taxonomy.full.bar.html -->
 <div class='w3-card-4 w3-center w3-round-xxlarge w3-margin-top  w3-margin-bottom w3-theme-l1 '>
