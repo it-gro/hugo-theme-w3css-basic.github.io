@@ -23,6 +23,16 @@ https://gohugo.io/templates/shortcode-templates  Shortcodes in this Theme for W3
     </item>
     
     <item>
+      <title>Gallery with image processing</title>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/gallery-01/</link>
+      <pubDate>Tue, 08 May 2018 22:25:44 +0200</pubDate>
+      
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/gallery-01/</guid>
+      <description>Demo with images from pixabay.com                              using shortcode: {{&amp;lt; res-gallery match=&amp;#34;**/pixabay.com/*&amp;#34; caption-position=&amp;#34;bottom&amp;#34; caption-effect=&amp;#34;fade&amp;#34; hover-effect=&amp;#34;slideup&amp;#34; &amp;gt;}} 
+ pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.</description>
+    </item>
+    
+    <item>
       <title>Attachments</title>
       <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/attach-page-resources/</link>
       <pubDate>Mon, 09 Apr 2018 13:38:46 +0200</pubDate>
