@@ -18,10 +18,10 @@
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/readme/</guid>
       <description>This content is created using: {{&amp;lt; readfile &amp;#34;content/README.md&amp;#34; &amp;#34;true&amp;#34; &amp;gt;}}  See more here: This Theme Shortcodes&amp;nbsp; W3.CSS Basic Theme for Hugo W3.CSS Basic is a website template built with W3.CSS.
-Inspiration was taken from Universal. It is highly configurable. Change all colors in the blink of an eye, choose Google fonts or use Google Global Site Tags.
+Inspiration was taken from Universal. It is highly configurable. Change all colors in the blink of an eye, change default settings or disable Frontpage elements.
 See the exampleSite for a demo.
-Latest News  Added shortcode:
- res-gallery    Added cookieconsent</description>
+This theme is for:
+ Landing pages Blogs Pages (not blog) in a directory structure with simple navigation (Top/Up/Down &amp;amp; pages on this level) People who like monochromatic colors  Table of Contents  Latest News Goals Features  Includes Resources Features Tags Features List  Installation Configuration  Language Frontpage Marquee Jumbotron Photocards Features Recent Posts See More Testimonials Clients Blog Blog List Date format Disqus Pages Pages Navigation Color Theme Favicons Emoji Summary Pagination Syntax Highlighting Menu Fonts Choose any Font via googleapis Contact Map Google Translation Google Custom Search API Google Analytics-Tracking using gtag Footer cookieconsent RSS Tracing  Custom CSS and JS Front Matter Shortcodes Page Resources  Headless Images Images Attachments  Include Files Gallery  res-gallery heg-gallery  Figure  res-figure heg-figure  Showcase Usage  Minifier  Workarounds  summaryLength Shortcode output wrapped in &amp;lt;p&amp;gt;  Tracking ToDo&amp;rsquo;s Contributing License Thanks More Screenshots  Latest News  Added shortcode:</description>
     </item>
     
     <item>

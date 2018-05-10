@@ -1706,71 +1706,14 @@ ED! ED IS THE STANDARD!!!&lt;/p&gt;
         &lt;h1 id=&#34;w3-css-basic-theme-for-hugo&#34;&gt;W3.CSS Basic Theme for Hugo&lt;/h1&gt;
 
 &lt;p&gt;W3.CSS Basic is a website template built with &lt;a href=&#34;https://www.w3schools.com/w3css/&#34;&gt;W3.CSS&lt;/a&gt;.&lt;br /&gt;
-Inspiration was taken from &lt;a href=&#34;https://themes.gohugo.io/hugo-universal-theme/&#34;&gt;Universal&lt;/a&gt;.
-It is highly &lt;a href=&#34;//github.com/it-gro/hugo-theme-w3css-basic/tree/master/exampleSite/config.toml&#34;&gt;configurable&lt;/a&gt;.
-Change all colors in the blink of an eye,  choose Google fonts or use Google Global Site Tags.&lt;/p&gt;
+Inspiration was taken from
+&lt;a href=&#34;https://themes.gohugo.io/hugo-universal-theme/&#34;&gt;Universal&lt;/a&gt;.  It is highly
+&lt;a href=&#34;//github.com/it-gro/hugo-theme-w3css-basic/tree/master/exampleSite/config.toml&#34;&gt;configurable&lt;/a&gt;.
+Change all colors in the blink of an eye, change default settings or disable
+Frontpage elements.&lt;/p&gt;
 
 &lt;p&gt;See the &lt;a href=&#34;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/&#34;&gt;exampleSite&lt;/a&gt; for a demo.&lt;/p&gt;
 
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;latest-news&#34;&gt;Latest News&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Added shortcode:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#gallery-with-image-processing&#34;&gt;res-gallery&lt;/a&gt;
-&lt;a href=&#34;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/gallery-01/&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_516.jpg&#34; alt=&#34;screenshot res-gallery&#34; /&gt;&lt;/a&gt;
-
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Added &lt;a href=&#34;https://cookieconsent.insites.com/&#34;&gt;cookieconsent&lt;/a&gt;
-&lt;a href=&#34;#cookieconsent&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_510.jpg&#34; alt=&#34;screenshot cookieconsent&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&#34;#cookieconsent&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_512.jpg&#34; alt=&#34;screenshot cookieconsent&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Teaser images are now resource images&lt;/li&gt;
-&lt;li&gt;New Front Matter (replacing &lt;code&gt;teaserPic&lt;/code&gt;):&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;resImgTeaser&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;          &lt;/span&gt;teaserpics/pixabay.com/adventure-&lt;span class=&#34;m&#34;&gt;2528477.&lt;/span&gt;jpg&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Default is to resize with reasonale dimensions. You may overwrite the defaults:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;resImgTeaser&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;          &lt;/span&gt;teaserpics/pixabay.com/adventure-&lt;span class=&#34;m&#34;&gt;2528477.&lt;/span&gt;jpg&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;resImgTeaserCmd&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;       &lt;/span&gt;Fill&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;resImgTeaserOpt&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;       &lt;/span&gt;400x400&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;resImgTeaserInCardCmd&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;Fill&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;resImgTeaserInCardOpt&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;150x50 Bottom&amp;#34;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;See &lt;a href=&#34;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages&#34;&gt;These Logos&lt;/a&gt; for a demo.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;User has now to agree to Disqus. You may skip this via&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;disqusSkipAgree&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;a href=&#34;#disqus&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_514.jpg&#34; alt=&#34;screenshot DiscusAgree&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Added shortcodes:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;res-figure
-&lt;a href=&#34;#images&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_502.jpg&#34; alt=&#34;screenshot res-figure&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;res-attach
-&lt;a href=&#34;#attachments&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_504.jpg&#34; alt=&#34;screenshot res-attach&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;readfile
-&lt;a href=&#34;#include-files&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_506.jpg&#34; alt=&#34;screenshot readfile&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Added color theme preview via color theme selector (not on small displays)
-&lt;a href=&#34;#color-theme&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_500.jpg&#34; alt=&#34;screenshot color theme selector&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;  &lt;span class=&#34;c&#34;&gt;# This may help you to to select a w3cssColorTheme&lt;/span&gt;
-  &lt;span class=&#34;nx&#34;&gt;themeColorSelectorEnable&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;This theme is for:&lt;/p&gt;
@@ -1782,27 +1725,18 @@ Change all colors in the blink of an eye,  choose Google fonts or use Google Glo
 &lt;li&gt;People who like &lt;a href=&#34;https://www.w3schools.com/colors/colors_monochromatic.asp&#34;&gt;monochromatic colors&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;It includes resources from:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.w3schools.com/w3css/&#34;&gt;https://www.w3schools.com/w3css/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://fontawesome.com/icons/&#34;&gt;https://fontawesome.com/icons/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://owlcarousel2.github.io/OwlCarousel2/&#34;&gt;https://owlcarousel2.github.io/OwlCarousel2/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://daneden.me/animate&#34;&gt;https://daneden.me/animate&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/liwenyip/hugo-easy-gallery/&#34;&gt;https://github.com/liwenyip/hugo-easy-gallery/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://photoswipe.com&#34;&gt;http://photoswipe.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://fonts.google.com/&#34;&gt;https://fonts.google.com/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://translate.google.com&#34;&gt;https://translate.google.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://cse.google.com&#34;&gt;https://cse.google.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://developers.google.com/gtagjs/devguide/snippet&#34;&gt;https://developers.google.com/gtagjs/devguide/snippet&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://cookieconsent.insites.com&#34;&gt;https://cookieconsent.insites.com&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#latest-news&#34;&gt;Latest News&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#goals&#34;&gt;Goals&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#features&#34;&gt;Features&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#features&#34;&gt;Features&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#included-resources&#34;&gt;Includes Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#features-tags&#34;&gt;Features Tags&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#features-list&#34;&gt;Features List&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#configuration&#34;&gt;Configuration&lt;/a&gt;
 
@@ -1884,6 +1818,63 @@ Change all colors in the blink of an eye,  choose Google fonts or use Google Glo
 &lt;li&gt;&lt;a href=&#34;#more-screenshots&#34;&gt;More Screenshots&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h2 id=&#34;latest-news&#34;&gt;Latest News&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Added shortcode:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#gallery-with-image-processing&#34;&gt;res-gallery&lt;/a&gt;
+&lt;a href=&#34;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/gallery-01/&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_516.jpg&#34; alt=&#34;screenshot res-gallery&#34; /&gt;&lt;/a&gt;
+
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Added &lt;a href=&#34;https://cookieconsent.insites.com/&#34;&gt;cookieconsent&lt;/a&gt;
+&lt;a href=&#34;#cookieconsent&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_510.jpg&#34; alt=&#34;screenshot cookieconsent&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;#cookieconsent&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_512.jpg&#34; alt=&#34;screenshot cookieconsent&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Teaser images are now resource images&lt;/li&gt;
+&lt;li&gt;New Front Matter (&lt;code&gt;resImgTeaser&lt;/code&gt; is replacing &lt;code&gt;teaserPic&lt;/code&gt;):&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;resImgTeaser&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;          &lt;/span&gt;teaserpics/pixabay.com/adventure-&lt;span class=&#34;m&#34;&gt;2528477.&lt;/span&gt;jpg&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Default is to resize with reasonale dimensions. You may overwrite the defaults:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;resImgTeaser&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;          &lt;/span&gt;teaserpics/pixabay.com/adventure-&lt;span class=&#34;m&#34;&gt;2528477.&lt;/span&gt;jpg&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;resImgTeaserCmd&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;       &lt;/span&gt;Fill&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;resImgTeaserOpt&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;       &lt;/span&gt;400x400&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;resImgTeaserInCardCmd&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;Fill&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;resImgTeaserInCardOpt&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;150x50 Bottom&amp;#34;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;See the teaser image here: &lt;a href=&#34;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages&#34;&gt;These
+Logos&lt;/a&gt; and compare to the one on the page.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;User has now to agree to Disqus. You may skip this via&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;disqusSkipAgree&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;#disqus&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_514.jpg&#34; alt=&#34;screenshot DiscusAgree&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Added shortcodes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/page-shortcodes/#res-figure&#34;&gt;res-figure&lt;/a&gt;
+&lt;a href=&#34;#images&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_502.jpg&#34; alt=&#34;screenshot res-figure&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/page-shortcodes/#res-attach&#34;&gt;res-attach&lt;/a&gt;
+&lt;a href=&#34;#attachments&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_504.jpg&#34; alt=&#34;screenshot res-attach&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/page-shortcodes/#readfile&#34;&gt;readfile&lt;/a&gt;
+&lt;a href=&#34;#include-files&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_506.jpg&#34; alt=&#34;screenshot readfile&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Added color theme preview via color theme selector (not on small displays)
+&lt;a href=&#34;#color-theme&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_500.jpg&#34; alt=&#34;screenshot color theme selector&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;  &lt;span class=&#34;c&#34;&gt;# This may help you to to select a w3cssColorTheme&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;themeColorSelectorEnable&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2 id=&#34;goals&#34;&gt;Goals&lt;/h2&gt;
 
 &lt;p&gt;My goals for this theme are:&lt;/p&gt;
@@ -1900,6 +1891,39 @@ Change all colors in the blink of an eye,  choose Google fonts or use Google Glo
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+
+&lt;h3 id=&#34;included-resources&#34;&gt;Included Resources&lt;/h3&gt;
+
+&lt;p&gt;This theme includes resources from:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.w3schools.com/w3css/&#34;&gt;https://www.w3schools.com/w3css/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fontawesome.com/icons/&#34;&gt;https://fontawesome.com/icons/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://owlcarousel2.github.io/OwlCarousel2/&#34;&gt;https://owlcarousel2.github.io/OwlCarousel2/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://daneden.me/animate&#34;&gt;https://daneden.me/animate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/liwenyip/hugo-easy-gallery/&#34;&gt;https://github.com/liwenyip/hugo-easy-gallery/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://photoswipe.com&#34;&gt;http://photoswipe.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fonts.google.com/&#34;&gt;https://fonts.google.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://translate.google.com&#34;&gt;https://translate.google.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cse.google.com&#34;&gt;https://cse.google.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developers.google.com/gtagjs/devguide/snippet&#34;&gt;https://developers.google.com/gtagjs/devguide/snippet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cookieconsent.insites.com&#34;&gt;https://cookieconsent.insites.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;features-tags&#34;&gt;Features Tags:&lt;/h3&gt;
+
+&lt;p&gt;animate, attachments, blog, branch-bundle, carousel, clients, color-themes,
+configuration, contact-form, cookie-consent, custom-themes, data, debug, disqus,
+emoji, features, figure, font-awesome, formspree.io, gallery, google-analytics,
+google-custom-search, google-fonts, google-map, google-translate,
+headless-bundle, hugo-easy-gallery, i18n, image-processing, jumbotron,
+landing-page, leaf-bundle, marquee, menu, menutopbar, mobile,
+monochromatic-colors, navigation, page-bundles, page-resources, pages,
+pagination, photocards, privacy, responsive, search, see-more, submenu,
+taxonomy-bar, taxonomy-list, teaser-pictures, teasers, term-list, testimonials,
+tracing&lt;/p&gt;
+
+&lt;h3 id=&#34;features-list&#34;&gt;Features List&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.w3schools.com/colors/colors_monochromatic.asp&#34;&gt;Monochromatic Color&lt;/a&gt; Schemes&lt;/li&gt;
