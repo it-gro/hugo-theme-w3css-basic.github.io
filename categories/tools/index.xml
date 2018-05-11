@@ -6,10 +6,26 @@
     <description>Recent content in Tools on W3.CSS Basic exampleSite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Nov 2017 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 11 May 2018 11:39:49 +0200</lastBuildDate>
     
 	<atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/tools/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo - amnet</title>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2018/05/11/hugo-amet/</link>
+      <pubDate>Fri, 11 May 2018 11:39:49 +0200</pubDate>
+      
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2018/05/11/hugo-amet/</guid>
+      <description>&lt;p&gt;Aliquam erat volutpat. Nunc eleifend leo vitae magna. In id erat non orci
+commodo lobortis. Proin neque massa, cursus ut, gravida ut, lobortis eget,
+lacus.&lt;/p&gt;
+
+&lt;p&gt;Sed diam. Praesent fermentum tempor tellus. Nullam tempus. Mauris ac felis
+vel velit tristique imperdiet. Donec at pede.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Hugo - dolor</title>
