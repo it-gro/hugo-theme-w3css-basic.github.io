@@ -15,6 +15,20 @@
   <meta name="author"                content='anonymous' /><meta name="keywords"              content=' Showcase, This Theme ' />
   
   <meta name="description"           content='Giraffe Academy, Tutorial 1' />
+  
+  <!-- partials/head.meta.og.html -->
+  <meta property="og:site_name"      content="W3.CSS Basic exampleSite" /> 
+  <meta property="og:title"          content="Hugo - Static Site Generator" /> 
+  <meta property="og:description"    content="Giraffe Academy, Tutorial 1" /> 
+  <meta property="og:url"            content="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/video-01/" /> 
+  <meta property="og:image"          content='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/images/favicons/apple-touch-icon.png' /> 
+
+  
+  <!-- partials/head.meta.twitter.html -->
+  <meta property="twitter:title"          content="Hugo - Static Site Generator" /> 
+  <meta property="twitter:description"    content="Giraffe Academy, Tutorial 1" /> 
+  <meta property="twitter:image"          content='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/images/favicons/apple-touch-icon.png' /> 
+
     
   <!-- partials/head.google.gtags.html -->
   <script async src='https://www.googletagmanager.com/gtag/js?id=UA-113314068-1'></script>
@@ -149,7 +163,7 @@
   <div class='w3-container w3-small w3-theme-l1 '>
     <div class="top-marquee">
         <!-- $.Site.Params.marquee.marquee -->
-      <div><span>At <a href="mailto:info@example.com">info@example.com</a> vero eos et <strong>accusam</strong>
+      <div><span>At <a href="mailto:info@example.com" target="_blank">info@example.com</a> vero eos et <strong>accusam</strong>
 et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</span></div>
     </div>
   </div>
@@ -220,7 +234,7 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
   }
 </script>
 <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
+ 
     
   <!-- partials/header.nav.large_theme_color_selector.html -->
 
@@ -292,7 +306,8 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
     #large_theme_color_selector {display:none;}
   </style>
 </noscript>
- 
+
+
 
 </div> 
 <div class='w3-bar w3-hide-small w3-hide-large w3-theme-dark '>
@@ -340,7 +355,7 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
       <!-- range first $.Site.Params.menutopbar.numOfItemsIfMediumDisplay .Site.Menus.topbar.ByWeight -->
   <a href='https://github.com/it-gro/hugo-theme-w3css-basic' target="_blank" class="w3-bar-item w3-button w3-right header-nav-menu-topbar-medium" ><i class='fab fa-github'></i></a>
   <a href='#address' target="_blank" class="w3-bar-item w3-button w3-right header-nav-menu-topbar-medium" ><i class='fas fa-envelope'></i></a>
-  <a href='/hugo-theme-w3css-basic.github.io/search' target="_blank" class="w3-bar-item w3-button w3-right header-nav-menu-topbar-medium" ><i class='fas fa-search'></i></a>  
+  <a href='/hugo-theme-w3css-basic.github.io/search' target="_blank" class="w3-bar-item w3-button w3-right header-nav-menu-topbar-medium" ><i class='fas fa-search'></i></a>   
     
   <!-- partials/header.nav.medium.theme_color_selector.html -->
 
@@ -413,7 +428,8 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
     #medium_theme_color_selector {display:none;}
   </style>
 </noscript>
- 
+
+
 
 </div> 
 
@@ -544,7 +560,7 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
             Hugo - Static Site Generator
             
 <span style="float:right;">
-<button id="btnback" class="taxonomy-button w3-btn" style="visibility:hidden;" onclick="javascript:history.back()"   ><i class="fas fa-step-backward"></i></button><button id="btnfrwd" class="taxonomy-button w3-btn" style="visibility:hidden;" onclick="javascript:history.forward()"><i class="fas fa-step-forward "></i></button>
+<button id="btnback" class="taxonomy-button w3-btn" style="visibility:hidden;" onclick="javascript:history.back()"   ><i class="fas fa-step-backward"></i></button>
 </span>
 
           </h1>
@@ -748,8 +764,8 @@ consectetuer adipiscing</p>
 
 <p><strong>Switzerland</strong></p>
 </div><br/>
-      <a href='/hugo-theme-w3css-basic.github.io/contact' class='w3-button w3-theme-l4 '>Go to contact page</a>
-    </div> 
+      
+    </div>
 
   </div>  
 </div>  
@@ -765,7 +781,7 @@ consectetuer adipiscing</p>
   <div class="w3-cell w3-cell-middle">
     <div class="w3-right">
         <!-- $.Site.Params.bottomRight  -->
-      created with <a href="https://gohugo.io">Hugo 0.40.2</a>
+      created with <a href="https://gohugo.io" target="_blank">Hugo 0.40.2</a>
     </div> 
   </div>   
 
@@ -796,7 +812,6 @@ consectetuer adipiscing</p>
 
     <script>
       function onload(){
-         document.getElementById("btnfrwd").style.visibility="visible";
          document.getElementById("btnback").style.visibility="visible";
       }
     </script>

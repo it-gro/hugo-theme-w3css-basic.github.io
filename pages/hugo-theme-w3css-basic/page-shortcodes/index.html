@@ -15,6 +15,20 @@
   <meta name="author"                content='anonymous' /><meta name="keywords"              content=' shortcodes, Showcase, This Theme ' />
   
   <meta name="description"           content='example site created with hugo using theme hugo-theme-w3css-basic' />
+  
+  <!-- partials/head.meta.og.html -->
+  <meta property="og:site_name"      content="W3.CSS Basic exampleSite" /> 
+  <meta property="og:title"          content="This Theme Shortcodes" /> 
+  
+  <meta property="og:url"            content="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/" /> 
+  <meta property="og:image"          content='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/images/favicons/apple-touch-icon.png' /> 
+
+  
+  <!-- partials/head.meta.twitter.html -->
+  <meta property="twitter:title"          content="This Theme Shortcodes" /> 
+  
+  <meta property="twitter:image"          content='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/images/favicons/apple-touch-icon.png' /> 
+
     
   <!-- partials/head.google.gtags.html -->
   <script async src='https://www.googletagmanager.com/gtag/js?id=UA-113314068-1'></script>
@@ -149,7 +163,7 @@
   <div class='w3-container w3-small w3-theme-l1 '>
     <div class="top-marquee">
         <!-- $.Site.Params.marquee.marquee -->
-      <div><span>At <a href="mailto:info@example.com">info@example.com</a> vero eos et <strong>accusam</strong>
+      <div><span>At <a href="mailto:info@example.com" target="_blank">info@example.com</a> vero eos et <strong>accusam</strong>
 et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</span></div>
     </div>
   </div>
@@ -220,7 +234,7 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
   }
 </script>
 <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
+ 
     
   <!-- partials/header.nav.large_theme_color_selector.html -->
 
@@ -292,7 +306,8 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
     #large_theme_color_selector {display:none;}
   </style>
 </noscript>
- 
+
+
 
 </div> 
 <div class='w3-bar w3-hide-small w3-hide-large w3-theme-dark '>
@@ -340,7 +355,7 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
       <!-- range first $.Site.Params.menutopbar.numOfItemsIfMediumDisplay .Site.Menus.topbar.ByWeight -->
   <a href='https://github.com/it-gro/hugo-theme-w3css-basic' target="_blank" class="w3-bar-item w3-button w3-right header-nav-menu-topbar-medium" ><i class='fab fa-github'></i></a>
   <a href='#address' target="_blank" class="w3-bar-item w3-button w3-right header-nav-menu-topbar-medium" ><i class='fas fa-envelope'></i></a>
-  <a href='/hugo-theme-w3css-basic.github.io/search' target="_blank" class="w3-bar-item w3-button w3-right header-nav-menu-topbar-medium" ><i class='fas fa-search'></i></a>  
+  <a href='/hugo-theme-w3css-basic.github.io/search' target="_blank" class="w3-bar-item w3-button w3-right header-nav-menu-topbar-medium" ><i class='fas fa-search'></i></a>   
     
   <!-- partials/header.nav.medium.theme_color_selector.html -->
 
@@ -413,7 +428,8 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
     #medium_theme_color_selector {display:none;}
   </style>
 </noscript>
- 
+
+
 
 </div> 
 
@@ -544,7 +560,7 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
             This Theme Shortcodes
             
 <span style="float:right;">
-<button id="btnback" class="taxonomy-button w3-btn" style="visibility:hidden;" onclick="javascript:history.back()"   ><i class="fas fa-step-backward"></i></button><button id="btnfrwd" class="taxonomy-button w3-btn" style="visibility:hidden;" onclick="javascript:history.forward()"><i class="fas fa-step-forward "></i></button>
+<button id="btnback" class="taxonomy-button w3-btn" style="visibility:hidden;" onclick="javascript:history.back()"   ><i class="fas fa-step-backward"></i></button>
 </span>
 
           </h1>
@@ -585,6 +601,7 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
 <li><a href="#style">Style</a></li>
 <li><a href="#success">Success</a></li>
 <li><a href="#info">Info</a></li>
+<li><a href="#exclamation">Exclamation</a></li>
 <li><a href="#warning">Warning</a></li>
 <li><a href="#danger">Danger</a></li>
 </ul></li>
@@ -592,11 +609,17 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
 <li><a href="#w3-button-icon">w3-button-icon</a></li>
 <li><a href="#w3-badge">w3-badge</a></li>
 <li><a href="#w3-tag">w3-tag</a></li>
-<li><a href="#w3-quote">w3-quote</a></li>
-<li><a href="#w3-codespan">w3-codespan</a></li>
-<li><a href="#w3-code">w3-code</a>
+<li><a href="#w3-quote">w3-quote</a>
 <ul>
 <li><a href="#style-1">Style</a></li>
+</ul></li>
+<li><a href="#w3-codespan">w3-codespan</a>
+<ul>
+<li><a href="#style-2">Style</a></li>
+</ul></li>
+<li><a href="#w3-code">w3-code</a>
+<ul>
+<li><a href="#style-3">Style</a></li>
 </ul></li>
 </ul></li>
 <li><a href="#other-shortcodes-in-this-theme">Other Shortcodes in this Theme</a>
@@ -606,19 +629,26 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
 <li><a href="#cscb">cscb</a></li>
 <li><a href="#page-resources">Page Resources</a>
 <ul>
-<li><a href="#res-figure">res-figure</a></li>
-<li><a href="#res-attach">res-attach</a></li>
+<li><a href="#res-figure">res-figure</a>
+<ul>
+<li><a href="#parameters">Parameters</a></li>
+<li><a href="#caption-format">Caption format</a></li>
+</ul></li>
+<li><a href="#res-attach">res-attach</a>
+<ul>
+<li><a href="#parameters-1">Parameters</a></li>
+</ul></li>
 <li><a href="#res-gallery">res-gallery</a>
 <ul>
-<li><a href="#shortcode-parameters">Shortcode parameters</a></li>
+<li><a href="#parameters-2">Parameters</a></li>
 <li><a href="#page-resources-metadata">Page Resources Metadata</a></li>
-<li><a href="#caption-format">Caption format</a></li>
-<li><a href="#style-2">Style</a></li>
+<li><a href="#caption-format-1">Caption format</a></li>
+<li><a href="#style-4">Style</a></li>
 </ul></li>
 </ul></li>
 <li><a href="#heg-gallery">heg-gallery</a>
 <ul>
-<li><a href="#style-3">Style</a></li>
+<li><a href="#style-5">Style</a></li>
 </ul></li>
 <li><a href="#heg-figure">heg-figure</a>
 <ul>
@@ -633,7 +663,7 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
 <li><a href="#classify">classify</a></li>
 <li><a href="#kbd">kbd</a>
 <ul>
-<li><a href="#style-4">style</a></li>
+<li><a href="#style-6">style</a></li>
 </ul></li>
 <li><a href="#readfile">readfile</a></li>
 </ul></li>
@@ -662,7 +692,7 @@ the same templating syntax as that for single and list pages.</p>
 snippets that you can embed directly inside of your content. In this
 sense, you can think of shortcodes as the intermediary between page
 and list templates and basic content files.</p>
-</div><p><a href="https://gohugo.io/templates/shortcode-templates">https://gohugo.io/templates/shortcode-templates</a>
+</div><p class='shortcode-quote-source'><a href="https://gohugo.io/templates/shortcode-templates" target="_blank">https://gohugo.io/templates/shortcode-templates</a></p>
 </div>
 
 
@@ -671,7 +701,7 @@ and list templates and basic content files.</p>
 <h2 id="alert">alert</h2>
 
 <ul>
-<li>Inspired by <a href="http://getbootstrap.com/docs/4.0/components/alerts/">http://getbootstrap.com/docs/4.0/components/alerts/</a> and <a href="https://www.w3schools.com/w3css/w3css_panels.asp">https://www.w3schools.com/w3css/w3css_panels.asp</a></li>
+<li>Inspired by <a href="http://getbootstrap.com/docs/4.0/components/alerts/" target="_blank">http://getbootstrap.com/docs/4.0/components/alerts/</a> and <a href="https://www.w3schools.com/w3css/w3css_panels.asp" target="_blank">https://www.w3schools.com/w3css/w3css_panels.asp</a></li>
 </ul>
 
 <p>Configuration is in <code>config.toml</code>:</p>
@@ -752,7 +782,7 @@ and list templates and basic content files.</p>
 <h2 id="w3-notice-icon">w3-notice-icon</h2>
 
 <ul>
-<li>Inspired by <a href="https://www.w3schools.com/w3css/w3css_notes.asp">W3.CSS Notes</a></li>
+<li>Inspired by <a href="https://www.w3schools.com/w3css/w3css_notes.asp" target="_blank">W3.CSS Notes</a></li>
 </ul>
 
 <h3 id="style">Style</h3>
@@ -773,25 +803,11 @@ and list templates and basic content files.</p>
 <span class="p">.</span><span class="nc">shortcode-info</span>  <span class="p">{</span>
   <span class="k">border-color</span><span class="p">:</span><span class="mh">#2196F3</span><span class="cp">!important</span>
 <span class="p">}</span>
+<span class="p">.</span><span class="nc">shortcode-exclamation</span>  <span class="p">{</span>
+  <span class="k">border-color</span><span class="p">:</span><span class="mh">#2a8</span><span class="cp">!important</span>
+<span class="p">}</span>
 <span class="p">.</span><span class="nc">shortcode-success</span><span class="p">{</span>
   <span class="k">border-color</span><span class="p">:</span><span class="mh">#4CAF50</span><span class="cp">!important</span>
-<span class="p">}</span>
-
-<span class="c">/* for shortcode w3-quote */</span>
-<span class="p">.</span><span class="nc">shortcode-quote</span> <span class="p">{</span>
-  <span class="k">border-color</span><span class="p">:</span><span class="mh">#4CAF50</span><span class="cp">!important</span>
-<span class="p">}</span>
-
-<span class="nt">pre</span><span class="p">.</span><span class="nc">w3-code</span><span class="o">,</span> <span class="nt">span</span><span class="p">.</span><span class="nc">w3-codespan</span><span class="p">{</span>
-  <span class="k">font-family</span><span class="p">:</span><span class="kc">monospace</span><span class="p">,</span><span class="kc">monospace</span><span class="p">;</span> <span class="err">!important</span><span class="p">;</span>
-  <span class="k">font-size</span><span class="p">:</span><span class="mi">1</span><span class="kt">em</span>
-<span class="p">}</span>
-
-<span class="nt">pre</span><span class="p">.</span><span class="nc">w3-code</span><span class="o">,</span> <span class="nt">pre</span><span class="p">.</span><span class="nc">chroma</span> <span class="p">{</span>
-    <span class="k">border-radius</span><span class="p">:</span><span class="mi">4</span><span class="kt">px</span><span class="p">;</span>  
-    <span class="k">padding</span><span class="p">:</span> <span class="mi">0</span> <span class="mi">3</span><span class="kt">px</span> <span class="mi">0</span> <span class="mi">3</span><span class="kt">px</span><span class="p">;</span>
-    <span class="k">border</span><span class="p">:</span> <span class="mi">1</span><span class="kt">px</span> <span class="kc">solid</span><span class="p">;</span>
-    <span class="k">overflow</span><span class="p">:</span> <span class="kc">auto</span><span class="p">;</span>
 <span class="p">}</span></code></pre></div>
 
 <h3 id="success">Success</h3>
@@ -854,6 +870,20 @@ No need for type=&#34;info&#34;, since this is the default
 </div>
 
 
+<h3 id="exclamation">Exclamation</h3>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{% w3-notice-icon type=&#34;exclamation&#34; heading=&#34;Show Info&#34; %}}
+Type=&#34;exclamation&#34; - check it out
+{{% /w3-notice-icon %}}</code></pre></div>
+
+<p>renders as</p>
+
+
+<div class='w3-panel w3-leftbar shortcode-exclamation'>
+  <h3><i class='w3-margin-right fas fa-exclamation '></i>Show Info</h3><p>Type=&ldquo;exclamation&rdquo; - check it out</p>
+</div>
+
+
 <h3 id="warning">Warning</h3>
 
 <div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{% w3-notice-icon type=&#34;warning&#34; heading=&#34;Keep in mind&#34; %}}
@@ -894,7 +924,7 @@ Watch out
 <h2 id="w3-alert-icon">w3-alert-icon</h2>
 
 <ul>
-<li>I ignored <a href="https://www.w3schools.com/w3css/w3css_alerts.asp">W3.CSS Alerts</a></li>
+<li>I ignored <a href="https://www.w3schools.com/w3css/w3css_alerts.asp" target="_blank">W3.CSS Alerts</a></li>
 <li>used borders instead</li>
 </ul>
 
@@ -1003,7 +1033,7 @@ A warning with heading
 <h2 id="w3-badge">w3-badge</h2>
 
 <ul>
-<li>Inspired by <a href="https://www.w3schools.com/w3css/w3css_badges.asp">W3.CSS Badges</a></li>
+<li>Inspired by <a href="https://www.w3schools.com/w3css/w3css_badges.asp" target="_blank">W3.CSS Badges</a></li>
 <li>
 <span class='w3-badge '>42</span>
 </li>
@@ -1018,7 +1048,7 @@ A warning with heading
 <h2 id="w3-tag">w3-tag</h2>
 
 <ul>
-<li>Inspired by <a href="https://www.w3schools.com/w3css/w3css_tags.asp">W3.CSS Tags</a></li>
+<li>Inspired by <a href="https://www.w3schools.com/w3css/w3css_tags.asp" target="_blank">W3.CSS Tags</a></li>
 <li>
 <span class='w3-tag '>42</span>
 </li>
@@ -1036,7 +1066,7 @@ A warning with heading
 <h2 id="w3-quote">w3-quote</h2>
 
 <ul>
-<li>Inspired by <a href="https://www.w3schools.com/w3css/w3css_quotes.asp">W3.CSS Quotes</a></li>
+<li>Inspired by <a href="https://www.w3schools.com/w3css/w3css_quotes.asp" target="_blank">W3.CSS Quotes</a></li>
 </ul>
 
 <p>Some examples:</p>
@@ -1063,14 +1093,14 @@ A warning with heading
 
  <div class='shortcode-quote w3-panel w3-leftbar w3-theme-l3   '>
   <i class='fas fa-quote-right w3-xxlarge w3-margin-right'></i>
-  <strong>A good composer does not imitate; he steals.</strong><p>Igor Stravinsky
+  <strong>A good composer does not imitate; he steals.</strong><p class='shortcode-quote-source'>Igor Stravinsky</p>
 </div>
 
 
 
  <div class='shortcode-quote w3-panel w3-leftbar w3-theme-l3  '>
   <i class='fas fa-quote-right w3-xxlarge'></i><br>
-  <div class=''><em>Life is like riding a bicycle. To keep your balance, you must keep moving</em></div><p>Albert Einstein
+  <div class=''><em>Life is like riding a bicycle. To keep your balance, you must keep moving</em></div><p class='shortcode-quote-source'>Albert Einstein</p>
 </div>
 
 
@@ -1091,28 +1121,40 @@ A warning with heading
 
  <blockquote class='shortcode-quote w3-panel w3-leftbar w3-theme-l3  '>
   <p class=''>
-  <i><em>The true sign of intelligence is not knowledge but imagination</em></i><p>Albert Einstein
+  <i><em>The true sign of intelligence is not knowledge but imagination</em></i><p class='shortcode-quote-source'>Albert Einstein</p>
 </blockquote>
 
 
 
  <blockquote class='shortcode-quote w3-panel w3-leftbar w3-theme-l3  '>
   <i class='fas fa-quote-right w3-xxlarge'></i><br>
-  <div class=''><em>The only source of knowledge is experience</em></div><p>Albert Einstein
+  <div class=''><em>The only source of knowledge is experience</em></div><p class='shortcode-quote-source'>Albert Einstein</p>
 </blockquote>
 
 
 
  <blockquote class='shortcode-quote w3-panel w3-leftbar w3-theme-l3   '>
   <i class='fas fa-quote-right w3-xxlarge w3-margin-right'></i>
-  <em>Learn from yesterday, live for today, hope for tomorrow. The important thing is not to stop questioning.</em><p>Albert Einstein
+  <em>Learn from yesterday, live for today, hope for tomorrow. The important thing is not to stop questioning.</em><p class='shortcode-quote-source'>Albert Einstein</p>
 </blockquote>
 
+
+<h3 id="style-1">Style</h3>
+<div class="highlight"><pre class="chroma">static/css/w3css-basic.css</pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="c">/* for shortcode w3-quote */</span>
+<span class="p">.</span><span class="nc">shortcode-quote</span> <span class="p">{</span>
+  <span class="k">border-color</span><span class="p">:</span><span class="mh">#4CAF50</span><span class="cp">!important</span>
+<span class="p">}</span>
+
+<span class="p">.</span><span class="nc">shortcode-quote-source</span> <span class="p">{</span>
+  <span class="k">font-style</span><span class="p">:</span> <span class="kc">italic</span><span class="p">;</span>
+  <span class="k">font-weight</span><span class="p">:</span> <span class="kc">bold</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
 
 <h2 id="w3-codespan">w3-codespan</h2>
 
 <ul>
-<li>Inspired by <a href="https://www.w3schools.com/w3css/w3css_code.asp">W3.CSS Code</a></li>
+<li>Inspired by <a href="https://www.w3schools.com/w3css/w3css_code.asp" target="_blank">W3.CSS Code</a></li>
 <li>Highlight Inline Code</li>
 <li>all on one line</li>
 </ul>
@@ -1125,10 +1167,30 @@ A warning with heading
 This is a cool command: <span class="w3-codespan notranslate">startup *all*</span>
  just try it&hellip;</p>
 
+<h3 id="style-2">Style</h3>
+
+<ul>
+<li>these colors are separate from the ones in w3cssColorTheme</li>
+</ul>
+
+<p>Defined in:</p>
+<div class="highlight"><pre class="chroma">static/css/w3css-basic.css</pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="nt">pre</span><span class="p">.</span><span class="nc">w3-code</span><span class="o">,</span> <span class="nt">span</span><span class="p">.</span><span class="nc">w3-codespan</span><span class="p">{</span>
+  <span class="k">font-family</span><span class="p">:</span><span class="kc">monospace</span><span class="p">,</span><span class="kc">monospace</span><span class="p">;</span> <span class="err">!important</span><span class="p">;</span>
+  <span class="k">font-size</span><span class="p">:</span><span class="mi">1</span><span class="kt">em</span>
+<span class="p">}</span>
+
+<span class="nt">pre</span><span class="p">.</span><span class="nc">w3-code</span><span class="o">,</span> <span class="nt">pre</span><span class="p">.</span><span class="nc">chroma</span> <span class="p">{</span>
+    <span class="k">border-radius</span><span class="p">:</span><span class="mi">4</span><span class="kt">px</span><span class="p">;</span>  
+    <span class="k">padding</span><span class="p">:</span> <span class="mi">0</span> <span class="mi">3</span><span class="kt">px</span> <span class="mi">0</span> <span class="mi">3</span><span class="kt">px</span><span class="p">;</span>
+    <span class="k">border</span><span class="p">:</span> <span class="mi">1</span><span class="kt">px</span> <span class="kc">solid</span><span class="p">;</span>
+    <span class="k">overflow</span><span class="p">:</span> <span class="kc">auto</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
+
 <h2 id="w3-code">w3-code</h2>
 
 <ul>
-<li>Inspired by <a href="https://www.w3schools.com/w3css/w3css_code.asp">W3.CSS Code</a></li>
+<li>Inspired by <a href="https://www.w3schools.com/w3css/w3css_code.asp" target="_blank">W3.CSS Code</a></li>
 <li>show code block - but no highlighting</li>
 </ul>
 
@@ -1155,7 +1217,7 @@ genpasswd $1
 </pre>
 
 
-<h3 id="style-1">Style</h3>
+<h3 id="style-3">Style</h3>
 <div class="highlight"><pre class="chroma">static/css/w3css-basic.css</pre></div>
 <div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="nt">pre</span><span class="p">.</span><span class="nc">w3-code</span><span class="o">,</span> <span class="nt">span</span><span class="p">.</span><span class="nc">w3-codespan</span><span class="p">{</span>
   <span class="k">font-family</span><span class="p">:</span><span class="kc">monospace</span><span class="p">,</span><span class="kc">monospace</span><span class="p">;</span> <span class="err">!important</span><span class="p">;</span>
@@ -1320,19 +1382,21 @@ static/css/syntax/syntax.bw.css
 <h3 id="res-figure">res-figure</h3>
 
 <ul>
-<li>See <a href="https://gohugo.io/content-management/image-processing/">https://gohugo.io/content-management/image-processing/</a></li>
+<li>See <a href="https://gohugo.io/content-management/image-processing/" target="_blank">https://gohugo.io/content-management/image-processing/</a></li>
 <li>inspired by layouts/shortcodes/imgproc.html</li>
-<li>See <a href="/hugo-theme-w3css-basic.github.io/pages/showcase/image-processing-with-hugo/">Hugo image processing (res-figure)</a> for more information</li>
+<li>See <a href="/hugo-theme-w3css-basic.github.io/pages/showcase/image-processing-with-hugo/" target="_blank">Hugo image processing (res-figure)</a> for more information</li>
 </ul>
 
 <pre class="w3-code notranslate">
-{{&lt; res-figure &#34;img/pixabay.com/penguin-21*&#34; /&gt;}} 
-{{&lt; res-figure &#34;img/pixabay.com/penguin-21*&#34; &#34;Fit&#34;  &#34;200x200&#34; /&gt;}} 
-{{&lt; res-figure &#34;img/pixabay.com/penguin-21*&#34; &#34;Fill&#34; &#34;200x200&#34; / &gt;}} 
+{{&lt; res-figure &#34;.&#34; &#34;img/pixabay.com/penguin-21*&#34; /&gt;}} 
+{{&lt; res-figure &#34;.&#34; &#34;img/pixabay.com/penguin-21*&#34; &#34;Fit&#34;  &#34;200x200&#34; /&gt;}} 
+{{&lt; res-figure &#34;.&#34; &#34;img/pixabay.com/penguin-21*&#34; &#34;Fill&#34; &#34;200x200&#34; / &gt;}} 
 </pre>
 
 
-<p>      
+<p>
+
+         
 
   <figure class='res-figure no-photoswipe'  style="width: 300px;">
     <img src="/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/img/pixabay.com/penguin-2104173_1920_hu83b593d3e71a64e0d6371de0254604f8_270606_300x0_resize_q75_box.jpg"
@@ -1344,7 +1408,9 @@ static/css/syntax/syntax.bw.css
     </figcaption>
   </figure> 
 
-          
+
+
+             
 
   <figure class='res-figure no-photoswipe'  style="width: 200px;">
     <img src="/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/img/pixabay.com/penguin-2104173_1920_hu83b593d3e71a64e0d6371de0254604f8_270606_200x200_fit_q75_box.jpg"
@@ -1356,7 +1422,9 @@ static/css/syntax/syntax.bw.css
     </figcaption>
   </figure> 
 
-          
+
+
+             
 
   <figure class='res-figure no-photoswipe'  style="width: 200px;">
     <img src="/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/img/pixabay.com/penguin-2104173_1920_hu83b593d3e71a64e0d6371de0254604f8_270606_200x200_fill_q75_box_smart1.jpg"
@@ -1367,12 +1435,145 @@ static/css/syntax/syntax.bw.css
         Fill '200x200'<br>penguin-2104173_1920<br><a href='https://pixabay.com' target='_blank'>pixabay.com</a><br><a href='https://pixabay.com/en/service/terms/#usage' target='_blank'>Creative Commons CC0</a>
     </figcaption>
   </figure>
+<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml">resources<span class="p">:</span><span class="w">
+</span><span class="w">  </span>-<span class="w"> </span>src<span class="p">:</span><span class="w">           </span>img/pixabay/<span class="cp">*.jpg</span><span class="w">
+</span><span class="w">    </span>params<span class="p">:</span><span class="w">
+</span><span class="w">      </span>origin<span class="p">:</span><span class="w">      </span>pixabay.com<span class="w">
+</span><span class="w">      </span>license<span class="p">:</span><span class="w">     </span>Creative<span class="w"> </span>Commons<span class="w"> </span>CC0<span class="w"> 
+</span><span class="w">      </span>licenselink<span class="p">:</span><span class="w"> </span>https<span class="p">:</span>//pixabay.com/en/service/terms/<span class="c">#usage</span><span class="w">
+</span><span class="w">      </span>caption<span class="p">:</span><span class="w">     </span><span class="s2">&#34;%%I%%n%%B%%n%%O&#34;</span><span class="w">
+</span><span class="w">  </span>-<span class="w"> </span>src<span class="p">:</span><span class="w">           </span>img/pixabay/penguin-2104173_1920.jpg<span class="w">
+</span><span class="w">    </span>params<span class="p">:</span><span class="w">
+</span><span class="w">      </span>originlink<span class="p">:</span><span class="w">  </span>https<span class="p">:</span>//pixabay.com/en/penguin-rockhopper-penguin-zoo-<span class="m">2104173</span>/<span class="w">
+</span><span class="w">      </span>attrby<span class="p">:</span><span class="w">      </span>Michael<span class="w"> </span>Frankenstein<span class="w">
+</span><span class="w">      </span>attrlink<span class="p">:</span><span class="w">    </span>https<span class="p">:</span>//pixabay.com/en/users/frankenstein-<span class="m">2135887</span>/<span class="w">
+</span><span class="w">      </span>imgcmd<span class="p">:</span><span class="w">      </span>Resize<span class="w">
+</span><span class="w">      </span>imgopt<span class="p">:</span><span class="w">      </span>400x<span class="w">
+</span><span class="w">      </span></code></pre></div>
+<h4 id="parameters">Parameters</h4>
+
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Position -1</th>
+<th>Default</th>
+<th>What</th>
+<th>Remark</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>path</td>
+<td>0</td>
+<td>&rdquo;.&rdquo;</td>
+<td>path to resource page</td>
+<td>use . for current page</td>
+</tr>
+
+<tr>
+<td>match</td>
+<td>1</td>
+<td>*</td>
+<td>images</td>
+<td>in page resource</td>
+</tr>
+
+<tr>
+<td>cmd</td>
+<td>2</td>
+<td>Resize</td>
+<td>command</td>
+<td>Fill, Fit or Resize</td>
+</tr>
+
+<tr>
+<td>opt</td>
+<td>3</td>
+<td>300x</td>
+<td>options</td>
+<td>command options</td>
+</tr>
+
+<tr>
+<td>cap</td>
+<td>4</td>
+<td>%%N</td>
+<td>caption format</td>
+<td>see below</td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="caption-format">Caption format</h4>
+
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>What</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>%%n</td>
+<td>newline</td>
+</tr>
+
+<tr>
+<td>%%f</td>
+<td>.Name</td>
+</tr>
+
+<tr>
+<td>%%F</td>
+<td>Filename</td>
+</tr>
+
+<tr>
+<td>%%B</td>
+<td>Basename</td>
+</tr>
+
+<tr>
+<td>%%T</td>
+<td>.Title</td>
+</tr>
+
+<tr>
+<td>%%N</td>
+<td>.Title or Basename</td>
+</tr>
+
+<tr>
+<td>%%L</td>
+<td>license</td>
+</tr>
+
+<tr>
+<td>%%O</td>
+<td>origin</td>
+</tr>
+
+<tr>
+<td>%%A</td>
+<td>attr</td>
+</tr>
+
+<tr>
+<td>%%I</td>
+<td>image info</td>
+</tr>
+</tbody>
+</table>
 
 <h3 id="res-attach">res-attach</h3>
 
 <ul>
-<li>See <a href="https://gohugo.io/content-management/page-resources/">https://gohugo.io/content-management/page-resources/</a></li>
-<li>See <a href="/hugo-theme-w3css-basic.github.io/pages/showcase/attach-page-resources/">Attachments via Hugo Page Resources</a> for more information</li>
+<li>See <a href="https://gohugo.io/content-management/page-resources/" target="_blank">https://gohugo.io/content-management/page-resources/</a></li>
+<li>See <a href="/hugo-theme-w3css-basic.github.io/pages/showcase/attach-page-resources/" target="_blank">Attachments via Hugo Page Resources</a> for more information</li>
 </ul>
 
 <pre class="w3-code notranslate">
@@ -1396,10 +1597,50 @@ Attachments
 </ul>
 
 
+<h4 id="parameters-1">Parameters</h4>
+
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Position -1</th>
+<th>Default</th>
+<th>What</th>
+<th>Remark</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>match</td>
+<td>0</td>
+<td>**</td>
+<td>glob</td>
+<td>only resources of type application</td>
+</tr>
+
+<tr>
+<td>label</td>
+<td>1</td>
+<td>Attachments</td>
+<td>label</td>
+<td>piped into i18n</td>
+</tr>
+
+<tr>
+<td>icon</td>
+<td>2</td>
+<td>fas fa-paperclip</td>
+<td>label icon</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
 <h3 id="res-gallery">res-gallery</h3>
 
 <ul>
-<li>inspired by <a href="https://www.liwen.id.au/heg/">Hugo Easy Gallery</a></li>
+<li>inspired by <a href="https://www.liwen.id.au/heg/" target="_blank">Hugo Easy Gallery</a></li>
 <li>but uses page resources and image processing</li>
 </ul>
 
@@ -1461,21 +1702,21 @@ Attachments
        itemscope itemtype="http://schema.org/ImageGallery" >
     <figure class="img"
             data-size='800x450'
-            data-caption='Golang a closer look&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+            data-caption='golang-a-closer-look.png'
             itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
             title="teaserpics/gohugo.io/golang-a-closer-look.png"
     >
       <a itemprop="contentUrl" href='/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/golang-a-closer-look_hu3e2936e23f25753c1c25ae767165a55e_42013_800x0_resize_box_2.png' >
         <img itemprop="thumbnail"
              src='/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/golang-a-closer-look_hu3e2936e23f25753c1c25ae767165a55e_42013_120x120_fit_box_2.png'
-             alt='Golang a closer look&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+             alt='golang-a-closer-look.png'
              width='120'  height='67'
         />
       </a>
       <meta itemprop="width"  content='800'>
       <meta itemprop="height" content='450'>
       <figcaption class="res-gallery-figcaption " itemprop="caption description" >
-        <small>github.com/gohugoio<br/><a href='https://github.com/gohugoio/hugo/blob/master/LICENSE' target='_blank'>Apache-2.0</a></small>
+        <small>Golang a closer look</small>
       </figcaption>
     </figure>
   </div> 
@@ -1486,21 +1727,21 @@ Attachments
        itemscope itemtype="http://schema.org/ImageGallery" >
     <figure class="img"
             data-size='800x400'
-            data-caption='Hugo dolor&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+            data-caption='hugo-dolor.png'
             itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
             title="teaserpics/gohugo.io/hugo-dolor.png"
     >
       <a itemprop="contentUrl" href='/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_800x0_resize_box_2.png' >
         <img itemprop="thumbnail"
              src='/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_120x120_fit_box_2.png'
-             alt='Hugo dolor&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+             alt='hugo-dolor.png'
              width='120'  height='60'
         />
       </a>
       <meta itemprop="width"  content='800'>
       <meta itemprop="height" content='400'>
       <figcaption class="res-gallery-figcaption " itemprop="caption description" >
-        <small>github.com/gohugoio<br/><a href='https://github.com/gohugoio/hugo/blob/master/LICENSE' target='_blank'>Apache-2.0</a></small>
+        <small>Hugo dolor</small>
       </figcaption>
     </figure>
   </div> 
@@ -1511,21 +1752,21 @@ Attachments
        itemscope itemtype="http://schema.org/ImageGallery" >
     <figure class="img"
             data-size='800x400'
-            data-caption='Hugo ipsum&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+            data-caption='hugo-ipsum.png'
             itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
             title="teaserpics/gohugo.io/hugo-ipsum.png"
     >
       <a itemprop="contentUrl" href='/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-ipsum_hu4bb3d9e9bcf5cb42154f6d8c89189ff3_242267_800x0_resize_box_2.png' >
         <img itemprop="thumbnail"
              src='/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-ipsum_hu4bb3d9e9bcf5cb42154f6d8c89189ff3_242267_120x120_fit_box_2.png'
-             alt='Hugo ipsum&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+             alt='hugo-ipsum.png'
              width='120'  height='60'
         />
       </a>
       <meta itemprop="width"  content='800'>
       <meta itemprop="height" content='400'>
       <figcaption class="res-gallery-figcaption " itemprop="caption description" >
-        <small>github.com/gohugoio<br/><a href='https://github.com/gohugoio/hugo/blob/master/LICENSE' target='_blank'>Apache-2.0</a></small>
+        <small>Hugo ipsum</small>
       </figcaption>
     </figure>
   </div> 
@@ -1536,28 +1777,28 @@ Attachments
        itemscope itemtype="http://schema.org/ImageGallery" >
     <figure class="img"
             data-size='800x800'
-            data-caption='Hugo lorem&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+            data-caption='hugo-lorem.png'
             itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
             title="teaserpics/gohugo.io/hugo-lorem.png"
     >
       <a itemprop="contentUrl" href='/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-lorem_hu77f397ba1b7f0f571a34fad927893059_94449_800x0_resize_box_2.png' >
         <img itemprop="thumbnail"
              src='/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-lorem_hu77f397ba1b7f0f571a34fad927893059_94449_120x120_fit_box_2.png'
-             alt='Hugo lorem&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+             alt='hugo-lorem.png'
              width='120'  height='120'
         />
       </a>
       <meta itemprop="width"  content='800'>
       <meta itemprop="height" content='800'>
       <figcaption class="res-gallery-figcaption " itemprop="caption description" >
-        <small>github.com/gohugoio<br/><a href='https://github.com/gohugoio/hugo/blob/master/LICENSE' target='_blank'>Apache-2.0</a></small>
+        <small>Hugo lorem</small>
       </figcaption>
     </figure>
   </div> 
 
 </div>
 
-<h4 id="shortcode-parameters">Shortcode parameters</h4>
+<h4 id="parameters-2">Parameters</h4>
 
 <ul>
 <li>only named parameters</li>
@@ -1777,7 +2018,7 @@ Attachments
 </span><span class="w">      </span>licenseLink<span class="p">:</span><span class="w">  </span>https<span class="p">:</span>//pixabay.com/en/service/terms/<span class="w">
 </span><span class="w">      </span>caption<span class="p">:</span><span class="w">      </span><span class="s2">&#34;%%N%%n%%A%%n%%L%%n%%O&#34;</span><span class="w">
 </span><span class="w">      </span>captionShort<span class="p">:</span><span class="w"> </span><span class="s2">&#34;%%O%%n%%l&#34;</span></code></pre></div>
-<h4 id="caption-format">Caption format</h4>
+<h4 id="caption-format-1">Caption format</h4>
 
 <table>
 <thead>
@@ -1845,7 +2086,7 @@ Attachments
 </tbody>
 </table>
 
-<h4 id="style-2">Style</h4>
+<h4 id="style-4">Style</h4>
 
 <ul>
 <li>See <code>static/css/res-gallery.css</code></li>
@@ -1856,8 +2097,8 @@ Attachments
 <ul>
 <li>kind of obsoleted by <a href="#res-gallery">res-gallery</a></li>
 <li>taken from<br />
-<a href="https://github.com/liwenyip/hugo-easy-gallery/">https://github.com/liwenyip/hugo-easy-gallery/</a><br />
-<a href="https://www.liwen.id.au/heg/">https://www.liwen.id.au/heg/</a><br /></li>
+<a href="https://github.com/liwenyip/hugo-easy-gallery/" target="_blank">https://github.com/liwenyip/hugo-easy-gallery/</a><br />
+<a href="https://www.liwen.id.au/heg/" target="_blank">https://www.liwen.id.au/heg/</a><br /></li>
 </ul>
 
 <div class="highlight"><pre class="chroma"><code class="language-nolan" data-lang="nolan">{{&lt; heg-load-photoswipe &gt;}}
@@ -1921,7 +2162,7 @@ Attachments
 </div>
 
 
-<h3 id="style-3">Style</h3>
+<h3 id="style-5">Style</h3>
 
 <p>Defined in:</p>
 <div class="highlight"><pre class="chroma">static/css/w3css-basic.css</pre></div>
@@ -1992,10 +2233,10 @@ Attachments
 
 <ul>
 <li>kind of obsoleted by <a href="#res-figure">res-figure</a></li>
-<li>See for original doc: <a href="https://www.liwen.id.au/heg/">https://www.liwen.id.au/heg/</a></li>
+<li>See for original doc: <a href="https://www.liwen.id.au/heg/" target="_blank">https://www.liwen.id.au/heg/</a></li>
 <li>heg-figure improves the usage of <code>caption=&quot;&quot; title=&quot;&quot; attr=&quot;&quot; attrlink=&quot;&quot;</code></li>
 <li>for this demo I set caption-effect=<strong>&ldquo;none&rdquo;</strong></li>
-<li>Inspired by <a href="https://stackoverflow.com/questions/21483356/how-to-mark-the-copyright-of-an-image-in-html">https://stackoverflow.com/questions/21483356/how-to-mark-the-copyright-of-an-image-in-html</a></li>
+<li>Inspired by <a href="https://stackoverflow.com/questions/21483356/how-to-mark-the-copyright-of-an-image-in-html" target="_blank">https://stackoverflow.com/questions/21483356/how-to-mark-the-copyright-of-an-image-in-html</a></li>
 </ul>
 
 <h3 id="with-thumbs">with Thumbs</h3>
@@ -2310,7 +2551,7 @@ foobar
 <h2 id="asciicast">asciicast</h2>
 
 <ul>
-<li>taken from <a href="https://github.com/gohugoio/hugo/tree/master/docs/layouts/shortcodes">https://github.com/gohugoio/hugo/tree/master/docs/layouts/shortcodes</a></li>
+<li>taken from <a href="https://github.com/gohugoio/hugo/tree/master/docs/layouts/shortcodes" target="_blank">https://github.com/gohugoio/hugo/tree/master/docs/layouts/shortcodes</a></li>
 <li>added no javascript fallback</li>
 </ul>
 
@@ -2437,7 +2678,7 @@ foo | bar
 <kbd>DEL</kbd>
 </p>
 
-<h3 id="style-4">style</h3>
+<h3 id="style-6">style</h3>
 <div class="highlight"><pre class="chroma">static/css/w3css-basic.css</pre></div>
 <div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="nt">kbd</span> <span class="p">{</span>
   <span class="k">font-size</span><span class="p">:</span> <span class="mf">0.8</span><span class="kt">em</span><span class="p">;</span>
@@ -2451,7 +2692,7 @@ foo | bar
 <h2 id="readfile">readfile</h2>
 
 <ul>
-<li>inspired by <a href="https://github.com/gohugoio/hugo/blob/master/docs/layouts/shortcodes/readfile.html">https://github.com/gohugoio/hugo/blob/master/docs/layouts/shortcodes/readfile.html</a></li>
+<li>inspired by <a href="https://github.com/gohugoio/hugo/blob/master/docs/layouts/shortcodes/readfile.html" target="_blank">https://github.com/gohugoio/hugo/blob/master/docs/layouts/shortcodes/readfile.html</a></li>
 <li>reads a file (or directory) and optionally renders ist using markdownify or highlight</li>
 </ul>
 
@@ -2488,7 +2729,7 @@ foo | bar
 <td>2</td>
 <td>md</td>
 <td>highlight lang</td>
-<td>see <a href="https://gohugo.io/content-management/syntax-highlighting/#list-of-chroma-highlighting-languages">list-of-chroma-highlighting-languages</a></td>
+<td>see <a href="https://gohugo.io/content-management/syntax-highlighting/#list-of-chroma-highlighting-languages" target="_blank">list-of-chroma-highlighting-languages</a></td>
 </tr>
 </tbody>
 </table>
@@ -2565,13 +2806,13 @@ drwxrwxr-x 2018-05-03            search
 
 <ul>
 <li><strong>li</strong>st by <strong>Ti</strong>tle</li>
-<li>hugo has build in shortcodes <a href="https://gohugo.io/functions/ref">ref</a> and <a href="https://gohugo.io/functions/relref">relref</a>: <a href="https://gohugo.io/content-management/shortcodes/">https://gohugo.io/content-management/shortcodes/</a></li>
+<li>hugo has build in shortcodes <a href="https://gohugo.io/functions/ref" target="_blank">ref</a> and <a href="https://gohugo.io/functions/relref" target="_blank">relref</a>: <a href="https://gohugo.io/content-management/shortcodes/" target="_blank">https://gohugo.io/content-management/shortcodes/</a></li>
 <li>These shortcodes will look up the pages by their relative path
 (e.g., blog/post.md) or their logical name (post.md)</li>
 <li>I created a shortcode to get a list of pages by their <strong>Title</strong></li>
 <li>by default this list is not given as a <code>&lt;ul&gt;</code> list - just one or more links without newlines</li>
-<li>search can be done with <a href="https://gohugo.io/functions/eq">eq</a> (which
-is default) or <a href="https://gohugo.io/functions/in">in</a> (substring)</li>
+<li>search can be done with <a href="https://gohugo.io/functions/eq" target="_blank">eq</a> (which
+is default) or <a href="https://gohugo.io/functions/in" target="_blank">in</a> (substring)</li>
 <li>the case is relevant by default. Use the modifier to ignore (mod=&ldquo;i&rdquo;)</li>
 </ul>
 
@@ -3382,8 +3623,8 @@ consectetuer adipiscing</p>
 
 <p><strong>Switzerland</strong></p>
 </div><br/>
-      <a href='/hugo-theme-w3css-basic.github.io/contact' class='w3-button w3-theme-l4 '>Go to contact page</a>
-    </div> 
+      
+    </div>
 
   </div>  
 </div>  
@@ -3399,7 +3640,7 @@ consectetuer adipiscing</p>
   <div class="w3-cell w3-cell-middle">
     <div class="w3-right">
         <!-- $.Site.Params.bottomRight  -->
-      created with <a href="https://gohugo.io">Hugo 0.40.2</a>
+      created with <a href="https://gohugo.io" target="_blank">Hugo 0.40.2</a>
     </div> 
   </div>   
 
@@ -3430,7 +3671,6 @@ consectetuer adipiscing</p>
 
     <script>
       function onload(){
-         document.getElementById("btnfrwd").style.visibility="visible";
          document.getElementById("btnback").style.visibility="visible";
       }
     </script>

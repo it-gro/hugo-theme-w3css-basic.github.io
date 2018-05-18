@@ -15,6 +15,20 @@
   <meta name="author"                content='anonymous' /><meta name="keywords"              content=' Showcase, shortcodes, resources, images, This Theme ' />
   
   <meta name="description"           content='example site created with hugo using theme hugo-theme-w3css-basic' />
+  
+  <!-- partials/head.meta.og.html -->
+  <meta property="og:site_name"      content="W3.CSS Basic exampleSite" /> 
+  <meta property="og:title"          content="Image Processing (`res-figure`)" /> 
+  
+  <meta property="og:url"            content="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/image-processing-with-hugo/" /> 
+  <meta property="og:image"          content='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/images/favicons/apple-touch-icon.png' /> 
+
+  
+  <!-- partials/head.meta.twitter.html -->
+  <meta property="twitter:title"          content="Image Processing (`res-figure`)" /> 
+  
+  <meta property="twitter:image"          content='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/images/favicons/apple-touch-icon.png' /> 
+
     
   <!-- partials/head.google.gtags.html -->
   <script async src='https://www.googletagmanager.com/gtag/js?id=UA-113314068-1'></script>
@@ -149,7 +163,7 @@
   <div class='w3-container w3-small w3-theme-l1 '>
     <div class="top-marquee">
         <!-- $.Site.Params.marquee.marquee -->
-      <div><span>At <a href="mailto:info@example.com">info@example.com</a> vero eos et <strong>accusam</strong>
+      <div><span>At <a href="mailto:info@example.com" target="_blank">info@example.com</a> vero eos et <strong>accusam</strong>
 et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</span></div>
     </div>
   </div>
@@ -220,7 +234,7 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
   }
 </script>
 <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
+ 
     
   <!-- partials/header.nav.large_theme_color_selector.html -->
 
@@ -292,7 +306,8 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
     #large_theme_color_selector {display:none;}
   </style>
 </noscript>
- 
+
+
 
 </div> 
 <div class='w3-bar w3-hide-small w3-hide-large w3-theme-dark '>
@@ -340,7 +355,7 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
       <!-- range first $.Site.Params.menutopbar.numOfItemsIfMediumDisplay .Site.Menus.topbar.ByWeight -->
   <a href='https://github.com/it-gro/hugo-theme-w3css-basic' target="_blank" class="w3-bar-item w3-button w3-right header-nav-menu-topbar-medium" ><i class='fab fa-github'></i></a>
   <a href='#address' target="_blank" class="w3-bar-item w3-button w3-right header-nav-menu-topbar-medium" ><i class='fas fa-envelope'></i></a>
-  <a href='/hugo-theme-w3css-basic.github.io/search' target="_blank" class="w3-bar-item w3-button w3-right header-nav-menu-topbar-medium" ><i class='fas fa-search'></i></a>  
+  <a href='/hugo-theme-w3css-basic.github.io/search' target="_blank" class="w3-bar-item w3-button w3-right header-nav-menu-topbar-medium" ><i class='fas fa-search'></i></a>   
     
   <!-- partials/header.nav.medium.theme_color_selector.html -->
 
@@ -413,7 +428,8 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
     #medium_theme_color_selector {display:none;}
   </style>
 </noscript>
- 
+
+
 
 </div> 
 
@@ -544,7 +560,7 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
             Image Processing (<code>res-figure</code>)
             
 <span style="float:right;">
-<button id="btnback" class="taxonomy-button w3-btn" style="visibility:hidden;" onclick="javascript:history.back()"   ><i class="fas fa-step-backward"></i></button><button id="btnfrwd" class="taxonomy-button w3-btn" style="visibility:hidden;" onclick="javascript:history.forward()"><i class="fas fa-step-forward "></i></button>
+<button id="btnback" class="taxonomy-button w3-btn" style="visibility:hidden;" onclick="javascript:history.back()"   ><i class="fas fa-step-backward"></i></button>
 </span>
 
           </h1>
@@ -617,8 +633,8 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
         
         <p>Image page resources can be resized and cropped.
 This only works for
-<a href="https://gohugo.io/content-management/image-processing/#the-image-page-resource">images</a>
-which are <a href="https://gohugo.io/content-management/page-resources/">page
+<a href="https://gohugo.io/content-management/image-processing/#the-image-page-resource" target="_blank">images</a>
+which are <a href="https://gohugo.io/content-management/page-resources/" target="_blank">page
 resources</a>, not for images
 in the /static folder.
 This theme provides a shortcode <code>res-figure</code>  for page resource image processing.
@@ -627,11 +643,13 @@ This theme provides a shortcode <code>res-figure</code>  for page resource image
 <h1 id="demo-resize-150x">Demo /* Resize 150x</h1>
 
 <pre class="w3-code notranslate">
-{{&lt; res-figure &#34;img/pixabay/pixabay/*&#34; &#34;Resize&#34; &#34;150x&#34; &#34;%%I%%n%%F&#34; &gt;}}{{&lt; /res-figure / &gt;}}
+{{&lt; res-figure &#34;.&#34; &#34;img/pixabay/pixabay/*&#34; &#34;Resize&#34; &#34;150x&#34; &#34;%%I%%n%%F&#34; &gt;}}{{&lt; /res-figure / &gt;}}
 </pre>
 
 
-            
+
+
+               
 
   <figure class='res-figure no-photoswipe'  style="width: 150px;">
     <img src="/hugo-theme-w3css-basic.github.io/pages/showcase/image-processing-with-hugo/img/pixabay/humboldt-penguin-3064468_1920_hu9d3b45fa9c3ed3e2a78bf0776bf13498_834255_150x0_resize_q75_box.jpg"
@@ -737,8 +755,16 @@ This theme provides a shortcode <code>res-figure</code>  for page resource image
 
 <tbody>
 <tr>
-<td>match</td>
+<td>path</td>
 <td>0</td>
+<td>&rdquo;.&rdquo;</td>
+<td>path to resource page</td>
+<td></td>
+</tr>
+
+<tr>
+<td>match</td>
+<td>1</td>
 <td>*</td>
 <td>images</td>
 <td>in page resource</td>
@@ -746,7 +772,7 @@ This theme provides a shortcode <code>res-figure</code>  for page resource image
 
 <tr>
 <td>cmd</td>
-<td>1</td>
+<td>2</td>
 <td>Resize</td>
 <td>command</td>
 <td>Fill, Fit or Resize</td>
@@ -754,7 +780,7 @@ This theme provides a shortcode <code>res-figure</code>  for page resource image
 
 <tr>
 <td>opt</td>
-<td>2</td>
+<td>3</td>
 <td>300x</td>
 <td>options</td>
 <td>command options</td>
@@ -762,7 +788,7 @@ This theme provides a shortcode <code>res-figure</code>  for page resource image
 
 <tr>
 <td>cap</td>
-<td>3</td>
+<td>4</td>
 <td>%%N</td>
 <td>caption format</td>
 <td>see below</td>
@@ -851,22 +877,24 @@ This theme provides a shortcode <code>res-figure</code>  for page resource image
 
 <h2 id="image-processing-commands">Image processing commands</h2>
 
-<p>See <a href="https://gohugo.io/content-management/image-processing/">https://gohugo.io/content-management/image-processing/</a></p>
+<p>See <a href="https://gohugo.io/content-management/image-processing/" target="_blank">https://gohugo.io/content-management/image-processing/</a></p>
 
 <h1 id="showcase">Showcase</h1>
 
 <h2 id="demo-penguin-21">Demo /penguin-21*</h2>
 
 <pre class="w3-code notranslate">
-{{&lt; res-figure &#34;img/pixabay/penguin-21*&#34; /&gt;}} 
-{{&lt; res-figure &#34;img/pixabay/penguin-21*&#34; &#34;Fit&#34;  &#34;200x200&#34; /&gt;}} 
-{{&lt; res-figure &#34;img/pixabay/penguin-21*&#34; &#34;Fill&#34; &#34;200x200&#34; &#34;%%I%%n%%O%%n%%A&#34; /&gt;}} 
-{{&lt; res-figure match=&#34;img/pixabay/penguin-21*&#34; opt=&#34;100x&#34; cap=&#34;%%I%%n%%F&#34; /&gt;}} 
-{{&lt; res-figure match=&#34;**_/penguin-21&#34; cmd=&#34;Fill&#34; opt=&#34;150x200&#34; / &gt;}} 
+{{&lt; res-figure &#34;.&#34; &#34;img/pixabay/penguin-21*&#34; /&gt;}} 
+{{&lt; res-figure &#34;.&#34; &#34;img/pixabay/penguin-21*&#34; &#34;Fit&#34;  &#34;200x200&#34; /&gt;}} 
+{{&lt; res-figure &#34;.&#34; &#34;img/pixabay/penguin-21*&#34; &#34;Fill&#34; &#34;200x200&#34; &#34;%%I%%n%%O%%n%%A&#34; /&gt;}} 
+{{&lt; res-figure path=&#34;.&#34; match=&#34;img/pixabay/penguin-21*&#34; opt=&#34;100x&#34; cap=&#34;%%I%%n%%F&#34; /&gt;}} 
+{{&lt; res-figure path=&#34;.&#34; match=&#34;**_/penguin-21&#34; cmd=&#34;Fill&#34; opt=&#34;150x200&#34; / &gt;}} 
 </pre>
 
 
-<p>      
+<p>
+
+         
 
   <figure class='res-figure no-photoswipe'  style="width: 400px;">
     <img src="/hugo-theme-w3css-basic.github.io/pages/showcase/image-processing-with-hugo/img/pixabay/penguin-2104173_1920_hu83b593d3e71a64e0d6371de0254604f8_270606_400x0_resize_q75_box.jpg"
@@ -878,7 +906,9 @@ This theme provides a shortcode <code>res-figure</code>  for page resource image
     </figcaption>
   </figure> 
 
-          
+
+
+             
 
   <figure class='res-figure no-photoswipe'  style="width: 200px;">
     <img src="/hugo-theme-w3css-basic.github.io/pages/showcase/image-processing-with-hugo/img/pixabay/penguin-2104173_1920_hu83b593d3e71a64e0d6371de0254604f8_270606_200x200_fit_q75_box.jpg"
@@ -890,7 +920,9 @@ This theme provides a shortcode <code>res-figure</code>  for page resource image
     </figcaption>
   </figure> 
 
-            
+
+
+               
 
   <figure class='res-figure no-photoswipe'  style="width: 200px;">
     <img src="/hugo-theme-w3css-basic.github.io/pages/showcase/image-processing-with-hugo/img/pixabay/penguin-2104173_1920_hu83b593d3e71a64e0d6371de0254604f8_270606_200x200_fill_q75_box_smart1.jpg"
@@ -904,6 +936,8 @@ This theme provides a shortcode <code>res-figure</code>  for page resource image
 
 
 
+
+
   <figure class='res-figure no-photoswipe'  style="width: 100px;">
     <img src="/hugo-theme-w3css-basic.github.io/pages/showcase/image-processing-with-hugo/img/pixabay/penguin-2104173_1920_hu83b593d3e71a64e0d6371de0254604f8_270606_100x0_resize_q75_box.jpg"
          alt="penguin-2104173_1920.jpg"
@@ -913,6 +947,8 @@ This theme provides a shortcode <code>res-figure</code>  for page resource image
         Resize '100x'<br>penguin-2104173_1920.jpg
     </figcaption>
   </figure> 
+
+
 
 
 
@@ -929,13 +965,15 @@ This theme provides a shortcode <code>res-figure</code>  for page resource image
 <h2 id="demo-penguin-11">Demo /penguin-11*</h2>
 
 <pre class="w3-code notranslate">
-{{&lt; res-figure &#34;img/pixabay/penguin-11*&#34; /&gt;}} 
-{{&lt; res-figure &#34;img/pixabay/penguin-11*&#34; &#34;Fit&#34;  &#34;200x200&#34; /&gt;}} 
-{{&lt; res-figure &#34;img/pixabay/penguin-11*&#34; &#34;Fill&#34; &#34;200x200&#34; / &gt;}} 
+{{&lt; res-figure &#34;.&#34; &#34;img/pixabay/penguin-11*&#34; /&gt;}} 
+{{&lt; res-figure &#34;.&#34; &#34;img/pixabay/penguin-11*&#34; &#34;Fit&#34;  &#34;200x200&#34; /&gt;}} 
+{{&lt; res-figure &#34;.&#34; &#34;img/pixabay/penguin-11*&#34; &#34;Fill&#34; &#34;200x200&#34; / &gt;}} 
 </pre>
 
 
-<p>      
+<p>
+
+         
 
   <figure class='res-figure no-photoswipe'  style="width: 300px;">
     <img src="/hugo-theme-w3css-basic.github.io/pages/showcase/image-processing-with-hugo/img/pixabay/penguin-1196947_1920_huafee424069fb08c7e377a5eda1bd6ffe_499938_300x0_resize_q75_box.jpg"
@@ -947,7 +985,9 @@ This theme provides a shortcode <code>res-figure</code>  for page resource image
     </figcaption>
   </figure> 
 
-          
+
+
+             
 
   <figure class='res-figure no-photoswipe'  style="width: 200px;">
     <img src="/hugo-theme-w3css-basic.github.io/pages/showcase/image-processing-with-hugo/img/pixabay/penguin-1196947_1920_huafee424069fb08c7e377a5eda1bd6ffe_499938_200x200_fit_q75_box.jpg"
@@ -959,7 +999,9 @@ This theme provides a shortcode <code>res-figure</code>  for page resource image
     </figcaption>
   </figure> 
 
-          
+
+
+             
 
   <figure class='res-figure no-photoswipe'  style="width: 200px;">
     <img src="/hugo-theme-w3css-basic.github.io/pages/showcase/image-processing-with-hugo/img/pixabay/penguin-1196947_1920_huafee424069fb08c7e377a5eda1bd6ffe_499938_200x200_fill_q75_box_smart1.jpg"
@@ -974,13 +1016,15 @@ This theme provides a shortcode <code>res-figure</code>  for page resource image
 <h2 id="demo-penguin-27">Demo /penguin-27*</h2>
 
 <pre class="w3-code notranslate">
-{{&lt; res-figure &#34;img/pixabay/penguin-27*&#34; /&gt;}} 
-{{&lt; res-figure &#34;img/pixabay/penguin-27*&#34; &#34;Fit&#34;  &#34;200x200&#34; /&gt;}} 
-{{&lt; res-figure &#34;img/pixabay/penguin-27*&#34; &#34;Fill&#34; &#34;200x200&#34; / &gt;}} 
+{{&lt; res-figure &#34;.&#34; &#34;img/pixabay/penguin-27*&#34; /&gt;}} 
+{{&lt; res-figure &#34;.&#34; &#34;img/pixabay/penguin-27*&#34; &#34;Fit&#34;  &#34;200x200&#34; /&gt;}} 
+{{&lt; res-figure &#34;.&#34; &#34;img/pixabay/penguin-27*&#34; &#34;Fill&#34; &#34;200x200&#34; / &gt;}} 
 </pre>
 
 
-<p>      
+<p>
+
+         
 
   <figure class='res-figure no-photoswipe'  style="width: 300px;">
     <img src="/hugo-theme-w3css-basic.github.io/pages/showcase/image-processing-with-hugo/img/pixabay/penguin-2753282_1920_huc3c6aeeeab4bbb3e200154d931be4b5a_616373_300x0_resize_q75_box.jpg"
@@ -992,7 +1036,9 @@ This theme provides a shortcode <code>res-figure</code>  for page resource image
     </figcaption>
   </figure> 
 
-          
+
+
+             
 
   <figure class='res-figure no-photoswipe'  style="width: 200px;">
     <img src="/hugo-theme-w3css-basic.github.io/pages/showcase/image-processing-with-hugo/img/pixabay/penguin-2753282_1920_huc3c6aeeeab4bbb3e200154d931be4b5a_616373_200x200_fit_q75_box.jpg"
@@ -1004,7 +1050,9 @@ This theme provides a shortcode <code>res-figure</code>  for page resource image
     </figcaption>
   </figure> 
 
-          
+
+
+             
 
   <figure class='res-figure no-photoswipe'  style="width: 200px;">
     <img src="/hugo-theme-w3css-basic.github.io/pages/showcase/image-processing-with-hugo/img/pixabay/penguin-2753282_1920_huc3c6aeeeab4bbb3e200154d931be4b5a_616373_200x200_fill_q75_box_smart1.jpg"
@@ -1019,13 +1067,15 @@ This theme provides a shortcode <code>res-figure</code>  for page resource image
 <h2 id="demo-penguin-96">Demo /penguin-96*</h2>
 
 <pre class="w3-code notranslate">
-{{&lt; res-figure &#34;img/pixabay/penguin-96*&#34; /&gt;}} 
-{{&lt; res-figure &#34;img/pixabay/penguin-96*&#34; &#34;Fit&#34;  &#34;200x200&#34; /&gt;}} 
-{{&lt; res-figure &#34;img/pixabay/penguin-96*&#34; &#34;Fill&#34; &#34;200x200&#34; / &gt;}} 
+{{&lt; res-figure &#34;.&#34; &#34;img/pixabay/penguin-96*&#34; /&gt;}} 
+{{&lt; res-figure &#34;.&#34; &#34;img/pixabay/penguin-96*&#34; &#34;Fit&#34;  &#34;200x200&#34; /&gt;}} 
+{{&lt; res-figure &#34;.&#34; &#34;img/pixabay/penguin-96*&#34; &#34;Fill&#34; &#34;200x200&#34; / &gt;}} 
 </pre>
 
 
-<p>      
+<p>
+
+         
 
   <figure class='res-figure no-photoswipe'  style="width: 300px;">
     <img src="/hugo-theme-w3css-basic.github.io/pages/showcase/image-processing-with-hugo/img/pixabay/penguin-963703_1920_huff4de5d65a699f9e7e5f623938cb5fb6_567207_300x0_resize_q75_box.jpg"
@@ -1037,7 +1087,9 @@ This theme provides a shortcode <code>res-figure</code>  for page resource image
     </figcaption>
   </figure> 
 
-          
+
+
+             
 
   <figure class='res-figure no-photoswipe'  style="width: 200px;">
     <img src="/hugo-theme-w3css-basic.github.io/pages/showcase/image-processing-with-hugo/img/pixabay/penguin-963703_1920_huff4de5d65a699f9e7e5f623938cb5fb6_567207_200x200_fit_q75_box.jpg"
@@ -1049,7 +1101,9 @@ This theme provides a shortcode <code>res-figure</code>  for page resource image
     </figcaption>
   </figure> 
 
-          
+
+
+             
 
   <figure class='res-figure no-photoswipe'  style="width: 200px;">
     <img src="/hugo-theme-w3css-basic.github.io/pages/showcase/image-processing-with-hugo/img/pixabay/penguin-963703_1920_huff4de5d65a699f9e7e5f623938cb5fb6_567207_200x200_fill_q75_box_smart1.jpg"
@@ -1064,14 +1118,16 @@ This theme provides a shortcode <code>res-figure</code>  for page resource image
 <h2 id="demo-penguin-25">Demo /penguin-25*</h2>
 
 <pre class="w3-code notranslate">
-{{&lt; res-figure &#34;img/pixabay/penguin-25*&#34; /&gt;}} 
-{{&lt; res-figure &#34;img/pixabay/penguin-25*&#34; &#34;Fit&#34;  &#34;200x200&#34; /&gt;}} 
-{{&lt; res-figure &#34;img/pixabay/penguin-25*&#34; &#34;Fill&#34; &#34;200x200&#34; &#34;%%I%%n(smartcrop fails)&#34; /&gt;}} 
-{{&lt; res-figure &#34;img/pixabay/penguin-25*&#34; &#34;Fill&#34; &#34;200x200 left&#34; / &gt;}} 
+{{&lt; res-figure &#34;.&#34; &#34;img/pixabay/penguin-25*&#34; /&gt;}} 
+{{&lt; res-figure &#34;.&#34; &#34;img/pixabay/penguin-25*&#34; &#34;Fit&#34;  &#34;200x200&#34; /&gt;}} 
+{{&lt; res-figure &#34;.&#34; &#34;img/pixabay/penguin-25*&#34; &#34;Fill&#34; &#34;200x200&#34; &#34;%%I%%n(smartcrop fails)&#34; /&gt;}} 
+{{&lt; res-figure &#34;.&#34; &#34;img/pixabay/penguin-25*&#34; &#34;Fill&#34; &#34;200x200 left&#34; / &gt;}} 
 </pre>
 
 
-<p>      
+<p>
+
+         
 
   <figure class='res-figure no-photoswipe'  style="width: 300px;">
     <img src="/hugo-theme-w3css-basic.github.io/pages/showcase/image-processing-with-hugo/img/pixabay/penguin-2528615_1920_hu618b6995119867f072c1f228adcb0b9f_812179_300x0_resize_q75_box.jpg"
@@ -1083,7 +1139,9 @@ This theme provides a shortcode <code>res-figure</code>  for page resource image
     </figcaption>
   </figure> 
 
-          
+
+
+             
 
   <figure class='res-figure no-photoswipe'  style="width: 200px;">
     <img src="/hugo-theme-w3css-basic.github.io/pages/showcase/image-processing-with-hugo/img/pixabay/penguin-2528615_1920_hu618b6995119867f072c1f228adcb0b9f_812179_200x200_fit_q75_box.jpg"
@@ -1095,7 +1153,9 @@ This theme provides a shortcode <code>res-figure</code>  for page resource image
     </figcaption>
   </figure> 
 
-            
+
+
+               
 
   <figure class='res-figure no-photoswipe'  style="width: 200px;">
     <img src="/hugo-theme-w3css-basic.github.io/pages/showcase/image-processing-with-hugo/img/pixabay/penguin-2528615_1920_hu618b6995119867f072c1f228adcb0b9f_812179_200x200_fill_q75_box_smart1.jpg"
@@ -1107,7 +1167,9 @@ This theme provides a shortcode <code>res-figure</code>  for page resource image
     </figcaption>
   </figure> 
 
-          
+
+
+             
 
   <figure class='res-figure no-photoswipe'  style="width: 200px;">
     <img src="/hugo-theme-w3css-basic.github.io/pages/showcase/image-processing-with-hugo/img/pixabay/penguin-2528615_1920_hu618b6995119867f072c1f228adcb0b9f_812179_200x200_fill_q75_box_left.jpg"
@@ -1122,14 +1184,16 @@ This theme provides a shortcode <code>res-figure</code>  for page resource image
 <h2 id="demo-penguin-93">Demo /penguin-93*</h2>
 
 <pre class="w3-code notranslate">
-{{&lt; res-figure &#34;img/pixabay/penguin-93*&#34; /&gt;}} 
-{{&lt; res-figure &#34;img/pixabay/penguin-93*&#34; &#34;Fit&#34;  &#34;200x200&#34; /&gt;}} 
-{{&lt; res-figure &#34;img/pixabay/penguin-93*&#34; &#34;Fill&#34; &#34;200x200&#34; &#34;%%I%%n(smartcrop fails)&#34; /&gt;}} 
-{{&lt; res-figure &#34;img/pixabay/penguin-93*&#34; &#34;Fill&#34; &#34;200x200 right&#34; / &gt;}} 
+{{&lt; res-figure &#34;.&#34; &#34;img/pixabay/penguin-93*&#34; /&gt;}} 
+{{&lt; res-figure &#34;.&#34; &#34;img/pixabay/penguin-93*&#34; &#34;Fit&#34;  &#34;200x200&#34; /&gt;}} 
+{{&lt; res-figure &#34;.&#34; &#34;img/pixabay/penguin-93*&#34; &#34;Fill&#34; &#34;200x200&#34; &#34;%%I%%n(smartcrop fails)&#34; /&gt;}} 
+{{&lt; res-figure &#34;.&#34; &#34;img/pixabay/penguin-93*&#34; &#34;Fill&#34; &#34;200x200 right&#34; / &gt;}} 
 </pre>
 
 
-<p>      
+<p>
+
+         
 
   <figure class='res-figure no-photoswipe'  style="width: 300px;">
     <img src="/hugo-theme-w3css-basic.github.io/pages/showcase/image-processing-with-hugo/img/pixabay/penguin-935982_1920_hu45f0043981abecc7967c8df40864628a_863312_300x0_resize_q75_box.jpg"
@@ -1141,7 +1205,9 @@ This theme provides a shortcode <code>res-figure</code>  for page resource image
     </figcaption>
   </figure> 
 
-          
+
+
+             
 
   <figure class='res-figure no-photoswipe'  style="width: 200px;">
     <img src="/hugo-theme-w3css-basic.github.io/pages/showcase/image-processing-with-hugo/img/pixabay/penguin-935982_1920_hu45f0043981abecc7967c8df40864628a_863312_200x200_fit_q75_box.jpg"
@@ -1153,7 +1219,9 @@ This theme provides a shortcode <code>res-figure</code>  for page resource image
     </figcaption>
   </figure> 
 
-            
+
+
+               
 
   <figure class='res-figure no-photoswipe'  style="width: 200px;">
     <img src="/hugo-theme-w3css-basic.github.io/pages/showcase/image-processing-with-hugo/img/pixabay/penguin-935982_1920_hu45f0043981abecc7967c8df40864628a_863312_200x200_fill_q75_box_smart1.jpg"
@@ -1165,7 +1233,9 @@ This theme provides a shortcode <code>res-figure</code>  for page resource image
     </figcaption>
   </figure> 
 
-          
+
+
+             
 
   <figure class='res-figure no-photoswipe'  style="width: 200px;">
     <img src="/hugo-theme-w3css-basic.github.io/pages/showcase/image-processing-with-hugo/img/pixabay/penguin-935982_1920_hu45f0043981abecc7967c8df40864628a_863312_200x200_fill_q75_box_right.jpg"
@@ -1179,7 +1249,9 @@ This theme provides a shortcode <code>res-figure</code>  for page resource image
 
 <h2 id="demo-with-text">Demo with Text</h2>
 
-<p>Nullam eu ante vel est convallis dignissim.       
+<p>Nullam eu ante vel est convallis dignissim. 
+
+         
 
   <figure class='res-figure no-photoswipe'  style="width: 300px;">
     <img src="/hugo-theme-w3css-basic.github.io/pages/showcase/image-processing-with-hugo/img/pixabay/penguin-1196947_1920_huafee424069fb08c7e377a5eda1bd6ffe_499938_300x0_resize_q75_box.jpg"
@@ -1205,7 +1277,9 @@ non luctus diam neque sit amet urna.</p>
 <p>Curabitur vulputate vestibulum lorem. Fusce sagittis, libero non molestie
 mollis, magna orci ultrices dolor, at vulputate neque nulla lacinia eros. Sed
 id ligula quis est convallis tempor. Curabitur lacinia pulvinar nibh. Nam a
-sapien.       
+sapien. 
+
+         
 
   <figure class='res-figure no-photoswipe'  style="width: 300px;">
     <img src="/hugo-theme-w3css-basic.github.io/pages/showcase/image-processing-with-hugo/img/pixabay/penguin-2528615_1920_hu618b6995119867f072c1f228adcb0b9f_812179_300x0_resize_q75_box.jpg"
@@ -1224,7 +1298,9 @@ neque nulla lacinia eros.</p>
 
 <p>Pellentesque dapibus suscipit ligula. Donec posuere augue in quam. Etiam vel
 tortor sodales tellus ultricies commodo.
-      
+
+
+         
 
   <figure class='res-figure no-photoswipe'  style="width: 400px;">
     <img src="/hugo-theme-w3css-basic.github.io/pages/showcase/image-processing-with-hugo/img/pixabay/penguin-2104173_1920_hu83b593d3e71a64e0d6371de0254604f8_270606_400x0_resize_q75_box.jpg"
@@ -1242,7 +1318,9 @@ quam sed arcu. Phasellus at dui in ligula mollis ultricies. Integer placerat
 tristique nisl.</p>
 
 <ul>
-<li>Nunc porta vulputate tellus       
+<li>Nunc porta vulputate tellus 
+
+         
 
   <figure class='res-figure no-photoswipe'  style="width: 400px;">
     <img src="/hugo-theme-w3css-basic.github.io/pages/showcase/image-processing-with-hugo/img/pixabay/penguin-2104173_1920_hu83b593d3e71a64e0d6371de0254604f8_270606_400x0_resize_q75_box.jpg"
@@ -1254,7 +1332,9 @@ tristique nisl.</p>
     </figcaption>
   </figure> 
 </li>
-<li>Magna orci ultrices dolor       
+<li>Magna orci ultrices dolor 
+
+         
 
   <figure class='res-figure no-photoswipe'  style="width: 300px;">
     <img src="/hugo-theme-w3css-basic.github.io/pages/showcase/image-processing-with-hugo/img/pixabay/penguin-1196947_1920_huafee424069fb08c7e377a5eda1bd6ffe_499938_300x0_resize_q75_box.jpg"
@@ -1273,7 +1353,9 @@ mollis.</p>
 
 <ul>
 <li>Ibero non molestie mollis<br />
-      
+
+
+         
 
   <figure class='res-figure no-photoswipe'  style="width: 300px;">
     <img src="/hugo-theme-w3css-basic.github.io/pages/showcase/image-processing-with-hugo/img/pixabay/penguin-2528615_1920_hu618b6995119867f072c1f228adcb0b9f_812179_300x0_resize_q75_box.jpg"
@@ -1286,7 +1368,9 @@ mollis.</p>
   </figure> 
 </li>
 <li>Vulputate vestibulum lorem<br />
-      
+
+
+         
 
   <figure class='res-figure no-photoswipe'  style="width: 300px;">
     <img src="/hugo-theme-w3css-basic.github.io/pages/showcase/image-processing-with-hugo/img/pixabay/humboldt-penguin-3064468_1920_hu9d3b45fa9c3ed3e2a78bf0776bf13498_834255_300x0_resize_q75_box.jpg"
@@ -1306,7 +1390,9 @@ mollis.</p>
 tortor sodales tellus ultricies commodo. Suspendisse potenti. Aenean in sem ac
 leo mollis blandit.</p>
 
-      
+
+
+         
 
   <figure class='res-figure no-photoswipe'  style="width: 300px;">
     <img src="/hugo-theme-w3css-basic.github.io/pages/showcase/image-processing-with-hugo/img/pixabay/penguin-1196947_1920_huafee424069fb08c7e377a5eda1bd6ffe_499938_300x0_resize_q75_box.jpg"
@@ -1584,8 +1670,8 @@ consectetuer adipiscing</p>
 
 <p><strong>Switzerland</strong></p>
 </div><br/>
-      <a href='/hugo-theme-w3css-basic.github.io/contact' class='w3-button w3-theme-l4 '>Go to contact page</a>
-    </div> 
+      
+    </div>
 
   </div>  
 </div>  
@@ -1601,7 +1687,7 @@ consectetuer adipiscing</p>
   <div class="w3-cell w3-cell-middle">
     <div class="w3-right">
         <!-- $.Site.Params.bottomRight  -->
-      created with <a href="https://gohugo.io">Hugo 0.40.2</a>
+      created with <a href="https://gohugo.io" target="_blank">Hugo 0.40.2</a>
     </div> 
   </div>   
 
@@ -1632,7 +1718,6 @@ consectetuer adipiscing</p>
 
     <script>
       function onload(){
-         document.getElementById("btnfrwd").style.visibility="visible";
          document.getElementById("btnback").style.visibility="visible";
       }
     </script>

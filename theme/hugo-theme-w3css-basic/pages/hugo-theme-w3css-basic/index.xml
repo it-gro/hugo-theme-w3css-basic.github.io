@@ -32,7 +32,8 @@ This theme is for:
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/page-shortcodes/</guid>
       <description>You can extend Hugo’s built-in shortcodes by creating your own using the same templating syntax as that for single and list pages.
 Shortcodes are a means to consolidate templating into small, reusable snippets that you can embed directly inside of your content. In this sense, you can think of shortcodes as the intermediary between page and list templates and basic content files.
-https://gohugo.io/templates/shortcode-templates  Shortcodes in this Theme for W3.</description>
+https://gohugo.io/templates/shortcode-templates
+ Shortcodes in this Theme for W3.</description>
     </item>
     
   </channel>
