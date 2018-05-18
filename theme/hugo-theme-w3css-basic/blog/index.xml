@@ -37,7 +37,7 @@ vel velit tristique imperdiet. Donec at pede.&lt;/p&gt;
 From Hugo 0.28, the default syntax hightlighter in Hugo is Chroma; it
 is built in Go and is really, really fast – and for the most important
 parts compatible with Pygments.
-See &lt;a href=&#34;https://gohugo.io/content-management/syntax-highlighting&#34;&gt;https://gohugo.io/content-management/syntax-highlighting&lt;/a&gt; for more.&lt;/p&gt;
+See &lt;a href=&#34;https://gohugo.io/content-management/syntax-highlighting&#34; target=&#34;_blank&#34;&gt;https://gohugo.io/content-management/syntax-highlighting&lt;/a&gt; for more.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>

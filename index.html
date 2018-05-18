@@ -15,6 +15,20 @@
   <meta name="author"                content='anonymous' />
   <meta name="keywords"              content='foo, bar' />
   <meta name="description"           content='example site created with hugo using theme hugo-theme-w3css-basic' />
+  
+  <!-- partials/head.meta.og.html -->
+  <meta property="og:site_name"      content="W3.CSS Basic exampleSite" /> 
+  <meta property="og:title"          content="W3.CSS Basic exampleSite" /> 
+  
+  <meta property="og:url"            content="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/" /> 
+  <meta property="og:image"          content='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/images/favicons/apple-touch-icon.png' /> 
+
+  
+  <!-- partials/head.meta.twitter.html -->
+  <meta property="twitter:title"          content="W3.CSS Basic exampleSite" /> 
+  
+  <meta property="twitter:image"          content='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/images/favicons/apple-touch-icon.png' /> 
+
     
   <!-- partials/head.google.gtags.html -->
   <script async src='https://www.googletagmanager.com/gtag/js?id=UA-113314068-1'></script>
@@ -148,7 +162,7 @@
   <div class='w3-container w3-small w3-theme-l1 '>
     <div class="top-marquee">
         <!-- $.Site.Params.marquee.marquee -->
-      <div><span>At <a href="mailto:info@example.com">info@example.com</a> vero eos et <strong>accusam</strong>
+      <div><span>At <a href="mailto:info@example.com" target="_blank">info@example.com</a> vero eos et <strong>accusam</strong>
 et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</span></div>
     </div>
   </div>
@@ -203,7 +217,7 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
       <!-- range .Site.Menus.topbar.ByWeight -->
   <a href='https://github.com/it-gro/hugo-theme-w3css-basic' target="_blank" class="w3-bar-item w3-button w3-right" ><i class='fab fa-github'></i></a>
   <a href='#address' target="_blank" class="w3-bar-item w3-button w3-right" ><i class='fas fa-envelope'></i></a>
-  <a href='/hugo-theme-w3css-basic.github.io/search' target="_blank" class="w3-bar-item w3-button w3-right" ><i class='fas fa-search'></i></a>
+  <a href='/hugo-theme-w3css-basic.github.io/search' target="_blank" class="w3-bar-item w3-button w3-right" ><i class='fas fa-search'></i></a> 
     
   <!-- partials/header.nav.large_theme_color_selector.html -->
 
@@ -275,7 +289,8 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
     #large_theme_color_selector {display:none;}
   </style>
 </noscript>
- 
+
+
 
 </div> 
 <div class='w3-bar w3-hide-small w3-hide-large w3-theme-dark '>
@@ -323,7 +338,7 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
       <!-- range first $.Site.Params.menutopbar.numOfItemsIfMediumDisplay .Site.Menus.topbar.ByWeight -->
   <a href='https://github.com/it-gro/hugo-theme-w3css-basic' target="_blank" class="w3-bar-item w3-button w3-right header-nav-menu-topbar-medium" ><i class='fab fa-github'></i></a>
   <a href='#address' target="_blank" class="w3-bar-item w3-button w3-right header-nav-menu-topbar-medium" ><i class='fas fa-envelope'></i></a>
-  <a href='/hugo-theme-w3css-basic.github.io/search' target="_blank" class="w3-bar-item w3-button w3-right header-nav-menu-topbar-medium" ><i class='fas fa-search'></i></a>  
+  <a href='/hugo-theme-w3css-basic.github.io/search' target="_blank" class="w3-bar-item w3-button w3-right header-nav-menu-topbar-medium" ><i class='fas fa-search'></i></a>   
     
   <!-- partials/header.nav.medium.theme_color_selector.html -->
 
@@ -396,7 +411,8 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
     #medium_theme_color_selector {display:none;}
   </style>
 </noscript>
- 
+
+
 
 </div> 
 
@@ -582,7 +598,7 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
 <li>Fontawesome version 5</li>
 <li>Owl Carousel</li>
 <li>Animate.css</li>
-<li><a href="http://photoswipe.com/">PhotoSwipe</a> based <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/gallery-01/">Gallery</a> with image processing (resource)</li>
+<li><a href="http://photoswipe.com/" target="_blank">PhotoSwipe</a> based <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/gallery-01/" target="_blank">Gallery</a> with image processing (resource)</li>
 </ul>
 </div>
   </div>     
@@ -1402,7 +1418,7 @@ aliquam erat volutpat.<p>
 
 
       <div class="w3-right">
-        <div class="w3-large"> Kathryn Wild </div>
+        <div class="w3-large"> Kathryn Wild</div>
         <div class="w3-small"> Tiger, Zoo</div>
       </div> 
     </div>   
@@ -1640,8 +1656,8 @@ consectetuer adipiscing</p>
 
 <p><strong>Switzerland</strong></p>
 </div><br/>
-      <a href='/hugo-theme-w3css-basic.github.io/contact' class='w3-button w3-theme-l4 '>Go to contact page</a>
-    </div> 
+      
+    </div>
 
   </div>  
 </div>  
@@ -1658,7 +1674,7 @@ consectetuer adipiscing</p>
   <div class="w3-cell w3-cell-middle">
     <div class="w3-right">
         <!-- $.Site.Params.bottomRight  -->
-      created with <a href="https://gohugo.io">Hugo 0.40.2</a>
+      created with <a href="https://gohugo.io" target="_blank">Hugo 0.40.2</a>
     </div> 
   </div>   
 
