@@ -3762,7 +3762,7 @@ characters.&lt;/li&gt;
 But giving those informations to any third-party is not what the visitors expect by default.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Why should a third-party (disqus.com) know which blog articles I&amp;rsquo;v read (even without commenting) ?&lt;/li&gt;
+&lt;li&gt;Why should a third-party (disqus.com) know which blog articles I&amp;rsquo;ve read (even without commenting) ?&lt;/li&gt;
 &lt;li&gt;Why should a third-party (formspree.io) beeing able to read the visitors messages (contact form) ?&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -3786,7 +3786,7 @@ into the theme (&lt;code&gt;static/vendor/&lt;/code&gt;*).&lt;/p&gt;
 &lt;li&gt;review result e.g. with &lt;a href=&#34;https://addons.mozilla.org/en-GB/firefox/addon/lightbeam/&#34; target=&#34;_blank&#34;&gt;Firefox Lightbeam by Mozilla&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;All of the above ist done in &lt;code&gt;config.toml&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;All of the above is done in &lt;code&gt;config.toml&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;nx&#34;&gt;googleAnalytics&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;
 
 &lt;span class=&#34;c&#34;&gt;#[[menu.topbar]]&lt;/span&gt;
