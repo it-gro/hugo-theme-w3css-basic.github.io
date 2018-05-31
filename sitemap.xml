@@ -372,6 +372,11 @@
   </url>
   
   <url>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2000/05/31/m%C3%A4nner/</loc>
+    <lastmod>2000-05-31T17:32:27+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/1985/03/20/emacs-jokes/</loc>
     <lastmod>1985-03-20T20:00:00+01:00</lastmod>
   </url>
@@ -482,6 +487,12 @@
   <url>
     <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/hugo-basic-example/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/h%C3%A4/</loc>
+    <lastmod>2000-05-31T17:32:27+02:00</lastmod>
     <priority>0</priority>
   </url>
   
