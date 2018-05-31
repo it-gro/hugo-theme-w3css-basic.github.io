@@ -46,15 +46,17 @@ tristique imperdiet tortor. Nam euismod tellus id erat.&lt;/p&gt;
 
              
 
-  &lt;figure class=&#39;res-figure no-photoswipe&#39;  style=&#34;width: 150px;&#34;&gt;
-    &lt;img src=&#34;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog/2018/05/11/hugo-amet/hugo-lorem_hu77f397ba1b7f0f571a34fad927893059_94449_150x0_resize_box_2.png&#34;
-         alt=&#34;hugo-lorem.png&#34;
-         width=&#34;150&#34; height=&#34;150&#34;
-    &gt;
-    &lt;figcaption class=&#39;res-figcaption&#39;&gt;
-        hugo-lorem.png
-    &lt;/figcaption&gt;
-  &lt;/figure&gt; 
+
+
+    &lt;figure class=&#39;res-figure no-photoswipe&#39;  style=&#34;width: 150px;&#34;&gt;
+      &lt;img src=&#34;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog/2018/05/11/hugo-amet/hugo-lorem_hu77f397ba1b7f0f571a34fad927893059_94449_150x0_resize_box_2.png&#34;
+           alt=&#34;hugo-lorem.png&#34;
+           width=&#34;150&#34; height=&#34;150&#34;
+      &gt;
+      &lt;figcaption class=&#39;res-figcaption&#39;&gt;
+          hugo-lorem.png
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;  
 &lt;/p&gt;
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
@@ -272,478 +274,320 @@ Available styles are listed here: &lt;a href=&#34;https://help.farbox.com/pygmen
 
 &lt;p&gt;
 &lt;dl&gt;
-
 &lt;dt&gt;ABNF&lt;/dt&gt;
 &lt;dd&gt;abnf&lt;/dd&gt;
-
 &lt;dt&gt;ANTLR&lt;/dt&gt;
 &lt;dd&gt;antlr&lt;/dd&gt;
-
 &lt;dt&gt;APL&lt;/dt&gt;
 &lt;dd&gt;apl&lt;/dd&gt;
-
 &lt;dt&gt;ActionScript&lt;/dt&gt;
 &lt;dd&gt;actionscript, as&lt;/dd&gt;
-
 &lt;dt&gt;ActionScript 3&lt;/dt&gt;
 &lt;dd&gt;actionscript3, as, as3&lt;/dd&gt;
-
 &lt;dt&gt;Ada&lt;/dt&gt;
 &lt;dd&gt;ada, ada2005, ada95, adb, ads&lt;/dd&gt;
-
 &lt;dt&gt;Angular2&lt;/dt&gt;
 &lt;dd&gt;ng2&lt;/dd&gt;
-
 &lt;dt&gt;ApacheConf&lt;/dt&gt;
 &lt;dd&gt;aconf, apache, apacheconf, conf, htaccess&lt;/dd&gt;
-
 &lt;dt&gt;AppleScript&lt;/dt&gt;
 &lt;dd&gt;applescript&lt;/dd&gt;
-
 &lt;dt&gt;Awk&lt;/dt&gt;
 &lt;dd&gt;awk, gawk, mawk, nawk&lt;/dd&gt;
-
 &lt;dt&gt;BNF&lt;/dt&gt;
 &lt;dd&gt;bnf&lt;/dd&gt;
-
 &lt;dt&gt;Base Makefile&lt;/dt&gt;
 &lt;dd&gt;bsdmake, mak, make, makefile, mf, mk&lt;/dd&gt;
-
 &lt;dt&gt;Bash&lt;/dt&gt;
 &lt;dd&gt;bash, bashrc, ebuild, eclass, exheres-0, exlib, ksh, sh, shell, zsh, zshrc&lt;/dd&gt;
-
 &lt;dt&gt;Batchfile&lt;/dt&gt;
 &lt;dd&gt;bat, batch, cmd, dosbatch, winbatch&lt;/dd&gt;
-
 &lt;dt&gt;BlitzBasic&lt;/dt&gt;
 &lt;dd&gt;b3d, bb, blitzbasic, bplus, decls&lt;/dd&gt;
-
 &lt;dt&gt;Brainfuck&lt;/dt&gt;
 &lt;dd&gt;b, bf, brainfuck&lt;/dd&gt;
-
 &lt;dt&gt;C&lt;/dt&gt;
 &lt;dd&gt;c, h, idc&lt;/dd&gt;
-
 &lt;dt&gt;C#&lt;/dt&gt;
 &lt;dd&gt;c#, cs, csharp&lt;/dd&gt;
-
 &lt;dt&gt;C&amp;#43;&amp;#43;&lt;/dt&gt;
 &lt;dd&gt;C, CPP, H, c++, cc, cp, cpp, cxx, h++, hh, hpp, hxx&lt;/dd&gt;
-
 &lt;dt&gt;CFEngine3&lt;/dt&gt;
 &lt;dd&gt;cf, cf3, cfengine3&lt;/dd&gt;
-
 &lt;dt&gt;CMake&lt;/dt&gt;
 &lt;dd&gt;cmake, txt&lt;/dd&gt;
-
 &lt;dt&gt;COBOL&lt;/dt&gt;
 &lt;dd&gt;COB, CPY, cob, cobol, cpy&lt;/dd&gt;
-
 &lt;dt&gt;CSS&lt;/dt&gt;
 &lt;dd&gt;css&lt;/dd&gt;
-
 &lt;dt&gt;Cap&amp;#39;n Proto&lt;/dt&gt;
 &lt;dd&gt;capnp&lt;/dd&gt;
-
 &lt;dt&gt;Ceylon&lt;/dt&gt;
 &lt;dd&gt;ceylon&lt;/dd&gt;
-
 &lt;dt&gt;ChaiScript&lt;/dt&gt;
 &lt;dd&gt;chai, chaiscript&lt;/dd&gt;
-
 &lt;dt&gt;Cheetah&lt;/dt&gt;
 &lt;dd&gt;cheetah, spitfire, spt, tmpl&lt;/dd&gt;
-
 &lt;dt&gt;Clojure&lt;/dt&gt;
 &lt;dd&gt;clj, clojure&lt;/dd&gt;
-
 &lt;dt&gt;CoffeeScript&lt;/dt&gt;
 &lt;dd&gt;coffee, coffee-script, coffeescript&lt;/dd&gt;
-
 &lt;dt&gt;Common Lisp&lt;/dt&gt;
 &lt;dd&gt;cl, common-lisp, lisp&lt;/dd&gt;
-
 &lt;dt&gt;Coq&lt;/dt&gt;
 &lt;dd&gt;coq, v&lt;/dd&gt;
-
 &lt;dt&gt;Crystal&lt;/dt&gt;
 &lt;dd&gt;cr, crystal&lt;/dd&gt;
-
 &lt;dt&gt;Cython&lt;/dt&gt;
 &lt;dd&gt;cython, pxd, pxi, pyrex, pyx&lt;/dd&gt;
-
 &lt;dt&gt;DTD&lt;/dt&gt;
 &lt;dd&gt;dtd&lt;/dd&gt;
-
 &lt;dt&gt;Dart&lt;/dt&gt;
 &lt;dd&gt;dart&lt;/dd&gt;
-
 &lt;dt&gt;Diff&lt;/dt&gt;
 &lt;dd&gt;diff, patch, udiff&lt;/dd&gt;
-
 &lt;dt&gt;Django/Jinja&lt;/dt&gt;
 &lt;dd&gt;django, jinja&lt;/dd&gt;
-
 &lt;dt&gt;Docker&lt;/dt&gt;
 &lt;dd&gt;docker, dockerfile&lt;/dd&gt;
-
 &lt;dt&gt;EBNF&lt;/dt&gt;
 &lt;dd&gt;ebnf&lt;/dd&gt;
-
 &lt;dt&gt;Elixir&lt;/dt&gt;
 &lt;dd&gt;elixir, ex, exs&lt;/dd&gt;
-
 &lt;dt&gt;Elm&lt;/dt&gt;
 &lt;dd&gt;elm&lt;/dd&gt;
-
 &lt;dt&gt;EmacsLisp&lt;/dt&gt;
 &lt;dd&gt;el, elisp, emacs, emacs-lisp&lt;/dd&gt;
-
 &lt;dt&gt;Erlang&lt;/dt&gt;
 &lt;dd&gt;erl, erlang, es, escript, hrl&lt;/dd&gt;
-
 &lt;dt&gt;FSharp&lt;/dt&gt;
 &lt;dd&gt;fs, fsharp, fsi&lt;/dd&gt;
-
 &lt;dt&gt;Factor&lt;/dt&gt;
 &lt;dd&gt;factor&lt;/dd&gt;
-
 &lt;dt&gt;Fish&lt;/dt&gt;
 &lt;dd&gt;fish, fishshell, load&lt;/dd&gt;
-
 &lt;dt&gt;Forth&lt;/dt&gt;
 &lt;dd&gt;forth, frt, fs&lt;/dd&gt;
-
 &lt;dt&gt;Fortran&lt;/dt&gt;
 &lt;dd&gt;F03, F90, f03, f90, fortran&lt;/dd&gt;
-
 &lt;dt&gt;GAS&lt;/dt&gt;
 &lt;dd&gt;S, asm, gas, s&lt;/dd&gt;
-
 &lt;dt&gt;GDScript&lt;/dt&gt;
 &lt;dd&gt;gd, gdscript&lt;/dd&gt;
-
 &lt;dt&gt;GLSL&lt;/dt&gt;
 &lt;dd&gt;frag, geo, glsl, vert&lt;/dd&gt;
-
 &lt;dt&gt;Genshi&lt;/dt&gt;
 &lt;dd&gt;genshi, kid, xml+genshi, xml+kid&lt;/dd&gt;
-
 &lt;dt&gt;Genshi HTML&lt;/dt&gt;
 &lt;dd&gt;html+genshi, html+kid&lt;/dd&gt;
-
 &lt;dt&gt;Genshi Text&lt;/dt&gt;
 &lt;dd&gt;genshitext&lt;/dd&gt;
-
 &lt;dt&gt;Gnuplot&lt;/dt&gt;
 &lt;dd&gt;gnuplot, plot, plt&lt;/dd&gt;
-
 &lt;dt&gt;Go&lt;/dt&gt;
 &lt;dd&gt;go, golang&lt;/dd&gt;
-
 &lt;dt&gt;Go HTML Template&lt;/dt&gt;
 &lt;dd&gt;go-html-template&lt;/dd&gt;
-
 &lt;dt&gt;Go Text Template&lt;/dt&gt;
 &lt;dd&gt;go-text-template&lt;/dd&gt;
-
 &lt;dt&gt;Groovy&lt;/dt&gt;
 &lt;dd&gt;gradle, groovy&lt;/dd&gt;
-
 &lt;dt&gt;HTML&lt;/dt&gt;
 &lt;dd&gt;htm, html, xhtml, xslt&lt;/dd&gt;
-
 &lt;dt&gt;HTTP&lt;/dt&gt;
 &lt;dd&gt;http&lt;/dd&gt;
-
 &lt;dt&gt;Handlebars&lt;/dt&gt;
 &lt;dd&gt;handlebars&lt;/dd&gt;
-
 &lt;dt&gt;Haskell&lt;/dt&gt;
 &lt;dd&gt;haskell, hs&lt;/dd&gt;
-
 &lt;dt&gt;Haxe&lt;/dt&gt;
 &lt;dd&gt;haxe, hx, hxsl&lt;/dd&gt;
-
 &lt;dt&gt;Hexdump&lt;/dt&gt;
 &lt;dd&gt;hexdump&lt;/dd&gt;
-
 &lt;dt&gt;Hy&lt;/dt&gt;
 &lt;dd&gt;hy, hylang&lt;/dd&gt;
-
 &lt;dt&gt;INI&lt;/dt&gt;
 &lt;dd&gt;cfg, dosini, inf, ini&lt;/dd&gt;
-
 &lt;dt&gt;Idris&lt;/dt&gt;
 &lt;dd&gt;idr, idris&lt;/dd&gt;
-
 &lt;dt&gt;Io&lt;/dt&gt;
 &lt;dd&gt;io&lt;/dd&gt;
-
 &lt;dt&gt;JSON&lt;/dt&gt;
 &lt;dd&gt;json&lt;/dd&gt;
-
 &lt;dt&gt;JSX&lt;/dt&gt;
 &lt;dd&gt;jsx, react&lt;/dd&gt;
-
 &lt;dt&gt;Java&lt;/dt&gt;
 &lt;dd&gt;java&lt;/dd&gt;
-
 &lt;dt&gt;JavaScript&lt;/dt&gt;
 &lt;dd&gt;javascript, js, jsm&lt;/dd&gt;
-
 &lt;dt&gt;Julia&lt;/dt&gt;
 &lt;dd&gt;jl, julia&lt;/dd&gt;
-
 &lt;dt&gt;Kotlin&lt;/dt&gt;
 &lt;dd&gt;kotlin, kt&lt;/dd&gt;
-
 &lt;dt&gt;LLVM&lt;/dt&gt;
 &lt;dd&gt;ll, llvm&lt;/dd&gt;
-
 &lt;dt&gt;Lighttpd configuration file&lt;/dt&gt;
 &lt;dd&gt;lighttpd, lighty&lt;/dd&gt;
-
 &lt;dt&gt;Lua&lt;/dt&gt;
 &lt;dd&gt;lua, wlua&lt;/dd&gt;
-
 &lt;dt&gt;Mako&lt;/dt&gt;
 &lt;dd&gt;mako, mao&lt;/dd&gt;
-
 &lt;dt&gt;Mason&lt;/dt&gt;
 &lt;dd&gt;m, mason, mc, mhtml, mi&lt;/dd&gt;
-
 &lt;dt&gt;Mathematica&lt;/dt&gt;
 &lt;dd&gt;cdf, ma, mathematica, mma, nb, nbp&lt;/dd&gt;
-
 &lt;dt&gt;MiniZinc&lt;/dt&gt;
 &lt;dd&gt;MZN, dzn, fzn, minizinc, mzn&lt;/dd&gt;
-
 &lt;dt&gt;Modula-2&lt;/dt&gt;
 &lt;dd&gt;def, m2, mod, modula2&lt;/dd&gt;
-
 &lt;dt&gt;MorrowindScript&lt;/dt&gt;
 &lt;dd&gt;morrowind, mwscript&lt;/dd&gt;
-
 &lt;dt&gt;MySQL&lt;/dt&gt;
 &lt;dd&gt;mysql, sql&lt;/dd&gt;
-
 &lt;dt&gt;Myghty&lt;/dt&gt;
 &lt;dd&gt;myghty, myt&lt;/dd&gt;
-
 &lt;dt&gt;NASM&lt;/dt&gt;
 &lt;dd&gt;ASM, asm, nasm&lt;/dd&gt;
-
 &lt;dt&gt;Newspeak&lt;/dt&gt;
 &lt;dd&gt;newspeak, ns2&lt;/dd&gt;
-
 &lt;dt&gt;Nginx configuration file&lt;/dt&gt;
 &lt;dd&gt;conf, nginx&lt;/dd&gt;
-
 &lt;dt&gt;Nim&lt;/dt&gt;
 &lt;dd&gt;nim, nimrod&lt;/dd&gt;
-
 &lt;dt&gt;Nix&lt;/dt&gt;
 &lt;dd&gt;nix, nixos&lt;/dd&gt;
-
 &lt;dt&gt;OCaml&lt;/dt&gt;
 &lt;dd&gt;ml, mli, mll, mly, ocaml&lt;/dd&gt;
-
 &lt;dt&gt;Objective-C&lt;/dt&gt;
 &lt;dd&gt;h, m, obj-c, objc, objective-c, objectivec&lt;/dd&gt;
-
 &lt;dt&gt;Octave&lt;/dt&gt;
 &lt;dd&gt;m, octave&lt;/dd&gt;
-
 &lt;dt&gt;PHP&lt;/dt&gt;
 &lt;dd&gt;inc, php, php3, php4, php5, php[345]&lt;/dd&gt;
-
 &lt;dt&gt;PL/pgSQL&lt;/dt&gt;
 &lt;dd&gt;plpgsql&lt;/dd&gt;
-
 &lt;dt&gt;POVRay&lt;/dt&gt;
 &lt;dd&gt;inc, pov&lt;/dd&gt;
-
 &lt;dt&gt;PacmanConf&lt;/dt&gt;
 &lt;dd&gt;conf, pacmanconf&lt;/dd&gt;
-
 &lt;dt&gt;Perl&lt;/dt&gt;
 &lt;dd&gt;perl, pl, pm, t&lt;/dd&gt;
-
 &lt;dt&gt;Pig&lt;/dt&gt;
 &lt;dd&gt;pig&lt;/dd&gt;
-
 &lt;dt&gt;PkgConfig&lt;/dt&gt;
 &lt;dd&gt;pc, pkgconfig&lt;/dd&gt;
-
 &lt;dt&gt;PostScript&lt;/dt&gt;
 &lt;dd&gt;eps, postscr, postscript, ps&lt;/dd&gt;
-
 &lt;dt&gt;PostgreSQL SQL dialect&lt;/dt&gt;
 &lt;dd&gt;postgres, postgresql&lt;/dd&gt;
-
 &lt;dt&gt;PowerShell&lt;/dt&gt;
 &lt;dd&gt;posh, powershell, ps1, psm1&lt;/dd&gt;
-
 &lt;dt&gt;Prolog&lt;/dt&gt;
 &lt;dd&gt;ecl, pl, pro, prolog&lt;/dd&gt;
-
 &lt;dt&gt;Protocol Buffer&lt;/dt&gt;
 &lt;dd&gt;proto, protobuf&lt;/dd&gt;
-
 &lt;dt&gt;Puppet&lt;/dt&gt;
 &lt;dd&gt;pp, puppet&lt;/dd&gt;
-
 &lt;dt&gt;Python&lt;/dt&gt;
 &lt;dd&gt;py, python, pyw, sage, sc, tac&lt;/dd&gt;
-
 &lt;dt&gt;Python 3&lt;/dt&gt;
 &lt;dd&gt;py3, python3&lt;/dd&gt;
-
 &lt;dt&gt;QBasic&lt;/dt&gt;
 &lt;dd&gt;BAS, bas, basic, qbasic&lt;/dd&gt;
-
 &lt;dt&gt;R&lt;/dt&gt;
 &lt;dd&gt;R, Renviron, Rhistory, Rprofile, S, r, s, splus&lt;/dd&gt;
-
 &lt;dt&gt;Racket&lt;/dt&gt;
 &lt;dd&gt;racket, rkt, rktd, rktl&lt;/dd&gt;
-
 &lt;dt&gt;Ragel&lt;/dt&gt;
 &lt;dd&gt;ragel&lt;/dd&gt;
-
 &lt;dt&gt;Rexx&lt;/dt&gt;
 &lt;dd&gt;arexx, rex, rexx, rx&lt;/dd&gt;
-
 &lt;dt&gt;Ruby&lt;/dt&gt;
 &lt;dd&gt;duby, gemspec, rake, rb, rbw, rbx, ruby&lt;/dd&gt;
-
 &lt;dt&gt;Rust&lt;/dt&gt;
 &lt;dd&gt;in, rs, rust&lt;/dd&gt;
-
 &lt;dt&gt;SCSS&lt;/dt&gt;
 &lt;dd&gt;scss&lt;/dd&gt;
-
 &lt;dt&gt;SPARQL&lt;/dt&gt;
 &lt;dd&gt;rq, sparql&lt;/dd&gt;
-
 &lt;dt&gt;SQL&lt;/dt&gt;
 &lt;dd&gt;sql&lt;/dd&gt;
-
 &lt;dt&gt;Sass&lt;/dt&gt;
 &lt;dd&gt;sass&lt;/dd&gt;
-
 &lt;dt&gt;Scala&lt;/dt&gt;
 &lt;dd&gt;scala&lt;/dd&gt;
-
 &lt;dt&gt;Scheme&lt;/dt&gt;
 &lt;dd&gt;scheme, scm, ss&lt;/dd&gt;
-
 &lt;dt&gt;Scilab&lt;/dt&gt;
 &lt;dd&gt;sce, sci, scilab, tst&lt;/dd&gt;
-
 &lt;dt&gt;Smalltalk&lt;/dt&gt;
 &lt;dd&gt;smalltalk, squeak, st&lt;/dd&gt;
-
 &lt;dt&gt;Smarty&lt;/dt&gt;
 &lt;dd&gt;smarty, tpl&lt;/dd&gt;
-
 &lt;dt&gt;Snobol&lt;/dt&gt;
 &lt;dd&gt;snobol&lt;/dd&gt;
-
 &lt;dt&gt;Solidity&lt;/dt&gt;
 &lt;dd&gt;sol, solidity&lt;/dd&gt;
-
 &lt;dt&gt;SquidConf&lt;/dt&gt;
 &lt;dd&gt;conf, squid, squid.conf, squidconf&lt;/dd&gt;
-
 &lt;dt&gt;Swift&lt;/dt&gt;
 &lt;dd&gt;swift&lt;/dd&gt;
-
 &lt;dt&gt;TASM&lt;/dt&gt;
 &lt;dd&gt;ASM, asm, tasm&lt;/dd&gt;
-
 &lt;dt&gt;TOML&lt;/dt&gt;
 &lt;dd&gt;toml&lt;/dd&gt;
-
 &lt;dt&gt;Tcl&lt;/dt&gt;
 &lt;dd&gt;rvt, tcl&lt;/dd&gt;
-
 &lt;dt&gt;Tcsh&lt;/dt&gt;
 &lt;dd&gt;csh, tcsh&lt;/dd&gt;
-
 &lt;dt&gt;TeX&lt;/dt&gt;
 &lt;dd&gt;aux, latex, tex, toc&lt;/dd&gt;
-
 &lt;dt&gt;Termcap&lt;/dt&gt;
 &lt;dd&gt;src, termcap&lt;/dd&gt;
-
 &lt;dt&gt;Terminfo&lt;/dt&gt;
 &lt;dd&gt;src, terminfo&lt;/dd&gt;
-
 &lt;dt&gt;Terraform&lt;/dt&gt;
 &lt;dd&gt;terraform, tf&lt;/dd&gt;
-
 &lt;dt&gt;Thrift&lt;/dt&gt;
 &lt;dd&gt;thrift&lt;/dd&gt;
-
 &lt;dt&gt;Transact-SQL&lt;/dt&gt;
 &lt;dd&gt;t-sql, tsql&lt;/dd&gt;
-
 &lt;dt&gt;Turtle&lt;/dt&gt;
 &lt;dd&gt;ttl, turtle&lt;/dd&gt;
-
 &lt;dt&gt;Twig&lt;/dt&gt;
 &lt;dd&gt;twig&lt;/dd&gt;
-
 &lt;dt&gt;TypeScript&lt;/dt&gt;
 &lt;dd&gt;ts, tsx, typescript&lt;/dd&gt;
-
 &lt;dt&gt;TypoScript&lt;/dt&gt;
 &lt;dd&gt;ts, txt, typoscript&lt;/dd&gt;
-
 &lt;dt&gt;TypoScriptCssData&lt;/dt&gt;
 &lt;dd&gt;typoscriptcssdata&lt;/dd&gt;
-
 &lt;dt&gt;TypoScriptHtmlData&lt;/dt&gt;
 &lt;dd&gt;typoscripthtmldata&lt;/dd&gt;
-
 &lt;dt&gt;VHDL&lt;/dt&gt;
 &lt;dd&gt;vhd, vhdl&lt;/dd&gt;
-
 &lt;dt&gt;VimL&lt;/dt&gt;
 &lt;dd&gt;exrc, gvimrc, vim, vimrc&lt;/dd&gt;
-
 &lt;dt&gt;WDTE&lt;/dt&gt;
 &lt;dd&gt;wdte&lt;/dd&gt;
-
 &lt;dt&gt;XML&lt;/dt&gt;
 &lt;dd&gt;rss, svg, wsdl, wsf, xml, xsd, xsl, xslt&lt;/dd&gt;
-
 &lt;dt&gt;Xorg&lt;/dt&gt;
 &lt;dd&gt;conf, xorg.conf&lt;/dd&gt;
-
 &lt;dt&gt;YAML&lt;/dt&gt;
 &lt;dd&gt;yaml, yml&lt;/dd&gt;
-
 &lt;dt&gt;cfstatement&lt;/dt&gt;
 &lt;dd&gt;cfs&lt;/dd&gt;
-
 &lt;dt&gt;markdown&lt;/dt&gt;
 &lt;dd&gt;markdown, md, mkd&lt;/dd&gt;
-
 &lt;dt&gt;reStructuredText&lt;/dt&gt;
 &lt;dd&gt;rest, restructuredtext, rst&lt;/dd&gt;
-
 &lt;dt&gt;reg&lt;/dt&gt;
 &lt;dd&gt;reg, registry&lt;/dd&gt;
-
 &lt;dt&gt;systemverilog&lt;/dt&gt;
 &lt;dd&gt;sv, svh, systemverilog&lt;/dd&gt;
-
 &lt;dt&gt;verilog&lt;/dt&gt;
 &lt;dd&gt;v, verilog&lt;/dd&gt;
-
 &lt;/dl&gt;
 &lt;/p&gt;
 
@@ -2245,8 +2089,10 @@ the language modifying the following key.&lt;/p&gt;
   &lt;span class=&#34;c&#34;&gt;# used in layouts/partials/front.photocards.html&lt;/span&gt;
   &lt;span class=&#34;c&#34;&gt;# enable or disable photocards on frontpage&lt;/span&gt;
   &lt;span class=&#34;c&#34;&gt;# see some examples in &amp;#39;exampleSite/data/photocards&amp;#39;&lt;/span&gt;
-  &lt;span class=&#34;nx&#34;&gt;enable&lt;/span&gt;   &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;
-  &lt;span class=&#34;nx&#34;&gt;animate&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;span class=&#34;nx&#34;&gt;enable&lt;/span&gt;        &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;animate&lt;/span&gt;       &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;resImgCmd&lt;/span&gt;     &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Resize&amp;#34;&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;resImgCmdOpt&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;300x&amp;#34;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;Front photocards&lt;/li&gt;
 &lt;/ul&gt;
@@ -2381,9 +2227,13 @@ the language modifying the following key.&lt;/p&gt;
   &lt;span class=&#34;c&#34;&gt;# used in layouts/partials/front.clients.carousel.html&lt;/span&gt;
   &lt;span class=&#34;c&#34;&gt;# enable or disable clients on frontpage&lt;/span&gt;
   &lt;span class=&#34;c&#34;&gt;# see some examples in &amp;#39;exampleSite/data/clients&amp;#39;&lt;/span&gt;
-  &lt;span class=&#34;nx&#34;&gt;enable&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;
-  &lt;span class=&#34;nx&#34;&gt;title&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Our Clients&amp;#34;&lt;/span&gt;
-  &lt;span class=&#34;nx&#34;&gt;subtitle&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;&amp;#39;&amp;#39;
+  &lt;span class=&#34;nx&#34;&gt;enable&lt;/span&gt;        &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;resImgCmd&lt;/span&gt;     &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Resize&amp;#34;&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;resImgCmdOpt&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;100x&amp;#34;&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;imgMaxWidth&lt;/span&gt;   &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;100px&amp;#34;&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;imgMaxHeight&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;100px&amp;#34;&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;title&lt;/span&gt;         &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Our Clients&amp;#34;&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;subtitle&lt;/span&gt;      &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;&amp;#39;&amp;#39;
 &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
 &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;**molestie consequat**, vel illum dolore.
 &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;             &amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -2961,18 +2811,25 @@ best with any of 3, 6, 9, 12.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;menuConfig&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
   &lt;span class=&#34;c&#34;&gt;# used in layouts/partials/header.nav.html&lt;/span&gt;
   &lt;span class=&#34;c&#34;&gt;# if set =&amp;gt; change menu entry on small displays to lowercase maxChars &lt;/span&gt;
-  &lt;span class=&#34;nx&#34;&gt;smallDispMenuMaxChars&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;smallDispMenuMaxChars&lt;/span&gt;     &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;smallDispMenuCollapse&lt;/span&gt;     &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;smallDispMenuCollapseIcon&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;fas fa-caret-square-down&amp;#34;&lt;/span&gt;
 
 &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;menuTopBar&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
   &lt;span class=&#34;c&#34;&gt;# used in layouts/partials/header.nav.html&lt;/span&gt;
   &lt;span class=&#34;c&#34;&gt;# enable or disable menu.topbar with social icons (right aligned)&lt;/span&gt;
-  &lt;span class=&#34;nx&#34;&gt;socialEnable&lt;/span&gt;             &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;
-  &lt;span class=&#34;nx&#34;&gt;numOfItemsIfSmallDisplay&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;socialEnable&lt;/span&gt;                      &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;numOfItemsIfSmallDisplay&lt;/span&gt;          &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;numOfItemsIfMediumDisplay&lt;/span&gt;         &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;numOfItemsIfSmallDisplayCollapsed&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;6&lt;/span&gt;
 
   &lt;span class=&#34;c&#34;&gt;# used in layouts/partials/header.nav.html&lt;/span&gt;
   &lt;span class=&#34;c&#34;&gt;#         layouts/partials/header.nav.google.translate.html&lt;/span&gt;
   &lt;span class=&#34;nx&#34;&gt;googleTranslateEnable&lt;/span&gt;    &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;
-  &lt;span class=&#34;nx&#34;&gt;googleTranslateShowOnHome&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;span class=&#34;nx&#34;&gt;googleTranslateShowOnHome&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;
+  
+  &lt;span class=&#34;nx&#34;&gt;themeColorSelectorEnable&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;
+  &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3 id=&#34;fonts&#34;&gt;Fonts&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
   &lt;span class=&#34;c&#34;&gt;# used in layouts/partials/head.html&lt;/span&gt;

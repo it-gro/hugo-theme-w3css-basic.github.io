@@ -94,16 +94,16 @@
 
     
   <!-- partials/head.fonts.googleapis.html -->
-  <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Ubuntu|Creepster|Days+One|Ubuntu+Mono' />
+  <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Ubuntu|Creepster|Signika|Ubuntu+Mono' />
   <style> html {font-family: 'Ubuntu', sans-serif; } </style>
   <style> body {font-family: 'Ubuntu', sans-serif; } </style>
   <style> time {font-family: 'Creepster', cursive; } </style>
-  <style> h1 {font-family: 'Days One', sans-serif; } </style>
-  <style> h2 {font-family: 'Days One', sans-serif; } </style>
-  <style> h3 {font-family: 'Days One', sans-serif; } </style>
-  <style> h4 {font-family: 'Days One', sans-serif; } </style>
-  <style> h5 {font-family: 'Days One', sans-serif; } </style>
-  <style> h6 {font-family: 'Days One', sans-serif; } </style>
+  <style> h1 {font-family: 'Signika', sans-serif; } </style>
+  <style> h2 {font-family: 'Signika', sans-serif; } </style>
+  <style> h3 {font-family: 'Signika', sans-serif; } </style>
+  <style> h4 {font-family: 'Signika', sans-serif; } </style>
+  <style> h5 {font-family: 'Signika', sans-serif; } </style>
+  <style> h6 {font-family: 'Signika', sans-serif; } </style>
   <style> pre {font-family: 'Ubuntu Mono', monospace; } </style>
   <style> code {font-family: 'Ubuntu Mono', monospace; } </style>
   <style> kbd {font-family: 'Ubuntu Mono', monospace; } </style>
@@ -390,7 +390,7 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
       </header>
       <div id="canvas" class='w3-container w3-theme-l4 '>
         <!-- block headline _default/baseof.html  -->
-          <h1 class='w3-panel w3-theme-l2 '>
+          <h1 class='w3-panel w3-theme-l2 '><i class='fas fa-code fa-1x'></i>
             This Theme Shortcodes
             
 <span style="float:right;">
@@ -463,14 +463,14 @@ et justo duo dolores et ea rebum. Stet clita <em>kasd gubergren</em>, no sea</sp
 <li><a href="#cscb">cscb</a></li>
 <li><a href="#page-resources">Page Resources</a>
 <ul>
-<li><a href="#res-figure">res-figure</a>
-<ul>
-<li><a href="#parameters">Parameters</a></li>
-<li><a href="#caption-format">Caption format</a></li>
-</ul></li>
 <li><a href="#res-attach">res-attach</a>
 <ul>
+<li><a href="#parameters">Parameters</a></li>
+</ul></li>
+<li><a href="#res-figure">res-figure</a>
+<ul>
 <li><a href="#parameters-1">Parameters</a></li>
+<li><a href="#caption-format">Caption format</a></li>
 </ul></li>
 <li><a href="#res-gallery">res-gallery</a>
 <ul>
@@ -1213,18 +1213,86 @@ static/css/syntax/syntax.bw.css
 
 <h2 id="page-resources">Page Resources</h2>
 
+<h3 id="res-attach">res-attach</h3>
+
+<ul>
+<li>See <a href="https://gohugo.io/content-management/page-resources/" target="_blank">https://gohugo.io/content-management/page-resources/</a></li>
+<li>See <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/attach-page-resources/" target="_blank">Attachments via Hugo Page Resources</a> for more information</li>
+</ul>
+
+<pre class="w3-code notranslate">
+{{&lt; res-attach &gt;}}
+</pre>
+
+
+   
+  <span class='fas fa-paperclip' aria-hidden='true'></span>&nbsp;
+Attachments
+<ul class=" " >
+  
+
+  <li>
+  <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/page-shortcodes/pdf/FooBar.pdf"><span class='far file-pdf' aria-hidden='true'></span>&nbsp;pdf/FooBar.pdf</a>
+  </li>  
+
+  <li>
+  <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/page-shortcodes/pdf/HelloWorld.pdf"><span class='far file-pdf' aria-hidden='true'></span>&nbsp;pdf/HelloWorld.pdf</a>
+  </li> 
+</ul>
+
+
+<h4 id="parameters">Parameters</h4>
+
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Position -1</th>
+<th>Default</th>
+<th>What</th>
+<th>Remark</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>match</td>
+<td>0</td>
+<td>**</td>
+<td>glob</td>
+<td>only resources of type application</td>
+</tr>
+
+<tr>
+<td>label</td>
+<td>1</td>
+<td>Attachments</td>
+<td>label</td>
+<td>piped into i18n</td>
+</tr>
+
+<tr>
+<td>icon</td>
+<td>2</td>
+<td>fas fa-paperclip</td>
+<td>label icon</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
 <h3 id="res-figure">res-figure</h3>
 
 <ul>
-<li>See <a href="https://gohugo.io/content-management/image-processing/" target="_blank">https://gohugo.io/content-management/image-processing/</a></li>
-<li>inspired by layouts/shortcodes/imgproc.html</li>
+<li>See <a href="https://gohugo.io/content-management/image-processing/" target="_blank">https://gohugo.io/content-management/image-processing/</a><br />
+inspired by layouts/shortcodes/imgproc.html</li>
 <li>See <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/image-processing-with-hugo/" target="_blank">Hugo image processing (res-figure)</a> for more information</li>
 </ul>
 
 <pre class="w3-code notranslate">
 {{&lt; res-figure &#34;.&#34; &#34;img/pixabay.com/penguin-21*&#34; /&gt;}} 
 {{&lt; res-figure &#34;.&#34; &#34;img/pixabay.com/penguin-21*&#34; &#34;Fit&#34;  &#34;200x200&#34; /&gt;}} 
-{{&lt; res-figure &#34;.&#34; &#34;img/pixabay.com/penguin-21*&#34; &#34;Fill&#34; &#34;200x200&#34; / &gt;}} 
+{{&lt; res-figure &#34;.&#34; &#34;img/pixabay.com/penguin-21*&#34; &#34;Fill&#34; &#34;200x200&#34; /&gt;}} 
 </pre>
 
 
@@ -1232,43 +1300,49 @@ static/css/syntax/syntax.bw.css
 
          
 
-  <figure class='res-figure no-photoswipe'  style="width: 300px;">
-    <img src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/page-shortcodes/img/pixabay.com/penguin-2104173_1920_hu83b593d3e71a64e0d6371de0254604f8_270606_300x0_resize_q75_box.jpg"
-         alt="penguin-2104173_1920.jpg"
-         width="300" height="200"
-    >
-    <figcaption class='res-figcaption'>
-        Resize '300x'<br>penguin-2104173_1920<br><a href='https://pixabay.com' target='_blank'>pixabay.com</a><br><a href='https://pixabay.com/en/service/terms/#usage' target='_blank'>Creative Commons CC0</a>
-    </figcaption>
-  </figure> 
+
+
+    <figure class='res-figure no-photoswipe'  style="width: 300px;">
+      <img src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/page-shortcodes/img/pixabay.com/penguin-2104173_1920_hu83b593d3e71a64e0d6371de0254604f8_270606_300x0_resize_q75_box.jpg"
+           alt="penguin-2104173_1920.jpg"
+           width="300" height="200"
+      >
+      <figcaption class='res-figcaption'>
+          Resize '300x'<br>penguin-2104173_1920<br><a href='https://pixabay.com' target='_blank'>pixabay.com</a><br><a href='https://pixabay.com/en/service/terms/#usage' target='_blank'>Creative Commons CC0</a>
+      </figcaption>
+    </figure>  
 
 
 
              
 
-  <figure class='res-figure no-photoswipe'  style="width: 200px;">
-    <img src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/page-shortcodes/img/pixabay.com/penguin-2104173_1920_hu83b593d3e71a64e0d6371de0254604f8_270606_200x200_fit_q75_box.jpg"
-         alt="penguin-2104173_1920.jpg"
-         width="200" height="133"
-    >
-    <figcaption class='res-figcaption'>
-        Fit '200x200'<br>penguin-2104173_1920<br><a href='https://pixabay.com' target='_blank'>pixabay.com</a><br><a href='https://pixabay.com/en/service/terms/#usage' target='_blank'>Creative Commons CC0</a>
-    </figcaption>
-  </figure> 
+
+
+    <figure class='res-figure no-photoswipe'  style="width: 200px;">
+      <img src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/page-shortcodes/img/pixabay.com/penguin-2104173_1920_hu83b593d3e71a64e0d6371de0254604f8_270606_200x200_fit_q75_box.jpg"
+           alt="penguin-2104173_1920.jpg"
+           width="200" height="133"
+      >
+      <figcaption class='res-figcaption'>
+          Fit '200x200'<br>penguin-2104173_1920<br><a href='https://pixabay.com' target='_blank'>pixabay.com</a><br><a href='https://pixabay.com/en/service/terms/#usage' target='_blank'>Creative Commons CC0</a>
+      </figcaption>
+    </figure>  
 
 
 
              
 
-  <figure class='res-figure no-photoswipe'  style="width: 200px;">
-    <img src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/page-shortcodes/img/pixabay.com/penguin-2104173_1920_hu83b593d3e71a64e0d6371de0254604f8_270606_200x200_fill_q75_box_smart1.jpg"
-         alt="penguin-2104173_1920.jpg"
-         width="200" height="200"
-    >
-    <figcaption class='res-figcaption'>
-        Fill '200x200'<br>penguin-2104173_1920<br><a href='https://pixabay.com' target='_blank'>pixabay.com</a><br><a href='https://pixabay.com/en/service/terms/#usage' target='_blank'>Creative Commons CC0</a>
-    </figcaption>
-  </figure>
+
+
+    <figure class='res-figure no-photoswipe'  style="width: 200px;">
+      <img src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/page-shortcodes/img/pixabay.com/penguin-2104173_1920_hu83b593d3e71a64e0d6371de0254604f8_270606_200x200_fill_q75_box_smart1.jpg"
+           alt="penguin-2104173_1920.jpg"
+           width="200" height="200"
+      >
+      <figcaption class='res-figcaption'>
+          Fill '200x200'<br>penguin-2104173_1920<br><a href='https://pixabay.com' target='_blank'>pixabay.com</a><br><a href='https://pixabay.com/en/service/terms/#usage' target='_blank'>Creative Commons CC0</a>
+      </figcaption>
+    </figure>
 <div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml">resources<span class="p">:</span><span class="w">
 </span><span class="w">  </span>-<span class="w"> </span>src<span class="p">:</span><span class="w">           </span>img/pixabay/<span class="cp">*.jpg</span><span class="w">
 </span><span class="w">    </span>params<span class="p">:</span><span class="w">
@@ -1284,7 +1358,7 @@ static/css/syntax/syntax.bw.css
 </span><span class="w">      </span>imgcmd<span class="p">:</span><span class="w">      </span>Resize<span class="w">
 </span><span class="w">      </span>imgopt<span class="p">:</span><span class="w">      </span>400x<span class="w">
 </span><span class="w">      </span></code></pre></div>
-<h4 id="parameters">Parameters</h4>
+<h4 id="parameters-1">Parameters</h4>
 
 <table>
 <thead>
@@ -1403,79 +1477,11 @@ static/css/syntax/syntax.bw.css
 </tbody>
 </table>
 
-<h3 id="res-attach">res-attach</h3>
-
-<ul>
-<li>See <a href="https://gohugo.io/content-management/page-resources/" target="_blank">https://gohugo.io/content-management/page-resources/</a></li>
-<li>See <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/attach-page-resources/" target="_blank">Attachments via Hugo Page Resources</a> for more information</li>
-</ul>
-
-<pre class="w3-code notranslate">
-{{&lt; res-attach &gt;}}
-</pre>
-
-
-   
-  <span class='fas fa-paperclip' aria-hidden='true'></span>&nbsp;
-Attachments
-<ul class=" " >
-  
-
-  <li>
-  <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/page-shortcodes/pdf/FooBar.pdf"><span class='far file-pdf' aria-hidden='true'></span>&nbsp;pdf/FooBar.pdf</a>
-  </li>  
-
-  <li>
-  <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/page-shortcodes/pdf/HelloWorld.pdf"><span class='far file-pdf' aria-hidden='true'></span>&nbsp;pdf/HelloWorld.pdf</a>
-  </li> 
-</ul>
-
-
-<h4 id="parameters-1">Parameters</h4>
-
-<table>
-<thead>
-<tr>
-<th>Argument</th>
-<th>Position -1</th>
-<th>Default</th>
-<th>What</th>
-<th>Remark</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>match</td>
-<td>0</td>
-<td>**</td>
-<td>glob</td>
-<td>only resources of type application</td>
-</tr>
-
-<tr>
-<td>label</td>
-<td>1</td>
-<td>Attachments</td>
-<td>label</td>
-<td>piped into i18n</td>
-</tr>
-
-<tr>
-<td>icon</td>
-<td>2</td>
-<td>fas fa-paperclip</td>
-<td>label icon</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-
 <h3 id="res-gallery">res-gallery</h3>
 
 <ul>
 <li>inspired by <a href="https://www.liwen.id.au/heg/" target="_blank">Hugo Easy Gallery</a></li>
-<li>but uses page resources and image processing</li>
+<li>uses page resources and image processing</li>
 </ul>
 
 <div class="highlight"><pre class="chroma"><code class="language-nolan" data-lang="nolan">{{&lt; res-gallery-load-photoswipe &gt;}}
@@ -1536,21 +1542,21 @@ Attachments
        itemscope itemtype="http://schema.org/ImageGallery" >
     <figure class="img"
             data-size='800x450'
-            data-caption='golang-a-closer-look.png'
+            data-caption='Golang a closer look&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
             itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
             title="teaserpics/gohugo.io/golang-a-closer-look.png"
     >
       <a itemprop="contentUrl" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/golang-a-closer-look_hu3e2936e23f25753c1c25ae767165a55e_42013_800x0_resize_box_2.png' >
         <img itemprop="thumbnail"
              src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/golang-a-closer-look_hu3e2936e23f25753c1c25ae767165a55e_42013_120x120_fit_box_2.png'
-             alt='golang-a-closer-look.png'
+             alt='Golang a closer look&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
              width='120'  height='67'
         />
       </a>
       <meta itemprop="width"  content='800'>
       <meta itemprop="height" content='450'>
       <figcaption class="res-gallery-figcaption " itemprop="caption description" >
-        <small>Golang a closer look</small>
+        <small>github.com/gohugoio<br/><a href='https://github.com/gohugoio/hugo/blob/master/LICENSE' target='_blank'>Apache-2.0</a></small>
       </figcaption>
     </figure>
   </div> 
@@ -1561,21 +1567,21 @@ Attachments
        itemscope itemtype="http://schema.org/ImageGallery" >
     <figure class="img"
             data-size='800x400'
-            data-caption='hugo-dolor.png'
+            data-caption='Hugo dolor&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
             itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
             title="teaserpics/gohugo.io/hugo-dolor.png"
     >
       <a itemprop="contentUrl" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_800x0_resize_box_2.png' >
         <img itemprop="thumbnail"
              src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_120x120_fit_box_2.png'
-             alt='hugo-dolor.png'
+             alt='Hugo dolor&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
              width='120'  height='60'
         />
       </a>
       <meta itemprop="width"  content='800'>
       <meta itemprop="height" content='400'>
       <figcaption class="res-gallery-figcaption " itemprop="caption description" >
-        <small>Hugo dolor</small>
+        <small>github.com/gohugoio<br/><a href='https://github.com/gohugoio/hugo/blob/master/LICENSE' target='_blank'>Apache-2.0</a></small>
       </figcaption>
     </figure>
   </div> 
@@ -1586,21 +1592,21 @@ Attachments
        itemscope itemtype="http://schema.org/ImageGallery" >
     <figure class="img"
             data-size='800x400'
-            data-caption='hugo-ipsum.png'
+            data-caption='Hugo ipsum&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
             itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
             title="teaserpics/gohugo.io/hugo-ipsum.png"
     >
       <a itemprop="contentUrl" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-ipsum_hu4bb3d9e9bcf5cb42154f6d8c89189ff3_242267_800x0_resize_box_2.png' >
         <img itemprop="thumbnail"
              src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-ipsum_hu4bb3d9e9bcf5cb42154f6d8c89189ff3_242267_120x120_fit_box_2.png'
-             alt='hugo-ipsum.png'
+             alt='Hugo ipsum&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
              width='120'  height='60'
         />
       </a>
       <meta itemprop="width"  content='800'>
       <meta itemprop="height" content='400'>
       <figcaption class="res-gallery-figcaption " itemprop="caption description" >
-        <small>Hugo ipsum</small>
+        <small>github.com/gohugoio<br/><a href='https://github.com/gohugoio/hugo/blob/master/LICENSE' target='_blank'>Apache-2.0</a></small>
       </figcaption>
     </figure>
   </div> 
@@ -1611,21 +1617,21 @@ Attachments
        itemscope itemtype="http://schema.org/ImageGallery" >
     <figure class="img"
             data-size='800x800'
-            data-caption='hugo-lorem.png'
+            data-caption='Hugo lorem&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
             itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
             title="teaserpics/gohugo.io/hugo-lorem.png"
     >
       <a itemprop="contentUrl" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-lorem_hu77f397ba1b7f0f571a34fad927893059_94449_800x0_resize_box_2.png' >
         <img itemprop="thumbnail"
              src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-lorem_hu77f397ba1b7f0f571a34fad927893059_94449_120x120_fit_box_2.png'
-             alt='hugo-lorem.png'
+             alt='Hugo lorem&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
              width='120'  height='120'
         />
       </a>
       <meta itemprop="width"  content='800'>
       <meta itemprop="height" content='800'>
       <figcaption class="res-gallery-figcaption " itemprop="caption description" >
-        <small>Hugo lorem</small>
+        <small>github.com/gohugoio<br/><a href='https://github.com/gohugoio/hugo/blob/master/LICENSE' target='_blank'>Apache-2.0</a></small>
       </figcaption>
     </figure>
   </div> 
@@ -1936,7 +1942,7 @@ Attachments
 </ul>
 
 <div class="highlight"><pre class="chroma"><code class="language-nolan" data-lang="nolan">{{&lt; heg-load-photoswipe &gt;}}
-{{&lt; heg-gallery dir=&#34;/images/teaserpics/gohugo.io&#34;   caption-effect=&#34;none&#34; hover-effect=&#34;grow&#34; / &gt;}} </code></pre></div>
+{{&lt; heg-gallery dir=&#34;/images/teaserpics/gohugo.io&#34;   caption-effect=&#34;none&#34; hover-effect=&#34;grow&#34; /&gt;}} </code></pre></div>
 
 <p>renders as</p>
 
@@ -2576,7 +2582,7 @@ foo | bar
 <p>renders as:
 <pre class="w3-code notranslate">content/.
 Lrwxrwxrwx 2018-04-06         15 README.md
-drwxrwxr-x 2018-05-11            blog
+drwxrwxr-x 2018-05-31            blog
 drwxrwxr-x 2018-05-03            contact
 drwxrwxr-x 2018-05-03            faq
 drwxrwxr-x 2018-05-08            pages
