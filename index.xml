@@ -1796,6 +1796,7 @@ Frontpage elements.&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;#date-format&#34;&gt;Date format&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#disqus&#34;&gt;Disqus&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#related-content&#34;&gt;Related Content&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#anchors&#34;&gt;Anchors&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#pages&#34;&gt;Pages&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#pages-navigation&#34;&gt;Pages Navigation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#color-theme&#34;&gt;Color Theme&lt;/a&gt;&lt;/li&gt;
@@ -1862,6 +1863,8 @@ Frontpage elements.&lt;/p&gt;
 &lt;h2 id=&#34;latest-news&#34;&gt;Latest News&lt;/h2&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Added &lt;a href=&#34;#anchors&#34;&gt;Anchors&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
 &lt;li&gt;&lt;p&gt;Added &lt;a href=&#34;#related-content&#34;&gt;Related Content&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Added shortcode:&lt;/p&gt;
@@ -2382,6 +2385,14 @@ the language modifying the following key.&lt;/p&gt;
 {{ end }}&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;=&amp;gt; review &lt;code&gt;layouts/partials/blog.disqus-button.html&lt;/code&gt;&lt;/p&gt;
 
+&lt;h3 id=&#34;anchors&#34;&gt;Anchors&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;anchor&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+  &lt;span class=&#34;c&#34;&gt;# layouts/_default/baseof.html&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;enable&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;
+  &lt;span class=&#34;c&#34;&gt;#icon   = &amp;#34;fas fa-anchor&amp;#34;&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;icon&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;fas fa-link&amp;#34;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3 id=&#34;related-content&#34;&gt;Related Content&lt;/h3&gt;
 
 &lt;ul&gt;
