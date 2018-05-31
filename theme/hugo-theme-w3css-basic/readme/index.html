@@ -468,6 +468,7 @@ Frontpage elements.</p>
 <li><a href="#blog-list">Blog List</a></li>
 <li><a href="#date-format">Date format</a></li>
 <li><a href="#disqus">Disqus</a></li>
+<li><a href="#related-content">Related Content</a></li>
 <li><a href="#pages">Pages</a></li>
 <li><a href="#pages-navigation">Pages Navigation</a></li>
 <li><a href="#color-theme">Color Theme</a></li>
@@ -1052,6 +1053,19 @@ the language modifying the following key.</p>
 {{ end }}</pre></div>
 <p>=&gt; review <code>layouts/partials/blog.disqus-button.html</code></p>
 
+<h3 id="related-content">Related Content</h3>
+
+<ul>
+<li>See more <a href="https://gohugo.io/content-management/related/#list-related-content" target="_blank">https://gohugo.io/content-management/related/#list-related-content</a></li>
+<li>implemented in <code>layouts/partials/main.related.html</code></li>
+</ul>
+
+<p><code>config.toml</code></p>
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">related</span><span class="p">]</span>
+  <span class="c"># https://gohugo.io/content-management/related/</span>
+  <span class="c"># layouts/partials/main.related.html</span>
+  <span class="nx">enable</span>        <span class="p">=</span> <span class="kc">true</span>
+  <span class="nx">limitTo</span>       <span class="p">=</span> <span class="mi">5</span></code></pre></div>
 <h3 id="pages">Pages</h3>
 
 <h4 id="pages-navigation">Pages Navigation</h4>
@@ -1284,6 +1298,9 @@ the <code>/static/vendor/w3css/4/</code> directory.</p>
   <span class="c">#</span>
   <span class="c"># layouts/404.html</span>
   <span class="nx">color404Container</span>                     <span class="p">=</span> <span class="s2">&#34;w3-theme-l3&#34;</span>
+  <span class="c">#</span>
+  <span class="c"># layouts/partials/main.related.html</span>
+  <span class="nx">colorRelatedBar</span>                       <span class="p">=</span> <span class="s2">&#34;w3-theme-l3&#34;</span>
 
   <span class="c"># used in layouts/shortcodes/alert.html</span>
   <span class="nx">colorAlertPrimary</span>                     <span class="p">=</span> <span class="s2">&#34;w3-purple&#34;</span>
@@ -2412,6 +2429,11 @@ for all their work</p></li>
 <p><img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/complete.png" alt="screenshot complete" /></p>
 
 <hr />
+  <!-- partials/main.related.html -->
+
+
+   
+
   <!-- partials/main.taxonomy.full.bar.html -->
 <div class="w3-container w3-padding-small "></div>
 

@@ -1795,6 +1795,7 @@ Frontpage elements.&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;#blog-list&#34;&gt;Blog List&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#date-format&#34;&gt;Date format&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#disqus&#34;&gt;Disqus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#related-content&#34;&gt;Related Content&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#pages&#34;&gt;Pages&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#pages-navigation&#34;&gt;Pages Navigation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#color-theme&#34;&gt;Color Theme&lt;/a&gt;&lt;/li&gt;
@@ -2379,6 +2380,19 @@ the language modifying the following key.&lt;/p&gt;
 {{ end }}&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;=&amp;gt; review &lt;code&gt;layouts/partials/blog.disqus-button.html&lt;/code&gt;&lt;/p&gt;
 
+&lt;h3 id=&#34;related-content&#34;&gt;Related Content&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;See more &lt;a href=&#34;https://gohugo.io/content-management/related/#list-related-content&#34; target=&#34;_blank&#34;&gt;https://gohugo.io/content-management/related/#list-related-content&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;implemented in &lt;code&gt;layouts/partials/main.related.html&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;related&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+  &lt;span class=&#34;c&#34;&gt;# https://gohugo.io/content-management/related/&lt;/span&gt;
+  &lt;span class=&#34;c&#34;&gt;# layouts/partials/main.related.html&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;enable&lt;/span&gt;        &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;limitTo&lt;/span&gt;       &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3 id=&#34;pages&#34;&gt;Pages&lt;/h3&gt;
 
 &lt;h4 id=&#34;pages-navigation&#34;&gt;Pages Navigation&lt;/h4&gt;
@@ -2611,6 +2625,9 @@ the &lt;code&gt;/static/vendor/w3css/4/&lt;/code&gt; directory.&lt;/p&gt;
   &lt;span class=&#34;c&#34;&gt;#&lt;/span&gt;
   &lt;span class=&#34;c&#34;&gt;# layouts/404.html&lt;/span&gt;
   &lt;span class=&#34;nx&#34;&gt;color404Container&lt;/span&gt;                     &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;w3-theme-l3&amp;#34;&lt;/span&gt;
+  &lt;span class=&#34;c&#34;&gt;#&lt;/span&gt;
+  &lt;span class=&#34;c&#34;&gt;# layouts/partials/main.related.html&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;colorRelatedBar&lt;/span&gt;                       &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;w3-theme-l3&amp;#34;&lt;/span&gt;
 
   &lt;span class=&#34;c&#34;&gt;# used in layouts/shortcodes/alert.html&lt;/span&gt;
   &lt;span class=&#34;nx&#34;&gt;colorAlertPrimary&lt;/span&gt;                     &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;w3-purple&amp;#34;&lt;/span&gt;
