@@ -1879,6 +1879,21 @@ Frontpage elements.&lt;/p&gt;
 &lt;h2 id=&#34;latest-news&#34;&gt;Latest News&lt;/h2&gt;
 
 &lt;ul&gt;
+&lt;li&gt;Improved configuration for
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#marquee&#34;&gt;Marquee&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#headless-images&#34;&gt;Headless Images&lt;/a&gt; (Page Resources)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#taxonomy&#34;&gt;Taxonomy&lt;/a&gt; Bar&lt;/li&gt;
+&lt;li&gt;additional navigation elements:&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;options&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+	&lt;span class=&#34;c&#34;&gt;# used in layouts/partials/main.headline.nav-right.html&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;jsHistoryNav&lt;/span&gt;        &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;jsHistoryNavForward&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;showNavUp&lt;/span&gt;           &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Added &lt;a href=&#34;#anchors&#34;&gt;Anchors&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Added &lt;a href=&#34;#related-content&#34;&gt;Related Content&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
@@ -2057,14 +2072,12 @@ the language modifying the following key.&lt;/p&gt;
 
 &lt;h4 id=&#34;marquee&#34;&gt;Marquee&lt;/h4&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;marquee&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
-  &lt;span class=&#34;c&#34;&gt;# enable or disable marquee&lt;/span&gt;
-  &lt;span class=&#34;nx&#34;&gt;enable&lt;/span&gt;   &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;
-  &lt;span class=&#34;nx&#34;&gt;marquee&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;&amp;#39;&amp;#39;
-&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;At [info@example.com](mailto:info@example.com) vero eos et **accusam**
-&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;et justo duo dolores et ea rebum. Stet clita *kasd gubergren*, no sea
-&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;             &amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;span class=&#34;c&#34;&gt;# enable or disable marquee on frontpage&lt;/span&gt;
+  &lt;span class=&#34;c&#34;&gt;# marquee text is placed in directory as .marquee.md&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;enable&lt;/span&gt;      &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ul&gt;
-&lt;li&gt;Marquee text from right to left&lt;/li&gt;
+&lt;li&gt;create a file &lt;code&gt;.marquee.md&lt;/code&gt; in each directory where a marquee should be shown&lt;/li&gt;
+&lt;li&gt;Marquee text scrolls from right to left&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_100.jpg&#34; alt=&#34;screenshot Marquee &amp;amp; Navbar long&#34; /&gt;&lt;/p&gt;
@@ -2487,7 +2500,10 @@ the language modifying the following key.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Taxonomy bar (shown if page has a taxonomy)&lt;/li&gt;
 &lt;/ul&gt;
-
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;taxonomies&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+	&lt;span class=&#34;c&#34;&gt;# used in layouts/partials/main.taxonomy.full.bar.html&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;fullBarMinItemsTag&lt;/span&gt;      &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;fullBarMinItemsCategory&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_250.jpg&#34; alt=&#34;screenshot Taxonomy Bar&#34; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
@@ -3439,6 +3455,20 @@ pages.md&lt;/pre&gt;&lt;/div&gt;
 
 &lt;ul&gt;
 &lt;li&gt;images may be stored as resource for a headless page:&lt;/li&gt;
+&lt;li&gt;those images may be used for
+
+&lt;ul&gt;
+&lt;li&gt;teaserpics (resImgTeaser)&lt;/li&gt;
+&lt;li&gt;figures (res-figure)&lt;/li&gt;
+&lt;li&gt;gallery (res-gallery)&lt;/li&gt;
+&lt;li&gt;pictures for jumbotron, photocards, testimonials&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;the default (global) headless page is configurable
+
+&lt;ul&gt;
+&lt;li&gt;defaultResPagePath in [params.resources], [params.resFigure], [params.resGallery]
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;code&gt;content/resources/images/index.md&lt;/code&gt;&lt;/p&gt;
