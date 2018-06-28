@@ -1789,7 +1789,7 @@ Frontpage elements.&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;#features&#34;&gt;Features&lt;/a&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#included-resources&#34;&gt;Includes Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#included-resources&#34;&gt;Included Resources&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#features-tags&#34;&gt;Features Tags&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#features-list&#34;&gt;Features List&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
@@ -1885,19 +1885,31 @@ Frontpage elements.&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;#marquee&#34;&gt;Marquee&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#headless-images&#34;&gt;Headless Images&lt;/a&gt; (Page Resources)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#taxonomy&#34;&gt;Taxonomy&lt;/a&gt; Bar&lt;/li&gt;
-&lt;li&gt;additional navigation elements:&lt;/li&gt;
+&lt;li&gt;additional navigation elements in title&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;options&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
 	&lt;span class=&#34;c&#34;&gt;# used in layouts/partials/main.headline.nav-right.html&lt;/span&gt;
   &lt;span class=&#34;nx&#34;&gt;jsHistoryNav&lt;/span&gt;        &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;
   &lt;span class=&#34;nx&#34;&gt;jsHistoryNavForward&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;
   &lt;span class=&#34;nx&#34;&gt;showNavUp&lt;/span&gt;           &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_519.jpg&#34; alt=&#34;screenshot title-nav&#34; /&gt;&lt;/p&gt;
+
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Added &lt;a href=&#34;#anchors&#34;&gt;Anchors&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;Added &lt;a href=&#34;#anchors&#34;&gt;Anchors&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;li&gt;&lt;p&gt;Added &lt;a href=&#34;#related-content&#34;&gt;Related Content&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_520.jpg&#34; alt=&#34;screenshot title-nav&#34; /&gt;&lt;/p&gt;
 
+&lt;ul&gt;
+&lt;li&gt;Added &lt;a href=&#34;#related-content&#34;&gt;Related Content&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_521.jpg&#34; alt=&#34;screenshot title-nav&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Added shortcode:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -2071,12 +2083,15 @@ the language modifying the following key.&lt;/p&gt;
 &lt;h3 id=&#34;frontpage&#34;&gt;Frontpage&lt;/h3&gt;
 
 &lt;h4 id=&#34;marquee&#34;&gt;Marquee&lt;/h4&gt;
+
+&lt;p&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;marquee&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
   &lt;span class=&#34;c&#34;&gt;# enable or disable marquee on frontpage&lt;/span&gt;
-  &lt;span class=&#34;c&#34;&gt;# marquee text is placed in directory as .marquee.md&lt;/span&gt;
-  &lt;span class=&#34;nx&#34;&gt;enable&lt;/span&gt;      &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;span class=&#34;nx&#34;&gt;enable&lt;/span&gt;      &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;
+  &lt;span class=&#34;c&#34;&gt;# marquee text is placed in directory as:&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;file&lt;/span&gt;        &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;.marquee.md&amp;#34;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ul&gt;
-&lt;li&gt;create a file &lt;code&gt;.marquee.md&lt;/code&gt; in each directory where a marquee should be shown&lt;/li&gt;
+&lt;li&gt;Create a file &lt;code&gt;.marquee.md&lt;/code&gt; in each directory where a marquee should be shown&lt;/li&gt;
 &lt;li&gt;Marquee text scrolls from right to left&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -2416,6 +2431,8 @@ the language modifying the following key.&lt;/p&gt;
 
 &lt;h3 id=&#34;anchors&#34;&gt;Anchors&lt;/h3&gt;
 
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_520.jpg&#34; alt=&#34;screenshot title-nav&#34; /&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;anchor&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
   &lt;span class=&#34;c&#34;&gt;# layouts/_default/baseof.html&lt;/span&gt;
@@ -2423,6 +2440,8 @@ the language modifying the following key.&lt;/p&gt;
   &lt;span class=&#34;c&#34;&gt;#icon   = &amp;#34;fas fa-anchor&amp;#34;&lt;/span&gt;
   &lt;span class=&#34;nx&#34;&gt;icon&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;fas fa-link&amp;#34;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3 id=&#34;related-content&#34;&gt;Related Content&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_521.jpg&#34; alt=&#34;screenshot title-nav&#34; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;See more &lt;a href=&#34;https://gohugo.io/content-management/related/#list-related-content&#34; target=&#34;_blank&#34;&gt;https://gohugo.io/content-management/related/#list-related-content&lt;/a&gt;&lt;/li&gt;
@@ -2498,12 +2517,12 @@ the language modifying the following key.&lt;/p&gt;
 &lt;h4 id=&#34;taxonomy&#34;&gt;Taxonomy&lt;/h4&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Taxonomy bar (shown if page has a taxonomy)&lt;/li&gt;
+&lt;li&gt;Taxonomy bar (only shown if page has a taxonomy)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;taxonomies&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
-	&lt;span class=&#34;c&#34;&gt;# used in layouts/partials/main.taxonomy.full.bar.html&lt;/span&gt;
-	&lt;span class=&#34;nx&#34;&gt;fullBarMinItemsTag&lt;/span&gt;      &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;
-	&lt;span class=&#34;nx&#34;&gt;fullBarMinItemsCategory&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;span class=&#34;c&#34;&gt;# used in layouts/partials/main.taxonomy.full.bar.html&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;fullBarMinItemsTag&lt;/span&gt;			 &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;fullBarMinItemsCategory&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_250.jpg&#34; alt=&#34;screenshot Taxonomy Bar&#34; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
@@ -3463,14 +3482,18 @@ pages.md&lt;/pre&gt;&lt;/div&gt;
 &lt;li&gt;gallery (res-gallery)&lt;/li&gt;
 &lt;li&gt;pictures for jumbotron, photocards, testimonials&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;the default (global) headless page is configurable
-
-&lt;ul&gt;
-&lt;li&gt;defaultResPagePath in [params.resources], [params.resFigure], [params.resGallery]
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;the path for the default (global) headless page is configurable&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;p&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;resources&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;defaultResPagePath&lt;/span&gt;	&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;resources/images&amp;#34;&lt;/span&gt;
+
+&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;resFigure&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;defaultResPagePath&lt;/span&gt;	&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;.&amp;#34;&lt;/span&gt;			 
+ 
+&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;resGallery&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;defaultResPagePath&lt;/span&gt;	&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;resources/images&amp;#34;&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;code&gt;content/resources/images/index.md&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;---&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;title&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;       &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;headless-images&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
@@ -3490,19 +3513,28 @@ pages.md&lt;/pre&gt;&lt;/div&gt;
 │   └── wikipedia.org
 └── testimonials
     └── pixabay.com&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;code&gt;layouts/partials/resource.image.html&lt;/code&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;{{- $ourResources := $ourPage.Site.GetPage &amp;#34;page&amp;#34; &amp;#34;resources/images&amp;#34; }}
-  {{ $ourPage.Scratch.Set `myResImg` ( ($ourResources.Resources.ByType `image`).GetMatch ($ourResImg) ) }}
-{{- end }}&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;A new headless page with the resources may be given in front matter via &lt;code&gt;resImgRelPath&lt;/code&gt;:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;{{- $myResourcePage := $thePage.Site.GetPage &amp;#34;page&amp;#34; ($thePage.Dir) ($thePage.Param `resImgRelPath`) &amp;#34;index.md&amp;#34; }}
-{{ $thePage.Scratch.Set `myResImg` ( ( ($myResourcePage.Resources.ByType `image`).GetMatch ($theResImg))  | default ($thePage.Scratch.Get `myResImg`) ) }}&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;And of course the page itself may have the image resources:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;{{ $thePage.Scratch.Set `myResImg` ( ( ($thePage.Resources.ByType `image`).GetMatch ($theResImg))  | default ($thePage.Scratch.Get `myResImg`) ) }}&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;A new headless page with the resources may be given in front matter via
+&lt;code&gt;resImgRelPath&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;---&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;resImgRelPath&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;../img/&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;resImgTeaser&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;   &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;dwh-1.jpg&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;---&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;And of course the page itself may have the image resources (which overrides an
+image with the same name on the default (global) headless page)&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;p&gt;Given a front matter&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;resImgTeaser&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;teaserpics/pixabay.com/paint-2985569_640.jpg&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;The images is processed using hugo&amp;rsquo;s build in image commands (resize to a reasonable size).&lt;/p&gt;
 
+&lt;p&gt;&lt;code&gt;layouts/partials/main.teaserpic.single.html&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;{{- $myImgStyle	 := &amp;#34;max-width:400px; max-height:200px; width: auto; height: auto; margin: 8px 0px	8px 8px; &amp;#34; }}
+{{- $myImg			 := .Param `resImgTeaser`												}}
+{{- $myImgCmd		 := .Param `resImgTeaserCmd` | default `Resize` }}
+{{- $myImgOpt		 := .Param `resImgTeaserOpt` | default `300x`		}}&lt;/pre&gt;&lt;/div&gt;
 &lt;h3 id=&#34;images&#34;&gt;Images&lt;/h3&gt;
 
 &lt;ul&gt;
