@@ -597,7 +597,7 @@ Frontpage elements.</p>
 <li><a href="#features">Features</a>
 
 <ul>
-<li><a href="#included-resources">Includes Resources</a></li>
+<li><a href="#included-resources">Included Resources</a></li>
 <li><a href="#features-tags">Features Tags</a></li>
 <li><a href="#features-list">Features List</a></li>
 </ul></li>
@@ -693,19 +693,31 @@ Frontpage elements.</p>
 <li><a href="#marquee">Marquee</a></li>
 <li><a href="#headless-images">Headless Images</a> (Page Resources)</li>
 <li><a href="#taxonomy">Taxonomy</a> Bar</li>
-<li>additional navigation elements:</li>
+<li>additional navigation elements in title</li>
 </ul></li>
 </ul>
+
+<p><code>config.toml</code></p>
 <div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">options</span><span class="p">]</span>
 	<span class="c"># used in layouts/partials/main.headline.nav-right.html</span>
   <span class="nx">jsHistoryNav</span>        <span class="p">=</span> <span class="kc">true</span>
   <span class="nx">jsHistoryNavForward</span> <span class="p">=</span> <span class="kc">false</span>
   <span class="nx">showNavUp</span>           <span class="p">=</span> <span class="kc">true</span></code></pre></div>
+<p><img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_519.jpg" alt="screenshot title-nav" /></p>
+
 <ul>
-<li><p>Added <a href="#anchors">Anchors</a></p></li>
+<li>Added <a href="#anchors">Anchors</a></li>
+</ul>
 
-<li><p>Added <a href="#related-content">Related Content</a></p></li>
+<p><img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_520.jpg" alt="screenshot title-nav" /></p>
 
+<ul>
+<li>Added <a href="#related-content">Related Content</a></li>
+</ul>
+
+<p><img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_521.jpg" alt="screenshot title-nav" /></p>
+
+<ul>
 <li><p>Added shortcode:</p>
 
 <ul>
@@ -879,12 +891,15 @@ the language modifying the following key.</p>
 <h3 id="frontpage">Frontpage&nbsp;<a class="anchor w3-small " href="#frontpage"><i class="fas fa-link"></i></a> </h3>
 
 <h4 id="marquee">Marquee&nbsp;<a class="anchor w3-small " href="#marquee"><i class="fas fa-link"></i></a> </h4>
+
+<p><code>config.toml</code></p>
 <div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">marquee</span><span class="p">]</span>
   <span class="c"># enable or disable marquee on frontpage</span>
-  <span class="c"># marquee text is placed in directory as .marquee.md</span>
-  <span class="nx">enable</span>      <span class="p">=</span> <span class="kc">true</span></code></pre></div>
+  <span class="nx">enable</span>      <span class="p">=</span> <span class="kc">true</span>
+  <span class="c"># marquee text is placed in directory as:</span>
+  <span class="nx">file</span>        <span class="p">=</span> <span class="s2">&#34;.marquee.md&#34;</span></code></pre></div>
 <ul>
-<li>create a file <code>.marquee.md</code> in each directory where a marquee should be shown</li>
+<li>Create a file <code>.marquee.md</code> in each directory where a marquee should be shown</li>
 <li>Marquee text scrolls from right to left</li>
 </ul>
 
@@ -1224,6 +1239,8 @@ the language modifying the following key.</p>
 
 <h3 id="anchors">Anchors&nbsp;<a class="anchor w3-small " href="#anchors"><i class="fas fa-link"></i></a> </h3>
 
+<p><img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_520.jpg" alt="screenshot title-nav" /></p>
+
 <p><code>config.toml</code></p>
 <div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">anchor</span><span class="p">]</span>
   <span class="c"># layouts/_default/baseof.html</span>
@@ -1231,6 +1248,8 @@ the language modifying the following key.</p>
   <span class="c">#icon   = &#34;fas fa-anchor&#34;</span>
   <span class="nx">icon</span> <span class="p">=</span> <span class="s2">&#34;fas fa-link&#34;</span></code></pre></div>
 <h3 id="related-content">Related Content&nbsp;<a class="anchor w3-small " href="#related-content"><i class="fas fa-link"></i></a> </h3>
+
+<p><img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_521.jpg" alt="screenshot title-nav" /></p>
 
 <ul>
 <li>See more <a href="https://gohugo.io/content-management/related/#list-related-content" target="_blank">https://gohugo.io/content-management/related/#list-related-content</a></li>
@@ -1306,12 +1325,12 @@ the language modifying the following key.</p>
 <h4 id="taxonomy">Taxonomy&nbsp;<a class="anchor w3-small " href="#taxonomy"><i class="fas fa-link"></i></a> </h4>
 
 <ul>
-<li>Taxonomy bar (shown if page has a taxonomy)</li>
+<li>Taxonomy bar (only shown if page has a taxonomy)</li>
 </ul>
 <div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">taxonomies</span><span class="p">]</span>
-	<span class="c"># used in layouts/partials/main.taxonomy.full.bar.html</span>
-	<span class="nx">fullBarMinItemsTag</span>      <span class="p">=</span> <span class="mi">3</span>
-	<span class="nx">fullBarMinItemsCategory</span> <span class="p">=</span> <span class="mi">3</span></code></pre></div>
+  <span class="c"># used in layouts/partials/main.taxonomy.full.bar.html</span>
+  <span class="nx">fullBarMinItemsTag</span>			 <span class="p">=</span> <span class="mi">1</span>
+  <span class="nx">fullBarMinItemsCategory</span> <span class="p">=</span> <span class="mi">1</span></code></pre></div>
 <p><img src="https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_250.jpg" alt="screenshot Taxonomy Bar" /></p>
 
 <ul>
@@ -2271,14 +2290,18 @@ pages.md</pre></div>
 <li>gallery (res-gallery)</li>
 <li>pictures for jumbotron, photocards, testimonials</li>
 </ul></li>
-<li>the default (global) headless page is configurable
-
-<ul>
-<li>defaultResPagePath in [params.resources], [params.resFigure], [params.resGallery]
-<br /></li>
-</ul></li>
+<li>the path for the default (global) headless page is configurable</li>
 </ul>
 
+<p><code>config.toml</code></p>
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">resources</span><span class="p">]</span>
+	<span class="nx">defaultResPagePath</span>	<span class="p">=</span> <span class="s2">&#34;resources/images&#34;</span>
+
+<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">resFigure</span><span class="p">]</span>
+	<span class="nx">defaultResPagePath</span>	<span class="p">=</span> <span class="s2">&#34;.&#34;</span>			 
+ 
+<span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">resGallery</span><span class="p">]</span>
+	<span class="nx">defaultResPagePath</span>	<span class="p">=</span> <span class="s2">&#34;resources/images&#34;</span> </code></pre></div>
 <p><code>content/resources/images/index.md</code></p>
 <div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml">---<span class="w">
 </span><span class="w"></span>title<span class="p">:</span><span class="w">       </span><span class="s2">&#34;headless-images&#34;</span><span class="w">
@@ -2298,19 +2321,28 @@ pages.md</pre></div>
 │   └── wikipedia.org
 └── testimonials
     └── pixabay.com</pre></div>
-<p><code>layouts/partials/resource.image.html</code></p>
-<div class="highlight"><pre class="chroma">{{- $ourResources := $ourPage.Site.GetPage &#34;page&#34; &#34;resources/images&#34; }}
-  {{ $ourPage.Scratch.Set `myResImg` ( ($ourResources.Resources.ByType `image`).GetMatch ($ourResImg) ) }}
-{{- end }}</pre></div>
-<p>A new headless page with the resources may be given in front matter via <code>resImgRelPath</code>:</p>
-<div class="highlight"><pre class="chroma">{{- $myResourcePage := $thePage.Site.GetPage &#34;page&#34; ($thePage.Dir) ($thePage.Param `resImgRelPath`) &#34;index.md&#34; }}
-{{ $thePage.Scratch.Set `myResImg` ( ( ($myResourcePage.Resources.ByType `image`).GetMatch ($theResImg))  | default ($thePage.Scratch.Get `myResImg`) ) }}</pre></div>
-<p>And of course the page itself may have the image resources:</p>
-<div class="highlight"><pre class="chroma">{{ $thePage.Scratch.Set `myResImg` ( ( ($thePage.Resources.ByType `image`).GetMatch ($theResImg))  | default ($thePage.Scratch.Get `myResImg`) ) }}</pre></div>
+<ul>
+<li>A new headless page with the resources may be given in front matter via
+<code>resImgRelPath</code></li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml">---<span class="w">
+</span><span class="w"></span>resImgRelPath<span class="p">:</span><span class="w">  </span><span class="s2">&#34;../img/&#34;</span><span class="w">
+</span><span class="w"></span>resImgTeaser<span class="p">:</span><span class="w">   </span><span class="s2">&#34;dwh-1.jpg&#34;</span><span class="w">
+</span><span class="w"></span>---</code></pre></div>
+<ul>
+<li>And of course the page itself may have the image resources (which overrides an
+image with the same name on the default (global) headless page)</li>
+</ul>
+
 <p>Given a front matter</p>
 <div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml">resImgTeaser<span class="p">:</span><span class="w">  </span>teaserpics/pixabay.com/paint-2985569_640.jpg</code></pre></div>
 <p>The images is processed using hugo&rsquo;s build in image commands (resize to a reasonable size).</p>
 
+<p><code>layouts/partials/main.teaserpic.single.html</code></p>
+<div class="highlight"><pre class="chroma">{{- $myImgStyle	 := &#34;max-width:400px; max-height:200px; width: auto; height: auto; margin: 8px 0px	8px 8px; &#34; }}
+{{- $myImg			 := .Param `resImgTeaser`												}}
+{{- $myImgCmd		 := .Param `resImgTeaserCmd` | default `Resize` }}
+{{- $myImgOpt		 := .Param `resImgTeaserOpt` | default `300x`		}}</pre></div>
 <h3 id="images">Images&nbsp;<a class="anchor w3-small " href="#images"><i class="fas fa-link"></i></a> </h3>
 
 <ul>
