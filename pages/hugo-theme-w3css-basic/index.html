@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang='en-us'>
+  <!-- _default/baseof.html  -->
+  
+  <!-- partials/head.html  -->
+<head>
+  <!-- hi there - what do you expect to see? ...  -->
+  
+  <!-- partials/head.meta.html -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="content-type"    content="text/html; charset=utf-8" />
+  <meta name="viewport"              content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="robots"                content="all,follow" />
+  <meta name="googlebot"             content="index,follow,snippet,archive" />
+  <meta name="author"                content='anonymous' />
+  <meta name="keywords"              content='foo, bar' />
+  <meta name="description"           content='example site created with hugo using theme hugo-theme-w3css-basic' />
+  
+  <!-- partials/head.meta.og.html -->
+  <meta property="og:site_name"      content="W3.CSS Basic exampleSite" /> 
+  <meta property="og:title"          content="About this Theme" /> 
+  
+  <meta property="og:url"            content="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/" /> 
+  <meta property="og:image"          content='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/images/favicons/apple-touch-icon.png' /> 
+
+  
+  <!-- partials/head.meta.twitter.html -->
+  <meta property="twitter:title"          content="About this Theme" /> 
+  
+  <meta property="twitter:image"          content='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/images/favicons/apple-touch-icon.png' /> 
+
+    
+  <!-- partials/head.google.gtags.html -->
+  <script async src='https://www.googletagmanager.com/gtag/js?id=UA-113314068-1'></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-113314068-1');
+  </script>
+    <!-- back in partials/head.html  -->
+
+  
+  <!-- partials/head.cookieconsent.html -->
+
+  <link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/insites/cookieconsent/cookieconsent.3.0.6.min.css">
+  <script src="/hugo-theme-w3css-basic.github.io/vendor/insites/cookieconsent/cookieconsent.3.0.6.min.js"></script>
+
+  <script>
+    window.addEventListener("load", function(){
+      window.cookieconsent.initialise({
+        "palette": {
+           "popup": {
+             "background": "#f33",
+             "text":       "#fff",
+           },
+           "button": {
+             "background": "#3f3",
+             "text":       "#000"
+           }
+         },
+        "position": "bottom-right","theme" : "classic",
+        "content": {
+          "message": "This website uses cookies to ensure you get the best experience on our website.",
+          "dismiss": "Yes, I agree",
+          "link"   : "Learn more",
+          "href"   : "https://cookiesandyou.com"
+        }
+      })  
+    })  
+    ;
+  </script>  
+
+
+  <title>W3.CSS Basic exampleSite</title>
+
+  <meta name="generator" content="Hugo 0.42.2" />
+
+  
+<!-- partials/head.stylesheets.html -->
+<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/vendor/fontawesome/css/all.css' />
+<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/vendor/daneden.github.io/animate.css/animate.min.css' />
+<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/vendor/OwlCarousel2/owl.carousel.min.css' />
+<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/vendor/OwlCarousel2/owl.theme.default.min.css' />
+
+<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/vendor/w3css/4/w3.css' />
+<link rel="stylesheet" id="theme-colors" href='/hugo-theme-w3css-basic.github.io/vendor/w3css/4/color_of_the_year/w3-theme-color-of-year-2016-snorkel-blue.css' />
+
+<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/css/syntax.min.css' />
+<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/css/w3css-basic.min.css' />
+<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/css/res-gallery.min.css' />
+
+<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/css/custom.css' />
+
+    
+  <!-- partials/head.fonts.googleapis.html -->
+  <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Open+Sans|Creepster|Kurale|Oxygen+Mono' />
+  <style> html {font-family: 'Open Sans', sans-serif; } </style>
+  <style> body {font-family: 'Open Sans', sans-serif; } </style>
+  <style> abbr {font-family: 'Open Sans', sans-serif; } </style>
+  <style> address {font-family: 'Open Sans', sans-serif; } </style>
+  <style> blockquote {font-family: 'Open Sans', sans-serif; } </style>
+  <style> cite {font-family: 'Open Sans', sans-serif; } </style>
+  <style> dfn {font-family: 'Open Sans', sans-serif; } </style>
+  <style> em {font-family: 'Open Sans', sans-serif; } </style>
+  <style> ins {font-family: 'Open Sans', sans-serif; } </style>
+  <style> mark {font-family: 'Open Sans', sans-serif; } </style>
+  <style> s {font-family: 'Open Sans', sans-serif; } </style>
+  <style> time {font-family: 'Creepster', cursive; } </style>
+  <style> h1 {font-family: 'Kurale', serif; } </style>
+  <style> h2 {font-family: 'Kurale', serif; } </style>
+  <style> h3 {font-family: 'Kurale', serif; } </style>
+  <style> h4 {font-family: 'Kurale', serif; } </style>
+  <style> h5 {font-family: 'Kurale', serif; } </style>
+  <style> h6 {font-family: 'Kurale', serif; } </style>
+  <style> pre {font-family: 'Oxygen Mono', monospace; } </style>
+  <style> code {font-family: 'Oxygen Mono', monospace; } </style>
+  <style> kbd {font-family: 'Oxygen Mono', monospace; } </style>
+  <style> samp {font-family: 'Oxygen Mono', monospace; } </style>
+  <style> data {font-family: 'Oxygen Mono', monospace; } </style>   
+
+  
+  <!-- partials/head.ie.html -->
+  
+  
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  
+
+  <!-- partials/head.favicon.html -->
+  <link rel="apple-touch-icon"      sizes="180x180" href='/hugo-theme-w3css-basic.github.io/images/favicons/apple-touch-icon.png?v=gH2ZthzW' />
+  <link rel="icon" type="image/png" sizes="16x16"   href='/hugo-theme-w3css-basic.github.io/images/favicons/favicon-16x16.png?v=gH2ZthzW' />
+  <link rel="icon" type="image/png" sizes="192x192" href='/hugo-theme-w3css-basic.github.io/images/favicons/android-chrome-192x192.png?v=gH2ZthzW' />
+  <link rel="icon" type="image/png" sizes="32x32"   href='/hugo-theme-w3css-basic.github.io/images/favicons/favicon-32x32.png?v=gH2ZthzW' />
+  <link rel="manifest"                              href='/hugo-theme-w3css-basic.github.io/images/favicons/manifest.json?v=gH2ZthzW' />
+  <link rel="shortcut icon"                         href='/hugo-theme-w3css-basic.github.io/images/favicons/favicon.ico?v=gH2ZthzW' />
+  <meta name="msapplication-TileImage"           content='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/images/favicons/mstile-144x144.png' />
+  <meta name="msapplication-config"              content='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/images/favicons/browserconfig.xml' />
+  <link rel="mask-icon"                             href='/hugo-theme-w3css-basic.github.io/images/favicons/safari-pinned-tab.svg?v=gH2ZthzW'
+                                                   color='#5bbad5'   />
+  <meta name="msapplication-TileColor"           content='#da532c'  />
+  <meta name="theme-color"                       content='#ffffff' />  
+
+<!-- partials/scripts.top.html -->
+<script src='/hugo-theme-w3css-basic.github.io/js/custom.top.js'></script>
+
+<!-- partials/head.rss.html -->
+<link href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/index.xml' rel="alternate" type="application/rss+xml" title='W3.CSS Basic exampleSite (rss+xml alternate)' />
+
+    <!-- back in partials/head.html  -->
+</head>
+
+  <!-- back in _default/baseof.html  -->
+
+  <body onload='onload()' >
+    <div id="all" class="w3-theme">
+      <header>
+        
+  <!-- partials/header.marquee.html -->
+
+  <!-- partials/header.nav.html -->
+
+
+<div class='w3-bar w3-hide-small w3-hide-medium w3-theme-dark '>
+    <!-- w3-hide-small w3-hide-medium ************************************************** -->
+    <!-- header-nav-entry -->
+    <!-- range .Site.Menus.main -->
+        <!-- not .HasChildren -->
+
+<a href='/hugo-theme-w3css-basic.github.io/index.html' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-home'></i>&nbsp;Home</a>
+<a href='/hugo-theme-w3css-basic.github.io/index.html' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-home'></i>&nbsp;Home</a>
+<a href='/hugo-theme-w3css-basic.github.io/index.html' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-home'></i>&nbsp;Home</a>
+        <!-- not .HasChildren -->
+
+<a href='/hugo-theme-w3css-basic.github.io/contact' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='far fa-address-card'></i>&nbsp;Contact</a>
+<a href='/hugo-theme-w3css-basic.github.io/contact' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='far fa-address-card'></i>&nbsp;Contact</a>
+<a href='/hugo-theme-w3css-basic.github.io/contact' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='far fa-address-card'></i>&nbsp;Contact</a>
+        <!-- not .HasChildren -->
+
+<a href='/hugo-theme-w3css-basic.github.io/pages' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-list'></i>&nbsp;Stuff</a>
+<a href='/hugo-theme-w3css-basic.github.io/pages' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-list'></i>&nbsp;Stuff</a>
+<a href='/hugo-theme-w3css-basic.github.io/pages' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-list'></i>&nbsp;Stuff</a>
+        <!-- .HasChildren -->
+
+<div class="w3-dropdown-hover">
+  <button class="w3-button          w3-hide-small w3-hide-medium header-nav-menu-dropdown-large"  ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <button class="w3-button          w3-hide-small w3-hide-large  header-nav-menu-dropdown-medium" ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <button class="w3-button w3-small w3-hide-medium w3-hide-large header-nav-menu-dropdown-small"  ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <div class="w3-dropdown-content w3-bar-block w3-card-4" style="z-index: 2"> 
+        <!-- range .Children -->
+    <a href='/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/' class="w3-bar-item w3-button"><i class='fas fa-info fa-fw'></i>&nbsp;About</a>
+    <a href='/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/images-taken-from/' class="w3-bar-item w3-button"><i class='far fa-images fa-fw'></i>&nbsp;Images</a>
+    <a href='/hugo-theme-w3css-basic.github.io/pages/showcase/' class="w3-bar-item w3-button"><i class='fas fa-eye fa-fw'></i>&nbsp;Showcase</a>
+  </div> 
+</div>   
+        <!-- not .HasChildren -->
+
+<a href='/hugo-theme-w3css-basic.github.io/blog' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-rss'></i>&nbsp;Blog</a>
+<a href='/hugo-theme-w3css-basic.github.io/blog' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-rss'></i>&nbsp;Blog</a>
+<a href='/hugo-theme-w3css-basic.github.io/blog' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-rss'></i>&nbsp;Blog</a>
+        <!-- not .HasChildren -->
+
+<a href='/hugo-theme-w3css-basic.github.io/faq' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+<a href='/hugo-theme-w3css-basic.github.io/faq' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+<a href='/hugo-theme-w3css-basic.github.io/faq' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+      <!-- range .Site.Menus.topbar.ByWeight -->
+  <a href='https://github.com/it-gro/hugo-theme-w3css-basic' target="_blank" class="w3-bar-item w3-button w3-right" ><i class='fab fa-github'></i></a>
+  <a href='#address' target="_blank" class="w3-bar-item w3-button w3-right" ><i class='fas fa-envelope'></i></a>
+  <a href='/hugo-theme-w3css-basic.github.io/search' target="_blank" class="w3-bar-item w3-button w3-right" ><i class='fas fa-search'></i></a>
+      
+  <!-- partials/header.nav.google.translate.html -->
+<span class="w3-bar-item w3-right" id="google_translate_element"></span>
+<script>
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement(
+      {
+          pageLanguage: 'en-us'
+        , layout: google.translate.TranslateElement.FloatPosition.TOP_RIGHT
+        , multilanguagePage: true
+      }
+      , 'google_translate_element'
+    );
+  }
+</script>
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+ 
+    
+  <!-- partials/header.nav.large_theme_color_selector.html -->
+
+<select id="large_theme_color_selector"
+        title="This may help you to to define w3cssColorTheme in your config.toml. All color themes are taken from www.w3schools.com/w3css."
+        class="w3-bar-item w3-right w3-padding-small w3-theme-d2 w3-small"
+        style="margin-top: 6px;"
+        translate="no"
+        onchange="setStyleSheet('large_theme_color_selector')">
+  <option value="" disabled="" selected="">preview w3.css color themes</option>
+  <option value='w3-theme-amber.css'                                                > Amber       #ffc107 </option>
+  <option value='w3-theme-black.css'                                                > Black       #000000 </option>
+  <option value='w3-theme-blue-grey.css'                                            > Blue Grey   #607d8b </option>
+  <option value='w3-theme-blue.css'                                                 > Blue        #2196f3 </option>
+  <option value='w3-theme-brown.css'                                                > Brown       #795548 </option>
+  <option value='w3-theme-cyan.css'                                                 > Cyan        #00bcd4 </option>
+  <option value='w3-theme-dark-grey.css'                                            > Dark Grey   #616161 </option>
+  <option value='w3-theme-deep-orange.css'                                          > Deep Orange #ff5722 </option>
+  <option value='w3-theme-deep-purple.css'                                          > Deep Purple #673ab7 </option>
+  <option value='w3-theme-green.css'                                                > Green       #4caf50 </option>
+  <option value='w3-theme-grey.css'                                                 > Grey        #9e9e9e </option>
+  <option value='w3-theme-indigo.css'                                               > Indigo      #3f51b5 </option>
+  <option value='w3-theme-khaki.css'                                                > Khaki       #f0e68c </option>
+  <option value='w3-theme-light-blue.css'                                           > Light Blue  #87ceeb </option>
+  <option value='w3-theme-light-green.css'                                          > Light Green #8bc34a </option>
+  <option value='w3-theme-lime.css'                                                 > Lime        #cddc39 </option>
+  <option value='w3-theme-orange.css'                                               > Orange      #ff9800 </option>
+  <option value='w3-theme-pink.css'                                                 > Pink        #e91e63 </option>
+  <option value='w3-theme-purple.css'                                               > Purple      #9c27b0 </option>
+  <option value='w3-theme-red.css'                                                  > Red         #f44336 </option>
+  <option value='w3-theme-teal.css'                                                 > Teal        #009688 </option>
+  <option value='w3-theme-yellow.css'                                               > Yellow      #ffeb3b </option>
+
+  <option value="" disabled="" >preview color of the year</option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2016-airy-blue.css'       > Airy Blue       (2016 #92b6d5) </option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2016-aurora-red.css'      > Aurora Red      (2016 #b93a32) </option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2008-blue-izis.css'       > Blue Izis       (2008 #5b5ea6) </option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2016-bodacious.css'       > Bodacious       (2016 #b76ba3) </option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2016-buttercup.css'       > Buttercup       (2016 #fae03c) </option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2007-chili-pepper.css'    > Chili Pepper    (2007 #9b2335) </option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2016-duster-cedar.css'    > Dusty Cedar     (2016 #ad5d5d) </option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2013-emerald.css'         > Emerald         (2013 #009b77) </option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2016-fiesta.css'          > Fiesta          (2016 #dd4132) </option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2016-green-flash.css'     > Green Flash     (2016 #79c753) </option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2011-honeysucle.css'      > Honeysucle      (2011 #d65076) </option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2016-iced-coffe.css'      > Iced Coffe      (2016 #b18f6a) </option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2016-lilac-grey.css'      > Lilac Grey      (2016 #9896a4) </option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2016-limpet-shell.css'    > Limpet Shell    (2016 #98ddde) </option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2016-lush-medow.css'      > Lush Medow      (2016 #006e51) </option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2015-marsala.css'         > Marsala         (2015 #955251) </option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2009-mimosa.css'          > Mimosa          (2009 #efc050) </option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2016-peach-echo.css'      > Peach Echo      (2016 #f7786b) </option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2016-potters-clay.css'    > Potter's Clay   (2016 #9e4624) </option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2014-radiand-orchid.css'  > Radiand Orchid  (2014 #b565a7) </option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2016-riverside.css'       > Riverside       (2016 #4c6a92) </option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2016-rose-quarts.css'     > Rose Quarts     (2016 #f7cac9) </option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2006-sand-dollar.css'     > Sand Dollar     (2006 #dfcfbe) </option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2016-serenity.css'        > Serenity        (2016 #92a8d1) </option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2016-sharkskin.css'       > Sharkskin       (2016 #838487) </option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2016-snorkel-blue.css'    > Snorkel Blue    (2016 #034f84) </option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2016-spicy-mustard.css'   > Spicy Mustard   (2016 #d8ae47) </option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2012-tangerine-tango.css' > Tangerine Tango (2012 #dd4124) </option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2010-turquise.css'        > Turquise        (2010 #45b8ac) </option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2016-warm-taupe.css'      > Warm Taupe      (2016 #af9483) </option>
+</select>
+
+<noscript>
+  <style>
+    #large_theme_color_selector {display:none;}
+  </style>
+</noscript>
+
+
+
+</div> 
+<div class='w3-bar w3-hide-small w3-hide-large w3-theme-dark '>
+    <!-- w3-hide-small w3-hide-large ************************************************** -->
+    <!-- header-nav-entry -->
+    <!-- range .Site.Menus.main -->
+        <!-- not .HasChildren -->
+
+<a href='/hugo-theme-w3css-basic.github.io/index.html' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-home'></i>&nbsp;Home</a>
+<a href='/hugo-theme-w3css-basic.github.io/index.html' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-home'></i>&nbsp;Home</a>
+<a href='/hugo-theme-w3css-basic.github.io/index.html' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-home'></i>&nbsp;Home</a>
+        <!-- not .HasChildren -->
+
+<a href='/hugo-theme-w3css-basic.github.io/contact' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='far fa-address-card'></i>&nbsp;Contact</a>
+<a href='/hugo-theme-w3css-basic.github.io/contact' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='far fa-address-card'></i>&nbsp;Contact</a>
+<a href='/hugo-theme-w3css-basic.github.io/contact' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='far fa-address-card'></i>&nbsp;Contact</a>
+        <!-- not .HasChildren -->
+
+<a href='/hugo-theme-w3css-basic.github.io/pages' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-list'></i>&nbsp;Stuff</a>
+<a href='/hugo-theme-w3css-basic.github.io/pages' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-list'></i>&nbsp;Stuff</a>
+<a href='/hugo-theme-w3css-basic.github.io/pages' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-list'></i>&nbsp;Stuff</a>
+        <!-- .HasChildren -->
+
+<div class="w3-dropdown-hover">
+  <button class="w3-button          w3-hide-small w3-hide-medium header-nav-menu-dropdown-large"  ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <button class="w3-button          w3-hide-small w3-hide-large  header-nav-menu-dropdown-medium" ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <button class="w3-button w3-small w3-hide-medium w3-hide-large header-nav-menu-dropdown-small"  ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <div class="w3-dropdown-content w3-bar-block w3-card-4" style="z-index: 2"> 
+        <!-- range .Children -->
+    <a href='/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/' class="w3-bar-item w3-button"><i class='fas fa-info fa-fw'></i>&nbsp;About</a>
+    <a href='/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/images-taken-from/' class="w3-bar-item w3-button"><i class='far fa-images fa-fw'></i>&nbsp;Images</a>
+    <a href='/hugo-theme-w3css-basic.github.io/pages/showcase/' class="w3-bar-item w3-button"><i class='fas fa-eye fa-fw'></i>&nbsp;Showcase</a>
+  </div> 
+</div>   
+        <!-- not .HasChildren -->
+
+<a href='/hugo-theme-w3css-basic.github.io/blog' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-rss'></i>&nbsp;Blog</a>
+<a href='/hugo-theme-w3css-basic.github.io/blog' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-rss'></i>&nbsp;Blog</a>
+<a href='/hugo-theme-w3css-basic.github.io/blog' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-rss'></i>&nbsp;Blog</a>
+        <!-- not .HasChildren -->
+
+<a href='/hugo-theme-w3css-basic.github.io/faq' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+<a href='/hugo-theme-w3css-basic.github.io/faq' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+<a href='/hugo-theme-w3css-basic.github.io/faq' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+      <!-- range first $.Site.Params.menutopbar.numOfItemsIfMediumDisplay .Site.Menus.topbar.ByWeight -->
+  <a href='https://github.com/it-gro/hugo-theme-w3css-basic' target="_blank" class="w3-bar-item w3-button w3-right header-nav-menu-topbar-medium" ><i class='fab fa-github'></i></a>
+  <a href='#address' target="_blank" class="w3-bar-item w3-button w3-right header-nav-menu-topbar-medium" ><i class='fas fa-envelope'></i></a>
+  <a href='/hugo-theme-w3css-basic.github.io/search' target="_blank" class="w3-bar-item w3-button w3-right header-nav-menu-topbar-medium" ><i class='fas fa-search'></i></a>   
+    
+  <!-- partials/header.nav.medium.theme_color_selector.html -->
+
+<select id="medium_theme_color_selector"
+        title="This may help you to to define w3cssColorTheme in your config.toml. All color themes are taken from www.w3schools.com/w3css."
+        class="w3-bar-item w3-right w3-padding-small w3-theme-d2 w3-small "
+        style="margin-top: 4px;"
+        translate="no"
+        onchange="setStyleSheet('medium_theme_color_selector')">
+  <option value="" disabled="" selected="">preview themes</option>
+  <option value='w3-theme-amber.css'                                                > amber</option>
+  <option value='w3-theme-black.css'                                                > black</option>
+  <option value='w3-theme-blue-grey.css'                                            > blue grey</option>
+  <option value='w3-theme-blue.css'                                                 > blue</option>
+  <option value='w3-theme-brown.css'                                                > brown</option>
+  <option value='w3-theme-cyan.css'                                                 > cyan</option>
+  <option value='w3-theme-dark-grey.css'                                            > dark grey</option>
+  <option value='w3-theme-deep-orange.css'                                          > deep orange</option>
+  <option value='w3-theme-deep-purple.css'                                          > deep purple</option>
+  <option value='w3-theme-green.css'                                                > green</option>
+  <option value='w3-theme-grey.css'                                                 > grey</option>
+  <option value='w3-theme-indigo.css'                                               > indigo</option>
+  <option value='w3-theme-khaki.css'                                                > khaki</option>
+  <option value='w3-theme-light-blue.css'                                           > light blue</option>
+  <option value='w3-theme-light-green.css'                                          > light green</option>
+  <option value='w3-theme-lime.css'                                                 > lime</option>
+  <option value='w3-theme-orange.css'                                               > orange</option>
+  <option value='w3-theme-pink.css'                                                 > pink</option>
+  <option value='w3-theme-purple.css'                                               > purple</option>
+  <option value='w3-theme-red.css'                                                  > red</option>
+  <option value='w3-theme-teal.css'                                                 > teal</option>
+  <option value='w3-theme-yellow.css'                                               > yellow</option>
+
+  <option value="" disabled="" >preview color of year</option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2016-airy-blue.css'       > airy blue</option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2016-aurora-red.css'      > aurora red</option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2008-blue-izis.css'       > blue izis</option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2016-bodacious.css'       > bodacious</option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2016-buttercup.css'       > buttercup</option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2007-chili-pepper.css'    > chili pepper</option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2016-duster-cedar.css'    > duster cedar</option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2013-emerald.css'         > emerald</option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2016-fiesta.css'          > fiesta</option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2016-green-flash.css'     > green flash</option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2011-honeysucle.css'      > honeysucle</option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2016-iced-coffe.css'      > iced coffe</option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2016-lilac-grey.css'      > lilac grey</option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2016-limpet-shell.css'    > limpet shell</option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2016-lush-medow.css'      > lush medow</option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2015-marsala.css'         > marsala</option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2009-mimosa.css'          > mimosa</option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2016-peach-echo.css'      > peach echo</option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2016-potters-clay.css'    > potters clay</option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2014-radiand-orchid.css'  > radiand orchid</option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2016-riverside.css'       > riverside</option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2016-rose-quarts.css'     > rose quarts</option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2006-sand-dollar.css'     > sand dollar</option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2016-serenity.css'        > serenity</option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2016-sharkskin.css'       > sharkskin</option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2016-snorkel-blue.css'    > snorkel blue</option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2016-spicy-mustard.css'   > spicy mustard</option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2012-tangerine-tango.css' > tangerine tango</option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2010-turquise.css'        > turquise</option>
+  <option value='color_of_the_year/w3-theme-color-of-year-2016-warm-taupe.css'      > warm taupe</option>
+
+</select>
+
+<noscript>
+  <style>
+    #medium_theme_color_selector {display:none;}
+  </style>
+</noscript>
+
+
+
+</div> 
+
+<div id='nav-small-js' class='w3-bar w3-hide-medium w3-hide-large w3-theme-dark '>
+    <!-- w3-hide-large w3-hide-medium ************************************************** -->
+      <!-- range first $.Site.Params.menutopbar.numOfItemsIfSmallDisplay .Site.Menus.topbar.ByWeight -->
+  <a href='https://github.com/it-gro/hugo-theme-w3css-basic' target="_blank" class="w3-bar-item w3-button w3-right header-nav-menu-topbar-small" ><i class='fab fa-github'></i></a>
+  <a href='#address' target="_blank" class="w3-bar-item w3-button w3-right header-nav-menu-topbar-small" ><i class='fas fa-envelope'></i></a>
+  <a href='/hugo-theme-w3css-basic.github.io/search' target="_blank" class="w3-bar-item w3-button w3-right header-nav-menu-topbar-small" ><i class='fas fa-search'></i></a>
+
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-left w3-hide-large w3-hide-medium" onclick="showMenu()"><i class="fas fa-caret-square-down"></i></a>
+  
+
+  <div id="nav-small-js-bar-block" class="w3-bar-block w3-small w3-hide w3-hide-large w3-hide-medium">
+    <!-- header-nav-entry -->
+    <!-- range .Site.Menus.main -->
+        <!-- not .HasChildren -->
+
+<a href='/hugo-theme-w3css-basic.github.io/index.html' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-home'></i>&nbsp;Home</a>
+<a href='/hugo-theme-w3css-basic.github.io/index.html' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-home'></i>&nbsp;Home</a>
+<a href='/hugo-theme-w3css-basic.github.io/index.html' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-home'></i>&nbsp;Home</a>
+        <!-- not .HasChildren -->
+
+<a href='/hugo-theme-w3css-basic.github.io/contact' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='far fa-address-card'></i>&nbsp;Contact</a>
+<a href='/hugo-theme-w3css-basic.github.io/contact' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='far fa-address-card'></i>&nbsp;Contact</a>
+<a href='/hugo-theme-w3css-basic.github.io/contact' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='far fa-address-card'></i>&nbsp;Contact</a>
+        <!-- not .HasChildren -->
+
+<a href='/hugo-theme-w3css-basic.github.io/pages' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-list'></i>&nbsp;Stuff</a>
+<a href='/hugo-theme-w3css-basic.github.io/pages' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-list'></i>&nbsp;Stuff</a>
+<a href='/hugo-theme-w3css-basic.github.io/pages' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-list'></i>&nbsp;Stuff</a>
+        <!-- .HasChildren -->
+
+<div class="w3-dropdown-hover">
+  <button class="w3-button          w3-hide-small w3-hide-medium header-nav-menu-dropdown-large"  ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <button class="w3-button          w3-hide-small w3-hide-large  header-nav-menu-dropdown-medium" ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <button class="w3-button w3-small w3-hide-medium w3-hide-large header-nav-menu-dropdown-small"  ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <div class="w3-dropdown-content w3-bar-block w3-card-4" style="z-index: 2"> 
+        <!-- range .Children -->
+    <a href='/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/' class="w3-bar-item w3-button"><i class='fas fa-info fa-fw'></i>&nbsp;About</a>
+    <a href='/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/images-taken-from/' class="w3-bar-item w3-button"><i class='far fa-images fa-fw'></i>&nbsp;Images</a>
+    <a href='/hugo-theme-w3css-basic.github.io/pages/showcase/' class="w3-bar-item w3-button"><i class='fas fa-eye fa-fw'></i>&nbsp;Showcase</a>
+  </div> 
+</div>   
+        <!-- not .HasChildren -->
+
+<a href='/hugo-theme-w3css-basic.github.io/blog' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-rss'></i>&nbsp;Blog</a>
+<a href='/hugo-theme-w3css-basic.github.io/blog' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-rss'></i>&nbsp;Blog</a>
+<a href='/hugo-theme-w3css-basic.github.io/blog' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-rss'></i>&nbsp;Blog</a>
+        <!-- not .HasChildren -->
+
+<a href='/hugo-theme-w3css-basic.github.io/faq' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+<a href='/hugo-theme-w3css-basic.github.io/faq' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+<a href='/hugo-theme-w3css-basic.github.io/faq' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+  </div>
+
+
+</div> 
+
+
+<script>
+  function showMenu() {
+    var x = document.getElementById('nav-small-js-bar-block');
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else {
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+</script>
+<noscript>
+  <style>
+    #nav-small-js {display:none;}
+  </style>
+<div id='nav-small-no-js' class='w3-bar w3-small w3-hide-medium w3-hide-large w3-theme-dark '>
+    <!-- w3-hide-large w3-hide-medium ************************************************** -->
+    <!-- header-nav-entry -->
+    <!-- range .Site.Menus.main -->
+        <!-- not .HasChildren -->
+
+<a href='/hugo-theme-w3css-basic.github.io/index.html' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-home'></i>&nbsp;Home</a>
+<a href='/hugo-theme-w3css-basic.github.io/index.html' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-home'></i>&nbsp;Home</a>
+<a href='/hugo-theme-w3css-basic.github.io/index.html' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-home'></i>&nbsp;Home</a>
+        <!-- not .HasChildren -->
+
+<a href='/hugo-theme-w3css-basic.github.io/contact' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='far fa-address-card'></i>&nbsp;Contact</a>
+<a href='/hugo-theme-w3css-basic.github.io/contact' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='far fa-address-card'></i>&nbsp;Contact</a>
+<a href='/hugo-theme-w3css-basic.github.io/contact' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='far fa-address-card'></i>&nbsp;Contact</a>
+        <!-- not .HasChildren -->
+
+<a href='/hugo-theme-w3css-basic.github.io/pages' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-list'></i>&nbsp;Stuff</a>
+<a href='/hugo-theme-w3css-basic.github.io/pages' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-list'></i>&nbsp;Stuff</a>
+<a href='/hugo-theme-w3css-basic.github.io/pages' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-list'></i>&nbsp;Stuff</a>
+        <!-- .HasChildren -->
+
+<div class="w3-dropdown-hover">
+  <button class="w3-button          w3-hide-small w3-hide-medium header-nav-menu-dropdown-large"  ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <button class="w3-button          w3-hide-small w3-hide-large  header-nav-menu-dropdown-medium" ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <button class="w3-button w3-small w3-hide-medium w3-hide-large header-nav-menu-dropdown-small"  ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <div class="w3-dropdown-content w3-bar-block w3-card-4" style="z-index: 2"> 
+        <!-- range .Children -->
+    <a href='/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/' class="w3-bar-item w3-button"><i class='fas fa-info fa-fw'></i>&nbsp;About</a>
+    <a href='/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/images-taken-from/' class="w3-bar-item w3-button"><i class='far fa-images fa-fw'></i>&nbsp;Images</a>
+    <a href='/hugo-theme-w3css-basic.github.io/pages/showcase/' class="w3-bar-item w3-button"><i class='fas fa-eye fa-fw'></i>&nbsp;Showcase</a>
+  </div> 
+</div>   
+        <!-- not .HasChildren -->
+
+<a href='/hugo-theme-w3css-basic.github.io/blog' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-rss'></i>&nbsp;Blog</a>
+<a href='/hugo-theme-w3css-basic.github.io/blog' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-rss'></i>&nbsp;Blog</a>
+<a href='/hugo-theme-w3css-basic.github.io/blog' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-rss'></i>&nbsp;Blog</a>
+        <!-- not .HasChildren -->
+
+<a href='/hugo-theme-w3css-basic.github.io/faq' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+<a href='/hugo-theme-w3css-basic.github.io/faq' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+<a href='/hugo-theme-w3css-basic.github.io/faq' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+      <!-- range first $.Site.Params.menutopbar.numOfItemsIfSmallDisplay .Site.Menus.topbar.ByWeight -->
+  <a href='https://github.com/it-gro/hugo-theme-w3css-basic' target="_blank" class="w3-bar-item w3-button w3-right header-nav-menu-topbar-small" ><i class='fab fa-github'></i></a>
+</div> 
+
+</noscript>
+
+        <!-- back in _default/baseof.html  -->
+      </header>
+      <div id="canvas" class='w3-container w3-theme-l4 '>
+        <!-- block headline _default/baseof.html  -->
+          <h1 class='w3-panel w3-theme-l2 '><i class='fas fa-info fa-fw fa-1x'></i>
+            About this Theme
+            <span style="float:right;"><button id="btnback" class="headline-button w3-btn" style="visibility:hidden;" onclick="javascript:history.back()"   ><i class="fas fa-step-backward"></i></button></span>
+          </h1>
+<!-- pages/list.html (main) -->
+
+  
+      <!-- partials/page.nav.breadcrump.html -->
+
+    <div class="w3-bar breadcrump-button w3-small  w3-theme-d3 ">
+      
+  <div class="w3-bar-item w3-button breadcrump-button w3-small"><a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/">My <strong>Stuff</strong> 🏠/</a>
+  </div>
+  <div class="w3-bar-item w3-button breadcrump-button w3-small"><a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/">About this Theme/</a>
+  </div>
+    </div>  
+
+    <!-- back in pages/list.html (main) -->
+
+  
+  <!-- partials/page.nav.cards.html -->
+<div class='w3-container w3-margin-bottom w3-theme-l3 '>
+    
+  <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/pages/'>
+    <div class='w3-card-4 w3-margin-top w3-margin-bottom w3-round-xxlarge  w3-hover-shadow w3-opacity-min w3-hover-opacity-off w3-theme-d3 '> 
+        <i class='w3-padding-small fas fa-bullseye fa-2x'></i>
+        <i class='w3-padding-small fas fa-list fa-2x'></i>   
+
+        <span class="w3-large">My <strong>Stuff</strong> 🏠</span>
+      </div>
+    </a>
+      
+  <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/hugobasicexample/'>
+    <div class='w3-card-4 w3-margin-top w3-margin-bottom w3-round-xxlarge  w3-hover-shadow w3-opacity-min w3-hover-opacity-off w3-theme-d3 '> 
+        <i class='w3-padding-small fas fa-arrow-down fa-2x'></i>
+        <i class='w3-padding-small fab fa-superpowers fa-2x'></i>   
+
+        <span class="w3-large">Hugo Basic Examples</span>
+      </div>
+    </a>
+      
+  <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/images-taken-from/'>
+    <div class='w3-card-4 w3-margin-top w3-margin-bottom w3-round-xxlarge  w3-hover-shadow w3-opacity-min w3-hover-opacity-off w3-theme-d3 '> 
+        <i class='w3-padding-small fas fa-arrow-down fa-2x'></i>
+        <i class='w3-padding-small far fa-images fa-fw fa-2x'></i>   
+          
+  <!-- partials/resource.image.html  -->
+       
+<img
+  class="w3-image w3-round "
+  style="vertical-align:bottom; max-width:40px; max-height:40px; width: auto; height: auto; margin: 0px 4px 4px 4px; "
+  src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/pixabay.com/paint-2985569_640_hu845527be83d41953ae0bbc9338ce85be_121116_40x0_resize_q75_box.jpg'
+  alt='/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/pixabay.com/paint-2985569_640_hu845527be83d41953ae0bbc9338ce85be_121116_40x0_resize_q75_box.jpg'
+  >
+ 
+
+        <span class="w3-large">Images taken from&hellip;</span>
+      </div>
+    </a>
+
+</div>
+
+    <!-- back in pages/list.html (main) -->
+    <!-- range .Data.Pages.ByWeigh  -->
+
+  <div id='PagesListContainer' class=' w3-theme-l4 '>
+
+  
+      <!-- modulo 0 -->
+    <div class="w3-cell-row w3-margin-bottom ">
+
+    <div class='w3-cell w3-cell-bottom w3-mobile w3-theme-l4 '>
+        <div class='w3-card w3-margin-right w3-round w3-hover-shadow w3-opacity-min w3-hover-opacity-off w3-theme-l3 '>
+        
+  <!-- partials/main.teaser_in_card.html -->
+<a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/readme/'>
+
+  
+    <!-- back in partials/main.teaser_in_card.html -->
+
+  <div class="w3-margin-left w3-margin-right">
+
+    <h3>
+    This Theme Readme (github)
+    </h3>
+
+    
+  <!-- partials/main.teaserpic.card.html --> 
+
+  <!-- partials/resource.image.html  -->
+       
+    
+<img
+  class="w3-image w3-left w3-round w3-hover-opacity "
+  style="max-width:150px; max-height:150px; width: auto; height: auto; margin: 0px 8px 16px 0px; "
+  src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/readme/img/pixabay.com/coffee-2608864_hub61b428d1ca465fd0d8d0ea5b4a6213c_63114_150x0_resize_q75_box.jpg'
+  alt='/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/readme/img/pixabay.com/coffee-2608864_hub61b428d1ca465fd0d8d0ea5b4a6213c_63114_150x0_resize_q75_box.jpg'
+  >
+
+This theme is built with W3.CSS and is highly configurable. More than <strong>50</strong> monochromatic color themes and <strong>25</strong> shortcodes. Support for image processing and attachments.
+  </div>
+</a>
+
+<div class="w3-container w3-center">
+        <a href='/hugo-theme-w3css-basic.github.io/categories' class="taxonomy-button w3-button"><i class="far fa-folder-open" aria-hidden="true"></i></a>
+          <!-- range .Params.categories -->
+        <a class="taxonomy-button w3-button " href='/hugo-theme-w3css-basic.github.io/categories/this-theme'>This Theme</a><br>
+  </div>
+
+  <div class="w3-container w3-center ">
+  </div>
+
+          <!-- back in pages/list.html (main)   -->
+
+        </div>
+                 <!-- w3-card -->
+      </div>
+               <!-- w3-cell -->
+
+    <div class='w3-cell w3-cell-bottom w3-mobile w3-theme-l4 '>
+        <div class='w3-card w3-margin-right w3-round w3-hover-shadow w3-opacity-min w3-hover-opacity-off w3-theme-l3 '>
+        
+  <!-- partials/main.teaser_in_card.html -->
+<a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/'>
+
+  
+    <!-- back in partials/main.teaser_in_card.html -->
+
+  <div class="w3-margin-left w3-margin-right">
+
+    <h3>
+      <i class='fas fa-code'></i>
+    This Theme Shortcodes
+    </h3>
+
+    
+  <!-- partials/main.teaserpic.card.html --> 
+
+  <!-- partials/resource.image.html  -->
+       
+    
+<img
+  class="w3-image w3-left w3-round w3-hover-opacity "
+  style="max-width:150px; max-height:150px; width: auto; height: auto; margin: 0px 8px 16px 0px; "
+  src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/img/pixabay.com/penguin-2104173_1920_hu83b593d3e71a64e0d6371de0254604f8_270606_150x0_resize_q75_box.jpg'
+  alt='/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/img/pixabay.com/penguin-2104173_1920_hu83b593d3e71a64e0d6371de0254604f8_270606_150x0_resize_q75_box.jpg'
+  >
+
+You can extend Hugo’s built-in shortcodes by creating your own using the same templating syntax as that for single and list pages.
+Shortcodes are a means to consolidate templating into small, reusable …
+  </div>
+</a>
+
+<div class="w3-container w3-center">
+        <a href='/hugo-theme-w3css-basic.github.io/categories' class="taxonomy-button w3-button"><i class="far fa-folder-open" aria-hidden="true"></i></a>
+          <!-- range .Params.categories -->
+        <a class="taxonomy-button w3-button " href='/hugo-theme-w3css-basic.github.io/categories/this-theme'>This Theme</a><br>
+  </div>
+
+  <div class="w3-container w3-center ">
+      <a href='/hugo-theme-w3css-basic.github.io/tags' class="taxonomy-button w3-button"><i class="fas fa-tags" aria-hidden="true"></i></a>
+          <!-- range .Params.tags -->
+        <a class="taxonomy-button w3-button " href='/hugo-theme-w3css-basic.github.io/tags/shortcodes'>shortcodes</a><a class="taxonomy-button w3-button " href='/hugo-theme-w3css-basic.github.io/tags/showcase'>Showcase</a><br>
+  </div>
+
+          <!-- back in pages/list.html (main)   -->
+
+        </div>
+                 <!-- w3-card -->
+      </div>
+               <!-- w3-cell -->
+      <!-- last one -->
+
+    </div>
+             <!-- w3-cell-row --> 
+
+  </div>
+           <!-- PagesListContainer -->
+  <!-- partials/main.taxonomy.full.bar.html -->
+<div class="w3-container w3-padding-small "></div>
+
+        <!-- back in _default/baseof.html  -->
+      </div>
+      <!-- canvas -->
+
+      <footer>
+        
+  <!-- partials/footer.html  -->
+<div id="footer" class='w3-container w3-theme-d5 '>
+
+  <div class="w3-margin-bottom w3-row w3-mobile">
+      <!-- Site.Params.aboutUs  -->
+    <div class="w3-col w3-third">
+      <h4>About us</h4>
+      <div class="notranslate"><p>Vel illum <strong>dolore</strong> eu</p>
+
+<ul>
+<li>feugiat nulla</li>
+<li>facilisis at vero.</li>
+</ul>
+
+<p>Nam vestibulum accumsan nisl.</p>
+</div>
+    </div>  
+      <!-- Site.Params.recentPosts  -->
+    <div class="w3-col w3-third">
+      <h4>Recent Posts</h4>
+        <!-- range first Site.Params.footerNumOfPosts .Site.RegularPages "Section" "blog" -->
+
+        <div class="w3-container ">
+          <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/blog/2018/05/11/hugo-amet/'> 
+          
+  <!-- partials/resource.image.html  -->
+       
+<img
+  class="w3-image w3-left w3-round w3-hover-opacity"
+  style="max-width:60px; max-height:20px; width: auto; height: auto; margin: 0px 8px 16px 0px;"
+  src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_60x0_resize_box_2.png'
+  alt='/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_60x0_resize_box_2.png'
+  >
+
+
+          </a>
+          <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/blog/2018/05/11/hugo-amet/'>Hugo - amnet</a>
+        </div>
+
+        <div class="w3-container ">
+          <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/blog/2017/11/24/hugo-highlight-chromastyles/'> 
+          
+  <!-- partials/resource.image.html  -->
+       
+<img
+  class="w3-image w3-left w3-round w3-hover-opacity"
+  style="max-width:60px; max-height:20px; width: auto; height: auto; margin: 0px 8px 16px 0px;"
+  src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/bitbucket.org/pygments-main-logo_hu83f454384722f2ac083918ae2d1f75df_15959_60x0_resize_box_2.png'
+  alt='/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/bitbucket.org/pygments-main-logo_hu83f454384722f2ac083918ae2d1f75df_15959_60x0_resize_box_2.png'
+  >
+
+
+          </a>
+          <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/blog/2017/11/24/hugo-highlight-chromastyles/'>Hugo - <strong>highlight</strong> 🎨</a>
+        </div>
+
+        <div class="w3-container ">
+          <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/blog/2017/11/10/hugo-dolor/'> 
+          
+  <!-- partials/resource.image.html  -->
+       
+<img
+  class="w3-image w3-left w3-round w3-hover-opacity"
+  style="max-width:60px; max-height:20px; width: auto; height: auto; margin: 0px 8px 16px 0px;"
+  src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_60x0_resize_box_2.png'
+  alt='/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_60x0_resize_box_2.png'
+  >
+
+
+          </a>
+          <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/blog/2017/11/10/hugo-dolor/'>Hugo - dolor</a>
+        </div>
+
+        <div class="w3-container ">
+          <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/blog/2017/11/09/hugo-lorem/'> 
+          
+  <!-- partials/resource.image.html  -->
+       
+<img
+  class="w3-image w3-left w3-round w3-hover-opacity"
+  style="max-width:60px; max-height:20px; width: auto; height: auto; margin: 0px 8px 16px 0px;"
+  src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-lorem_hu77f397ba1b7f0f571a34fad927893059_94449_60x0_resize_box_2.png'
+  alt='/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-lorem_hu77f397ba1b7f0f571a34fad927893059_94449_60x0_resize_box_2.png'
+  >
+
+
+          </a>
+          <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/blog/2017/11/09/hugo-lorem/'>Hugo - lorem</a>
+        </div>
+
+        <div class="w3-container ">
+          <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/blog/2017/11/08/hugo-ipsum/'> 
+          
+  <!-- partials/resource.image.html  -->
+       
+<img
+  class="w3-image w3-left w3-round w3-hover-opacity"
+  style="max-width:60px; max-height:20px; width: auto; height: auto; margin: 0px 8px 16px 0px;"
+  src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-ipsum_hu4bb3d9e9bcf5cb42154f6d8c89189ff3_242267_60x0_resize_box_2.png'
+  alt='/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-ipsum_hu4bb3d9e9bcf5cb42154f6d8c89189ff3_242267_60x0_resize_box_2.png'
+  >
+
+
+          </a>
+          <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/blog/2017/11/08/hugo-ipsum/'>Hugo - ipsum</a>
+        </div> 
+
+    </div>    
+      <!-- Site.Params.address  -->
+    <div id="address" class="w3-col w3-third">
+      <h4>Contact</h4>
+      <div class="notranslate"><p><strong>nobis eleifend</strong><br />
+<strong>Soluta nobis eleifend</strong><br />
+illum dolore eu feugiat<br />
+3612 Steffisburg<br />
+consectetuer adipiscing</p>
+
+<p><strong>Switzerland</strong></p>
+</div><br/>
+      
+      
+      <a href='/hugo-theme-w3css-basic.github.io/contact/' class='w3-button w3-theme-l4 '>Go to contact page</a></div> 
+      
+      
+    </div>
+
+  </div>  
+</div>  
+
+  <!-- partials/footer.bottom.html  -->
+<div class='w3-cell-row w3-small w3-theme-l3 '>
+
+  <div class="w3-cell w3-cell-middle">
+      <!-- $.Site.Params.bottomLeft  -->
+    Copyright &copy; 2018, <em>lobortis nisl</em> ut aliquip ex ea commodo consequat
+  </div> 
+
+  <div class="w3-cell w3-cell-middle">
+    <div class="w3-right">
+        <!-- $.Site.Params.bottomRight  -->
+      created with <a href="https://gohugo.io" target="_blank">Hugo 0.42.2</a>
+    </div> 
+  </div>   
+
+</div>     
+
+        <!-- back in _default/baseof.html  -->
+      
+      </footer>
+
+    </div>
+    <!-- all -->
+    
+<!-- partials/scripts.bottom.html -->
+
+<script src='/hugo-theme-w3css-basic.github.io/vendor/jquery/jquery-3.3.1.slim.min.js'></script> 
+  <script>
+    function setStyleSheet(id){
+      var cssName    = document.getElementById(id).value;
+      var stylesheet = document.getElementById("theme-colors");
+      var cssPrefix  = 'https:\/\/it-gro.github.io\/hugo-theme-w3css-basic.github.io\/vendor\/w3css\/4\/'; 
+      var href       = cssPrefix.concat(cssName);
+      stylesheet.setAttribute('href', href);
+    }
+  </script>
+
+<script src='/hugo-theme-w3css-basic.github.io/js/custom.bottom.js'></script>
+
+
+    <script>
+      function onload(){
+         document.getElementById("btnback").style.visibility="visible";
+      }
+    </script>
+
+  </body>
+  
+  <!-- partials/debug.html  -->
+</html>
