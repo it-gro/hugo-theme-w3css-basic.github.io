@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang='en-us'>
+  <!-- _default/baseof.html  -->
+  
+  <!-- partials/head.html  -->
+<head>
+  <!-- hi there - what do you expect to see? ...  -->
+  
+  <!-- partials/head.meta.html -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="content-type"    content="text/html; charset=utf-8" />
+  <meta name="viewport"              content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="robots"                content="all,follow" />
+  <meta name="googlebot"             content="index,follow,snippet,archive" />
+  <meta name="author"                content='anonymous' />
+  <meta name="keywords"              content=' web, hugo, tools ' />
+  
+  <meta name="description"           content='Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+commodo ligula eget dolor. Aenean massa.
+
+Cum sociis …' />
+  
+  <!-- partials/head.meta.og.html -->
+  <meta property="og:site_name"      content="hugo-theme-w3css-basic exampleSite" /> 
+  <meta property="og:title"          content="Hugo - ipsum" /> 
+  
+  <meta property="og:url"            content="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog/2017/11/08/hugo-ipsum/" /> 
+  <meta property="og:image"          content='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/favicons/apple-touch-icon.png' /> 
+
+  
+  <!-- partials/head.meta.twitter.html -->
+  <meta property="twitter:title"          content="Hugo - ipsum" /> 
+  
+  <meta property="twitter:image"          content='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/favicons/apple-touch-icon.png' /> 
+
+    
+  <!-- partials/head.google.gtags.html -->
+  <script async src='https://www.googletagmanager.com/gtag/js?id=UA-113314068-2'></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-113314068-2');
+  </script>
+    <!-- back in partials/head.html  -->
+
+  
+  <!-- partials/head.cookieconsent.html -->
+
+  <link rel="stylesheet" href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/vendor/insites/cookieconsent/cookieconsent.3.0.6.min.css">
+  <script src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/vendor/insites/cookieconsent/cookieconsent.3.0.6.min.js"></script>
+
+  <script>
+    window.addEventListener("load", function(){
+      window.cookieconsent.initialise({
+        "palette": {
+           "popup": {
+             "background": "#fff",
+             "text":       "#444",
+           },
+           "button": {
+             "background": "#666",
+             "text":       "#fff"
+           }
+         },
+        "position": "bottom-left","theme" : "classic",
+        "content": {
+          "message": "This website uses cookies to ensure you get the best experience on our website.",
+          "dismiss": "Yes, I agree",
+          "link"   : "Learn more",
+          "href"   : "https://cookiesandyou.com"
+        }
+      })  
+    })  
+    ;
+  </script>  
+
+
+  <title>hugo-theme-w3css-basic exampleSite</title>
+
+  <meta name="generator" content="Hugo 0.42.2" />
+
+  
+<!-- partials/head.stylesheets.html -->
+<link rel="stylesheet" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/vendor/fontawesome/css/all.css' />
+<link rel="stylesheet" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/vendor/daneden.github.io/animate.css/animate.min.css' />
+<link rel="stylesheet" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/vendor/OwlCarousel2/owl.carousel.min.css' />
+<link rel="stylesheet" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/vendor/OwlCarousel2/owl.theme.default.min.css' />
+
+<link rel="stylesheet" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/vendor/w3css/4/w3.css' />
+<link rel="stylesheet" id="theme-colors" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/vendor/w3css/4/color_of_the_year/w3-theme-color-of-year-2016-warm-taupe.css' />
+
+<link rel="stylesheet" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/css/syntax.min.css' />
+<link rel="stylesheet" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/css/w3css-basic.min.css' />
+<link rel="stylesheet" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/css/res-gallery.min.css' />
+
+<link rel="stylesheet" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/css/custom.css' />
+
+    
+  <!-- partials/head.fonts.googleapis.html -->
+  <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Ubuntu|Creepster|Signika|Ubuntu+Mono' />
+  <style> html {font-family: 'Ubuntu', sans-serif; } </style>
+  <style> body {font-family: 'Ubuntu', sans-serif; } </style>
+  <style> time {font-family: 'Creepster', cursive; } </style>
+  <style> h1 {font-family: 'Signika', sans-serif; } </style>
+  <style> h2 {font-family: 'Signika', sans-serif; } </style>
+  <style> h3 {font-family: 'Signika', sans-serif; } </style>
+  <style> h4 {font-family: 'Signika', sans-serif; } </style>
+  <style> h5 {font-family: 'Signika', sans-serif; } </style>
+  <style> h6 {font-family: 'Signika', sans-serif; } </style>
+  <style> pre {font-family: 'Ubuntu Mono', monospace; } </style>
+  <style> code {font-family: 'Ubuntu Mono', monospace; } </style>
+  <style> kbd {font-family: 'Ubuntu Mono', monospace; } </style>
+  <style> samp {font-family: 'Ubuntu Mono', monospace; } </style>
+  <style> data {font-family: 'Ubuntu Mono', monospace; } </style>   
+
+  
+  <!-- partials/head.ie.html -->
+  
+  
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  
+
+  <!-- partials/head.favicon.html -->  
+
+<!-- partials/scripts.top.html -->
+<script src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/js/custom.top.js'></script>
+
+<!-- partials/head.rss.html -->
+<link href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/index.xml' rel="alternate" type="application/rss+xml" title='hugo-theme-w3css-basic exampleSite (rss+xml alternate)' />
+
+    <!-- back in partials/head.html  -->
+</head>
+
+  <!-- back in _default/baseof.html  -->
+
+  <body onload='onload()' >
+    <div id="all" class="w3-theme">
+      <header>
+        
+  <!-- partials/header.marquee.html -->
+
+  <!-- partials/header.nav.html -->
+
+
+<div class='w3-bar w3-hide-small w3-hide-medium w3-theme-dark '>
+    <!-- w3-hide-small w3-hide-medium ************************************************** -->
+    <!-- header-nav-entry -->
+    <!-- range .Site.Menus.main -->
+        <!-- not .HasChildren -->
+
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/index.html' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-home'></i>&nbsp;Home</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/index.html' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-home'></i>&nbsp;Home</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/index.html' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-home'></i>&nbsp;Home</a>
+        <!-- not .HasChildren -->
+
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/contact' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='far fa-address-card'></i>&nbsp;Contact</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/contact' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='far fa-address-card'></i>&nbsp;Contact</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/contact' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='far fa-address-card'></i>&nbsp;Contact</a>
+        <!-- not .HasChildren -->
+
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-list'></i>&nbsp;Stuff</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-list'></i>&nbsp;Stuff</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-list'></i>&nbsp;Stuff</a>
+        <!-- .HasChildren -->
+
+<div class="w3-dropdown-hover">
+  <button class="w3-button          w3-hide-small w3-hide-medium header-nav-menu-dropdown-large"  ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <button class="w3-button          w3-hide-small w3-hide-large  header-nav-menu-dropdown-medium" ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <button class="w3-button w3-small w3-hide-medium w3-hide-large header-nav-menu-dropdown-small"  ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <div class="w3-dropdown-content w3-bar-block w3-card-4" style="z-index: 2"> 
+        <!-- range .Children -->
+    <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/' class="w3-bar-item w3-button"><i class='fas fa-info fa-fw'></i>&nbsp;About</a>
+    <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/images-taken-from/' class="w3-bar-item w3-button"><i class='far fa-images fa-fw'></i>&nbsp;Images</a>
+    <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/' class="w3-bar-item w3-button"><i class='fas fa-eye fa-fw'></i>&nbsp;Showcase</a>
+  </div> 
+</div>   
+        <!-- not .HasChildren -->
+
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-rss'></i>&nbsp;Blog</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-rss'></i>&nbsp;Blog</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-rss'></i>&nbsp;Blog</a>
+        <!-- not .HasChildren -->
+
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/faq' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/faq' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/faq' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+      <!-- range .Site.Menus.topbar.ByWeight -->
+  <a href='https://github.com/it-gro/hugo-theme-w3css-basic' target="_blank" class="w3-bar-item w3-button w3-right" ><i class='fab fa-github'></i></a>
+  <a href='https://gitlab.com/it-gro' target="_blank" class="w3-bar-item w3-button w3-right" ><i class='fab fa-gitlab'></i></a>
+  <a href='#address' target="_blank" class="w3-bar-item w3-button w3-right" ><i class='fas fa-envelope'></i></a>
+  <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/search' target="_blank" class="w3-bar-item w3-button w3-right" ><i class='fas fa-search'></i></a>
+      
+  <!-- partials/header.nav.google.translate.html -->
+<span class="w3-bar-item w3-right" id="google_translate_element"></span>
+<script>
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement(
+      {
+          pageLanguage: 'en-us'
+        , layout: google.translate.TranslateElement.FloatPosition.TOP_RIGHT
+        , multilanguagePage: true
+      }
+      , 'google_translate_element'
+    );
+  }
+</script>
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+ 
+
+
+</div> 
+<div class='w3-bar w3-hide-small w3-hide-large w3-theme-dark '>
+    <!-- w3-hide-small w3-hide-large ************************************************** -->
+    <!-- header-nav-entry -->
+    <!-- range .Site.Menus.main -->
+        <!-- not .HasChildren -->
+
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/index.html' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-home'></i>&nbsp;Home</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/index.html' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-home'></i>&nbsp;Home</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/index.html' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-home'></i>&nbsp;Home</a>
+        <!-- not .HasChildren -->
+
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/contact' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='far fa-address-card'></i>&nbsp;Contact</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/contact' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='far fa-address-card'></i>&nbsp;Contact</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/contact' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='far fa-address-card'></i>&nbsp;Contact</a>
+        <!-- not .HasChildren -->
+
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-list'></i>&nbsp;Stuff</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-list'></i>&nbsp;Stuff</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-list'></i>&nbsp;Stuff</a>
+        <!-- .HasChildren -->
+
+<div class="w3-dropdown-hover">
+  <button class="w3-button          w3-hide-small w3-hide-medium header-nav-menu-dropdown-large"  ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <button class="w3-button          w3-hide-small w3-hide-large  header-nav-menu-dropdown-medium" ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <button class="w3-button w3-small w3-hide-medium w3-hide-large header-nav-menu-dropdown-small"  ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <div class="w3-dropdown-content w3-bar-block w3-card-4" style="z-index: 2"> 
+        <!-- range .Children -->
+    <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/' class="w3-bar-item w3-button"><i class='fas fa-info fa-fw'></i>&nbsp;About</a>
+    <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/images-taken-from/' class="w3-bar-item w3-button"><i class='far fa-images fa-fw'></i>&nbsp;Images</a>
+    <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/' class="w3-bar-item w3-button"><i class='fas fa-eye fa-fw'></i>&nbsp;Showcase</a>
+  </div> 
+</div>   
+        <!-- not .HasChildren -->
+
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-rss'></i>&nbsp;Blog</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-rss'></i>&nbsp;Blog</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-rss'></i>&nbsp;Blog</a>
+        <!-- not .HasChildren -->
+
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/faq' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/faq' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/faq' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+      <!-- range first $.Site.Params.menutopbar.numOfItemsIfMediumDisplay .Site.Menus.topbar.ByWeight -->
+  <a href='https://github.com/it-gro/hugo-theme-w3css-basic' target="_blank" class="w3-bar-item w3-button w3-right header-nav-menu-topbar-medium" ><i class='fab fa-github'></i></a>
+  <a href='https://gitlab.com/it-gro' target="_blank" class="w3-bar-item w3-button w3-right header-nav-menu-topbar-medium" ><i class='fab fa-gitlab'></i></a>
+  <a href='#address' target="_blank" class="w3-bar-item w3-button w3-right header-nav-menu-topbar-medium" ><i class='fas fa-envelope'></i></a>   
+
+
+</div> 
+
+<div id='nav-small-js' class='w3-bar w3-hide-medium w3-hide-large w3-theme-dark '>
+    <!-- w3-hide-large w3-hide-medium ************************************************** -->
+      <!-- range first $.Site.Params.menutopbar.numOfItemsIfSmallDisplay .Site.Menus.topbar.ByWeight -->
+  <a href='https://github.com/it-gro/hugo-theme-w3css-basic' target="_blank" class="w3-bar-item w3-button w3-right header-nav-menu-topbar-small" ><i class='fab fa-github'></i></a>
+  <a href='https://gitlab.com/it-gro' target="_blank" class="w3-bar-item w3-button w3-right header-nav-menu-topbar-small" ><i class='fab fa-gitlab'></i></a>
+  <a href='#address' target="_blank" class="w3-bar-item w3-button w3-right header-nav-menu-topbar-small" ><i class='fas fa-envelope'></i></a>
+  <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/search' target="_blank" class="w3-bar-item w3-button w3-right header-nav-menu-topbar-small" ><i class='fas fa-search'></i></a>
+
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-left w3-hide-large w3-hide-medium" onclick="showMenu()"><i class="fas fa-caret-square-down"></i></a>
+  
+
+  <div id="nav-small-js-bar-block" class="w3-bar-block w3-small w3-hide w3-hide-large w3-hide-medium">
+    <!-- header-nav-entry -->
+    <!-- range .Site.Menus.main -->
+        <!-- not .HasChildren -->
+
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/index.html' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-home'></i>&nbsp;Home</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/index.html' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-home'></i>&nbsp;Home</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/index.html' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-home'></i>&nbsp;Home</a>
+        <!-- not .HasChildren -->
+
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/contact' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='far fa-address-card'></i>&nbsp;Contact</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/contact' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='far fa-address-card'></i>&nbsp;Contact</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/contact' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='far fa-address-card'></i>&nbsp;Contact</a>
+        <!-- not .HasChildren -->
+
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-list'></i>&nbsp;Stuff</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-list'></i>&nbsp;Stuff</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-list'></i>&nbsp;Stuff</a>
+        <!-- .HasChildren -->
+
+<div class="w3-dropdown-hover">
+  <button class="w3-button          w3-hide-small w3-hide-medium header-nav-menu-dropdown-large"  ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <button class="w3-button          w3-hide-small w3-hide-large  header-nav-menu-dropdown-medium" ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <button class="w3-button w3-small w3-hide-medium w3-hide-large header-nav-menu-dropdown-small"  ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <div class="w3-dropdown-content w3-bar-block w3-card-4" style="z-index: 2"> 
+        <!-- range .Children -->
+    <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/' class="w3-bar-item w3-button"><i class='fas fa-info fa-fw'></i>&nbsp;About</a>
+    <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/images-taken-from/' class="w3-bar-item w3-button"><i class='far fa-images fa-fw'></i>&nbsp;Images</a>
+    <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/' class="w3-bar-item w3-button"><i class='fas fa-eye fa-fw'></i>&nbsp;Showcase</a>
+  </div> 
+</div>   
+        <!-- not .HasChildren -->
+
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-rss'></i>&nbsp;Blog</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-rss'></i>&nbsp;Blog</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-rss'></i>&nbsp;Blog</a>
+        <!-- not .HasChildren -->
+
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/faq' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/faq' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/faq' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+  </div>
+
+
+</div> 
+
+
+<script>
+  function showMenu() {
+    var x = document.getElementById('nav-small-js-bar-block');
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else {
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+</script>
+<noscript>
+  <style>
+    #nav-small-js {display:none;}
+  </style>
+<div id='nav-small-no-js' class='w3-bar w3-small w3-hide-medium w3-hide-large w3-theme-dark '>
+    <!-- w3-hide-large w3-hide-medium ************************************************** -->
+    <!-- header-nav-entry -->
+    <!-- range .Site.Menus.main -->
+        <!-- not .HasChildren -->
+
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/index.html' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-home'></i>&nbsp;Home</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/index.html' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-home'></i>&nbsp;Home</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/index.html' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-home'></i>&nbsp;Home</a>
+        <!-- not .HasChildren -->
+
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/contact' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='far fa-address-card'></i>&nbsp;Contact</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/contact' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='far fa-address-card'></i>&nbsp;Contact</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/contact' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='far fa-address-card'></i>&nbsp;Contact</a>
+        <!-- not .HasChildren -->
+
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-list'></i>&nbsp;Stuff</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-list'></i>&nbsp;Stuff</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-list'></i>&nbsp;Stuff</a>
+        <!-- .HasChildren -->
+
+<div class="w3-dropdown-hover">
+  <button class="w3-button          w3-hide-small w3-hide-medium header-nav-menu-dropdown-large"  ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <button class="w3-button          w3-hide-small w3-hide-large  header-nav-menu-dropdown-medium" ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <button class="w3-button w3-small w3-hide-medium w3-hide-large header-nav-menu-dropdown-small"  ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <div class="w3-dropdown-content w3-bar-block w3-card-4" style="z-index: 2"> 
+        <!-- range .Children -->
+    <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/' class="w3-bar-item w3-button"><i class='fas fa-info fa-fw'></i>&nbsp;About</a>
+    <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/images-taken-from/' class="w3-bar-item w3-button"><i class='far fa-images fa-fw'></i>&nbsp;Images</a>
+    <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/' class="w3-bar-item w3-button"><i class='fas fa-eye fa-fw'></i>&nbsp;Showcase</a>
+  </div> 
+</div>   
+        <!-- not .HasChildren -->
+
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-rss'></i>&nbsp;Blog</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-rss'></i>&nbsp;Blog</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-rss'></i>&nbsp;Blog</a>
+        <!-- not .HasChildren -->
+
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/faq' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/faq' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/faq' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+      <!-- range first $.Site.Params.menutopbar.numOfItemsIfSmallDisplay .Site.Menus.topbar.ByWeight -->
+  <a href='https://github.com/it-gro/hugo-theme-w3css-basic' target="_blank" class="w3-bar-item w3-button w3-right header-nav-menu-topbar-small" ><i class='fab fa-github'></i></a>
+</div> 
+
+</noscript>
+
+        <!-- back in _default/baseof.html  -->
+      </header>
+      <div id="canvas" class='w3-container w3-theme-l4 '>
+        <!-- block headline _default/baseof.html  -->
+          <h1 class='w3-panel w3-theme-l2 '>
+            Hugo - ipsum
+            <span style="float:right;"><button id="btnback" class="headline-button w3-btn" style="visibility:hidden;" onclick="javascript:history.back()"   ><i class="fas fa-step-backward"></i></button></span>
+          </h1>
+        <!-- block main _default/baseof.html  -->
+        
+  <!-- partials/head.blog.date.html -->
+<div class="w3-left"><i class="far fa-calendar" aria-hidden="true"></i>&nbsp;8. November 2017</div>
+
+  <!-- partials/main.taxonomy.current.html -->
+<div class="w3-right-align ">
+    <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/categories' class="taxonomy-button w3-button"><i class="far fa-folder-open"></i></a>
+    <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/categories/tools' class="taxonomy-button w3-button">tools</a>
+   <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags' class="taxonomy-button w3-button"><i class="fas fa-tags"></i></a>
+    <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/web' class="taxonomy-button w3-button">web</a>
+    <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/hugo' class="taxonomy-button w3-button">hugo</a>
+</div>
+
+  <!-- partials/main.teaserpic.single.html --> 
+  
+  <!-- partials/resource.image.html  -->
+       
+<img
+  class="w3-hide-small w3-image w3-right w3-round "
+  style="max-width:400px; max-height:200px; width: auto; height: auto; margin: 8px 0px  8px 8px; "
+  src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-ipsum_hu4bb3d9e9bcf5cb42154f6d8c89189ff3_242267_300x0_resize_box_2.png'
+  alt='/resources/images/teaserpics/gohugo.io/hugo-ipsum_hu4bb3d9e9bcf5cb42154f6d8c89189ff3_242267_300x0_resize_box_2.png'
+  >
+
+ 
+  <!-- partials/main.toc.single.html -->
+
+        <!-- back in _default/baseof.html  -->
+        <!-- now Content  --><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+commodo ligula eget dolor. Aenean massa.</p>
+
+<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+pretium quis, sem.</p>
+
+<p>Nullam dictum felis eu pede mollis pretium.</p>
+
+<p></p>
+
+<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+pretium quis, sem.</p>
+
+<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
+aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+imperdiet a, venenatis vitae, justo.</p>
+
+<p>Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras
+dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend
+tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac,
+enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a.</p>
+  <!-- partials/main.related.html -->
+
+
+
+  <div class='w3-card-4 w3-round-large w3-margin-top w3-margin-bottom w3-theme-l3 '>
+    <div class="w3-container w3-padding-small ">
+      <h3>See Also</h3>
+      <ul>
+          <li><a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/hugobasicexample/hugoisforlovers/">Getting Started with Hugo</a></li>
+      </ul>
+    </div>
+  </div>   
+<!-- blog/single.html (blog-disqus) -->
+  
+  <!-- partials/blog.disqus-button.html -->
+<div class="disqus-comments">
+  <button id="disqus-show-comments" class='w3-button w3-theme-l3'  type="button" onclick="disqusShowComments()">Show&nbsp;comments 
+      <span class="w3-small">(via disqus.com)</span>
+      <noscript>
+          <!-- i18n "JsNeeded"  -->
+       <br/>JavaScript needed for this
+      </noscript>
+  </button>
+  <div id="disqus_thread"></div>
+</div> 
+
+<script type="text/javascript">
+  (function starter(){
+    if ((localStorage.getItem("agreed_to_disqus_thread") != "YES") ) {
+      document.getElementById('disqus-show-comments').style.display = "none";
+      document.getElementById('disqus_thread').innerHTML =
+        'Show comments for this page powered by \x3ca href=\x22https:\/\/disqus.com\x22 target=\x22_blank\x22\x3edisqus.com\x3c\/a\x3e. But first agree to the \x3ca href=\x22https:\/\/help.disqus.com\/terms-and-policies\/terms-of-service\x22 target=\x22_blank\x22\x3eTerms\x3c\/a\x3e '
+        +'<button id="agree-to-disqus" type="button" onclick="disqusAgree()" class="w3-button w3-theme-l3" > '
+        +'    Yes, I agree '
+        +'</button> '
+      return;
+    }
+    document.getElementById('disqus-show-comments').style.display = "block";
+    disqusShowComments();
+  })();
+
+  function disqusAgree(){
+    localStorage.setItem("agreed_to_disqus_thread", "YES");
+    localStorage.setItem("agreed_to_disqus_thread_date", (new Date()).toLocaleString() );
+    location.reload();
+  };
+
+  function disqusShowComments () {
+    var disqus_shortname = 'it-gro-github-io-hugo-theme-w3css-basic-github-io';
+    var disqus_config    = function () {
+      this.page.url = 'https:\/\/it-gro.github.io\/hugo-theme-w3css-basic.github.io\/theme\/hugo-theme-w3css-basic\/blog\/2017\/11\/08\/hugo-ipsum';
+    };
+    (function() {
+      var disqus = document.createElement('script');
+      disqus.type = 'text/javascript';
+      disqus.async = true;
+      disqus.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(disqus);
+    })();
+
+    document.getElementById('disqus-show-comments').style.visibility = "hidden";
+  };
+</script>
+
+  
+  
+
+  <!-- partials/main.taxonomy.full.bar.html -->
+<div class='w3-card-4 w3-center w3-round-xxlarge w3-margin-top  w3-margin-bottom w3-theme-l1 '>
+  <div class="w3-container w3-padding-small ">
+    <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/categories' class="taxonomy-button w3-button"><i class="far fa-folder-open" aria-hidden="true"></i>&nbsp;Categories:</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/categories/development' class="taxonomy-button w3-button">development (2)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/categories/eyecatcher' class="taxonomy-button w3-button">eyecatcher (2)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/categories/features' class="taxonomy-button w3-button">features (6)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/categories/golang' class="taxonomy-button w3-button">golang (2)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/categories/hugo-basic-example' class="taxonomy-button w3-button">hugo-basic-example (5)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/categories/know-how' class="taxonomy-button w3-button">know-how (12)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/categories/legal' class="taxonomy-button w3-button">legal (10)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/categories/photocards' class="taxonomy-button w3-button">photocards (9)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/categories/programming' class="taxonomy-button w3-button">programming (1)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/categories/this-theme' class="taxonomy-button w3-button">this-theme (10)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/categories/tools' class="taxonomy-button w3-button">tools (6)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/categories/vestibulum' class="taxonomy-button w3-button">vestibulum (1)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/categories/web' class="taxonomy-button w3-button">web (1)</a>
+
+<br>
+   <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags' class="taxonomy-button w3-button"><i class="fas fa-tags" aria-hidden="true"></i>&nbsp;Tags:</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/development' class="taxonomy-button w3-button">development (2)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/editor' class="taxonomy-button w3-button">editor (2)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/emacs' class="taxonomy-button w3-button">emacs (2)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/fermentum' class="taxonomy-button w3-button">fermentum (6)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/folder10' class="taxonomy-button w3-button">folder10 (2)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/folder20' class="taxonomy-button w3-button">folder20 (10)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/front' class="taxonomy-button w3-button">front (17)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/go' class="taxonomy-button w3-button">go (3)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/golang' class="taxonomy-button w3-button">golang (2)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/hugo' class="taxonomy-button w3-button">hugo (6)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/h%C3%A4' class="taxonomy-button w3-button">hä (1)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/images' class="taxonomy-button w3-button">images (2)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/license' class="taxonomy-button w3-button">license (10)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/logos' class="taxonomy-button w3-button">logos (1)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/lorem' class="taxonomy-button w3-button">lorem (17)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/malesuada' class="taxonomy-button w3-button">malesuada (2)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/nullam' class="taxonomy-button w3-button">nullam (2)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/phasellus' class="taxonomy-button w3-button">phasellus (2)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/pictures' class="taxonomy-button w3-button">pictures (10)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/resources' class="taxonomy-button w3-button">resources (4)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/rutrum' class="taxonomy-button w3-button">rutrum (1)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/shortcodes' class="taxonomy-button w3-button">shortcodes (6)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/showcase' class="taxonomy-button w3-button">showcase (9)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/templates' class="taxonomy-button w3-button">templates (1)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/themes' class="taxonomy-button w3-button">themes (1)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/tristique' class="taxonomy-button w3-button">tristique (1)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/web' class="taxonomy-button w3-button">web (4)</a>
+
+  </div> 
+</div> 
+
+        <!-- back in _default/baseof.html  -->
+      </div>
+      <!-- canvas -->
+
+      <footer>
+        
+  <!-- partials/footer.html  -->
+<div id="footer" class='w3-container w3-theme-d5 '>
+
+  <div class="w3-margin-bottom w3-row w3-mobile">
+      <!-- Site.Params.aboutUs  -->
+    <div class="w3-col w3-third">
+      <h4>About us</h4>
+      <div class="notranslate"><p>Vel illum <strong>dolore</strong> eu</p>
+
+<ul>
+<li>feugiat nulla</li>
+<li>facilisis at vero.</li>
+</ul>
+
+<p>Nam vestibulum accumsan nisl.</p>
+</div>
+    </div>  
+      <!-- Site.Params.recentPosts  -->
+    <div class="w3-col w3-third">
+      <h4>Recent Posts</h4>
+        <!-- range first Site.Params.footerNumOfPosts .Site.RegularPages "Section" "blog" -->
+
+        <div class="w3-container ">
+          <a class="no-decoration" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog/2018/05/11/hugo-amet/'> 
+          
+  <!-- partials/resource.image.html  -->
+       
+<img
+  class="w3-image w3-left w3-round w3-hover-opacity"
+  style="max-width:60px; max-height:20px; width: auto; height: auto; margin: 0px 8px 16px 0px;"
+  src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_60x0_resize_box_2.png'
+  alt='/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_60x0_resize_box_2.png'
+  >
+
+
+          </a>
+          <a class="no-decoration" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog/2018/05/11/hugo-amet/'>Hugo - amnet</a>
+        </div>
+
+        <div class="w3-container ">
+          <a class="no-decoration" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog/2017/11/24/hugo-highlight-chromastyles/'> 
+          
+  <!-- partials/resource.image.html  -->
+       
+<img
+  class="w3-image w3-left w3-round w3-hover-opacity"
+  style="max-width:60px; max-height:20px; width: auto; height: auto; margin: 0px 8px 16px 0px;"
+  src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/bitbucket.org/pygments-main-logo_hu83f454384722f2ac083918ae2d1f75df_15959_60x0_resize_box_2.png'
+  alt='/resources/images/teaserpics/bitbucket.org/pygments-main-logo_hu83f454384722f2ac083918ae2d1f75df_15959_60x0_resize_box_2.png'
+  >
+
+
+          </a>
+          <a class="no-decoration" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog/2017/11/24/hugo-highlight-chromastyles/'>Hugo - <strong>highlight</strong> 🎨</a>
+        </div>
+
+        <div class="w3-container ">
+          <a class="no-decoration" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog/2017/11/10/hugo-dolor/'> 
+          
+  <!-- partials/resource.image.html  -->
+       
+<img
+  class="w3-image w3-left w3-round w3-hover-opacity"
+  style="max-width:60px; max-height:20px; width: auto; height: auto; margin: 0px 8px 16px 0px;"
+  src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_60x0_resize_box_2.png'
+  alt='/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_60x0_resize_box_2.png'
+  >
+
+
+          </a>
+          <a class="no-decoration" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog/2017/11/10/hugo-dolor/'>Hugo - dolor</a>
+        </div>
+
+        <div class="w3-container ">
+          <a class="no-decoration" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog/2017/11/09/hugo-lorem/'> 
+          
+  <!-- partials/resource.image.html  -->
+       
+<img
+  class="w3-image w3-left w3-round w3-hover-opacity"
+  style="max-width:60px; max-height:20px; width: auto; height: auto; margin: 0px 8px 16px 0px;"
+  src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-lorem_hu77f397ba1b7f0f571a34fad927893059_94449_60x0_resize_box_2.png'
+  alt='/resources/images/teaserpics/gohugo.io/hugo-lorem_hu77f397ba1b7f0f571a34fad927893059_94449_60x0_resize_box_2.png'
+  >
+
+
+          </a>
+          <a class="no-decoration" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog/2017/11/09/hugo-lorem/'>Hugo - lorem</a>
+        </div>
+
+        <div class="w3-container ">
+          <a class="no-decoration" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog/2017/11/08/hugo-ipsum/'> 
+          
+  <!-- partials/resource.image.html  -->
+       
+<img
+  class="w3-image w3-left w3-round w3-hover-opacity"
+  style="max-width:60px; max-height:20px; width: auto; height: auto; margin: 0px 8px 16px 0px;"
+  src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-ipsum_hu4bb3d9e9bcf5cb42154f6d8c89189ff3_242267_60x0_resize_box_2.png'
+  alt='/resources/images/teaserpics/gohugo.io/hugo-ipsum_hu4bb3d9e9bcf5cb42154f6d8c89189ff3_242267_60x0_resize_box_2.png'
+  >
+
+
+          </a>
+          <a class="no-decoration" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog/2017/11/08/hugo-ipsum/'>Hugo - ipsum</a>
+        </div> 
+
+    </div>    
+      <!-- Site.Params.address  -->
+    <div id="address" class="w3-col w3-third">
+      <h4>Contact</h4>
+      <div class="notranslate"><p><strong>nobis eleifend</strong><br />
+<strong>Soluta nobis eleifend</strong><br />
+illum dolore eu feugiat<br />
+3612 Steffisburg<br />
+consectetuer adipiscing</p>
+
+<p><strong>Switzerland</strong></p>
+</div><br/>
+      
+      
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/contact/' class='w3-button w3-theme-l4 '>Go to contact page</a></div> 
+      
+      
+    </div>
+
+  </div>  
+</div>  
+
+  <!-- partials/footer.bottom.html  -->
+<div class='w3-cell-row w3-small w3-theme-l3 '>
+
+  <div class="w3-cell w3-cell-middle">
+      <!-- $.Site.Params.bottomLeft  -->
+    Copyright &copy; 2018, <em>lobortis nisl</em> ut aliquip ex ea commodo consequat
+  </div> 
+
+  <div class="w3-cell w3-cell-middle">
+    <div class="w3-right">
+        <!-- $.Site.Params.bottomRight  -->
+      created with <a href="https://gohugo.io" target="_blank">Hugo 0.42.2</a>
+    </div> 
+  </div>   
+
+</div>     
+
+        <!-- back in _default/baseof.html  -->
+      
+      </footer>
+
+    </div>
+    <!-- all -->
+    
+<!-- partials/scripts.bottom.html -->
+
+<script src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/vendor/jquery/jquery-3.3.1.slim.min.js'></script> 
+
+<script src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/js/custom.bottom.js'></script>
+
+
+    <script>
+      function onload(){
+         document.getElementById("btnback").style.visibility="visible";
+      }
+    </script>
+
+  </body>
+  
+  <!-- partials/debug.html  -->
+</html>
