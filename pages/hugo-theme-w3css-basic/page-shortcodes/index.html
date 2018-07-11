@@ -615,6 +615,12 @@
 <li><a href="#icon">icon</a></li>
 <li><a href="#csc">csc</a></li>
 <li><a href="#cscb">cscb</a></li>
+<li><a href="#terminal">Terminal</a>
+<ul>
+<li><a href="#term-in">term-in</a></li>
+<li><a href="#term-out">term-out</a></li>
+<li><a href="#style-4">Style</a></li>
+</ul></li>
 <li><a href="#page-resources">Page Resources</a>
 <ul>
 <li><a href="#res-attach">res-attach</a>
@@ -631,12 +637,12 @@
 <li><a href="#parameters-2">Parameters</a></li>
 <li><a href="#page-resources-metadata">Page Resources Metadata</a></li>
 <li><a href="#caption-format-1">Caption format</a></li>
-<li><a href="#style-4">Style</a></li>
+<li><a href="#style-5">Style</a></li>
 </ul></li>
 </ul></li>
 <li><a href="#heg-gallery">heg-gallery</a>
 <ul>
-<li><a href="#style-5">Style</a></li>
+<li><a href="#style-6">Style</a></li>
 </ul></li>
 <li><a href="#heg-figure">heg-figure</a>
 <ul>
@@ -651,7 +657,7 @@
 <li><a href="#classify">classify</a></li>
 <li><a href="#kbd">kbd</a>
 <ul>
-<li><a href="#style-6">style</a></li>
+<li><a href="#style-7">style</a></li>
 </ul></li>
 <li><a href="#readfile">readfile</a></li>
 </ul></li>
@@ -1362,6 +1368,73 @@ static/css/syntax/syntax.borland.css
 static/css/syntax/syntax.bw.css
 </span></code></pre>
 
+
+<h2 id="terminal">Terminal&nbsp;<a class="anchor w3-small " href="#terminal"><i class="fas fa-link"></i></a> </h2>
+
+<h3 id="term-in">term-in&nbsp;<a class="anchor w3-small " href="#term-in"><i class="fas fa-link"></i></a> </h3>
+
+<ul>
+<li>show text to type in terminal (no syntax coloring)</li>
+</ul>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolan" data-lang="nolan">{{&lt; term-in &gt;}}
+date -d @1435225258
+date +%Y%m%d_%H%M%S
+{{&lt; /term-in &gt;}}</code></pre></div>
+
+<p>renders as</p>
+
+<pre class="terminal-in w3-theme-d5 notranslate">
+date -d @1435225258
+date +%Y%m%d_%H%M%S
+</pre>
+
+
+<h3 id="term-out">term-out&nbsp;<a class="anchor w3-small " href="#term-out"><i class="fas fa-link"></i></a> </h3>
+
+<ul>
+<li>show output in terminal (no syntax coloring)</li>
+</ul>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolan" data-lang="nolan">{{&lt; term-out &gt;}}
+Don Jun 25 11:40:58 CEST 2015
+20180710_172103
+{{&lt; /term-out &gt;}}</code></pre></div>
+
+<p>renders as</p>
+
+<pre class="terminal-out w3-theme-l3 notranslate">
+Don Jun 25 11:40:58 CEST 2015
+20180710_172103
+</pre>
+
+
+<h3 id="style-4">Style&nbsp;<a class="anchor w3-small " href="#style-4"><i class="fas fa-link"></i></a> </h3>
+
+<ul>
+<li><p>Color themes are defined in the shortcuts:
+<pre class="w3-code notranslate">
+&lt;pre class=&#34;terminal-in  w3-theme-d4 notranslate&#34;&gt;{{ .Inner }}&lt;/pre&gt;
+&lt;pre class=&#34;terminal-out w3-theme-l3 notranslate&#34;&gt;{{ .Inner }}&lt;/pre&gt;
+</pre></li>
+
+<li><p>Relevant CSS is in <code>static/css/w3css-basic.css</code>
+<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="nt">pre</span><span class="p">.</span><span class="nc">terminal-in</span> <span class="p">{</span>
+  <span class="k">border-radius</span><span class="p">:</span>    <span class="mi">6</span><span class="kt">px</span><span class="p">;</span>
+  <span class="k">border</span><span class="p">:</span>           <span class="mi">1</span><span class="kt">px</span> <span class="kc">solid</span><span class="p">;</span>
+  <span class="k">padding</span><span class="p">:</span>          <span class="mi">10</span><span class="kt">px</span> <span class="mi">6</span><span class="kt">px</span> <span class="mi">10</span><span class="kt">px</span> <span class="mi">6</span><span class="kt">px</span><span class="p">;</span>
+  <span class="k">overflow</span><span class="p">:</span>         <span class="kc">auto</span><span class="p">;</span>
+  <span class="k">line-height</span><span class="p">:</span>      <span class="mf">1.2</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">pre</span><span class="p">.</span><span class="nc">terminal-out</span> <span class="p">{</span>
+  <span class="k">border-radius</span><span class="p">:</span>    <span class="mi">6</span><span class="kt">px</span><span class="p">;</span>
+  <span class="k">padding</span><span class="p">:</span>          <span class="mi">10</span><span class="kt">px</span> <span class="mi">6</span><span class="kt">px</span> <span class="mi">10</span><span class="kt">px</span> <span class="mi">6</span><span class="kt">px</span><span class="p">;</span>
+  <span class="k">border</span><span class="p">:</span>           <span class="mi">1</span><span class="kt">px</span> <span class="kc">solid</span><span class="p">;</span>
+  <span class="k">overflow</span><span class="p">:</span>         <span class="kc">auto</span><span class="p">;</span>
+  <span class="k">line-height</span><span class="p">:</span>      <span class="mf">1.2</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div></li>
+</ul>
 
 <h2 id="page-resources">Page Resources&nbsp;<a class="anchor w3-small " href="#page-resources"><i class="fas fa-link"></i></a> </h2>
 
@@ -2078,7 +2151,7 @@ inspired by layouts/shortcodes/imgproc.html</li>
 </tbody>
 </table>
 
-<h4 id="style-4">Style&nbsp;<a class="anchor w3-small " href="#style-4"><i class="fas fa-link"></i></a> </h4>
+<h4 id="style-5">Style&nbsp;<a class="anchor w3-small " href="#style-5"><i class="fas fa-link"></i></a> </h4>
 
 <ul>
 <li>See <code>static/css/res-gallery.css</code></li>
@@ -2154,7 +2227,7 @@ inspired by layouts/shortcodes/imgproc.html</li>
 </div>
 
 
-<h3 id="style-5">Style&nbsp;<a class="anchor w3-small " href="#style-5"><i class="fas fa-link"></i></a> </h3>
+<h3 id="style-6">Style&nbsp;<a class="anchor w3-small " href="#style-6"><i class="fas fa-link"></i></a> </h3>
 
 <p>Defined in:</p>
 <div class="highlight"><pre class="chroma">static/css/w3css-basic.css</pre></div>
@@ -2670,7 +2743,7 @@ foo | bar
 <kbd>DEL</kbd>
 </p>
 
-<h3 id="style-6">style&nbsp;<a class="anchor w3-small " href="#style-6"><i class="fas fa-link"></i></a> </h3>
+<h3 id="style-7">style&nbsp;<a class="anchor w3-small " href="#style-7"><i class="fas fa-link"></i></a> </h3>
 <div class="highlight"><pre class="chroma">static/css/w3css-basic.css</pre></div>
 <div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="nt">kbd</span> <span class="p">{</span>
   <span class="k">font-size</span><span class="p">:</span> <span class="mf">0.8</span><span class="kt">em</span><span class="p">;</span>

@@ -1879,6 +1879,29 @@ Frontpage elements.&lt;/p&gt;
 &lt;h2 id=&#34;latest-news&#34;&gt;Latest News&lt;/h2&gt;
 
 &lt;ul&gt;
+&lt;li&gt;Added shortcodes:
+
+&lt;ul&gt;
+&lt;li&gt;term-in&lt;/li&gt;
+&lt;li&gt;term-out&lt;/li&gt;
+&lt;li&gt;See more &lt;a href=&#34;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/page-shortcodes/#terminal&#34;&gt;Terminal&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_522.jpg&#34; target=&#34;_blank&#34;&gt;screenshot Terminal&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Added breadcrump
+&lt;a href=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_523.jpg&#34; target=&#34;_blank&#34;&gt;screenshot breadcrump&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;options&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+	&lt;span class=&#34;c&#34;&gt;# used in layouts/partials/page.nav.breadcrump.html&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;showNavBreadcrump&lt;/span&gt;   &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;navBreadcrumpTitle&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;navBreadcrumpHome&lt;/span&gt;   &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
 &lt;li&gt;Improved configuration for
 
 &lt;ul&gt;
