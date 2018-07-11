@@ -1879,25 +1879,23 @@ Frontpage elements.&lt;/p&gt;
 &lt;h2 id=&#34;latest-news&#34;&gt;Latest News&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Added shortcodes:
+&lt;li&gt;&lt;p&gt;Added shortcodes:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;term-in&lt;/li&gt;
 &lt;li&gt;term-out&lt;/li&gt;
-&lt;li&gt;See more &lt;a href=&#34;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/#terminal&#34;&gt;Terminal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;See more &lt;a href=&#34;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/#terminal&#34; target=&#34;_blank&#34;&gt;Terminal&lt;/a&gt;&lt;br /&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_524.jpg&#34; alt=&#34;screenshot Terminal&#34; /&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_525.jpg&#34; alt=&#34;screenshot Terminal&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_522.jpg&#34; target=&#34;_blank&#34;&gt;screenshot Terminal&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Added breadcrump
-&lt;a href=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_523.jpg&#34; target=&#34;_blank&#34;&gt;screenshot breadcrump&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Added breadcrump&lt;br /&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_523.jpg&#34; alt=&#34;screenshot breadcrump&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;options&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
-	&lt;span class=&#34;c&#34;&gt;# used in layouts/partials/page.nav.breadcrump.html&lt;/span&gt;
+  &lt;span class=&#34;c&#34;&gt;# used in layouts/partials/page.nav.breadcrump.html&lt;/span&gt;
   &lt;span class=&#34;nx&#34;&gt;showNavBreadcrump&lt;/span&gt;   &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;
   &lt;span class=&#34;nx&#34;&gt;navBreadcrumpTitle&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;
   &lt;span class=&#34;nx&#34;&gt;navBreadcrumpHome&lt;/span&gt;   &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -1914,7 +1912,7 @@ Frontpage elements.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;options&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
-	&lt;span class=&#34;c&#34;&gt;# used in layouts/partials/main.headline.nav-right.html&lt;/span&gt;
+  &lt;span class=&#34;c&#34;&gt;# used in layouts/partials/main.headline.nav-right.html&lt;/span&gt;
   &lt;span class=&#34;nx&#34;&gt;jsHistoryNav&lt;/span&gt;        &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;
   &lt;span class=&#34;nx&#34;&gt;jsHistoryNavForward&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;
   &lt;span class=&#34;nx&#34;&gt;showNavUp&lt;/span&gt;           &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -1930,7 +1928,7 @@ Frontpage elements.&lt;/p&gt;
 &lt;li&gt;Added &lt;a href=&#34;#related-content&#34;&gt;Related Content&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_521.jpg&#34; alt=&#34;screenshot title-nav&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_521.jpg&#34; alt=&#34;screenshot related&#34; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Added shortcode:&lt;/p&gt;
@@ -1974,11 +1972,11 @@ Logos&lt;/a&gt; and compare to the one on the page.&lt;/p&gt;
 &lt;li&gt;&lt;p&gt;Added shortcodes:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/#res-figure&#34;&gt;res-figure&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/#res-figure&#34; target=&#34;_blank&#34;&gt;res-figure&lt;/a&gt;
 &lt;a href=&#34;#images&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_502.jpg&#34; alt=&#34;screenshot res-figure&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/#res-attach&#34;&gt;res-attach&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/#res-attach&#34; target=&#34;_blank&#34;&gt;res-attach&lt;/a&gt;
 &lt;a href=&#34;#attachments&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_504.jpg&#34; alt=&#34;screenshot res-attach&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/#readfile&#34;&gt;readfile&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/#readfile&#34; target=&#34;_blank&#34;&gt;readfile&lt;/a&gt;
 &lt;a href=&#34;#include-files&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_506.jpg&#34; alt=&#34;screenshot readfile&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
@@ -2544,7 +2542,7 @@ the language modifying the following key.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;taxonomies&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
   &lt;span class=&#34;c&#34;&gt;# used in layouts/partials/main.taxonomy.full.bar.html&lt;/span&gt;
-  &lt;span class=&#34;nx&#34;&gt;fullBarMinItemsTag&lt;/span&gt;			 &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;fullBarMinItemsTag&lt;/span&gt;       &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;
   &lt;span class=&#34;nx&#34;&gt;fullBarMinItemsCategory&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/snap_250.jpg&#34; alt=&#34;screenshot Taxonomy Bar&#34; /&gt;&lt;/p&gt;
 
@@ -3510,13 +3508,13 @@ pages.md&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;resources&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
-	&lt;span class=&#34;nx&#34;&gt;defaultResPagePath&lt;/span&gt;	&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;resources/images&amp;#34;&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;defaultResPagePath&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;resources/images&amp;#34;&lt;/span&gt;
 
 &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;resFigure&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
-	&lt;span class=&#34;nx&#34;&gt;defaultResPagePath&lt;/span&gt;	&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;.&amp;#34;&lt;/span&gt;			 
+  &lt;span class=&#34;nx&#34;&gt;defaultResPagePath&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;.&amp;#34;&lt;/span&gt;      
  
 &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;resGallery&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
-	&lt;span class=&#34;nx&#34;&gt;defaultResPagePath&lt;/span&gt;	&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;resources/images&amp;#34;&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;span class=&#34;nx&#34;&gt;defaultResPagePath&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;resources/images&amp;#34;&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;code&gt;content/resources/images/index.md&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;---&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;title&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;       &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;headless-images&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
@@ -3554,10 +3552,10 @@ image with the same name on the default (global) headless page)&lt;/li&gt;
 &lt;p&gt;The images is processed using hugo&amp;rsquo;s build in image commands (resize to a reasonable size).&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;layouts/partials/main.teaserpic.single.html&lt;/code&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;{{- $myImgStyle	 := &amp;#34;max-width:400px; max-height:200px; width: auto; height: auto; margin: 8px 0px	8px 8px; &amp;#34; }}
-{{- $myImg			 := .Param `resImgTeaser`												}}
-{{- $myImgCmd		 := .Param `resImgTeaserCmd` | default `Resize` }}
-{{- $myImgOpt		 := .Param `resImgTeaserOpt` | default `300x`		}}&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;{{- $myImgStyle  := &amp;#34;max-width:400px; max-height:200px; width: auto; height: auto; margin: 8px 0px  8px 8px; &amp;#34; }}
+{{- $myImg       := .Param `resImgTeaser`                       }}
+{{- $myImgCmd    := .Param `resImgTeaserCmd` | default `Resize` }}
+{{- $myImgOpt    := .Param `resImgTeaserOpt` | default `300x`   }}&lt;/pre&gt;&lt;/div&gt;
 &lt;h3 id=&#34;images&#34;&gt;Images&lt;/h3&gt;
 
 &lt;ul&gt;
