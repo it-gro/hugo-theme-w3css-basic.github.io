@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Emacs on hugo-theme-w3css-basic exampleSite</title>
-    <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/emacs/</link>
+    <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.47.1/tags/emacs/</link>
     <description>Recent content in Emacs on hugo-theme-w3css-basic exampleSite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 10 Sep 2017 19:00:00 +0100</lastBuildDate>
     
-	<atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.47.1/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Emacs - it all starts here</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog/2017/09/10/emacs-it-all-starts-here/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.47.1/blog/2017/09/10/emacs-it-all-starts-here/</link>
       <pubDate>Sun, 10 Sep 2017 19:00:00 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog/2017/09/10/emacs-it-all-starts-here/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.47.1/blog/2017/09/10/emacs-it-all-starts-here/</guid>
       <description>&lt;p&gt;Emacs originally was an acronym for Editor MACroS. RMS says he
 “picked the name Emacs because &lt;E&gt; was not in use as an abbreviation
 on ITS at the time.”&lt;/p&gt;
@@ -31,10 +31,10 @@ PDP-10.&lt;/p&gt;
     
     <item>
       <title>Emacs Jokes</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog/1985/03/20/emacs-jokes/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.47.1/blog/1985/03/20/emacs-jokes/</link>
       <pubDate>Wed, 20 Mar 1985 20:00:00 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog/1985/03/20/emacs-jokes/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.47.1/blog/1985/03/20/emacs-jokes/</guid>
       <description>&lt;p&gt;Richard M. Stallman (RMS, widely known for creating EMACS) is writing
 a UNIX clone called GNU (which means Gnu&amp;rsquo;s Not Unix&amp;ndash;a recursive
 acronym).&lt;/p&gt;
