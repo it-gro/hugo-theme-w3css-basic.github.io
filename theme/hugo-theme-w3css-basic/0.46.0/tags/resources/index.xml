@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Resources on hugo-theme-w3css-basic exampleSite</title>
-    <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.46.0/tags/resources/</link>
+    <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/tags/resources/</link>
     <description>Recent content in Resources on hugo-theme-w3css-basic exampleSite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 11 May 2018 11:39:49 +0200</lastBuildDate>
     
-	<atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.46.0/tags/resources/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/tags/resources/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo - amnet</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.46.0/blog/2018/05/11/hugo-amet/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/blog/2018/05/11/hugo-amet/</link>
       <pubDate>Fri, 11 May 2018 11:39:49 +0200</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.46.0/blog/2018/05/11/hugo-amet/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/blog/2018/05/11/hugo-amet/</guid>
       <description>&lt;p&gt;Aliquam erat volutpat. Nunc eleifend leo vitae magna. In id erat non orci
 commodo lobortis. Proin neque massa, cursus ut, gravida ut, lobortis eget,
 lacus.&lt;/p&gt;
@@ -29,20 +29,20 @@ vel velit tristique imperdiet. Donec at pede.&lt;/p&gt;
     
     <item>
       <title>Gallery with image processing</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.46.0/pages/showcase/gallery-01/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/pages/showcase/gallery-01/</link>
       <pubDate>Tue, 08 May 2018 22:25:44 +0200</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.46.0/pages/showcase/gallery-01/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/pages/showcase/gallery-01/</guid>
       <description>Demo with images from pixabay.com                              using shortcode: {{&amp;lt; res-gallery match=&amp;#34;**/pixabay.com/*&amp;#34; caption-position=&amp;#34;bottom&amp;#34; caption-effect=&amp;#34;fade&amp;#34; hover-effect=&amp;#34;slideup&amp;#34; &amp;gt;}} 
  pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.</description>
     </item>
     
     <item>
       <title>Attachments</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.46.0/pages/showcase/attach-page-resources/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/pages/showcase/attach-page-resources/</link>
       <pubDate>Mon, 09 Apr 2018 13:38:46 +0200</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.46.0/pages/showcase/attach-page-resources/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/pages/showcase/attach-page-resources/</guid>
       <description>&lt;p&gt;Add page resources of type &lt;em&gt;application&lt;/em&gt; as attachments to a page via the
 &lt;code&gt;res-attach&lt;/code&gt; shortcode.
 &lt;/p&gt;</description>
@@ -50,10 +50,10 @@ vel velit tristique imperdiet. Donec at pede.&lt;/p&gt;
     
     <item>
       <title>Image Processing (`res-figure`)</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.46.0/pages/showcase/image-processing-with-hugo/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/pages/showcase/image-processing-with-hugo/</link>
       <pubDate>Fri, 06 Apr 2018 20:18:31 +0200</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.46.0/pages/showcase/image-processing-with-hugo/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/pages/showcase/image-processing-with-hugo/</guid>
       <description>&lt;p&gt;Image page resources can be resized and cropped.
 This only works for
 &lt;a href=&#34;https://gohugo.io/content-management/image-processing/#the-image-page-resource&#34; target=&#34;_blank&#34;&gt;images&lt;/a&gt;
