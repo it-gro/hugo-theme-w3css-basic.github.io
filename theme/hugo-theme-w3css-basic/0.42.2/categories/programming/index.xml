@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on hugo-theme-w3css-basic exampleSite</title>
+    <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.42.2/categories/programming/</link>
+    <description>Recent content in Programming on hugo-theme-w3css-basic exampleSite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Oct 2017 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.42.2/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Golang - a closer look </title>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.42.2/blog/2017/10/09/golang-a-closer-look/</link>
+      <pubDate>Mon, 09 Oct 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.42.2/blog/2017/10/09/golang-a-closer-look/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
+hendrerit tempor tellus. Donec pretium posuere tellus. Proin quam
+nisl, tincidunt et, mattis eget, convallis nec, purus.&lt;/p&gt;
+
+&lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+ridiculus mus. Nulla posuere. Donec vitae dolor. Nullam tristique diam
+non turpis. Cras placerat accumsan nulla. Nullam rutrum. Nam
+vestibulum accumsan nisl.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

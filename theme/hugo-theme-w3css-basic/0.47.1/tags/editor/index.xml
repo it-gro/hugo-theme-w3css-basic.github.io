@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Editor on hugo-theme-w3css-basic exampleSite</title>
+    <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.47.1/tags/editor/</link>
+    <description>Recent content in Editor on hugo-theme-w3css-basic exampleSite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Sep 2017 19:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.47.1/tags/editor/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Emacs - it all starts here</title>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.47.1/blog/2017/09/10/emacs-it-all-starts-here/</link>
+      <pubDate>Sun, 10 Sep 2017 19:00:00 +0100</pubDate>
+      
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.47.1/blog/2017/09/10/emacs-it-all-starts-here/</guid>
+      <description>&lt;p&gt;Emacs originally was an acronym for Editor MACroS. RMS says he
+“picked the name Emacs because &lt;E&gt; was not in use as an abbreviation
+on ITS at the time.”&lt;/p&gt;
+
+&lt;p&gt;The first Emacs was a set of macros written in 1976 at MIT by RMS for
+the editor TECO (Text Editor and COrrector, originally Tape Editor and
+COrrector) under ITS (the Incompatible Timesharing System) on a
+PDP-10.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Emacs Jokes</title>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.47.1/blog/1985/03/20/emacs-jokes/</link>
+      <pubDate>Wed, 20 Mar 1985 20:00:00 +0100</pubDate>
+      
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.47.1/blog/1985/03/20/emacs-jokes/</guid>
+      <description>&lt;p&gt;Richard M. Stallman (RMS, widely known for creating EMACS) is writing
+a UNIX clone called GNU (which means Gnu&amp;rsquo;s Not Unix&amp;ndash;a recursive
+acronym).&lt;/p&gt;
+
+&lt;p&gt;This seems to open the way to a whole gnu class of jokes.  For
+example:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
