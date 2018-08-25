@@ -195,10 +195,10 @@ montes, nascetur ridiculus mus.&lt;/p&gt;
 &lt;p&gt;Sed diam. Praesent fermentum tempor tellus. Nullam tempus. Mauris ac felis
 vel velit tristique imperdiet. Donec at pede.&lt;/p&gt;
 
-&lt;p&gt;&lt;pre class=&#34;w3-code notranslate&#34;&gt;
+&lt;pre class=&#34;w3-code notranslate&#34;&gt;
 ![golang.png](golang.png)
 &lt;/pre&gt;
-&lt;/p&gt;
+
 
 &lt;p&gt;&lt;img src=&#34;golang.png&#34; alt=&#34;golang.png&#34; /&gt;&lt;/p&gt;
 
@@ -272,7 +272,7 @@ Available styles are listed here: &lt;a href=&#34;https://help.farbox.com/pygmen
 
 &lt;p&gt;These are the supported languages:&lt;/p&gt;
 
-&lt;p&gt;
+
 &lt;dl&gt;
 &lt;dt&gt;ABNF&lt;/dt&gt;
 &lt;dd&gt;abnf&lt;/dd&gt;
@@ -589,7 +589,7 @@ Available styles are listed here: &lt;a href=&#34;https://help.farbox.com/pygmen
 &lt;dt&gt;verilog&lt;/dt&gt;
 &lt;dd&gt;v, verilog&lt;/dd&gt;
 &lt;/dl&gt;
-&lt;/p&gt;
+
 
 &lt;p&gt;Check &lt;a href=&#34;https://github.com/alecthomas/chroma&#34; target=&#34;_blank&#34;&gt;https://github.com/alecthomas/chroma&lt;/a&gt; for more information.&lt;/p&gt;
       </description>
