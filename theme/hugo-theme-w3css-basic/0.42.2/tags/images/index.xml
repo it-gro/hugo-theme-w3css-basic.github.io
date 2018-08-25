@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Images on hugo-theme-w3css-basic exampleSite</title>
+    <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.42.2/tags/images/</link>
+    <description>Recent content in Images on hugo-theme-w3css-basic exampleSite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 May 2018 22:25:44 +0200</lastBuildDate>
+    
+	<atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.42.2/tags/images/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gallery with image processing</title>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.42.2/pages/showcase/gallery-01/</link>
+      <pubDate>Tue, 08 May 2018 22:25:44 +0200</pubDate>
+      
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.42.2/pages/showcase/gallery-01/</guid>
+      <description>Demo with images from pixabay.com                              using shortcode: {{&amp;lt; res-gallery match=&amp;#34;**/pixabay.com/*&amp;#34; caption-position=&amp;#34;bottom&amp;#34; caption-effect=&amp;#34;fade&amp;#34; hover-effect=&amp;#34;slideup&amp;#34; &amp;gt;}} 
+ pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.</description>
+    </item>
+    
+    <item>
+      <title>Image Processing (`res-figure`)</title>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.42.2/pages/showcase/image-processing-with-hugo/</link>
+      <pubDate>Fri, 06 Apr 2018 20:18:31 +0200</pubDate>
+      
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.42.2/pages/showcase/image-processing-with-hugo/</guid>
+      <description>&lt;p&gt;Image page resources can be resized and cropped.
+This only works for
+&lt;a href=&#34;https://gohugo.io/content-management/image-processing/#the-image-page-resource&#34; target=&#34;_blank&#34;&gt;images&lt;/a&gt;
+which are &lt;a href=&#34;https://gohugo.io/content-management/page-resources/&#34; target=&#34;_blank&#34;&gt;page
+resources&lt;/a&gt;, not for images
+in the /static folder.
+This theme provides a shortcode &lt;code&gt;res-figure&lt;/code&gt;  for page resource image processing.
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

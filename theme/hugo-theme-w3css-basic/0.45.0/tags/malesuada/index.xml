@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Malesuada on hugo-theme-w3css-basic exampleSite</title>
+    <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.45.0/tags/malesuada/</link>
+    <description>Recent content in Malesuada on hugo-theme-w3css-basic exampleSite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Nov 2017 15:37:04 +0100</lastBuildDate>
+    
+	<atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.45.0/tags/malesuada/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Malesuada Massa</title>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.45.0/pages/folder10/malesuada-massa/</link>
+      <pubDate>Mon, 13 Nov 2017 15:37:04 +0100</pubDate>
+      
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.45.0/pages/folder10/malesuada-massa/</guid>
+      <description>Praesent augue. Fusce commodo. Vestibulum convallis, lorem a tempus semper, dui dui euismod elit, vitae placerat urna tortor vitae lacus. Nullam libero mauris, consequat quis, varius et, dictum id, arcu. Mauris mollis tincidunt felis. Aliquam feugiat tellus ut neque. Nulla facilisis, risus a rhoncus fermentum, tellus tellus lacinia purus, et dictum nunc justo sit amet elit.
+Nullam eu ante vel est convallis dignissim. Fusce suscipit, wisi nec facilisis facilisis, est dui fermentum leo, quis tempor ligula erat quis odio.</description>
+    </item>
+    
+    <item>
+      <title>Neque Nec</title>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.45.0/pages/folder10/neque-nec/</link>
+      <pubDate>Mon, 13 Nov 2017 15:37:04 +0100</pubDate>
+      
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.45.0/pages/folder10/neque-nec/</guid>
+      <description>Aliquam erat volutpat. Nunc eleifend leo vitae magna. * In id erat non orci commodo lobortis. * Proin neque massa, cursus ut, gravida ut, lobortis eget, lacus. * Sed diam. * Praesent fermentum tempor tellus.
+Nullam tempus. - Mauris ac felis vel velit tristique imperdiet. - Donec at pede. - Etiam vel neque nec dui dignissim bibendum. - Vivamus id enim.
+ Phasellus neque orci, porta a, aliquet quis, semper a, massa.</description>
+    </item>
+    
+  </channel>
+</rss>

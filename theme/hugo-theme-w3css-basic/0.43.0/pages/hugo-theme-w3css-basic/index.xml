@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About this Theme on hugo-theme-w3css-basic exampleSite</title>
+    <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.43.0/pages/hugo-theme-w3css-basic/</link>
+    <description>Recent content in About this Theme on hugo-theme-w3css-basic exampleSite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Nov 2017 07:42:26 +0100</lastBuildDate>
+    
+	<atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.43.0/pages/hugo-theme-w3css-basic/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>This Theme Readme (github)</title>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.43.0/pages/hugo-theme-w3css-basic/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.43.0/pages/hugo-theme-w3css-basic/readme/</guid>
+      <description>This content is created using: {{&amp;lt; readfile &amp;#34;content/README.md&amp;#34; &amp;#34;true&amp;#34; &amp;gt;}}  See more here: This Theme Shortcodes&amp;nbsp; W3.CSS Basic Theme for Hugo W3.CSS Basic is a website template built with W3.CSS.
+Inspiration was taken from Universal. It is highly configurable. Change all colors in the blink of an eye, change default settings or disable Frontpage elements.
+See the exampleSite for a demo.
+This theme is for:
+ Landing pages Blogs Pages (not blog) in a directory structure with simple navigation (Top/Up/Down &amp;amp; pages on this level) People who like monochromatic colors  Table of Contents  Latest News Goals Features  Included Resources Features Tags Features List  Installation Configuration  Language Frontpage Marquee Jumbotron Photocards Features Recent Posts See More Testimonials Clients Blog Blog List Date format Disqus Related Content Anchors Pages Pages Navigation Color Theme Favicons Emoji Summary Pagination Syntax Highlighting Menu Fonts Choose any Font via googleapis Contact Map Google Translation Google Custom Search API Google Analytics-Tracking using gtag Footer cookieconsent RSS Tracing  Custom CSS and JS Front Matter Shortcodes Page Resources  Headless Images Images Attachments  Include Files Gallery  res-gallery heg-gallery  Figure  res-figure heg-figure  Showcase Usage  Minifier  Workarounds  summaryLength Shortcode output wrapped in &amp;lt;p&amp;gt;  Tracking ToDo&amp;rsquo;s Contributing License Thanks More Screenshots  Latest News  Added shortcodes:</description>
+    </item>
+    
+    <item>
+      <title>This Theme Shortcodes</title>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.43.0/pages/hugo-theme-w3css-basic/page-shortcodes/</link>
+      <pubDate>Wed, 22 Nov 2017 07:41:52 +0100</pubDate>
+      
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic0.43.0/pages/hugo-theme-w3css-basic/page-shortcodes/</guid>
+      <description>You can extend Hugo’s built-in shortcodes by creating your own using the same templating syntax as that for single and list pages.
+Shortcodes are a means to consolidate templating into small, reusable snippets that you can embed directly inside of your content. In this sense, you can think of shortcodes as the intermediary between page and list templates and basic content files.
+https://gohugo.io/templates/shortcode-templates
+ Shortcodes in this Theme for W3.</description>
+    </item>
+    
+  </channel>
+</rss>
