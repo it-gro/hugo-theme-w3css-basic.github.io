@@ -1,0 +1,3618 @@
+<!DOCTYPE html>
+<html lang='en-us'>
+  <!-- _default/baseof.html  -->
+  
+  <!-- partials/head.html  -->
+<head>
+  <!-- hi there - what do you expect to see? ...  -->
+  
+  <!-- partials/head.meta.html -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="content-type"    content="text/html; charset=utf-8" />
+  <meta name="viewport"              content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="robots"                content="all,follow" />
+  <meta name="googlebot"             content="index,follow,snippet,archive" />
+  <meta name="author"                content='anonymous' />
+  <meta name="keywords"              content=' shortcodes, Showcase, This Theme ' />
+  
+  <meta name="description"           content='You can extend Hugo’s built-in shortcodes by creating your own using the same templating syntax as that for single and …' />
+  
+  <!-- partials/head.meta.og.html -->
+  <meta property="og:site_name"      content="hugo-theme-w3css-basic exampleSite" /> 
+  <meta property="og:title"          content="This Theme Shortcodes" /> 
+  
+  <meta property="og:url"            content="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/page-shortcodes/" /> 
+  <meta property="og:image"          content='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/favicons/apple-touch-icon.png' /> 
+
+  
+  <!-- partials/head.meta.twitter.html -->
+  <meta property="twitter:title"          content="This Theme Shortcodes" /> 
+  
+  <meta property="twitter:image"          content='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/favicons/apple-touch-icon.png' /> 
+
+    
+  <!-- partials/head.google.gtags.html -->
+  <script async src='https://www.googletagmanager.com/gtag/js?id=UA-113314068-2'></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-113314068-2');
+  </script>
+    <!-- back in partials/head.html  -->
+
+  
+  <!-- partials/head.cookieconsent.html -->
+
+  <link rel="stylesheet" href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/vendor/insites/cookieconsent/cookieconsent.3.0.6.min.css">
+  <script src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/vendor/insites/cookieconsent/cookieconsent.3.0.6.min.js"></script>
+
+  <script>
+    window.addEventListener("load", function(){
+      window.cookieconsent.initialise({
+        "palette": {
+           "popup": {
+             "background": "#fff",
+             "text":       "#444",
+           },
+           "button": {
+             "background": "#666",
+             "text":       "#fff"
+           }
+         },
+        "position": "bottom-left","theme" : "classic",
+        "content": {
+          "message": "This website uses cookies to ensure you get the best experience on our website.",
+          "dismiss": "Yes, I agree",
+          "link"   : "Learn more",
+          "href"   : "https://cookiesandyou.com"
+        }
+      })  
+    })  
+    ;
+  </script>  
+
+
+  <title>hugo-theme-w3css-basic exampleSite</title>
+
+  <meta name="generator" content="Hugo 0.44-DEV" />
+
+  
+<!-- partials/head.stylesheets.html -->
+<link rel="stylesheet" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/vendor/fontawesome/5.1.0/css/all.css' />
+<link rel="stylesheet" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/vendor/daneden.github.io/animate.css/animate.min.css?1535180181' />
+<link rel="stylesheet" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/vendor/OwlCarousel2/owl.carousel.min.css?1535180181' />
+<link rel="stylesheet" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/vendor/OwlCarousel2/owl.theme.default.min.css?1535180181' />
+
+<link rel="stylesheet" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/vendor/w3css/4/4.10/w3.css' />
+<link rel="stylesheet" id="theme-colors" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/vendor/w3css/4/color_of_the_year/w3-theme-color-of-year-2016-warm-taupe.css?1535180181' />
+
+<link rel="stylesheet" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/css/syntax.min.css?1535180181' />
+<link rel="stylesheet" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/css/w3css-basic.min.css?1535180181' />
+<link rel="stylesheet" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/css/res-gallery.min.css?1535180181' />
+
+<link rel="stylesheet" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/css/custom.css?1535180181' />
+
+    
+  <!-- partials/head.fonts.googleapis.html -->
+  <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Ubuntu|Creepster|Signika|Ubuntu+Mono' />
+  <style> html {font-family: 'Ubuntu', sans-serif; } </style>
+  <style> body {font-family: 'Ubuntu', sans-serif; } </style>
+  <style> time {font-family: 'Creepster', cursive; } </style>
+  <style> h1 {font-family: 'Signika', sans-serif; } </style>
+  <style> h2 {font-family: 'Signika', sans-serif; } </style>
+  <style> h3 {font-family: 'Signika', sans-serif; } </style>
+  <style> h4 {font-family: 'Signika', sans-serif; } </style>
+  <style> h5 {font-family: 'Signika', sans-serif; } </style>
+  <style> h6 {font-family: 'Signika', sans-serif; } </style>
+  <style> pre {font-family: 'Ubuntu Mono', monospace; } </style>
+  <style> code {font-family: 'Ubuntu Mono', monospace; } </style>
+  <style> kbd {font-family: 'Ubuntu Mono', monospace; } </style>
+  <style> samp {font-family: 'Ubuntu Mono', monospace; } </style>
+  <style> data {font-family: 'Ubuntu Mono', monospace; } </style>   
+
+  
+  <!-- partials/head.ie.html -->
+  
+  
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  
+
+  <!-- partials/head.favicon.html -->  
+
+<!-- partials/scripts.top.html -->
+<script src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/js/custom.top.js?1535180181'></script>
+
+<!-- partials/head.rss.html -->
+<link href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/index.xml' rel="alternate" type="application/rss+xml" title='hugo-theme-w3css-basic exampleSite (rss+xml alternate)' />
+
+    <!-- back in partials/head.html  -->
+</head>
+
+  <!-- back in _default/baseof.html  -->
+
+  <body onload='onload()' >
+    <div id="all" class="w3-theme">
+      <header>
+        
+  <!-- partials/header.marquee.html -->
+
+  <!-- partials/header.nav.html -->
+
+
+<div class='w3-bar w3-hide-small w3-hide-medium w3-theme-dark '>
+    <!-- w3-hide-small w3-hide-medium ************************************************** -->
+    <!-- header-nav-entry -->
+    <!-- range .Site.Menus.main -->
+        <!-- not .HasChildren -->
+
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/index.html' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-home'></i>&nbsp;Home</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/index.html' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-home'></i>&nbsp;Home</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/index.html' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-home'></i>&nbsp;Home</a>
+        <!-- not .HasChildren -->
+
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/contact' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='far fa-address-card'></i>&nbsp;Contact</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/contact' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='far fa-address-card'></i>&nbsp;Contact</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/contact' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='far fa-address-card'></i>&nbsp;Contact</a>
+        <!-- not .HasChildren -->
+
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-list'></i>&nbsp;Stuff</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-list'></i>&nbsp;Stuff</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-list'></i>&nbsp;Stuff</a>
+        <!-- .HasChildren -->
+
+<div class="w3-dropdown-hover">
+  <button class="w3-button          w3-hide-small w3-hide-medium header-nav-menu-dropdown-large"  ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <button class="w3-button          w3-hide-small w3-hide-large  header-nav-menu-dropdown-medium" ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <button class="w3-button w3-small w3-hide-medium w3-hide-large header-nav-menu-dropdown-small"  ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <div class="w3-dropdown-content w3-bar-block w3-card-4" style="z-index: 2"> 
+        <!-- range .Children -->
+    <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/' class="w3-bar-item w3-button"><i class='fas fa-info fa-fw'></i>&nbsp;About</a>
+    <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/images-taken-from/' class="w3-bar-item w3-button"><i class='far fa-images fa-fw'></i>&nbsp;Images</a>
+    <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/' class="w3-bar-item w3-button"><i class='fas fa-eye fa-fw'></i>&nbsp;Showcase</a>
+  </div> 
+</div>   
+        <!-- not .HasChildren -->
+
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-rss'></i>&nbsp;Blog</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-rss'></i>&nbsp;Blog</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-rss'></i>&nbsp;Blog</a>
+        <!-- not .HasChildren -->
+
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/faq' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/faq' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/faq' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+      <!-- range .Site.Menus.topbar.ByWeight -->
+  <a href='https://github.com/it-gro/hugo-theme-w3css-basic' target="_blank" class="w3-bar-item w3-button w3-right" ><i class='fab fa-github'></i></a>
+  <a href='https://gitlab.com/it-gro' target="_blank" class="w3-bar-item w3-button w3-right" ><i class='fab fa-gitlab'></i></a>
+  <a href='#address' target="_blank" class="w3-bar-item w3-button w3-right" ><i class='fas fa-envelope'></i></a>
+  <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/search' target="_blank" class="w3-bar-item w3-button w3-right" ><i class='fas fa-search'></i></a>
+      
+  <!-- partials/header.nav.google.translate.html -->
+<span class="w3-bar-item w3-right" id="google_translate_element"></span>
+<script>
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement(
+      {
+          pageLanguage: 'en-us'
+        , layout: google.translate.TranslateElement.FloatPosition.TOP_RIGHT
+        , multilanguagePage: true
+      }
+      , 'google_translate_element'
+    );
+  }
+</script>
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+ 
+
+
+</div> 
+<div class='w3-bar w3-hide-small w3-hide-large w3-theme-dark '>
+    <!-- w3-hide-small w3-hide-large ************************************************** -->
+    <!-- header-nav-entry -->
+    <!-- range .Site.Menus.main -->
+        <!-- not .HasChildren -->
+
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/index.html' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-home'></i>&nbsp;Home</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/index.html' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-home'></i>&nbsp;Home</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/index.html' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-home'></i>&nbsp;Home</a>
+        <!-- not .HasChildren -->
+
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/contact' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='far fa-address-card'></i>&nbsp;Contact</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/contact' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='far fa-address-card'></i>&nbsp;Contact</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/contact' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='far fa-address-card'></i>&nbsp;Contact</a>
+        <!-- not .HasChildren -->
+
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-list'></i>&nbsp;Stuff</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-list'></i>&nbsp;Stuff</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-list'></i>&nbsp;Stuff</a>
+        <!-- .HasChildren -->
+
+<div class="w3-dropdown-hover">
+  <button class="w3-button          w3-hide-small w3-hide-medium header-nav-menu-dropdown-large"  ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <button class="w3-button          w3-hide-small w3-hide-large  header-nav-menu-dropdown-medium" ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <button class="w3-button w3-small w3-hide-medium w3-hide-large header-nav-menu-dropdown-small"  ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <div class="w3-dropdown-content w3-bar-block w3-card-4" style="z-index: 2"> 
+        <!-- range .Children -->
+    <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/' class="w3-bar-item w3-button"><i class='fas fa-info fa-fw'></i>&nbsp;About</a>
+    <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/images-taken-from/' class="w3-bar-item w3-button"><i class='far fa-images fa-fw'></i>&nbsp;Images</a>
+    <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/' class="w3-bar-item w3-button"><i class='fas fa-eye fa-fw'></i>&nbsp;Showcase</a>
+  </div> 
+</div>   
+        <!-- not .HasChildren -->
+
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-rss'></i>&nbsp;Blog</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-rss'></i>&nbsp;Blog</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-rss'></i>&nbsp;Blog</a>
+        <!-- not .HasChildren -->
+
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/faq' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/faq' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/faq' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+      <!-- range first $.Site.Params.menutopbar.numOfItemsIfMediumDisplay .Site.Menus.topbar.ByWeight -->
+  <a href='https://github.com/it-gro/hugo-theme-w3css-basic' target="_blank" class="w3-bar-item w3-button w3-right header-nav-menu-topbar-medium" ><i class='fab fa-github'></i></a>
+  <a href='https://gitlab.com/it-gro' target="_blank" class="w3-bar-item w3-button w3-right header-nav-menu-topbar-medium" ><i class='fab fa-gitlab'></i></a>
+  <a href='#address' target="_blank" class="w3-bar-item w3-button w3-right header-nav-menu-topbar-medium" ><i class='fas fa-envelope'></i></a>   
+
+
+</div> 
+
+<div id='nav-small-js' class='w3-bar w3-hide-medium w3-hide-large w3-theme-dark '>
+    <!-- w3-hide-large w3-hide-medium ************************************************** -->
+      <!-- range first $.Site.Params.menutopbar.numOfItemsIfSmallDisplay .Site.Menus.topbar.ByWeight -->
+  <a href='https://github.com/it-gro/hugo-theme-w3css-basic' target="_blank" class="w3-bar-item w3-button w3-right header-nav-menu-topbar-small" ><i class='fab fa-github'></i></a>
+  <a href='https://gitlab.com/it-gro' target="_blank" class="w3-bar-item w3-button w3-right header-nav-menu-topbar-small" ><i class='fab fa-gitlab'></i></a>
+  <a href='#address' target="_blank" class="w3-bar-item w3-button w3-right header-nav-menu-topbar-small" ><i class='fas fa-envelope'></i></a>
+  <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/search' target="_blank" class="w3-bar-item w3-button w3-right header-nav-menu-topbar-small" ><i class='fas fa-search'></i></a>
+
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-left w3-hide-large w3-hide-medium" onclick="showMenu()"><i class="fas fa-caret-square-down"></i></a>
+  
+
+  <div id="nav-small-js-bar-block" class="w3-bar-block w3-small w3-hide w3-hide-large w3-hide-medium">
+    <!-- header-nav-entry -->
+    <!-- range .Site.Menus.main -->
+        <!-- not .HasChildren -->
+
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/index.html' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-home'></i>&nbsp;Home</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/index.html' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-home'></i>&nbsp;Home</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/index.html' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-home'></i>&nbsp;Home</a>
+        <!-- not .HasChildren -->
+
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/contact' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='far fa-address-card'></i>&nbsp;Contact</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/contact' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='far fa-address-card'></i>&nbsp;Contact</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/contact' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='far fa-address-card'></i>&nbsp;Contact</a>
+        <!-- not .HasChildren -->
+
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-list'></i>&nbsp;Stuff</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-list'></i>&nbsp;Stuff</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-list'></i>&nbsp;Stuff</a>
+        <!-- .HasChildren -->
+
+<div class="w3-dropdown-hover">
+  <button class="w3-button          w3-hide-small w3-hide-medium header-nav-menu-dropdown-large"  ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <button class="w3-button          w3-hide-small w3-hide-large  header-nav-menu-dropdown-medium" ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <button class="w3-button w3-small w3-hide-medium w3-hide-large header-nav-menu-dropdown-small"  ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <div class="w3-dropdown-content w3-bar-block w3-card-4" style="z-index: 2"> 
+        <!-- range .Children -->
+    <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/' class="w3-bar-item w3-button"><i class='fas fa-info fa-fw'></i>&nbsp;About</a>
+    <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/images-taken-from/' class="w3-bar-item w3-button"><i class='far fa-images fa-fw'></i>&nbsp;Images</a>
+    <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/' class="w3-bar-item w3-button"><i class='fas fa-eye fa-fw'></i>&nbsp;Showcase</a>
+  </div> 
+</div>   
+        <!-- not .HasChildren -->
+
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-rss'></i>&nbsp;Blog</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-rss'></i>&nbsp;Blog</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-rss'></i>&nbsp;Blog</a>
+        <!-- not .HasChildren -->
+
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/faq' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/faq' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/faq' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+  </div>
+
+
+</div> 
+
+
+<script>
+  function showMenu() {
+    var x = document.getElementById('nav-small-js-bar-block');
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else {
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+</script>
+<noscript>
+  <style>
+    #nav-small-js {display:none;}
+  </style>
+<div id='nav-small-no-js' class='w3-bar w3-small w3-hide-medium w3-hide-large w3-theme-dark '>
+    <!-- w3-hide-large w3-hide-medium ************************************************** -->
+    <!-- header-nav-entry -->
+    <!-- range .Site.Menus.main -->
+        <!-- not .HasChildren -->
+
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/index.html' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-home'></i>&nbsp;Home</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/index.html' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-home'></i>&nbsp;Home</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/index.html' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-home'></i>&nbsp;Home</a>
+        <!-- not .HasChildren -->
+
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/contact' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='far fa-address-card'></i>&nbsp;Contact</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/contact' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='far fa-address-card'></i>&nbsp;Contact</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/contact' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='far fa-address-card'></i>&nbsp;Contact</a>
+        <!-- not .HasChildren -->
+
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-list'></i>&nbsp;Stuff</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-list'></i>&nbsp;Stuff</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-list'></i>&nbsp;Stuff</a>
+        <!-- .HasChildren -->
+
+<div class="w3-dropdown-hover">
+  <button class="w3-button          w3-hide-small w3-hide-medium header-nav-menu-dropdown-large"  ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <button class="w3-button          w3-hide-small w3-hide-large  header-nav-menu-dropdown-medium" ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <button class="w3-button w3-small w3-hide-medium w3-hide-large header-nav-menu-dropdown-small"  ><i class='fas fa-info-circle'></i>&nbsp;Theme</button>
+  <div class="w3-dropdown-content w3-bar-block w3-card-4" style="z-index: 2"> 
+        <!-- range .Children -->
+    <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/' class="w3-bar-item w3-button"><i class='fas fa-info fa-fw'></i>&nbsp;About</a>
+    <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/images-taken-from/' class="w3-bar-item w3-button"><i class='far fa-images fa-fw'></i>&nbsp;Images</a>
+    <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/' class="w3-bar-item w3-button"><i class='fas fa-eye fa-fw'></i>&nbsp;Showcase</a>
+  </div> 
+</div>   
+        <!-- not .HasChildren -->
+
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='fas fa-rss'></i>&nbsp;Blog</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='fas fa-rss'></i>&nbsp;Blog</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='fas fa-rss'></i>&nbsp;Blog</a>
+        <!-- not .HasChildren -->
+
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/faq' class="w3-bar-item w3-button          w3-hide-small  w3-hide-medium header-nav-menu-large "><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/faq' class="w3-bar-item w3-button          w3-hide-small  w3-hide-large  header-nav-menu-medium"><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+<a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/faq' class="w3-bar-item w3-button w3-small w3-hide-medium w3-hide-large  header-nav-menu-small" ><i class='far fa-question-circle'></i>&nbsp;FAQ</a>
+      <!-- range first $.Site.Params.menutopbar.numOfItemsIfSmallDisplay .Site.Menus.topbar.ByWeight -->
+  <a href='https://github.com/it-gro/hugo-theme-w3css-basic' target="_blank" class="w3-bar-item w3-button w3-right header-nav-menu-topbar-small" ><i class='fab fa-github'></i></a>
+</div> 
+
+</noscript>
+
+        <!-- back in _default/baseof.html  -->
+      </header>
+      <div id="canvas" class='w3-container w3-theme-l4 '>
+        <!-- block headline _default/baseof.html  -->
+          <h1 class='w3-panel w3-theme-l2 '><i class='fas fa-code fa-1x'></i>
+            This Theme Shortcodes
+            <span style="float:right;"><a class="headline-button w3-btn" href="../"><i class="fas fa-arrow-up"></i></a><button id="btnback" class="headline-button w3-btn" style="visibility:hidden;" onclick="javascript:history.back()"   ><i class="fas fa-step-backward"></i></button></span>
+          </h1>
+        <!-- block main _default/baseof.html  -->
+        
+  <!-- partials/head.blog.date.html -->
+
+  <!-- partials/main.taxonomy.current.html -->
+<div class="w3-right-align ">
+    <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/categories' class="taxonomy-button w3-button"><i class="far fa-folder-open"></i></a>
+    <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/categories/this-theme' class="taxonomy-button w3-button">This Theme</a>
+   <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags' class="taxonomy-button w3-button"><i class="fas fa-tags"></i></a>
+    <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/shortcodes' class="taxonomy-button w3-button">shortcodes</a>
+    <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/showcase' class="taxonomy-button w3-button">Showcase</a>
+</div>
+
+  <!-- partials/main.teaserpic.single.html --> 
+  
+  <!-- partials/resource.image.html  -->
+       
+    
+<img
+  class="w3-hide-small w3-image w3-right w3-round "
+  style="max-width:400px; max-height:200px; width: auto; height: auto; margin: 8px 0px  8px 8px; "
+  src='https://it-gro.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/img/pixabay.com/penguin-2104173_1920_hu83b593d3e71a64e0d6371de0254604f8_270606_300x0_resize_q75_box.jpg'
+  alt='https://it-gro.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/img/pixabay.com/penguin-2104173_1920_hu83b593d3e71a64e0d6371de0254604f8_270606_300x0_resize_q75_box.jpg'
+  >
+<br/>
+$myImage.Permalink             : https://it-gro.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/img/pixabay.com/penguin-2104173_1920_hu83b593d3e71a64e0d6371de0254604f8_270606_300x0_resize_q75_box.jpg   <br/>
+$myImage.RelPermalink          : /pages/hugo-theme-w3css-basic/page-shortcodes/img/pixabay.com/penguin-2104173_1920_hu83b593d3e71a64e0d6371de0254604f8_270606_300x0_resize_q75_box.jpg   <br/>
+$myImage.Permalink    | absURL : https://it-gro.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/img/pixabay.com/penguin-2104173_1920_hu83b593d3e71a64e0d6371de0254604f8_270606_300x0_resize_q75_box.jpg   <br/>
+$myImage.RelPermalink | absURL : https://it-gro.github.io/pages/hugo-theme-w3css-basic/page-shortcodes/img/pixabay.com/penguin-2104173_1920_hu83b593d3e71a64e0d6371de0254604f8_270606_300x0_resize_q75_box.jpg   <br/>
+$.Site.BaseURL                 : 
+
+ 
+  <!-- partials/main.toc.single.html -->
+<nav id="TableOfContents">
+<ul>
+<li><a href="#shortcodes-in-this-theme-for-w3-css-classes">Shortcodes in this Theme for W3.CSS classes</a>
+<ul>
+<li><a href="#alert">alert</a></li>
+<li><a href="#w3-notice-icon">w3-notice-icon</a>
+<ul>
+<li><a href="#style">Style</a></li>
+<li><a href="#success">Success</a></li>
+<li><a href="#info">Info</a></li>
+<li><a href="#exclamation">Exclamation</a></li>
+<li><a href="#warning">Warning</a></li>
+<li><a href="#danger">Danger</a></li>
+</ul></li>
+<li><a href="#w3-alert-icon">w3-alert-icon</a></li>
+<li><a href="#w3-button-icon">w3-button-icon</a></li>
+<li><a href="#w3-badge">w3-badge</a></li>
+<li><a href="#w3-tag">w3-tag</a></li>
+<li><a href="#w3-quote">w3-quote</a>
+<ul>
+<li><a href="#style-1">Style</a></li>
+</ul></li>
+<li><a href="#w3-codespan">w3-codespan</a>
+<ul>
+<li><a href="#style-2">Style</a></li>
+</ul></li>
+<li><a href="#w3-code">w3-code</a>
+<ul>
+<li><a href="#style-3">Style</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#other-shortcodes-in-this-theme">Other Shortcodes in this Theme</a>
+<ul>
+<li><a href="#icon">icon</a></li>
+<li><a href="#csc">csc</a></li>
+<li><a href="#cscb">cscb</a></li>
+<li><a href="#terminal">Terminal</a>
+<ul>
+<li><a href="#term-in">term-in</a></li>
+<li><a href="#term-out">term-out</a></li>
+<li><a href="#style-4">Style</a></li>
+</ul></li>
+<li><a href="#page-resources">Page Resources</a>
+<ul>
+<li><a href="#res-attach">res-attach</a>
+<ul>
+<li><a href="#parameters">Parameters</a></li>
+</ul></li>
+<li><a href="#res-figure">res-figure</a>
+<ul>
+<li><a href="#parameters-1">Parameters</a></li>
+<li><a href="#caption-format">Caption format</a></li>
+</ul></li>
+<li><a href="#res-gallery">res-gallery</a>
+<ul>
+<li><a href="#parameters-2">Parameters</a></li>
+<li><a href="#page-resources-metadata">Page Resources Metadata</a></li>
+<li><a href="#caption-format-1">Caption format</a></li>
+<li><a href="#style-5">Style</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#heg-gallery">heg-gallery</a>
+<ul>
+<li><a href="#style-6">Style</a></li>
+</ul></li>
+<li><a href="#heg-figure">heg-figure</a>
+<ul>
+<li><a href="#with-thumbs">with Thumbs</a></li>
+<li><a href="#without-thumbs">without Thumbs</a></li>
+</ul></li>
+<li><a href="#i18n">i18n</a></li>
+<li><a href="#asciicast">asciicast</a></li>
+<li><a href="#html-tag">html-tag</a></li>
+<li><a href="#html-tags">html-tags</a></li>
+<li><a href="#html-tag-classes">html-tag-classes</a></li>
+<li><a href="#classify">classify</a></li>
+<li><a href="#kbd">kbd</a>
+<ul>
+<li><a href="#style-7">style</a></li>
+</ul></li>
+<li><a href="#readfile">readfile</a></li>
+</ul></li>
+<li><a href="#experimental">Experimental</a>
+<ul>
+<li><a href="#liti-list-by-title">liti: List by Title</a></li>
+<li><a href="#litt-list-by-taxonomy-term-just-one-result">litt: List by Taxonomy/Term (just one result)</a></li>
+<li><a href="#litx-list-by-taxonomy-full-search">litx: List by Taxonomy (full search)</a></li>
+<li><a href="#hc">hc</a></li>
+</ul></li>
+</ul>
+</nav>
+
+        <!-- back in _default/baseof.html  -->
+        <!-- now Content  -->
+
+
+ <div class='shortcode-quote w3-panel w3-leftbar w3-theme-l3  '>
+  <i class='fas fa-quote-right w3-xxlarge'></i><br>
+  <div class=''><p>You can extend Hugo’s built-in shortcodes by creating your own using
+the same templating syntax as that for single and list pages.</p>
+
+<p>Shortcodes are a means to consolidate templating into small, reusable
+snippets that you can embed directly inside of your content. In this
+sense, you can think of shortcodes as the intermediary between page
+and list templates and basic content files.</p>
+</div><p class='shortcode-quote-source'><a href="https://gohugo.io/templates/shortcode-templates" target="_blank">https://gohugo.io/templates/shortcode-templates</a></p>
+</div>
+
+
+<h1 id="shortcodes-in-this-theme-for-w3-css-classes">Shortcodes in this Theme for W3.CSS classes&nbsp;<a class="anchor w3-small " href="#shortcodes-in-this-theme-for-w3-css-classes"><i class="fas fa-anchor"></i></a> </h1>
+
+<h2 id="alert">alert&nbsp;<a class="anchor w3-small " href="#alert"><i class="fas fa-anchor"></i></a> </h2>
+
+<ul>
+<li>Inspired by <a href="http://getbootstrap.com/docs/4.0/components/alerts/" target="_blank">http://getbootstrap.com/docs/4.0/components/alerts/</a> and <a href="https://www.w3schools.com/w3css/w3css_panels.asp" target="_blank">https://www.w3schools.com/w3css/w3css_panels.asp</a></li>
+</ul>
+
+<p>Configuration is in <code>config.toml</code>:</p>
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">]</span>
+  <span class="nx">colorAlertPrimary</span>                     <span class="p">=</span> <span class="s2">&#34;w3-purple&#34;</span>
+  <span class="nx">colorAlertSecondary</span>                   <span class="p">=</span> <span class="s2">&#34;w3-aqua&#34;</span>
+  <span class="nx">colorAlertSuccess</span>                     <span class="p">=</span> <span class="s2">&#34;w3-light-green&#34;</span>
+  <span class="nx">colorAlertInfo</span>                        <span class="p">=</span> <span class="s2">&#34;w3-light-blue&#34;</span>
+  <span class="nx">colorAlertWarning</span>                     <span class="p">=</span> <span class="s2">&#34;w3-yellow&#34;</span>
+  <span class="nx">colorAlertDanger</span>                      <span class="p">=</span> <span class="s2">&#34;w3-red&#34;</span>
+  <span class="nx">colorAlertDark</span>                        <span class="p">=</span> <span class="s2">&#34;w3-dark-grey&#34;</span>
+  <span class="nx">colorAlertLight</span>                       <span class="p">=</span> <span class="s2">&#34;w3-grey&#34;</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{&lt; alert type=&#34;primary&#34; intro=&#34;Primary Alert&#34;   &gt;}}This is a primary alert—check it out! {{&lt; /alert &gt;}}
+{{&lt; alert type=&#34;secondary&#34; intro=&#34;Secondary Alert&#34; &gt;}}This is a secondary alert—check it out! {{&lt; /alert &gt;}}
+{{&lt; alert type=&#34;success&#34;   intro=&#34;Success Alert&#34;   &gt;}}This is a success alert—check it out!   {{&lt; /alert &gt;}}
+{{&lt; alert type=&#34;info&#34;      intro=&#34;Info Alert&#34;      &gt;}}This is a info alert—check it out!      {{&lt; /alert &gt;}}
+{{&lt; alert type=&#34;warning&#34;   intro=&#34;Warning Alert&#34;   &gt;}}This is a warning alert—check it out!   {{&lt; /alert &gt;}}
+{{&lt; alert type=&#34;danger&#34;    intro=&#34;Danger Alert&#34;    &gt;}}This is a danger alert—check it out!    {{&lt; /alert &gt;}}
+{{&lt; alert type=&#34;dark&#34;      intro=&#34;Dark Alert&#34;      &gt;}}This is a dark alert—check it out!      {{&lt; /alert &gt;}}
+{{&lt; alert type=&#34;light&#34;     intro=&#34;Light Alert&#34;     &gt;}}This is a light alert—check it out!     {{&lt; /alert &gt;}}</code></pre></div>
+
+
+
+<div class=' w3-panel w3-purple'><div class='w3-purple'>
+  <p><strong>Primary Alert</strong> This is a primary alert—check it out!   </p>
+</div></div>
+
+
+
+
+<div class=' w3-panel w3-aqua'><div class='w3-aqua'>
+  <p><strong>Secondary Alert</strong> This is a secondary alert—check it out! </p>
+</div></div>
+
+
+
+
+<div class=' w3-panel w3-light-green'><div class='w3-light-green'>
+  <p><strong>Success Alert</strong> This is a success alert—check it out!   </p>
+</div></div>
+
+
+
+
+<div class=' w3-panel w3-light-blue'><div class='w3-light-blue'>
+  <p><strong>Info Alert</strong> This is a info alert—check it out!      </p>
+</div></div>
+
+
+
+
+<div class=' w3-panel w3-yellow'><div class='w3-yellow'>
+  <p><strong>Warning Alert</strong> This is a warning alert—check it out!   </p>
+</div></div>
+
+
+
+
+<div class=' w3-panel w3-red'><div class='w3-red'>
+  <p><strong>Danger Alert</strong> This is a danger alert—check it out!    </p>
+</div></div>
+
+
+
+
+<div class=' w3-panel w3-dark-grey'><div class='w3-dark-grey'>
+  <p><strong>Dark Alert</strong> This is a dark alert—check it out!      </p>
+</div></div>
+
+
+
+
+<div class=' w3-panel w3-grey'><div class='w3-grey'>
+  <p><strong>Light Alert</strong> This is a light alert—check it out!     </p>
+</div></div>
+
+
+<h2 id="w3-notice-icon">w3-notice-icon&nbsp;<a class="anchor w3-small " href="#w3-notice-icon"><i class="fas fa-anchor"></i></a> </h2>
+
+<ul>
+<li>Inspired by <a href="https://www.w3schools.com/w3css/w3css_notes.asp" target="_blank">W3.CSS Notes</a></li>
+</ul>
+
+<h3 id="style">Style&nbsp;<a class="anchor w3-small " href="#style"><i class="fas fa-anchor"></i></a> </h3>
+
+<ul>
+<li>these colors are separate from the ones in w3cssColorTheme</li>
+</ul>
+
+<p>Defined in:</p>
+<div class="highlight"><pre class="chroma">static/css/w3css-basic.css</pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="c">/* for shortcodes w3-notice-icon and w3-alert-icon */</span>
+<span class="p">.</span><span class="nc">shortcode-danger</span> <span class="p">{</span>
+  <span class="k">border-color</span><span class="p">:</span><span class="mh">#f44336</span><span class="cp">!important</span>
+<span class="p">}</span>
+<span class="p">.</span><span class="nc">shortcode-warning</span> <span class="p">{</span>
+  <span class="k">border-color</span><span class="p">:</span><span class="mh">#ffeb3b</span><span class="cp">!important</span>
+<span class="p">}</span>
+<span class="p">.</span><span class="nc">shortcode-info</span>  <span class="p">{</span>
+  <span class="k">border-color</span><span class="p">:</span><span class="mh">#2196F3</span><span class="cp">!important</span>
+<span class="p">}</span>
+<span class="p">.</span><span class="nc">shortcode-exclamation</span>  <span class="p">{</span>
+  <span class="k">border-color</span><span class="p">:</span><span class="mh">#2a8</span><span class="cp">!important</span>
+<span class="p">}</span>
+<span class="p">.</span><span class="nc">shortcode-success</span><span class="p">{</span>
+  <span class="k">border-color</span><span class="p">:</span><span class="mh">#4CAF50</span><span class="cp">!important</span>
+<span class="p">}</span></code></pre></div>
+
+<h3 id="success">Success&nbsp;<a class="anchor w3-small " href="#success"><i class="fas fa-anchor"></i></a> </h3>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{% w3-notice-icon type=&#34;success&#34; %}}
+Well done
+{{% /w3-notice-icon %}}</code></pre></div>
+
+<p>renders as</p>
+
+
+<div class='w3-panel w3-leftbar shortcode-success'>
+      <i class='w3-margin-right fas fa-check fa-2x'></i>Well done</div>
+
+
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{% w3-notice-icon type=&#34;success&#34;  heading=&#34;Well done&#34; %}}
+Well done
+{{% /w3-notice-icon %}}</code></pre></div>
+
+<p>renders as</p>
+
+
+<div class='w3-panel w3-leftbar shortcode-success'>
+  <h3><i class='w3-margin-right fas fa-check '></i>Well done</h3>A message with header</div>
+
+
+<h3 id="info">Info&nbsp;<a class="anchor w3-small " href="#info"><i class="fas fa-anchor"></i></a> </h3>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolan" data-lang="nolan">{{% w3-notice-icon %}}
+A default disclaimer (=&gt; info)
+{{% /w3-notice-icon %}}</code></pre></div>
+
+<p>renders as</p>
+
+  
+<div class='w3-panel w3-leftbar shortcode-info'>
+      <i class='w3-margin-right fas fa-info fa-2x'></i>A default disclaimer (=&gt; info)</div>
+
+
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{% w3-notice-icon heading=&#34;I&#39;m a heading&#34; %}}
+A default disclaimer with header
+{{% /w3-notice-icon %}}</code></pre></div>
+
+<p>renders as</p>
+
+
+<div class='w3-panel w3-leftbar shortcode-info'>
+  <h3><i class='w3-margin-right fas fa-info '></i>I&#39;m a heading</h3>A default disclaimer with header</div>
+
+
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{% w3-notice-icon type=&#34;info&#34; heading=&#34;Show Info&#34; %}}
+No need for type=&#34;info&#34;, since this is the default
+{{% /w3-notice-icon %}}</code></pre></div>
+
+<p>renders as</p>
+
+
+<div class='w3-panel w3-leftbar shortcode-info'>
+  <h3><i class='w3-margin-right fas fa-info '></i>Show Info</h3><p>No need for type=&ldquo;info&rdquo;, since this is the default</p>
+</div>
+
+
+<h3 id="exclamation">Exclamation&nbsp;<a class="anchor w3-small " href="#exclamation"><i class="fas fa-anchor"></i></a> </h3>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{% w3-notice-icon type=&#34;exclamation&#34; heading=&#34;Show Info&#34; %}}
+Type=&#34;exclamation&#34; - check it out
+{{% /w3-notice-icon %}}</code></pre></div>
+
+<p>renders as</p>
+
+
+<div class='w3-panel w3-leftbar shortcode-exclamation'>
+  <h3><i class='w3-margin-right fas fa-exclamation '></i>Show Info</h3><p>Type=&ldquo;exclamation&rdquo; - check it out</p>
+</div>
+
+
+<h3 id="warning">Warning&nbsp;<a class="anchor w3-small " href="#warning"><i class="fas fa-anchor"></i></a> </h3>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{% w3-notice-icon type=&#34;warning&#34; heading=&#34;Keep in mind&#34; %}}
+A warning disclaimer
+{{% /w3-notice-icon %}}</code></pre></div>
+
+<p>renders as</p>
+
+
+<div class='w3-panel w3-leftbar shortcode-warning'>
+  <h3><i class='w3-margin-right fas fas fa-exclamation-triangle '></i>Keep in mind</h3>A warning disclaimer</div>
+
+
+<h3 id="danger">Danger&nbsp;<a class="anchor w3-small " href="#danger"><i class="fas fa-anchor"></i></a> </h3>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{% w3-notice-icon type=&#34;danger&#34; %}}
+A check disclaimer
+{{% /w3-notice-icon %}}</code></pre></div>
+
+<p>renders as</p>
+
+
+<div class='w3-panel w3-leftbar shortcode-danger'>
+      <i class='w3-margin-right fas fa-bomb fa-2x'></i>Watch out</div>
+
+
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{% w3-notice-icon type=&#34;danger&#34; heading=&#34;Careful&#34; %}}
+Watch out 
+{{% /w3-notice-icon %}}</code></pre></div>
+
+<p>renders as</p>
+
+
+<div class='w3-panel w3-leftbar shortcode-danger'>
+  <h3><i class='w3-margin-right fas fa-bomb '></i>Careful</h3>Watch out</div>
+
+
+<h2 id="w3-alert-icon">w3-alert-icon&nbsp;<a class="anchor w3-small " href="#w3-alert-icon"><i class="fas fa-anchor"></i></a> </h2>
+
+<ul>
+<li>I ignored <a href="https://www.w3schools.com/w3css/w3css_alerts.asp" target="_blank">W3.CSS Alerts</a></li>
+<li>used borders instead</li>
+</ul>
+
+<p>Some examples:</p>
+
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-nolang" data-lang="nolang"><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="hl"><span class="lnt">15
+</span></span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="hl"><span class="lnt">19
+</span></span><span class="hl"><span class="lnt">20
+</span></span><span class="hl"><span class="lnt">21
+</span></span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-nolang" data-lang="nolang">{{% w3-alert-icon type=&#34;success&#34; %}}
+Hi, I&#39;m a success
+{{% /w3-alert-icon %}}
+
+<span class="hl">{{% w3-alert-icon type=&#34;info&#34; heading=&#34;I&#39;m info&#34; %}}
+</span>An info with title
+{{% /w3-alert-icon %}}
+
+<span class="hl">{{% w3-alert-icon type=&#34;warning&#34; %}}
+</span><span class="hl">A warning
+</span><span class="hl">{{% /w3-alert-icon %}}
+</span>
+{{% w3-alert-icon type=&#34;danger&#34; %}}
+Danger: A stronger warning
+{{% /w3-alert-icon %}}
+
+{{% w3-alert-icon type=&#34;warning&#34; heading=&#34;You have been warned&#34;  %}}
+A warning with heading
+{{% /w3-alert-icon %}}</code></pre></td></tr></table>
+</div>
+</div>
+
+
+<div class='w3-panel w3-topbar w3-bottombar w3-leftbar w3-rightbar w3-round-xxlarge shortcode-success'>
+      <span class="w3-margin-top w3-margin-bottom w3-margin-right w3-badge w3-large"><i class='fas fa-check fa-2x '></i></span>Hi, I&rsquo;m a success</div>
+
+
+
+<div class='w3-panel w3-topbar w3-bottombar w3-leftbar w3-rightbar w3-round-xxlarge shortcode-info'>
+  <h3><span class="w3-margin-right w3-badge w3-large"><i class='fas fa-info '></i></span>I&#39;m info</h3>An info with title</div>
+
+
+
+<div class='w3-panel w3-topbar w3-bottombar w3-leftbar w3-rightbar w3-round-xxlarge shortcode-warning'>
+      <span class="w3-margin-top w3-margin-bottom w3-margin-right w3-badge w3-large"><i class='fas fa-exclamation-triangle fa-2x '></i></span>A warning</div>
+
+
+
+<div class='w3-panel w3-topbar w3-bottombar w3-leftbar w3-rightbar w3-round-xxlarge shortcode-danger'>
+      <span class="w3-margin-top w3-margin-bottom w3-margin-right w3-badge w3-large"><i class='fas fa-bomb fa-2x '></i></span>Danger: A stronger warning</div>
+
+
+
+<div class='w3-panel w3-topbar w3-bottombar w3-leftbar w3-rightbar w3-round-xxlarge shortcode-warning'>
+  <h3><span class="w3-margin-right w3-badge w3-large"><i class='fas fa-exclamation-triangle '></i></span>You have been warned</h3>A warning with heading</div>
+
+
+<h2 id="w3-button-icon">w3-button-icon&nbsp;<a class="anchor w3-small " href="#w3-button-icon"><i class="fas fa-anchor"></i></a> </h2>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{% w3-button-icon                                                %}}Hello world{{% /w3-button-icon %}}
+{{% w3-button-icon icon=&#34;fab fa-google&#34; href=&#34;https://google.com&#34; %}}take me to Google{{% /w3-button-icon %}}
+{{% w3-button-icon &#34;/blog&#34;                                        %}}take me to Blog{{% /w3-button-icon %}}
+{{% w3-button-icon &#34;/faq&#34; &#34;far fa-question-circle&#34;                %}}take me to FAQ{{% /w3-button-icon %}}
+{{% w3-button-icon icon=&#34;fas fa-exclamation-triangle&#34; classes=&#34;w3-button w3-circle w3-theme-d3&#34; %}}Purge{{% /w3-button-icon %}}</code></pre></div>
+
+<p>renders to:</p>
+
+   
+<a class='w3-button w3-ripple w3-theme-l3 ' href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/#'>&nbsp;Hello world</a>
+
+
+
+<a class='w3-button w3-ripple w3-theme-l3 ' href='https://google.com'><i class='fab fa-google fa-1x'></i>&nbsp;take me to Google</a>
+
+
+     
+<a class='w3-button w3-ripple w3-theme-l3 ' href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog'>&nbsp;take me to Blog</a>
+
+
+       
+<a class='w3-button w3-ripple w3-theme-l3 ' href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/faq'><i class='far fa-question-circle fa-1x'></i>&nbsp;take me to FAQ</a>
+
+
+
+<a class='w3-button w3-circle w3-theme-d3' href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/#'><i class='fas fa-exclamation-triangle fa-1x'></i>&nbsp;Purge</a>
+
+
+<h2 id="w3-badge">w3-badge&nbsp;<a class="anchor w3-small " href="#w3-badge"><i class="fas fa-anchor"></i></a> </h2>
+
+<ul>
+<li>Inspired by <a href="https://www.w3schools.com/w3css/w3css_badges.asp" target="_blank">W3.CSS Badges</a></li>
+<li>
+<span class='w3-badge '>42</span>
+</li>
+<li>
+<span class='w3-badge w3-green'>42</span>
+</li>
+</ul>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{% w3-badge            %}}42{{% /w3-badge %}}
+{{% w3-badge &#34;w3-green&#34; %}}42{{% /w3-badge %}}</code></pre></div>
+
+<h2 id="w3-tag">w3-tag&nbsp;<a class="anchor w3-small " href="#w3-tag"><i class="fas fa-anchor"></i></a> </h2>
+
+<ul>
+<li>Inspired by <a href="https://www.w3schools.com/w3css/w3css_tags.asp" target="_blank">W3.CSS Tags</a></li>
+<li>
+<span class='w3-tag '>42</span>
+</li>
+</ul>
+
+<p>I&rsquo;m a big one: 
+<span class='w3-tag w3-blue w3-jumbo'>42</span>
+</p>
+
+<p>created with:</p>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{% w3-tag                    %}}42{{% /w3-tag %}}
+{{% w3-tag &#34;w3-blue w3-jumbo&#34; %}}42{{% /w3-tag %}}</code></pre></div>
+
+<h2 id="w3-quote">w3-quote&nbsp;<a class="anchor w3-small " href="#w3-quote"><i class="fas fa-anchor"></i></a> </h2>
+
+<ul>
+<li>Inspired by <a href="https://www.w3schools.com/w3css/w3css_quotes.asp" target="_blank">W3.CSS Quotes</a></li>
+</ul>
+
+<p>Some examples:</p>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{% w3-quote }}
+*a fool with a tool is still a fool*
+{{% /w3-quote %}}
+
+{{% w3-quote source=&#34;Igor Stravinsky&#34; layout=&#34;icon&#34; %}}
+**A good composer does not imitate; he steals.**
+{{% /w3-quote %}}
+
+{{% w3-quote source=&#34;Albert Einstein&#34; layout=&#34;icon-br&#34; %}}
+*Life is like riding a bicycle. To keep your balance, you must keep moving*
+{{% /w3-quote %}}</code></pre></div>
+
+
+ <div class='shortcode-quote w3-panel w3-leftbar w3-theme-l3  '>
+  <p class=''>
+  <em>a fool with a tool is still a fool</em>
+</div>
+
+
+
+ <div class='shortcode-quote w3-panel w3-leftbar w3-theme-l3   '>
+  <i class='fas fa-quote-right w3-xxlarge w3-margin-right'></i>
+  <strong>A good composer does not imitate; he steals.</strong><p class='shortcode-quote-source'>Igor Stravinsky</p>
+</div>
+
+
+
+ <div class='shortcode-quote w3-panel w3-leftbar w3-theme-l3  '>
+  <i class='fas fa-quote-right w3-xxlarge'></i><br>
+  <div class=''><em>Life is like riding a bicycle. To keep your balance, you must keep moving</em></div><p class='shortcode-quote-source'>Albert Einstein</p>
+</div>
+
+
+<p>using blockquote:</p>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{% w3-quote source=&#34;Albert Einstein&#34; layout=&#34;blockquote&#34; %}}
+*The true sign of intelligence is not knowledge but imagination*
+{{% /w3-quote %}}
+
+{{% w3-quote source=&#34;Albert Einstein&#34; layout=&#34;icon-br-blockquote&#34; %}}
+*The only source of knowledge is experience*
+{{% /w3-quote %}}
+
+{{% w3-quote source=&#34;Albert Einstein&#34; layout=&#34;icon-blockquote&#34; %}}
+*Learn from yesterday, live for today, hope for tomorrow. The important thing is not to stop questioning.*
+{{% /w3-quote %}}</code></pre></div>
+
+
+ <blockquote class='shortcode-quote w3-panel w3-leftbar w3-theme-l3  '>
+  <p class=''>
+  <i><em>The true sign of intelligence is not knowledge but imagination</em></i><p class='shortcode-quote-source'>Albert Einstein</p>
+</blockquote>
+
+
+
+ <blockquote class='shortcode-quote w3-panel w3-leftbar w3-theme-l3  '>
+  <i class='fas fa-quote-right w3-xxlarge'></i><br>
+  <div class=''><em>The only source of knowledge is experience</em></div><p class='shortcode-quote-source'>Albert Einstein</p>
+</blockquote>
+
+
+
+ <blockquote class='shortcode-quote w3-panel w3-leftbar w3-theme-l3   '>
+  <i class='fas fa-quote-right w3-xxlarge w3-margin-right'></i>
+  <em>Learn from yesterday, live for today, hope for tomorrow. The important thing is not to stop questioning.</em><p class='shortcode-quote-source'>Albert Einstein</p>
+</blockquote>
+
+
+<h3 id="style-1">Style&nbsp;<a class="anchor w3-small " href="#style-1"><i class="fas fa-anchor"></i></a> </h3>
+<div class="highlight"><pre class="chroma">static/css/w3css-basic.css</pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="c">/* for shortcode w3-quote */</span>
+<span class="p">.</span><span class="nc">shortcode-quote</span> <span class="p">{</span>
+  <span class="k">border-color</span><span class="p">:</span><span class="mh">#4CAF50</span><span class="cp">!important</span>
+<span class="p">}</span>
+
+<span class="p">.</span><span class="nc">shortcode-quote-source</span> <span class="p">{</span>
+  <span class="k">font-style</span><span class="p">:</span> <span class="kc">italic</span><span class="p">;</span>
+  <span class="k">font-weight</span><span class="p">:</span> <span class="kc">bold</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
+
+<h2 id="w3-codespan">w3-codespan&nbsp;<a class="anchor w3-small " href="#w3-codespan"><i class="fas fa-anchor"></i></a> </h2>
+
+<ul>
+<li>Inspired by <a href="https://www.w3schools.com/w3css/w3css_code.asp" target="_blank">W3.CSS Code</a></li>
+<li>Highlight Inline Code</li>
+<li>all on one line</li>
+</ul>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolan" data-lang="nolan">... command: {{% w3-codespan %}}startup *all*{{% /w3-codespan %}} just try it...
+... command: {{&lt; w3-codespan &gt;}}startup *all*{{&lt; /w3-codespan &gt;}} just try it...</code></pre></div>
+
+<p>This is a cool command: <span class="w3-codespan notranslate">startup <em>all</em></span>
+ just try it&hellip;
+This is a cool command: <span class="w3-codespan notranslate">startup *all*</span>
+ just try it&hellip;</p>
+
+<h3 id="style-2">Style&nbsp;<a class="anchor w3-small " href="#style-2"><i class="fas fa-anchor"></i></a> </h3>
+
+<ul>
+<li>these colors are separate from the ones in w3cssColorTheme</li>
+</ul>
+
+<p>Defined in:</p>
+<div class="highlight"><pre class="chroma">static/css/w3css-basic.css</pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="nt">pre</span><span class="p">.</span><span class="nc">w3-code</span><span class="o">,</span> <span class="nt">span</span><span class="p">.</span><span class="nc">w3-codespan</span><span class="p">{</span>
+  <span class="k">font-family</span><span class="p">:</span><span class="kc">monospace</span><span class="p">,</span><span class="kc">monospace</span><span class="p">;</span> <span class="err">!important</span><span class="p">;</span>
+  <span class="k">font-size</span><span class="p">:</span><span class="mi">1</span><span class="kt">em</span>
+<span class="p">}</span>
+
+<span class="nt">pre</span><span class="p">.</span><span class="nc">w3-code</span><span class="o">,</span> <span class="nt">pre</span><span class="p">.</span><span class="nc">chroma</span> <span class="p">{</span>
+    <span class="k">border-radius</span><span class="p">:</span><span class="mi">4</span><span class="kt">px</span><span class="p">;</span>  
+    <span class="k">padding</span><span class="p">:</span> <span class="mi">0</span> <span class="mi">3</span><span class="kt">px</span> <span class="mi">0</span> <span class="mi">3</span><span class="kt">px</span><span class="p">;</span>
+    <span class="k">border</span><span class="p">:</span> <span class="mi">1</span><span class="kt">px</span> <span class="kc">solid</span><span class="p">;</span>
+    <span class="k">overflow</span><span class="p">:</span> <span class="kc">auto</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
+
+<h2 id="w3-code">w3-code&nbsp;<a class="anchor w3-small " href="#w3-code"><i class="fas fa-anchor"></i></a> </h2>
+
+<ul>
+<li>Inspired by <a href="https://www.w3schools.com/w3css/w3css_code.asp" target="_blank">W3.CSS Code</a></li>
+<li>show code block - but no highlighting</li>
+</ul>
+
+<div class="highlight"><pre class="chroma"><code class="language-text" data-lang="text">{{&lt; w3-code &gt;}}
+genpasswd() {
+    local l=$1
+    [ &#34;$l&#34; == &#34;&#34; ] &amp;&amp; l=16
+    tr -dc A-Za-z0-9 &lt; /dev/urandom | head -c ${l} | xargs
+}
+
+genpasswd $1
+{{&lt; /w3-code &gt;}}</code></pre></div>
+
+<p>renders as</p>
+
+<pre class="w3-code notranslate">
+genpasswd() {
+    local l=$1
+    [ &#34;$l&#34; == &#34;&#34; ] &amp;&amp; l=16
+    tr -dc A-Za-z0-9 &lt; /dev/urandom | head -c ${l} | xargs
+}
+
+genpasswd $1
+</pre>
+
+
+<h3 id="style-3">Style&nbsp;<a class="anchor w3-small " href="#style-3"><i class="fas fa-anchor"></i></a> </h3>
+<div class="highlight"><pre class="chroma">static/css/w3css-basic.css</pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="nt">pre</span><span class="p">.</span><span class="nc">w3-code</span><span class="o">,</span> <span class="nt">span</span><span class="p">.</span><span class="nc">w3-codespan</span><span class="p">{</span>
+  <span class="k">font-family</span><span class="p">:</span><span class="kc">monospace</span><span class="p">,</span><span class="kc">monospace</span><span class="p">;</span> <span class="err">!important</span><span class="p">;</span>
+  <span class="k">font-size</span><span class="p">:</span><span class="mi">1</span><span class="kt">em</span>
+<span class="p">}</span>
+
+<span class="nt">pre</span><span class="p">.</span><span class="nc">w3-code</span><span class="o">,</span> <span class="nt">pre</span><span class="p">.</span><span class="nc">chroma</span> <span class="p">{</span>
+    <span class="k">border-radius</span><span class="p">:</span><span class="mi">4</span><span class="kt">px</span><span class="p">;</span>  
+    <span class="k">padding</span><span class="p">:</span> <span class="mi">0</span> <span class="mi">3</span><span class="kt">px</span> <span class="mi">0</span> <span class="mi">3</span><span class="kt">px</span><span class="p">;</span>
+    <span class="k">border</span><span class="p">:</span> <span class="mi">1</span><span class="kt">px</span> <span class="kc">solid</span><span class="p">;</span>
+    <span class="k">overflow</span><span class="p">:</span> <span class="kc">auto</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
+
+<h1 id="other-shortcodes-in-this-theme">Other Shortcodes in this Theme&nbsp;<a class="anchor w3-small " href="#other-shortcodes-in-this-theme"><i class="fas fa-anchor"></i></a> </h1>
+
+<h2 id="icon">icon&nbsp;<a class="anchor w3-small " href="#icon"><i class="fas fa-anchor"></i></a> </h2>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolan" data-lang="nolan">{{&lt; icon &#34;fas fa-home&#34;&gt;}}
+{{&lt; icon &#34;fas fa-home fa-2x&#34; &gt;}}</code></pre></div>
+
+<p>renders as
+    
+<span class='fas fa-home fa-1x' aria-hidden="true"></span>
+
+    
+<span class='fas fa-home fa-2x fa-1x' aria-hidden="true"></span>
+</p>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolan" data-lang="nolan">{{&lt; icon name=&#34;fas fa-home&#34; &gt;}}
+{{&lt; icon name=&#34;fas fa-home&#34; size=&#34;fa-2x&#34; &gt;}}</code></pre></div>
+
+<p>renders as
+
+<span class='fas fa-home fa-1x' aria-hidden="true"></span>
+
+
+<span class='fas fa-home fa-2x' aria-hidden="true"></span>
+</p>
+
+<h2 id="csc">csc&nbsp;<a class="anchor w3-small " href="#csc"><i class="fas fa-anchor"></i></a> </h2>
+
+<ul>
+<li>use a <strong>c</strong>hroma<strong>s</strong>tyle <strong>c</strong>olor within text (span)</li>
+</ul>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolan" data-lang="nolan">{{&lt; csc &gt;}}hugo -w -v server --themesDir ../../ --port 1414 --disableFastRender{{&lt; /csc &gt;}}</code></pre></div>
+
+<p>renders as</p>
+
+<p>Here&rsquo; a cool command:  
+<code class="chroma notranslate" style="font-family: monospace,monospace;"><span class='gp'>hugo -w -v server --themesDir ../../ --port 1414 --disableFastRender</span></code>
+. But you may use this:
+<code>hugo -w server</code>. Have fun.</p>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolan" data-lang="nolan">You may give a class name {{&lt; csc k &gt;}}cool code{{&lt; /csc &gt;}}.</code></pre></div>
+
+<p>renders as</p>
+
+<p>You may give a class name 
+<code class="chroma notranslate" style="font-family: monospace,monospace;"><span class='k'>cool code</span></code>
+.</p>
+
+<p>Background style for csc is in <code>static/css/w3css-basic.css</code>:</p>
+
+<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="nt">code</span><span class="p">.</span><span class="nc">chroma</span> <span class="p">{</span>
+  <span class="k">background-color</span><span class="p">:</span> <span class="nb">rgba</span><span class="p">(</span><span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span> <span class="mf">.4</span><span class="p">)</span> <span class="p">;</span> <span class="c">/* used e.g. for csc* shortcodes */</span>
+<span class="p">}</span></code></pre></div>
+
+<div class="highlight"><pre class="chroma"><code class="language-text" data-lang="text">   Class | Type
+---------|------
+err      | Error
+lntd     | LineTableTD
+lntable  | LineTable
+hl       | LineHighlight
+lnt      | LineNumbersTable
+ln       | LineNumbers
+k        | Keyword
+kc       | KeywordConstant
+kd       | KeywordDeclaration
+kn       | KeywordNamespace
+kp       | KeywordPseudo
+kr       | KeywordReserved
+kt       | KeywordType
+na       | NameAttribute
+nb       | NameBuiltin
+nc       | NameClass
+no       | NameConstant
+nd       | NameDecorator
+ni       | NameEntity
+ne       | NameException
+nf       | NameFunction
+nl       | NameLabel
+nn       | NameNamespace
+nt       | NameTag
+nv       | NameVariable
+s        | LiteralString
+sa       | LiteralStringAffix
+sb       | LiteralStringBacktick
+sc       | LiteralStringChar
+dl       | LiteralStringDelimiter
+sd       | LiteralStringDoc
+s2       | LiteralStringDouble
+se       | LiteralStringEscape
+sh       | LiteralStringHeredoc
+si       | LiteralStringInterpol
+sx       | LiteralStringOther
+sr       | LiteralStringRegex
+s1       | LiteralStringSingle
+ss       | LiteralStringSymbol
+m        | LiteralNumber
+mb       | LiteralNumberBin
+mf       | LiteralNumberFloat
+mh       | LiteralNumberHex
+mi       | LiteralNumberInteger
+il       | LiteralNumberIntegerLong
+mo       | LiteralNumberOct
+o        | Operator
+ow       | OperatorWord
+c        | Comment
+ch       | CommentHashbang
+cm       | CommentMultiline
+c1       | CommentSingle
+cs       | CommentSpecial
+cp       | CommentPreproc
+cpf      | CommentPreprocFile
+gd       | GenericDeleted
+ge       | GenericEmph
+gr       | GenericError
+gh       | GenericHeading
+gi       | GenericInserted
+go       | GenericOutput
+gp       | GenericPrompt
+gs       | GenericStrong
+gu       | GenericSubheading
+gt       | GenericTraceback
+w        | TextWhitespace</code></pre></div>
+
+<h2 id="cscb">cscb&nbsp;<a class="anchor w3-small " href="#cscb"><i class="fas fa-anchor"></i></a> </h2>
+
+<ul>
+<li>use a <strong>c</strong>hroma<strong>s</strong>tyle <strong>c</strong>olor for a <strong>b</strong>lock</li>
+</ul>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolan" data-lang="nolan">{{&lt; cscb s &gt;}}
+static/css/syntax/syntax.autumn.css
+static/css/syntax/syntax.borland.css
+static/css/syntax/syntax.bw.css
+{{&lt; /cscb &gt;}}</code></pre></div>
+
+<p>renders as</p>
+
+
+<pre><code class="chroma notranslate"><span class='s'>
+static/css/syntax/syntax.autumn.css
+static/css/syntax/syntax.borland.css
+static/css/syntax/syntax.bw.css
+</span></code></pre>
+
+
+<h2 id="terminal">Terminal&nbsp;<a class="anchor w3-small " href="#terminal"><i class="fas fa-anchor"></i></a> </h2>
+
+<h3 id="term-in">term-in&nbsp;<a class="anchor w3-small " href="#term-in"><i class="fas fa-anchor"></i></a> </h3>
+
+<ul>
+<li>show text to type in terminal (no syntax coloring)</li>
+</ul>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolan" data-lang="nolan">{{&lt; term-in &gt;}}
+date -d @1435225258
+date +%Y%m%d_%H%M%S
+{{&lt; /term-in &gt;}}</code></pre></div>
+
+<p>renders as</p>
+
+<pre class="terminal-in w3-theme-d5 notranslate">
+date -d @1435225258
+date +%Y%m%d_%H%M%S
+</pre>
+
+
+<h3 id="term-out">term-out&nbsp;<a class="anchor w3-small " href="#term-out"><i class="fas fa-anchor"></i></a> </h3>
+
+<ul>
+<li>show output in terminal (no syntax coloring)</li>
+</ul>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolan" data-lang="nolan">{{&lt; term-out &gt;}}
+Don Jun 25 11:40:58 CEST 2015
+20180710_172103
+{{&lt; /term-out &gt;}}</code></pre></div>
+
+<p>renders as</p>
+
+<pre class="terminal-out w3-theme-l3 notranslate">
+Don Jun 25 11:40:58 CEST 2015
+20180710_172103
+</pre>
+
+
+<h3 id="style-4">Style&nbsp;<a class="anchor w3-small " href="#style-4"><i class="fas fa-anchor"></i></a> </h3>
+
+<ul>
+<li><p>Color themes are defined in the shortcuts:
+<pre class="w3-code notranslate">
+&lt;pre class=&#34;terminal-in  w3-theme-d5 notranslate&#34;&gt;{{ .Inner }}&lt;/pre&gt;
+&lt;pre class=&#34;terminal-out w3-theme-l3 notranslate&#34;&gt;{{ .Inner }}&lt;/pre&gt;
+</pre></li>
+
+<li><p>Relevant CSS is in <code>static/css/w3css-basic.css</code>
+<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="nt">pre</span><span class="p">.</span><span class="nc">terminal-in</span> <span class="p">{</span>
+  <span class="k">border-radius</span><span class="p">:</span>    <span class="mi">6</span><span class="kt">px</span><span class="p">;</span>
+  <span class="k">border</span><span class="p">:</span>           <span class="mi">1</span><span class="kt">px</span> <span class="kc">solid</span><span class="p">;</span>
+  <span class="k">padding</span><span class="p">:</span>          <span class="mi">10</span><span class="kt">px</span> <span class="mi">6</span><span class="kt">px</span> <span class="mi">10</span><span class="kt">px</span> <span class="mi">6</span><span class="kt">px</span><span class="p">;</span>
+  <span class="k">overflow</span><span class="p">:</span>         <span class="kc">auto</span><span class="p">;</span>
+  <span class="k">line-height</span><span class="p">:</span>      <span class="mf">1.2</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">pre</span><span class="p">.</span><span class="nc">terminal-out</span> <span class="p">{</span>
+  <span class="k">border-radius</span><span class="p">:</span>    <span class="mi">6</span><span class="kt">px</span><span class="p">;</span>
+  <span class="k">padding</span><span class="p">:</span>          <span class="mi">10</span><span class="kt">px</span> <span class="mi">6</span><span class="kt">px</span> <span class="mi">10</span><span class="kt">px</span> <span class="mi">6</span><span class="kt">px</span><span class="p">;</span>
+  <span class="k">border</span><span class="p">:</span>           <span class="mi">1</span><span class="kt">px</span> <span class="kc">solid</span><span class="p">;</span>
+  <span class="k">overflow</span><span class="p">:</span>         <span class="kc">auto</span><span class="p">;</span>
+  <span class="k">line-height</span><span class="p">:</span>      <span class="mf">1.2</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div></li>
+</ul>
+
+<h2 id="page-resources">Page Resources&nbsp;<a class="anchor w3-small " href="#page-resources"><i class="fas fa-anchor"></i></a> </h2>
+
+<h3 id="res-attach">res-attach&nbsp;<a class="anchor w3-small " href="#res-attach"><i class="fas fa-anchor"></i></a> </h3>
+
+<ul>
+<li>See <a href="https://gohugo.io/content-management/page-resources/" target="_blank">https://gohugo.io/content-management/page-resources/</a></li>
+<li>See <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/attach-page-resources/" target="_blank">Attachments via Hugo Page Resources</a> for more information</li>
+</ul>
+
+<pre class="w3-code notranslate">
+{{&lt; res-attach &gt;}}
+</pre>
+
+
+   
+  <span class='fas fa-paperclip' aria-hidden='true'></span>&nbsp;
+Attachments
+<ul class=" " >
+ 
+</ul>
+
+
+<h4 id="parameters">Parameters&nbsp;<a class="anchor w3-small " href="#parameters"><i class="fas fa-anchor"></i></a> </h4>
+
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Position -1</th>
+<th>Default</th>
+<th>What</th>
+<th>Remark</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>match</td>
+<td>0</td>
+<td>**</td>
+<td>glob</td>
+<td>only resources of type application</td>
+</tr>
+
+<tr>
+<td>label</td>
+<td>1</td>
+<td>Attachments</td>
+<td>label</td>
+<td>piped into i18n</td>
+</tr>
+
+<tr>
+<td>icon</td>
+<td>2</td>
+<td>fas fa-paperclip</td>
+<td>label icon</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="res-figure">res-figure&nbsp;<a class="anchor w3-small " href="#res-figure"><i class="fas fa-anchor"></i></a> </h3>
+
+<ul>
+<li>See <a href="https://gohugo.io/content-management/image-processing/" target="_blank">https://gohugo.io/content-management/image-processing/</a><br />
+inspired by layouts/shortcodes/imgproc.html</li>
+<li>See <a href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/image-processing-with-hugo/" target="_blank">Hugo image processing (res-figure)</a> for more information</li>
+</ul>
+
+<pre class="w3-code notranslate">
+{{&lt; res-figure &#34;.&#34; &#34;img/pixabay.com/penguin-21*&#34; /&gt;}} 
+{{&lt; res-figure &#34;.&#34; &#34;img/pixabay.com/penguin-21*&#34; &#34;Fit&#34;  &#34;200x200&#34; /&gt;}} 
+{{&lt; res-figure &#34;.&#34; &#34;img/pixabay.com/penguin-21*&#34; &#34;Fill&#34; &#34;200x200&#34; /&gt;}} 
+</pre>
+
+
+<p>
+
+         
+
+
+
+    <figure class='res-figure no-photoswipe'  style="width: 300px;">
+      <img src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/page-shortcodes/img/pixabay.com/penguin-2104173_1920_hu83b593d3e71a64e0d6371de0254604f8_270606_300x0_resize_q75_box.jpg"
+           alt="penguin-2104173_1920.jpg"
+           width="300" height="200"
+      >
+      <figcaption class='res-figcaption'>
+          Resize '300x'<br>penguin-2104173_1920<br><a href='https://pixabay.com' target='_blank'>pixabay.com</a><br><a href='https://pixabay.com/en/service/terms/#usage' target='_blank'>Creative Commons CC0</a>
+      </figcaption>
+    </figure>  
+
+
+
+             
+
+
+
+    <figure class='res-figure no-photoswipe'  style="width: 200px;">
+      <img src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/page-shortcodes/img/pixabay.com/penguin-2104173_1920_hu83b593d3e71a64e0d6371de0254604f8_270606_200x200_fit_q75_box.jpg"
+           alt="penguin-2104173_1920.jpg"
+           width="200" height="133"
+      >
+      <figcaption class='res-figcaption'>
+          Fit '200x200'<br>penguin-2104173_1920<br><a href='https://pixabay.com' target='_blank'>pixabay.com</a><br><a href='https://pixabay.com/en/service/terms/#usage' target='_blank'>Creative Commons CC0</a>
+      </figcaption>
+    </figure>  
+
+
+
+             
+
+
+
+    <figure class='res-figure no-photoswipe'  style="width: 200px;">
+      <img src="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/page-shortcodes/img/pixabay.com/penguin-2104173_1920_hu83b593d3e71a64e0d6371de0254604f8_270606_200x200_fill_q75_box_smart1.jpg"
+           alt="penguin-2104173_1920.jpg"
+           width="200" height="200"
+      >
+      <figcaption class='res-figcaption'>
+          Fill '200x200'<br>penguin-2104173_1920<br><a href='https://pixabay.com' target='_blank'>pixabay.com</a><br><a href='https://pixabay.com/en/service/terms/#usage' target='_blank'>Creative Commons CC0</a>
+      </figcaption>
+    </figure>
+<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml">resources<span class="p">:</span><span class="w">
+</span><span class="w">  </span>-<span class="w"> </span>src<span class="p">:</span><span class="w">           </span>img/pixabay/<span class="cp">*.jpg</span><span class="w">
+</span><span class="w">    </span>params<span class="p">:</span><span class="w">
+</span><span class="w">      </span>origin<span class="p">:</span><span class="w">      </span>pixabay.com<span class="w">
+</span><span class="w">      </span>license<span class="p">:</span><span class="w">     </span>Creative<span class="w"> </span>Commons<span class="w"> </span>CC0<span class="w"> 
+</span><span class="w">      </span>licenselink<span class="p">:</span><span class="w"> </span>https<span class="p">:</span>//pixabay.com/en/service/terms/<span class="c">#usage</span><span class="w">
+</span><span class="w">      </span>caption<span class="p">:</span><span class="w">     </span><span class="s2">&#34;%%I%%n%%B%%n%%O&#34;</span><span class="w">
+</span><span class="w">  </span>-<span class="w"> </span>src<span class="p">:</span><span class="w">           </span>img/pixabay/penguin-2104173_1920.jpg<span class="w">
+</span><span class="w">    </span>params<span class="p">:</span><span class="w">
+</span><span class="w">      </span>originlink<span class="p">:</span><span class="w">  </span>https<span class="p">:</span>//pixabay.com/en/penguin-rockhopper-penguin-zoo-<span class="m">2104173</span>/<span class="w">
+</span><span class="w">      </span>attrby<span class="p">:</span><span class="w">      </span>Michael<span class="w"> </span>Frankenstein<span class="w">
+</span><span class="w">      </span>attrlink<span class="p">:</span><span class="w">    </span>https<span class="p">:</span>//pixabay.com/en/users/frankenstein-<span class="m">2135887</span>/<span class="w">
+</span><span class="w">      </span>imgcmd<span class="p">:</span><span class="w">      </span>Resize<span class="w">
+</span><span class="w">      </span>imgopt<span class="p">:</span><span class="w">      </span>400x<span class="w">
+</span><span class="w">      </span></code></pre></div>
+<h4 id="parameters-1">Parameters&nbsp;<a class="anchor w3-small " href="#parameters-1"><i class="fas fa-anchor"></i></a> </h4>
+
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Position -1</th>
+<th>Default</th>
+<th>What</th>
+<th>Remark</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>path</td>
+<td>0</td>
+<td>&rdquo;.&rdquo;</td>
+<td>path to resource page</td>
+<td>use . for current page</td>
+</tr>
+
+<tr>
+<td>match</td>
+<td>1</td>
+<td>*</td>
+<td>images</td>
+<td>in page resource</td>
+</tr>
+
+<tr>
+<td>cmd</td>
+<td>2</td>
+<td>Resize</td>
+<td>command</td>
+<td>Fill, Fit or Resize</td>
+</tr>
+
+<tr>
+<td>opt</td>
+<td>3</td>
+<td>300x</td>
+<td>options</td>
+<td>command options</td>
+</tr>
+
+<tr>
+<td>cap</td>
+<td>4</td>
+<td>%%N</td>
+<td>caption format</td>
+<td>see below</td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="caption-format">Caption format&nbsp;<a class="anchor w3-small " href="#caption-format"><i class="fas fa-anchor"></i></a> </h4>
+
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>What</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>%%n</td>
+<td>newline</td>
+</tr>
+
+<tr>
+<td>%%f</td>
+<td>.Name</td>
+</tr>
+
+<tr>
+<td>%%F</td>
+<td>Filename</td>
+</tr>
+
+<tr>
+<td>%%B</td>
+<td>Basename</td>
+</tr>
+
+<tr>
+<td>%%T</td>
+<td>.Title</td>
+</tr>
+
+<tr>
+<td>%%N</td>
+<td>.Title or Basename</td>
+</tr>
+
+<tr>
+<td>%%L</td>
+<td>license</td>
+</tr>
+
+<tr>
+<td>%%O</td>
+<td>origin</td>
+</tr>
+
+<tr>
+<td>%%A</td>
+<td>attr</td>
+</tr>
+
+<tr>
+<td>%%I</td>
+<td>image info</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="res-gallery">res-gallery&nbsp;<a class="anchor w3-small " href="#res-gallery"><i class="fas fa-anchor"></i></a> </h3>
+
+<ul>
+<li>inspired by <a href="https://www.liwen.id.au/heg/" target="_blank">Hugo Easy Gallery</a></li>
+<li>uses page resources and image processing</li>
+</ul>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolan" data-lang="nolan">{{&lt; res-gallery-load-photoswipe &gt;}}
+{{&lt; res-gallery match=&#34;teaserpics/gohugo.io/*&#34; &gt;}} </code></pre></div>
+
+<p>renders as</p>
+
+<p>
+<script src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/vendor/jquery/jquery-3.3.1.slim.min.js'></script>
+<script src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/js/res-gallery-load-photoswipe.js'></script>
+<link rel="stylesheet" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/vendor/photoswipe/photoswipe.css' />
+<link rel="stylesheet" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/vendor/photoswipe/default-skin/default-skin.css' />
+<script src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/vendor/photoswipe/photoswipe.min.js'>      </script>
+<script src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/vendor/photoswipe/photoswipe-ui-theme.js'> </script>
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="pswp__bg"></div>
+<div class="pswp__scroll-wrap">
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+    <div class='res-gallery caption-position-center caption-effect-appear hover-effect-zoom hover-transition' itemscope itemtype="http://schema.org/ImageGallery">
+
+    <div class='res-gallery-box '
+         
+         style="width:120px; height:120px;"
+         itemscope itemtype="http://schema.org/ImageGallery" >
+      <figure class="img"
+              data-size='800x450'
+              data-caption='Golang a closer look&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+              itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
+              title="teaserpics/gohugo.io/golang-a-closer-look.png"
+      >
+        <a itemprop="contentUrl" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/golang-a-closer-look_hu3e2936e23f25753c1c25ae767165a55e_42013_800x0_resize_box_2.png' >
+          <img itemprop="thumbnail"
+               src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/golang-a-closer-look_hu3e2936e23f25753c1c25ae767165a55e_42013_120x120_fit_box_2.png'
+               alt='Golang a closer look&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+               width='120'  height='67'
+          />
+        </a>
+        <meta itemprop="width"  content='800'>
+        <meta itemprop="height" content='450'>
+        <figcaption class="res-gallery-figcaption " itemprop="caption description" >
+          <small>github.com/gohugoio<br/><a href='https://github.com/gohugoio/hugo/blob/master/LICENSE' target='_blank'>Apache-2.0</a></small>
+        </figcaption>
+      </figure>
+    </div> 
+
+    <div class='res-gallery-box '
+         
+         style="width:120px; height:120px;"
+         itemscope itemtype="http://schema.org/ImageGallery" >
+      <figure class="img"
+              data-size='800x400'
+              data-caption='Hugo dolor&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+              itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
+              title="teaserpics/gohugo.io/hugo-dolor.png"
+      >
+        <a itemprop="contentUrl" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_800x0_resize_box_2.png' >
+          <img itemprop="thumbnail"
+               src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_120x120_fit_box_2.png'
+               alt='Hugo dolor&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+               width='120'  height='60'
+          />
+        </a>
+        <meta itemprop="width"  content='800'>
+        <meta itemprop="height" content='400'>
+        <figcaption class="res-gallery-figcaption " itemprop="caption description" >
+          <small>github.com/gohugoio<br/><a href='https://github.com/gohugoio/hugo/blob/master/LICENSE' target='_blank'>Apache-2.0</a></small>
+        </figcaption>
+      </figure>
+    </div> 
+
+    <div class='res-gallery-box '
+         
+         style="width:120px; height:120px;"
+         itemscope itemtype="http://schema.org/ImageGallery" >
+      <figure class="img"
+              data-size='800x400'
+              data-caption='Hugo ipsum&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+              itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
+              title="teaserpics/gohugo.io/hugo-ipsum.png"
+      >
+        <a itemprop="contentUrl" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-ipsum_hu4bb3d9e9bcf5cb42154f6d8c89189ff3_242267_800x0_resize_box_2.png' >
+          <img itemprop="thumbnail"
+               src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-ipsum_hu4bb3d9e9bcf5cb42154f6d8c89189ff3_242267_120x120_fit_box_2.png'
+               alt='Hugo ipsum&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+               width='120'  height='60'
+          />
+        </a>
+        <meta itemprop="width"  content='800'>
+        <meta itemprop="height" content='400'>
+        <figcaption class="res-gallery-figcaption " itemprop="caption description" >
+          <small>github.com/gohugoio<br/><a href='https://github.com/gohugoio/hugo/blob/master/LICENSE' target='_blank'>Apache-2.0</a></small>
+        </figcaption>
+      </figure>
+    </div> 
+
+    <div class='res-gallery-box '
+         
+         style="width:120px; height:120px;"
+         itemscope itemtype="http://schema.org/ImageGallery" >
+      <figure class="img"
+              data-size='800x800'
+              data-caption='Hugo lorem&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+              itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
+              title="teaserpics/gohugo.io/hugo-lorem.png"
+      >
+        <a itemprop="contentUrl" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-lorem_hu77f397ba1b7f0f571a34fad927893059_94449_800x0_resize_box_2.png' >
+          <img itemprop="thumbnail"
+               src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/resources/images/teaserpics/gohugo.io/hugo-lorem_hu77f397ba1b7f0f571a34fad927893059_94449_120x120_fit_box_2.png'
+               alt='Hugo lorem&lt;br/&gt;&lt;br/&gt;&lt;a href=&#39;https://github.com/gohugoio/hugo/blob/master/LICENSE&#39; target=&#39;_blank&#39;&gt;Apache License 2.0&lt;/a&gt;&lt;br/&gt;github.com/gohugoio'
+               width='120'  height='120'
+          />
+        </a>
+        <meta itemprop="width"  content='800'>
+        <meta itemprop="height" content='800'>
+        <figcaption class="res-gallery-figcaption " itemprop="caption description" >
+          <small>github.com/gohugoio<br/><a href='https://github.com/gohugoio/hugo/blob/master/LICENSE' target='_blank'>Apache-2.0</a></small>
+        </figcaption>
+      </figure>
+    </div>   
+
+</div>
+
+<h4 id="parameters-2">Parameters&nbsp;<a class="anchor w3-small " href="#parameters-2"><i class="fas fa-anchor"></i></a> </h4>
+
+<ul>
+<li>only named parameters</li>
+</ul>
+
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Default</th>
+<th>What</th>
+<th>Remark</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>path</td>
+<td>resources/images</td>
+<td>path to resource page</td>
+<td>use . for current</td>
+</tr>
+
+<tr>
+<td>match</td>
+<td>**/*</td>
+<td>for .Match</td>
+<td></td>
+</tr>
+
+<tr>
+<td>imgCmd</td>
+<td>Resize</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>imgOpt</td>
+<td>800x</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>thumbCmd</td>
+<td>Fit</td>
+<td>create thumb</td>
+<td></td>
+</tr>
+
+<tr>
+<td>thumbOpt</td>
+<td>120x120</td>
+<td>thumb size</td>
+<td></td>
+</tr>
+
+<tr>
+<td>capLng</td>
+<td><code>%%F</code></td>
+<td>image caption</td>
+<td></td>
+</tr>
+
+<tr>
+<td>capSrt</td>
+<td><code>%%N</code></td>
+<td>thumb caption</td>
+<td></td>
+</tr>
+
+<tr>
+<td>caption-position</td>
+<td>center</td>
+<td></td>
+<td>none top center bottom  (none =&gt; hide for thumbs)</td>
+</tr>
+
+<tr>
+<td>caption-effect</td>
+<td>appear</td>
+<td></td>
+<td>none fade appear slide  (none =&gt; always visible)</td>
+</tr>
+
+<tr>
+<td>hover-effect</td>
+<td>zoom</td>
+<td></td>
+<td>none grow shrink slidedown slideup zoom</td>
+</tr>
+
+<tr>
+<td>hover-transition</td>
+<td></td>
+<td></td>
+<td>(empty or) none  (none =&gt; hard transition)</td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="page-resources-metadata">Page Resources Metadata&nbsp;<a class="anchor w3-small " href="#page-resources-metadata"><i class="fas fa-anchor"></i></a> </h4>
+
+<table>
+<thead>
+<tr>
+<th>Front Matter Param</th>
+<th>What</th>
+<th>Remark</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Title</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>attrBy</td>
+<td>attribution names</td>
+<td></td>
+</tr>
+
+<tr>
+<td>attrLink</td>
+<td>attribution link</td>
+<td></td>
+</tr>
+
+<tr>
+<td>caption</td>
+<td>see below</td>
+<td></td>
+</tr>
+
+<tr>
+<td>captionLong</td>
+<td>same as caption</td>
+<td>caption for image</td>
+</tr>
+
+<tr>
+<td>captionShort</td>
+<td></td>
+<td>caption for thumb</td>
+</tr>
+
+<tr>
+<td>imgCmd</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>imgOpt</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>license</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>licenseAbrv</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>licenseLink</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>licenseLink</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>origin</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>originLink</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>thumbCmd</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>thumbOpt</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="w">  </span>-<span class="w"> </span>src<span class="p">:</span><span class="w">           </span><span class="s2">&#34;**/pixabay.com/*&#34;</span><span class="w">
+</span><span class="w">    </span>params<span class="p">:</span><span class="w">          
+</span><span class="w">      </span>origin<span class="p">:</span><span class="w">       </span>pixabay.com<span class="w">
+</span><span class="w">      </span>license<span class="p">:</span><span class="w">      </span>Creative<span class="w"> </span>Commons<span class="w"> </span>CC0<span class="w">
+</span><span class="w">      </span>licenseAbrv<span class="p">:</span><span class="w">  </span>CC0<span class="w"> </span><span class="m">1.0</span><span class="w">
+</span><span class="w">      </span>licenseLink<span class="p">:</span><span class="w">  </span>https<span class="p">:</span>//pixabay.com/en/service/terms/<span class="w">
+</span><span class="w">      </span>caption<span class="p">:</span><span class="w">      </span><span class="s2">&#34;%%N%%n%%A%%n%%L%%n%%O&#34;</span><span class="w">
+</span><span class="w">      </span>captionShort<span class="p">:</span><span class="w"> </span><span class="s2">&#34;%%O%%n%%l&#34;</span></code></pre></div>
+<h4 id="caption-format-1">Caption format&nbsp;<a class="anchor w3-small " href="#caption-format-1"><i class="fas fa-anchor"></i></a> </h4>
+
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>What</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>%%n</td>
+<td>newline</td>
+</tr>
+
+<tr>
+<td>%%f</td>
+<td>.Name</td>
+</tr>
+
+<tr>
+<td>%%F</td>
+<td>Filename</td>
+</tr>
+
+<tr>
+<td>%%B</td>
+<td>Basename</td>
+</tr>
+
+<tr>
+<td>%%T</td>
+<td>.Title</td>
+</tr>
+
+<tr>
+<td>%%N</td>
+<td>.Title or Basename</td>
+</tr>
+
+<tr>
+<td>%%l</td>
+<td>license (using licenseabrv)</td>
+</tr>
+
+<tr>
+<td>%%L</td>
+<td>license</td>
+</tr>
+
+<tr>
+<td>%%O</td>
+<td>origin</td>
+</tr>
+
+<tr>
+<td>%%A</td>
+<td>attr</td>
+</tr>
+
+<tr>
+<td>%%I</td>
+<td>image info</td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="style-5">Style&nbsp;<a class="anchor w3-small " href="#style-5"><i class="fas fa-anchor"></i></a> </h4>
+
+<ul>
+<li>See <code>static/css/res-gallery.css</code></li>
+</ul>
+
+<h2 id="heg-gallery">heg-gallery&nbsp;<a class="anchor w3-small " href="#heg-gallery"><i class="fas fa-anchor"></i></a> </h2>
+
+<ul>
+<li>kind of obsoleted by <a href="#res-gallery">res-gallery</a></li>
+<li>taken from<br />
+<a href="https://github.com/liwenyip/hugo-easy-gallery/" target="_blank">https://github.com/liwenyip/hugo-easy-gallery/</a><br />
+<a href="https://www.liwen.id.au/heg/" target="_blank">https://www.liwen.id.au/heg/</a><br /></li>
+</ul>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolan" data-lang="nolan">{{&lt; heg-load-photoswipe &gt;}}
+{{&lt; heg-gallery dir=&#34;/images/teaserpics/gohugo.io&#34;   caption-effect=&#34;none&#34; hover-effect=&#34;grow&#34; /&gt;}} </code></pre></div>
+
+<p>renders as</p>
+
+
+
+
+<link rel="stylesheet" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css' />
+<div class='gallery caption-position-bottom caption-effect-none hover-effect-grow hover-transition' itemscope itemtype="http://schema.org/ImageGallery">
+        <div class="box">
+          <figure itemscope itemtype="http://schema.org/ImageObject">
+            <div class="img" style="background-image: url('https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/teaserpics/gohugo.io/golang-a-closer-look-thumb.png');" >
+              <a itemprop="associatedMedia" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/teaserpics/gohugo.io/golang-a-closer-look.png' >
+                <img src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/teaserpics/gohugo.io/golang-a-closer-look-thumb.png' alt='golang-a-closer-look.png' />
+              </a>
+            </div>
+            <figcaption>
+              <p>golang-a-closer-look.png</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="box">
+          <figure itemscope itemtype="http://schema.org/ImageObject">
+            <div class="img" style="background-image: url('https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/teaserpics/gohugo.io/hugo-dolor-thumb.png');" >
+              <a itemprop="associatedMedia" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/teaserpics/gohugo.io/hugo-dolor.png' >
+                <img src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/teaserpics/gohugo.io/hugo-dolor-thumb.png' alt='hugo-dolor.png' />
+              </a>
+            </div>
+            <figcaption>
+              <p>hugo-dolor.png</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="box">
+          <figure itemscope itemtype="http://schema.org/ImageObject">
+            <div class="img" style="background-image: url('https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/teaserpics/gohugo.io/hugo-ipsum-thumb.png');" >
+              <a itemprop="associatedMedia" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/teaserpics/gohugo.io/hugo-ipsum.png' >
+                <img src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/teaserpics/gohugo.io/hugo-ipsum-thumb.png' alt='hugo-ipsum.png' />
+              </a>
+            </div>
+            <figcaption>
+              <p>hugo-ipsum.png</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="box">
+          <figure itemscope itemtype="http://schema.org/ImageObject">
+            <div class="img" style="background-image: url('https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/teaserpics/gohugo.io/hugo-lorem-thumb.png');" >
+              <a itemprop="associatedMedia" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/teaserpics/gohugo.io/hugo-lorem.png' >
+                <img src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/teaserpics/gohugo.io/hugo-lorem-thumb.png' alt='hugo-lorem.png' />
+              </a>
+            </div>
+            <figcaption>
+              <p>hugo-lorem.png</p>
+            </figcaption>
+          </figure>
+        </div>
+</div>
+
+
+<h3 id="style-6">Style&nbsp;<a class="anchor w3-small " href="#style-6"><i class="fas fa-anchor"></i></a> </h3>
+
+<p>Defined in:</p>
+<div class="highlight"><pre class="chroma">static/css/w3css-basic.css</pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="c">/* -------------------------------------------------- */</span>
+<span class="c">/* hugo-easy-gallery */</span>
+<span class="p">.</span><span class="nc">gallery</span> <span class="nt">figcaption</span><span class="o">,</span> 
+<span class="p">.</span><span class="nc">fancy-figure</span> <span class="nt">figcaption</span> <span class="p">{</span>
+  <span class="k">background</span><span class="p">:</span> <span class="mh">#000</span><span class="p">;</span>
+  <span class="k">color</span><span class="p">:</span> <span class="mh">#FFF</span><span class="p">;</span>
+  <span class="k">font-size</span><span class="p">:</span> <span class="mi">85</span><span class="kt">%</span><span class="p">;</span> 
+  <span class="k">background</span><span class="p">:</span> <span class="nb">rgba</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">);</span>
+  <span class="k">opacity</span><span class="p">:</span> <span class="mf">0.9</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="p">.</span><span class="nc">gallery</span> <span class="p">.</span><span class="nc">box</span> <span class="nt">figure</span> <span class="p">{</span>
+  <span class="k">float</span><span class="p">:</span> <span class="kc">left</span><span class="p">;</span>
+  <span class="k">margin</span><span class="p">:</span> <span class="mi">1</span><span class="kt">em</span> <span class="mi">4</span><span class="kt">px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="p">.</span><span class="nc">gallery</span> <span class="p">{</span>
+  <span class="k">margin</span><span class="p">:</span> <span class="mi">10</span><span class="kt">px</span><span class="p">;</span>
+  <span class="k">max-width</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="p">.</span><span class="nc">gallery</span> <span class="p">.</span><span class="nc">box</span> <span class="p">{</span>
+  <span class="k">float</span><span class="p">:</span> <span class="kc">left</span><span class="p">;</span>
+  <span class="k">position</span><span class="p">:</span> <span class="kc">relative</span><span class="p">;</span>
+  <span class="k">width</span><span class="p">:</span> <span class="mi">100</span><span class="kt">%</span><span class="p">;</span>
+  <span class="k">padding-bottom</span><span class="p">:</span> <span class="mi">100</span><span class="kt">%</span><span class="p">;</span> 
+<span class="p">}</span>
+
+<span class="p">@</span><span class="k">media</span> <span class="nt">only</span> <span class="nt">screen</span> <span class="nt">and</span> <span class="o">(</span><span class="nt">min-width</span> <span class="o">:</span> <span class="nt">365px</span><span class="o">)</span> <span class="p">{</span>
+  <span class="p">.</span><span class="nc">gallery</span> <span class="p">.</span><span class="nc">box</span> <span class="p">{</span>
+    <span class="k">width</span><span class="p">:</span> <span class="mi">50</span><span class="kt">%</span><span class="p">;</span>
+    <span class="k">padding-bottom</span><span class="p">:</span> <span class="mi">50</span><span class="kt">%</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="p">@</span><span class="k">media</span> <span class="nt">only</span> <span class="nt">screen</span> <span class="nt">and</span> <span class="o">(</span><span class="nt">min-width</span> <span class="o">:</span> <span class="nt">480px</span><span class="o">)</span> <span class="p">{</span>
+  <span class="p">.</span><span class="nc">gallery</span> <span class="p">.</span><span class="nc">box</span> <span class="p">{</span>
+    <span class="k">width</span><span class="p">:</span> <span class="mf">33.3</span><span class="kt">%</span><span class="p">;</span>
+    <span class="k">padding-bottom</span><span class="p">:</span> <span class="mf">33.3</span><span class="kt">%</span><span class="p">;</span> 
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="p">@</span><span class="k">media</span> <span class="nt">only</span> <span class="nt">screen</span> <span class="nt">and</span> <span class="o">(</span><span class="nt">min-width</span> <span class="o">:</span> <span class="nt">760px</span><span class="o">)</span> <span class="p">{</span>
+  <span class="p">.</span><span class="nc">gallery</span> <span class="p">.</span><span class="nc">box</span> <span class="p">{</span>
+    <span class="k">width</span><span class="p">:</span> <span class="mi">25</span><span class="kt">%</span><span class="p">;</span>
+    <span class="k">padding-bottom</span><span class="p">:</span> <span class="mi">25</span><span class="kt">%</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="p">@</span><span class="k">media</span> <span class="nt">only</span> <span class="nt">screen</span> <span class="nt">and</span> <span class="o">(</span><span class="nt">min-width</span> <span class="o">:</span> <span class="nt">1024px</span><span class="o">)</span> <span class="p">{</span>
+  <span class="p">.</span><span class="nc">gallery</span> <span class="p">.</span><span class="nc">box</span> <span class="p">{</span>
+    <span class="k">width</span><span class="p">:</span> <span class="mi">20</span><span class="kt">%</span><span class="p">;</span>
+    <span class="k">padding-bottom</span><span class="p">:</span> <span class="mi">20</span><span class="kt">%</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="p">@</span><span class="k">media</span> <span class="nt">only</span> <span class="nt">screen</span> <span class="nt">and</span> <span class="o">(</span><span class="nt">min-width</span> <span class="o">:</span> <span class="nt">1280px</span><span class="o">)</span> <span class="p">{</span>
+  <span class="p">.</span><span class="nc">gallery</span> <span class="p">.</span><span class="nc">box</span> <span class="p">{</span>
+    <span class="k">width</span><span class="p">:</span> <span class="mi">16</span><span class="kt">%</span><span class="p">;</span>
+    <span class="k">padding-bottom</span><span class="p">:</span> <span class="mi">16</span><span class="kt">%</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="p">}</span></code></pre></div>
+
+<h2 id="heg-figure">heg-figure&nbsp;<a class="anchor w3-small " href="#heg-figure"><i class="fas fa-anchor"></i></a> </h2>
+
+<ul>
+<li>kind of obsoleted by <a href="#res-figure">res-figure</a></li>
+<li>See for original doc: <a href="https://www.liwen.id.au/heg/" target="_blank">https://www.liwen.id.au/heg/</a></li>
+<li>heg-figure improves the usage of <code>caption=&quot;&quot; title=&quot;&quot; attr=&quot;&quot; attrlink=&quot;&quot;</code></li>
+<li>for this demo I set caption-effect=<strong>&ldquo;none&rdquo;</strong></li>
+<li>Inspired by <a href="https://stackoverflow.com/questions/21483356/how-to-mark-the-copyright-of-an-image-in-html" target="_blank">https://stackoverflow.com/questions/21483356/how-to-mark-the-copyright-of-an-image-in-html</a></li>
+</ul>
+
+<h3 id="with-thumbs">with Thumbs&nbsp;<a class="anchor w3-small " href="#with-thumbs"><i class="fas fa-anchor"></i></a> </h3>
+
+<ul>
+<li>here the thumbs as just too small&hellip;</li>
+</ul>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolan" data-lang="nolan">{{&lt; heg-load-photoswipe &gt;}}
+{{&lt; heg-figure link=&#34;/images/photocards/pixabay.com/01-photocard.jpg&#34; thumb=&#34;-thumb&#34; caption-position=&#34;bottom&#34; caption-effect=&#34;none&#34; width=&#34;126px&#34; caption=&#34;figure caption 1&#34; title=&#34;bar 1&#34; &gt;}}
+{{&lt; heg-figure link=&#34;/images/photocards/pixabay.com/02-photocard.jpg&#34; thumb=&#34;-thumb&#34; caption-position=&#34;bottom&#34; caption-effect=&#34;none&#34; width=&#34;160px&#34; caption=&#34;figure caption 2&#34; &gt;}}
+{{&lt; heg-figure link=&#34;/images/photocards/pixabay.com/03-photocard.jpg&#34; thumb=&#34;-thumb&#34; caption-position=&#34;bottom&#34; caption-effect=&#34;none&#34; width=&#34;171px&#34; caption=&#34;figure caption 3&#34; attr=&#34;(c) by bar 3&#34; &gt;}}
+{{&lt; heg-figure link=&#34;/images/photocards/pixabay.com/04-photocard.jpg&#34; thumb=&#34;-thumb&#34; caption-position=&#34;bottom&#34; caption-effect=&#34;none&#34; width=&#34;135px&#34; caption=&#34;figure caption 4&#34; attr=&#34;(c) by bar 4&#34; attrlink=&#34;https://www.example.com&#34; &gt;}}
+{{&lt; heg-figure link=&#34;/images/photocards/pixabay.com/05-photocard.png&#34; thumb=&#34;-thumb&#34; caption-position=&#34;bottom&#34; caption-effect=&#34;none&#34; width=&#34;145px&#34;                    attr=&#34;(c) by bar 5&#34; &gt;}}
+{{&lt; heg-figure link=&#34;/images/photocards/pixabay.com/06-photocard.jpg&#34; thumb=&#34;-thumb&#34; caption-position=&#34;bottom&#34; caption-effect=&#34;none&#34; width=&#34;135px&#34;                    attr=&#34;(c) by bar 6&#34; attrlink=&#34;https://www.example.com&#34; &gt;}}
+{{&lt; heg-figure link=&#34;/images/photocards/pixabay.com/07-photocard.jpg&#34; thumb=&#34;-thumb&#34; caption-position=&#34;bottom&#34; caption-effect=&#34;none&#34; width=&#34;160px&#34;                                        attrlink=&#34;https://www.example.com&#34; &gt;}}
+{{&lt; heg-figure link=&#34;/images/photocards/pixabay.com/08-photocard.jpg&#34; thumb=&#34;-thumb&#34; caption-position=&#34;bottom&#34; caption-effect=&#34;none&#34; width=&#34;135px&#34; caption=&#34;figure caption 8&#34;             attrlink=&#34;https://www.example.com&#34; &gt;}}</code></pre></div>
+
+<p>renders as</p>
+
+
+
+<div class='box fancy-figure caption-position-bottom caption-effect-none' style='max-width:126px'>
+  <figure  itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="associatedMedia" src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/photocards/pixabay.com/01-photocard-thumb.jpg' alt='figure caption 1'/>
+    </div>
+    <a itemprop="associatedMedia" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/photocards/pixabay.com/01-photocard.jpg' ></a>
+      <figcaption><h4>bar 1</h4><p>figure caption 1</p>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+
+<div class='box fancy-figure caption-position-bottom caption-effect-none' style='max-width:160px'>
+  <figure  itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="associatedMedia" src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/photocards/pixabay.com/02-photocard-thumb.jpg' alt='figure caption 2'/>
+    </div>
+    <a itemprop="associatedMedia" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/photocards/pixabay.com/02-photocard.jpg' ></a>
+      <figcaption><p>figure caption 2</p>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+
+<div class='box fancy-figure caption-position-bottom caption-effect-none' style='max-width:171px'>
+  <figure  itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="associatedMedia" src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/photocards/pixabay.com/03-photocard-thumb.jpg' alt='figure caption 3'/>
+    </div>
+    <a itemprop="associatedMedia" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/photocards/pixabay.com/03-photocard.jpg' ></a>
+      <figcaption><p>figure caption 3</p>
+        <footer><small>(c) by bar 3</small></footer>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+
+<div class='box fancy-figure caption-position-bottom caption-effect-none' style='max-width:135px'>
+  <figure  itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="associatedMedia" src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/photocards/pixabay.com/04-photocard-thumb.jpg' alt='figure caption 4'/>
+    </div>
+    <a itemprop="associatedMedia" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/photocards/pixabay.com/04-photocard.jpg' ></a>
+      <figcaption><p>figure caption 4</p>
+        <footer><small><a href='https://www.example.com'>(c) by bar 4</a></small></footer>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+
+<div class='box fancy-figure caption-position-bottom caption-effect-none' style='max-width:145px'>
+  <figure  itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="associatedMedia" src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/photocards/pixabay.com/05-photocard-thumb.png' />
+    </div>
+    <a itemprop="associatedMedia" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/photocards/pixabay.com/05-photocard.png' ></a>
+      <figcaption>
+        <footer><small>(c) by bar 5</small></footer>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+
+<div class='box fancy-figure caption-position-bottom caption-effect-none' style='max-width:135px'>
+  <figure  itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="associatedMedia" src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/photocards/pixabay.com/06-photocard-thumb.jpg' />
+    </div>
+    <a itemprop="associatedMedia" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/photocards/pixabay.com/06-photocard.jpg' ></a>
+      <figcaption>
+        <footer><small><a href='https://www.example.com'>(c) by bar 6</a></small></footer>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+
+<div class='box fancy-figure caption-position-bottom caption-effect-none' style='max-width:160px'>
+  <figure  itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="associatedMedia" src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/photocards/pixabay.com/07-photocard-thumb.jpg' />
+    </div>
+    <a itemprop="associatedMedia" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/photocards/pixabay.com/07-photocard.jpg' ></a>
+      <figcaption>
+        <footer><small><a href='https://www.example.com'>https://www.example.com</a></small></footer>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+
+<div class='box fancy-figure caption-position-bottom caption-effect-none' style='max-width:135px'>
+  <figure  itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="associatedMedia" src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/photocards/pixabay.com/08-photocard-thumb.jpg' alt='figure caption 8'/>
+    </div>
+    <a itemprop="associatedMedia" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/photocards/pixabay.com/08-photocard.jpg' ></a>
+      <figcaption><p>figure caption 8</p>
+        <footer><small><a href='https://www.example.com'>https://www.example.com</a></small></footer>
+      </figcaption>
+  </figure>
+</div>
+
+
+<h3 id="without-thumbs">without Thumbs&nbsp;<a class="anchor w3-small " href="#without-thumbs"><i class="fas fa-anchor"></i></a> </h3>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolan" data-lang="nolan">{{&lt; heg-load-photoswipe &gt;}}
+{{&lt; heg-figure link=&#34;/images/photocards/pixabay.com/01-photocard.jpg&#34; caption-position=&#34;bottom&#34; caption-effect=&#34;none&#34; width=&#34;640px&#34; caption=&#34;figure caption 1&#34; title=&#34;bar 1&#34; &gt;}}
+{{&lt; heg-figure link=&#34;/images/photocards/pixabay.com/02-photocard.jpg&#34; caption-position=&#34;bottom&#34; caption-effect=&#34;none&#34; width=&#34;640px&#34; caption=&#34;figure caption 2&#34; &gt;}}
+{{&lt; heg-figure link=&#34;/images/photocards/pixabay.com/03-photocard.jpg&#34; caption-position=&#34;bottom&#34; caption-effect=&#34;none&#34; width=&#34;640px&#34; caption=&#34;figure caption 3&#34; attr=&#34;(c) by bar 3&#34; &gt;}}
+{{&lt; heg-figure link=&#34;/images/photocards/pixabay.com/04-photocard.jpg&#34; caption-position=&#34;bottom&#34; caption-effect=&#34;none&#34; width=&#34;640px&#34; caption=&#34;figure caption 4&#34; attr=&#34;(c) by bar 4&#34; attrlink=&#34;https://www.example.com&#34; &gt;}}
+{{&lt; heg-figure link=&#34;/images/photocards/pixabay.com/05-photocard.png&#34; caption-position=&#34;bottom&#34; caption-effect=&#34;none&#34; width=&#34;640px&#34;                    attr=&#34;(c) by bar 5&#34; &gt;}}
+{{&lt; heg-figure link=&#34;/images/photocards/pixabay.com/06-photocard.jpg&#34; caption-position=&#34;bottom&#34; caption-effect=&#34;none&#34; width=&#34;640px&#34;                    attr=&#34;(c) by bar 6&#34; attrlink=&#34;https://www.example.com&#34; &gt;}}
+{{&lt; heg-figure link=&#34;/images/photocards/pixabay.com/07-photocard.jpg&#34; caption-position=&#34;bottom&#34; caption-effect=&#34;none&#34; width=&#34;640px&#34;                                        attrlink=&#34;https://www.example.com&#34; &gt;}}
+{{&lt; heg-figure link=&#34;/images/photocards/pixabay.com/08-photocard.jpg&#34; caption-position=&#34;bottom&#34; caption-effect=&#34;none&#34; width=&#34;640px&#34; caption=&#34;figure caption 8&#34;             attrlink=&#34;https://www.example.com&#34; &gt;}}
+{{&lt; heg-figure link=&#34;/images/photocards/pixabay.com/09-photocard.jpg&#34; caption-position=&#34;bottom&#34; caption-effect=&#34;none&#34; width=&#34;640px&#34; caption=&#34;figure caption 9&#34; title=&#34;bar 9&#34; attr=&#34;(c) by bar 9&#34; attrlink=&#34;https://www.example.com&#34; &gt;}}</code></pre></div>
+
+<p>renders as</p>
+
+
+
+<div class='box fancy-figure caption-position-bottom caption-effect-none' style='max-width:640px'>
+  <figure  itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="associatedMedia" src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/photocards/pixabay.com/01-photocard.jpg' alt='figure caption 1'/>
+    </div>
+    <a itemprop="associatedMedia" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/photocards/pixabay.com/01-photocard.jpg' ></a>
+      <figcaption><h4>bar 1</h4><p>figure caption 1</p>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+
+<div class='box fancy-figure caption-position-bottom caption-effect-none' style='max-width:640px'>
+  <figure  itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="associatedMedia" src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/photocards/pixabay.com/02-photocard.jpg' alt='figure caption 2'/>
+    </div>
+    <a itemprop="associatedMedia" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/photocards/pixabay.com/02-photocard.jpg' ></a>
+      <figcaption><p>figure caption 2</p>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+
+<div class='box fancy-figure caption-position-bottom caption-effect-none' style='max-width:640px'>
+  <figure  itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="associatedMedia" src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/photocards/pixabay.com/03-photocard.jpg' alt='figure caption 3'/>
+    </div>
+    <a itemprop="associatedMedia" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/photocards/pixabay.com/03-photocard.jpg' ></a>
+      <figcaption><p>figure caption 3</p>
+        <footer><small>(c) by bar 3</small></footer>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+
+<div class='box fancy-figure caption-position-bottom caption-effect-none' style='max-width:640px'>
+  <figure  itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="associatedMedia" src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/photocards/pixabay.com/04-photocard.jpg' alt='figure caption 4'/>
+    </div>
+    <a itemprop="associatedMedia" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/photocards/pixabay.com/04-photocard.jpg' ></a>
+      <figcaption><p>figure caption 4</p>
+        <footer><small><a href='https://www.example.com'>(c) by bar 4</a></small></footer>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+
+<div class='box fancy-figure caption-position-bottom caption-effect-none' style='max-width:640px'>
+  <figure  itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="associatedMedia" src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/photocards/pixabay.com/05-photocard.png' />
+    </div>
+    <a itemprop="associatedMedia" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/photocards/pixabay.com/05-photocard.png' ></a>
+      <figcaption>
+        <footer><small>(c) by bar 5</small></footer>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+
+<div class='box fancy-figure caption-position-bottom caption-effect-none' style='max-width:640px'>
+  <figure  itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="associatedMedia" src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/photocards/pixabay.com/06-photocard.jpg' />
+    </div>
+    <a itemprop="associatedMedia" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/photocards/pixabay.com/06-photocard.jpg' ></a>
+      <figcaption>
+        <footer><small><a href='https://www.example.com'>(c) by bar 6</a></small></footer>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+
+<div class='box fancy-figure caption-position-bottom caption-effect-none' style='max-width:640px'>
+  <figure  itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="associatedMedia" src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/photocards/pixabay.com/07-photocard.jpg' />
+    </div>
+    <a itemprop="associatedMedia" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/photocards/pixabay.com/07-photocard.jpg' ></a>
+      <figcaption>
+        <footer><small><a href='https://www.example.com'>https://www.example.com</a></small></footer>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+
+<div class='box fancy-figure caption-position-bottom caption-effect-none' style='max-width:640px'>
+  <figure  itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="associatedMedia" src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/photocards/pixabay.com/08-photocard.jpg' alt='figure caption 8'/>
+    </div>
+    <a itemprop="associatedMedia" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/photocards/pixabay.com/08-photocard.jpg' ></a>
+      <figcaption><p>figure caption 8</p>
+        <footer><small><a href='https://www.example.com'>https://www.example.com</a></small></footer>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+
+<div class='box fancy-figure caption-position-bottom caption-effect-none' style='max-width:640px'>
+  <figure  itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="associatedMedia" src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/photocards/pixabay.com/09-photocard.jpg' alt='figure caption 9'/>
+    </div>
+    <a itemprop="associatedMedia" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/images/photocards/pixabay.com/09-photocard.jpg' ></a>
+      <figcaption><h4>bar 9</h4><p>figure caption 9</p>
+        <footer><small><a href='https://www.example.com'>(c) by bar 9</a></small></footer>
+      </figcaption>
+  </figure>
+</div>
+
+
+<h2 id="i18n">i18n&nbsp;<a class="anchor w3-small " href="#i18n"><i class="fas fa-anchor"></i></a> </h2>
+
+<ul>
+<li>i18n lookup - if no translation found get argument back (default)</li>
+</ul>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{&lt; i18n &#34;termNotAvailable&#34; &gt;}}
+{{&lt; i18n &#34;foobar&#34; &gt;}}</code></pre></div>
+
+<p>renders as</p>
+
+<p>empty
+
+foobar
+</p>
+
+<p>given:
+<pre class="w3-code notranslate">
+- id: termNotAvailable
+  translation: &#34;empty&#34;
+</pre>
+
+<p>in <span class="w3-codespan notranslate">i18n/en.yaml</span>
+</p>
+
+<h2 id="asciicast">asciicast&nbsp;<a class="anchor w3-small " href="#asciicast"><i class="fas fa-anchor"></i></a> </h2>
+
+<ul>
+<li>taken from <a href="https://github.com/gohugoio/hugo/tree/master/docs/layouts/shortcodes" target="_blank">https://github.com/gohugoio/hugo/tree/master/docs/layouts/shortcodes</a></li>
+<li>added no javascript fallback</li>
+</ul>
+
+
+<script type="text/javascript" src='https://asciinema.org/a/WJM2LEZQs8VRhNeuZ5NiGPp9I.js' id='asciicast-WJM2LEZQs8VRhNeuZ5NiGPp9I' data-rows="10" async></script>
+<noscript> <!-- i18n "JsNeeded"  --> 
+  <p>JavaScript needed for this (asciinema)</p>
+  <a href='https://asciinema.org/a/WJM2LEZQs8VRhNeuZ5NiGPp9I'>https://asciinema.org/a/WJM2LEZQs8VRhNeuZ5NiGPp9I</a>
+</noscript>
+
+
+<h2 id="html-tag">html-tag&nbsp;<a class="anchor w3-small " href="#html-tag"><i class="fas fa-anchor"></i></a> </h2>
+
+<ul>
+<li>surround text with a html tag</li>
+</ul>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">We meet at {{&lt; html-tag time &gt;}}23:59{{&lt; /html-tag &gt;}}. Don&#39;t be late.</code></pre></div>
+
+<p>We meet at <time>23:59</time>
+. Don&rsquo;t be late.</p>
+
+<h2 id="html-tags">html-tags&nbsp;<a class="anchor w3-small " href="#html-tags"><i class="fas fa-anchor"></i></a> </h2>
+
+<ul>
+<li>surround text with nested html tags</li>
+</ul>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">We meet at {{&lt; html-tags sup time &gt;}}23:59{{&lt; /html-tags &gt;}}. Don&#39;t be late.</code></pre></div>
+
+<p>We meet at 
+  <sup>
+
+  <time>
+
+23:59
+
+  </time>
+
+  </sup>
+
+. Don&rsquo;t be late.</p>
+
+<h2 id="html-tag-classes">html-tag-classes&nbsp;<a class="anchor w3-small " href="#html-tag-classes"><i class="fas fa-anchor"></i></a> </h2>
+
+<ul>
+<li>surround text with a html tag including some classes</li>
+</ul>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">We meet at {{&lt; html-tag-classes time w3-xxxlarge w3-text-blue &gt;}}23:59{{&lt; /html-tag-classes &gt;}}. Don&#39;t be late.</code></pre></div>
+
+<p>We meet at <time class='w3-xxxlarge w3-text-blue '>23:59</time>
+. Don&rsquo;t be late.</p>
+
+<p>You can use the <code>colorAlert*</code> values (see <a href="#alert">alert</a> ) using:</p>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">We meet at {{&lt; html-tag-classes time w3-xxxlarge colorDanger &gt;}}23:59{{&lt; /html-tag-classes &gt;}}. Don&#39;t be late.</code></pre></div>
+
+<p>We meet at <time class='w3-xxxlarge w3-text-red '>23:59</time>
+. Don&rsquo;t be late.</p>
+
+<p>This works as well</p>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{% html-tag-classes div w3-container w3-card-4 w3-theme-d3 %}}
+## Hello
+World
+{{% /html-tag-classes %}}</code></pre></div>
+
+<div class='w3-container w3-card-4 w3-theme-d3 '><h2 id="hello">Hello&nbsp;<a class="anchor w3-small " href="#hello"><i class="fas fa-anchor"></i></a> </h2>
+
+<p>World</p>
+</div>
+
+
+<h2 id="classify">classify&nbsp;<a class="anchor w3-small " href="#classify"><i class="fas fa-anchor"></i></a> </h2>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{&lt; classify &#34;w3-blue&#34; &gt;}}
+foo | bar
+----|----
+ 24 | 42
+{{&lt; /classify &gt;}}</code></pre></div>
+
+    <div class="w3-blue"><table>
+<thead>
+<tr>
+<th>foo</th>
+<th>bar</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>24</td>
+<td>42</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">{{&lt; classify &#34;w3-green&#34; &#34;span&#34; &gt;}}
+**foo** bar   
+24 42
+{{&lt; /classify &gt;}}</code></pre></div>
+
+      <span class="w3-green"><strong>foo</strong> bar<br />
+24 42</span>
+
+
+<h2 id="kbd">kbd&nbsp;<a class="anchor w3-small " href="#kbd"><i class="fas fa-anchor"></i></a> </h2>
+
+<ul>
+<li>show keyboard sequences</li>
+</ul>
+
+<div class="highlight"><pre class="chroma"><code class="language-nolang" data-lang="nolang">Press {{&lt; kbd &#34;Ctrl+Shift+A&#34; &#34;5&#34; &gt;}} or {{&lt; kbd &#34;CTRL&#34; &#34;ALT&#34; &#34;DEL&#34; &gt;}}</code></pre></div>
+
+<p>Press 
+<kbd>Ctrl&#43;Shift&#43;A</kbd>
+<kbd>5</kbd>
+ or 
+<kbd>CTRL</kbd>
+<kbd>ALT</kbd>
+<kbd>DEL</kbd>
+</p>
+
+<h3 id="style-7">style&nbsp;<a class="anchor w3-small " href="#style-7"><i class="fas fa-anchor"></i></a> </h3>
+<div class="highlight"><pre class="chroma">static/css/w3css-basic.css</pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="nt">kbd</span> <span class="p">{</span>
+  <span class="k">font-size</span><span class="p">:</span> <span class="mf">0.8</span><span class="kt">em</span><span class="p">;</span>
+  <span class="k">background-color</span><span class="p">:</span> <span class="mh">#fff</span><span class="p">;</span>
+  <span class="k">padding</span><span class="p">:</span> <span class="mi">0</span><span class="kt">px</span> <span class="mi">1</span><span class="kt">px</span> <span class="mi">0</span><span class="kt">px</span> <span class="mi">1</span><span class="kt">px</span><span class="p">;;</span>
+  <span class="k">border-style</span><span class="p">:</span> <span class="kc">solid</span><span class="p">;</span>
+  <span class="k">border-width</span><span class="p">:</span> <span class="mi">1</span><span class="kt">px</span> <span class="mi">1</span><span class="kt">px</span> <span class="mi">1</span><span class="kt">px</span> <span class="mi">1</span><span class="kt">px</span><span class="p">;</span>
+  <span class="k">border-radius</span><span class="p">:</span> <span class="mi">4</span><span class="kt">px</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
+
+<h2 id="readfile">readfile&nbsp;<a class="anchor w3-small " href="#readfile"><i class="fas fa-anchor"></i></a> </h2>
+
+<ul>
+<li>inspired by <a href="https://github.com/gohugoio/hugo/blob/master/docs/layouts/shortcodes/readfile.html" target="_blank">https://github.com/gohugoio/hugo/blob/master/docs/layouts/shortcodes/readfile.html</a></li>
+<li>reads a file (or directory) and optionally renders ist using markdownify or highlight</li>
+</ul>
+
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Position -1</th>
+<th>Default</th>
+<th>What</th>
+<th>Remark</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>file</td>
+<td>0</td>
+<td>.</td>
+<td>a file (or dir)</td>
+<td>. or ending in /. =&gt; directory</td>
+</tr>
+
+<tr>
+<td>md</td>
+<td>1</td>
+<td></td>
+<td>markdownify</td>
+<td>if &ldquo;true&rdquo; =&gt; process using markdownify</td>
+</tr>
+
+<tr>
+<td>hll</td>
+<td>2</td>
+<td>md</td>
+<td>highlight lang</td>
+<td>see <a href="https://gohugo.io/content-management/syntax-highlighting/#list-of-chroma-highlighting-languages" target="_blank">list-of-chroma-highlighting-languages</a></td>
+</tr>
+</tbody>
+</table>
+
+<pre class="w3-code notranslate">
+{{&lt; readfile &#34;content/.&#34; &gt;}}
+</pre>
+
+
+<p>renders as:
+<pre class="w3-code notranslate">content/.
+-rw-rw-r-- 2018-08-25        141 .marquee.md
+Lrwxrwxrwx 2018-07-06         15 README.md
+drwxrwxr-x 2018-08-25            blog
+drwxrwxr-x 2018-05-03            contact
+drwxrwxr-x 2018-08-25            faq
+drwxrwxr-x 2018-05-08            pages
+drwxrwxr-x 2018-06-26            resources
+drwxrwxr-x 2018-05-03            search
+</pre>
+
+<pre class="w3-code notranslate">
+{{&lt; readfile &#34;pages/hugo-theme-w3css-basic/_index.md&#34; &#34;&#34; &#34;yaml&#34; &gt;}}
+</pre>
+
+
+<p>renders as:
+<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml">---<span class="w">
+</span><span class="w"></span>weight<span class="p">:</span><span class="w">      </span><span class="m">15</span><span class="w">
+</span><span class="w"></span>title<span class="p">:</span><span class="w">       </span><span class="s2">&#34;About this Theme&#34;</span><span class="w">
+</span><span class="w"></span>date<span class="p">:</span><span class="w">        </span><span class="s2">&#34;2017-11-22T07:42:26+01:00&#34;</span><span class="w">
+</span><span class="w"></span>icon<span class="p">:</span><span class="w">        </span><span class="s2">&#34;fas fa-info fa-fw&#34;</span><span class="w">
+</span><span class="w"></span>---<span class="w">
+</span><span class="w"></span></code></pre></div>
+
+<pre class="w3-code notranslate">
+{{&lt; readfile file=&#34;pages/hugo-theme-w3css-basic/_index.md&#34; hll=&#34;yaml&#34; &gt;}}
+</pre>
+
+
+<p>renders as:
+<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml">---<span class="w">
+</span><span class="w"></span>weight<span class="p">:</span><span class="w">      </span><span class="m">15</span><span class="w">
+</span><span class="w"></span>title<span class="p">:</span><span class="w">       </span><span class="s2">&#34;About this Theme&#34;</span><span class="w">
+</span><span class="w"></span>date<span class="p">:</span><span class="w">        </span><span class="s2">&#34;2017-11-22T07:42:26+01:00&#34;</span><span class="w">
+</span><span class="w"></span>icon<span class="p">:</span><span class="w">        </span><span class="s2">&#34;fas fa-info fa-fw&#34;</span><span class="w">
+</span><span class="w"></span>---<span class="w">
+</span><span class="w"></span></code></pre></div>
+
+<pre class="w3-code notranslate">
+{{&lt; readfile file=&#34;pages/showcase/video-03.md&#34; hll=&#34;md&#34; &gt;}}
+</pre>
+
+
+<p>renders as:
+<div class="highlight"><pre class="chroma"><code class="language-md" data-lang="md">---<span class="err">
+</span><span class="err"></span>title:              &#34;Hugo <span class="k">-</span> Static Site Generator&#34;<span class="err">
+</span><span class="err"></span>date:               2018-01-05T21:01:34+01:00<span class="err">
+</span><span class="err"></span>icon:               &#34;fab fa-youtube&#34;<span class="err">
+</span><span class="err"></span>resImgTeaser:  teaserpics/gohugo.io/hugo-dolor.png<span class="err">
+</span><span class="err"></span>teaserpicNotOnPage:<span class="err">
+</span><span class="err"></span>description: &#34;Giraffe Academy, Tutorial <span class="k">23.</span> <span class="ge">*(Demo page without tags or categories)*</span>&#34;<span class="err">
+</span><span class="err"></span>---<span class="err">
+</span><span class="err">
+</span><span class="err"></span>{{&lt; youtube 6U3emx29rKg &gt;}}<span class="err">
+</span><span class="err"></span>
+<span class="ge">*(here is no taxonomy bar since this page has no assigned tags or categories)*</span>
+</code></pre></div>
+
+<h1 id="experimental">Experimental&nbsp;<a class="anchor w3-small " href="#experimental"><i class="fas fa-anchor"></i></a> </h1>
+
+<h2 id="liti-list-by-title">liti: List by Title&nbsp;<a class="anchor w3-small " href="#liti-list-by-title"><i class="fas fa-anchor"></i></a> </h2>
+
+<p><a id="liti"></a></p>
+
+<ul>
+<li><strong>li</strong>st by <strong>Ti</strong>tle</li>
+<li>hugo has build in shortcodes <a href="https://gohugo.io/functions/ref" target="_blank">ref</a> and <a href="https://gohugo.io/functions/relref" target="_blank">relref</a>: <a href="https://gohugo.io/content-management/shortcodes/" target="_blank">https://gohugo.io/content-management/shortcodes/</a></li>
+<li>These shortcodes will look up the pages by their relative path
+(e.g., blog/post.md) or their logical name (post.md)</li>
+<li>I created a shortcode to get a list of pages by their <strong>Title</strong></li>
+<li>by default this list is not given as a <code>&lt;ul&gt;</code> list - just one or more links without newlines</li>
+<li>search can be done with <a href="https://gohugo.io/functions/eq" target="_blank">eq</a> (which
+is default) or <a href="https://gohugo.io/functions/in" target="_blank">in</a> (substring)</li>
+<li>the case is relevant by default. Use the modifier to ignore (mod=&ldquo;i&rdquo;)</li>
+</ul>
+
+<div class="highlight"><pre class="chroma"><code class="language-text" data-lang="text">Argument | Position -1 | Default | What             | Remark
+---------|-------------|---------|------------------|-------
+search   | 0           |         | string to search |
+op       | 1           | eq      | eq|in            | (Operator)
+mod      | 2           |         | i                | (Modifier) i:ignore case
+ul       | 3           |         |                  | if not empty: create unordered list
+type     | 4           | regular | regular|all      | regular:$.Site.RegularPages  all:$.Site.Pages)
+ofm      | 5           | .Title  |                  | (OutputFormat) .Kind .RelPermalink .Title</code></pre></div>
+
+<p>An easy and short usage would be:</p>
+
+
+<pre><code class="chroma notranslate"><span class='c'>
+See more here: {{&lt; liti &#34;Vestibulum&#34; &gt;}}
+</span></code></pre>
+
+
+<p>See more here:         
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/folder20/folder21/vestibulum/'>Vestibulum</a>&nbsp;
+</p>
+
+
+<pre><code class="chroma notranslate"><span class='c'>
+See more here: {{&lt; liti &#34;highlight&#34; &#34;in&#34; &gt;}}
+</span></code></pre>
+
+
+<p>See more here:           
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/code-01/'>Code highlighting</a>&nbsp;
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog/2017/11/24/hugo-highlight-chromastyles/'>Hugo - <strong>highlight</strong> 🎨</a>&nbsp;
+</p>
+
+<p>Here are more examples using <strong>eq</strong> operator</p>
+
+<table>
+<thead>
+<tr>
+<th>Shortcode</th>
+<th>Result</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>{{&lt; liti search=&ldquo;Vestibulum&rdquo;                                       &gt;}}</td>
+<td>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/folder20/folder21/vestibulum/'>Vestibulum</a>&nbsp;
+</td>
+</tr>
+
+<tr>
+<td>{{&lt; liti search=&ldquo;Vestibulum&rdquo; type=&ldquo;regular&rdquo; op=&ldquo;eq&rdquo;                &gt;}}</td>
+<td>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/folder20/folder21/vestibulum/'>Vestibulum</a>&nbsp;
+</td>
+</tr>
+
+<tr>
+<td>{{&lt; liti search=&ldquo;VeSTIBULUM&rdquo; type=&ldquo;regular&rdquo; op=&ldquo;eq&rdquo; mod=&ldquo;i&rdquo; ul=&ldquo;1&rdquo; &gt;}}</td>
+<td><ul><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/folder20/folder21/vestibulum/'>Vestibulum</a>&nbsp;</li></ul>
+</td>
+</tr>
+
+<tr>
+<td>{{&lt; liti search=&ldquo;VeSTIBULUM&rdquo;                        mod=&ldquo;i&rdquo; ul=&ldquo;1&rdquo; &gt;}}</td>
+<td><ul><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/folder20/folder21/vestibulum/'>Vestibulum</a>&nbsp;</li></ul>
+</td>
+</tr>
+
+<tr>
+<td>{{&lt; liti search=&ldquo;Phasellus&rdquo;  type=&ldquo;all&rdquo;                     ul=&ldquo;1&rdquo; &gt;}}</td>
+<td><ul><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/folder20/folder21/folder211/phasellus/'>Phasellus 
+        </a>&nbsp;</li><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/phasellus/'>Phasellus 
+        </a>&nbsp;</li></ul>
+</td>
+</tr>
+
+<tr>
+<td>{{&lt; liti search=&ldquo;Phasellus&rdquo;  type=&ldquo;all&rdquo; ofm=&ldquo;.Title&rdquo;        ul=&ldquo;1&rdquo; &gt;}}</td>
+<td><ul><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/folder20/folder21/folder211/phasellus/'>Phasellus 
+        </a>&nbsp;</li><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/phasellus/'>Phasellus 
+        </a>&nbsp;</li></ul>
+</td>
+</tr>
+
+<tr>
+<td>{{&lt; liti search=&ldquo;Phasellus&rdquo;  type=&ldquo;all&rdquo; ofm=&ldquo;.Kind .Title&rdquo;  ul=&ldquo;1&rdquo; &gt;}}</td>
+<td><ul><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/folder20/folder21/folder211/phasellus/'>page:&nbsp;Phasellus 
+        </a>&nbsp;</li><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/phasellus/'>taxonomy:&nbsp;Phasellus 
+        </a>&nbsp;</li></ul>
+</td>
+</tr>
+
+<tr>
+<td>{{&lt; liti search=&ldquo;Phasellus&rdquo;  type=&ldquo;all&rdquo; ofm=&ldquo;.RelPermalink&rdquo;        &gt;}}</td>
+<td>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/folder20/folder21/folder211/phasellus/'>/pages/folder20/folder21/folder211/phasellus/
+        </a>&nbsp;
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/phasellus/'>/tags/phasellus/
+        </a>&nbsp;
+</td>
+</tr>
+</tbody>
+</table>
+
+<p>Here are some examples using <strong>in</strong> operator</p>
+
+<table>
+<thead>
+<tr>
+<th>Shortcode</th>
+<th>Result</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>{{&lt; liti op=&ldquo;in&rdquo; search=&ldquo;theme&rdquo;                                                 &gt;}}</td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td>{{&lt; liti op=&ldquo;in&rdquo; search=&ldquo;theme&rdquo;                                  mod=&ldquo;i&rdquo; ul=&ldquo;1&rdquo; &gt;}}</td>
+<td><ul><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/hugobasicexample/creating-a-new-theme/'>Creating a New Theme</a>&nbsp;</li><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/readme/'>This Theme Readme (github)</a>&nbsp;</li><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/page-shortcodes/'>This Theme Shortcodes</a>&nbsp;</li><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/console-01/'>Add a Theme (asciinema)</a>&nbsp;</li></ul>
+</td>
+</tr>
+
+<tr>
+<td>{{&lt; liti op=&ldquo;in&rdquo; search=&ldquo;theme&rdquo;  type=&ldquo;all&rdquo;                      mod=&ldquo;i&rdquo; ul=&ldquo;1&rdquo; &gt;}}</td>
+<td><ul><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/hugobasicexample/creating-a-new-theme/'>Creating a New Theme 
+        </a>&nbsp;</li><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/readme/'>This Theme Readme (github) 
+        </a>&nbsp;</li><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/'>About this Theme 
+        </a>&nbsp;</li><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/page-shortcodes/'>This Theme Shortcodes 
+        </a>&nbsp;</li><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/console-01/'>Add a Theme (asciinema) 
+        </a>&nbsp;</li><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/themes/'>Themes 
+        </a>&nbsp;</li><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/categories/this-theme/'>This Theme 
+        </a>&nbsp;</li><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/'>hugo-theme-w3css-basic exampleSite 
+        </a>&nbsp;</li></ul>
+</td>
+</tr>
+
+<tr>
+<td>{{&lt; liti op=&ldquo;in&rdquo; search=&ldquo;theme&rdquo;  type=&ldquo;all&rdquo; ofm=&ldquo;.Kind .Title&rdquo;   mod=&ldquo;i&rdquo; ul=&ldquo;1&rdquo; &gt;}}</td>
+<td><ul><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/hugobasicexample/creating-a-new-theme/'>page:&nbsp;Creating a New Theme 
+        </a>&nbsp;</li><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/readme/'>page:&nbsp;This Theme Readme (github) 
+        </a>&nbsp;</li><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/'>section:&nbsp;About this Theme 
+        </a>&nbsp;</li><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/page-shortcodes/'>page:&nbsp;This Theme Shortcodes 
+        </a>&nbsp;</li><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/console-01/'>page:&nbsp;Add a Theme (asciinema) 
+        </a>&nbsp;</li><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/themes/'>taxonomy:&nbsp;Themes 
+        </a>&nbsp;</li><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/categories/this-theme/'>taxonomy:&nbsp;This Theme 
+        </a>&nbsp;</li><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/'>home:&nbsp;hugo-theme-w3css-basic exampleSite 
+        </a>&nbsp;</li></ul>
+</td>
+</tr>
+
+<tr>
+<td>{{&lt; liti op=&ldquo;in&rdquo; search=&ldquo;theme&rdquo;  type=&ldquo;all&rdquo; ofm=&ldquo;.RelPermalink&rdquo;  mod=&ldquo;i&rdquo; ul=&ldquo;1&rdquo; &gt;}}</td>
+<td><ul><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/hugobasicexample/creating-a-new-theme/'>/pages/hugo-theme-w3css-basic/hugobasicexample/creating-a-new-theme/
+        </a>&nbsp;</li><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/readme/'>/pages/hugo-theme-w3css-basic/readme/
+        </a>&nbsp;</li><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/'>/pages/hugo-theme-w3css-basic/
+        </a>&nbsp;</li><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/hugo-theme-w3css-basic/page-shortcodes/'>/pages/hugo-theme-w3css-basic/page-shortcodes/
+        </a>&nbsp;</li><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/console-01/'>/pages/showcase/console-01/
+        </a>&nbsp;</li><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/themes/'>/tags/themes/
+        </a>&nbsp;</li><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/categories/this-theme/'>/categories/this-theme/
+        </a>&nbsp;</li><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/'>/
+        </a>&nbsp;</li></ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+<p>With positional parameters:</p>
+
+
+<pre><code class="chroma notranslate"><span class='c'>
+See more here: {{&lt; liti &#34;Vestibulum&#34; &#34;in&#34; &gt;}}
+</span></code></pre>
+
+
+<p>See more here:           
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/front/photocards/08/'>Vestibulum convallis, lorem a tempus semper</a>&nbsp;
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/folder20/folder21/vestibulum/'>Vestibulum</a>&nbsp;
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/folder20/vestibulum-convallis/'>Vestibulum Convallis</a>&nbsp;
+</p>
+
+
+<pre><code class="chroma notranslate"><span class='c'>
+See more here: {{&lt; liti &#34;Vestibulum&#34; &#34;in&#34; &#34;i&#34; &#34;ul&#34; &gt;}}
+</span></code></pre>
+
+
+<p>See more here:               <ul><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/front/photocards/05/'>Curabitur vulputate vestibulum lorem.</a>&nbsp;</li><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/front/photocards/08/'>Vestibulum convallis, lorem a tempus semper</a>&nbsp;</li><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/folder20/folder21/vestibulum/'>Vestibulum</a>&nbsp;</li><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/folder20/vestibulum-convallis/'>Vestibulum Convallis</a>&nbsp;</li></ul>
+</p>
+
+
+<pre><code class="chroma notranslate"><span class='c'>
+See more here: {{&lt; liti &#34;Vestibulum&#34; &#34;in&#34; &#34;&#34; &#34;ul&#34; &gt;}}
+</span></code></pre>
+
+
+<p>See more here:               <ul><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/front/photocards/08/'>Vestibulum convallis, lorem a tempus semper</a>&nbsp;</li><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/folder20/folder21/vestibulum/'>Vestibulum</a>&nbsp;</li><li>
+        <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/folder20/vestibulum-convallis/'>Vestibulum Convallis</a>&nbsp;</li></ul>
+</p>
+
+<h2 id="litt-list-by-taxonomy-term-just-one-result">litt: List by Taxonomy/Term (just one result)&nbsp;<a class="anchor w3-small " href="#litt-list-by-taxonomy-term-just-one-result"><i class="fas fa-anchor"></i></a> </h2>
+
+<p><a id="litt"></a></p>
+
+<ul>
+<li>this will return just one link, the taxonomy/taxonomyterm link with a configurable text</li>
+</ul>
+
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Position -1</th>
+<th>Default</th>
+<th>What</th>
+<th>Remark</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>tax</td>
+<td>0</td>
+<td>tags</td>
+<td>taxonomy</td>
+<td></td>
+</tr>
+
+<tr>
+<td>term</td>
+<td>1</td>
+<td>*</td>
+<td>taxonomyterm</td>
+<td></td>
+</tr>
+
+<tr>
+<td>ofm</td>
+<td>2</td>
+<td>.Title</td>
+<td></td>
+<td>(OutputFormat) .Kind .RelPermalink .Title</td>
+</tr>
+</tbody>
+</table>
+
+
+<pre><code class="chroma notranslate"><span class='c'>
+See more here: {{&lt; litt term=&#34;Go&#34; &gt;}}
+</span></code></pre>
+
+
+<p>See more here: 
+
+
+</p>
+
+
+<pre><code class="chroma notranslate"><span class='c'>
+See more here: {{&lt; litt &#34;tags&#34; &#34;Go&#34; &gt;}}
+</span></code></pre>
+
+
+<p>See more here:        
+
+
+</p>
+
+
+<pre><code class="chroma notranslate"><span class='c'>
+See more here: {{&lt; litt &#34;categories&#34; &#34;Golang&#34; &#34;.RelPermalink&#34; &gt;}}
+</span></code></pre>
+
+
+<p>See more here:          
+
+
+</p>
+
+<h2 id="litx-list-by-taxonomy-full-search">litx: List by Taxonomy (full search)&nbsp;<a class="anchor w3-small " href="#litx-list-by-taxonomy-full-search"><i class="fas fa-anchor"></i></a> </h2>
+
+<p><a id="litx"></a></p>
+
+<ul>
+<li>this may be slow for bigger sites</li>
+<li>case is ignored (no mod switch as <a href="#liti">liti</a> has)</li>
+</ul>
+
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Position -1</th>
+<th>Default</th>
+<th>What</th>
+<th>Remark</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>tax</td>
+<td>0</td>
+<td>tags</td>
+<td>string to search</td>
+<td>in the taxonomy</td>
+</tr>
+
+<tr>
+<td>term</td>
+<td>1</td>
+<td>*</td>
+<td>string to search</td>
+<td>in the taxonomy term</td>
+</tr>
+
+<tr>
+<td>title</td>
+<td>2</td>
+<td>*</td>
+<td>string to search</td>
+<td>in the title</td>
+</tr>
+
+<tr>
+<td>op</td>
+<td>3</td>
+<td>eq</td>
+<td>en</td>
+<td>in</td>
+</tr>
+
+<tr>
+<td>om</td>
+<td>4</td>
+<td>t</td>
+<td>t,p</td>
+<td>(OutputMode) *t*axonomyterm *p*age</td>
+</tr>
+
+<tr>
+<td>ofm</td>
+<td>5</td>
+<td>.Title</td>
+<td></td>
+<td>(OutputFormat) .Kind .RelPermalink .Title</td>
+</tr>
+</tbody>
+</table>
+
+<p>Using positional parameters:</p>
+
+<table>
+<thead>
+<tr>
+<th>Shortcode</th>
+<th>Result</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>{{&lt; litx &ldquo;*&rdquo; &ldquo;Nullam&rdquo;             &gt;}}</td>
+<td>          
+
+<ul>                                                                                               
+            <li><a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/nullam'>tags/nullam</a>                                                  
+</ul>
+</td>
+</tr>
+
+<tr>
+<td>{{&lt; litx &ldquo;<em>&rdquo; &ldquo;</em>&rdquo; &ldquo;Null&rdquo; &ldquo;in&rdquo; &ldquo;p&rdquo;  &gt;}}</td>
+<td>                
+
+<ul>                                
+                <li>categories/know-how
+                  <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/folder20/folder21/nullam/'>Nullam 
+                </a> </li>                                                                                      
+                <li>tags/folder20
+                  <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/folder20/folder21/nullam/'>Nullam 
+                </a> </li>                                                                  
+                <li>tags/nullam
+                  <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/folder20/folder21/nullam/'>Nullam 
+                </a> </li>                                                                               
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+<p>Using named parameters:</p>
+
+<table>
+<thead>
+<tr>
+<th>Shortcode</th>
+<th>Result</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>{{&lt; litx tax=&ldquo;tags&rdquo;        term=&ldquo;go&rdquo; op=&ldquo;in&rdquo;                      &gt;}}</td>
+<td>
+
+<ul>                           
+          <li><a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/go'>tags/go</a>     
+          <li><a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/golang'>tags/golang</a>     
+          <li><a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/hugo'>tags/hugo</a>              
+          <li><a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/logos'>tags/logos</a>                                                          
+</ul>
+</td>
+</tr>
+
+<tr>
+<td>{{&lt; litx                   term=&ldquo;Nullam&rdquo;                          &gt;}}</td>
+<td>
+
+<ul>                                                     
+            <li><a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/nullam'>tags/nullam</a>                                                  
+</ul>
+</td>
+</tr>
+
+<tr>
+<td>{{&lt; litx                   term=&ldquo;Nullam&rdquo; om=&ldquo;p&rdquo;                   &gt;}}</td>
+<td>
+
+<ul>                                                      
+                <li>tags/nullam
+                  <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/folder20/folder21/nullam/'>Nullam 
+                </a> </li>
+                <li>tags/nullam
+                  <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/folder20/folder21/vestibulum/'>Vestibulum 
+                </a> </li>                                                  
+</ul>
+</td>
+</tr>
+
+<tr>
+<td>{{&lt; litx                   term=&ldquo;Nullam&rdquo; om=&ldquo;tp&rdquo;                  &gt;}}</td>
+<td>
+
+<ul>                                                     
+            <li><a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/nullam'>tags/nullam</a> 
+                <li>tags/nullam
+                  <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/folder20/folder21/nullam/'>Nullam 
+                </a> </li>
+                <li>tags/nullam
+                  <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/folder20/folder21/vestibulum/'>Vestibulum 
+                </a> </li>                                                  
+</ul>
+</td>
+</tr>
+
+<tr>
+<td>{{&lt; litx                   term=&ldquo;web&rdquo;                             &gt;}}</td>
+<td>
+
+<ul>                                                                                   
+            <li><a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/web'>tags/web</a>                    
+</ul>
+</td>
+</tr>
+
+<tr>
+<td>{{&lt; litx tax=&ldquo;categories&rdquo;  term=&ldquo;web&rdquo;                             &gt;}}</td>
+<td>
+
+<ul>                                    
+            <li><a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/categories/web'>categories/web</a>                         
+</ul>
+</td>
+</tr>
+
+<tr>
+<td>{{&lt; litx tax=&rdquo;*&rdquo;           term=&ldquo;web&rdquo; om=&ldquo;p&rdquo;                      &gt;}}</td>
+<td>
+
+<ul>                                     
+                <li>categories/web
+                  <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog/2017/11/24/hugo-highlight-chromastyles/'>Hugo - <strong>highlight</strong> 🎨 
+                </a> </li>                                                                                            
+                <li>tags/web
+                  <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog/2018/05/11/hugo-amet/'>Hugo - amnet 
+                </a> </li>
+                <li>tags/web
+                  <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog/2017/11/10/hugo-dolor/'>Hugo - dolor 
+                </a> </li>
+                <li>tags/web
+                  <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog/2017/11/09/hugo-lorem/'>Hugo - lorem 
+                </a> </li>
+                <li>tags/web
+                  <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog/2017/11/08/hugo-ipsum/'>Hugo - ipsum 
+                </a> </li>                    
+</ul>
+</td>
+</tr>
+
+<tr>
+<td>{{&lt; litx tax=&rdquo;*&rdquo;           term=&ldquo;web&rdquo; om=&ldquo;pt&rdquo; ofm=&ldquo;.RelPermalink&rdquo; &gt;}}</td>
+<td>
+
+<ul>                                    
+            <li><a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/categories/web'>categories/web</a> 
+                <li>categories/web
+                  <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog/2017/11/24/hugo-highlight-chromastyles/'>/blog/2017/11/24/hugo-highlight-chromastyles/
+                </a> </li>                                                                                           
+            <li><a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/web'>tags/web</a> 
+                <li>tags/web
+                  <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog/2018/05/11/hugo-amet/'>/blog/2018/05/11/hugo-amet/
+                </a> </li>
+                <li>tags/web
+                  <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog/2017/11/10/hugo-dolor/'>/blog/2017/11/10/hugo-dolor/
+                </a> </li>
+                <li>tags/web
+                  <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog/2017/11/09/hugo-lorem/'>/blog/2017/11/09/hugo-lorem/
+                </a> </li>
+                <li>tags/web
+                  <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog/2017/11/08/hugo-ipsum/'>/blog/2017/11/08/hugo-ipsum/
+                </a> </li>                    
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="hc">hc&nbsp;<a class="anchor w3-small " href="#hc"><i class="fas fa-anchor"></i></a> </h2>
+
+<p>HTML comment may be included in markdown via:</p>
+
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="c">&lt;!--
+</span><span class="c">foo
+</span><span class="c">bar
+</span><span class="c">--&gt;</span></code></pre></div>
+
+<p>Via the <code>hc</code> (<strong>H</strong>tml <strong>C</strong>omment) shortcode HTML comments may be enabled or disabled in the output:</p>
+
+<p><code>config.toml</code>
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">params</span><span class="p">]</span>
+  <span class="nx">enableHC</span> <span class="p">=</span> <span class="kc">true</span></code></pre></div>
+
+<p>Here&rsquo;s how to use it:</p>
+
+
+<pre><code class="chroma notranslate"><span class='c'>
+{{&lt; hc &#34;foo&#34; &gt;}}
+</span></code></pre>
+
+
+<p>Look in the html source. Here&rsquo;s a comment:
+<!-- foo --> <!--  -->
+
+seen?</p>
+
+
+<pre><code class="chroma notranslate"><span class='c'>
+{{&lt; hc &gt;}}
+this works
+as well
+{{&lt; /hc &gt;}}
+</span></code></pre>
+
+
+<!-- 
+this is 
+a comment
+ -->
+
+
+
+<pre><code class="chroma notranslate"><span class='c'>
+{{&lt; hc &#34;some test&#34;&gt;}}
+more 1
+more 2
+{{&lt; /hc &gt;}}
+</span></code></pre>
+
+
+<!-- text 1 --> <!-- 
+line 1
+line 2
+ -->
+
+
+  <!-- partials/main.related.html -->
+
+
+   
+
+  <!-- partials/main.taxonomy.full.bar.html -->
+<div class='w3-card-4 w3-center w3-round-xxlarge w3-margin-top  w3-margin-bottom w3-theme-l1 '>
+  <div class="w3-container w3-padding-small ">
+    <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/categories' class="taxonomy-button w3-button"><i class="far fa-folder-open" aria-hidden="true"></i>&nbsp;Categories:</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/categories/development' class="taxonomy-button w3-button">development (2)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/categories/eyecatcher' class="taxonomy-button w3-button">eyecatcher (2)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/categories/features' class="taxonomy-button w3-button">features (6)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/categories/golang' class="taxonomy-button w3-button">golang (2)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/categories/hugo-basic-example' class="taxonomy-button w3-button">hugo-basic-example (5)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/categories/know-how' class="taxonomy-button w3-button">know-how (12)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/categories/legal' class="taxonomy-button w3-button">legal (10)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/categories/photocards' class="taxonomy-button w3-button">photocards (9)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/categories/programming' class="taxonomy-button w3-button">programming (1)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/categories/this-theme' class="taxonomy-button w3-button">this-theme (10)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/categories/tools' class="taxonomy-button w3-button">tools (6)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/categories/vestibulum' class="taxonomy-button w3-button">vestibulum (1)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/categories/web' class="taxonomy-button w3-button">web (1)</a>
+
+<br>
+   <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags' class="taxonomy-button w3-button"><i class="fas fa-tags" aria-hidden="true"></i>&nbsp;Tags:</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/development' class="taxonomy-button w3-button">development (2)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/editor' class="taxonomy-button w3-button">editor (2)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/emacs' class="taxonomy-button w3-button">emacs (2)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/fermentum' class="taxonomy-button w3-button">fermentum (6)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/folder10' class="taxonomy-button w3-button">folder10 (2)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/folder20' class="taxonomy-button w3-button">folder20 (10)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/front' class="taxonomy-button w3-button">front (17)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/go' class="taxonomy-button w3-button">go (3)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/golang' class="taxonomy-button w3-button">golang (2)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/hugo' class="taxonomy-button w3-button">hugo (6)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/h%C3%A4' class="taxonomy-button w3-button">hä (1)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/images' class="taxonomy-button w3-button">images (2)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/license' class="taxonomy-button w3-button">license (10)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/logos' class="taxonomy-button w3-button">logos (1)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/lorem' class="taxonomy-button w3-button">lorem (17)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/malesuada' class="taxonomy-button w3-button">malesuada (2)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/nullam' class="taxonomy-button w3-button">nullam (2)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/phasellus' class="taxonomy-button w3-button">phasellus (2)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/pictures' class="taxonomy-button w3-button">pictures (10)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/resources' class="taxonomy-button w3-button">resources (4)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/rutrum' class="taxonomy-button w3-button">rutrum (1)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/shortcodes' class="taxonomy-button w3-button">shortcodes (6)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/showcase' class="taxonomy-button w3-button">showcase (9)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/templates' class="taxonomy-button w3-button">templates (1)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/themes' class="taxonomy-button w3-button">themes (1)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/tristique' class="taxonomy-button w3-button">tristique (1)</a>
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/tags/web' class="taxonomy-button w3-button">web (4)</a>
+
+  </div> 
+</div> 
+
+        <!-- back in _default/baseof.html  -->
+      </div>
+      <!-- canvas -->
+
+      <footer>
+        
+  <!-- partials/footer.html  -->
+<div id="footer" class='w3-container w3-theme-d5 '>
+
+  <div class="w3-margin-bottom w3-row w3-mobile">
+      <!-- Site.Params.aboutUs  -->
+    <div class="w3-col w3-third">
+      <h4>About us</h4>
+      <div class="notranslate"><p>Vel illum <strong>dolore</strong> eu</p>
+
+<ul>
+<li>feugiat nulla</li>
+<li>facilisis at vero.</li>
+</ul>
+
+<p>Nam vestibulum accumsan nisl.</p>
+</div>
+    </div>  
+      <!-- Site.Params.recentPosts  -->
+    <div class="w3-col w3-third">
+      <h4>Recent Posts</h4>
+        <!-- range first Site.Params.footerNumOfPosts .Site.RegularPages "Section" "blog" -->
+
+        <div class="w3-container ">
+          <a class="no-decoration" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog/2018/05/11/hugo-amet/'> 
+          
+  <!-- partials/resource.image.html  -->
+       
+    
+<img
+  class="w3-image w3-left w3-round w3-hover-opacity"
+  style="max-width:60px; max-height:20px; width: auto; height: auto; margin: 0px 8px 16px 0px;"
+  src='https://it-gro.github.io/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_60x0_resize_box_2.png'
+  alt='https://it-gro.github.io/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_60x0_resize_box_2.png'
+  >
+<br/>
+$myImage.Permalink             : https://it-gro.github.io/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_60x0_resize_box_2.png   <br/>
+$myImage.RelPermalink          : /resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_60x0_resize_box_2.png   <br/>
+$myImage.Permalink    | absURL : https://it-gro.github.io/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_60x0_resize_box_2.png   <br/>
+$myImage.RelPermalink | absURL : https://it-gro.github.io/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_60x0_resize_box_2.png   <br/>
+$.Site.BaseURL                 : 
+
+
+          </a>
+          <a class="no-decoration" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog/2018/05/11/hugo-amet/'>Hugo - amnet</a>
+        </div>
+
+        <div class="w3-container ">
+          <a class="no-decoration" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog/2017/11/24/hugo-highlight-chromastyles/'> 
+          
+  <!-- partials/resource.image.html  -->
+       
+    
+<img
+  class="w3-image w3-left w3-round w3-hover-opacity"
+  style="max-width:60px; max-height:20px; width: auto; height: auto; margin: 0px 8px 16px 0px;"
+  src='https://it-gro.github.io/resources/images/teaserpics/bitbucket.org/pygments-main-logo_hu83f454384722f2ac083918ae2d1f75df_15959_60x0_resize_box_2.png'
+  alt='https://it-gro.github.io/resources/images/teaserpics/bitbucket.org/pygments-main-logo_hu83f454384722f2ac083918ae2d1f75df_15959_60x0_resize_box_2.png'
+  >
+<br/>
+$myImage.Permalink             : https://it-gro.github.io/resources/images/teaserpics/bitbucket.org/pygments-main-logo_hu83f454384722f2ac083918ae2d1f75df_15959_60x0_resize_box_2.png   <br/>
+$myImage.RelPermalink          : /resources/images/teaserpics/bitbucket.org/pygments-main-logo_hu83f454384722f2ac083918ae2d1f75df_15959_60x0_resize_box_2.png   <br/>
+$myImage.Permalink    | absURL : https://it-gro.github.io/resources/images/teaserpics/bitbucket.org/pygments-main-logo_hu83f454384722f2ac083918ae2d1f75df_15959_60x0_resize_box_2.png   <br/>
+$myImage.RelPermalink | absURL : https://it-gro.github.io/resources/images/teaserpics/bitbucket.org/pygments-main-logo_hu83f454384722f2ac083918ae2d1f75df_15959_60x0_resize_box_2.png   <br/>
+$.Site.BaseURL                 : 
+
+
+          </a>
+          <a class="no-decoration" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog/2017/11/24/hugo-highlight-chromastyles/'>Hugo - <strong>highlight</strong> 🎨</a>
+        </div>
+
+        <div class="w3-container ">
+          <a class="no-decoration" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog/2017/11/10/hugo-dolor/'> 
+          
+  <!-- partials/resource.image.html  -->
+       
+    
+<img
+  class="w3-image w3-left w3-round w3-hover-opacity"
+  style="max-width:60px; max-height:20px; width: auto; height: auto; margin: 0px 8px 16px 0px;"
+  src='https://it-gro.github.io/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_60x0_resize_box_2.png'
+  alt='https://it-gro.github.io/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_60x0_resize_box_2.png'
+  >
+<br/>
+$myImage.Permalink             : https://it-gro.github.io/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_60x0_resize_box_2.png   <br/>
+$myImage.RelPermalink          : /resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_60x0_resize_box_2.png   <br/>
+$myImage.Permalink    | absURL : https://it-gro.github.io/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_60x0_resize_box_2.png   <br/>
+$myImage.RelPermalink | absURL : https://it-gro.github.io/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_60x0_resize_box_2.png   <br/>
+$.Site.BaseURL                 : 
+
+
+          </a>
+          <a class="no-decoration" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog/2017/11/10/hugo-dolor/'>Hugo - dolor</a>
+        </div>
+
+        <div class="w3-container ">
+          <a class="no-decoration" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog/2017/11/09/hugo-lorem/'> 
+          
+  <!-- partials/resource.image.html  -->
+       
+    
+<img
+  class="w3-image w3-left w3-round w3-hover-opacity"
+  style="max-width:60px; max-height:20px; width: auto; height: auto; margin: 0px 8px 16px 0px;"
+  src='https://it-gro.github.io/resources/images/teaserpics/gohugo.io/hugo-lorem_hu77f397ba1b7f0f571a34fad927893059_94449_60x0_resize_box_2.png'
+  alt='https://it-gro.github.io/resources/images/teaserpics/gohugo.io/hugo-lorem_hu77f397ba1b7f0f571a34fad927893059_94449_60x0_resize_box_2.png'
+  >
+<br/>
+$myImage.Permalink             : https://it-gro.github.io/resources/images/teaserpics/gohugo.io/hugo-lorem_hu77f397ba1b7f0f571a34fad927893059_94449_60x0_resize_box_2.png   <br/>
+$myImage.RelPermalink          : /resources/images/teaserpics/gohugo.io/hugo-lorem_hu77f397ba1b7f0f571a34fad927893059_94449_60x0_resize_box_2.png   <br/>
+$myImage.Permalink    | absURL : https://it-gro.github.io/resources/images/teaserpics/gohugo.io/hugo-lorem_hu77f397ba1b7f0f571a34fad927893059_94449_60x0_resize_box_2.png   <br/>
+$myImage.RelPermalink | absURL : https://it-gro.github.io/resources/images/teaserpics/gohugo.io/hugo-lorem_hu77f397ba1b7f0f571a34fad927893059_94449_60x0_resize_box_2.png   <br/>
+$.Site.BaseURL                 : 
+
+
+          </a>
+          <a class="no-decoration" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog/2017/11/09/hugo-lorem/'>Hugo - lorem</a>
+        </div>
+
+        <div class="w3-container ">
+          <a class="no-decoration" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog/2017/11/08/hugo-ipsum/'> 
+          
+  <!-- partials/resource.image.html  -->
+       
+    
+<img
+  class="w3-image w3-left w3-round w3-hover-opacity"
+  style="max-width:60px; max-height:20px; width: auto; height: auto; margin: 0px 8px 16px 0px;"
+  src='https://it-gro.github.io/resources/images/teaserpics/gohugo.io/hugo-ipsum_hu4bb3d9e9bcf5cb42154f6d8c89189ff3_242267_60x0_resize_box_2.png'
+  alt='https://it-gro.github.io/resources/images/teaserpics/gohugo.io/hugo-ipsum_hu4bb3d9e9bcf5cb42154f6d8c89189ff3_242267_60x0_resize_box_2.png'
+  >
+<br/>
+$myImage.Permalink             : https://it-gro.github.io/resources/images/teaserpics/gohugo.io/hugo-ipsum_hu4bb3d9e9bcf5cb42154f6d8c89189ff3_242267_60x0_resize_box_2.png   <br/>
+$myImage.RelPermalink          : /resources/images/teaserpics/gohugo.io/hugo-ipsum_hu4bb3d9e9bcf5cb42154f6d8c89189ff3_242267_60x0_resize_box_2.png   <br/>
+$myImage.Permalink    | absURL : https://it-gro.github.io/resources/images/teaserpics/gohugo.io/hugo-ipsum_hu4bb3d9e9bcf5cb42154f6d8c89189ff3_242267_60x0_resize_box_2.png   <br/>
+$myImage.RelPermalink | absURL : https://it-gro.github.io/resources/images/teaserpics/gohugo.io/hugo-ipsum_hu4bb3d9e9bcf5cb42154f6d8c89189ff3_242267_60x0_resize_box_2.png   <br/>
+$.Site.BaseURL                 : 
+
+
+          </a>
+          <a class="no-decoration" href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/blog/2017/11/08/hugo-ipsum/'>Hugo - ipsum</a>
+        </div> 
+
+    </div>    
+      <!-- Site.Params.address  -->
+    <div id="address" class="w3-col w3-third">
+      <h4>Contact</h4>
+      <div class="notranslate"><p><strong>nobis eleifend</strong><br />
+<strong>Soluta nobis eleifend</strong><br />
+illum dolore eu feugiat<br />
+3612 Steffisburg<br />
+consectetuer adipiscing</p>
+
+<p><strong>Switzerland</strong></p>
+</div><br/>
+      
+        
+      <a href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/contact/' class='w3-button w3-theme-l4 '>Go to contact page</a>
+        
+      
+    </div>
+
+  </div>  
+</div>  
+
+  <!-- partials/footer.bottom.html  -->
+<div class='w3-cell-row w3-small w3-theme-l3 '>
+
+  <div class="w3-cell w3-cell-middle">
+      <!-- $.Site.Params.bottomLeft  -->
+    Copyright &copy; 2018, <em>lobortis nisl</em> ut aliquip ex ea commodo consequat
+  </div> 
+
+  <div class="w3-cell w3-cell-middle">
+    <div class="w3-right">
+        <!-- $.Site.Params.bottomRight  -->
+      created with <a href="https://gohugo.io" target="_blank">Hugo 0.44-DEV</a>
+    </div> 
+  </div>   
+
+</div>     
+
+        <!-- back in _default/baseof.html  -->
+      
+      </footer>
+
+    </div>
+    <!-- all -->
+    
+<!-- partials/scripts.bottom.html -->
+
+<script src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/vendor/jquery/jquery-3.3.1.slim.min.js'></script> 
+
+<script src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/js/custom.bottom.js?1535180181'></script>
+
+
+    <script>
+      function onload(){
+         document.getElementById("btnback").style.visibility="visible";
+      }
+    </script>
+
+  </body>
+  
+  <!-- partials/debug.html  -->
+</html>
