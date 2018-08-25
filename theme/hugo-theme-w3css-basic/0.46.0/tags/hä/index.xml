@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hä on hugo-theme-w3css-basic exampleSite</title>
-    <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.46.0/tags/h%C3%A4/</link>
+    <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/0.46.0/tags/h%C3%A4/</link>
     <description>Recent content in Hä on hugo-theme-w3css-basic exampleSite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 31 May 2000 17:32:27 +0200</lastBuildDate>
     
-	<atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.46.0/tags/h%C3%A4/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/0.46.0/tags/h%C3%A4/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ein Test mit Männern</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.46.0/blog/2000/05/31/m%C3%A4nner/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/0.46.0/blog/2000/05/31/m%C3%A4nner/</link>
       <pubDate>Wed, 31 May 2000 17:32:27 +0200</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.46.0/blog/2000/05/31/m%C3%A4nner/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/0.46.0/blog/2000/05/31/m%C3%A4nner/</guid>
       <description>Test
 (wird wieder gelöscht)</description>
     </item>

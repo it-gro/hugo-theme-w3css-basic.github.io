@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on hugo-theme-w3css-basic exampleSite</title>
-    <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.45.0/tags/hugo/</link>
+    <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/0.45.0/tags/hugo/</link>
     <description>Recent content in Hugo on hugo-theme-w3css-basic exampleSite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 11 May 2018 11:39:49 +0200</lastBuildDate>
     
-	<atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.45.0/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/0.45.0/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo - amnet</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.45.0/blog/2018/05/11/hugo-amet/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/0.45.0/blog/2018/05/11/hugo-amet/</link>
       <pubDate>Fri, 11 May 2018 11:39:49 +0200</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.45.0/blog/2018/05/11/hugo-amet/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/0.45.0/blog/2018/05/11/hugo-amet/</guid>
       <description>&lt;p&gt;Aliquam erat volutpat. Nunc eleifend leo vitae magna. In id erat non orci
 commodo lobortis. Proin neque massa, cursus ut, gravida ut, lobortis eget,
 lacus.&lt;/p&gt;
@@ -29,10 +29,10 @@ vel velit tristique imperdiet. Donec at pede.&lt;/p&gt;
     
     <item>
       <title>Hugo - **highlight** :art:</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.45.0/blog/2017/11/24/hugo-highlight-chromastyles/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/0.45.0/blog/2017/11/24/hugo-highlight-chromastyles/</link>
       <pubDate>Fri, 24 Nov 2017 08:44:12 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.45.0/blog/2017/11/24/hugo-highlight-chromastyles/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/0.45.0/blog/2017/11/24/hugo-highlight-chromastyles/</guid>
       <description>&lt;p&gt;Hugo comes with reallly fast syntax highlighting from Chroma.
 From Hugo 0.28, the default syntax hightlighter in Hugo is Chroma; it
 is built in Go and is really, really fast – and for the most important
@@ -44,10 +44,10 @@ See &lt;a href=&#34;https://gohugo.io/content-management/syntax-highlighting&#34
     
     <item>
       <title>Hugo - dolor</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.45.0/blog/2017/11/10/hugo-dolor/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/0.45.0/blog/2017/11/10/hugo-dolor/</link>
       <pubDate>Fri, 10 Nov 2017 00:00:00 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.45.0/blog/2017/11/10/hugo-dolor/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/0.45.0/blog/2017/11/10/hugo-dolor/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
 commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
 et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;
@@ -62,10 +62,10 @@ imperdiet a, venenatis vitae, justo.&lt;/p&gt;
     
     <item>
       <title>Hugo - lorem</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.45.0/blog/2017/11/09/hugo-lorem/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/0.45.0/blog/2017/11/09/hugo-lorem/</link>
       <pubDate>Thu, 09 Nov 2017 00:00:00 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.45.0/blog/2017/11/09/hugo-lorem/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/0.45.0/blog/2017/11/09/hugo-lorem/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
 commodo ligula eget dolor. Aenean massa.&lt;/p&gt;
 
@@ -78,10 +78,10 @@ pretium quis, sem.&lt;/p&gt;
     
     <item>
       <title>Hugo - ipsum</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.45.0/blog/2017/11/08/hugo-ipsum/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/0.45.0/blog/2017/11/08/hugo-ipsum/</link>
       <pubDate>Wed, 08 Nov 2017 00:00:00 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.45.0/blog/2017/11/08/hugo-ipsum/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/0.45.0/blog/2017/11/08/hugo-ipsum/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
 commodo ligula eget dolor. Aenean massa.&lt;/p&gt;
 
@@ -96,10 +96,10 @@ pretium quis, sem.&lt;/p&gt;
     
     <item>
       <title>Getting Started with Hugo</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.45.0/pages/hugo-theme-w3css-basic/hugobasicexample/hugoisforlovers/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/0.45.0/pages/hugo-theme-w3css-basic/hugobasicexample/hugoisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.45.0/pages/hugo-theme-w3css-basic/hugobasicexample/hugoisforlovers/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/0.45.0/pages/hugo-theme-w3css-basic/hugobasicexample/hugoisforlovers/</guid>
       <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
 Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at installing hugo
