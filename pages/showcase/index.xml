@@ -55,7 +55,7 @@ This theme provides a shortcode &lt;code&gt;res-figure&lt;/code&gt;  for page re
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/liti-01/</guid>
       <description>liti: List by Title {{&amp;lt; liti &amp;#34;About Hugo&amp;#34; &amp;gt;}}  Here is the page with the title About Hugo&amp;nbsp;  {{&amp;lt; liti &amp;#34;pixabay.com&amp;#34; &amp;#34;in&amp;#34; &amp;gt;}}  Pages with pixabay.com in it&amp;rsquo;s title.
-Here they are: teaserpics (pixabay.com)&amp;nbsp; photocards (pixabay.com)&amp;nbsp; testimonials (pixabay.com)&amp;nbsp; clients (pixabay.com)&amp;nbsp; jumbotrons (pixabay.com)&amp;nbsp; All pages with hugo in it&amp;rsquo;s title {{&amp;lt; liti &amp;#34;hugo&amp;#34; &amp;#34;in&amp;#34; &amp;#34;i&amp;#34; &amp;#34;ul&amp;#34; &amp;gt;}}  Here they are:
+Here they are: teaserpics (pixabay.com)&amp;nbsp; photocards (pixabay.com)&amp;nbsp; testimonials (pixabay.com)&amp;nbsp; clients (pixabay.com)&amp;nbsp; jumbotrons (pixabay.com)&amp;nbsp; All pages with hugo in it&amp;rsquo;s title  {{&amp;lt; liti &amp;#34;hugo&amp;#34; &amp;#34;in&amp;#34; &amp;#34;i&amp;#34; &amp;#34;ul&amp;#34; &amp;gt;}}  Here they are:
  Migrate to Hugo from Jekyll&amp;nbsp; teaserpics (github.</description>
     </item>
     
