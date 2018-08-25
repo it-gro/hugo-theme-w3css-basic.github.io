@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Web on hugo-theme-w3css-basic exampleSite</title>
-    <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/tags/web/</link>
+    <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/0.47.1/tags/web/</link>
     <description>Recent content in Web on hugo-theme-w3css-basic exampleSite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 11 May 2018 11:39:49 +0200</lastBuildDate>
     
-	<atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/tags/web/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/0.47.1/tags/web/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo - amnet</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/blog/2018/05/11/hugo-amet/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/0.47.1/blog/2018/05/11/hugo-amet/</link>
       <pubDate>Fri, 11 May 2018 11:39:49 +0200</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/blog/2018/05/11/hugo-amet/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/0.47.1/blog/2018/05/11/hugo-amet/</guid>
       <description>&lt;p&gt;Aliquam erat volutpat. Nunc eleifend leo vitae magna. In id erat non orci
 commodo lobortis. Proin neque massa, cursus ut, gravida ut, lobortis eget,
 lacus.&lt;/p&gt;
@@ -29,10 +29,10 @@ vel velit tristique imperdiet. Donec at pede.&lt;/p&gt;
     
     <item>
       <title>Hugo - dolor</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/blog/2017/11/10/hugo-dolor/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/0.47.1/blog/2017/11/10/hugo-dolor/</link>
       <pubDate>Fri, 10 Nov 2017 00:00:00 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/blog/2017/11/10/hugo-dolor/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/0.47.1/blog/2017/11/10/hugo-dolor/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
 commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
 et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;
@@ -47,10 +47,10 @@ imperdiet a, venenatis vitae, justo.&lt;/p&gt;
     
     <item>
       <title>Hugo - lorem</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/blog/2017/11/09/hugo-lorem/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/0.47.1/blog/2017/11/09/hugo-lorem/</link>
       <pubDate>Thu, 09 Nov 2017 00:00:00 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/blog/2017/11/09/hugo-lorem/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/0.47.1/blog/2017/11/09/hugo-lorem/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
 commodo ligula eget dolor. Aenean massa.&lt;/p&gt;
 
@@ -63,10 +63,10 @@ pretium quis, sem.&lt;/p&gt;
     
     <item>
       <title>Hugo - ipsum</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/blog/2017/11/08/hugo-ipsum/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/0.47.1/blog/2017/11/08/hugo-ipsum/</link>
       <pubDate>Wed, 08 Nov 2017 00:00:00 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/blog/2017/11/08/hugo-ipsum/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/0.47.1/blog/2017/11/08/hugo-ipsum/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
 commodo ligula eget dolor. Aenean massa.&lt;/p&gt;
 
