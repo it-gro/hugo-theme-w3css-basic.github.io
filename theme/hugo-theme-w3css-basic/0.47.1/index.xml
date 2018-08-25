@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hugo-theme-w3css-basic exampleSite – hugo-theme-w3css-basic exampleSite</title>
-    <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/</link>
+    <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/</link>
     <description>Recent Hugo news from gohugo.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 13 Nov 2017 15:33:35 +0100</lastBuildDate>
     <image>
-      <url>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/img/hugo.png</url>
+      <url>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/img/hugo.png</url>
       <title>GoHugo.io</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/</link>
     </image>
     
-		  <atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/index.xml" rel='self' type="application/rss+xml" />
+		  <atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/index.xml" rel='self' type="application/rss+xml" />
     
     
     <item>
       <title>Blog: Hugo - amnet</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/blog/2018/05/11/hugo-amet/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/blog/2018/05/11/hugo-amet/</link>
       <pubDate>Fri, 11 May 2018 11:39:49 +0200</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/blog/2018/05/11/hugo-amet/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/blog/2018/05/11/hugo-amet/</guid>
       <description>
         
         
@@ -49,7 +49,7 @@ tristique imperdiet tortor. Nam euismod tellus id erat.&lt;/p&gt;
 
 
     &lt;figure class=&#39;res-figure no-photoswipe&#39;  style=&#34;width: 150px;&#34;&gt;
-      &lt;img src=&#34;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/blog/2018/05/11/hugo-amet/hugo-lorem_hu77f397ba1b7f0f571a34fad927893059_94449_150x0_resize_box_2.png&#34;
+      &lt;img src=&#34;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/blog/2018/05/11/hugo-amet/hugo-lorem_hu77f397ba1b7f0f571a34fad927893059_94449_150x0_resize_box_2.png&#34;
            alt=&#34;hugo-lorem.png&#34;
            width=&#34;150&#34; height=&#34;150&#34;
       &gt;
@@ -64,12 +64,12 @@ eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
 montes, nascetur ridiculus mus.&lt;/p&gt;
 
 &lt;p&gt;
-&lt;script src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/vendor/jquery/jquery-3.3.1.slim.min.js&#39;&gt;&lt;/script&gt;
-&lt;script src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/js/res-gallery-load-photoswipe.js&#39;&gt;&lt;/script&gt;
-&lt;link rel=&#34;stylesheet&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/vendor/photoswipe/photoswipe.css&#39; /&gt;
-&lt;link rel=&#34;stylesheet&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/vendor/photoswipe/default-skin/default-skin.css&#39; /&gt;
-&lt;script src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/vendor/photoswipe/photoswipe.min.js&#39;&gt;      &lt;/script&gt;
-&lt;script src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/vendor/photoswipe/photoswipe-ui-theme.js&#39;&gt; &lt;/script&gt;
+&lt;script src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/vendor/jquery/jquery-3.3.1.slim.min.js&#39;&gt;&lt;/script&gt;
+&lt;script src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/js/res-gallery-load-photoswipe.js&#39;&gt;&lt;/script&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/vendor/photoswipe/photoswipe.css&#39; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/vendor/photoswipe/default-skin/default-skin.css&#39; /&gt;
+&lt;script src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/vendor/photoswipe/photoswipe.min.js&#39;&gt;      &lt;/script&gt;
+&lt;script src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/vendor/photoswipe/photoswipe-ui-theme.js&#39;&gt; &lt;/script&gt;
 &lt;div class=&#34;pswp&#34; tabindex=&#34;-1&#34; role=&#34;dialog&#34; aria-hidden=&#34;true&#34;&gt;
 &lt;div class=&#34;pswp__bg&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;pswp__scroll-wrap&#34;&gt;
@@ -124,9 +124,9 @@ montes, nascetur ridiculus mus.&lt;/p&gt;
               itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;
               title=&#34;img/adventure-2528477_640.jpg&#34;
       &gt;
-        &lt;a itemprop=&#34;contentUrl&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/blog/2018/05/11/hugo-amet/img/adventure-2528477_640_hu30e96e65c77ee702b7193f618ab3b541_100786_800x0_resize_q75_box.jpg&#39; &gt;
+        &lt;a itemprop=&#34;contentUrl&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/blog/2018/05/11/hugo-amet/img/adventure-2528477_640_hu30e96e65c77ee702b7193f618ab3b541_100786_800x0_resize_q75_box.jpg&#39; &gt;
           &lt;img itemprop=&#34;thumbnail&#34;
-               src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/blog/2018/05/11/hugo-amet/img/adventure-2528477_640_hu30e96e65c77ee702b7193f618ab3b541_100786_120x120_fit_q75_box.jpg&#39;
+               src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/blog/2018/05/11/hugo-amet/img/adventure-2528477_640_hu30e96e65c77ee702b7193f618ab3b541_100786_120x120_fit_q75_box.jpg&#39;
                alt=&#39;adventure-2528477_640.jpg&#39;
                width=&#39;120&#39;  height=&#39;67&#39;
           /&gt;
@@ -149,9 +149,9 @@ montes, nascetur ridiculus mus.&lt;/p&gt;
               itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;
               title=&#34;img/coffee-cup-2317201_640.jpg&#34;
       &gt;
-        &lt;a itemprop=&#34;contentUrl&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/blog/2018/05/11/hugo-amet/img/coffee-cup-2317201_640_hu03b6e260229f1f771bea57602ba494a7_34887_800x0_resize_q75_box.jpg&#39; &gt;
+        &lt;a itemprop=&#34;contentUrl&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/blog/2018/05/11/hugo-amet/img/coffee-cup-2317201_640_hu03b6e260229f1f771bea57602ba494a7_34887_800x0_resize_q75_box.jpg&#39; &gt;
           &lt;img itemprop=&#34;thumbnail&#34;
-               src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/blog/2018/05/11/hugo-amet/img/coffee-cup-2317201_640_hu03b6e260229f1f771bea57602ba494a7_34887_120x120_fit_q75_box.jpg&#39;
+               src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/blog/2018/05/11/hugo-amet/img/coffee-cup-2317201_640_hu03b6e260229f1f771bea57602ba494a7_34887_120x120_fit_q75_box.jpg&#39;
                alt=&#39;coffee-cup-2317201_640.jpg&#39;
                width=&#39;120&#39;  height=&#39;79&#39;
           /&gt;
@@ -174,9 +174,9 @@ montes, nascetur ridiculus mus.&lt;/p&gt;
               itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;
               title=&#34;img/organic-1280537_640.jpg&#34;
       &gt;
-        &lt;a itemprop=&#34;contentUrl&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/blog/2018/05/11/hugo-amet/img/organic-1280537_640_hu03f2c529391f3ce03f4492c9e96e807e_66599_800x0_resize_q75_box.jpg&#39; &gt;
+        &lt;a itemprop=&#34;contentUrl&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/blog/2018/05/11/hugo-amet/img/organic-1280537_640_hu03f2c529391f3ce03f4492c9e96e807e_66599_800x0_resize_q75_box.jpg&#39; &gt;
           &lt;img itemprop=&#34;thumbnail&#34;
-               src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/blog/2018/05/11/hugo-amet/img/organic-1280537_640_hu03f2c529391f3ce03f4492c9e96e807e_66599_120x120_fit_q75_box.jpg&#39;
+               src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/blog/2018/05/11/hugo-amet/img/organic-1280537_640_hu03f2c529391f3ce03f4492c9e96e807e_66599_120x120_fit_q75_box.jpg&#39;
                alt=&#39;organic-1280537_640.jpg&#39;
                width=&#39;120&#39;  height=&#39;79&#39;
           /&gt;
@@ -216,10 +216,10 @@ purus. Pellentesque tristique imperdiet tortor. Nam euismod tellus id erat.&lt;/
     
     <item>
       <title>Blog: Hugo - **highlight** :art:</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/blog/2017/11/24/hugo-highlight-chromastyles/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/blog/2017/11/24/hugo-highlight-chromastyles/</link>
       <pubDate>Fri, 24 Nov 2017 08:44:12 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/blog/2017/11/24/hugo-highlight-chromastyles/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/blog/2017/11/24/hugo-highlight-chromastyles/</guid>
       <description>
         
         
@@ -597,10 +597,10 @@ Available styles are listed here: &lt;a href=&#34;https://help.farbox.com/pygmen
     
     <item>
       <title>: FAQ</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/faq/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/faq/</link>
       <pubDate>Mon, 13 Nov 2017 15:33:35 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/faq/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/faq/</guid>
       <description>
         
         
@@ -704,12 +704,12 @@ porta a, aliquet quis, semper a, massa.  Phasellus purus. Pellentesque
 tristique imperdiet tortor. Nam euismod tellus id erat.&lt;/p&gt;
 
 &lt;p&gt;
-&lt;script src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/vendor/jquery/jquery-3.3.1.slim.min.js&#39;&gt;&lt;/script&gt;
-&lt;script src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/vendor/liwenyip/hugo-easy-gallery/js/load-photoswipe.js&#39;&gt;&lt;/script&gt;
-&lt;link rel=&#34;stylesheet&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/vendor/photoswipe/photoswipe.css&#39; /&gt;
-&lt;link rel=&#34;stylesheet&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/vendor/photoswipe/default-skin/default-skin.css&#39; /&gt;
-&lt;script src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/vendor/photoswipe/photoswipe.min.js&#39;&gt;      &lt;/script&gt;
-&lt;script src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/vendor/photoswipe/photoswipe-ui-theme.js&#39;&gt; &lt;/script&gt;
+&lt;script src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/vendor/jquery/jquery-3.3.1.slim.min.js&#39;&gt;&lt;/script&gt;
+&lt;script src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/vendor/liwenyip/hugo-easy-gallery/js/load-photoswipe.js&#39;&gt;&lt;/script&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/vendor/photoswipe/photoswipe.css&#39; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/vendor/photoswipe/default-skin/default-skin.css&#39; /&gt;
+&lt;script src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/vendor/photoswipe/photoswipe.min.js&#39;&gt;      &lt;/script&gt;
+&lt;script src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/vendor/photoswipe/photoswipe-ui-theme.js&#39;&gt; &lt;/script&gt;
 &lt;div class=&#34;pswp&#34; tabindex=&#34;-1&#34; role=&#34;dialog&#34; aria-hidden=&#34;true&#34;&gt;
 &lt;div class=&#34;pswp__bg&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;pswp__scroll-wrap&#34;&gt;
@@ -748,14 +748,14 @@ tristique imperdiet tortor. Nam euismod tellus id erat.&lt;/p&gt;
 &lt;/div&gt;
 
 
-&lt;link rel=&#34;stylesheet&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css&#39; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/vendor/liwenyip/hugo-easy-gallery/css/hugo-easy-gallery.css&#39; /&gt;
 
 &lt;div class=&#39;box fancy-figure caption-position-bottom caption-effect-appear&#39; style=&#39;max-width:200px&#39;&gt;
   &lt;figure  itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;associatedMedia&#34; src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/images/teaserpics/pixabay.com/coffee-2306471_640-thumb.jpg&#39; alt=&#39;Coffee&#39;/&gt;
+      &lt;img itemprop=&#34;associatedMedia&#34; src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/images/teaserpics/pixabay.com/coffee-2306471_640-thumb.jpg&#39; alt=&#39;Coffee&#39;/&gt;
     &lt;/div&gt;
-    &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/images/teaserpics/pixabay.com/coffee-2306471_640.jpg&#39; &gt;&lt;/a&gt;
+    &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/images/teaserpics/pixabay.com/coffee-2306471_640.jpg&#39; &gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;Hej&lt;/h4&gt;&lt;p&gt;Coffee&lt;/p&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -766,9 +766,9 @@ tristique imperdiet tortor. Nam euismod tellus id erat.&lt;/p&gt;
 &lt;div class=&#39;box fancy-figure caption-position-bottom caption-effect-appear&#39; style=&#39;max-width:200px&#39;&gt;
   &lt;figure  itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;associatedMedia&#34; src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/images/teaserpics/pixabay.com/coffee-2714970_640-thumb.jpg&#39; alt=&#39;Coffee&#39;/&gt;
+      &lt;img itemprop=&#34;associatedMedia&#34; src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/images/teaserpics/pixabay.com/coffee-2714970_640-thumb.jpg&#39; alt=&#39;Coffee&#39;/&gt;
     &lt;/div&gt;
-    &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/images/teaserpics/pixabay.com/coffee-2714970_640.jpg&#39; &gt;&lt;/a&gt;
+    &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/images/teaserpics/pixabay.com/coffee-2714970_640.jpg&#39; &gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;p&gt;Coffee&lt;/p&gt;
         &lt;footer&gt;&lt;small&gt;(c) pixabay.com (CC0)&lt;/small&gt;&lt;/footer&gt;
       &lt;/figcaption&gt;
@@ -780,9 +780,9 @@ tristique imperdiet tortor. Nam euismod tellus id erat.&lt;/p&gt;
 &lt;div class=&#39;box fancy-figure caption-position-bottom caption-effect-appear&#39; style=&#39;max-width:200px&#39;&gt;
   &lt;figure  itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;associatedMedia&#34; src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/images/teaserpics/pixabay.com/coffee-beans-2258839_640-thumb.jpg&#39; alt=&#39;Coffee&#39;/&gt;
+      &lt;img itemprop=&#34;associatedMedia&#34; src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/images/teaserpics/pixabay.com/coffee-beans-2258839_640-thumb.jpg&#39; alt=&#39;Coffee&#39;/&gt;
     &lt;/div&gt;
-    &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/images/teaserpics/pixabay.com/coffee-beans-2258839_640.jpg&#39; &gt;&lt;/a&gt;
+    &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/images/teaserpics/pixabay.com/coffee-beans-2258839_640.jpg&#39; &gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;p&gt;Coffee&lt;/p&gt;
         &lt;footer&gt;&lt;small&gt;&lt;a href=&#39;https://pixabay.com&#39;&gt;(c) pixabay.com (CC0)&lt;/a&gt;&lt;/small&gt;&lt;/footer&gt;
       &lt;/figcaption&gt;
@@ -823,9 +823,9 @@ nulla. Nullam rutrum. Nam vestibulum accumsan nisl.&lt;/p&gt;
 &lt;div class=&#39;gallery caption-position-bottom caption-effect-none hover-effect-grow hover-transition&#39; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
         &lt;div class=&#34;box&#34;&gt;
           &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/images/photocards/pixabay.com/01-photocard-thumb.jpg&#39;);&#34; &gt;
-              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/images/photocards/pixabay.com/01-photocard.jpg&#39; &gt;
-                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/images/photocards/pixabay.com/01-photocard-thumb.jpg&#39; alt=&#39;01-photocard.jpg&#39; /&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/images/photocards/pixabay.com/01-photocard-thumb.jpg&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/images/photocards/pixabay.com/01-photocard.jpg&#39; &gt;
+                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/images/photocards/pixabay.com/01-photocard-thumb.jpg&#39; alt=&#39;01-photocard.jpg&#39; /&gt;
               &lt;/a&gt;
             &lt;/div&gt;
             &lt;figcaption&gt;
@@ -835,9 +835,9 @@ nulla. Nullam rutrum. Nam vestibulum accumsan nisl.&lt;/p&gt;
         &lt;/div&gt;
         &lt;div class=&#34;box&#34;&gt;
           &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/images/photocards/pixabay.com/02-photocard-thumb.jpg&#39;);&#34; &gt;
-              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/images/photocards/pixabay.com/02-photocard.jpg&#39; &gt;
-                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/images/photocards/pixabay.com/02-photocard-thumb.jpg&#39; alt=&#39;02-photocard.jpg&#39; /&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/images/photocards/pixabay.com/02-photocard-thumb.jpg&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/images/photocards/pixabay.com/02-photocard.jpg&#39; &gt;
+                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/images/photocards/pixabay.com/02-photocard-thumb.jpg&#39; alt=&#39;02-photocard.jpg&#39; /&gt;
               &lt;/a&gt;
             &lt;/div&gt;
             &lt;figcaption&gt;
@@ -847,9 +847,9 @@ nulla. Nullam rutrum. Nam vestibulum accumsan nisl.&lt;/p&gt;
         &lt;/div&gt;
         &lt;div class=&#34;box&#34;&gt;
           &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/images/photocards/pixabay.com/03-photocard-thumb.jpg&#39;);&#34; &gt;
-              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/images/photocards/pixabay.com/03-photocard.jpg&#39; &gt;
-                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/images/photocards/pixabay.com/03-photocard-thumb.jpg&#39; alt=&#39;03-photocard.jpg&#39; /&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/images/photocards/pixabay.com/03-photocard-thumb.jpg&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/images/photocards/pixabay.com/03-photocard.jpg&#39; &gt;
+                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/images/photocards/pixabay.com/03-photocard-thumb.jpg&#39; alt=&#39;03-photocard.jpg&#39; /&gt;
               &lt;/a&gt;
             &lt;/div&gt;
             &lt;figcaption&gt;
@@ -859,9 +859,9 @@ nulla. Nullam rutrum. Nam vestibulum accumsan nisl.&lt;/p&gt;
         &lt;/div&gt;
         &lt;div class=&#34;box&#34;&gt;
           &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/images/photocards/pixabay.com/04-photocard-thumb.jpg&#39;);&#34; &gt;
-              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/images/photocards/pixabay.com/04-photocard.jpg&#39; &gt;
-                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/images/photocards/pixabay.com/04-photocard-thumb.jpg&#39; alt=&#39;04-photocard.jpg&#39; /&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/images/photocards/pixabay.com/04-photocard-thumb.jpg&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/images/photocards/pixabay.com/04-photocard.jpg&#39; &gt;
+                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/images/photocards/pixabay.com/04-photocard-thumb.jpg&#39; alt=&#39;04-photocard.jpg&#39; /&gt;
               &lt;/a&gt;
             &lt;/div&gt;
             &lt;figcaption&gt;
@@ -871,9 +871,9 @@ nulla. Nullam rutrum. Nam vestibulum accumsan nisl.&lt;/p&gt;
         &lt;/div&gt;
         &lt;div class=&#34;box&#34;&gt;
           &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/images/photocards/pixabay.com/05-photocard-thumb.png&#39;);&#34; &gt;
-              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/images/photocards/pixabay.com/05-photocard.png&#39; &gt;
-                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/images/photocards/pixabay.com/05-photocard-thumb.png&#39; alt=&#39;05-photocard.png&#39; /&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/images/photocards/pixabay.com/05-photocard-thumb.png&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/images/photocards/pixabay.com/05-photocard.png&#39; &gt;
+                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/images/photocards/pixabay.com/05-photocard-thumb.png&#39; alt=&#39;05-photocard.png&#39; /&gt;
               &lt;/a&gt;
             &lt;/div&gt;
             &lt;figcaption&gt;
@@ -883,9 +883,9 @@ nulla. Nullam rutrum. Nam vestibulum accumsan nisl.&lt;/p&gt;
         &lt;/div&gt;
         &lt;div class=&#34;box&#34;&gt;
           &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/images/photocards/pixabay.com/06-photocard-thumb.jpg&#39;);&#34; &gt;
-              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/images/photocards/pixabay.com/06-photocard.jpg&#39; &gt;
-                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/images/photocards/pixabay.com/06-photocard-thumb.jpg&#39; alt=&#39;06-photocard.jpg&#39; /&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/images/photocards/pixabay.com/06-photocard-thumb.jpg&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/images/photocards/pixabay.com/06-photocard.jpg&#39; &gt;
+                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/images/photocards/pixabay.com/06-photocard-thumb.jpg&#39; alt=&#39;06-photocard.jpg&#39; /&gt;
               &lt;/a&gt;
             &lt;/div&gt;
             &lt;figcaption&gt;
@@ -895,9 +895,9 @@ nulla. Nullam rutrum. Nam vestibulum accumsan nisl.&lt;/p&gt;
         &lt;/div&gt;
         &lt;div class=&#34;box&#34;&gt;
           &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/images/photocards/pixabay.com/07-photocard-thumb.jpg&#39;);&#34; &gt;
-              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/images/photocards/pixabay.com/07-photocard.jpg&#39; &gt;
-                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/images/photocards/pixabay.com/07-photocard-thumb.jpg&#39; alt=&#39;07-photocard.jpg&#39; /&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/images/photocards/pixabay.com/07-photocard-thumb.jpg&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/images/photocards/pixabay.com/07-photocard.jpg&#39; &gt;
+                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/images/photocards/pixabay.com/07-photocard-thumb.jpg&#39; alt=&#39;07-photocard.jpg&#39; /&gt;
               &lt;/a&gt;
             &lt;/div&gt;
             &lt;figcaption&gt;
@@ -907,9 +907,9 @@ nulla. Nullam rutrum. Nam vestibulum accumsan nisl.&lt;/p&gt;
         &lt;/div&gt;
         &lt;div class=&#34;box&#34;&gt;
           &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/images/photocards/pixabay.com/08-photocard-thumb.jpg&#39;);&#34; &gt;
-              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/images/photocards/pixabay.com/08-photocard.jpg&#39; &gt;
-                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/images/photocards/pixabay.com/08-photocard-thumb.jpg&#39; alt=&#39;08-photocard.jpg&#39; /&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/images/photocards/pixabay.com/08-photocard-thumb.jpg&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/images/photocards/pixabay.com/08-photocard.jpg&#39; &gt;
+                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/images/photocards/pixabay.com/08-photocard-thumb.jpg&#39; alt=&#39;08-photocard.jpg&#39; /&gt;
               &lt;/a&gt;
             &lt;/div&gt;
             &lt;figcaption&gt;
@@ -919,9 +919,9 @@ nulla. Nullam rutrum. Nam vestibulum accumsan nisl.&lt;/p&gt;
         &lt;/div&gt;
         &lt;div class=&#34;box&#34;&gt;
           &lt;figure itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/images/photocards/pixabay.com/09-photocard-thumb.jpg&#39;);&#34; &gt;
-              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/images/photocards/pixabay.com/09-photocard.jpg&#39; &gt;
-                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/images/photocards/pixabay.com/09-photocard-thumb.jpg&#39; alt=&#39;09-photocard.jpg&#39; /&gt;
+            &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/images/photocards/pixabay.com/09-photocard-thumb.jpg&#39;);&#34; &gt;
+              &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/images/photocards/pixabay.com/09-photocard.jpg&#39; &gt;
+                &lt;img src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/images/photocards/pixabay.com/09-photocard-thumb.jpg&#39; alt=&#39;09-photocard.jpg&#39; /&gt;
               &lt;/a&gt;
             &lt;/div&gt;
             &lt;figcaption&gt;
@@ -973,10 +973,10 @@ nulla. Nullam rutrum. Nam vestibulum accumsan nisl.&lt;/p&gt;
     
     <item>
       <title>Blog: Hugo - dolor</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/blog/2017/11/10/hugo-dolor/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/blog/2017/11/10/hugo-dolor/</link>
       <pubDate>Fri, 10 Nov 2017 00:00:00 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/blog/2017/11/10/hugo-dolor/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/blog/2017/11/10/hugo-dolor/</guid>
       <description>
         
         
@@ -1013,10 +1013,10 @@ cursus nunc,&lt;/p&gt;
     
     <item>
       <title>Blog: Hugo - lorem</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/blog/2017/11/09/hugo-lorem/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/blog/2017/11/09/hugo-lorem/</link>
       <pubDate>Thu, 09 Nov 2017 00:00:00 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/blog/2017/11/09/hugo-lorem/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/blog/2017/11/09/hugo-lorem/</guid>
       <description>
         
         
@@ -1060,10 +1060,10 @@ sodales, augue velit cursus nunc.&lt;/p&gt;
     
     <item>
       <title>Blog: Hugo - ipsum</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/blog/2017/11/08/hugo-ipsum/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/blog/2017/11/08/hugo-ipsum/</link>
       <pubDate>Wed, 08 Nov 2017 00:00:00 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/blog/2017/11/08/hugo-ipsum/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/blog/2017/11/08/hugo-ipsum/</guid>
       <description>
         
         
@@ -1095,10 +1095,10 @@ enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a.&lt;/p&gt;
     
     <item>
       <title>Blog: Golang - a closer look </title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/blog/2017/10/09/golang-a-closer-look/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/blog/2017/10/09/golang-a-closer-look/</link>
       <pubDate>Mon, 09 Oct 2017 00:00:00 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/blog/2017/10/09/golang-a-closer-look/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/blog/2017/10/09/golang-a-closer-look/</guid>
       <description>
         
         
@@ -1185,10 +1185,10 @@ Read this article for more details: &lt;a href=&#34;https://blog.golang.org/goph
     
     <item>
       <title>Blog: Emacs - it all starts here</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/blog/2017/09/10/emacs-it-all-starts-here/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/blog/2017/09/10/emacs-it-all-starts-here/</link>
       <pubDate>Sun, 10 Sep 2017 19:00:00 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/blog/2017/09/10/emacs-it-all-starts-here/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/blog/2017/09/10/emacs-it-all-starts-here/</guid>
       <description>
         
         
@@ -1217,7 +1217,7 @@ not come with Emacs::); it would be an interesting project to run the
 original TECO Emacs inside of Emacs.&lt;/p&gt;
 
 &lt;p&gt;For some not-so-serious alternative reasons for Emacs to have that
-name, check out the file &lt;a href=&#34;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/blog/1985/03/20/emacs-jokes/&#34; target=&#34;_blank&#34;&gt;etc/JOKES&lt;/a&gt;
+name, check out the file &lt;a href=&#34;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/blog/1985/03/20/emacs-jokes/&#34; target=&#34;_blank&#34;&gt;etc/JOKES&lt;/a&gt;
 (*note File-name conventions::).&lt;/p&gt;
 
 &lt;h2 id=&#34;what-is-different-about-emacs-25&#34;&gt;What is different about Emacs 25?&lt;/h2&gt;
@@ -1295,10 +1295,10 @@ provide toolkit scroll bars, namely Gtk+, Lucid, Motif and Windows.&lt;/p&gt;&lt
     
     <item>
       <title>Blog: Ein Test mit Männern</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/blog/2000/05/31/m%C3%A4nner/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/blog/2000/05/31/m%C3%A4nner/</link>
       <pubDate>Wed, 31 May 2000 17:32:27 +0200</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/blog/2000/05/31/m%C3%A4nner/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/blog/2000/05/31/m%C3%A4nner/</guid>
       <description>
         
         
@@ -1311,10 +1311,10 @@ provide toolkit scroll bars, namely Gtk+, Lucid, Motif and Windows.&lt;/p&gt;&lt
     
     <item>
       <title>Blog: Emacs Jokes</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/blog/1985/03/20/emacs-jokes/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/blog/1985/03/20/emacs-jokes/</link>
       <pubDate>Wed, 20 Mar 1985 20:00:00 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/blog/1985/03/20/emacs-jokes/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/blog/1985/03/20/emacs-jokes/</guid>
       <description>
         
         
@@ -1752,10 +1752,10 @@ ED! ED IS THE STANDARD!!!&lt;/p&gt;
     
     <item>
       <title>: </title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/readme/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/readme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/readme/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/readme/</guid>
       <description>
         
         
@@ -3661,9 +3661,9 @@ drwxrwxr-x 2018-04-13            pages
 &lt;div class=&#39;box fancy-figure caption-position-bottom caption-effect-none&#39; style=&#39;max-width:640px&#39;&gt;
   &lt;figure  itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;associatedMedia&#34; src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/images/photocards/pixabay.com/04-photocard.jpg&#39; alt=&#39;figure caption 4&#39;/&gt;
+      &lt;img itemprop=&#34;associatedMedia&#34; src=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/images/photocards/pixabay.com/04-photocard.jpg&#39; alt=&#39;figure caption 4&#39;/&gt;
     &lt;/div&gt;
-    &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/images/photocards/pixabay.com/04-photocard.jpg&#39; &gt;&lt;/a&gt;
+    &lt;a itemprop=&#34;associatedMedia&#34; href=&#39;https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.47.1/images/photocards/pixabay.com/04-photocard.jpg&#39; &gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;p&gt;figure caption 4&lt;/p&gt;
         &lt;footer&gt;&lt;small&gt;&lt;a href=&#39;https://www.example.com&#39;&gt;(c) by bar 4&lt;/a&gt;&lt;/small&gt;&lt;/footer&gt;
       &lt;/figcaption&gt;

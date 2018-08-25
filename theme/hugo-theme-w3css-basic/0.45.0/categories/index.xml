@@ -2,101 +2,101 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on hugo-theme-w3css-basic exampleSite</title>
-    <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/categories/</link>
+    <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.45.0/categories/</link>
     <description>Recent content in Categories on hugo-theme-w3css-basic exampleSite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.45.0/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Development</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/categories/development/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.45.0/categories/development/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/categories/development/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.45.0/categories/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Eyecatcher</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/categories/eyecatcher/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.45.0/categories/eyecatcher/</link>
       <pubDate>Wed, 22 Nov 2017 13:53:53 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/categories/eyecatcher/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.45.0/categories/eyecatcher/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Features</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/categories/features/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.45.0/categories/features/</link>
       <pubDate>Wed, 22 Nov 2017 13:55:13 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/categories/features/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.45.0/categories/features/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Golang</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/categories/golang/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.45.0/categories/golang/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/categories/golang/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.45.0/categories/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo Basic Example</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/categories/hugo-basic-example/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.45.0/categories/hugo-basic-example/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/categories/hugo-basic-example/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.45.0/categories/hugo-basic-example/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Know How</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/categories/know-how/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.45.0/categories/know-how/</link>
       <pubDate>Mon, 13 Nov 2017 15:37:04 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/categories/know-how/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.45.0/categories/know-how/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Legal</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/categories/legal/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.45.0/categories/legal/</link>
       <pubDate>Mon, 13 Nov 2017 15:33:35 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/categories/legal/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.45.0/categories/legal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Photocards</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/categories/photocards/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.45.0/categories/photocards/</link>
       <pubDate>Tue, 14 Nov 2017 14:47:02 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/categories/photocards/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.45.0/categories/photocards/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Programming</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/categories/programming/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.45.0/categories/programming/</link>
       <pubDate>Mon, 09 Oct 2017 00:00:00 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/categories/programming/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.45.0/categories/programming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>This Theme</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/categories/this-theme/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.45.0/categories/this-theme/</link>
       <pubDate>Wed, 22 Nov 2017 07:41:52 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/categories/this-theme/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.45.0/categories/this-theme/</guid>
       <description></description>
     </item>
     

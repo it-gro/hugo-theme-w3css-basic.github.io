@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Phasellus on hugo-theme-w3css-basic exampleSite</title>
-    <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/tags/phasellus/</link>
+    <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.44.0/tags/phasellus/</link>
     <description>Recent content in Phasellus on hugo-theme-w3css-basic exampleSite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 13 Nov 2017 15:37:04 +0100</lastBuildDate>
     
-	<atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/tags/phasellus/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.44.0/tags/phasellus/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Convallis</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/pages/page-convallis/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.44.0/pages/page-convallis/</link>
       <pubDate>Mon, 13 Nov 2017 15:37:04 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/pages/page-convallis/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.44.0/pages/page-convallis/</guid>
       <description>Pellentesque dapibus suscipit ligula. Donec posuere augue in quam. Etiam vel tortor sodales tellus ultricies commodo. Suspendisse potenti. Aenean in sem ac leo mollis blandit. Donec neque quam, dignissim in, mollis nec, sagittis eu, wisi.
 USE[master];GOALTERDATABASE[db_name_test]SETSINGLE_USERWITHROLLBACKIMMEDIATE;GOALTERDATABASE[db_name_test]ModifyName=&amp;#39;db_name_dev&amp;#39;;GOALTERDATABASE[db_name_dev]SETMULTI_USERWITHROLLBACKIMMEDIATE;GO Phasellus lacus. Etiam laoreet quam sed arcu. Phasellus at dui in ligula mollis ultricies. Integer placerat tristique nisl. Praesent augue.
 Fusce commodo. Vestibulum convallis, lorem a tempus semper, dui dui euismod elit, vitae placerat urna tortor vitae lacus.</description>
@@ -24,10 +24,10 @@ Fusce commodo. Vestibulum convallis, lorem a tempus semper, dui dui euismod elit
     
     <item>
       <title>Phasellus</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/pages/folder20/folder21/folder211/phasellus/</link>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.44.0/pages/folder20/folder21/folder211/phasellus/</link>
       <pubDate>Mon, 13 Nov 2017 15:37:04 +0100</pubDate>
       
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/%7Bversion%7D/pages/folder20/folder21/folder211/phasellus/</guid>
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic$/0.44.0/pages/folder20/folder21/folder211/phasellus/</guid>
       <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
 Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
