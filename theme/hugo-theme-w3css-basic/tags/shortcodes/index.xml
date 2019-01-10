@@ -34,9 +34,7 @@ commodo lobortis. Proin neque massa, cursus ut, gravida ut, lobortis eget,
 lacus.&lt;/p&gt;
 
 &lt;p&gt;Sed diam. Praesent fermentum tempor tellus. Nullam tempus. Mauris ac felis
-vel velit tristique imperdiet. Donec at pede.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+vel velit tristique imperdiet. Donec at pede.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -56,8 +54,7 @@ vel velit tristique imperdiet. Donec at pede.&lt;/p&gt;
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/theme/hugo-theme-w3css-basic/pages/showcase/attach-page-resources/</guid>
       <description>&lt;p&gt;Add page resources of type &lt;em&gt;application&lt;/em&gt; as attachments to a page via the
-&lt;code&gt;res-attach&lt;/code&gt; shortcode.
-&lt;/p&gt;</description>
+&lt;code&gt;res-attach&lt;/code&gt; shortcode.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -72,8 +69,7 @@ This only works for
 which are &lt;a href=&#34;https://gohugo.io/content-management/page-resources/&#34; target=&#34;_blank&#34;&gt;page
 resources&lt;/a&gt;, not for images
 in the /static folder.
-This theme provides a shortcode &lt;code&gt;res-figure&lt;/code&gt;  for page resource image processing.
-&lt;/p&gt;</description>
+This theme provides a shortcode &lt;code&gt;res-figure&lt;/code&gt;  for page resource image processing.&lt;/p&gt;</description>
     </item>
     
     <item>

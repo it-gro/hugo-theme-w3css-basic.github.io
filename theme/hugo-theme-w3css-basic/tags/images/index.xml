@@ -33,8 +33,7 @@ This only works for
 which are &lt;a href=&#34;https://gohugo.io/content-management/page-resources/&#34; target=&#34;_blank&#34;&gt;page
 resources&lt;/a&gt;, not for images
 in the /static folder.
-This theme provides a shortcode &lt;code&gt;res-figure&lt;/code&gt;  for page resource image processing.
-&lt;/p&gt;</description>
+This theme provides a shortcode &lt;code&gt;res-figure&lt;/code&gt;  for page resource image processing.&lt;/p&gt;</description>
     </item>
     
   </channel>

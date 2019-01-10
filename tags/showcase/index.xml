@@ -40,8 +40,7 @@ https://gohugo.io/templates/shortcode-templates
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/attach-page-resources/</guid>
       <description>&lt;p&gt;Add page resources of type &lt;em&gt;application&lt;/em&gt; as attachments to a page via the
-&lt;code&gt;res-attach&lt;/code&gt; shortcode.
-&lt;/p&gt;</description>
+&lt;code&gt;res-attach&lt;/code&gt; shortcode.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -56,8 +55,7 @@ This only works for
 which are &lt;a href=&#34;https://gohugo.io/content-management/page-resources/&#34; target=&#34;_blank&#34;&gt;page
 resources&lt;/a&gt;, not for images
 in the /static folder.
-This theme provides a shortcode &lt;code&gt;res-figure&lt;/code&gt;  for page resource image processing.
-&lt;/p&gt;</description>
+This theme provides a shortcode &lt;code&gt;res-figure&lt;/code&gt;  for page resource image processing.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -95,8 +93,7 @@ Here they are: teaserpics (pixabay.com)&amp;nbsp; photocards (pixabay.com)&amp;n
       <pubDate>Fri, 05 Jan 2018 20:38:50 +0100</pubDate>
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/console-01/</guid>
-      <description>&lt;p&gt;See themes.gohugo.io for a list of themes to consider.
-&lt;/p&gt;</description>
+      <description>&lt;p&gt;See themes.gohugo.io for a list of themes to consider.&lt;/p&gt;</description>
     </item>
     
     <item>

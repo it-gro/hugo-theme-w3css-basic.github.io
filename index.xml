@@ -32,8 +32,6 @@ lacus.&lt;/p&gt;
 &lt;p&gt;Sed diam. Praesent fermentum tempor tellus. Nullam tempus. Mauris ac felis
 vel velit tristique imperdiet. Donec at pede.&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
 &lt;p&gt;Etiam vel neque nec dui dignissim bibendum. Vivamus id enim. Phasellus neque
 orci, porta a, aliquet quis, semper a, massa. Phasellus purus. Pellentesque
 tristique imperdiet tortor. Nam euismod tellus id erat.&lt;/p&gt;
@@ -228,8 +226,6 @@ From Hugo 0.28, the default syntax hightlighter in Hugo is Chroma; it
 is built in Go and is really, really fast – and for the most important
 parts compatible with Pygments.
 See &lt;a href=&#34;https://gohugo.io/content-management/syntax-highlighting&#34; target=&#34;_blank&#34;&gt;https://gohugo.io/content-management/syntax-highlighting&lt;/a&gt; for more.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;In this theme we set&lt;/p&gt;
 
@@ -989,8 +985,6 @@ sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
 aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
 imperdiet a, venenatis vitae, justo.&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
 &lt;p&gt;Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras
 dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend
 tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac,
@@ -1026,8 +1020,6 @@ commodo ligula eget dolor. Aenean massa.&lt;/p&gt;
 &lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
 ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
 pretium quis, sem.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
 aliquet nec, vulputate eget, arcu.&lt;/p&gt;
@@ -1076,8 +1068,6 @@ pretium quis, sem.&lt;/p&gt;
 
 &lt;p&gt;Nullam dictum felis eu pede mollis pretium.&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
 &lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
 ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
 pretium quis, sem.&lt;/p&gt;
@@ -1110,8 +1100,6 @@ nisl, tincidunt et, mattis eget, convallis nec, purus.&lt;/p&gt;
 ridiculus mus. Nulla posuere. Donec vitae dolor. Nullam tristique diam
 non turpis. Cras placerat accumsan nulla. Nullam rutrum. Nam
 vestibulum accumsan nisl.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;pellentesque-condimentum-magna-ut-suscipit&#34;&gt;Pellentesque condimentum, magna ut suscipit&lt;/h1&gt;
 
@@ -1200,8 +1188,6 @@ on ITS at the time.”&lt;/p&gt;
 the editor TECO (Text Editor and COrrector, originally Tape Editor and
 COrrector) under ITS (the Incompatible Timesharing System) on a
 PDP-10.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;RMS had already extended TECO with a “real-time” full-screen mode with
 reprogrammable keys. Emacs was started by Guy Steele as a project to
@@ -1324,8 +1310,6 @@ acronym).&lt;/p&gt;
 
 &lt;p&gt;This seems to open the way to a whole gnu class of jokes.  For
 example:&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;Q:  What do you call a person who hacks while wearing no clothes?&lt;br /&gt;
@@ -1759,7 +1743,9 @@ ED! ED IS THE STANDARD!!!&lt;/p&gt;
       <description>
         
         
-        &lt;h1 id=&#34;w3-css-basic-theme-for-hugo&#34;&gt;W3.CSS Basic Theme for Hugo&lt;/h1&gt;
+        
+
+&lt;h1 id=&#34;w3-css-basic-theme-for-hugo&#34;&gt;W3.CSS Basic Theme for Hugo&lt;/h1&gt;
 
 &lt;p&gt;W3.CSS Basic is a website template built with &lt;a href=&#34;https://www.w3schools.com/w3css/&#34; target=&#34;_blank&#34;&gt;W3.CSS&lt;/a&gt;.&lt;br /&gt;
 Inspiration was taken from
@@ -2368,9 +2354,9 @@ the language modifying the following key.&lt;/p&gt;
 &lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;Hugo&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;comes&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;with&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;reallly&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;fast&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;syntax&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;highlighting&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;from&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;Chroma.&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;...&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;In&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;this&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;theme&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;we&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;set&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&amp;lt;!--more--&lt;span class=&#34;sd&#34;&gt;&amp;gt;
+&lt;/span&gt;&lt;span class=&#34;sd&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;sd&#34;&gt;In this theme we set&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;...&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h4 id=&#34;date-format&#34;&gt;Date format&lt;/h4&gt;
 
@@ -3870,6 +3856,7 @@ for all their work&lt;/p&gt;&lt;/li&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/it-gro/hugo-theme-w3css-basic/master/images/complete.png&#34; alt=&#34;screenshot complete&#34; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
+
       </description>
     </item>
     

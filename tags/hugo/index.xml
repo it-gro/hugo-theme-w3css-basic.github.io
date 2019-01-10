@@ -22,9 +22,7 @@ commodo lobortis. Proin neque massa, cursus ut, gravida ut, lobortis eget,
 lacus.&lt;/p&gt;
 
 &lt;p&gt;Sed diam. Praesent fermentum tempor tellus. Nullam tempus. Mauris ac felis
-vel velit tristique imperdiet. Donec at pede.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+vel velit tristique imperdiet. Donec at pede.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -37,9 +35,7 @@ vel velit tristique imperdiet. Donec at pede.&lt;/p&gt;
 From Hugo 0.28, the default syntax hightlighter in Hugo is Chroma; it
 is built in Go and is really, really fast – and for the most important
 parts compatible with Pygments.
-See &lt;a href=&#34;https://gohugo.io/content-management/syntax-highlighting&#34; target=&#34;_blank&#34;&gt;https://gohugo.io/content-management/syntax-highlighting&lt;/a&gt; for more.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+See &lt;a href=&#34;https://gohugo.io/content-management/syntax-highlighting&#34; target=&#34;_blank&#34;&gt;https://gohugo.io/content-management/syntax-highlighting&lt;/a&gt; for more.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -55,9 +51,7 @@ et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;
 &lt;p&gt;Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
 sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
 aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-imperdiet a, venenatis vitae, justo.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+imperdiet a, venenatis vitae, justo.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -71,9 +65,7 @@ commodo ligula eget dolor. Aenean massa.&lt;/p&gt;
 
 &lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
 ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-pretium quis, sem.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+pretium quis, sem.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -89,9 +81,7 @@ commodo ligula eget dolor. Aenean massa.&lt;/p&gt;
 ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
 pretium quis, sem.&lt;/p&gt;
 
-&lt;p&gt;Nullam dictum felis eu pede mollis pretium.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Nullam dictum felis eu pede mollis pretium.&lt;/p&gt;</description>
     </item>
     
     <item>
