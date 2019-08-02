@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Shortcodes on W3.CSS Basic exampleSite</title>
+    <title>shortcodes on hugo-theme-w3css-basic exampleSite</title>
     <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/shortcodes/</link>
-    <description>Recent content in Shortcodes on W3.CSS Basic exampleSite</description>
+    <description>Recent content in shortcodes on hugo-theme-w3css-basic exampleSite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Nov 2017 07:41:52 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 11 May 2018 11:39:49 +0200</lastBuildDate>
     
 	<atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/shortcodes/index.xml" rel="self" type="application/rss+xml" />
     
@@ -20,7 +20,8 @@
       <description>You can extend Hugo’s built-in shortcodes by creating your own using the same templating syntax as that for single and list pages.
 Shortcodes are a means to consolidate templating into small, reusable snippets that you can embed directly inside of your content. In this sense, you can think of shortcodes as the intermediary between page and list templates and basic content files.
 https://gohugo.io/templates/shortcode-templates
- Shortcodes in this Theme for W3.</description>
+
+Shortcodes in this Theme for W3.</description>
     </item>
     
     <item>
@@ -43,8 +44,8 @@ vel velit tristique imperdiet. Donec at pede.&lt;/p&gt;</description>
       <pubDate>Tue, 08 May 2018 22:25:44 +0200</pubDate>
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/gallery-01/</guid>
-      <description>Demo with images from pixabay.com                              using shortcode: {{&amp;lt; res-gallery match=&amp;#34;**/pixabay.com/*&amp;#34; caption-position=&amp;#34;bottom&amp;#34; caption-effect=&amp;#34;fade&amp;#34; hover-effect=&amp;#34;slideup&amp;#34; &amp;gt;}} 
- pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.</description>
+      <description>Demo with images from pixabay.com  using shortcode: {{&amp;lt; res-gallery match=&amp;#34;**/pixabay.com/*&amp;#34; caption-position=&amp;#34;bottom&amp;#34; caption-effect=&amp;#34;fade&amp;#34; hover-effect=&amp;#34;slideup&amp;#34; &amp;gt;}} 
+ pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.</description>
     </item>
     
     <item>
@@ -80,7 +81,7 @@ This theme provides a shortcode &lt;code&gt;res-figure&lt;/code&gt;  for page re
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/liti-01/</guid>
       <description>liti: List by Title {{&amp;lt; liti &amp;#34;About Hugo&amp;#34; &amp;gt;}}  Here is the page with the title About Hugo&amp;nbsp;  {{&amp;lt; liti &amp;#34;pixabay.com&amp;#34; &amp;#34;in&amp;#34; &amp;gt;}}  Pages with pixabay.com in it&amp;rsquo;s title.
 Here they are: teaserpics (pixabay.com)&amp;nbsp; photocards (pixabay.com)&amp;nbsp; testimonials (pixabay.com)&amp;nbsp; clients (pixabay.com)&amp;nbsp; jumbotrons (pixabay.com)&amp;nbsp; All pages with hugo in it&amp;rsquo;s title {{&amp;lt; liti &amp;#34;hugo&amp;#34; &amp;#34;in&amp;#34; &amp;#34;i&amp;#34; &amp;#34;ul&amp;#34; &amp;gt;}}  Here they are:
- Migrate to Hugo from Jekyll&amp;nbsp; teaserpics (github.</description>
+  Migrate to Hugo from Jekyll&amp;nbsp;  teaserpics (github.</description>
     </item>
     
   </channel>

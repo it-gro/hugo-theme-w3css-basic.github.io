@@ -1,25 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Legal on W3.CSS Basic exampleSite</title>
+    <title>legal on hugo-theme-w3css-basic exampleSite</title>
     <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/legal/</link>
-    <description>Recent content in Legal on W3.CSS Basic exampleSite</description>
+    <description>Recent content in legal on hugo-theme-w3css-basic exampleSite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Nov 2017 15:33:35 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 08 Dec 2017 08:57:49 +0100</lastBuildDate>
     
 	<atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/legal/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>These Logos</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/these-logos/</link>
-      <pubDate>Mon, 13 Nov 2017 15:33:35 +0100</pubDate>
-      
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/these-logos/</guid>
-      <description>Where did the logos came from?  http://fontawesome.com/icons/ https://fontawesome.com/license
-Font Awesome is fully open source and is GPL friendly. You can use it for commercial projects, open source projects, or really just about whatever you want.  Font License  Applies to all desktop and webfont files in the following directory: font-awesome/fonts/. License: SIL OFL 1.1 URL: http://scripts.sil.org/OFL Attribution is required by MIT, SIL OLF, and CC BY licenses. Downloaded Font Awesome Free files already contain embedded comments with sufficient attribution, so you shouldn&amp;rsquo;t need to do anything additional when using these files normally.</description>
-    </item>
     
     <item>
       <title>These Pictures</title>
@@ -33,12 +23,22 @@ Are there any restrictions? All images and videos on Pixabay are released under 
     </item>
     
     <item>
+      <title>These Logos</title>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/these-logos/</link>
+      <pubDate>Mon, 13 Nov 2017 15:33:35 +0100</pubDate>
+      
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/these-logos/</guid>
+      <description>Where did the logos came from?  http://fontawesome.com/icons/ https://fontawesome.com/license
+Font Awesome is fully open source and is GPL friendly. You can use it for commercial projects, open source projects, or really just about whatever you want.  Font License  Applies to all desktop and webfont files in the following directory: font-awesome/fonts/. License: SIL OFL 1.1 URL: http://scripts.sil.org/OFL Attribution is required by MIT, SIL OLF, and CC BY licenses. Downloaded Font Awesome Free files already contain embedded comments with sufficient attribution, so you shouldn&amp;rsquo;t need to do anything additional when using these files normally.</description>
+    </item>
+    
+    <item>
       <title>teaserpics (pixabay.com)</title>
       <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/images-taken-from/pixabay-teaserpics/</link>
       <pubDate>Fri, 08 Dec 2017 08:57:29 +0100</pubDate>
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/images-taken-from/pixabay-teaserpics/</guid>
-      <description>License  https://pixabay.com/en/service/terms/  License: Images and Videos on Pixabay are released under Creative Commons CC0. https://creativecommons.org/publicdomain/zero/1.0/deed.en   Images                              using shortcode: {{&amp;lt; res-gallery match=&amp;ldquo;teaserpics/pixabay.com/*&amp;rdquo; &amp;gt;}}  pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.</description>
+      <description>License  https://pixabay.com/en/service/terms/  License: Images and Videos on Pixabay are released under Creative Commons CC0. https://creativecommons.org/publicdomain/zero/1.0/deed.en   Images  using shortcode: {{&amp;lt; res-gallery match=&amp;ldquo;teaserpics/pixabay.com/*&amp;rdquo; &amp;gt;}}  pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.</description>
     </item>
     
     <item>
@@ -47,7 +47,7 @@ Are there any restrictions? All images and videos on Pixabay are released under 
       <pubDate>Fri, 08 Dec 2017 08:57:25 +0100</pubDate>
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/images-taken-from/pixabay-photocards/</guid>
-      <description>License  https://pixabay.com/en/service/terms/  License: Images and Videos on Pixabay are released under Creative Commons CC0. https://creativecommons.org/publicdomain/zero/1.0/deed.en   Images                              using shortcode: {{&amp;lt; res-gallery match=&amp;ldquo;photocards/pixabay.com/*&amp;rdquo; caption-position=&amp;ldquo;bottom&amp;rdquo; caption-effect=&amp;ldquo;fade&amp;rdquo; hover-effect=&amp;ldquo;slideup&amp;rdquo; &amp;gt;}}  pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.</description>
+      <description>License  https://pixabay.com/en/service/terms/  License: Images and Videos on Pixabay are released under Creative Commons CC0. https://creativecommons.org/publicdomain/zero/1.0/deed.en   Images  using shortcode: {{&amp;lt; res-gallery match=&amp;ldquo;photocards/pixabay.com/*&amp;rdquo; caption-position=&amp;ldquo;bottom&amp;rdquo; caption-effect=&amp;ldquo;fade&amp;rdquo; hover-effect=&amp;ldquo;slideup&amp;rdquo; &amp;gt;}}  pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.</description>
     </item>
     
     <item>
@@ -56,7 +56,7 @@ Are there any restrictions? All images and videos on Pixabay are released under 
       <pubDate>Fri, 08 Dec 2017 08:57:29 +0100</pubDate>
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/images-taken-from/pixabay-testimonials/</guid>
-      <description>License  https://pixabay.com/en/service/terms/  License: Images and Videos on Pixabay are released under Creative Commons CC0. https://creativecommons.org/publicdomain/zero/1.0/deed.en   Images                              using shortcode: {{&amp;lt; res-gallery match=&amp;ldquo;photocards/pixabay.com/*&amp;rdquo; imgOpt=&amp;ldquo;600x&amp;rdquo; thumbCmd=&amp;ldquo;Resize&amp;rdquo; thumbOpt=&amp;ldquo;200x&amp;rdquo; &amp;gt;}}  pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.</description>
+      <description> License  https://pixabay.com/en/service/terms/  License: Images and Videos on Pixabay are released under Creative Commons CC0. https://creativecommons.org/publicdomain/zero/1.0/deed.en   Images  using shortcode: {{&amp;lt; res-gallery match=&amp;ldquo;photocards/pixabay.com/*&amp;rdquo; imgOpt=&amp;ldquo;600x&amp;rdquo; thumbCmd=&amp;ldquo;Resize&amp;rdquo; thumbOpt=&amp;ldquo;200x&amp;rdquo; &amp;gt;}}  pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     </description>
     </item>
     
     <item>
@@ -65,7 +65,7 @@ Are there any restrictions? All images and videos on Pixabay are released under 
       <pubDate>Fri, 08 Dec 2017 08:57:49 +0100</pubDate>
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/images-taken-from/pixabay-clients/</guid>
-      <description>License  https://pixabay.com/en/service/terms/  License: Images and Videos on Pixabay are released under Creative Commons CC0. https://creativecommons.org/publicdomain/zero/1.0/deed.en   Images                               pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.</description>
+      <description> License  https://pixabay.com/en/service/terms/  License: Images and Videos on Pixabay are released under Creative Commons CC0. https://creativecommons.org/publicdomain/zero/1.0/deed.en   Images   pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     </description>
     </item>
     
     <item>
@@ -74,7 +74,7 @@ Are there any restrictions? All images and videos on Pixabay are released under 
       <pubDate>Fri, 08 Dec 2017 08:57:49 +0100</pubDate>
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/images-taken-from/pixabay-jumbotrons/</guid>
-      <description> License  https://pixabay.com/en/service/terms/  License: Images and Videos on Pixabay are released under Creative Commons CC0. https://creativecommons.org/publicdomain/zero/1.0/deed.en   Images                               pixabay.comCC0 1.0     </description>
+      <description> License  https://pixabay.com/en/service/terms/  License: Images and Videos on Pixabay are released under Creative Commons CC0. https://creativecommons.org/publicdomain/zero/1.0/deed.en   Images   pixabay.comCC0 1.0     </description>
     </item>
     
     <item>
@@ -83,7 +83,7 @@ Are there any restrictions? All images and videos on Pixabay are released under 
       <pubDate>Fri, 08 Dec 2017 08:57:33 +0100</pubDate>
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/images-taken-from/gohugoio-teaserpics/</guid>
-      <description>License  Apache License 2.0, https://github.com/gohugoio/hugo/blob/master/LICENSE.md The Hugo logos are copyright © Steve Francia 2013–2017. The Hugo Gopher is based on an original work by Renée French.  Images                             Default using shortcode: {{&amp;lt; res-gallery match=&amp;ldquo;teaserpics/gohugo.io/*&amp;rdquo; &amp;gt;}}  github.com/gohugoioApache-2.0     github.</description>
+      <description>License  Apache License 2.0, https://github.com/gohugoio/hugo/blob/master/LICENSE.md The Hugo logos are copyright © Steve Francia 2013–2017. The Hugo Gopher is based on an original work by Renée French.  Images Default using shortcode: {{&amp;lt; res-gallery match=&amp;ldquo;teaserpics/gohugo.io/*&amp;rdquo; &amp;gt;}}  github.com/gohugoioApache-2.0     github.com/gohugoioApache-2.0     github.com/gohugoioApache-2.0     github.com/gohugoioApache-2.0     thumbOpt=&amp;ldquo;200x200&amp;rdquo; using shortcode: {{&amp;lt; res-gallery match=&amp;ldquo;teaserpics/gohugo.io/*&amp;rdquo; thumbCmd=&amp;rdquo;Resize&amp;rdquo; thumbOpt=&amp;ldquo;200x200&amp;rdquo; &amp;gt;}}  github.com/gohugoioApache-2.0     github.</description>
     </item>
     
     <item>
@@ -92,7 +92,7 @@ Are there any restrictions? All images and videos on Pixabay are released under 
       <pubDate>Fri, 08 Dec 2017 08:57:37 +0100</pubDate>
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/images-taken-from/wikipedia-teaserpics/</guid>
-      <description> License  Wikipedia:Text of Creative Commons Attribution-ShareAlike 3.0 Unported License https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License  Images                               CC BY-SA 3.0     CC BY-SA 3.0     </description>
+      <description> License  Wikipedia:Text of Creative Commons Attribution-ShareAlike 3.0 Unported License https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License  Images   CC BY-SA 3.0     CC BY-SA 3.0     </description>
     </item>
     
     <item>
