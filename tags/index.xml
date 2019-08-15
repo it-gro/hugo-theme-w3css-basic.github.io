@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>Hugo</title>
+      <title>hugo</title>
       <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/hugo/</link>
       <pubDate>Fri, 11 May 2018 11:39:49 +0200</pubDate>
       
@@ -57,20 +57,20 @@
     </item>
     
     <item>
-      <title>Showcase</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/showcase/</link>
-      <pubDate>Tue, 08 May 2018 22:25:44 +0200</pubDate>
-      
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/showcase/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>images</title>
       <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/images/</link>
       <pubDate>Tue, 08 May 2018 22:25:44 +0200</pubDate>
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/images/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Showcase</title>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/showcase/</link>
+      <pubDate>Tue, 08 May 2018 22:25:44 +0200</pubDate>
+      
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/showcase/</guid>
       <description></description>
     </item>
     
@@ -84,20 +84,20 @@
     </item>
     
     <item>
-      <title>Lorem</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/lorem/</link>
-      <pubDate>Wed, 22 Nov 2017 13:55:13 +0100</pubDate>
-      
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/lorem/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>front</title>
       <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/front/</link>
       <pubDate>Wed, 22 Nov 2017 13:55:13 +0100</pubDate>
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/front/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lorem</title>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/lorem/</link>
+      <pubDate>Wed, 22 Nov 2017 13:55:13 +0100</pubDate>
+      
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/lorem/</guid>
       <description></description>
     </item>
     
