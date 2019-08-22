@@ -12,15 +12,6 @@
     
     
     <item>
-      <title>Showcase</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/</link>
-      <pubDate>Fri, 05 Jan 2018 20:18:10 +0100</pubDate>
-      
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>These Pictures</title>
       <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/these-pictures/</link>
       <pubDate>Mon, 13 Nov 2017 15:33:35 +0100</pubDate>
@@ -29,24 +20,6 @@
       <description>Where did the pictures came from?  See Images taken from&amp;hellip;. https://pixabay.com/  What is Pixabay? Pixabay is a vibrant community of creatives, sharing copyright free images and videos. All contents are released under Creative Commons CC0, which makes them safe to use without asking for permission or giving credit to the artist - even for commercial purposes.
 See more: https://pixabay.com/en/service/faq/
 Are there any restrictions? All images and videos on Pixabay are released under the Creative Commons CC0.</description>
-    </item>
-    
-    <item>
-      <title>About this Theme</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/</link>
-      <pubDate>Wed, 22 Nov 2017 07:42:26 +0100</pubDate>
-      
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/hugo-theme-w3css-basic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Frontpage Eye-Catcher</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/</link>
-      <pubDate>Mon, 13 Nov 2017 15:37:04 +0100</pubDate>
-      
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -68,24 +41,6 @@ Font Awesome is fully open source and is GPL friendly. You can use it for commer
       <description>Pellentesque dapibus suscipit ligula. Donec posuere augue in quam. Etiam vel tortor sodales tellus ultricies commodo. Suspendisse potenti. Aenean in sem ac leo mollis blandit. Donec neque quam, dignissim in, mollis nec, sagittis eu, wisi.
 USE[master];GOALTERDATABASE[db_name_test]SETSINGLE_USERWITHROLLBACKIMMEDIATE;GOALTERDATABASE[db_name_test]ModifyName=&amp;#39;db_name_dev&amp;#39;;GOALTERDATABASE[db_name_dev]SETMULTI_USERWITHROLLBACKIMMEDIATE;GO Phasellus lacus. Etiam laoreet quam sed arcu. Phasellus at dui in ligula mollis ultricies. Integer placerat tristique nisl. Praesent augue.
 Fusce commodo. Vestibulum convallis, lorem a tempus semper, dui dui euismod elit, vitae placerat urna tortor vitae lacus.</description>
-    </item>
-    
-    <item>
-      <title>Nunc rutrum turpis sed pede</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder10/</link>
-      <pubDate>Thu, 08 Jun 2017 01:06:13 +0200</pubDate>
-      
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder10/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Suscipit ligula lorem</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder20/</link>
-      <pubDate>Thu, 08 Jun 2017 01:06:13 +0200</pubDate>
-      
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/folder20/</guid>
-      <description></description>
     </item>
     
   </channel>

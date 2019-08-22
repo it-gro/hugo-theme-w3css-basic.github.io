@@ -11,23 +11,5 @@
 	<atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/index.xml" rel="self" type="application/rss+xml" />
     
     
-    <item>
-      <title>Features</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/features/</link>
-      <pubDate>Wed, 22 Nov 2017 13:53:53 +0100</pubDate>
-      
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/features/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Photocards</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/photocards/</link>
-      <pubDate>Mon, 13 Nov 2017 15:37:04 +0100</pubDate>
-      
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/photocards/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
