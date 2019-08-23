@@ -48,7 +48,7 @@ imperdiet a, venenatis vitae, justo.&lt;/p&gt;</description>
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/09/hugo-lorem/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-commodo ligula eget dolor. Aenean massa.&lt;/p&gt;
+commodo ligula eget dolor. &lt;strong&gt;Aenean massa&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
 ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
@@ -61,8 +61,11 @@ pretium quis, sem.&lt;/p&gt;</description>
       <pubDate>Wed, 08 Nov 2017 00:00:00 +0100</pubDate>
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/08/hugo-ipsum/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-commodo ligula eget dolor. Aenean massa.&lt;/p&gt;
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet&lt;/p&gt;
+
+&lt;h3 id=&#34;pellen-tesque-conse-ctetuer&#34;&gt;Pellen Tesque Conse Ctetuer&lt;/h3&gt;
+
+&lt;p&gt;Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.&lt;/p&gt;
 
 &lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
 ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,

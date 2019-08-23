@@ -177,7 +177,7 @@ purus. Pellentesque tristique imperdiet tortor. Nam euismod tellus id erat.&lt;/
       <description>
         
         
-        &lt;p&gt;Hugo comes with reallly fast syntax highlighting from Chroma.
+        &lt;p&gt;Hugo comes with reallly &lt;strong&gt;fast syntax highlighting&lt;/strong&gt; from Chroma.
 From Hugo 0.28, the default syntax hightlighter in Hugo is Chroma; it
 is built in Go and is really, really fast – and for the most important
 parts compatible with Pygments.
@@ -544,6 +544,7 @@ Available styles are listed here: &lt;a href=&#34;https://help.farbox.com/pygmen
 
 
 &lt;p&gt;Check &lt;a href=&#34;https://github.com/alecthomas/chroma&#34; target=&#34;_blank&#34;&gt;https://github.com/alecthomas/chroma&lt;/a&gt; for more information.&lt;/p&gt;
+
       </description>
     </item>
     
@@ -921,7 +922,7 @@ cursus nunc,&lt;/p&gt;
         
         
         &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-commodo ligula eget dolor. Aenean massa.&lt;/p&gt;
+commodo ligula eget dolor. &lt;strong&gt;Aenean massa&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
 ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
@@ -965,8 +966,11 @@ sodales, augue velit cursus nunc.&lt;/p&gt;
       <description>
         
         
-        &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-commodo ligula eget dolor. Aenean massa.&lt;/p&gt;
+        &lt;p&gt;Lorem ipsum dolor sit amet&lt;/p&gt;
+
+&lt;h3 id=&#34;pellen-tesque-conse-ctetuer&#34;&gt;Pellen Tesque Conse Ctetuer&lt;/h3&gt;
+
+&lt;p&gt;Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.&lt;/p&gt;
 
 &lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
 ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
