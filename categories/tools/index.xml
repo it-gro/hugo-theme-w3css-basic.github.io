@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>tools on hugo-theme-w3css-basic exampleSite</title>
@@ -6,11 +6,7 @@
     <description>Recent content in tools on hugo-theme-w3css-basic exampleSite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 May 2018 11:39:49 +0200</lastBuildDate>
-    
-	<atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/tools/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 11 May 2018 11:39:49 +0200</lastBuildDate><atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/categories/tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo - amnet</title>
       <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2018/05/11/hugo-amet/</link>
@@ -20,7 +16,6 @@
       <description>&lt;p&gt;Aliquam erat volutpat. Nunc eleifend leo vitae magna. In id erat non orci
 commodo lobortis. Proin neque massa, cursus ut, gravida ut, lobortis eget,
 lacus.&lt;/p&gt;
-
 &lt;p&gt;Sed diam. Praesent fermentum tempor tellus. Nullam tempus. Mauris ac felis
 vel velit tristique imperdiet. Donec at pede.&lt;/p&gt;</description>
     </item>
@@ -34,7 +29,6 @@ vel velit tristique imperdiet. Donec at pede.&lt;/p&gt;</description>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
 commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
 et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;
-
 &lt;p&gt;Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
 sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
 aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
@@ -49,7 +43,6 @@ imperdiet a, venenatis vitae, justo.&lt;/p&gt;</description>
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/09/hugo-lorem/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
 commodo ligula eget dolor. &lt;strong&gt;Aenean massa&lt;/strong&gt;.&lt;/p&gt;
-
 &lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
 ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
 pretium quis, sem.&lt;/p&gt;</description>
@@ -62,15 +55,11 @@ pretium quis, sem.&lt;/p&gt;</description>
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/2017/11/08/hugo-ipsum/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet&lt;/p&gt;
-
 &lt;h3 id=&#34;pellen-tesque-conse-ctetuer&#34;&gt;Pellen Tesque Conse Ctetuer&lt;/h3&gt;
-
 &lt;p&gt;Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.&lt;/p&gt;
-
 &lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
 ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
 pretium quis, sem.&lt;/p&gt;
-
 &lt;p&gt;Nullam dictum felis eu pede mollis pretium.&lt;/p&gt;</description>
     </item>
     
@@ -83,7 +72,6 @@ pretium quis, sem.&lt;/p&gt;
       <description>&lt;p&gt;Emacs originally was an acronym for Editor MACroS. RMS says he
 “picked the name Emacs because &lt;E&gt; was not in use as an abbreviation
 on ITS at the time.”&lt;/p&gt;
-
 &lt;p&gt;The first Emacs was a set of macros written in 1976 at MIT by RMS for
 the editor TECO (Text Editor and COrrector, originally Tape Editor and
 COrrector) under ITS (the Incompatible Timesharing System) on a
@@ -97,9 +85,8 @@ PDP-10.&lt;/p&gt;</description>
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/blog/1985/03/20/emacs-jokes/</guid>
       <description>&lt;p&gt;Richard M. Stallman (RMS, widely known for creating EMACS) is writing
-a UNIX clone called GNU (which means Gnu&amp;rsquo;s Not Unix&amp;ndash;a recursive
+a UNIX clone called GNU (which means Gnu&#39;s Not Unix--a recursive
 acronym).&lt;/p&gt;
-
 &lt;p&gt;This seems to open the way to a whole gnu class of jokes.  For
 example:&lt;/p&gt;</description>
     </item>

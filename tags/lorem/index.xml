@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lorem on hugo-theme-w3css-basic exampleSite</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Lorem on hugo-theme-w3css-basic exampleSite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Nov 2017 13:55:13 +0100</lastBuildDate>
-    
-	<atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/lorem/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 22 Nov 2017 13:55:13 +0100</lastBuildDate><atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/lorem/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Eleifend</title>
       <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/features/01/</link>
@@ -78,6 +74,24 @@ Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
     </item>
     
     <item>
+      <title>Features</title>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/features/</link>
+      <pubDate>Wed, 22 Nov 2017 13:53:53 +0100</pubDate>
+      
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/features/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Photocards</title>
+      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/photocards/</link>
+      <pubDate>Mon, 13 Nov 2017 15:37:04 +0100</pubDate>
+      
+      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/photocards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Donec posuere augue in quam</title>
       <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/photocards/01/</link>
       <pubDate>Tue, 14 Nov 2017 14:47:02 +0100</pubDate>
@@ -96,26 +110,6 @@ Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/photocards/02/</guid>
       <description>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
 Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</description>
-    </item>
-    
-    <item>
-      <title>Donec posuere augue in quam.</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/photocards/03/</link>
-      <pubDate>Tue, 14 Nov 2017 14:47:02 +0100</pubDate>
-      
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/photocards/03/</guid>
-      <description>Plloaso mako nuto uf cakso dodtos anr koop a cupy uf cak vux noaw yerw phuno. Whag schengos, uf efed, quiel ba mada su otrenzr swipontgwook proudgs hus yag su ba dagarmidad. Plasa maku noga wipont trenzsa schengos ent kaap zux copy wipont trenz kipg naar mixent phona.
-Cak pwico siructiun ruos nust apoply tyu cak UCU sisulutiun munityuw uw cak UCU-TGU jot scannow.
-Trens roxas eis ti Plokeing quert loppe eis yop prexs.</description>
-    </item>
-    
-    <item>
-      <title>Mauris ac felis vel velit tristique imperdiet.</title>
-      <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/photocards/04/</link>
-      <pubDate>Tue, 14 Nov 2017 14:47:02 +0100</pubDate>
-      
-      <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/photocards/04/</guid>
-      <description>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Et harumd und lookum like Greek to me, dereud facilis est er expedit distinct. Nam liber te conscient to factor tum poen legum odioque civiuda. Et tam neque pecun modut est neque nonor et imper ned libidig met, consectetur adipiscing elit, sed ut labore et dolore magna aliquam makes one wonder who would ever read this stuff?</description>
     </item>
     
   </channel>

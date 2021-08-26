@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Photocards on hugo-theme-w3css-basic exampleSite</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Photocards on hugo-theme-w3css-basic exampleSite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Nov 2017 15:37:04 +0100</lastBuildDate>
-    
-	<atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/photocards/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 13 Nov 2017 15:37:04 +0100</lastBuildDate><atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/photocards/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Donec posuere augue in quam</title>
       <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/front/photocards/01/</link>
