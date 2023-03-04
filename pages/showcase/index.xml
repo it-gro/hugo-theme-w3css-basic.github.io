@@ -13,8 +13,7 @@
       <pubDate>Tue, 08 May 2018 22:25:44 +0200</pubDate>
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/gallery-01/</guid>
-      <description>Demo with images from pixabay.com                              using shortcode: {{&amp;lt; res-gallery match=&amp;#34;**/pixabay.com/*&amp;#34; caption-position=&amp;#34;bottom&amp;#34; caption-effect=&amp;#34;fade&amp;#34; hover-effect=&amp;#34;slideup&amp;#34; &amp;gt;}} 
- pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.0     pixabay.comCC0 1.</description>
+      <description>Demo with images from pixabay.com using shortcode: {{&amp;lt; res-gallery match=&amp;#34;**/pixabay.com/*&amp;#34; caption-position=&amp;#34;bottom&amp;#34; caption-effect=&amp;#34;fade&amp;#34; hover-effect=&amp;#34;slideup&amp;#34; &amp;gt;}} pixabay.comCC0 1.0 pixabay.comCC0 1.0 pixabay.comCC0 1.0 pixabay.comCC0 1.0 pixabay.comCC0 1.0 pixabay.comCC0 1.0 pixabay.comCC0 1.0 pixabay.comCC0 1.0 pixabay.comCC0 1.0 pixabay.comCC0 1.0 pixabay.comCC0 1.0 pixabay.comCC0 1.0 pixabay.comCC0 1.0 pixabay.comCC0 1.0 pixabay.comCC0 1.0 pixabay.comCC0 1.0 pixabay.comCC0 1.0 pixabay.comCC0 1.0 pixabay.comCC0 1.0 pixabay.comCC0 1.0 pixabay.comCC0 1.0 pixabay.comCC0 1.0 pixabay.comCC0 1.0 pixabay.comCC0 1.0 pixabay.comCC0 1.0 pixabay.comCC0 1.0 pixabay.comCC0 1.0 pixabay.comCC0 1.0 pixabay.</description>
     </item>
     
     <item>
@@ -48,9 +47,9 @@ This theme provides a shortcode &lt;code&gt;res-figure&lt;/code&gt;  for page re
       <pubDate>Thu, 18 Jan 2018 20:01:00 +0100</pubDate>
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/liti-01/</guid>
-      <description>liti: List by Title {{&amp;lt; liti &amp;#34;About Hugo&amp;#34; &amp;gt;}}  Here is the page with the title About Hugo&amp;nbsp;  {{&amp;lt; liti &amp;#34;pixabay.com&amp;#34; &amp;#34;in&amp;#34; &amp;gt;}}  Pages with pixabay.com in it&#39;s title.
-Here they are: teaserpics (pixabay.com)&amp;nbsp; photocards (pixabay.com)&amp;nbsp; testimonials (pixabay.com)&amp;nbsp; clients (pixabay.com)&amp;nbsp; jumbotrons (pixabay.com)&amp;nbsp; All pages with hugo in it&#39;s title {{&amp;lt; liti &amp;#34;hugo&amp;#34; &amp;#34;in&amp;#34; &amp;#34;i&amp;#34; &amp;#34;ul&amp;#34; &amp;gt;}}  Here they are:
-  Migrate to Hugo from Jekyll&amp;nbsp;  teaserpics (github.</description>
+      <description>liti: List by Title {{&amp;lt; liti &amp;#34;About Hugo&amp;#34; &amp;gt;}} Here is the page with the title About Hugo&amp;nbsp; {{&amp;lt; liti &amp;#34;pixabay.com&amp;#34; &amp;#34;in&amp;#34; &amp;gt;}} Pages with pixabay.com in it&#39;s title.
+Here they are: teaserpics (pixabay.com)&amp;nbsp; photocards (pixabay.com)&amp;nbsp; testimonials (pixabay.com)&amp;nbsp; clients (pixabay.com)&amp;nbsp; jumbotrons (pixabay.com)&amp;nbsp; All pages with hugo in it&#39;s title {{&amp;lt; liti &amp;#34;hugo&amp;#34; &amp;#34;in&amp;#34; &amp;#34;i&amp;#34; &amp;#34;ul&amp;#34; &amp;gt;}} Here they are:
+Migrate to Hugo from Jekyll&amp;nbsp; teaserpics (github.com/gohugoio)&amp;nbsp; Hugo - amnet&amp;nbsp; Hugo - Static Site Generator&amp;nbsp; Hugo - Static Site Generator&amp;nbsp; Hugo - highlight 🎨&amp;nbsp; Hugo - dolor&amp;nbsp; Hugo - lorem&amp;nbsp; Hugo - ipsum&amp;nbsp; About Hugo&amp;nbsp; Getting Started with Hugo&amp;nbsp; Really all pages with hugo in it&#39;s title {{&amp;lt; liti &amp;#34;hugo&amp;#34; &amp;#34;in&amp;#34; &amp;#34;i&amp;#34; &amp;#34;ul&amp;#34; &amp;#34;all&amp;#34; &amp;#34;.</description>
     </item>
     
     <item>
@@ -59,7 +58,7 @@ Here they are: teaserpics (pixabay.com)&amp;nbsp; photocards (pixabay.com)&amp;n
       <pubDate>Mon, 08 Jan 2018 10:34:50 +0100</pubDate>
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/code-01/</guid>
-      <description>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44  #!/usr/bin/perl ############################################################################## # use strict;  while(&amp;lt;@ARGV&amp;gt;) { my $my_dir = $_;  die(&amp;#34;$!&amp;#34;) if (not -d $my_dir); chdir $my_dir or die(&amp;#34;$!&amp;#34;); #if (not -d &amp;#34;thumbs&amp;#34;) {mkdir(&amp;#34;thumbs&amp;#34;) or die(&amp;#34;$!</description>
+      <description>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 #!/usr/bin/perl ############################################################################## # use strict; while(&amp;lt;@ARGV&amp;gt;) { my $my_dir = $_; die(&amp;#34;$!&amp;#34;) if (not -d $my_dir); chdir $my_dir or die(&amp;#34;$!&amp;#34;); #if (not -d &amp;#34;thumbs&amp;#34;) {mkdir(&amp;#34;thumbs&amp;#34;) or die(&amp;#34;$!</description>
     </item>
     
     <item>
@@ -77,7 +76,7 @@ Here they are: teaserpics (pixabay.com)&amp;nbsp; photocards (pixabay.com)&amp;n
       <pubDate>Fri, 05 Jan 2018 20:50:11 +0100</pubDate>
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/video-02/</guid>
-      <description>   </description>
+      <description> </description>
     </item>
     
     <item>
@@ -95,7 +94,7 @@ Here they are: teaserpics (pixabay.com)&amp;nbsp; photocards (pixabay.com)&amp;n
       <pubDate>Sat, 16 Dec 2017 21:46:06 +0100</pubDate>
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/showcase/video-01/</guid>
-      <description>   </description>
+      <description> </description>
     </item>
     
   </channel>

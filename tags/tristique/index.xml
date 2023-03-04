@@ -14,8 +14,7 @@
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/page-convallis/</guid>
       <description>Pellentesque dapibus suscipit ligula. Donec posuere augue in quam. Etiam vel tortor sodales tellus ultricies commodo. Suspendisse potenti. Aenean in sem ac leo mollis blandit. Donec neque quam, dignissim in, mollis nec, sagittis eu, wisi.
-USE[master];GOALTERDATABASE[db_name_test]SETSINGLE_USERWITHROLLBACKIMMEDIATE;GOALTERDATABASE[db_name_test]ModifyName=&amp;#39;db_name_dev&amp;#39;;GOALTERDATABASE[db_name_dev]SETMULTI_USERWITHROLLBACKIMMEDIATE;GOPhasellus lacus. Etiam laoreet quam sed arcu. Phasellus at dui in ligula mollis ultricies. Integer placerat tristique nisl. Praesent augue.
-Fusce commodo. Vestibulum convallis, lorem a tempus semper, dui dui euismod elit, vitae placerat urna tortor vitae lacus.</description>
+USE [master]; GO ALTER DATABASE [db_name_test] SET SINGLE_USER WITH ROLLBACK IMMEDIATE; GO ALTER DATABASE [db_name_test] Modify Name = &amp;#39;db_name_dev&amp;#39;; GO ALTER DATABASE [db_name_dev] SET MULTI_USER WITH ROLLBACK IMMEDIATE; GO Phasellus lacus. Etiam laoreet quam sed arcu.</description>
     </item>
     
   </channel>

@@ -13,7 +13,7 @@
       <pubDate>Mon, 13 Nov 2017 15:33:35 +0100</pubDate>
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/these-pictures/</guid>
-      <description>Where did the pictures came from?  See Images taken from.... https://pixabay.com/  What is Pixabay? Pixabay is a vibrant community of creatives, sharing copyright free images and videos. All contents are released under Creative Commons CC0, which makes them safe to use without asking for permission or giving credit to the artist - even for commercial purposes.
+      <description>Where did the pictures came from? See Images taken from.... https://pixabay.com/ What is Pixabay? Pixabay is a vibrant community of creatives, sharing copyright free images and videos. All contents are released under Creative Commons CC0, which makes them safe to use without asking for permission or giving credit to the artist - even for commercial purposes.
 See more: https://pixabay.com/en/service/faq/
 Are there any restrictions? All images and videos on Pixabay are released under the Creative Commons CC0.</description>
     </item>
@@ -24,8 +24,8 @@ Are there any restrictions? All images and videos on Pixabay are released under 
       <pubDate>Mon, 13 Nov 2017 15:33:35 +0100</pubDate>
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/these-logos/</guid>
-      <description>Where did the logos came from?  http://fontawesome.com/icons/ https://fontawesome.com/license
-Font Awesome is fully open source and is GPL friendly. You can use it for commercial projects, open source projects, or really just about whatever you want.  Font License  Applies to all desktop and webfont files in the following directory: font-awesome/fonts/. License: SIL OFL 1.1 URL: http://scripts.sil.org/OFL Attribution is required by MIT, SIL OLF, and CC BY licenses. Downloaded Font Awesome Free files already contain embedded comments with sufficient attribution, so you shouldn&#39;t need to do anything additional when using these files normally.</description>
+      <description>Where did the logos came from? http://fontawesome.com/icons/ https://fontawesome.com/license
+Font Awesome is fully open source and is GPL friendly. You can use it for commercial projects, open source projects, or really just about whatever you want. Font License Applies to all desktop and webfont files in the following directory: font-awesome/fonts/. License: SIL OFL 1.1 URL: http://scripts.sil.org/OFL Attribution is required by MIT, SIL OLF, and CC BY licenses. Downloaded Font Awesome Free files already contain embedded comments with sufficient attribution, so you shouldn&#39;t need to do anything additional when using these files normally.</description>
     </item>
     
     <item>
@@ -35,8 +35,7 @@ Font Awesome is fully open source and is GPL friendly. You can use it for commer
       
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/page-convallis/</guid>
       <description>Pellentesque dapibus suscipit ligula. Donec posuere augue in quam. Etiam vel tortor sodales tellus ultricies commodo. Suspendisse potenti. Aenean in sem ac leo mollis blandit. Donec neque quam, dignissim in, mollis nec, sagittis eu, wisi.
-USE[master];GOALTERDATABASE[db_name_test]SETSINGLE_USERWITHROLLBACKIMMEDIATE;GOALTERDATABASE[db_name_test]ModifyName=&amp;#39;db_name_dev&amp;#39;;GOALTERDATABASE[db_name_dev]SETMULTI_USERWITHROLLBACKIMMEDIATE;GOPhasellus lacus. Etiam laoreet quam sed arcu. Phasellus at dui in ligula mollis ultricies. Integer placerat tristique nisl. Praesent augue.
-Fusce commodo. Vestibulum convallis, lorem a tempus semper, dui dui euismod elit, vitae placerat urna tortor vitae lacus.</description>
+USE [master]; GO ALTER DATABASE [db_name_test] SET SINGLE_USER WITH ROLLBACK IMMEDIATE; GO ALTER DATABASE [db_name_test] Modify Name = &amp;#39;db_name_dev&amp;#39;; GO ALTER DATABASE [db_name_dev] SET MULTI_USER WITH ROLLBACK IMMEDIATE; GO Phasellus lacus. Etiam laoreet quam sed arcu.</description>
     </item>
     
   </channel>
