@@ -6,6 +6,8 @@
 <head>
   <!-- hi there - what do you expect to see? ...  -->
   
+  <!-- partials/head.favicon.html -->  
+
   <!-- partials/head.meta.html -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta http-equiv="content-type"    content="text/html; charset=utf-8" />
@@ -30,9 +32,16 @@
   
   <meta property="twitter:image"          content='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/images/favicons/apple-touch-icon.png' /> 
 
-    <!-- back in partials/head.html  -->
+  <!-- back in partials/head.html  -->
+
+  <title>hugo-theme-w3css-basic exampleSite</title>
+
+  <meta name="generator" content="Hugo 0.111.1">
 
   
+<!-- partials/scripts.top.html -->
+<script src='/hugo-theme-w3css-basic.github.io/js/custom.top.js?1678140686'></script>
+
   <!-- partials/head.cookieconsent.html -->
 
   <link rel="stylesheet" href="/hugo-theme-w3css-basic.github.io/vendor/insites/cookieconsent/cookieconsent.3.0.6.min.css">
@@ -42,15 +51,15 @@
     window.addEventListener("load", function(){
       window.cookieconsent.initialise({
         "palette": {
-           "popup": {
-             "background": "#fff",
-             "text":       "#444",
-           },
-           "button": {
-             "background": "#666",
-             "text":       "#fff"
-           }
-         },
+          "popup": {
+            "background": "#fff",
+            "text":       "#444",
+          },
+          "button": {
+            "background": "#666",
+            "text":       "#fff"
+          }
+        },
         "position": "bottom-left","theme" : "classic",
         "content": {
           "message": "This website uses cookies to ensure you get the best experience on our website.",
@@ -63,17 +72,12 @@
     ;
   </script>  
 
-
-  <title>hugo-theme-w3css-basic exampleSite</title>
-
-  <meta name="generator" content="Hugo 0.111.1">
-
   
 <!-- partials/head.stylesheets.html -->
 <link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/vendor/fontawesome/5.9.0/css/all.css' />
-<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/vendor/daneden.github.io/animate.css/animate.min.css?1678052059' />
-<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/vendor/OwlCarousel2/assets/owl.carousel.min.css?1678052059' />
-<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/vendor/OwlCarousel2/assets/owl.theme.default.min.css?1678052059' />
+<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/vendor/daneden.github.io/animate.css/animate.min.css?1678140686' />
+<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/vendor/OwlCarousel2/assets/owl.carousel.min.css?1678140686' />
+<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/vendor/OwlCarousel2/assets/owl.theme.default.min.css?1678140686' />
 
 <link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/vendor/w3css/4/4.15/w3.css' />
     <link rel="stylesheet" id="theme-colors" />
@@ -84,11 +88,11 @@
           let themeColorsCssName = localStorage.getItem('theme-colors-css-name');
           let themeColorsHref = localStorage.getItem('theme-colors-css-href');
           if (themeColorsHref !== null) {
-            style.setAttribute('href', themeColorsHref + '?1678052059');
+            style.setAttribute('href', themeColorsHref + '?1678140686');
             document.getElementById('large_theme_color_selector').value = themeColorsCssName;
             document.getElementById('medium_theme_color_selector').value = themeColorsCssName;
           } else {
-            style.setAttribute('href', '\/hugo-theme-w3css-basic.github.io\/vendor\/w3css\/4\/w3-theme-lime.css?1678052059');
+            style.setAttribute('href', '\/hugo-theme-w3css-basic.github.io\/vendor\/w3css\/4\/w3-theme-lime.css?1678140686');
           }
         }
       );
@@ -96,16 +100,27 @@
 
 
 
-<link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//css/syntax.css?1678052059" rel="stylesheet"> 
-<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/css/w3css-basic.css?1678052059' />
-<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/css/res-gallery.css?1678052059' />
+<link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//css/syntax.css?1678140686" rel="stylesheet"> 
+<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/css/w3css-basic.css?1678140686' />
+<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/css/res-gallery.css?1678140686' />
 
-<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/css/custom.css?1678052059' />
+<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/css/custom.css?1678140686' />
 
-    
+  
   <!-- partials/head.fonts.googleapis.html -->
-  <!-- DO NOT USE THIS IF THE SITE IS HOSTED IN GERMANY (https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2022-N-612) -->
-  <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Ubuntu|Creepster|Signika|Ubuntu+Mono' />
+        <!-- DO NOT USE THIS IF THE SITE IS HOSTED IN GERMANY (https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2022-N-612) -->
+        <link id='fonts_googleapis_com' rel="stylesheet" href="" />
+        <script type="text/javascript">
+          window.addEventListener('DOMContentLoaded',
+            function() {
+              if ("dismiss" == getCookie("cookieconsent_status")) {
+                let style = document.getElementById('fonts_googleapis_com')
+                style.setAttribute('href', 'https:\/\/fonts.googleapis.com\/css?family=Ubuntu|Creepster|Signika|Ubuntu\u002bMono ');
+              } else {
+              }
+            }
+          );
+        </script>
   <style> html {font-family: 'Ubuntu', sans-serif; } </style>
   <style> body {font-family: 'Ubuntu', sans-serif; } </style>
   <style> time {font-family: 'Creepster', cursive; } </style>
@@ -130,11 +145,6 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
   
-
-  <!-- partials/head.favicon.html -->  
-
-<!-- partials/scripts.top.html -->
-<script src='/hugo-theme-w3css-basic.github.io/js/custom.top.js?1678052059'></script>
 
 <!-- partials/head.rss.html -->
 <link href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/index.xml' rel="alternate" type="application/rss+xml" title='hugo-theme-w3css-basic exampleSite (rss+xml alternate)' />
@@ -221,7 +231,20 @@
     );
   }
 </script>
-<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script type="text/javascript">
+  window.addEventListener('load',
+    function() {
+      if ("dismiss" == getCookie("cookieconsent_status")) {
+        let scriptTranslate = document.createElement("script");
+        scriptTranslate.setAttribute("src", "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit");
+        scriptTranslate.setAttribute("type", "text/javascript");
+        scriptTranslate.setAttribute("async", "async");
+        document.body.appendChild(scriptTranslate);
+      } else {
+      }
+    }
+);
+</script>
  
     
   <!-- partials/header.nav.large_theme_color_selector.html -->
@@ -5108,7 +5131,7 @@ consectetuer adipiscing</p>
 
   </script>
 
-<script src='/hugo-theme-w3css-basic.github.io/js/custom.bottom.js?1678052059'></script>
+<script src='/hugo-theme-w3css-basic.github.io/js/custom.bottom.js?1678140686'></script>
 
 
     <script>
