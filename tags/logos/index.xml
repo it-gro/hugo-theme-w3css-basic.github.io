@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>logos on hugo-theme-w3css-basic exampleSite</title>
+    <title>Logos on hugo-theme-w3css-basic exampleSite</title>
     <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/logos/</link>
-    <description>Recent content in logos on hugo-theme-w3css-basic exampleSite</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Logos on hugo-theme-w3css-basic exampleSite</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Nov 2017 15:33:35 +0100</lastBuildDate><atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/logos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Nov 2017 15:33:35 +0100</lastBuildDate>
+    <atom:link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io/tags/logos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>These Logos</title>
       <link>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/these-logos/</link>
       <pubDate>Mon, 13 Nov 2017 15:33:35 +0100</pubDate>
-      
       <guid>https://it-gro.github.io/hugo-theme-w3css-basic.github.io/pages/these-logos/</guid>
-      <description>Where did the logos came from? http://fontawesome.com/icons/ https://fontawesome.com/license
-Font Awesome is fully open source and is GPL friendly. You can use it for commercial projects, open source projects, or really just about whatever you want. Font License Applies to all desktop and webfont files in the following directory: font-awesome/fonts/. License: SIL OFL 1.1 URL: http://scripts.sil.org/OFL Attribution is required by MIT, SIL OLF, and CC BY licenses. Downloaded Font Awesome Free files already contain embedded comments with sufficient attribution, so you shouldn&#39;t need to do anything additional when using these files normally.</description>
+      <description>&lt;h2 id=&#34;where-did-the-logos-came-from&#34;&gt;Where did the logos came from?&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://fontawesome.com/icons/&#34;&gt;http://fontawesome.com/icons/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://fontawesome.com/license&#34;&gt;https://fontawesome.com/license&lt;/a&gt;&lt;br&gt;&#xA;Font Awesome is fully open source and is GPL friendly. You can use it&#xA;for commercial projects, open source projects, or really just about&#xA;whatever you want.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;font-license&#34;&gt;Font License&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Applies to all desktop and webfont files in the following directory: font-awesome/fonts/.&lt;/li&gt;&#xA;&lt;li&gt;License: SIL OFL 1.1&lt;/li&gt;&#xA;&lt;li&gt;URL: &lt;a href=&#34;http://scripts.sil.org/OFL&#34;&gt;http://scripts.sil.org/OFL&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Attribution is required by MIT, SIL OLF, and CC BY&#xA;licenses. Downloaded Font Awesome Free files already contain embedded&#xA;comments with sufficient attribution, so you shouldn&#39;t need to do&#xA;anything additional when using these files normally.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;brand-icons&#34;&gt;Brand Icons&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;All brand icons are trademarks of their respective owners.&lt;/li&gt;&#xA;&lt;li&gt;The use of these trademarks does not indicate endorsement of the trademark holder by Font Awesome, nor vice versa.&lt;/li&gt;&#xA;&lt;li&gt;Brand icons should only be used to represent the company or product to which they refer.&lt;/li&gt;&#xA;&lt;li&gt;Please do not use brand logos for any purpose except to represent that particular brand or service.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>

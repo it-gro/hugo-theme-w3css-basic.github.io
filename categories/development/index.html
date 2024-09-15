@@ -35,11 +35,11 @@
 
   <title>hugo-theme-w3css-basic exampleSite</title>
 
-  <meta name="generator" content="Hugo 0.111.1">
+  <meta name="generator" content="Hugo 0.134.2">
 
   
 <!-- partials/scripts.top.html -->
-<script src='/hugo-theme-w3css-basic.github.io/js/custom.top.js?1678140686'></script>
+<script src='/hugo-theme-w3css-basic.github.io/js/custom.top.js?1726411566'></script>
 
   <!-- partials/head.cookieconsent.html -->
 
@@ -74,9 +74,9 @@
   
 <!-- partials/head.stylesheets.html -->
 <link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/vendor/fontawesome/5.9.0/css/all.css' />
-<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/vendor/daneden.github.io/animate.css/animate.min.css?1678140686' />
-<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/vendor/OwlCarousel2/assets/owl.carousel.min.css?1678140686' />
-<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/vendor/OwlCarousel2/assets/owl.theme.default.min.css?1678140686' />
+<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/vendor/daneden.github.io/animate.css/animate.min.css?1726411566' />
+<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/vendor/OwlCarousel2/assets/owl.carousel.min.css?1726411566' />
+<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/vendor/OwlCarousel2/assets/owl.theme.default.min.css?1726411566' />
 
 <link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/vendor/w3css/4/4.15/w3.css' />
     <link rel="stylesheet" id="theme-colors" />
@@ -87,11 +87,11 @@
           let themeColorsCssName = localStorage.getItem('theme-colors-css-name');
           let themeColorsHref = localStorage.getItem('theme-colors-css-href');
           if (themeColorsHref !== null) {
-            style.setAttribute('href', themeColorsHref + '?1678140686');
+            style.setAttribute('href', themeColorsHref + '?1726411566');
             document.getElementById('large_theme_color_selector').value = themeColorsCssName;
             document.getElementById('medium_theme_color_selector').value = themeColorsCssName;
           } else {
-            style.setAttribute('href', '\/hugo-theme-w3css-basic.github.io\/vendor\/w3css\/4\/w3-theme-lime.css?1678140686');
+            style.setAttribute('href', '\/hugo-theme-w3css-basic.github.io\/vendor\/w3css\/4\/w3-theme-lime.css?1726411566');
           }
         }
       );
@@ -99,11 +99,11 @@
 
 
 
-<link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//css/syntax.css?1678140686" rel="stylesheet"> 
-<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/css/w3css-basic.css?1678140686' />
-<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/css/res-gallery.css?1678140686' />
+<link href="https://it-gro.github.io/hugo-theme-w3css-basic.github.io//css/syntax.css?1726411566" rel="stylesheet"> 
+<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/css/w3css-basic.css?1726411566' />
+<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/css/res-gallery.css?1726411566' />
 
-<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/css/custom.css?1678140686' />
+<link rel="stylesheet" href='/hugo-theme-w3css-basic.github.io/css/custom.css?1726411566' />
 
   
   <!-- partials/head.fonts.googleapis.html -->
@@ -146,7 +146,9 @@
   
 
 <!-- partials/head.rss.html -->
-<link href='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/index.xml' rel="alternate" type="application/rss+xml" title='hugo-theme-w3css-basic exampleSite (rss+xml alternate)' />
+<!-- TODO: ERROR deprecated: .Site.RSSLink was deprecated in Hugo v0.114.0 and will be removed in Hugo 0.135.0. Use the Output Format's Permalink method instead, e.g. .OutputFormats.Get "RSS".Permalink  -->
+
+
 
     <!-- back in partials/head.html  -->
 </head>
@@ -717,11 +719,13 @@
 <img
   class="w3-image w3-left w3-round w3-hover-opacity "
   style="max-width:150px; max-height:150px; width: auto; height: auto; margin: 0px 8px 16px 0px; "
-  src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-ipsum_hu4bb3d9e9bcf5cb42154f6d8c89189ff3_242267_150x0_resize_box_3.png'
-  alt='/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-ipsum_hu4bb3d9e9bcf5cb42154f6d8c89189ff3_242267_150x0_resize_box_3.png'
+  src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-ipsum_hu3913288959780525827.png'
+  alt='/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-ipsum_hu3913288959780525827.png'
 >
 
-Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right …
+Hugo uses the excellent <a href="http://golang.org/">go</a> <a href="http://golang.org/pkg/html/template/">html/template</a> library for
+its template engine. It is an extremely lightweight engine that provides a very
+small amount of logic. In our experience that it is just the right …
 
   </div>
 </a>
@@ -763,11 +767,13 @@ Hugo uses the excellent go html/template library for its template engine. It is 
 <img
   class="w3-image w3-left w3-round w3-hover-opacity "
   style="max-width:150px; max-height:150px; width: auto; height: auto; margin: 0px 8px 16px 0px; "
-  src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-lorem_hu77f397ba1b7f0f571a34fad927893059_94449_150x0_resize_box_3.png'
-  alt='/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-lorem_hu77f397ba1b7f0f571a34fad927893059_94449_150x0_resize_box_3.png'
+  src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-lorem_hu11335974236379180929.png'
+  alt='/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-lorem_hu11335974236379180929.png'
 >
 
-Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
+<h2 id="step-1-install-hugo">Step 1. Install Hugo</h2>
+Goto <a href="https://github.com/spf13/hugo/releases">hugo releases</a> and download the
+appropriate version for your os and architecture.
 Save it somewhere specific as we will be using it in the next step.
 More complete …
 
@@ -841,8 +847,8 @@ More complete …
 <img
   class="w3-image w3-left w3-round w3-hover-opacity"
   style="max-width:60px; max-height:20px; width: auto; height: auto; margin: 0px 8px 16px 0px;"
-  src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_60x0_resize_box_3.png'
-  alt='/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_60x0_resize_box_3.png'
+  src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-dolor_hu13171379586041602100.png'
+  alt='/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-dolor_hu13171379586041602100.png'
 >
 
 
@@ -858,13 +864,13 @@ More complete …
 <img
   class="w3-image w3-left w3-round w3-hover-opacity"
   style="max-width:60px; max-height:20px; width: auto; height: auto; margin: 0px 8px 16px 0px;"
-  src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/bitbucket.org/pygments-main-logo_hu83f454384722f2ac083918ae2d1f75df_15959_60x0_resize_box_3.png'
-  alt='/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/bitbucket.org/pygments-main-logo_hu83f454384722f2ac083918ae2d1f75df_15959_60x0_resize_box_3.png'
+  src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/bitbucket.org/pygments-main-logo_hu7630451995350299835.png'
+  alt='/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/bitbucket.org/pygments-main-logo_hu7630451995350299835.png'
 >
 
 
           </a>
-          <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/blog/2017/11/24/hugo-highlight-chromastyles/'>Hugo - <strong>highlight</strong> 🎨</a>
+          <a class="no-decoration" href='/hugo-theme-w3css-basic.github.io/blog/2017/11/24/hugo-highlight-chromastyles/'>Hugo - <strong>highlight</strong> &#x1f3a8;</a>
         </div>
 
         <div class="w3-container ">
@@ -875,8 +881,8 @@ More complete …
 <img
   class="w3-image w3-left w3-round w3-hover-opacity"
   style="max-width:60px; max-height:20px; width: auto; height: auto; margin: 0px 8px 16px 0px;"
-  src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_60x0_resize_box_3.png'
-  alt='/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-dolor_hu7bbb3f3ebdb843801f79bded2b036297_73881_60x0_resize_box_3.png'
+  src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-dolor_hu13171379586041602100.png'
+  alt='/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-dolor_hu13171379586041602100.png'
 >
 
 
@@ -892,8 +898,8 @@ More complete …
 <img
   class="w3-image w3-left w3-round w3-hover-opacity"
   style="max-width:60px; max-height:20px; width: auto; height: auto; margin: 0px 8px 16px 0px;"
-  src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-lorem_hu77f397ba1b7f0f571a34fad927893059_94449_60x0_resize_box_3.png'
-  alt='/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-lorem_hu77f397ba1b7f0f571a34fad927893059_94449_60x0_resize_box_3.png'
+  src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-lorem_hu10491913973307677120.png'
+  alt='/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-lorem_hu10491913973307677120.png'
 >
 
 
@@ -909,8 +915,8 @@ More complete …
 <img
   class="w3-image w3-left w3-round w3-hover-opacity"
   style="max-width:60px; max-height:20px; width: auto; height: auto; margin: 0px 8px 16px 0px;"
-  src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-ipsum_hu4bb3d9e9bcf5cb42154f6d8c89189ff3_242267_60x0_resize_box_3.png'
-  alt='/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-ipsum_hu4bb3d9e9bcf5cb42154f6d8c89189ff3_242267_60x0_resize_box_3.png'
+  src='https://it-gro.github.io/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-ipsum_hu9447492483669442715.png'
+  alt='/hugo-theme-w3css-basic.github.io/resources/images/teaserpics/gohugo.io/hugo-ipsum_hu9447492483669442715.png'
 >
 
 
@@ -950,7 +956,7 @@ consectetuer adipiscing</p>
   <div class="w3-cell w3-cell-middle">
     <div class="w3-right">
         <!-- $.Site.Params.bottomRight  -->
-      created with <a href="https://gohugo.io">Hugo 0.111.1</a>
+      created with <a href="https://gohugo.io">Hugo 0.134.2</a>
     </div> 
   </div>   
 
@@ -979,7 +985,7 @@ consectetuer adipiscing</p>
 
   </script>
 
-<script src='/hugo-theme-w3css-basic.github.io/js/custom.bottom.js?1678140686'></script>
+<script src='/hugo-theme-w3css-basic.github.io/js/custom.bottom.js?1726411566'></script>
 
 
     <script>
